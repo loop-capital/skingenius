@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "COND_001",
+      "type": "Condition",
+      "name": "Acne Vulgaris",
+      "icd10": "L70.9",
+      "icd10_sub": ["L70.0", "L70.1", "L70.2", "L70.3", "L70.4", "L70.5", "L70.8"],
+      "severity_levels": ["Mild", "Moderate", "Severe", "Nodulocystic"],
+      "grading_systems": ["IGA", "Leeds", "GAGS"],
+      "prevalence": "85% adolescents, 50% adults (women), 25% adults (men)",
+      "fitzpatrick_considerations": "Higher PIH risk in IV-VI; slower treatment response; keloid risk",
+      "sources": ["skin-condition-profiles.md", "clinical-guidelines.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_002",
+      "type": "Condition",
+      "name": "Rosacea",
+      "icd10": "L71.9",
+      "icd10_sub": ["L71.0", "L71.1", "L71.8"],
+      "severity_levels": ["Clear", "Almost Clear", "Mild", "Moderate", "Severe"],
+      "grading_systems": ["IGA"],
+      "prevalence": "5-10% adults, primarily Fitzpatrick I-III",
+      "fitzpatrick_considerations": "Underdiagnosed in IV-VI; subtle erythema; PIH after papules",
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_003",
+      "type": "Condition",
+      "name": "Atopic Dermatitis (Eczema)",
+      "icd10": "L20.9",
+      "icd10_sub": ["L20.0", "L20.8", "L20.82", "L20.83", "L20.84"],
+      "severity_levels": ["Clear", "Almost Clear", "Mild", "Moderate", "Severe"],
+      "grading_systems": ["SCORAD", "EASI", "POEM", "DLQI", "IGA"],
+      "prevalence": "15-20% children, 3-10% adults",
+      "fitzpatrick_considerations": "PIH common in darker skin; follicular pattern in Black skin; underdiagnosed",
+      "sources": ["skin-condition-profiles.md", "clinical-guidelines.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_004",
+      "type": "Condition",
+      "name": "Seborrheic Dermatitis",
+      "icd10": "L21.9",
+      "icd10_sub": ["L21.0", "L21.1", "L21.8"],
+      "severity_levels": ["Mild", "Moderate", "Severe"],
+      "prevalence": "3-5% general population; 80-90% in advanced HIV",
+      "fitzpatrick_considerations": "Hypopigmentation/hyperpigmentation more prominent than erythema in darker skin",
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_005",
+      "type": "Condition",
+      "name": "Psoriasis",
+      "icd10": "L40.9",
+      "icd10_sub": ["L40.0", "L40.1", "L40.2", "L40.3", "L40.4", "L40.5", "L40.8", "L40.50-L40.59"],
+      "severity_levels": ["Mild", "Moderate", "Severe"],
+      "grading_systems": ["PASI", "BSA", "DLQI"],
+      "prevalence": "2-3% global population",
+      "fitzpatrick_considerations": "Violaceous/purple plaques in darker skin; dyspigmentation major concern; underdiagnosed",
+      "sources": ["skin-condition-profiles.md", "clinical-guidelines.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_006",
+      "type": "Condition",
+      "name": "Melasma",
+      "icd10": "L81.1",
+      "severity_levels": ["Mild", "Moderate", "Severe"],
+      "grading_systems": ["MASI"],
+      "prevalence": "90% women; higher in Fitzpatrick III-VI",
+      "fitzpatrick_considerations": "Very high prevalence in IV-VI; dermal melasma more common; PIH risk from treatment",
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_007",
+      "type": "Condition",
+      "name": "Post-Inflammatory Hyperpigmentation (PIH)",
+      "icd10": "L81.0",
+      "severity_levels": ["Mild", "Moderate", "Severe"],
+      "prevalence": "Very common in Fitzpatrick IV-VI after any inflammation",
+      "fitzpatrick_considerations": "Prevention paramount in V-VI; conservative treatment only",
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_008",
+      "type": "Condition",
+      "name": "Contact Dermatitis",
+      "icd10": "L24.9",
+      "icd10_sub": ["L25.9", "L23.9", "L24.0-L24.9", "L23.0-L23.9"],
+      "severity_levels": ["Mild", "Moderate", "Severe"],
+      "prevalence": "ICD 80% of cases; ACD 20%",
+      "fitzpatrick_considerations": "PIH common after resolution in darker skin; subtle erythema",
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_009",
+      "type": "Condition",
+      "name": "Vitiligo",
+      "icd10": "L80",
+      "severity_levels": ["Focal", "Segmental", "Generalized", "Universal"],
+      "prevalence": "0.5-2% global population",
+      "fitzpatrick_considerations": "More visible and psychologically impactful in darker skin",
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "COND_010",
+      "type": "Condition",
+      "name": "Photoaging",
+      "icd10": "L57.9",
+      "severity_levels": ["Mild", "Moderate", "Severe"],
+      "prevalence": "Universal in sun-exposed skin over time",
+      "fitzpatrick_considerations": "Lower risk in darker skin but still occurs; more dyspigmentation than wrinkling in IV-VI",
+      "sources": ["skin-condition-profiles.md", "lifestyle-skin.md"],
+      "evidence_level": "A"
+    }
+  ]
+}

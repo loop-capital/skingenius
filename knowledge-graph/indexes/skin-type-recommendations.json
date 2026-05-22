@@ -1,0 +1,4800 @@
+{
+  "oily": [
+    {
+      "product_id": "aesop-lucent-facial-concentrate",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-b-triple-c-facial-balancing-gel",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-parsley-seed-anti-oxidant-facial-hydrator",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-amazing-face-cleanser",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-in-two-minds-facial-cleanser",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-tea-tree-leaf-facial-exfoliant",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-b-tea-balancing-toner",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-bitter-orange-astringent-toner",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-in-two-minds-facial-toner",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-ultra-light-moisturizer",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-complexe-iribiol",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-srum-dermopore",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-make-it-matte-spf-45",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-daily-spf-30-for-face",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cerave-foaming-facial-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-renewing-sa-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-pm-facial-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-resurfacing-retinol-serum",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-96-mucin-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-ahabha-clarifying-treatment-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-bha-blackhead-power-liquid",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-aha-7-whitehead-power-liquid",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-low-ph-good-morning-gel-cleanser",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-galactomyces-95-whitening-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-one-step-original-clear-pad",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-acne-pimple-master-patch",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-hydrium-watery-gel-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-gel",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-gel-prescription-strength",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-daily-deep-cleanser",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-soothing-toner",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-balancing-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "drunk-elephant-protini-polypeptide-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-tlc-framboos-glycolic-night-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-b-hydra-intensive-hydration-gel",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-tinte-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-sheer-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-beste-no-9-jelly-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-juju-bar",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-a-passioni-retinol-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-sukari-babyfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "eltamd-uv-clear-broad-spectrum-spf-46",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-shield-broad-spectrum-spf-45",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-foaming-facial-cleanser",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-wash-gel-cleanser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-clear-masque",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-lac-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-ace-oil",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-alpha-day-lotion-spf-15",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-pink-juice-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-ultra-fine-mist",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-niacinamide-dew-drops",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-blueberry-bounce-gentle-cleanser",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-pineapple-c-bright-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-papaya-sorbet-enzyme-cleansing-balm",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-plum-plump-hyaluronic-acid-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-strawberry-smooth-aha-salicylic-acid-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-serum",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-fade-glow-aha-mask",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-gentle-brightening-cleanser",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-daily-dark-spot-defense-spf-40",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-duo",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-purifying-foaming-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-purifying-foaming-gel-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-duo-anti-acne-treatment",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-mat-moisturizer",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-claro-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-gel-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-3",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-6",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-10",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-20",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-press-clear",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-surface-radiance-cleanse",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-niacinamide-peptides",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "paulas-choice-skin-perfecting-2-bha-liquid-exfoliant",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-clear-skin-hydrator",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clinical-20-niacinamide-treatment",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-10-niacinamide-booster",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clear-regular-strength-anti-redness-exfoliating-solution-2-salicylic-acid",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clear-extra-strength-anti-redness-exfoliating-solution-2-salicylic-acid",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-silymarin-cf",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-phloretin-cf",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-simply-clean-gel",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-blemish-age-defense",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-tidal-brightening-enzyme-water-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-saturn-sulfur-acne-treatment-mask",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceramic-slip-cleanser",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-a-high-dose-retinoid-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-the-water-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-deep-oily-skin",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-silk-canvas-protective-primer",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "the-ordinary-niacinamide-10-zinc-1",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-hyaluronic-acid-2-b5",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-aha-30-bha-2-peeling-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-retinol-05-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-retinol-1-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-vitamin-c-suspension-23-ha-spheres-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-100-plant-derived-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-salicylic-acid-2-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-glycolic-acid-7-toning-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-azelaic-acid-suspension-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-caffeine-solution-5-egcg",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-argireline-solution-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-2-emulsion",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-5-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-euk-134-01",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "zo-skin-health-exfoliating-cleanser",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-complexion-clearing-masque",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-oil-control-pads",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-acne-control-10",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-sulfur-masque",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-gel-sunscreen-broad-spectrum-spf-50",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "dry": [
+    {
+      "product_id": "aesop-sublime-replenishing-night-masque",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-primrose-facial-hydrating-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-camellia-nut-facial-hydrating-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-regenerating-skin-nudge",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-trineck-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-skin-complex",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-ultra-calm-cleansing-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-eye-treatment",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50v",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-masque-visolastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-moisturizing-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cerave-hydrating-facial-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-lotion-daily-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-50",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-pm-facial-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-am-facial-moisturizing-lotion-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-skin-renewing-day-cream-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-skin-renewing-night-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-vitamin-c-serum-with-10-l-ascorbic-acid",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-itch-relief-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-96-mucin-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-92-all-in-one-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-centella-water-alcohol-free-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-full-fit-propolis-light-ampoule",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "drunk-elephant-protini-polypeptide-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-c-firma-fresh-day-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-virgin-marula-luxury-facial-oil",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-b-hydra-intensive-hydration-gel",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-lala-retro-whipped-moisturizer",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-tinte-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-sheer-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-beste-no-9-jelly-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-pekee-bar",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-e-rase-milki-micellar-water",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-f-balm-electrolyte-waterfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-shaba-complex-eye-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-slaai-makeup-melting-butter-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-d-bronzi-anti-pollution-sunshine-drops",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "eltamd-uv-daily-broad-spectrum-spf-40",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-elements-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-replenish-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-glow-broad-spectrum-spf-36",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-pm-therapy-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-youth-essentia-cleansing-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-antioxidant-defence-crme",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-super-moisturiser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-vita-antioxidant-hydrating-oil-capsules",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-hydrating-oil-capsules",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-body-oil",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-body-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-hand-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-pink-juice-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-ultra-fine-mist",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-niacinamide-dew-drops",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-avocado-ceramide-recovery-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-banana-souffle-moisture-cream",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-blueberry-bounce-gentle-cleanser",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-pineapple-c-bright-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-papaya-sorbet-enzyme-cleansing-balm",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-plum-plump-hyaluronic-acid-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-moisture-reset-glycolic-acid-night-cream",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-glow",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "is-clinical-cream-cleanser",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-hydra-cool-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-poly-vitamin-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-reparative-moisture-emulsion",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-hydrating-gentle-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-double-repair-face-moisturizer",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-apm-triple-repair-body-moisturizing-cream",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-apm-baume",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-syndet-ap-cream-wash",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-cream-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "medik8-c-tetra",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-c-tetra-luxe",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-bakuchiol-peptides",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-calmwise-soothing-cleanser",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "paulas-choice-skin-perfecting-1-bha-lotion-exfoliant",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-intensive-repair-moisturizer",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-skin-recovery-daily-moisturizing-lotion-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-calm-redness-relief-repairing-serum",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-calm-redness-relief-moisturizer-normal-to-dry",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-omega-complex-moisturizer",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-hydrating-treatment-essence",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-weightless-advanced-smoothing-treatment-10-aha",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-c-e-ferulic",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-age-interrupter-advanced",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-triple-lipid-restore-242",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-gentle-cleanser-cream",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-emollience",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-eye-balm",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-good-genes-all-in-one-lactic-acid-treatment",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-luna-sleeping-night-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-15-vitamin-c-brightening-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-glow-vitamin-c-turmeric-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ice-ceramide-moisturizing-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-auto-correct-brightening-and-depuffing-eye-contour-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-juno-antioxidant-superseed-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-gentle-drysensitive-skin",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-luminous-deep-hydration-firming-eye-serum",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-silk-peony-melting-eye-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-dewy-skin-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-gold-camellia-beauty-oil",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-indigo-soothing-triple-recovery-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-serum-stick",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-ageless-eye-revitalizer",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-liquid-silk-canvas",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-hadasei-3-anti-aging-eye-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "the-ordinary-hyaluronic-acid-2-b5",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-alpha-arbutin-2-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-ascorbic-acid-8-alpha-arbutin-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-buffet",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-100-plant-derived-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-natural-moisturizing-factors-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-5-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-caffeine-solution-5-egcg",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-matrixyl-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-squalane-cleanser",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-mineral-uv-filters-spf-30-with-antioxidants",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-rose-hip-seed-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-marula-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "zo-skin-health-gentle-cleanser",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-calming-toner",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-hydrating-crme",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-recovery-crme",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-body-emulsion",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-hand-repair",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "combination": [
+    {
+      "product_id": "aesop-lucent-facial-concentrate",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-b-triple-c-facial-balancing-gel",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-mandarin-facial-hydrating-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-parsley-seed-anti-oxidant-facial-hydrator",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-amazing-face-cleanser",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-in-two-minds-facial-cleanser",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-b-tea-balancing-toner",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-in-two-minds-facial-toner",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-regenerating-skin-nudge",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-trineck-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-skin-complex",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-ultra-light-moisturizer",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-srum-dermopore",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-make-it-matte-spf-45",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-moisturizing-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-make-it-glow-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-daily-spf-30-for-face",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cerave-foaming-facial-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-renewing-sa-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-lotion-daily-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-50",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-pm-facial-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-am-facial-moisturizing-lotion-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-skin-renewing-night-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-resurfacing-retinol-serum",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-vitamin-c-serum-with-10-l-ascorbic-acid",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-96-mucin-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-ahabha-clarifying-treatment-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-bha-blackhead-power-liquid",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-aha-7-whitehead-power-liquid",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-low-ph-good-morning-gel-cleanser",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-92-all-in-one-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-centella-water-alcohol-free-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-galactomyces-95-whitening-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-one-step-original-clear-pad",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-hydrium-watery-gel-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-full-fit-propolis-light-ampoule",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-gel",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-gel-prescription-strength",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-daily-deep-cleanser",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-soothing-toner",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-balancing-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "drunk-elephant-protini-polypeptide-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-tlc-framboos-glycolic-night-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-c-firma-fresh-day-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-virgin-marula-luxury-facial-oil",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-b-hydra-intensive-hydration-gel",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-lala-retro-whipped-moisturizer",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-tinte-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-sheer-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-beste-no-9-jelly-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-pekee-bar",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-juju-bar",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-f-balm-electrolyte-waterfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-shaba-complex-eye-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-a-passioni-retinol-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-sukari-babyfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-slaai-makeup-melting-butter-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-d-bronzi-anti-pollution-sunshine-drops",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "eltamd-uv-clear-broad-spectrum-spf-46",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-daily-broad-spectrum-spf-40",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-shield-broad-spectrum-spf-45",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-pm-therapy-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-foaming-facial-cleanser",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-wash-gel-cleanser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-clear-masque",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-lac-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-ace-oil",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-alpha-day-lotion-spf-15",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-pink-juice-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-ultra-fine-mist",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-niacinamide-dew-drops",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-avocado-ceramide-recovery-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-banana-souffle-moisture-cream",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-blueberry-bounce-gentle-cleanser",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-pineapple-c-bright-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-papaya-sorbet-enzyme-cleansing-balm",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-plum-plump-hyaluronic-acid-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-strawberry-smooth-aha-salicylic-acid-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-serum",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-fade-glow-aha-mask",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-gentle-brightening-cleanser",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-daily-dark-spot-defense-spf-40",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-moisture-reset-glycolic-acid-night-cream",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-duo",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-glow",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-purifying-foaming-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-duo-anti-acne-treatment",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-mat-moisturizer",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-claro-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-gel-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-redermic-retinol-anti-aging-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-3",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-6",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-10",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-20",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-c-tetra",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-c-tetra-luxe",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-press-clear",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-bakuchiol-peptides",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-surface-radiance-cleanse",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-niacinamide-peptides",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "paulas-choice-skin-perfecting-2-bha-liquid-exfoliant",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-skin-perfecting-1-bha-lotion-exfoliant",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-clear-skin-hydrator",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clinical-20-niacinamide-treatment",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-10-niacinamide-booster",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-weightless-advanced-smoothing-treatment-10-aha",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clear-regular-strength-anti-redness-exfoliating-solution-2-salicylic-acid",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-c-e-ferulic",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-phloretin-cf",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-simply-clean-gel",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-daily-moisture",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-blemish-age-defense",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-good-genes-all-in-one-lactic-acid-treatment",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-luna-sleeping-night-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-15-vitamin-c-brightening-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-glow-vitamin-c-turmeric-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-tidal-brightening-enzyme-water-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ice-ceramide-moisturizing-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-auto-correct-brightening-and-depuffing-eye-contour-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-saturn-sulfur-acne-treatment-mask",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceramic-slip-cleanser",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-a-high-dose-retinoid-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-juno-antioxidant-superseed-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-the-water-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-classic-foaming-enzyme-powder",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-deep-oily-skin",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-silk-canvas-protective-primer",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-serum-stick",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-liquid-silk-canvas",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "the-ordinary-niacinamide-10-zinc-1",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-hyaluronic-acid-2-b5",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-aha-30-bha-2-peeling-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-retinol-05-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-alpha-arbutin-2-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-vitamin-c-suspension-23-ha-spheres-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-ascorbic-acid-8-alpha-arbutin-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-buffet",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-100-plant-derived-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-natural-moisturizing-factors-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-salicylic-acid-2-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-glycolic-acid-7-toning-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-5-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-azelaic-acid-suspension-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-caffeine-solution-5-egcg",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-argireline-solution-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-matrixyl-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-2-emulsion",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-5-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-squalane-cleanser",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-mineral-uv-filters-spf-30-with-antioxidants",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-rose-hip-seed-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-marula-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-euk-134-01",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-alpha-lipoic-acid-5",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "zo-skin-health-exfoliating-cleanser",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "sensitive": [
+    {
+      "product_id": "aesop-primrose-facial-hydrating-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-hydratint-pro-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-silkshield-all-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-ultra-calm-cleansing-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50w",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-masque-visolastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "cerave-hydrating-facial-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-lotion-daily-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-50",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-pm-facial-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-eczema-relief-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-itch-relief-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-baby-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-96-mucin-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-low-ph-good-morning-gel-cleanser",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-92-all-in-one-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-centella-water-alcohol-free-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-hydrium-watery-gel-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-full-fit-propolis-light-ampoule",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "drunk-elephant-virgin-marula-luxury-facial-oil",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-b-hydra-intensive-hydration-gel",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-lala-retro-whipped-moisturizer",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-tinte-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-sheer-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-beste-no-9-jelly-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-e-rase-milki-micellar-water",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-f-balm-electrolyte-waterfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "eltamd-uv-clear-broad-spectrum-spf-46",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-physical-broad-spectrum-spf-41",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-elements-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "glow-recipe-avocado-ceramide-recovery-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-banana-souffle-moisture-cream",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-daily-dark-spot-defense-spf-40",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "is-clinical-cream-cleanser",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-pro-heal-serum-advance",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-hydra-cool-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-sheald-recovery-balm",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-hydrating-gentle-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-double-repair-face-moisturizer",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-baume-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-lavant-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-syndet-ap-cream-wash",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-invisible-fluid-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-cream-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-sublime-screen-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-1",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-c-tetra",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-bakuchiol-peptides",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-calmwise-soothing-cleanser",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "paulas-choice-skin-perfecting-1-bha-lotion-exfoliant",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-skin-recovery-daily-moisturizing-lotion-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-calm-redness-relief-repairing-serum",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-calm-redness-relief-moisturizer-normal-to-dry",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-defense-essential-glow-moisturizer-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-omega-complex-moisturizer",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-moisture-boost-daily-restoring-complex-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-serum-10-aox",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-gentle-cleanser-cream",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-phyto-corrective-gel",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-ice-ceramide-moisturizing-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-gentle-drysensitive-skin",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-indigo-soothing-triple-recovery-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "the-ordinary-hyaluronic-acid-2-b5",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-alpha-arbutin-2-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-buffet",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-100-plant-derived-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-natural-moisturizing-factors-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-5-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-azelaic-acid-suspension-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-matrixyl-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-2-emulsion",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-squalane-cleanser",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-mineral-uv-filters-spf-30-with-antioxidants",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-rose-hip-seed-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "zo-skin-health-gentle-cleanser",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-calming-toner",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-hydrating-crme",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-recovery-crme",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-restoracalm",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "normal": [
+    {
+      "product_id": "aesop-lucent-facial-concentrate",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-mandarin-facial-hydrating-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-regenerating-skin-nudge",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-trineck-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-skin-complex",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-ultra-light-moisturizer",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-moisturizing-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-make-it-glow-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-daily-spf-30-for-face",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cerave-hydrating-facial-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-foaming-facial-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-renewing-sa-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-moisturizing-lotion-daily-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-daily-moisturizing-lotion-with-spf-50",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-pm-facial-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-am-facial-moisturizing-lotion-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-skin-renewing-day-cream-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-skin-renewing-night-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-resurfacing-retinol-serum",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-vitamin-c-serum-with-10-l-ascorbic-acid",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-96-mucin-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-aha-7-whitehead-power-liquid",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-low-ph-good-morning-gel-cleanser",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-advanced-snail-92-all-in-one-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-centella-water-alcohol-free-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-galactomyces-95-whitening-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-hydrium-watery-gel-cream",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-full-fit-propolis-light-ampoule",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-soothing-toner",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-balancing-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "drunk-elephant-protini-polypeptide-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-tlc-framboos-glycolic-night-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-c-firma-fresh-day-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-virgin-marula-luxury-facial-oil",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-b-hydra-intensive-hydration-gel",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-lala-retro-whipped-moisturizer",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-tinte-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-umbra-sheer-physical-daily-defense-spf-30",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-beste-no-9-jelly-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-pekee-bar",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-juju-bar",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-e-rase-milki-micellar-water",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-f-balm-electrolyte-waterfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-shaba-complex-eye-serum",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-a-passioni-retinol-cream",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-sukari-babyfacial",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-slaai-makeup-melting-butter-cleanser",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "drunk-elephant-d-bronzi-anti-pollution-sunshine-drops",
+      "brand_id": "drunk-elephant"
+    },
+    {
+      "product_id": "eltamd-uv-clear-broad-spectrum-spf-46",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-daily-broad-spectrum-spf-40",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-shield-broad-spectrum-spf-45",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-elements-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-glow-broad-spectrum-spf-36",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-pm-therapy-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-foaming-facial-cleanser",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-youth-essentia-cleansing-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-antioxidant-defence-crme",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-super-moisturiser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-vita-antioxidant-hydrating-oil-capsules",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-hydrating-oil-capsules",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-body-oil",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-body-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-pink-juice-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-ultra-fine-mist",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-watermelon-glow-niacinamide-dew-drops",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-avocado-ceramide-recovery-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-banana-souffle-moisture-cream",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-blueberry-bounce-gentle-cleanser",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-pineapple-c-bright-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-papaya-sorbet-enzyme-cleansing-balm",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "glow-recipe-plum-plump-hyaluronic-acid-moisturizer",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-serum",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-fade-glow-aha-mask",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-gentle-brightening-cleanser",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-daily-dark-spot-defense-spf-40",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-moisture-reset-glycolic-acid-night-cream",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-duo",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-glow",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "is-clinical-reparative-moisture-emulsion",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-hydrating-gentle-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-purifying-foaming-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-toleriane-double-repair-face-moisturizer",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-cream-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-redermic-retinol-anti-aging-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-3",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-6",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-10",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-20",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-c-tetra",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-c-tetra-luxe",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-bakuchiol-peptides",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-calmwise-soothing-cleanser",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-surface-radiance-cleanse",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-intensive-repair-moisturizer",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-skin-recovery-daily-moisturizing-lotion-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-calm-redness-relief-moisturizer-normal-to-dry",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-weightless-advanced-smoothing-treatment-10-aha",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-c-e-ferulic",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-phloretin-cf",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-age-interrupter-advanced",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-triple-lipid-restore-242",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-gentle-cleanser-cream",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-daily-moisture",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-good-genes-all-in-one-lactic-acid-treatment",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-luna-sleeping-night-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-15-vitamin-c-brightening-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-glow-vitamin-c-turmeric-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-tidal-brightening-enzyme-water-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ice-ceramide-moisturizing-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-auto-correct-brightening-and-depuffing-eye-contour-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceramic-slip-cleanser",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-a-high-dose-retinoid-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-juno-antioxidant-superseed-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-the-water-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-classic-foaming-enzyme-powder",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-silk-canvas-protective-primer",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-dewy-skin-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-gold-camellia-beauty-oil",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-indigo-soothing-triple-recovery-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-ageless-eye-revitalizer",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-liquid-silk-canvas",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-hadasei-3-anti-aging-eye-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "the-ordinary-niacinamide-10-zinc-1",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-hyaluronic-acid-2-b5",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-aha-30-bha-2-peeling-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-retinol-05-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-retinol-1-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-alpha-arbutin-2-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-vitamin-c-suspension-23-ha-spheres-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-ascorbic-acid-8-alpha-arbutin-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-buffet",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-100-plant-derived-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-natural-moisturizing-factors-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-glycolic-acid-7-toning-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-lactic-acid-5-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-azelaic-acid-suspension-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-caffeine-solution-5-egcg",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-argireline-solution-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-matrixyl-10-ha",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-2-emulsion",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-granactive-retinoid-5-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-squalane-cleanser",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-mineral-uv-filters-spf-30-with-antioxidants",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-rose-hip-seed-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-marula-oil",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-euk-134-01",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-alpha-lipoic-acid-5",
+      "brand_id": "the-ordinary"
+    }
+  ],
+  "mature": [
+    {
+      "product_id": "aesop-sublime-replenishing-night-masque",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-camellia-nut-facial-hydrating-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-regenerating-skin-nudge",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-trineck-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-skin-complex",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-a-luminate-brightening-serum",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-eye-treatment",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50v",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-elastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-collagne",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-matriciel",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-crme-vip-o2",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-crme-elastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-crme-collagne",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-crme-amnios",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-masque-vip-o2",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "cerave-skin-renewing-day-cream-with-spf-30",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-skin-renewing-night-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "eltamd-uv-elements-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-replenish-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-uv-glow-broad-spectrum-spf-36",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-pm-therapy-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-facial-moisturizer",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-3",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-4",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-tri-retinoid-complex-retinol-serum",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-3",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-moisture-reset-glycolic-acid-night-cream",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-glow",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "la-roche-posay-redermic-retinol-anti-aging-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "medik8-c-tetra-luxe",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-intensive-repair-moisturizer",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-omega-complex-moisturizer",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-pro-collagen-multi-peptide-booster",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clinical-1-retinol-treatment",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-retinol-serum-1",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-p-tiox-anti-wrinkle-cream",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-age-interrupter-advanced",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-triple-lipid-restore-242",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-emollience",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-eye-balm",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-good-genes-all-in-one-lactic-acid-treatment",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-luna-sleeping-night-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ceo-15-vitamin-c-brightening-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-ice-ceramide-moisturizing-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-a-high-dose-retinoid-serum",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "sunday-riley-juno-antioxidant-superseed-face-oil",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-gentle-drysensitive-skin",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-luminous-deep-hydration-firming-eye-serum",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-silk-peony-melting-eye-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-dewy-skin-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-gold-camellia-beauty-oil",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-ageless-eye-revitalizer",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-hadasei-3-anti-aging-eye-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "zo-skin-health-daily-power-defense",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-radical-night-repair",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-firming-serum",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-growth-factor-serum",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-renewal-crme",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "dehydrated": [
+    {
+      "product_id": "aesop-sublime-replenishing-night-masque",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "biologique-recherche-masque-visolastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "eltamd-uv-replenish-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-super-moisturiser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "la-roche-posay-hyalu-b5-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "paulas-choice-hydrating-treatment-essence",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-hyaluronic-acid-intensifier",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-tidal-brightening-enzyme-water-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "zo-skin-health-hydrating-crme",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "all": [
+    {
+      "product_id": "aesop-parsley-seed-anti-oxidant-serum",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-parsley-seed-anti-oxidant-eye-serum",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-parsley-seed-anti-oxidant-facial-toner",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-parsley-seed-facial-cleansing-oil",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-fabulous-face-cleanser",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-purifying-facial-exfoliant-paste",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-sage-zinc-facial-hydrating-cream-spf15",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-protective-body-lotion-spf50",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-lip-salve",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-rosehip-seed-lip-cream",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-cedar-citrus-lip-salve",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-rind-concentrate-body-balm",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-geranium-leaf-body-balm",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-reverence-aromatique-hand-balm",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-resurrection-aromatique-hand-balm",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-resurrection-aromatique-hand-wash",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-reverence-aromatique-hand-wash",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "aesop-geranium-leaf-body-scrub",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-hydratint-pro-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-silkshield-all-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-inhance-post-injection-serum",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-a-luminate-brightening-serum",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-restorative-eye-treatment",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-lotion-p50-pigm-400",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-srum-pigm-400",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-masque-pigm-400",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-protection-uv-spf-50",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-make-it-glow-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-daily-spf-30-for-face",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cosrx-acne-pimple-master-patch",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-dark-spot-correcting-serum",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "environ-youth-essentia-cleansing-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-eye-gel",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-antioxidant-defence-crme",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-1",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-2",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-3",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-4",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-tri-retinoid-complex-retinol-serum",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-1",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-2",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-3",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-radiance-range-mela-fade-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-radiance-range-mela-prep-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-rad-antioxidant-sun-cream-spf-15",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-gentle-brightening-cleanser",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-daily-dark-spot-defense-spf-40",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "is-clinical-cleansing-complex",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-warming-honey-cleanser",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-active-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-genexc-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-super-serum-advance",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-hydra-cool-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-poly-vitamin-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-c-eye-serum-advance",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-moisturizing-complex",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-sheald-recovery-balm",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-eclipse-spf-50",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-extreme-protect-spf-40",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-body-complex",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-youth-body-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-baume-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-gel-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-lavant-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-invisible-fluid-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-milk-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-anthelios-sublime-screen-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-redermic-vitamin-c-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-hyalu-b5-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-pigmentclar-dark-spot-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "paulas-choice-c15-super-booster",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-eye-cream",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-defense-essential-glow-moisturizer-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clinical-20-niacinamide-treatment",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-pro-collagen-multi-peptide-booster",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-10-niacinamide-booster",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-retinol-serum-03",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-hydrating-treatment-essence",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-moisture-boost-daily-restoring-complex-spf-30",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-serum-10-aox",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-retinol-03",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-conditioning-toner",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-hydrating-b5-gel",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-physical-fusion-uv-defense-spf-50",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-sheer-physical-uv-defense-spf-50",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-sport-uv-defense-spf-50",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-discoloration-defense",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-phyto-corrective-gel",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-aox-eye-gel",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-eye-cream",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "sunday-riley-auto-correct-brightening-and-depuffing-eye-contour-cream",
+      "brand_id": "sunday-riley"
+    },
+    {
+      "product_id": "tatcha-violet-c-brightening-serum",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-luminous-deep-hydration-firming-eye-serum",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-silk-peony-melting-eye-cream",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-the-serum-stick",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-kissu-lip-mask",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-kissu-lip-scrub",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "zo-skin-health-gentle-cleanser",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-exfoliating-polish",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-calming-toner",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-retinol-skin-brightener-025",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-brightalive-skin-brightener",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-pigment-control-crme-4",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-gel-sunscreen-broad-spectrum-spf-50",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-sheer-fluid-broad-spectrum-spf-45",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-daily-mineral-sunshade-spf-45",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-smart-tone-broad-spectrum-spf-50",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "acne-prone": [
+    {
+      "product_id": "aesop-tea-tree-leaf-facial-exfoliant",
+      "brand_id": "aesop"
+    },
+    {
+      "product_id": "alastin-silkshield-all-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-ultra-light-moisturizer",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-complexe-iribiol",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-make-it-matte-spf-45",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cerave-renewing-sa-cleanser",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-resurfacing-retinol-serum",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-ahabha-clarifying-treatment-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-bha-blackhead-power-liquid",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-low-ph-good-morning-gel-cleanser",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-centella-water-alcohol-free-toner",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-one-step-original-clear-pad",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "cosrx-acne-pimple-master-patch",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "differin-differin-gel",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-gel-prescription-strength",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-daily-deep-cleanser",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-soothing-toner",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-dark-spot-correcting-serum",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "differin-differin-balancing-moisturizer",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "eltamd-uv-clear-broad-spectrum-spf-46",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "eltamd-foaming-facial-cleanser",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-wash-gel-cleanser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-clear-masque",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-lac-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-clarity-sebu-ace-oil",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "glow-recipe-strawberry-smooth-aha-salicylic-acid-serum",
+      "brand_id": "glow-recipe"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-serum",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-even-fade-glow-aha-mask",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "hyper-skin-hyper-clear-brightening-clearing-vitamin-c-duo",
+      "brand_id": "hyper-skin"
+    },
+    {
+      "product_id": "is-clinical-pro-heal-serum-advance",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-purifying-foaming-gel-cleanser",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-duo-anti-acne-treatment",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-mat-moisturizer",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-effaclar-claro-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "paulas-choice-skin-perfecting-2-bha-liquid-exfoliant",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-resist-anti-aging-clear-skin-hydrator",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "paulas-choice-clear-regular-strength-anti-redness-exfoliating-solution-2-salicylic-acid",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "skinceuticals-silymarin-cf",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-blemish-age-defense",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "the-ordinary-salicylic-acid-2-solution",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-azelaic-acid-suspension-10",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "zo-skin-health-exfoliating-cleanser",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-complexion-clearing-masque",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-oil-control-pads",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-acne-control-10",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-sulfur-masque",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "post-procedure": [
+    {
+      "product_id": "alastin-hydratint-pro-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-silkshield-all-mineral-sunscreen-spf-36",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-ultra-calm-cleansing-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "alastin-inhance-post-injection-serum",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "eltamd-uv-physical-broad-spectrum-spf-41",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "is-clinical-sheald-recovery-balm",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "zo-skin-health-recovery-crme",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-restoracalm",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "rosacea-prone": [
+    {
+      "product_id": "alastin-ultra-calm-cleansing-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "eltamd-uv-physical-broad-spectrum-spf-41",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "paulas-choice-calm-redness-relief-repairing-serum",
+      "brand_id": "paulas-choice"
+    },
+    {
+      "product_id": "tatcha-indigo-soothing-triple-recovery-cream",
+      "brand_id": "tatcha"
+    }
+  ],
+  "eczema-prone": [
+    {
+      "product_id": "alastin-ultra-calm-cleansing-cream",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "cerave-moisturizing-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-eczema-relief-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-apm-triple-repair-body-moisturizing-cream",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-apm-baume",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-syndet-ap-cream-wash",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "tatcha-indigo-soothing-triple-recovery-cream",
+      "brand_id": "tatcha"
+    }
+  ],
+  "hyperpigmentation-prone": [
+    {
+      "product_id": "alastin-a-luminate-brightening-serum",
+      "brand_id": "alastin"
+    },
+    {
+      "product_id": "differin-differin-dark-spot-correcting-serum",
+      "brand_id": "differin"
+    },
+    {
+      "product_id": "pca-skin-vitamin-b3-brightening-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-intensive-brightening-treatment-05-retinol",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-pigment-bar",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "tatcha-violet-c-brightening-serum",
+      "brand_id": "tatcha"
+    }
+  ],
+  "melasma-prone": [
+    {
+      "product_id": "alastin-a-luminate-brightening-serum",
+      "brand_id": "alastin"
+    }
+  ],
+  "aging": [
+    {
+      "product_id": "biologique-recherche-srum-authentique-elastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-collagne",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-srum-authentique-matriciel",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-crme-elastine",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-crme-collagne",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "environ-youth-essentia-cleansing-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-eye-gel",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-antioxidant-defence-crme",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-1",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-2",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-3",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-youth-essentia-vita-peptide-c-quence-serum-4",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-tri-retinoid-complex-retinol-serum",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-1",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-2",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-youth-concentrated-retinol-serum-level-3",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-super-moisturiser",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-moisture-range-vita-antioxidant-hydrating-oil-capsules",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-hydrating-oil-capsules",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-body-oil",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-body-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-body-essentia-hand-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "is-clinical-genexc-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-super-serum-advance",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-poly-vitamin-serum",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-c-eye-serum-advance",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "is-clinical-reparative-moisture-emulsion",
+      "brand_id": "is-clinical"
+    },
+    {
+      "product_id": "la-roche-posay-redermic-vitamin-c-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-hyalu-b5-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "skinceuticals-p-tiox-anti-wrinkle-cream",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "skinceuticals-hyaluronic-acid-intensifier",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "zo-skin-health-daily-power-defense",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-firming-serum",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-growth-factor-serum",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-renewal-crme",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-body-emulsion",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-hand-repair",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "dull": [
+    {
+      "product_id": "biologique-recherche-crme-vip-o2",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "biologique-recherche-masque-vip-o2",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-make-it-glow-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "cerave-vitamin-c-serum-with-10-l-ascorbic-acid",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cosrx-galactomyces-95-whitening-power-essence",
+      "brand_id": "cosrx"
+    },
+    {
+      "product_id": "eltamd-uv-glow-broad-spectrum-spf-36",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "la-roche-posay-redermic-vitamin-c-serum",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "tatcha-the-rice-polish-classic-foaming-enzyme-powder",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "tatcha-violet-c-brightening-serum",
+      "brand_id": "tatcha"
+    },
+    {
+      "product_id": "zo-skin-health-exfoliating-polish",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "damaged": [
+    {
+      "product_id": "biologique-recherche-crme-amnios",
+      "brand_id": "biologique-recherche"
+    },
+    {
+      "product_id": "cerave-healing-ointment",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-baume-b5",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-cicaplast-lavant-b5",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "dark skin tones": [
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-make-it-matte-spf-45",
+      "brand_id": "black-girl-sunscreen"
+    },
+    {
+      "product_id": "black-girl-sunscreen-bgs-moisturizing-sunscreen-spf-30",
+      "brand_id": "black-girl-sunscreen"
+    }
+  ],
+  "all (pediatric)": [
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-kids-spf-50",
+      "brand_id": "black-girl-sunscreen"
+    }
+  ],
+  "sensitive (children)": [
+    {
+      "product_id": "black-girl-sunscreen-black-girl-sunscreen-kids-spf-50",
+      "brand_id": "black-girl-sunscreen"
+    }
+  ],
+  "very dry": [
+    {
+      "product_id": "cerave-moisturizing-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-healing-ointment",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-eczema-relief-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-itch-relief-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "eltamd-uv-replenish-broad-spectrum-spf-44",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-apm-triple-repair-body-moisturizing-cream",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-apm-baume",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "all skin types": [
+    {
+      "product_id": "cerave-eye-repair-cream",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "eltamd-uv-physical-broad-spectrum-spf-41",
+      "brand_id": "eltamd"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-1",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-crystal-retinal-3",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-press-clear",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "osmosis-beauty-rescue-epidermal-repair-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-purify-enzyme-cleanser",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-stemfactor-growth-factor-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-skin-perfection-elixir",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-osmosis-mineral-sunscreen-spf-30",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-facial-wash",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-boosting-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-vitamin-b3-brightening-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-exlinea-peptide-smoothing-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rejuvenating-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-c-quench-antioxidant-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rebalance",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-humectin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-ideal-complex-revitalizing-eye-gel",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-ideal-complex-restorative-eye-cream",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-microneedle-eye-patches",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-lip-booster",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-perfecting-neck-dcollet",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-sheer-tint-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-weightless-protection-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-active-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-overnight-mask",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-daily-exfoliant",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-body-therapy",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-pigment-bar",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "tower-28-beauty-sos-daily-rescue-facial-spray",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-shineflasher-brightening-powder",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-superdew-shimmer-free-highlighter",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-soothe-glow-lip-oil",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-clearinsight-peel-pads",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-beachplease-lip-cheek-stick",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-makewaves-mascara",
+      "brand_id": "tower-28-beauty"
+    }
+  ],
+  "sensitive eye area": [
+    {
+      "product_id": "cerave-eye-repair-cream",
+      "brand_id": "cerave"
+    }
+  ],
+  "cracked": [
+    {
+      "product_id": "cerave-healing-ointment",
+      "brand_id": "cerave"
+    }
+  ],
+  "compromised barrier": [
+    {
+      "product_id": "cerave-healing-ointment",
+      "brand_id": "cerave"
+    }
+  ],
+  "atopic dermatitis": [
+    {
+      "product_id": "cerave-eczema-relief-cream",
+      "brand_id": "cerave"
+    }
+  ],
+  "itchy": [
+    {
+      "product_id": "cerave-itch-relief-moisturizing-lotion",
+      "brand_id": "cerave"
+    }
+  ],
+  "baby skin": [
+    {
+      "product_id": "cerave-baby-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-baby-wash-shampoo",
+      "brand_id": "cerave"
+    }
+  ],
+  "delicate": [
+    {
+      "product_id": "cerave-baby-moisturizing-lotion",
+      "brand_id": "cerave"
+    },
+    {
+      "product_id": "cerave-baby-wash-shampoo",
+      "brand_id": "cerave"
+    }
+  ],
+  "sensitive scalp": [
+    {
+      "product_id": "cerave-baby-wash-shampoo",
+      "brand_id": "cerave"
+    }
+  ],
+  "dry hands": [
+    {
+      "product_id": "eltamd-so-silky-hand-crme",
+      "brand_id": "eltamd"
+    }
+  ],
+  "aging hands": [
+    {
+      "product_id": "eltamd-so-silky-hand-crme",
+      "brand_id": "eltamd"
+    }
+  ],
+  "frequent hand-washers": [
+    {
+      "product_id": "eltamd-so-silky-hand-crme",
+      "brand_id": "eltamd"
+    }
+  ],
+  "hyperpigmented": [
+    {
+      "product_id": "environ-focus-care-radiance-range-mela-fade-cream",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "environ-focus-care-radiance-range-mela-prep-lotion",
+      "brand_id": "environ"
+    },
+    {
+      "product_id": "la-roche-posay-pigmentclar-dark-spot-serum",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "sensitive (patch test recommended)": [
+    {
+      "product_id": "hyper-skin-hyper-even-gentle-brightening-cleanser",
+      "brand_id": "hyper-skin"
+    }
+  ],
+  "allergic": [
+    {
+      "product_id": "la-roche-posay-toleriane-dermallergo-fluide",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "intolerant": [
+    {
+      "product_id": "la-roche-posay-toleriane-dermallergo-fluide",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "hypersensitive": [
+    {
+      "product_id": "la-roche-posay-toleriane-dermallergo-fluide",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "baby": [
+    {
+      "product_id": "la-roche-posay-lipikar-apm-triple-repair-body-moisturizing-cream",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "la-roche-posay-lipikar-syndet-ap-cream-wash",
+      "brand_id": "la-roche-posay"
+    }
+  ],
+  "body": [
+    {
+      "product_id": "la-roche-posay-anthelios-uvmune-400-milk-spf50",
+      "brand_id": "la-roche-posay"
+    },
+    {
+      "product_id": "pca-skin-pigment-bar",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-blemish-control-bar",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "zo-skin-health-body-emulsion",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-body-smoothing-crme",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "very sensitive": [
+    {
+      "product_id": "medik8-crystal-retinal-1",
+      "brand_id": "medik8"
+    }
+  ],
+  "blemish-prone": [
+    {
+      "product_id": "medik8-press-clear",
+      "brand_id": "medik8"
+    },
+    {
+      "product_id": "medik8-niacinamide-peptides",
+      "brand_id": "medik8"
+    }
+  ],
+  "all skin types including retinoid-intolerant": [
+    {
+      "product_id": "medik8-bakuchiol-peptides",
+      "brand_id": "medik8"
+    }
+  ],
+  "reactive": [
+    {
+      "product_id": "medik8-calmwise-soothing-cleanser",
+      "brand_id": "medik8"
+    }
+  ],
+  "all skin types including sensitive": [
+    {
+      "product_id": "medik8-niacinamide-peptides",
+      "brand_id": "medik8"
+    }
+  ],
+  "sensitive skin": [
+    {
+      "product_id": "osmosis-beauty-rescue-epidermal-repair-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-purify-enzyme-cleanser",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-quench-moisturizer",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-skin-perfection-elixir",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-osmosis-mineral-sunscreen-spf-30",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-creamy-cleanser",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-retinol-treatment-for-sensitive-skin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rebalance",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-sheer-tint-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-weightless-protection-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-daily-exfoliant",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "tower-28-beauty-sos-daily-rescue-facial-spray",
+      "brand_id": "tower-28-beauty"
+    },
+    {
+      "product_id": "tower-28-beauty-beachplease-lip-cheek-stick",
+      "brand_id": "tower-28-beauty"
+    }
+  ],
+  "aging skin": [
+    {
+      "product_id": "osmosis-beauty-rescue-epidermal-repair-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-stemfactor-growth-factor-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-quench-moisturizer",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-correct-anti-aging-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-boosting-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-exlinea-peptide-smoothing-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rejuvenating-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-c-quench-antioxidant-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-a-c-synergy-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-intensive-brightening-treatment-05-retinol",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-collagen-hydrator",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hydraluxe",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-ideal-complex-revitalizing-eye-gel",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-ideal-complex-restorative-eye-cream",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-microneedle-eye-patches",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-perfecting-neck-dcollet",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-overnight-mask",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "oily skin": [
+    {
+      "product_id": "osmosis-beauty-purify-enzyme-cleanser",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-bpo-5-cleanser",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-smoothing-toner",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-intensive-clarity-treatment-05-retinol-2-salicylic",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rebalance",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-clearskin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-weightless-protection-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-active-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-detoxifying-mask",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-pore-refining-treatment",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-blemish-control-bar",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "mature skin": [
+    {
+      "product_id": "osmosis-beauty-stemfactor-growth-factor-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-correct-anti-aging-serum",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-nutrient-toner",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-exlinea-peptide-smoothing-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rejuvenating-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-intensive-brightening-treatment-05-retinol",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-collagen-hydrator",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hydraluxe",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-ideal-complex-restorative-eye-cream",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-perfecting-neck-dcollet",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "dry skin": [
+    {
+      "product_id": "osmosis-beauty-quench-moisturizer",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-creamy-cleanser",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-nutrient-toner",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-boosting-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-retinol-treatment-for-sensitive-skin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-collagen-hydrator",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hydraluxe",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-humectin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-overnight-mask",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "normal skin": [
+    {
+      "product_id": "osmosis-beauty-quench-moisturizer",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-creamy-cleanser",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-facial-wash",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-nutrient-toner",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-retinol-treatment-for-sensitive-skin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hydraluxe",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-sheer-tint-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-daily-exfoliant",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "all skin types (introduce slowly)": [
+    {
+      "product_id": "osmosis-beauty-correct-anti-aging-serum",
+      "brand_id": "osmosis-beauty"
+    }
+  ],
+  "all skin types (internal use)": [
+    {
+      "product_id": "osmosis-beauty-skin-clarifier-digestive-supplement",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "osmosis-beauty-skin-defense-detox-supplement",
+      "brand_id": "osmosis-beauty"
+    }
+  ],
+  "dull skin": [
+    {
+      "product_id": "osmosis-beauty-skin-perfection-elixir",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-vitamin-b3-brightening-serum",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "acne-prone skin": [
+    {
+      "product_id": "osmosis-beauty-osmosis-mineral-sunscreen-spf-30",
+      "brand_id": "osmosis-beauty"
+    },
+    {
+      "product_id": "pca-skin-bpo-5-cleanser",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-smoothing-toner",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-intensive-clarity-treatment-05-retinol-2-salicylic",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-clearskin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-detoxifying-mask",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-pore-refining-treatment",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-blemish-control-bar",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "tower-28-beauty-sos-daily-rescue-facial-spray",
+      "brand_id": "tower-28-beauty"
+    }
+  ],
+  "barrier-damaged": [
+    {
+      "product_id": "paulas-choice-omega-complex-moisturizer",
+      "brand_id": "paulas-choice"
+    }
+  ],
+  "resilient": [
+    {
+      "product_id": "paulas-choice-clinical-1-retinol-treatment",
+      "brand_id": "paulas-choice"
+    }
+  ],
+  "beginner retinol users": [
+    {
+      "product_id": "paulas-choice-resist-retinol-serum-03",
+      "brand_id": "paulas-choice"
+    }
+  ],
+  "experienced retinol users": [
+    {
+      "product_id": "paulas-choice-resist-retinol-serum-1",
+      "brand_id": "paulas-choice"
+    }
+  ],
+  "very oily": [
+    {
+      "product_id": "paulas-choice-clear-extra-strength-anti-redness-exfoliating-solution-2-salicylic-acid",
+      "brand_id": "paulas-choice"
+    }
+  ],
+  "stubborn acne": [
+    {
+      "product_id": "paulas-choice-clear-extra-strength-anti-redness-exfoliating-solution-2-salicylic-acid",
+      "brand_id": "paulas-choice"
+    }
+  ],
+  "combination skin": [
+    {
+      "product_id": "pca-skin-facial-wash",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-bpo-5-cleanser",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-smoothing-toner",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-intensive-clarity-treatment-05-retinol-2-salicylic",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-rebalance",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-clearskin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-weightless-protection-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-detoxifying-mask",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-pore-refining-treatment",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "dehydrated skin": [
+    {
+      "product_id": "pca-skin-hyaluronic-acid-boosting-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-humectin",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-microneedle-eye-patches",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-hyaluronic-acid-overnight-mask",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "sun-damaged skin": [
+    {
+      "product_id": "pca-skin-c-quench-antioxidant-serum",
+      "brand_id": "pca-skin"
+    },
+    {
+      "product_id": "pca-skin-a-c-synergy-serum",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "acne-prone skin (experienced users)": [
+    {
+      "product_id": "pca-skin-a-c-synergy-serum",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "tired eyes": [
+    {
+      "product_id": "pca-skin-ideal-complex-revitalizing-eye-gel",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "dry lips": [
+    {
+      "product_id": "pca-skin-hyaluronic-acid-lip-booster",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "aging lips": [
+    {
+      "product_id": "pca-skin-hyaluronic-acid-lip-booster",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "active lifestyle": [
+    {
+      "product_id": "pca-skin-active-broad-spectrum-spf-45",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "dry body skin": [
+    {
+      "product_id": "pca-skin-body-therapy",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "rough skin": [
+    {
+      "product_id": "pca-skin-body-therapy",
+      "brand_id": "pca-skin"
+    }
+  ],
+  "beginner": [
+    {
+      "product_id": "skinceuticals-retinol-03",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "zo-skin-health-retinol-skin-brightener-025",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "intermediate": [
+    {
+      "product_id": "skinceuticals-retinol-05",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "zo-skin-health-retinol-skin-brightener-05",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "non-sensitive": [
+    {
+      "product_id": "skinceuticals-retinol-05",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "zo-skin-health-retinol-skin-brightener-05",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "advanced": [
+    {
+      "product_id": "skinceuticals-retinol-10",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "zo-skin-health-retinol-skin-brightener-1",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "tolerant": [
+    {
+      "product_id": "skinceuticals-retinol-10",
+      "brand_id": "skinceuticals"
+    },
+    {
+      "product_id": "the-ordinary-retinol-1-in-squalane",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "the-ordinary-vitamin-c-suspension-23-ha-spheres-2",
+      "brand_id": "the-ordinary"
+    },
+    {
+      "product_id": "zo-skin-health-radical-night-repair",
+      "brand_id": "zo-skin-health"
+    },
+    {
+      "product_id": "zo-skin-health-retinol-skin-brightener-1",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "acne_prone": [
+    {
+      "product_id": "sunday-riley-saturn-sulfur-acne-treatment-mask",
+      "brand_id": "sunday-riley"
+    }
+  ],
+  "combination (in dry climates)": [
+    {
+      "product_id": "tatcha-the-dewy-skin-cream",
+      "brand_id": "tatcha"
+    }
+  ],
+  "combination (as night treatment)": [
+    {
+      "product_id": "tatcha-gold-camellia-beauty-oil",
+      "brand_id": "tatcha"
+    }
+  ],
+  "reactive skin": [
+    {
+      "product_id": "tower-28-beauty-sos-daily-rescue-facial-spray",
+      "brand_id": "tower-28-beauty"
+    }
+  ],
+  "sensitive eyes": [
+    {
+      "product_id": "tower-28-beauty-makewaves-mascara",
+      "brand_id": "tower-28-beauty"
+    }
+  ],
+  "irritated": [
+    {
+      "product_id": "zo-skin-health-restoracalm",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "rough": [
+    {
+      "product_id": "zo-skin-health-body-smoothing-crme",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "kp": [
+    {
+      "product_id": "zo-skin-health-body-smoothing-crme",
+      "brand_id": "zo-skin-health"
+    }
+  ],
+  "hands": [
+    {
+      "product_id": "zo-skin-health-hand-repair",
+      "brand_id": "zo-skin-health"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+[
+  {
+    "id": "estrogen",
+    "name": "Estrogen",
+    "effects_on_skin": {
+      "collagen_synthesis": "E2-ERα binding increases procollagen type I and III mRNA expression; stimulates TGF-β1; inhibits MMP-1 and MMP-3; increases TIMP-1 and TIMP-3. Increases skin collagen content by 2–5% per year in postmenopausal women; skin thickness increases 7–15%; dermal elasticity improves 20–30%.",
+      "hyaluronic_acid": "Upregulates HAS2 in fibroblasts and keratinocytes; increases HA in dermis for water retention, turgor, volume.",
+      "barrier_function": "Increases stratum corneum hydration via enhanced HA, ceramide synthesis, and tight junction proteins (claudin-1, occludin).",
+      "vascularity": "Improves cutaneous blood flow via ERα in vascular endothelium.",
+      "wound_healing": "Supports inflammation, collagen synthesis, and cell migration via HA."
+    },
+    "conditions_linked": [
+      "perimenopause",
+      "menopause",
+      "postmenopausal_skin_aging",
+      "melasma",
+      "vulvovaginal_atrophy"
+    ],
+    "testing": {
+      "serum_estradiol_e2": "Any time; <20 pg/mL suggests menopause",
+      "dutch_test": "Measures E1, E2, E3, and estrogen metabolites (2-OH, 4-OH, 16α-OH); assesses metabolism pathways",
+      "estrone_e1": "Elevated in obesity and postmenopause",
+      "estriol_e3": "Pregnancy estrogen; minimal in non-pregnant women"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["pregnancy", "estrogen_therapy", "estrogen_secreting_tumors", "liver_disease", "obesity"],
+        "skin_effects": ["melasma", "spider_angiomas", "palmar_erythema", "increased_skin_thickness", "enhanced_wound_healing"]
+      },
+      "low": {
+        "causes": ["menopause", "perimenopause", "oophorectomy", "hypogonadism", "excessive_exercise", "eating_disorders", "aromatase_inhibitors"],
+        "skin_effects": ["dryness", "wrinkles", "loss_of_elasticity", "skin_thinning", "delayed_wound_healing", "collagen_loss_2_5_percent_per_year", "decreased_ha", "xerosis"]
+      }
+    }
+  },
+  {
+    "id": "progesterone",
+    "name": "Progesterone",
+    "effects_on_skin": {
+      "sebum_production": "Binds androgen receptors in sebaceous glands with lower affinity than DHT; activates 5α-reductase; stimulates sebocyte proliferation and lipid synthesis. Increases sebum 30–50% in luteal phase.",
+      "cyclical_acne": "Luteal phase rise (days 15–28) drives premenstrual acne flares, especially jawline/chin.",
+      "keratinocyte_proliferation": "Modulates epidermal turnover.",
+      "melanocyte_stimulation": "Contributes to melasma risk alongside estrogen."
+    },
+    "conditions_linked": [
+      "premenstrual_acne",
+      "cyclical_jawline_acne",
+      "melasma",
+      "luteal_phase_dominance"
+    ],
+    "testing": {
+      "serum_progesterone": "Day 21 (7 days post-ovulation); confirms ovulation and luteal phase adequacy",
+      "dutch_test": "Measures total daily progesterone production and metabolites"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["luteal_phase", "pregnancy", "progesterone_therapy", "corpus_luteum_cysts"],
+        "skin_effects": ["increased_sebum", "premenstrual_acne", "oily_skin", "melasma", "acne_along_jawline_and_chin"]
+      },
+      "low": {
+        "causes": ["anovulation", "perimenopause", "luteal_phase_defect", "hypogonadism", "PCOS"],
+        "skin_effects": ["relative_estrogen_dominance", "irregular_cycles", "difficulty_maintaining_pregnancy"]
+      }
+    }
+  },
+  {
+    "id": "testosterone",
+    "name": "Testosterone",
+    "effects_on_skin": {
+      "sebum_production": "Converted to DHT by 5α-reductase; DHT has 5× higher AR affinity; primary driver of sebum production. Men produce 10× more testosterone than women.",
+      "acne": "Drives sebum overproduction → comedone formation; upregulates TLR2 on sebocytes; promotes keratinocyte proliferation.",
+      "hirsutism": "Converts vellus to terminal hairs in androgen-sensitive areas (upper lip, chin, chest, abdomen, back, inner thighs).",
+      "hair_loss": "DHT binds AR in scalp dermal papilla → follicle miniaturization; shortens anagen phase."
+    },
+    "conditions_linked": [
+      "acne_vulgaris",
+      "hirsutism",
+      "androgenic_alopecia",
+      "PCOS",
+      "hyperandrogenism"
+    ],
+    "testing": {
+      "total_testosterone": "AM, fasting; 6–45 ng/dL (women); >55 suggests PCOS or tumor",
+      "free_testosterone": "AM; 0.2–1.4 ng/dL (women); more accurate if SHBG abnormal",
+      "dht": "Active androgen in skin; directly drives sebum, acne, hair",
+      "dutch_test": "Measures testosterone and DHT metabolites (androsterone, etiocholanolone)"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["PCOS", "adrenal_hyperplasia", "androgen_secreting_tumors", "Cushings_syndrome", "anabolic_steroid_use"],
+        "skin_effects": ["acne", "hirsutism", "hair_loss", "seborrhea", "increased_sebum", "skin_tags", "acanthosis_nigricans"]
+      },
+      "low": {
+        "causes": ["menopause", "adrenal_insufficiency", "hypogonadism", "aging"],
+        "skin_effects": ["reduced_sebum", "dry_skin", "decreased_muscle_tone"]
+      }
+    }
+  },
+  {
+    "id": "dht",
+    "name": "Dihydrotestosterone (DHT)",
+    "effects_on_skin": {
+      "sebum_production": "Primary androgen for sebaceous glands; 5× higher AR affinity than testosterone; drives lipogenic enzymes (FAS, ACC, SCD).",
+      "acne": "Directly upregulates TLR2 on sebocytes; enhances inflammatory response to C. acnes; promotes follicular hyperkeratinization.",
+      "hair_loss": "Binds AR in scalp dermal papilla → increases TGF-β1/β2 → catagen promotion; reduces Wnt/β-catenin signaling.",
+      "hirsutism": "Converts vellus to terminal hair in androgen-sensitive areas."
+    },
+    "conditions_linked": [
+      "androgenic_alopecia",
+      "acne_vulgaris",
+      "hirsutism",
+      "seborrhea",
+      "PCOS"
+    ],
+    "testing": {
+      "serum_dht": "Direct measurement of active androgen",
+      "dutch_test": "Measures DHT and 5α-reductase activity via metabolites",
+      "5α_reductase_activity": "Inferred from androsterone:etiocholanolone ratio"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["5α_reductase_overactivity", "PCOS", "hyperandrogenism", "testosterone_excess"],
+        "skin_effects": ["severe_acne", "androgenic_alopecia", "hirsutism", "seborrheic_dermatitis", "increased_sebum"]
+      },
+      "low": {
+        "causes": ["5α_reductase_inhibitors", "finasteride_use", "dutasteride_use", "hypogonadism"],
+        "skin_effects": ["reduced_sebum", "improved_acne", "reduced_hair_loss", "decreased_hirsutism"]
+      }
+    }
+  },
+  {
+    "id": "cortisol",
+    "name": "Cortisol",
+    "effects_on_skin": {
+      "collagen_breakdown": "Chronic elevation upregulates MMP-1, MMP-3, MMP-9; degrades collagen types I and III; suppresses collagen synthesis by 30–40%.",
+      "barrier_disruption": "Reduces keratinocyte proliferation; downregulates filaggrin, loricrin, involucrin; disrupts lipid lamellae; increases TEWL.",
+      "inflammation": "Acute: anti-inflammatory. Chronic: paradoxically pro-inflammatory via glucocorticoid resistance, insulin resistance, Th2 dominance.",
+      "delayed_wound_healing": "Suppresses neutrophil/macrophage recruitment, fibroblast proliferation, VEGF production, and collagen synthesis.",
+      "skin_thinning": "Suppresses epidermal and dermal cell turnover; causes atrophy with chronic exposure."
+    },
+    "conditions_linked": [
+      "stress_induced_acne",
+      "stress_exacerbated_eczema",
+      "stress_exacerbated_psoriasis",
+      "Cushings_syndrome",
+      "chronic_stress",
+      "adrenal_fatigue"
+    ],
+    "testing": {
+      "serum_cortisol": "AM (8 AM): 5–25 mcg/dL; PM (4 PM): lower; midnight nadir",
+      "salivary_cortisol": "4-point daily curve; assesses circadian rhythm",
+      "dutch_test": "4-point urine cortisol curve + cortisone; cortisol:cortisone ratio indicates 11β-HSD activity",
+      "24h_urinary_free_cortisol": "Gold standard for Cushing's screening",
+      "dexamethasone_suppression_test": "Confirms hypercortisolism",
+      "late_night_salivary_cortisol": "Screens for Cushing's syndrome"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["chronic_stress", "Cushings_syndrome", "ACTH_secreting_tumor", "corticosteroid_medication", "sleep_deprivation"],
+        "skin_effects": ["skin_thinning", "striae", "easy_bruising", "poor_wound_healing", "acne", "hirsutism", "hyperpigmentation", "telangiectasia", "facial_rounding", "collagen_loss"]
+      },
+      "low": {
+        "causes": ["Addisons_disease", "adrenal_insufficiency", "hypopituitarism", "chronic_fatigue", "autoimmune_adrenalitis"],
+        "skin_effects": ["hyperpigmentation", "vitiligo", "dry_cool_skin", "hair_loss", "fatigue", "salt_craving"]
+      }
+    }
+  },
+  {
+    "id": "thyroid_t3_t4_tsh",
+    "name": "Thyroid Hormones (T3/T4/TSH)",
+    "effects_on_skin": {
+      "metabolic_rate": "T3 > T4 regulates basal metabolic rate in keratinocytes, fibroblasts, adnexal structures.",
+      "cell_turnover": "Controls proliferation and differentiation of skin cells.",
+      "sebum_and_sweat": "Modulates eccrine/apocrine gland secretion."
+    },
+    "conditions_linked": [
+      "hypothyroidism_skin_changes",
+      "hyperthyroidism_skin_changes",
+      "pretibial_myxedema",
+      "dry_skin",
+      "hair_loss",
+      "brittle_nails"
+    ],
+    "testing": {
+      "tsh": "0.4–4.0 mIU/L; >2.5 with symptoms may warrant treatment",
+      "free_t4": "0.8–1.8 ng/dL; primary hypothyroidism: high TSH, low free T4",
+      "free_t3": "2.3–4.2 pg/mL; low with normal T4 = conversion issue",
+      "tpo_antibodies": "<35 IU/mL; elevated in Hashimoto's",
+      "tg_antibodies": "<40 IU/mL; elevated in autoimmune thyroid disease"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["Graves_disease", "hyperthyroidism", "toxic_nodular_goiter", "excessive_thyroid_medication"],
+        "skin_effects": ["warm_moist_skin", "fine_silky_hair", "diffuse_hair_loss", "pretibial_myxedema", "onycholysis_plummers_nails", "flushing", "increased_sweating", "heat_intolerance"]
+      },
+      "low": {
+        "causes": ["Hashimotos_thyroiditis", "hypothyroidism", "iodine_deficiency", "thyroidectomy", "radiation", "medication_induced"],
+        "skin_effects": ["dry_cool_skin", "coarse_hair", "hair_loss", "brittle_nails", "myxedema", "yellow_skin_carotenemia", "delayed_wound_healing", "reduced_sebum", "pallor"]
+      }
+    }
+  },
+  {
+    "id": "insulin",
+    "name": "Insulin",
+    "effects_on_skin": {
+      "glycation_and_ages": "Hyperinsulinemia → elevated glucose → non-enzymatic glycation → AGEs on collagen and elastin → cross-linking, stiffness, yellowing.",
+      "acne_pathway": "High glycemic load → insulin spike → increased hepatic IGF-1; decreases IGFBP-3 → more free IGF-1; reduces SHBG → more free testosterone.",
+      "mTORC1_activation": "Insulin/IGF-1 activates mTORC1 → SREBP-1 → lipogenesis; keratinocyte proliferation; AR signaling.",
+      "inflammation": "RAGE signaling → NF-κB → IL-6, TNF-α, MMP-9."
+    },
+    "conditions_linked": [
+      "insulin_resistance",
+      "acne_vulgaris",
+      "acanthosis_nigricans",
+      "skin_tags",
+      "type_2_diabetes",
+      "metabolic_syndrome",
+      "PCOS"
+    ],
+    "testing": {
+      "fasting_insulin": "2–20 mIU/L; >10 suggests insulin resistance",
+      "fasting_glucose": "70–100 mg/dL",
+      "hba1c": "<5.7%; 5.7–6.4% = prediabetes; ≥6.5% = diabetes",
+      "homa_ir": "<2.5; calculated from fasting glucose and insulin",
+      "glucose_tolerance_test": "2-hour post-glucose load"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["insulin_resistance", "type_2_diabetes", "PCOS", "metabolic_syndrome", "obesity", "sedentary_lifestyle", "high_glycemic_diet"],
+        "skin_effects": ["acne", "acanthosis_nigricans", "skin_tags", "premature_aging", "AGE_accumulation", "poor_wound_healing", "hirsutism", "oily_skin"]
+      },
+      "low": {
+        "causes": ["type_1_diabetes", "pancreatic_insufficiency", "insulinoma_rare"],
+        "skin_effects": ["poor_wound_healing", "xanthomas", "diabetic_dermopathy", "necrobiosis_lipoidica"]
+      }
+    }
+  },
+  {
+    "id": "igf_1",
+    "name": "Insulin-Like Growth Factor 1 (IGF-1)",
+    "effects_on_skin": {
+      "cell_proliferation": "Stimulates keratinocyte, fibroblast, and sebocyte proliferation via IGF-1R.",
+      "collagen_synthesis": "Promotes fibroblast activity and collagen production.",
+      "wound_healing": "Supports keratinocyte migration, angiogenesis, and collagen deposition.",
+      "sebum_production": "Synergizes with androgens on sebocytes; drives acne.",
+      "hair_growth": "IGF-1 in dermal papilla promotes anagen maintenance."
+    },
+    "conditions_linked": [
+      "acne_vulgaris",
+      "insulin_resistance",
+      "PCOS",
+      "excess_growth_hormone",
+      "delayed_wound_healing"
+    ],
+    "testing": {
+      "serum_igf_1": "Age-adjusted reference ranges; elevated in insulin resistance and GH excess",
+      "igfbp_3": "IGF-binding protein 3; low levels increase free IGF-1",
+      "free_igf_1": "Bioactive fraction"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["insulin_resistance", "high_glycemic_diet", "dairy_consumption", "GH_excess", "PCOS", "puberty"],
+        "skin_effects": ["acne", "increased_sebum", "accelerated_skin_aging_via_ages", "hirsutism", "oily_skin"]
+      },
+      "low": {
+        "causes": ["malnutrition", "liver_disease", "GH_deficiency", "aging", "chronic_illness"],
+        "skin_effects": ["poor_wound_healing", "reduced_skin_thickness", "hair_loss", "decreased_cell_turnover"]
+      }
+    }
+  },
+  {
+    "id": "growth_hormone",
+    "name": "Growth Hormone (GH)",
+    "effects_on_skin": {
+      "skin_thickness": "Stimulates fibroblast proliferation and collagen synthesis via IGF-1 mediation.",
+      "wound_healing": "Promotes keratinocyte migration, angiogenesis, collagen deposition via IGF-1.",
+      "hair_growth": "Supports anagen maintenance.",
+      "sebum_production": "Indirectly via IGF-1; excess can worsen acne."
+    },
+    "conditions_linked": [
+      "skin_aging",
+      "delayed_wound_healing",
+      "acne",
+      "GH_deficiency",
+      "acromegaly"
+    ],
+    "testing": {
+      "igf_1": "Primary screening test for GH status",
+      "gh_stimulation_test": "Confirms GH deficiency",
+      "gh_suppression_test": "Confirms GH excess (acromegaly)"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["acromegaly", "GH_secreting_tumor", "exogenous_GH_therapy"],
+        "skin_effects": ["thickened_skin", "oily_skin", "acne", "enlarged_features", "skin_tags"]
+      },
+      "low": {
+        "causes": ["pituitary_disease", "GH_deficiency", "aging", "head_trauma", "radiation"],
+        "skin_effects": ["thin_skin", "poor_wound_healing", "reduced_muscle_mass", "decreased_skin_thickness"]
+      }
+    }
+  },
+  {
+    "id": "melatonin",
+    "name": "Melatonin",
+    "effects_on_skin": {
+      "antioxidant": "Potent free radical scavenger (hydroxyl, peroxynitrite, singlet oxygen); stimulates SOD, catalase, glutathione peroxidase; more effective than vitamin E in some models.",
+      "circadian_repair": "Binds MT1/MT2 receptors in skin cells; triggers nocturnal repair: increased cell proliferation, DNA repair, collagen synthesis, barrier recovery.",
+      "uv_protection": "Topical application reduces UV-induced erythema, edema, sunburn cell formation; synergizes with vitamins C and E.",
+      "mitochondrial_protection": "Protects mitochondrial DNA from oxidative damage; reduces lipid peroxidation."
+    },
+    "conditions_linked": [
+      "photoaging",
+      "sleep_deprivation_skin_effects",
+      "oxidative_stress",
+      "delayed_wound_healing"
+    ],
+    "testing": {
+      "dutch_test": "Measures nocturnal melatonin production",
+      "salivary_melatonin": "Evening/midnight samples assess circadian rhythm",
+      "sleep_assessment": "Quality and duration of sleep"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["supplementation", "darkness_exposure", "seasonal_variation"],
+        "skin_effects": ["enhanced_repair", "improved_barrier_recovery", "reduced_UV_damage", "better_skin_quality"]
+      },
+      "low": {
+        "causes": ["blue_light_exposure", "age_related_decline", "shift_work", "chronic_insomnia", "jet_lag"],
+        "skin_effects": ["impaired_nocturnal_repair", "accelerated_aging", "poor_barrier_recovery", "increased_UV_damage", "dull_skin"]
+      }
+    }
+  },
+  {
+    "id": "dhea",
+    "name": "Dehydroepiandrosterone (DHEA/DHEA-S)",
+    "effects_on_skin": {
+      "sebum_production": "Converts to testosterone and DHT in sebaceous glands; drives sebocyte activity.",
+      "skin_aging": "Declines 10% per decade after age 30 (adrenopause); correlated with reduced collagen, thickness, and hydration.",
+      "wound_healing": "Supports skin cell proliferation and repair via androgen and estrogen metabolites.",
+      "hair_and_acne": "Contributes to acne, hirsutism, and hair loss when elevated."
+    },
+    "conditions_linked": [
+      "adrenopause",
+      "skin_aging",
+      "acne",
+      "hirsutism",
+      "PCOS",
+      "adrenal_androgen_excess"
+    ],
+    "testing": {
+      "dhea_s": "AM; 35–430 mcg/dL (women); >700 suggests adrenal androgen excess",
+      "dutch_test": "Measures DHEA and metabolites"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["PCOS", "adrenal_hyperplasia", "adrenal_tumor", "stress", "DHEA_supplementation"],
+        "skin_effects": ["acne", "hirsutism", "hair_loss", "oily_skin", "increased_sebum"]
+      },
+      "low": {
+        "causes": ["aging", "adrenal_insufficiency", "chronic_stress", "hypopituitarism"],
+        "skin_effects": ["dry_skin", "reduced_skin_thickness", "decreased_hydration", "accelerated_aging", "reduced_sebum"]
+      }
+    }
+  },
+  {
+    "id": "aldosterone",
+    "name": "Aldosterone",
+    "effects_on_skin": {
+      "electrolyte_balance": "Regulates sodium/potassium balance; indirectly affects skin hydration.",
+      "vascular_tone": "Modulates cutaneous blood flow via mineralocorticoid receptors.",
+      "barrier_function": "Emerging evidence for role in skin electrolyte and hydration homeostasis."
+    },
+    "conditions_linked": [
+      "Addisons_disease",
+      "hyperaldosteronism",
+      "electrolyte_imbalance_skin_effects"
+    ],
+    "testing": {
+      "serum_aldosterone": "Morning sample, after sodium loading or upright posture",
+      "plasma_renin_activity": "Aldosterone:renin ratio screens for hyperaldosteronism",
+      "electrolytes": "Sodium, potassium imbalances"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["primary_hyperaldosteronism_Conns_syndrome", "adrenal_hyperplasia", "renin_secreting_tumor", "diuretic_use"],
+        "skin_effects": ["flushing", "sweating", "possible_edema"]
+      },
+      "low": {
+        "causes": ["Addisons_disease", "adrenal_insufficiency", "ACE_inhibitors", "ARBs"],
+        "skin_effects": ["dry_skin", "dehydration", "salt_craving", "hyperpigmentation"]
+      }
+    }
+  },
+  {
+    "id": "prolactin",
+    "name": "Prolactin",
+    "effects_on_skin": {
+      "sebum_production": "Prolactin receptors present in sebaceous glands; stimulates sebocyte proliferation and sebum production.",
+      "adrenal_androgens": "Increases adrenal androgen production (DHEA-S) → acne, hirsutism, hair loss.",
+      "postpartum_changes": "Drives melasma persistence, postpartum telogen effluvium, and variable acne."
+    },
+    "conditions_linked": [
+      "hyperprolactinemia_acne",
+      "postpartum_hair_loss",
+      "postpartum_melasma",
+      "prolactinoma",
+      "galactorrhea"
+    ],
+    "testing": {
+      "serum_prolactin": "AM, fasting; <25 ng/mL (women); elevated with stress, hypothyroidism, prolactinoma",
+      "macroprolactin": "Rules out macroprolactin interference",
+      "mri_pituitary": "If prolactin persistently elevated >100 ng/mL"
+    },
+    "imbalances": {
+      "high": {
+        "causes": ["prolactinoma", "hypothyroidism", "dopamine_antagonists", "pregnancy", "lactation", "stress", "PCOS"],
+        "skin_effects": ["acne", "hirsutism", "hair_loss", "oily_skin", "postpartum_melasma_persistence", "galactorrhea"]
+      },
+      "low": {
+        "causes": ["hypopituitarism", "dopamine_agonists", "sheehans_syndrome"],
+        "skin_effects": ["reduced_sebum", "improved_androgenic_symptoms"]
+      }
+    }
+  }
+]

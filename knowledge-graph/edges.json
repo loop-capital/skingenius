@@ -1,0 +1,877 @@
+{
+  "edges": [
+    {
+      "source": "RC_001",
+      "target": "COND_001",
+      "type": "causes",
+      "weight": 0.8,
+      "evidence": "B",
+      "notes": "Gut dysbiosis increases systemic inflammation and LPS translocation, worsening acne",
+      "source_citation": "gut-skin-axis.md Section 2.1"
+    },
+    {
+      "source": "RC_001",
+      "target": "COND_003",
+      "type": "causes",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Loss of keystone species (F. prausnitzii) strongly associated with atopic dermatitis",
+      "source_citation": "gut-skin-axis.md Section 2.3"
+    },
+    {
+      "source": "RC_001",
+      "target": "COND_005",
+      "type": "causes",
+      "weight": 0.7,
+      "evidence": "B",
+      "notes": "Reduced bacterial diversity and increased Proteobacteria in psoriasis patients",
+      "source_citation": "gut-skin-axis.md Section 2.5"
+    },
+    {
+      "source": "RC_002",
+      "target": "COND_001",
+      "type": "causes",
+      "weight": 0.75,
+      "evidence": "B",
+      "notes": "Leaky gut increases LPS in circulation, triggering TLR4-mediated inflammation in sebaceous glands",
+      "source_citation": "gut-skin-axis.md Section 2.1"
+    },
+    {
+      "source": "RC_002",
+      "target": "COND_003",
+      "type": "causes",
+      "weight": 0.85,
+      "evidence": "B",
+      "notes": "Intestinal permeability directly correlates with AD severity; lactulose:mannitol ratio elevated",
+      "source_citation": "gut-skin-axis.md Section 2.3"
+    },
+    {
+      "source": "RC_003",
+      "target": "COND_001",
+      "type": "causes",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Androgen excess drives sebum production; PCOS is major cause of hormonal acne",
+      "source_citation": "hormone-skin-connection.md Section 1.4"
+    },
+    {
+      "source": "RC_003",
+      "target": "COND_006",
+      "type": "causes",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Estrogen/progesterone fluctuations directly stimulate melanogenesis; pregnancy and OCPs are primary triggers",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "RC_004",
+      "target": "COND_001",
+      "type": "causes",
+      "weight": 0.85,
+      "evidence": "B",
+      "notes": "High insulin increases IGF-1 and androgens, driving sebocyte proliferation",
+      "source_citation": "nutrition-skin.md, hormone-skin-connection.md"
+    },
+    {
+      "source": "RC_005",
+      "target": "COND_001",
+      "type": "causes",
+      "weight": 0.7,
+      "evidence": "B",
+      "notes": "Cortisol increases sebum production and inflammation; stress is well-documented acne trigger",
+      "source_citation": "hormone-skin-connection.md Section 1.1"
+    },
+    {
+      "source": "RC_005",
+      "target": "COND_003",
+      "type": "causes",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Stress directly triggers eczema flares via cortisol-mediated barrier disruption and Th2 skewing",
+      "source_citation": "hormone-skin-connection.md, lifestyle-skin.md"
+    },
+    {
+      "source": "RC_005",
+      "target": "COND_005",
+      "type": "causes",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Psychological stress is a major trigger for psoriasis onset and flares",
+      "source_citation": "skin-condition-profiles.md Section 10"
+    },
+    {
+      "source": "RC_006",
+      "target": "COND_006",
+      "type": "causes",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "UV radiation is the primary exacerbating factor for melasma; even brief exposure worsens condition",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "RC_006",
+      "target": "COND_010",
+      "type": "causes",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "UV is the primary driver of photoaging; UVA penetrates deep dermis causing collagen breakdown",
+      "source_citation": "lifestyle-skin.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "RC_006",
+      "target": "COND_007",
+      "type": "causes",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Post-inflammatory skin is photosensitive; UV worsens and prolongs PIH",
+      "source_citation": "skin-condition-profiles.md Section 12"
+    },
+    {
+      "source": "RC_007",
+      "target": "COND_005",
+      "type": "causes",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "30% family history; HLA-Cw6 major susceptibility locus for psoriasis",
+      "source_citation": "skin-condition-profiles.md Section 10"
+    },
+    {
+      "source": "RC_007",
+      "target": "COND_003",
+      "type": "causes",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "FLG mutations strongly associated with atopic dermatitis",
+      "source_citation": "skin-condition-profiles.md Section 8"
+    },
+    {
+      "source": "RC_007",
+      "target": "COND_006",
+      "type": "causes",
+      "weight": 0.7,
+      "evidence": "B",
+      "notes": "40-60% family history; higher prevalence in Fitzpatrick III-VI suggests genetic predisposition",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "MECH_001",
+      "target": "COND_001",
+      "type": "mechanism",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "IL-1, IL-8, TNF-alpha drive acne inflammation and comedone formation",
+      "source_citation": "skin-condition-profiles.md, gut-skin-axis.md"
+    },
+    {
+      "source": "MECH_001",
+      "target": "COND_005",
+      "type": "mechanism",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Th17/IL-23 pathway is central to psoriasis pathogenesis",
+      "source_citation": "skin-condition-profiles.md Section 10"
+    },
+    {
+      "source": "MECH_001",
+      "target": "COND_003",
+      "type": "mechanism",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Th2 inflammation with IL-4, IL-5, IL-13 drives eczema pathophysiology",
+      "source_citation": "skin-condition-profiles.md Section 8"
+    },
+    {
+      "source": "MECH_002",
+      "target": "COND_001",
+      "type": "mechanism",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Androgen-driven sebum overproduction is prerequisite for acne development",
+      "source_citation": "hormone-skin-connection.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "MECH_003",
+      "target": "COND_010",
+      "type": "mechanism",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "MMP-1, MMP-3, MMP-9 degrade collagen in photoaging; cortisol accelerates this process",
+      "source_citation": "hormone-skin-connection.md, lifestyle-skin.md"
+    },
+    {
+      "source": "MECH_004",
+      "target": "COND_003",
+      "type": "mechanism",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Filaggrin deficiency and lipid matrix disruption are hallmarks of atopic dermatitis",
+      "source_citation": "skin-condition-profiles.md Section 8, gut-skin-axis.md"
+    },
+    {
+      "source": "MECH_005",
+      "target": "COND_006",
+      "type": "mechanism",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Tyrosinase hyperactivity driven by estrogen, UV, and inflammation is core mechanism of melasma",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "MECH_005",
+      "target": "COND_007",
+      "type": "mechanism",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Post-inflammatory melanocyte activation and melanin incontinence cause PIH",
+      "source_citation": "skin-condition-profiles.md Section 12"
+    },
+    {
+      "source": "MECH_007",
+      "target": "COND_001",
+      "type": "mechanism",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "C. acnes IA1 phylotype overgrowth with biofilm formation drives acne inflammation",
+      "source_citation": "gut-skin-axis.md Section 1.1.2"
+    },
+    {
+      "source": "MECH_007",
+      "target": "COND_004",
+      "type": "mechanism",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Malassezia overgrowth triggers inflammatory response to oleic acid in seborrheic dermatitis",
+      "source_citation": "gut-skin-axis.md Section 1.1.4"
+    },
+    {
+      "source": "ING_001",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "First-line for acne; normalizes keratinization, reduces sebum, anti-inflammatory",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "ING_001",
+      "target": "COND_010",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Increases collagen synthesis; reduces fine lines; gold standard for photoaging",
+      "source_citation": "skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_002",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Antimicrobial against C. acnes; keratolytic; reduces inflammation",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "ING_003",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Antimicrobial, anti-inflammatory, and keratolytic; good for PIH prevention",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "ING_003",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Tyrosinase inhibitor; anti-inflammatory; safe in pregnancy",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "ING_003",
+      "target": "COND_007",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "First choice for PIH in darker skin; low irritation risk",
+      "source_citation": "skin-condition-profiles.md Section 12"
+    },
+    {
+      "source": "ING_004",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Inhibits melanosome transfer; anti-inflammatory; excellent maintenance therapy",
+      "source_citation": "skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_004",
+      "target": "COND_007",
+      "type": "treats",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Prevents melanosome transfer; reduces PIH; well-tolerated in all skin types",
+      "source_citation": "skin-condition-profiles.md Section 12"
+    },
+    {
+      "source": "ING_004",
+      "target": "COND_003",
+      "type": "treats",
+      "weight": 0.75,
+      "evidence": "A",
+      "notes": "Increases ceramide synthesis; strengthens barrier; reduces TEWL",
+      "source_citation": "skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_005",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Tyrosinase inhibition + antioxidant + collagen synthesis",
+      "source_citation": "skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_005",
+      "target": "COND_010",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Essential cofactor for collagen synthesis; antioxidant photoprotection",
+      "source_citation": "skin-condition-profiles.md, nutrition-skin.md"
+    },
+    {
+      "source": "ING_006",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Gold standard depigmenting agent; tyrosinase inhibition + melanocyte toxicity",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "ING_006",
+      "target": "COND_007",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Most effective topical for PIH; 8-12 weeks for results",
+      "source_citation": "skin-condition-profiles.md Section 12"
+    },
+    {
+      "source": "ING_007",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Significant improvement in melasma; inhibits plasminogen activation",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "ING_007",
+      "target": "COND_007",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Effective for PIH; oral form contraindicated with thrombosis history",
+      "source_citation": "skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_010",
+      "target": "COND_003",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Essential for barrier repair in eczema; reduces TEWL; supports lipid matrix",
+      "source_citation": "clinical-guidelines.md Section 2"
+    },
+    {
+      "source": "ING_014",
+      "target": "COND_004",
+      "type": "treats",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "First-line for seborrheic dermatitis; antifungal against Malassezia",
+      "source_citation": "clinical-guidelines.md Section 8"
+    },
+    {
+      "source": "ING_015",
+      "target": "COND_002",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "First-line topical for papulopustular rosacea; anti-inflammatory",
+      "source_citation": "skin-condition-profiles.md Section 6"
+    },
+    {
+      "source": "ING_016",
+      "target": "COND_002",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "FDA-approved for papulopustular rosacea; targets Demodex mites",
+      "source_citation": "skin-condition-profiles.md Section 6"
+    },
+    {
+      "source": "MED_001",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Definitive treatment for severe acne; 65-85% long-term remission",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "MED_002",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Anti-inflammatory dose effective for moderate acne; limit to 3-4 months",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "MED_003",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Effective for hormonal acne in females; blocks androgen receptors",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "MED_004",
+      "target": "COND_005",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "First-line systemic for psoriasis; requires monitoring",
+      "source_citation": "clinical-guidelines.md Section 3"
+    },
+    {
+      "source": "MED_005",
+      "target": "COND_003",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "FDA-approved for atopic dermatitis; IL-4Rα inhibitor",
+      "source_citation": "clinical-guidelines.md Section 2"
+    },
+    {
+      "source": "MED_006",
+      "target": "COND_005",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Highly effective for moderate-severe psoriasis; TNF-α blockade",
+      "source_citation": "clinical-guidelines.md Section 3"
+    },
+    {
+      "source": "NUT_001",
+      "target": "MECH_002",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "B",
+      "notes": "Inhibits 5-alpha reductase, reducing DHT and sebum production",
+      "source_citation": "supplement-protocols.md Section 1"
+    },
+    {
+      "source": "NUT_001",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.75,
+      "evidence": "B",
+      "notes": "30-40mg elemental zinc shows reduction in inflammatory lesions",
+      "source_citation": "supplement-protocols.md Section 1"
+    },
+    {
+      "source": "NUT_002",
+      "target": "MECH_001",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "B",
+      "notes": "Reduces pro-inflammatory eicosanoids (PGE2, LTB4); inhibits IL-1, IL-6, TNF-alpha",
+      "source_citation": "supplement-protocols.md Section 2"
+    },
+    {
+      "source": "NUT_002",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.75,
+      "evidence": "B",
+      "notes": "2,000mg EPA+DHA reduces inflammatory acne lesions",
+      "source_citation": "supplement-protocols.md Section 2"
+    },
+    {
+      "source": "NUT_003",
+      "target": "MECH_001",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "B",
+      "notes": "Immune modulation; increases antimicrobial peptides; regulates keratinocyte differentiation",
+      "source_citation": "supplement-protocols.md, nutrition-skin.md"
+    },
+    {
+      "source": "NUT_004",
+      "target": "RC_001",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "B",
+      "notes": "Modulates gut microbiome; increases beneficial taxa; reduces inflammation",
+      "source_citation": "gut-skin-axis.md Section 3.1, supplement-protocols.md"
+    },
+    {
+      "source": "NUT_005",
+      "target": "MECH_003",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "B",
+      "notes": "Provides amino acids for collagen synthesis; stimulates fibroblasts",
+      "source_citation": "supplement-protocols.md Section 10"
+    },
+    {
+      "source": "RF_001",
+      "target": "COND_001",
+      "type": "aggravates",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Hormonal changes in pregnancy can worsen acne (especially 1st trimester)",
+      "source_citation": "safety-demographics.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "RF_001",
+      "target": "COND_006",
+      "type": "aggravates",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Pregnancy is major trigger for melasma ('chloasma gravidarum')",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "RF_002",
+      "target": "COND_001",
+      "type": "aggravates",
+      "weight": 0.7,
+      "evidence": "A",
+      "notes": "Higher melanin content increases PIH risk from acne lesions",
+      "source_citation": "fitzpatrick-dark-skin.md, melanin-assessment.md"
+    },
+    {
+      "source": "RF_002",
+      "target": "COND_006",
+      "type": "aggravates",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Higher prevalence and severity in Fitzpatrick III-VI; visible light contributes",
+      "source_citation": "fitzpatrick-dark-skin.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "RF_002",
+      "target": "COND_007",
+      "type": "aggravates",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "PIH is the rule rather than exception after inflammation in Fitzpatrick V-VI",
+      "source_citation": "fitzpatrick-dark-skin.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "RF_004",
+      "target": "COND_004",
+      "type": "aggravates",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "HIV/AIDS increases seborrheic dermatitis prevalence to 80-90%",
+      "source_citation": "skin-condition-profiles.md Section 9"
+    },
+    {
+      "source": "RF_005",
+      "target": "COND_010",
+      "type": "aggravates",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "UV is the primary driver of photoaging; cumulative damage over lifetime",
+      "source_citation": "lifestyle-skin.md"
+    },
+    {
+      "source": "MED_001",
+      "target": "ING_001",
+      "type": "interacts_with",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "NEVER combine oral isotretinoin with topical retinoids without physician - additive toxicity",
+      "source_citation": "medication-skin-interactions.md"
+    },
+    {
+      "source": "MED_001",
+      "target": "NUT_006",
+      "type": "interacts_with",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Avoid vitamin A supplements with isotretinoin - additive hepatotoxicity",
+      "source_citation": "medication-skin-interactions.md, supplement-protocols.md"
+    },
+    {
+      "source": "MED_002",
+      "target": "NUT_001",
+      "type": "interacts_with",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Separate zinc and doxycycline by 2-4 hours - chelation reduces antibiotic absorption",
+      "source_citation": "medication-skin-interactions.md, supplement-protocols.md"
+    },
+    {
+      "source": "MED_003",
+      "target": "RF_001",
+      "type": "contraindicated_for",
+      "weight": 1.0,
+      "evidence": "A",
+      "notes": "Absolute contraindication in pregnancy - anti-androgen effects on male fetus",
+      "source_citation": "safety-demographics.md, medication-skin-interactions.md"
+    },
+    {
+      "source": "MED_001",
+      "target": "RF_001",
+      "type": "contraindicated_for",
+      "weight": 1.0,
+      "evidence": "A",
+      "notes": "ABSOLUTE CONTRAINDICATION - Category X; iPLEDGE mandatory",
+      "source_citation": "safety-demographics.md, clinical-guidelines.md"
+    },
+    {
+      "source": "ING_001",
+      "target": "RF_001",
+      "type": "contraindicated_for",
+      "weight": 1.0,
+      "evidence": "A",
+      "notes": "All retinoids contraindicated in pregnancy - teratogenic",
+      "source_citation": "safety-demographics.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_006",
+      "target": "RF_001",
+      "type": "contraindicated_for",
+      "weight": 0.8,
+      "evidence": "B",
+      "notes": "Avoid in pregnancy - systemic absorption concerns",
+      "source_citation": "safety-demographics.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_001",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "High PIH risk if irritation occurs; start with lowest concentration; slow titration; mandatory SPF",
+      "source_citation": "melanin-assessment.md, fitzpatrick-dark-skin.md"
+    },
+    {
+      "source": "ING_003",
+      "target": "RF_002",
+      "type": "fitzpatrick_safe",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "First choice for darker skin; low irritation risk; excellent safety profile",
+      "source_citation": "melanin-assessment.md, fitzpatrick-dark-skin.md"
+    },
+    {
+      "source": "ING_004",
+      "target": "RF_002",
+      "type": "fitzpatrick_safe",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Excellent for darker skin; prevents PIH; anti-inflammatory; barrier support",
+      "source_citation": "melanin-assessment.md, fitzpatrick-dark-skin.md"
+    },
+    {
+      "source": "ING_006",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Risk of exogenous ochronosis with prolonged use >6 months; limit to 8 weeks; more common in darker skin",
+      "source_citation": "melanin-assessment.md, skin-condition-profiles.md"
+    },
+    {
+      "source": "ING_009",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Peels >20% high PIH risk; test spot mandatory; start low; expert only",
+      "source_citation": "melanin-assessment.md, cosmetic-procedures.md"
+    },
+    {
+      "source": "ING_008",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.75,
+      "evidence": "A",
+      "notes": "Peels >20% high PIH risk; OTC 2% generally safe",
+      "source_citation": "melanin-assessment.md"
+    },
+    {
+      "source": "ING_023",
+      "target": "RF_002",
+      "type": "fitzpatrick_safe",
+      "weight": 0.9,
+      "evidence": "B",
+      "notes": "Large molecular weight = slower penetration; lower PIH risk than glycolic acid",
+      "source_citation": "ingredients-batch-2.md, melanin-assessment.md"
+    },
+    {
+      "source": "ING_024",
+      "target": "RF_002",
+      "type": "fitzpatrick_safe",
+      "weight": 0.95,
+      "evidence": "B",
+      "notes": "Very gentle; minimal irritation risk; excellent for sensitive/darker skin",
+      "source_citation": "ingredients-batch-2.md"
+    },
+    {
+      "source": "TREAT_005",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "IPL high PIH risk in darker skin; Nd:YAG 1064nm safer; test spot mandatory; expert only",
+      "source_citation": "melanin-assessment.md, cosmetic-procedures.md"
+    },
+    {
+      "source": "TREAT_004",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Glycolic peels >20% high PIH risk in darker skin; conservative approach; test spot essential",
+      "source_citation": "melanin-assessment.md, cosmetic-procedures.md"
+    },
+    {
+      "source": "ING_017",
+      "target": "RF_002",
+      "type": "fitzpatrick_caution",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Risk of hypopigmentation, atrophy, telangiectasia in darker skin; use lowest potency shortest duration",
+      "source_citation": "fitzpatrick-dark-skin.md"
+    },
+    {
+      "source": "TREAT_002",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Triple combination is gold standard for melasma; limit to 8 weeks",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "TREAT_003",
+      "target": "COND_005",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "First-line phototherapy for psoriasis; 2-3x weekly",
+      "source_citation": "clinical-guidelines.md Section 3"
+    },
+    {
+      "source": "TREAT_006",
+      "target": "COND_003",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Foundation of eczema management; apply within 3 minutes of bathing",
+      "source_citation": "clinical-guidelines.md Section 2"
+    },
+    {
+      "source": "TREAT_007",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.7,
+      "evidence": "B",
+      "notes": "Probiotics and gut optimization show emerging evidence for acne improvement",
+      "source_citation": "gut-skin-axis.md Section 3.1"
+    },
+    {
+      "source": "TREAT_007",
+      "target": "COND_003",
+      "type": "treats",
+      "weight": 0.75,
+      "evidence": "B",
+      "notes": "L. rhamnosus GG in pregnancy/infancy reduces AD incidence by 50%",
+      "source_citation": "gut-skin-axis.md Section 3.1"
+    },
+    {
+      "source": "TREAT_008",
+      "target": "COND_001",
+      "type": "treats",
+      "weight": 0.85,
+      "evidence": "A",
+      "notes": "Combined oral contraceptives and spironolactone effective for hormonal acne",
+      "source_citation": "clinical-guidelines.md Section 1"
+    },
+    {
+      "source": "TREAT_009",
+      "target": "COND_003",
+      "type": "treats",
+      "weight": 0.75,
+      "evidence": "B",
+      "notes": "Stress management reduces eczema flares; CBT and mindfulness beneficial",
+      "source_citation": "lifestyle-skin.md, hormone-skin-connection.md"
+    },
+    {
+      "source": "TREAT_010",
+      "target": "COND_006",
+      "type": "treats",
+      "weight": 0.95,
+      "evidence": "A",
+      "notes": "Strict photoprotection is essential for melasma management; iron oxide for visible light",
+      "source_citation": "skin-condition-profiles.md Section 11"
+    },
+    {
+      "source": "TREAT_010",
+      "target": "COND_007",
+      "type": "treats",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "SPF 30+ daily prevents darkening of PIH and formation of new lesions",
+      "source_citation": "skin-condition-profiles.md Section 12"
+    },
+    {
+      "source": "MED_004",
+      "target": "RF_001",
+      "type": "contraindicated_for",
+      "weight": 1.0,
+      "evidence": "A",
+      "notes": "Absolute contraindication; teratogenic; 3-month washout required",
+      "source_citation": "safety-demographics.md, clinical-guidelines.md"
+    },
+    {
+      "source": "MED_002",
+      "target": "RF_001",
+      "type": "contraindicated_for",
+      "weight": 1.0,
+      "evidence": "A",
+      "notes": "Tetracyclines affect fetal bone and tooth development; contraindicated in pregnancy",
+      "source_citation": "safety-demographics.md"
+    },
+    {
+      "source": "MED_001",
+      "target": "RF_003",
+      "type": "contraindicated_for",
+      "weight": 0.9,
+      "evidence": "A",
+      "notes": "Not typically used in children under 12; bone growth effects",
+      "source_citation": "safety-demographics.md"
+    },
+    {
+      "source": "ING_001",
+      "target": "RF_003",
+      "type": "contraindicated_for",
+      "weight": 0.8,
+      "evidence": "A",
+      "notes": "Avoid in children under 12 years",
+      "source_citation": "safety-demographics.md"
+    }
+  ]
+}

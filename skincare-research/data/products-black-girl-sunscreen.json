@@ -1,0 +1,534 @@
+[
+  {
+    "name": "Black Girl Sunscreen SPF 30",
+    "brand": "Black Girl Sunscreen",
+    "category": "Sunscreen - Chemical",
+    "price": "$15.99 - $18.99",
+    "size": "3.0 oz (89ml)",
+    "inci_ingredients": [
+      "Avobenzone (3%)",
+      "Homosalate (10%)",
+      "Octisalate (5%)",
+      "Octocrylene (5%)",
+      "Water",
+      "Acrylates Copolymer",
+      "Acrylates/C12-22 Alkyl Methacrylate Copolymer",
+      "Aloe Barbadensis Leaf Juice",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Carbomer",
+      "Cetearyl Alcohol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Coco-Caprylate/Caprate",
+      "Cocos Nucifera (Coconut) Oil",
+      "Daucus Carota Sativa (Carrot) Seed Oil",
+      "Disodium EDTA",
+      "Ethylhexylglycerin",
+      "Fragrance",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Hydroxyethylcellulose",
+      "Jojoba Esters",
+      "Laminaria Digitata (Kelp) Extract",
+      "Magnesium Aluminum Silicate",
+      "Mangifera Indica (Mango) Seed Butter",
+      "Nelumbo Nucifera (Lotus) Flower Extract",
+      "Phenoxyethanol",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Punica Granatum (Pomegranate) Extract",
+      "Sodium Hydroxide",
+      "Sorbitan Isostearate",
+      "Tocopherol (Vitamin E)",
+      "Triethanolamine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Avobenzone",
+        "concentration": "3%",
+        "function": "UVA filter (320-400nm), essential for broad-spectrum protection"
+      },
+      {
+        "ingredient": "Homosalate",
+        "concentration": "10%",
+        "function": "UVB filter (295-315nm)"
+      },
+      {
+        "ingredient": "Octisalate",
+        "concentration": "5%",
+        "function": "UVB filter, photostabilizer for avobenzone"
+      },
+      {
+        "ingredient": "Octocrylene",
+        "concentration": "5%",
+        "function": "UVB filter, photostabilizer for avobenzone"
+      },
+      {
+        "ingredient": "Aloe Vera Leaf Juice",
+        "concentration": "~2-5%",
+        "function": "Soothing, hydrating, anti-inflammatory"
+      },
+      {
+        "ingredient": "Shea Butter",
+        "concentration": "~2-3%",
+        "function": "Emollient, nourishing, non-comedogenic at this concentration"
+      },
+      {
+        "ingredient": "Carrot Seed Oil",
+        "concentration": "~0.5-1%",
+        "function": "Natural beta-carotene, antioxidant"
+      },
+      {
+        "ingredient": "Jojoba Esters",
+        "concentration": "~1-2%",
+        "function": "Non-comedogenic moisturizing, mimics sebum"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily UV protection",
+      "Prevention of hyperpigmentation",
+      "Photoaging prevention",
+      "No white cast on dark skin"
+    ],
+    "skin_types": [
+      "All",
+      "Dry",
+      "Normal",
+      "Combination",
+      "Dark Skin Tones"
+    ],
+    "contraindications": [
+      "Chemical sunscreen filters; some individuals prefer mineral for sensitive skin",
+      "Fragrance included; patch test if fragrance-sensitive",
+      "Coconut oil may be comedogenic for very acne-prone individuals (concentration is low)",
+      "Safe in pregnancy (chemical filters at these concentrations are generally considered safe; mineral preferred by some)",
+      "Reapply every 2 hours when outdoors"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "Black Girl Sunscreen Make It Matte SPF 45",
+    "brand": "Black Girl Sunscreen",
+    "category": "Sunscreen - Chemical/Mattifying",
+    "price": "$17.99 - $19.99",
+    "size": "1.7 oz (50ml)",
+    "inci_ingredients": [
+      "Avobenzone (3%)",
+      "Homosalate (10%)",
+      "Octisalate (5%)",
+      "Octocrylene (5%)",
+      "Water",
+      "Acrylates Copolymer",
+      "Acrylates/C12-22 Alkyl Methacrylate Copolymer",
+      "Aloe Barbadensis Leaf Juice",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Carbomer",
+      "Cetearyl Alcohol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Coco-Caprylate/Caprate",
+      "Cocos Nucifera (Coconut) Oil",
+      "Daucus Carota Sativa (Carrot) Seed Oil",
+      "Disodium EDTA",
+      "Ethylhexylglycerin",
+      "Fragrance",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Hydroxyethylcellulose",
+      "Jojoba Esters",
+      "Laminaria Digitata (Kelp) Extract",
+      "Magnesium Aluminum Silicate",
+      "Mangifera Indica (Mango) Seed Butter",
+      "Nelumbo Nucifera (Lotus) Flower Extract",
+      "Phenoxyethanol",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Punica Granatum (Pomegranate) Extract",
+      "Silica",
+      "Sodium Hydroxide",
+      "Sorbitan Isostearate",
+      "Tocopherol (Vitamin E)",
+      "Triethanolamine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Avobenzone",
+        "concentration": "3%",
+        "function": "UVA protection"
+      },
+      {
+        "ingredient": "Homosalate",
+        "concentration": "10%",
+        "function": "UVB protection"
+      },
+      {
+        "ingredient": "Octisalate",
+        "concentration": "5%",
+        "function": "UVB protection, avobenzone stabilization"
+      },
+      {
+        "ingredient": "Octocrylene",
+        "concentration": "5%",
+        "function": "UVB protection, avobenzone stabilization"
+      },
+      {
+        "ingredient": "Silica",
+        "concentration": "~2-3%",
+        "function": "Oil absorption, mattifying, reduces shine"
+      },
+      {
+        "ingredient": "Aloe Vera",
+        "concentration": "~2-3%",
+        "function": "Soothing"
+      },
+      {
+        "ingredient": "Shea Butter",
+        "concentration": "~1-2%",
+        "function": "Light moisture (reduced from original for matte finish)"
+      }
+    ],
+    "conditions_addressed": [
+      "Oily skin sun protection",
+      "Shine control",
+      "Under makeup",
+      "No white cast",
+      "Higher SPF for outdoor activity"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone",
+      "Dark Skin Tones"
+    ],
+    "contraindications": [
+      "Higher SPF but same chemical filter profile",
+      "Silica may be drying for very dry skin (use original formula instead)",
+      "Fragrance included",
+      "Safe in pregnancy",
+      "Reapply every 2 hours outdoors"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "Black Girl Sunscreen Kids SPF 50",
+    "brand": "Black Girl Sunscreen",
+    "category": "Sunscreen - Chemical (Pediatric)",
+    "price": "$15.99 - $17.99",
+    "size": "3.0 oz (89ml)",
+    "inci_ingredients": [
+      "Avobenzone (3%)",
+      "Homosalate (10%)",
+      "Octisalate (5%)",
+      "Octocrylene (5%)",
+      "Water",
+      "Acrylates Copolymer",
+      "Acrylates/C12-22 Alkyl Methacrylate Copolymer",
+      "Aloe Barbadensis Leaf Juice",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Carbomer",
+      "Cetearyl Alcohol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Coco-Caprylate/Caprate",
+      "Cocos Nucifera (Coconut) Oil",
+      "Daucus Carota Sativa (Carrot) Seed Oil",
+      "Disodium EDTA",
+      "Ethylhexylglycerin",
+      "Fragrance",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Hydroxyethylcellulose",
+      "Jojoba Esters",
+      "Laminaria Digitata (Kelp) Extract",
+      "Magnesium Aluminum Silicate",
+      "Mangifera Indica (Mango) Seed Butter",
+      "Nelumbo Nucifera (Lotus) Flower Extract",
+      "Phenoxyethanol",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Punica Granatum (Pomegranate) Extract",
+      "Sodium Hydroxide",
+      "Sorbitan Isostearate",
+      "Tocopherol (Vitamin E)",
+      "Triethanolamine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Avobenzone",
+        "concentration": "3%",
+        "function": "UVA protection"
+      },
+      {
+        "ingredient": "Homosalate",
+        "concentration": "10%",
+        "function": "UVB protection"
+      },
+      {
+        "ingredient": "Octisalate",
+        "concentration": "5%",
+        "function": "UVB protection"
+      },
+      {
+        "ingredient": "Octocrylene",
+        "concentration": "5%",
+        "function": "UVB protection"
+      },
+      {
+        "ingredient": "Aloe Vera",
+        "concentration": "~3-5%",
+        "function": "Extra soothing for children's sensitive skin"
+      },
+      {
+        "ingredient": "Shea Butter & Mango Butter",
+        "concentration": "~2-3% combined",
+        "function": "Gentle, nourishing moisture"
+      }
+    ],
+    "conditions_addressed": [
+      "Children's daily sun protection",
+      "Pediatric UV defense",
+      "Sensitive young skin",
+      "Higher SPF for active children"
+    ],
+    "skin_types": [
+      "All (Pediatric)",
+      "Sensitive (Children)"
+    ],
+    "contraindications": [
+      "Pediatric formulation; generally safe for ages 6 months+",
+      "Consult pediatrician for infants under 6 months (physical shade preferred)",
+      "Same chemical filters as adult formula; some parents prefer mineral for very young children",
+      "Fragrance included; monitor for sensitivity in very young children",
+      "Reapply frequently (every 80 minutes if swimming/sweating)"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "BGS Moisturizing Sunscreen SPF 30",
+    "brand": "Black Girl Sunscreen",
+    "category": "Sunscreen - Chemical/Moisturizing",
+    "price": "$15.99 - $17.99",
+    "size": "3.0 oz (89ml)",
+    "inci_ingredients": [
+      "Avobenzone (3%)",
+      "Homosalate (10%)",
+      "Octisalate (5%)",
+      "Octocrylene (5%)",
+      "Water",
+      "Acrylates Copolymer",
+      "Acrylates/C12-22 Alkyl Methacrylate Copolymer",
+      "Aloe Barbadensis Leaf Juice",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Carbomer",
+      "Cetearyl Alcohol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Coco-Caprylate/Caprate",
+      "Cocos Nucifera (Coconut) Oil",
+      "Daucus Carota Sativa (Carrot) Seed Oil",
+      "Disodium EDTA",
+      "Ethylhexylglycerin",
+      "Fragrance",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Hydroxyethylcellulose",
+      "Jojoba Esters",
+      "Laminaria Digitata (Kelp) Extract",
+      "Magnesium Aluminum Silicate",
+      "Mangifera Indica (Mango) Seed Butter",
+      "Nelumbo Nucifera (Lotus) Flower Extract",
+      "Phenoxyethanol",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Punica Granatum (Pomegranate) Extract",
+      "Sodium Hydroxide",
+      "Sorbitan Isostearate",
+      "Tocopherol (Vitamin E)",
+      "Triethanolamine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Same base formula as original",
+        "concentration": "N/A",
+        "function": "Standard BGS moisturizing formula"
+      },
+      {
+        "ingredient": "Enhanced moisturizing base",
+        "concentration": "N/A",
+        "function": "Slightly richer for dry skin types"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily moisturizing sun protection",
+      "Dry skin UV care",
+      "No white cast"
+    ],
+    "skin_types": [
+      "Dry",
+      "Normal",
+      "Combination",
+      "Dark Skin Tones"
+    ],
+    "contraindications": [
+      "Same as original BGS formula",
+      "Safe in pregnancy"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "BGS Make It Glow SPF 30",
+    "brand": "Black Girl Sunscreen",
+    "category": "Sunscreen - Chemical/Glow",
+    "price": "$17.99 - $19.99",
+    "size": "1.7 oz (50ml)",
+    "inci_ingredients": [
+      "Avobenzone (3%)",
+      "Homosalate (10%)",
+      "Octisalate (5%)",
+      "Octocrylene (5%)",
+      "Water",
+      "Acrylates Copolymer",
+      "Acrylates/C12-22 Alkyl Methacrylate Copolymer",
+      "Aloe Barbadensis Leaf Juice",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Carbomer",
+      "Cetearyl Alcohol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Coco-Caprylate/Caprate",
+      "Cocos Nucifera (Coconut) Oil",
+      "Daucus Carota Sativa (Carrot) Seed Oil",
+      "Disodium EDTA",
+      "Ethylhexylglycerin",
+      "Fragrance",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Hydroxyethylcellulose",
+      "Jojoba Esters",
+      "Laminaria Digitata (Kelp) Extract",
+      "Magnesium Aluminum Silicate",
+      "Mangifera Indica (Mango) Seed Butter",
+      "Mica",
+      "Nelumbo Nucifera (Lotus) Flower Extract",
+      "Phenoxyethanol",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Punica Granatum (Pomegranate) Extract",
+      "Sodium Hydroxide",
+      "Sorbitan Isostearate",
+      "Titanium Dioxide (CI 77891)",
+      "Tocopherol (Vitamin E)",
+      "Triethanolamine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Mica & Titanium Dioxide",
+        "concentration": "~1-2%",
+        "function": "Provides subtle shimmer/glow, not white cast"
+      },
+      {
+        "ingredient": "Same UV filters",
+        "concentration": "As original",
+        "function": "Broad-spectrum protection"
+      }
+    ],
+    "conditions_addressed": [
+      "Glow-enhancing sun protection",
+      "Radiance boosting",
+      "Pre-makeup luminous base"
+    ],
+    "skin_types": [
+      "All",
+      "Dull",
+      "Normal",
+      "Combination"
+    ],
+    "contraindications": [
+      "Contains mica shimmer; avoid if preferring matte finish",
+      "Titanium dioxide at low concentration for glow, not protection",
+      "Safe in pregnancy",
+      "Reapply every 2 hours"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "BGS Daily SPF 30 for Face",
+    "brand": "Black Girl Sunscreen",
+    "category": "Sunscreen - Chemical/Face Specific",
+    "price": "$16.99 - $18.99",
+    "size": "1.5 oz (44ml)",
+    "inci_ingredients": [
+      "Avobenzone (3%)",
+      "Homosalate (10%)",
+      "Octisalate (5%)",
+      "Octocrylene (5%)",
+      "Water",
+      "Acrylates Copolymer",
+      "Acrylates/C12-22 Alkyl Methacrylate Copolymer",
+      "Aloe Barbadensis Leaf Juice",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Carbomer",
+      "Cetearyl Alcohol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Coco-Caprylate/Caprate",
+      "Cocos Nucifera (Coconut) Oil",
+      "Daucus Carota Sativa (Carrot) Seed Oil",
+      "Disodium EDTA",
+      "Ethylhexylglycerin",
+      "Fragrance",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Hydroxyethylcellulose",
+      "Jojoba Esters",
+      "Laminaria Digitata (Kelp) Extract",
+      "Magnesium Aluminum Silicate",
+      "Mangifera Indica (Mango) Seed Butter",
+      "Nelumbo Nucifera (Lotus) Flower Extract",
+      "Phenoxyethanol",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Punica Granatum (Pomegranate) Extract",
+      "Sodium Hydroxide",
+      "Sorbitan Isostearate",
+      "Tocopherol (Vitamin E)",
+      "Triethanolamine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Same UV filter system",
+        "concentration": "As original",
+        "function": "Broad-spectrum protection"
+      },
+      {
+        "ingredient": "Face-optimized texture",
+        "concentration": "N/A",
+        "function": "Lighter weight for facial use, layers well under makeup"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily facial sun protection",
+      "Under makeup",
+      "No white cast on face"
+    ],
+    "skin_types": [
+      "All",
+      "Combination",
+      "Normal",
+      "Oily"
+    ],
+    "contraindications": [
+      "Same as original formula",
+      "Smaller size for face-specific use",
+      "Safe in pregnancy",
+      "Reapply every 2 hours"
+    ],
+    "ph_range": "6.0 - 7.0"
+  }
+]

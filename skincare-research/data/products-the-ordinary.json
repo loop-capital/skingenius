@@ -1,0 +1,1732 @@
+[
+  {
+    "name": "Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 6.0,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Niacinamide",
+      "Pentylene Glycol",
+      "Zinc PCA",
+      "Dimethyl Isosorbide",
+      "Tamarindus Indica Seed Gum",
+      "Xanthan Gum",
+      "Isoceteth-20",
+      "Ethoxydiglycol",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Niacinamide",
+        "concentration": "10%",
+        "purpose": "Pore minimization, sebum regulation, brightening, barrier support"
+      },
+      {
+        "name": "Zinc PCA",
+        "concentration": "1%",
+        "purpose": "Sebum control, antimicrobial, anti-inflammatory"
+      },
+      {
+        "name": "Tamarind Seed Gum",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration, film-forming"
+      }
+    ],
+    "conditions_addressed": [
+      "enlarged pores",
+      "excess sebum",
+      "uneven skin tone",
+      "textural irregularities"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Can cause flushing if used with vitamin C at same time (separate by AM/PM)",
+      "High concentration may irritate very sensitive skin - patch test",
+      "Avoid combining with pure vitamin C (L-Ascorbic Acid) in same routine"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 8.9,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Sodium Hyaluronate",
+      "Pentylene Glycol",
+      "Propanediol",
+      "Sodium Hyaluronate Crosspolymer",
+      "Panthenol",
+      "Ahnfeltia Concinna Extract",
+      "Glycerin",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Citric Acid",
+      "Isoceteth-20",
+      "Ethoxydiglycol",
+      "Ethylhexylglycerin",
+      "Hexylene Glycol",
+      "1,2-Hexanediol",
+      "Phenoxyethanol",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": [
+      {
+        "name": "Hyaluronic Acid (Sodium Hyaluronate)",
+        "concentration": "2%",
+        "purpose": "Multi-depth hydration, plumping"
+      },
+      {
+        "name": "Sodium Hyaluronate Crosspolymer",
+        "concentration": "Not disclosed",
+        "purpose": "Longer-lasting surface hydration"
+      },
+      {
+        "name": "Panthenol (Vitamin B5)",
+        "concentration": "Not disclosed",
+        "purpose": "Healing, hydration, barrier support"
+      },
+      {
+        "name": "Ahnfeltia Concinna Extract (Red Algae)",
+        "concentration": "Not disclosed",
+        "purpose": "Additional humectant properties"
+      }
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "dryness",
+      "fine lines from dehydration",
+      "compromised barrier"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "oily",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Apply to damp skin for best results",
+      "Non-irritating, universally compatible"
+    ],
+    "ph_range": "6.0-7.0"
+  },
+  {
+    "name": "AHA 30% + BHA 2% Peeling Solution",
+    "brand": "The Ordinary",
+    "category": "exfoliating mask",
+    "price": 8.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Glycolic Acid",
+      "Aqua (Water)",
+      "Aloe Barbadensis Leaf Water",
+      "Sodium Hydroxide",
+      "Daucus Carota Sativa Extract",
+      "Propanediol",
+      "Cocamidopropyl Dimethylamine",
+      "Salicylic Acid",
+      "Lactic Acid",
+      "Tartaric Acid",
+      "Citric Acid",
+      "Panthenol",
+      "Sodium Hyaluronate Crosspolymer",
+      "Tasmannia Lanceolata Fruit/Leaf Extract",
+      "Glycerin",
+      "Pentylene Glycol",
+      "Xanthan Gum",
+      "Polysorbate 20",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Potassium Sorbate",
+      "Sodium Benzoate",
+      "Ethylhexylglycerin",
+      "1,2-Hexanediol",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": [
+      {
+        "name": "Glycolic Acid (AHA)",
+        "concentration": "30% (blend of glycolic, lactic, tartaric, citric)",
+        "purpose": "Intensive exfoliation, cell turnover"
+      },
+      {
+        "name": "Salicylic Acid (BHA)",
+        "concentration": "2%",
+        "purpose": "Deep pore cleansing, acne treatment"
+      },
+      {
+        "name": "Tasmanian Pepperberry",
+        "concentration": "Not disclosed",
+        "purpose": "Reduces irritation from acids"
+      },
+      {
+        "name": "Vitamin B5",
+        "concentration": "Not disclosed",
+        "purpose": "Healing, calming"
+      },
+      {
+        "name": "Black Carrot",
+        "concentration": "Not disclosed",
+        "purpose": "Antioxidant, gives burgundy color"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven texture",
+      "dullness",
+      "hyperpigmentation",
+      "acne",
+      "clogged pores"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "NOT for sensitive skin",
+      "Use 1-2x per week MAX",
+      "Leave on 10 minutes ONLY",
+      "Do not use on wet skin",
+      "Rinse thoroughly",
+      "MANDATORY sunscreen next day",
+      "Do not use with retinol",
+      "May cause intense tingling/burning",
+      "Do not use on broken/compromised skin",
+      "Patch test mandatory"
+    ],
+    "ph_range": "3.5-3.7"
+  },
+  {
+    "name": "Retinol 0.5% in Squalane",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 6.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Squalane",
+      "Caprylic/Capric Triglyceride",
+      "Retinol",
+      "Solanum Lycopersicum (Tomato) Fruit Extract",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "name": "Retinol",
+        "concentration": "0.5%",
+        "purpose": "Cell turnover, wrinkle reduction, collagen stimulation"
+      },
+      {
+        "name": "Squalane",
+        "concentration": "Base",
+        "purpose": "Hydration, delivery vehicle"
+      },
+      {
+        "name": "Tomato Extract",
+        "concentration": "Not disclosed",
+        "purpose": "Antioxidant (lycopene)"
+      }
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "uneven texture",
+      "hyperpigmentation",
+      "acne"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Start 2-3x/week",
+      "Night use only",
+      "MANDATORY sunscreen during day",
+      "Avoid with acids (AHA/BHA) same routine",
+      "Buffer with moisturizer if sensitive",
+      "Expect initial peeling/irritation/purging",
+      "Do not use on damp skin"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  },
+  {
+    "name": "Retinol 1% in Squalane",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 7.8,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Squalane",
+      "Caprylic/Capric Triglyceride",
+      "Retinol",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Solanum Lycopersicum (Tomato) Fruit Extract",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "name": "Retinol",
+        "concentration": "1.0%",
+        "purpose": "High-strength cell turnover, wrinkle reduction"
+      },
+      {
+        "name": "Squalane",
+        "concentration": "Base",
+        "purpose": "Hydration, delivery vehicle"
+      }
+    ],
+    "conditions_addressed": [
+      "deep wrinkles",
+      "advanced photoaging",
+      "uneven texture",
+      "hyperpigmentation"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "tolerant"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Advanced users only",
+      "Start 1x/week, gradually increase",
+      "Night use only",
+      "MANDATORY sunscreen",
+      "High irritation potential",
+      "Avoid with all acids",
+      "Not for beginners",
+      "Expect significant peeling/irritation initially"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  },
+  {
+    "name": "Alpha Arbutin 2% + HA",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 10.6,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Alpha-Arbutin",
+      "Polyacrylate Crosspolymer-6",
+      "Hydrolyzed Sodium Hyaluronate",
+      "Propanediol",
+      "Pentylene Glycol",
+      "Dipotassium Glycyrrhizate",
+      "Tasmanian Lanceolata Fruit/Leaf Extract",
+      "Glycerin",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol",
+      "Chlorphenesin",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Lactic Acid",
+      "Citric Acid",
+      "Sodium Hyaluronate"
+    ],
+    "key_actives": [
+      {
+        "name": "Alpha Arbutin",
+        "concentration": "2%",
+        "purpose": "Tyrosinase inhibition, hyperpigmentation reduction"
+      },
+      {
+        "name": "Hydrolyzed Sodium Hyaluronate (HA)",
+        "concentration": "Not disclosed",
+        "purpose": "Enhanced penetration, hydration"
+      },
+      {
+        "name": "Tasmanian Pepperberry",
+        "concentration": "Not disclosed",
+        "purpose": "Reduces irritation"
+      },
+      {
+        "name": "Licorice Root Extract",
+        "concentration": "Not disclosed",
+        "purpose": "Brightening, anti-inflammatory"
+      }
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "dark spots",
+      "melasma",
+      "uneven skin tone",
+      "post-inflammatory hyperpigmentation (PIH)"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy (safer than hydroquinone)",
+      "Can be used AM and PM",
+      "Always use sunscreen when treating hyperpigmentation",
+      "Results take 8-12 weeks",
+      "Compatible with most other actives"
+    ],
+    "ph_range": "4.5-5.5"
+  },
+  {
+    "name": "Vitamin C Suspension 23% + HA Spheres 2%",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 6.8,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Ascorbic Acid",
+      "Squalane",
+      "Isodecyl Neopentanoate",
+      "Isononyl Isononanoate",
+      "Coconut Alkanes",
+      "Ethylene/Propylene/Styrene Copolymer",
+      "Ethylhexyl Palmitate",
+      "Silica Dimethyl Silylate",
+      "Sodium Hyaluronate",
+      "Glucomannan",
+      "Coco-Caprylate/Caprate",
+      "Butylene/Ethylene/Styrene Copolymer",
+      "Acrylates/Ethylhexyl Acrylate Crosspolymer",
+      "Trihydroxystearin",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "name": "L-Ascorbic Acid",
+        "concentration": "23%",
+        "purpose": "Antioxidant, brightening, collagen synthesis"
+      },
+      {
+        "name": "Sodium Hyaluronate Spheres",
+        "concentration": "2%",
+        "purpose": "Surface hydration, plumping effect"
+      },
+      {
+        "name": "Squalane",
+        "concentration": "Not disclosed",
+        "purpose": "Lightweight hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "hyperpigmentation",
+      "fine lines",
+      "uneven skin tone"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination",
+      "tolerant"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Very strong tingling expected (water-free formula)",
+      "High irritation potential",
+      "Suspension texture may feel gritty",
+      "Use at night if too irritating for AM",
+      "Do not combine with niacinamide in same routine",
+      "Start every other day",
+      "Can stain skin/clothes temporarily"
+    ],
+    "ph_range": "N/A (anhydrous, pH neutral)"
+  },
+  {
+    "name": "Ascorbic Acid 8% + Alpha Arbutin 2%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 11.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Propanediol",
+      "Ascorbic Acid",
+      "Alpha-Arbutin",
+      "Ethoxydiglycol",
+      "Triethanolamine",
+      "Ferulic Acid",
+      "Sodium Hyaluronate Crosspolymer",
+      "Myoxinol (Hibiscus Sabdariffa Flower Extract)"
+    ],
+    "key_actives": [
+      {
+        "name": "L-Ascorbic Acid",
+        "concentration": "8%",
+        "purpose": "Antioxidant, brightening"
+      },
+      {
+        "name": "Alpha Arbutin",
+        "concentration": "2%",
+        "purpose": "Hyperpigmentation reduction"
+      },
+      {
+        "name": "Ferulic Acid",
+        "concentration": "Not disclosed",
+        "purpose": "Stabilizes vitamin C, antioxidant synergy"
+      },
+      {
+        "name": "Hibiscus Extract (Myoxinol)",
+        "concentration": "Not disclosed",
+        "purpose": "Botanical peptide alternative, wrinkle smoothing"
+      }
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "dark spots",
+      "dullness",
+      "uneven skin tone"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "May cause mild tingling",
+      "Start slowly",
+      "Use sunscreen",
+      "Can be used AM (follow with SPF) or PM"
+    ],
+    "ph_range": "3.0-3.5"
+  },
+  {
+    "name": "Buffet",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 16.8,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Lactococcus Ferment Lysate",
+      "Acetyl Hexapeptide-8",
+      "Pentapeptide-18",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Palmitoyl Tripeptide-38",
+      "Dipeptide Diaminobutyroyl Benzylamide Diacetate",
+      "Acetylarginyltryptophyl Diphenylglycine",
+      "Sodium Hyaluronate Crosspolymer",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Glycine",
+      "Alanine",
+      "Serine",
+      "Valine",
+      "Isoleucine",
+      "Proline",
+      "Threonine",
+      "Histidine",
+      "Phenylalanine",
+      "Arginine",
+      "Aspartic Acid",
+      "Trehalose",
+      "Maltodextrin",
+      "Sodium Lactate",
+      "PCA",
+      "Sodium PCA",
+      "Sodium Citrate",
+      "Carbomer",
+      "Hydroxyethylcellulose",
+      "Pentylene Glycol",
+      "Ethoxydiglycol",
+      "Propanediol",
+      "Caprylyl Glycol",
+      "Xanthan Gum",
+      "Gluconolactone",
+      "Sodium Benzoate",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide",
+      "Citric Acid",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Lecithin"
+    ],
+    "key_actives": [
+      {
+        "name": "Matrixyl 3000 (Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7)",
+        "concentration": "Not disclosed",
+        "purpose": "Collagen synthesis, anti-wrinkle"
+      },
+      {
+        "name": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38)",
+        "concentration": "Not disclosed",
+        "purpose": "Fills wrinkles from within"
+      },
+      {
+        "name": "Relistase (Acetylarginyltryptophyl Diphenylglycine)",
+        "concentration": "Not disclosed",
+        "purpose": "Elasticity improvement"
+      },
+      {
+        "name": "Argireline (Acetyl Hexapeptide-8)",
+        "concentration": "Not disclosed",
+        "purpose": "Botox-like wrinkle reduction"
+      },
+      {
+        "name": "Syn-Ake (Dipeptide Diaminobutyroyl Benzylamide Diacetate)",
+        "concentration": "Not disclosed",
+        "purpose": "Muscle relaxation, wrinkle smoothing"
+      },
+      {
+        "name": "Probiotic Complex (Lactococcus Ferment Lysate)",
+        "concentration": "Not disclosed",
+        "purpose": "Barrier support, microbiome health"
+      }
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "loss of firmness",
+      "dehydration",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Can be used AM and PM",
+      "Compatible with most actives",
+      "Gentle enough for daily use"
+    ],
+    "ph_range": "6.0-7.0"
+  },
+  {
+    "name": "100% Plant-Derived Squalane",
+    "brand": "The Ordinary",
+    "category": "facial oil",
+    "price": 9.2,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Squalane"
+    ],
+    "key_actives": [
+      {
+        "name": "Plant-Derived Squalane (from sugarcane or olives)",
+        "concentration": "100%",
+        "purpose": "Lightweight hydration, barrier support, non-comedogenic"
+      }
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "dryness",
+      "compromised barrier",
+      "flakiness"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "oily",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Non-comedogenic",
+      "Universally compatible",
+      "Can be used on hair too"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  },
+  {
+    "name": "Natural Moisturizing Factors + HA",
+    "brand": "The Ordinary",
+    "category": "moisturizer",
+    "price": 8.8,
+    "size": "30ml / 1 fl oz (100ml also available)",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Caprylic/Capric Triglyceride",
+      "Cetyl Alcohol",
+      "Propanediol",
+      "Stearyl Alcohol",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Arginine",
+      "Aspartic Acid",
+      "Glycine",
+      "Alanine",
+      "Serine",
+      "Valine",
+      "Isoleucine",
+      "Proline",
+      "Threonine",
+      "Histidine",
+      "Phenylalanine",
+      "Glucose",
+      "Maltose",
+      "Fructose",
+      "Trehalose",
+      "Sodium PCA",
+      "PCA",
+      "Sodium Lactate",
+      "Urea",
+      "Allantoin",
+      "Linoleic Acid",
+      "Oleic Acid",
+      "Phytosteryl Canola Glycerides",
+      "Palmitic Acid",
+      "Stearic Acid",
+      "Lecithin",
+      "Triolein",
+      "Tocopherol",
+      "Carbomer",
+      "Isoceteth-20",
+      "Polysorbate 60",
+      "Sodium Chloride",
+      "Citric Acid",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Pentylene Glycol",
+      "Triethanolamine",
+      "Sodium Hydroxide",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Natural Moisturizing Factors (NMF)",
+        "concentration": "Proprietary blend",
+        "purpose": "Mimics skin's natural hydration components"
+      },
+      {
+        "name": "Amino Acids",
+        "concentration": "Multiple",
+        "purpose": "Barrier function, hydration"
+      },
+      {
+        "name": "Fatty Acids (Linoleic, Oleic, etc.)",
+        "concentration": "Multiple",
+        "purpose": "Barrier support, moisture retention"
+      },
+      {
+        "name": "Urea",
+        "concentration": "Not disclosed",
+        "purpose": "Humectant, mild exfoliation"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "dryness",
+      "compromised barrier",
+      "flakiness"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Non-comedogenic",
+      "Can be used AM and PM",
+      "Layer-friendly"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Salicylic Acid 2% Solution",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 6.0,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Cocamidopropyl Dimethylamine",
+      "Salicylic Acid",
+      "Dimethyl Isosorbide",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Citric Acid",
+      "Polysorbate 20",
+      "Hydroxyethylcellulose",
+      "Ethoxydiglycol",
+      "Potassium Sorbate",
+      "Sodium Benzoate",
+      "1,2-Hexanediol",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": [
+      {
+        "name": "Salicylic Acid",
+        "concentration": "2%",
+        "purpose": "Exfoliation inside pores, acne treatment, anti-inflammatory"
+      },
+      {
+        "name": "Witch Hazel",
+        "concentration": "Not disclosed",
+        "purpose": "Astringent, soothing"
+      }
+    ],
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "whiteheads",
+      "enlarged pores",
+      "congestion"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Can be drying - use with moisturizer",
+      "Start every other day",
+      "Can use AM or PM",
+      "Avoid combining with strong acids or retinol in same routine",
+      "Do not use on broken skin"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Glycolic Acid 7% Toning Solution",
+    "brand": "The Ordinary",
+    "category": "toner",
+    "price": 10.0,
+    "size": "240ml / 8 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycolic Acid",
+      "Rosa Damascena Flower Water",
+      "Centaurea Cyanus Flower Water",
+      "Aloe Barbadensis Leaf Water",
+      "Propanediol",
+      "Glycerin",
+      "Triethanolamine",
+      "Aminomethyl Propanol",
+      "Panax Ginseng Root Extract",
+      "Tasmannia Lanceolata Fruit/Leaf Extract",
+      "Aspartic Acid",
+      "Alanine",
+      "Glycine",
+      "Serine",
+      "Valine",
+      "Isoleucine",
+      "Proline",
+      "Threonine",
+      "Histidine",
+      "Phenylalanine",
+      "Glutamic Acid",
+      "Arginine",
+      "PCA",
+      "Sodium PCA",
+      "Sodium Lactate",
+      "Fructose",
+      "Glucose",
+      "Sucrose",
+      "Urea",
+      "Hexyl Nicotinate",
+      "Dextrin",
+      "Citric Acid",
+      "Polysorbate 20",
+      "Gluconolactone",
+      "Sodium Benzoate",
+      "Sodium Chloride",
+      "Sodium Hydroxide",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Glycolic Acid",
+        "concentration": "7%",
+        "purpose": "Gentle daily exfoliation, texture improvement"
+      },
+      {
+        "name": "Aloe Vera",
+        "concentration": "Not disclosed",
+        "purpose": "Soothing"
+      },
+      {
+        "name": "Ginseng Root",
+        "concentration": "Not disclosed",
+        "purpose": "Energizing, antioxidant"
+      },
+      {
+        "name": "Tasmanian Pepperberry",
+        "concentration": "Not disclosed",
+        "purpose": "Reduces irritation"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven texture",
+      "dullness",
+      "mild hyperpigmentation",
+      "enlarged pores"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Use at night preferred",
+      "Start every other day",
+      "Use sunscreen during day",
+      "Do not combine with retinol same night",
+      "May tingle slightly",
+      "Not for sensitive skin"
+    ],
+    "ph_range": "3.5-3.7"
+  },
+  {
+    "name": "Lactic Acid 10% + HA",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 8.9,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Lactic Acid",
+      "Glycerin",
+      "Pentylene Glycol",
+      "Propanediol",
+      "Sodium Hyaluronate Crosspolymer",
+      "Tasmannia Lanceolata Fruit/Leaf Extract",
+      "Acacia Senegal Gum Extract",
+      "Xanthan Gum",
+      "Isoceteth-20",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Sodium Hydroxide",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Lactic Acid",
+        "concentration": "10%",
+        "purpose": "Exfoliation, hydration (humectant properties)"
+      },
+      {
+        "name": "Sodium Hyaluronate Crosspolymer",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration"
+      },
+      {
+        "name": "Tasmanian Pepperberry",
+        "concentration": "Not disclosed",
+        "purpose": "Reduces irritation"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven texture",
+      "dullness",
+      "mild hyperpigmentation",
+      "dryness"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Use at night",
+      "Start 2-3x/week",
+      "Sunscreen mandatory",
+      "Can be more gentle than glycolic",
+      "Not for very sensitive skin"
+    ],
+    "ph_range": "3.6-3.8"
+  },
+  {
+    "name": "Lactic Acid 5% + HA",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 7.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Lactic Acid",
+      "Glycerin",
+      "Pentylene Glycol",
+      "Propanediol",
+      "Sodium Hyaluronate Crosspolymer",
+      "Tasmannia Lanceolata Fruit/Leaf Extract",
+      "Acacia Senegal Gum Extract",
+      "Xanthan Gum",
+      "Isoceteth-20",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Sodium Hydroxide",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Lactic Acid",
+        "concentration": "5%",
+        "purpose": "Gentle exfoliation, hydration"
+      },
+      {
+        "name": "Sodium Hyaluronate Crosspolymer",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration"
+      },
+      {
+        "name": "Tasmanian Pepperberry",
+        "concentration": "Not disclosed",
+        "purpose": "Irritation reduction"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven texture",
+      "dullness",
+      "mild dryness",
+      "beginner exfoliation"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Good starter acid for beginners",
+      "Use at night",
+      "Start 2-3x/week",
+      "Sunscreen mandatory",
+      "Gentler alternative to glycolic"
+    ],
+    "ph_range": "3.6-3.8"
+  },
+  {
+    "name": "Azelaic Acid Suspension 10%",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 10.0,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Isodecyl Neopentanoate",
+      "Dimethicone",
+      "Azelaic Acid",
+      "Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer",
+      "Dimethyl Isosorbide",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Polysilicone-11",
+      "Isohexadecane",
+      "Tocopherol",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Isoceteth-20",
+      "Polysorbate 60",
+      "Triethanolamine",
+      "Ethoxydiglycol",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Azelaic Acid",
+        "concentration": "10%",
+        "purpose": "Anti-inflammatory, antibacterial, tyrosinase inhibitor, pore clarifying"
+      },
+      {
+        "name": "Vitamin E",
+        "concentration": "Not disclosed",
+        "purpose": "Antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "acne",
+      "rosacea",
+      "hyperpigmentation",
+      "post-inflammatory erythema (PIE)",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily",
+      "acne-prone",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy (one of few acne treatments safe in pregnancy)",
+      "Can cause itching/tingling initially",
+      "Silicone-based texture may pill under makeup",
+      "Can be used AM and PM",
+      "Very well tolerated by sensitive skin"
+    ],
+    "ph_range": "4.0-5.0"
+  },
+  {
+    "name": "Caffeine Solution 5% + EGCG",
+    "brand": "The Ordinary",
+    "category": "eye serum",
+    "price": 7.9,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Caffeine",
+      "Maltodextrin",
+      "Glycerin",
+      "Propanediol",
+      "Epigallocatechin Gallatyl Glucoside (EGCG)",
+      "Gallyl Glucoside",
+      "Hyaluronic Acid",
+      "Oxidized Glutathione",
+      "Melanin",
+      "Glycine Soja (Soybean) Seed Extract",
+      "Pentylene Glycol",
+      "Hydroxyethylcellulose",
+      "Polyacrylate Crosspolymer-6",
+      "Xanthan Gum",
+      "Lactic Acid",
+      "Dehydroacetic Acid",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Propyl Gallate",
+      "Dimethyl Isosorbide",
+      "Ethoxydiglycol",
+      "Benzyl Alcohol",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Caffeine",
+        "concentration": "5%",
+        "purpose": "Reduces puffiness, increases microcirculation"
+      },
+      {
+        "name": "EGCG (from Green Tea)",
+        "concentration": "Highly purified",
+        "purpose": "Antioxidant, anti-inflammatory"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration"
+      },
+      {
+        "name": "Oxidized Glutathione",
+        "concentration": "Not disclosed",
+        "purpose": "Antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "under-eye puffiness",
+      "dark circles (vascular)",
+      "tired eyes"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "For external use only - do not get in eyes",
+      "Can be used AM and PM",
+      "Not effective for genetic/hereditary dark circles",
+      "Results are temporary (vasoconstriction)"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Argireline Solution 10%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 9.8,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Propanediol",
+      "Acetyl Hexapeptide-8",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Gellan Gum",
+      "Sodium Chloride",
+      "Isoceteth-20",
+      "Dimethyl Isosorbide",
+      "Potassium Sorbate",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Argireline (Acetyl Hexapeptide-8)",
+        "concentration": "10%",
+        "purpose": "Botox-like muscle relaxation, wrinkle reduction"
+      }
+    ],
+    "conditions_addressed": [
+      "expression lines",
+      "forehead wrinkles",
+      "crow's feet",
+      "frown lines"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Apply to targeted areas (forehead, around eyes)",
+      "Can be used AM and PM",
+      "Best for dynamic wrinkles (not static)",
+      "Results require consistent use"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Matrixyl 10% + HA",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price": 11.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Palmitoyl Tripeptide-38",
+      "Sodium Hyaluronate",
+      "Hydroxypropyl Cyclodextrin",
+      "Ahnfeltia Concinna Extract",
+      "Arginine",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Propanediol",
+      "Pentylene Glycol",
+      "Dextran",
+      "Dimethyl Isosorbide",
+      "Ethoxydiglycol",
+      "Isoceteth-20",
+      "Leuconostoc/Radish Root Ferment Filtrate",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Matrixyl (Palmitoyl Tripeptide-1)",
+        "concentration": "10% total peptide complex",
+        "purpose": "Collagen synthesis, repair"
+      },
+      {
+        "name": "Matrixyl 3000 (Palmitoyl Tetrapeptide-7)",
+        "concentration": "Part of 10% complex",
+        "purpose": "Anti-inflammatory, collagen support"
+      },
+      {
+        "name": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38)",
+        "concentration": "Part of 10% complex",
+        "purpose": "Fills wrinkles from within"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "loss of firmness",
+      "dehydration"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Can be used AM and PM",
+      "Compatible with vitamin C and retinol",
+      "Gentle alternative to retinol"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Granactive Retinoid 2% Emulsion",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 11.0,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Ethyl Linoleate",
+      "Propanediol",
+      "Dimethyl Isosorbide",
+      "Cetearyl Isononanoate",
+      "Bisabolol",
+      "Hydroxypinacolone Retinoate",
+      "Retinol",
+      "Tasmannia Lanceolata Fruit/Leaf Extract",
+      "Inulin Lauryl Carbamate",
+      "Glyceryl Stearate",
+      "Ceteareth-12",
+      "Ceteareth-20",
+      "Cetearyl Alcohol",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Xanthan Gum",
+      "Saponins",
+      "Isoceteth-20",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Dimethicone",
+      "Polysorbate 20",
+      "BHT",
+      "Ethoxydiglycol",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Hydroxypinacolone Retinoate (Granactive Retinoid)",
+        "concentration": "2%",
+        "purpose": "Direct retinoid activity without conversion (gentler than retinol)"
+      },
+      {
+        "name": "Pure Retinol",
+        "concentration": "Not disclosed (microencapsulated, slow-release)",
+        "purpose": "Enhanced efficacy"
+      },
+      {
+        "name": "Bisabolol",
+        "concentration": "Not disclosed",
+        "purpose": "Soothing, anti-inflammatory"
+      },
+      {
+        "name": "Tasmanian Pepperberry",
+        "concentration": "Not disclosed",
+        "purpose": "Irritation reduction"
+      }
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "uneven texture",
+      "hyperpigmentation",
+      "acne"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily",
+      "sensitive"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "Gentler than retinol but still potent",
+      "Use at night",
+      "Start 2-3x/week",
+      "MANDATORY sunscreen",
+      "Can cause initial purging",
+      "Avoid with acids same night"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Granactive Retinoid 5% in Squalane",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 14.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Squalane",
+      "C12-15 Alkyl Benzoate",
+      "Bisabolol",
+      "Dimethyl Isosorbide",
+      "Hydroxypinacolone Retinoate",
+      "Solanum Lycopersicum (Tomato) Fruit Extract",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "name": "Hydroxypinacolone Retinoate",
+        "concentration": "5%",
+        "purpose": "High-strength direct retinoid"
+      },
+      {
+        "name": "Squalane",
+        "concentration": "Base",
+        "purpose": "Hydration, delivery"
+      },
+      {
+        "name": "Bisabolol",
+        "concentration": "Not disclosed",
+        "purpose": "Soothing"
+      }
+    ],
+    "conditions_addressed": [
+      "advanced signs of aging",
+      "deep wrinkles",
+      "uneven texture",
+      "hyperpigmentation"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "NOT for pregnancy or breastfeeding",
+      "High strength - experienced retinoid users only",
+      "Use at night",
+      "Start 1-2x/week",
+      "MANDATORY sunscreen",
+      "Expect irritation/purging",
+      "Oil-based texture"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  },
+  {
+    "name": "Squalane Cleanser",
+    "brand": "The Ordinary",
+    "category": "cleanser",
+    "price": 9.2,
+    "size": "50ml / 1.7 fl oz (150ml also available)",
+    "inci_ingredients": [
+      "Squalane",
+      "Aqua (Water)",
+      "Coco-Caprylate/Caprate",
+      "Glycerin",
+      "Sucrose Stearate",
+      "Ethyl Macadamiate",
+      "Caprylic/Capric Triglyceride",
+      "Sucrose Laurate",
+      "Hydrogenated Starch Hydrolysate",
+      "Sucrose Dilaurate",
+      "Sucrose Trilaurate",
+      "Xanthan Gum",
+      "Isoceteth-20",
+      "Polyacrylate Crosspolymer-6",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Tocopherol",
+      "Malic Acid",
+      "Ethylhexylglycerin",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Squalane",
+        "concentration": "Primary ingredient",
+        "purpose": "Gentle cleansing, makeup removal"
+      },
+      {
+        "name": "Sugar Esters",
+        "concentration": "Multiple",
+        "purpose": "Mild surfactant, emulsifying"
+      },
+      {
+        "name": "Vitamin E",
+        "concentration": "Not disclosed",
+        "purpose": "Antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "makeup removal",
+      "daily cleansing",
+      "dryness"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Balm-to-oil texture - emulsifies with water",
+      "Double cleanse for heavy makeup",
+      "Non-stripping"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Mineral UV Filters SPF 30 with Antioxidants",
+    "brand": "The Ordinary",
+    "category": "sunscreen",
+    "price": 10.0,
+    "size": "50ml / 1.7 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Cyclopentasiloxane",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "PEG-10 Dimethicone",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "PEG/PPG-18/18 Dimethicone",
+      "Hexyl Laurate",
+      "Polyglyceryl-4 Isostearate",
+      "Caprylic/Capric Triglyceride",
+      "Propanediol",
+      "Polysilicone-11",
+      "Hydroxypinacolone Retinoate",
+      "Retinol",
+      "Arginine",
+      "Argania Spinosa Kernel Oil",
+      "Tocopherol",
+      "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+      "Fructose",
+      "Glucose",
+      "Maltose",
+      "Sucrose",
+      "Trellahose",
+      "PCA",
+      "Sodium PCA",
+      "Sodium Lactate",
+      "Urea",
+      "Allantoin",
+      "Sodium Hyaluronate",
+      "Linoleic Acid",
+      "Oleic Acid",
+      "Phytosteryl Canola Glycerides",
+      "Palmitic Acid",
+      "Stearic Acid",
+      "Lecithin",
+      "Triolein",
+      "Pentylene Glycol",
+      "Triethanolamine",
+      "Sodium Chloride",
+      "Sodium Hydroxide",
+      "Phenoxyethanol",
+      "Chlorphenesin"
+    ],
+    "key_actives": [
+      {
+        "name": "Zinc Oxide",
+        "concentration": "Not disclosed",
+        "purpose": "UVA/UVB protection"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "concentration": "Not disclosed",
+        "purpose": "UVB protection"
+      },
+      {
+        "name": "Bio-Active Antioxidants",
+        "concentration": "Not disclosed",
+        "purpose": "Free radical defense"
+      },
+      {
+        "name": "Squalane",
+        "concentration": "Not disclosed",
+        "purpose": "Hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "UV damage prevention",
+      "photoaging",
+      "sunburn"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Physical sunscreen - may leave white cast",
+      "Reapply every 2 hours",
+      "May feel heavy for oily skin"
+    ],
+    "ph_range": "7.0-8.0"
+  },
+  {
+    "name": "Rose Hip Seed Oil",
+    "brand": "The Ordinary",
+    "category": "facial oil",
+    "price": 10.6,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Rosa Canina Seed Oil"
+    ],
+    "key_actives": [
+      {
+        "name": "100% Organic Rose Hip Seed Oil",
+        "concentration": "100%",
+        "purpose": "Regeneration, brightening, anti-aging (natural retinoic acid precursors)"
+      },
+      {
+        "name": "Linoleic Acid",
+        "concentration": "~35-55%",
+        "purpose": "Barrier support, anti-inflammatory"
+      },
+      {
+        "name": "Linolenic Acid",
+        "concentration": "~30-35%",
+        "purpose": "Barrier repair, soothing"
+      },
+      {
+        "name": "Natural Tretinoin (Retinoic Acid) Precursors",
+        "concentration": "Trace",
+        "purpose": "Cell turnover, regeneration"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven skin tone",
+      "scarring",
+      "dryness",
+      "signs of aging",
+      "dullness"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "Orange color may stain light fabrics temporarily",
+      "Apply at night or under sunscreen",
+      "Patch test if acne-prone (some find it comedogenic)"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  },
+  {
+    "name": "Marula Oil",
+    "brand": "The Ordinary",
+    "category": "facial oil",
+    "price": 8.9,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Sclerocarya Birrea Seed Oil"
+    ],
+    "key_actives": [
+      {
+        "name": "100% Cold-Pressed Virgin Marula Oil",
+        "concentration": "100%",
+        "purpose": "Hydration, antioxidant protection (high oleic acid, tocopherols)"
+      }
+    ],
+    "conditions_addressed": [
+      "dryness",
+      "dehydration",
+      "dullness",
+      "signs of aging"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "Safe for sensitive skin",
+      "High oleic content - patch test if acne-prone",
+      "Compare to Drunk Elephant version (same oil, different price point)"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  },
+  {
+    "name": "EUK 134 0.1%",
+    "brand": "The Ordinary",
+    "category": "antioxidant",
+    "price": 9.3,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Propanediol",
+      "Ethylbisiminomethylguaiacol Manganese Chloride"
+    ],
+    "key_actives": [
+      {
+        "name": "EUK-134 (Ethylbisiminomethylguaiacol Manganese Chloride)",
+        "concentration": "0.1%",
+        "purpose": "Mimics superoxide dismutase (SOD) and catalase - neutralizes free radicals, prevents oxidative stress"
+      }
+    ],
+    "conditions_addressed": [
+      "oxidative stress",
+      "environmental damage",
+      "aging prevention",
+      "inflammation"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Safe for pregnancy (topical antioxidant)",
+      "DO NOT mix with acids (destroys molecule)",
+      "DO NOT mix with L-Ascorbic Acid (conflict)",
+      "Use alone or with water-based formulas",
+      "Brown color is normal",
+      "Can be used AM and PM",
+      "One of the strongest antioxidants available"
+    ],
+    "ph_range": "7.0-8.0"
+  },
+  {
+    "name": "Alpha Lipoic Acid 5%",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price": 7.5,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Propanediol",
+      "Thioctic Acid (Alpha Lipoic Acid)"
+    ],
+    "key_actives": [
+      {
+        "name": "Alpha Lipoic Acid (Thioctic Acid)",
+        "concentration": "5%",
+        "purpose": "Potent antioxidant, anti-inflammatory, skin brightening"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "uneven skin tone",
+      "signs of aging",
+      "oxidative damage"
+    ],
+    "skin_types": [
+      "normal",
+      "combination"
+    ],
+    "contraindications": [
+      "Safe for pregnancy",
+      "High concentration - use 2-3x per week MAX",
+      "Can cause stinging/tingling",
+      "Do not use on sensitive/irritated skin",
+      "Water-free formula",
+      "Use at night preferred"
+    ],
+    "ph_range": "N/A (anhydrous)"
+  }
+]

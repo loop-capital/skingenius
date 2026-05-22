@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "acne-vulgaris",
+    "name": "Acne Vulgaris",
+    "icd10": "L70.9",
+    "category": "inflammatory",
+    "severity": "mild_to_severe",
+    "description": "A chronic inflammatory skin condition affecting the pilosebaceous unit, characterized by comedones, papules, pustules, nodules, and cysts. Most common in adolescents but can persist into adulthood. Driven by follicular hyperkeratinization, increased sebum production, Cutibacterium acnes proliferation, and inflammation.",
+    "symptoms": [
+      "Comedones (blackheads and whiteheads)",
+      "Inflammatory papules and pustules",
+      "Nodules and cysts in severe cases",
+      "Post-inflammatory erythema and hyperpigmentation",
+      "Scarring in severe or untreated cases",
+      "Predilection for face, chest, back, and shoulders"
+    ],
+    "triggers": [
+      "Hormonal fluctuations (puberty, menstruation, PCOS)",
+      "Dairy consumption and high glycemic load diets",
+      "Stress and cortisol elevation",
+      "Comedogenic cosmetics and skincare products",
+      "Occlusive clothing and mechanical irritation",
+      "Humidity and excessive sweating",
+      "Certain medications (steroids, lithium, phenytoin)"
+    ],
+    "related_conditions": [
+      "hormonal-acne",
+      "acne-mechanica",
+      "rosacea",
+      "seborrheic-dermatitis"
+    ],
+    "red_flags": [
+      "Sudden onset severe acne in adulthood (possible androgen excess)",
+      "Acne with hirsutism and irregular menses (possible PCOS)",
+      "Isolated severe nodules without comedones (possible gram-negative folliculitis)",
+      "Acne fulminans with systemic symptoms",
+      "Significant psychological distress or depression"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Post-inflammatory erythema (PIE) more prominent; erythematous macules persist for months",
+      "III_IV": "Both PIE and post-inflammatory hyperpigmentation (PIH) common; PIH may dominate",
+      "V_VI": "Post-inflammatory hyperpigmentation is primary concern; acne often undertreated due to fear of PIH; higher risk of keloid scarring"
+    },
+    "pregnancy_considerations": "Category C: Avoid topical retinoids (tretinoin, adapalene, tazarotene) and oral isotretinoin. Safe options include azelaic acid, topical erythromycin/clindamycin, benzoyl peroxide (limited absorption). Oral tetracyclines contraindicated."
+  },
+  {
+    "id": "hormonal-acne",
+    "name": "Hormonal Acne",
+    "icd10": "L70.9",
+    "category": "inflammatory",
+    "severity": "mild_to_moderate",
+    "description": "A subtype of acne vulgaris driven by hormonal fluctuations, particularly androgens, which stimulate sebaceous gland activity. Typically presents in adult women along the jawline, chin, and neck. Often cyclical, flaring before menstruation.",
+    "symptoms": [
+      "Deep, painful papules and nodules along jawline, chin, and neck",
+      "Cyclical pattern tied to menstrual cycle",
+      "Often minimal comedones compared to inflammatory lesions",
+      "Adult-onset (typically after age 25)",
+      "Resistant to conventional topical treatments",
+      "May persist or worsen during perimenopause"
+    ],
+    "triggers": [
+      "Menstrual cycle fluctuations (luteal phase progesterone rise)",
+      "Polycystic ovary syndrome (PCOS)",
+      "Discontinuation of oral contraceptives",
+      "Stress-induced cortisol and androgen elevation",
+      "High androgen index progestins in hormonal contraception",
+      "Perimenopausal hormonal shifts"
+    ],
+    "related_conditions": [
+      "acne-vulgaris",
+      "acne-mechanica",
+      "rosacea",
+      "perioral-dermatitis"
+    ],
+    "red_flags": [
+      "New-onset hormonal acne with signs of virilization (deepening voice, increased body hair)",
+      "Severe acne with menstrual irregularities or infertility (possible PCOS)",
+      "Rapid onset with systemic symptoms (possible adrenal or ovarian tumor)",
+      "Refractory to standard hormonal therapy"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Post-inflammatory erythema prominent along jawline",
+      "III_IV": "Mixed PIE and PIH; hyperpigmentation can be significant along jawline and neck",
+      "V_VI": "Post-inflammatory hyperpigmentation is major concern; jawline and neck PIH can be persistent and challenging to treat"
+    },
+    "pregnancy_considerations": "Spironolactone absolutely contraindicated. Oral contraceptives containing anti-androgenic progestins (drospirenone, cyproterone) must be stopped. Safe: azelaic acid, benzoyl peroxide, topical clindamycin."
+  },
+  {
+    "id": "acne-mechanica",
+    "name": "Acne Mechanica",
+    "icd10": "L70.9",
+    "category": "inflammatory",
+    "severity": "mild_to_moderate",
+    "description": "A form of acne triggered by friction, pressure, heat, or occlusion of the skin. Common in athletes (helmet, chin strap, shoulder pads), musicians, and individuals who wear tight clothing or masks. Results from mechanical irritation of the pilosebaceous unit.",
+    "symptoms": [
+      "Monomorphic papules and pustules at sites of friction/pressure",
+      "Distribution corresponds to equipment or clothing contact",
+      "Common on forehead (helmets), chin (masks), back and shoulders (backpacks, pads)",
+      "May lack comedones initially",
+      "Often worse in hot, humid conditions"
+    ],
+    "triggers": [
+      "Friction and pressure from sports equipment (helmets, chin straps, shoulder pads)",
+      "Tight clothing and synthetic fabrics",
+      "Prolonged mask wearing (acne mechanica / maskne)",
+      "Musical instrument contact (violin, guitar)",
+      "Backpack straps and tight bra straps",
+      "Heat and humidity combined with occlusion"
+    ],
+    "related_conditions": [
+      "acne-vulgaris",
+      "folliculitis",
+      "pseudofolliculitis-barbae"
+    ],
+    "red_flags": [
+      "Lesions not improving with removal of trigger",
+      "Development of nodules, cysts, or scarring",
+      "Signs of secondary bacterial infection",
+      "Persistent despite 4\u20136 weeks of trigger avoidance"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Post-inflammatory erythema prominent; friction-induced erythema may be pronounced",
+      "III_IV": "Risk of post-inflammatory hyperpigmentation at friction sites",
+      "V_VI": "Post-inflammatory hyperpigmentation significant; friction sites on darker skin are prone to hyperpigmentation and keloid formation"
+    },
+    "pregnancy_considerations": "Management focuses on behavioral modifications (loose clothing, moisture-wicking fabrics, barrier protection). Topical benzoyl peroxide and azelaic acid safe. Avoid topical retinoids."
+  },
+  {
+    "id": "eczema-atopic-dermatitis",
+    "name": "Eczema / Atopic Dermatitis",
+    "icd10": "L20.9",
+    "category": "inflammatory",
+    "severity": "mild_to_severe",
+    "description": "A chronic, relapsing inflammatory skin condition characterized by pruritus, erythema, dry skin, and eczematous lesions. Associated with type 2 immune response, skin barrier dysfunction (filaggrin mutations), and atopic diathesis (asthma, allergic rhinitis). Affects up to 20% of children and 3\u20137% of adults.",
+    "symptoms": [
+      "Intense pruritus (itch-scratch cycle)",
+      "Erythematous, poorly demarcated patches and plaques",
+      "Dry, xerotic skin",
+      "Lichenification in chronic lesions",
+      "Excoriations and crusting",
+      "Oozing and weeping in acute flares",
+      "Infantile pattern: face, scalp, extensor surfaces; Adult pattern: flexural (antecubital, popliteal fossae), hands, feet"
+    ],
+    "triggers": [
+      "Environmental allergens (dust mites, pollen, pet dander)",
+      "Irritants (soaps, detergents, fragrances, wool)",
+      "Temperature extremes and low humidity",
+      "Stress and psychological factors",
+      "Food allergens (eggs, milk, peanuts, soy, wheat \u2014 especially in children)",
+      "Skin infections (S. aureus colonization, herpes simplex)",
+      "Hormonal changes (pregnancy, menstruation)"
+    ],
+    "related_conditions": [
+      "seborrheic-dermatitis",
+      "contact-dermatitis",
+      "psoriasis",
+      "keratosis-pilaris"
+    ],
+    "red_flags": [
+      "Eczema herpeticum: sudden eruption of painful, monomorphic vesicles with fever and malaise \u2014 EMERGENCY",
+      "Widespread bacterial infection with honey-colored crusting and systemic symptoms",
+      "Sudden severe flare unresponsive to usual management",
+      "Significant sleep disturbance and psychological distress",
+      "Growth failure in children with severe disease"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Erythema readily visible; post-inflammatory erythema common; photosensitivity may occur with phototherapy",
+      "III_IV": "Erythema may appear violaceous or gray; post-inflammatory hyperpigmentation and hypopigmentation both common; lichenification may be subtle",
+      "V_VI": "Erythema difficult to assess; may present as violaceous, gray, or dark brown patches; follicular pattern more common; post-inflammatory pigmentary changes (both hyper- and hypopigmentation) significant; keloid risk at excoriation sites"
+    },
+    "pregnancy_considerations": "Topical corticosteroids generally safe (prefer low to mid potency; avoid potent steroids over large areas). Calcineurin inhibitors (tacrolimus, pimecrolimus) considered safe (Category C, no teratogenicity in animal studies). Avoid systemic corticosteroids if possible; cyclosporine and methotrexate generally avoided. Dupilumab and tralokinumab considered safe. Phototherapy generally safe."
+  },
+  {
+    "id": "seborrheic-dermatitis",
+    "name": "Seborrheic Dermatitis",
+    "icd10": "L21.9",
+    "category": "inflammatory",
+    "severity": "mild_to_moderate",
+    "description": "A chronic, relapsing inflammatory skin condition affecting sebum-rich areas of the body. Characterized by erythema and greasy, yellowish scaling. Associated with Malassezia yeast overgrowth, immune response, and genetic factors. Common in infants (cradle cap) and adults.",
+    "symptoms": [
+      "Erythematous patches with greasy, yellowish scales",
+      "Pruritus (typically mild to moderate)",
+      "Distribution: scalp, eyebrows, nasolabial folds, glabella, chest, intertriginous areas",
+      "Dandruff (mild scalp form)",
+      "May worsen in winter and with stress"
+    ],
+    "triggers": [
+      "Malassezia yeast overgrowth and immune response",
+      "Stress and fatigue",
+      "Cold, dry weather",
+      "HIV/AIDS and immunosuppression",
+      "Neurological conditions (Parkinson's, stroke, spinal cord injury)",
+      "Certain medications (lithium, haloperidol, fluoxetine)",
+      "Hormonal changes"
+    ],
+    "related_conditions": [
+      "eczema-atopic-dermatitis",
+      "psoriasis",
+      "tinea-versicolor",
+      "rosacea"
+    ],
+    "red_flags": [
+      "Severe, treatment-resistant seborrheic dermatitis in young adults (consider HIV testing)",
+      "Sudden onset with systemic symptoms",
+      "Widespread erythroderma",
+      "Signs of secondary bacterial infection"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Erythema and scaling readily visible; post-inflammatory erythema may persist",
+      "III_IV": "Erythema may be subtle; scaling and hypopigmentation may be more noticeable",
+      "V_VI": "Erythema difficult to appreciate; may present with violaceous or dark brown patches; hypopigmentation and post-inflammatory pigment changes common; scalp involvement may lead to hair breakage"
+    },
+    "pregnancy_considerations": "Topical antifungals (ketoconazole, ciclopirox) and low-potency corticosteroids generally safe. Selenium sulfide and zinc pyrithione shampoos safe. Avoid systemic antifungals."
+  },
+  {
+    "id": "psoriasis",
+    "name": "Psoriasis",
+    "icd10": "L40.9",
+    "category": "autoimmune",
+    "severity": "mild_to_severe",
+    "description": "A chronic, immune-mediated inflammatory disease characterized by well-demarcated erythematous plaques with silvery scale. Driven by Th1/Th17 immune pathways with TNF-alpha, IL-17, and IL-23 cytokines. Affects 2\u20133% of the population; can involve skin, nails, and joints (psoriatic arthritis).",
+    "symptoms": [
+      "Well-demarcated erythematous plaques with silvery-white scale",
+      "Pruritus (variable; often mild but can be severe)",
+      "Burning and stinging sensations",
+      "Nail changes: pitting, onycholysis, subungual hyperkeratosis, oil spots",
+      "Scalp involvement with thick, adherent scale",
+      "Inverse psoriasis: smooth, red patches in intertriginous areas",
+      "Koebner phenomenon: lesions develop at sites of trauma",
+      "Auspitz sign: pinpoint bleeding when scale removed"
+    ],
+    "triggers": [
+      "Stress (psychological and physical)",
+      "Infections (streptococcal pharyngitis \u2014 guttate psoriasis)",
+      "Skin trauma (Koebner phenomenon)",
+      "Medications (beta-blockers, lithium, antimalarials, NSAIDs, systemic corticosteroid withdrawal)",
+      "Alcohol consumption and smoking",
+      "Obesity and metabolic syndrome",
+      "Cold, dry weather",
+      "Pregnancy and hormonal changes"
+    ],
+    "related_conditions": [
+      "eczema-atopic-dermatitis",
+      "seborrheic-dermatitis",
+      "psoriatic-arthritis",
+      "metabolic-syndrome"
+    ],
+    "red_flags": [
+      "Erythrodermic psoriasis: generalized erythema and scaling \u2014 dermatologic emergency",
+      "Generalized pustular psoriasis (von Zumbusch): widespread pustules with fever and systemic toxicity \u2014 EMERGENCY",
+      "Joint pain, swelling, or morning stiffness (possible psoriatic arthritis)",
+      "Signs of infection in plaques"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Classic salmon-pink plaques with silvery scale; erythema readily visible",
+      "III_IV": "Plaques may appear violaceous or dark red; scale may have grayish tint",
+      "V_VI": "Plaques often violaceous, dark brown, or gray; scale may be less visible; hypopigmentation common in resolving plaques; post-inflammatory hyperpigmentation may persist; scalp psoriasis may cause hair breakage and alopecia; diagnostic delay common due to atypical presentation"
+    },
+    "pregnancy_considerations": "Topical corticosteroids and calcipotriene generally safe. Avoid systemic therapies (methotrexate absolutely contraindicated, cyclosporine, acitretin). Biologics (TNF inhibitors, IL-17/23 inhibitors) have pregnancy registry data; most considered relatively safe but discuss risks/benefits. Phototherapy (NB-UVB) safe. Psoriasis may improve, worsen, or remain unchanged during pregnancy."
+  },
+  {
+    "id": "rosacea",
+    "name": "Rosacea",
+    "icd10": "L71.9",
+    "category": "inflammatory",
+    "severity": "mild_to_severe",
+    "description": "A chronic inflammatory skin condition primarily affecting the central face, characterized by erythema, telangiectasias, papules, and pustules. Triggers include heat, alcohol, spicy foods, and emotional stress. Subtypes include erythematotelangiectatic, papulopustular, phymatous, and ocular rosacea.",
+    "symptoms": [
+      "Persistent facial erythema, especially central face (cheeks, nose, chin, forehead)",
+      "Telangiectasias (visible blood vessels)",
+      "Papules and pustules (papulopustular subtype)",
+      "Flushing and burning sensations",
+      "Rhinophyma (phymatous subtype \u2014 bulbous nose enlargement)",
+      "Ocular symptoms: dry eyes, blepharitis, conjunctivitis, keratitis",
+      "Skin sensitivity and stinging"
+    ],
+    "triggers": [
+      "Heat and sun exposure",
+      "Alcohol consumption (especially red wine)",
+      "Spicy foods and hot beverages",
+      "Emotional stress and anxiety",
+      "Exercise and physical exertion",
+      "Hot baths, saunas, hot tubs",
+      "Topical corticosteroids on face",
+      "Certain skincare products (fragrances, alcohol-based toners)",
+      "Demodex mite overgrowth (contributing factor)"
+    ],
+    "related_conditions": [
+      "acne-vulgaris",
+      "seborrheic-dermatitis",
+      "perioral-dermatitis",
+      "lupus-erythematosus"
+    ],
+    "red_flags": [
+      "Ocular involvement with vision changes (urgent ophthalmology referral)",
+      "Severe rhinophyma causing functional impairment",
+      "Rapid progression or atypical features (exclude lupus, dermatomyositis)",
+      "Granulomatous rosacea with non-inflammatory papules"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Erythema and telangiectasias readily visible; flushing easily observed; most common in fair-skinned individuals",
+      "III_IV": "Erythema may be less obvious; may present with persistent warmth, papules, pustules, or dyschromia",
+      "V_VI": "Rosacea underdiagnosed and undertreated in darker skin; may present with persistent warmth, stinging, papules, pustules, or post-inflammatory hyperpigmentation rather than visible erythema; telangiectasias harder to visualize; ocular rosacea may be missed"
+    },
+    "pregnancy_considerations": "Avoid oral tetracyclines (doxycycline, minocycline) and isotretinoin. Topical metronidazole, azelaic acid, and ivermectin generally safe. Oral erythromycin or cephalexin if systemic antibiotics needed. Laser and light therapies generally safe but may be deferred."
+  },
+  {
+    "id": "melasma",
+    "name": "Melasma",
+    "icd10": "L81.1",
+    "category": "pigmentation",
+    "severity": "mild_to_severe",
+    "description": "An acquired hyperpigmentation disorder characterized by symmetric, brown to gray-brown patches on sun-exposed areas, particularly the face. Driven by ultraviolet radiation, hormonal factors (estrogen, progesterone), and genetic predisposition. More common in women and individuals with darker skin phototypes.",
+    "symptoms": [
+      "Symmetric brown to gray-brown macules and patches",
+      "Distribution: malar cheeks, forehead, upper lip, chin, nose (centrofacial pattern)",
+      "May also affect mandibular area or arms",
+      "Worsens with sun exposure",
+      "Often persistent and recurrent"
+    ],
+    "triggers": [
+      "Ultraviolet radiation (primary trigger)",
+      "Hormonal factors: pregnancy, oral contraceptives, hormone replacement therapy",
+      "Genetic predisposition (family history common)",
+      "Thyroid disease",
+      "Certain medications (anticonvulsants, photosensitizing drugs)",
+      "Visible light and infrared radiation (in darker skin)",
+      "Heat exposure"
+    ],
+    "related_conditions": [
+      "post-inflammatory-hyperpigmentation",
+      "solar-lentigines",
+      "hormonal-acne"
+    ],
+    "red_flags": [
+      "Asymmetric pigmentation (possible other diagnosis)",
+      "Irregular borders with color variation (exclude melanoma)",
+      "Pigmentation on non-sun-exposed areas (possible medication-induced or systemic cause)",
+      "Rapid onset with systemic symptoms"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Less common; patches appear light to medium brown; sun exposure still triggers",
+      "III_IV": "Common; brown to dark brown patches; post-inflammatory hyperpigmentation may coexist",
+      "V_VI": "Very common; brown to gray-brown or bluish patches (dermal melasma); more likely to have dermal component resistant to topical therapy; challenging to treat; higher risk of post-procedure hyperpigmentation after aggressive treatments"
+    },
+    "pregnancy_considerations": "Melasma very common in pregnancy (chloasma gravidarum, 'mask of pregnancy'). Hydroquinone generally avoided in pregnancy and breastfeeding. Safe options: azelaic acid, vitamin C, niacinamide, sun protection. Most cases improve postpartum but may persist."
+  },
+  {
+    "id": "post-inflammatory-hyperpigmentation",
+    "name": "Post-Inflammatory Hyperpigmentation",
+    "icd10": "L81.0",
+    "category": "pigmentation",
+    "severity": "mild_to_moderate",
+    "description": "A common acquired hyperpigmentation resulting from inflammation or injury to the skin. Caused by excess melanin deposition following inflammatory conditions (acne, eczema, psoriasis), trauma, burns, or cosmetic procedures. More pronounced and longer-lasting in darker skin phototypes.",
+    "symptoms": [
+      "Brown to dark brown macules or patches at sites of prior inflammation or injury",
+      "Follows the distribution of the preceding inflammatory condition",
+      "No elevation or textural change (flat)",
+      "May persist for months to years",
+      "More prominent in sun-exposed areas"
+    ],
+    "triggers": [
+      "Inflammatory skin conditions (acne, eczema, psoriasis, lichen planus)",
+      "Skin trauma, burns, cuts, scratches",
+      "Insect bites and arthropod reactions",
+      "Cosmetic procedures (chemical peels, laser, microneedling) \u2014 especially in darker skin",
+      "Medications causing photosensitivity",
+      "Sun exposure (deepens existing PIH)"
+    ],
+    "related_conditions": [
+      "melasma",
+      "acne-vulgaris",
+      "eczema-atopic-dermatitis",
+      "psoriasis"
+    ],
+    "red_flags": [
+      "Pigmentation with raised, irregular borders (possible early melanoma)",
+      "Pigmentation in a changing lesion (ABCDE criteria)",
+      "Pigmentation with persistent erythema or induration",
+      "Pigmentation not improving after 12\u201324 months of treatment and sun protection"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Post-inflammatory erythema (PIE) more common than PIH; erythematous macules predominate",
+      "III_IV": "Both PIE and PIH common; PIH tends to be medium to dark brown",
+      "V_VI": "PIH is predominant concern; hyperpigmentation often deep brown to black; persists longer; high risk of worsening with aggressive treatments; requires gentle, gradual approach; sun protection paramount"
+    },
+    "pregnancy_considerations": "Focus on prevention by treating underlying inflammatory conditions gently. Safe lightening agents: azelaic acid, vitamin C, niacinamide. Avoid hydroquinone and high-strength retinoids. Sun protection essential."
+  },
+  {
+    "id": "contact-dermatitis",
+    "name": "Contact Dermatitis",
+    "icd10": "L25.9",
+    "category": "inflammatory",
+    "severity": "mild_to_severe",
+    "description": "An inflammatory skin reaction caused by direct contact with an irritant (irritant contact dermatitis, 80% of cases) or allergen (allergic contact dermatitis, delayed type IV hypersensitivity). Presents with erythema, pruritus, vesicles, and edema at the site of contact.",
+    "symptoms": [
+      "Erythema, pruritus, and burning at site of contact",
+      "Vesicles and bullae in acute reactions",
+      "Edema and induration",
+      "Oozing and crusting",
+      "Lichenification in chronic cases",
+      "Well-demarcated distribution corresponding to contact area",
+      "Common allergens: nickel, fragrances, preservatives, rubber, topical antibiotics (neomycin), hair dyes (PPD)"
+    ],
+    "triggers": [
+      "Irritants: soaps, detergents, solvents, acids, alkalis, frequent hand washing",
+      "Allergens: nickel, fragrances, preservatives (MI/MCI, formaldehyde), rubber/latex, topical antibiotics, hair dyes, plants (poison ivy, poison oak)",
+      "Occupational exposures (healthcare, cleaning, hairdressing, construction)",
+      "Cosmetics and skincare products",
+      "Jewelry and metals",
+      "Textiles and dyes"
+    ],
+    "related_conditions": [
+      "eczema-atopic-dermatitis",
+      "seborrheic-dermatitis",
+      "perioral-dermatitis"
+    ],
+    "red_flags": [
+      "Severe facial or periorbital edema (possible airway compromise)",
+      "Widespread vesicular eruption after plant contact",
+      "Secondary bacterial infection with honey-colored crusting",
+      "Systemic symptoms (fever, malaise) suggesting severe allergic reaction",
+      "Generalized erythroderma"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Erythema and edema readily visible; vesicles prominent; post-inflammatory erythema common",
+      "III_IV": "Erythema may be subtle; may present with gray, violaceous, or dark brown coloration; post-inflammatory hyperpigmentation common",
+      "V_VI": "Erythema difficult to appreciate; may present with dark brown, gray, or violaceous patches; post-inflammatory hyperpigmentation significant and persistent; vesicles may be less visible; lichenified plaques may appear darker"
+    },
+    "pregnancy_considerations": "Topical corticosteroids (low to mid potency) and emollients safe. Avoid systemic corticosteroids if possible; if severe, short course of prednisone may be used. Patch testing generally safe but may be deferred."
+  },
+  {
+    "id": "keratosis-pilaris",
+    "name": "Keratosis Pilaris",
+    "icd10": "L85.8",
+    "category": "structural",
+    "severity": "mild",
+    "description": "A common, benign skin condition characterized by follicular hyperkeratosis, resulting in small, rough papules on the extensor surfaces of the upper arms, thighs, and cheeks. Often described as 'chicken skin.' Associated with atopic diathesis and dry skin. Affects up to 50\u201380% of adolescents and 40% of adults.",
+    "symptoms": [
+      "Small, rough, follicular papules (1\u20132 mm)",
+      "Skin-colored to slightly erythematous or hyperpigmented",
+      "Distribution: upper arms (most common), thighs, buttocks, cheeks",
+      "Sandpaper-like texture",
+      "Worse in winter and low humidity",
+      "Often asymptomatic but may have mild pruritus"
+    ],
+    "triggers": [
+      "Dry skin and low humidity",
+      "Atopic diathesis (eczema, asthma, allergies)",
+      "Genetic predisposition (autosomal dominant inheritance)",
+      "Cold weather",
+      "Hormonal changes (puberty, pregnancy)"
+    ],
+    "related_conditions": [
+      "eczema-atopic-dermatitis",
+      "atopic-dermatitis",
+      "xerosis"
+    ],
+    "red_flags": [
+      "Inflammatory, painful lesions (possible bacterial folliculitis)",
+      "Sudden onset in adulthood without prior history",
+      "Widespread or atypical distribution",
+      "Significant erythema, pustules, or scarring"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Papules may appear erythematous; post-inflammatory erythema mild",
+      "III_IV": "Papules may be skin-colored or hyperpigmented; post-inflammatory hyperpigmentation around follicles",
+      "V_VI": "Hyperpigmented papules and surrounding post-inflammatory hyperpigmentation more prominent; follicular prominence may be more noticeable; treatments must avoid aggravating PIH"
+    },
+    "pregnancy_considerations": "Generally harmless in pregnancy. Topical lactic acid, urea, and low-strength salicylic acid considered safe. Avoid high-strength retinoids. Emollients and gentle exfoliation safe."
+  },
+  {
+    "id": "actinic-keratosis",
+    "name": "Actinic Keratosis",
+    "icd10": "L57.0",
+    "category": "neoplastic",
+    "severity": "mild_to_moderate",
+    "description": "A premalignant skin lesion caused by cumulative ultraviolet radiation exposure. Characterized by rough, scaly patches on sun-exposed areas. Considered an early form of squamous cell carcinoma (SCC) in situ. Risk of progression to invasive SCC is approximately 0.1\u201310% per lesion per year.",
+    "symptoms": [
+      "Rough, dry, scaly patches or papules",
+      "Skin-colored to reddish-brown",
+      "Better felt than seen (sandpaper-like texture)",
+      "Distribution: face, scalp (bald areas), ears, neck, dorsal hands, forearms",
+      "May be tender or pruritic",
+      "Often multiple lesions (field cancerization)"
+    ],
+    "triggers": [
+      "Cumulative ultraviolet radiation exposure (primary cause)",
+      "Fair skin (Fitzpatrick I\u2013II) and blue eyes",
+      "Advanced age",
+      "Immunosuppression (organ transplant recipients)",
+      "Previous skin cancer",
+      "Outdoor occupation or recreation",
+      "Geographic location (closer to equator, higher altitude)"
+    ],
+    "related_conditions": [
+      "squamous-cell-carcinoma",
+      "basal-cell-carcinoma",
+      "photoaging"
+    ],
+    "red_flags": [
+      "Induration, nodularity, or ulceration (possible progression to SCC)",
+      "Rapid growth or change in appearance",
+      "Bleeding or persistent crusting",
+      "Tender, erythematous nodule under scale",
+      "Multiple rapidly developing lesions in immunosuppressed patients"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Highest risk; lesions easily visible; sun damage evident; regular screening essential",
+      "III_IV": "Moderate risk; lesions may be less visible; may present with hypopigmentation or subtle texture change",
+      "V_VI": "Lower risk but not zero; lesions may be pigmented or dark brown; often underdiagnosed; acral and nail unit lesions more concerning; regular skin checks still important"
+    },
+    "pregnancy_considerations": "Topical treatments (5-fluorouracil, imiquimod, diclofenac) generally avoided or used with caution. Cryotherapy and curettage generally safe. Photodynamic therapy typically deferred. Prevention with sun protection essential."
+  },
+  {
+    "id": "basal-cell-carcinoma",
+    "name": "Basal Cell Carcinoma",
+    "icd10": "C44.91",
+    "category": "neoplastic",
+    "severity": "moderate_to_severe",
+    "description": "The most common form of skin cancer, arising from basaloid follicular cells. Slow-growing but locally invasive. Rarely metastasizes but can cause significant local tissue destruction. Strongly associated with cumulative UV exposure, especially in fair-skinned individuals.",
+    "symptoms": [
+      "Pearly papule or nodule with telangiectasias",
+      "Rolled, translucent border",
+      "Central ulceration (rodent ulcer)",
+      "Flat, scar-like or hypopigmented plaque (morpheaform subtype)",
+      "Shiny, skin-colored or pink papule (nodular subtype)",
+      "Superficial erythematous scaly patch (superficial subtype)",
+      "Distribution: face (nose most common), scalp, ears, neck, dorsal hands"
+    ],
+    "triggers": [
+      "Cumulative ultraviolet radiation exposure (primary cause)",
+      "Intermittent intense sun exposure and sunburns",
+      "Fair skin (Fitzpatrick I\u2013II), blonde/red hair, blue/green eyes",
+      "Advanced age",
+      "Ionizing radiation exposure",
+      "Immunosuppression",
+      "Gorlin syndrome (nevoid basal cell carcinoma syndrome)",
+      "Previous skin cancer",
+      "Chronic arsenic exposure"
+    ],
+    "related_conditions": [
+      "squamous-cell-carcinoma",
+      "melanoma",
+      "actinic-keratosis"
+    ],
+    "red_flags": [
+      "Rapid growth or change in appearance",
+      "Recurrence after prior treatment",
+      "Perineural or periocular involvement",
+      "Large size (>2 cm) or deep invasion",
+      "Immunosuppressed patient with multiple lesions"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Highest risk; lesions typically pearly, pink, or skin-colored; early detection common",
+      "III_IV": "Moderate risk; pigmented BCC may mimic melanoma; amelanotic or pink lesions still common",
+      "V_VI": "Lower incidence but often diagnosed at advanced stage; pigmented BCC more common; may present as dark brown, blue, or black nodules; acral, nail unit, and mucosal lesions require heightened suspicion; regular skin checks essential despite lower risk"
+    },
+    "pregnancy_considerations": "Surgical excision, Mohs micrographic surgery, and curettage/electrodessication generally safe. Radiation therapy avoided. Topical therapies (5-FU, imiquimod) generally avoided. Management should not be delayed due to pregnancy."
+  },
+  {
+    "id": "squamous-cell-carcinoma",
+    "name": "Squamous Cell Carcinoma",
+    "icd10": "C44.92",
+    "category": "neoplastic",
+    "severity": "moderate_to_severe",
+    "description": "The second most common skin cancer, arising from keratinocytes. More aggressive than basal cell carcinoma with higher metastatic potential, especially when arising on lips, ears, or in immunosuppressed patients. Associated with cumulative UV exposure, HPV infection, and immunosuppression.",
+    "symptoms": [
+      "Firm, hyperkeratotic papule, plaque, or nodule",
+      "Erythematous or skin-colored; may be pigmented",
+      "Central ulceration or crusting",
+      "Bleeding with minor trauma",
+      "Indurated, infiltrated base",
+      "Distribution: sun-exposed areas (scalp, face, ears, lips, dorsal hands, forearms)",
+      "May arise in scars, chronic ulcers, or areas of radiation dermatitis"
+    ],
+    "triggers": [
+      "Cumulative ultraviolet radiation exposure (primary cause)",
+      "Fair skin (Fitzpatrick I\u2013II)",
+      "Immunosuppression (organ transplant recipients have 65\u2013250x increased risk)",
+      "Chronic scars and non-healing wounds (Marjolin ulcer)",
+      "Human papillomavirus (HPV) infection (anogenital and periungual SCC)",
+      "Prior radiation therapy",
+      "Chronic arsenic exposure",
+      "Tobacco use (lip SCC)"
+    ],
+    "related_conditions": [
+      "actinic-keratosis",
+      "basal-cell-carcinoma",
+      "melanoma"
+    ],
+    "red_flags": [
+      "Lesion >2 cm in diameter",
+      "Rapid growth or change",
+      "Recurrence after treatment",
+      "Perineural invasion symptoms (numbness, tingling, pain)",
+      "Location on lip, ear, or anogenital area (higher metastatic risk)",
+      "Immunosuppressed patient with new or changing lesion",
+      "Non-healing ulcer or lesion in scar/radiation field"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Highest risk; lesions typically erythematous, scaly, or crusted; early detection common",
+      "III_IV": "Moderate risk; may present with hyperpigmentation or as dark, firm nodules",
+      "V_VI": "Lower incidence but higher mortality due to delayed diagnosis; may present as hyperpigmented nodules, non-healing ulcers, or verrucous growths; acral, nail unit, and mucosal SCC more common; HPV-related and chronic scar-related SCC important; regular screening critical"
+    },
+    "pregnancy_considerations": "Surgical excision and Mohs surgery generally safe and should not be delayed. Radiation and systemic chemotherapy avoided if possible. Topical treatments generally avoided. Early definitive treatment preferred."
+  },
+  {
+    "id": "melanoma",
+    "name": "Melanoma",
+    "icd10": "C43.9",
+    "category": "neoplastic",
+    "severity": "severe",
+    "description": "A malignant tumor arising from melanocytes. The most aggressive and life-threatening form of skin cancer. Risk factors include UV exposure (especially intermittent intense exposure and blistering sunburns), fair skin, numerous moles, family history, and genetic mutations (CDKN2A). Early detection is critical for survival.",
+    "symptoms": [
+      "Asymmetrical pigmented lesion with irregular borders",
+      "Color variation (black, brown, red, white, blue) within single lesion",
+      "Diameter >6 mm (but can be smaller)",
+      "Evolving: change in size, shape, color, elevation, or symptoms (itching, bleeding)",
+      "May arise de novo or from pre-existing nevus",
+      "Amelanotic (pink/red) variants occur",
+      "Nodular melanoma: rapidly growing, uniform dark nodule",
+      "Acral lentiginous melanoma: palms, soles, subungual"
+    ],
+    "triggers": [
+      "Intermittent intense UV exposure and blistering sunburns (especially in childhood)",
+      "Fair skin (Fitzpatrick I\u2013II), red/blonde hair, blue/green eyes",
+      "Numerous common nevi (>50) and atypical nevi",
+      "Family history of melanoma",
+      "Genetic predisposition (CDKN2A, MC1R mutations)",
+      "Previous melanoma or non-melanoma skin cancer",
+      "Immunosuppression",
+      "Geographic location (Australia, New Zealand, Southern USA)"
+    ],
+    "related_conditions": [
+      "actinic-keratosis",
+      "dysplastic-nevus",
+      "basal-cell-carcinoma",
+      "squamous-cell-carcinoma"
+    ],
+    "red_flags": [
+      "ANY lesion meeting ABCDE criteria \u2014 urgent dermatology evaluation",
+      "New pigmented lesion in adult over age 30",
+      "Rapidly growing nodule (possible nodular melanoma)",
+      "Subungual pigmented streak with Hutchinson sign (pigment extending to nail fold)",
+      "Bleeding, ulceration, or persistent crusting of pigmented lesion",
+      "Change in pre-existing mole",
+      "Lymphadenopathy or systemic symptoms in patient with known melanoma"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Highest risk; lesions typically dark brown to black with color variation; sun damage and numerous nevi common",
+      "III_IV": "Moderate risk; may present with atypical features; amelanotic melanoma possible",
+      "V_VI": "Lower incidence but higher mortality due to delayed diagnosis; acral lentiginous melanoma more common; may present as dark brown, black, or blue-black lesions; subungual melanoma often misdiagnosed as fungal infection; lack of sun damage does not rule out melanoma; heightened suspicion for new or changing pigmented lesions on palms, soles, nails, and mucosa"
+    },
+    "pregnancy_considerations": "Melanoma is one of the most common cancers in pregnancy. Pregnancy does not worsen prognosis but may delay diagnosis. Wide local excision and sentinel lymph node biopsy should not be delayed. Immunotherapy and targeted therapy generally avoided; discuss risks/benefits. Radiation avoided."
+  },
+  {
+    "id": "perioral-dermatitis",
+    "name": "Perioral Dermatitis",
+    "icd10": "L71.0",
+    "category": "inflammatory",
+    "severity": "mild_to_moderate",
+    "description": "An inflammatory facial dermatitis characterized by small papules and pustules around the mouth, nose, and eyes. Often triggered by topical corticosteroid use on the face, heavy moisturizers, and fluorinated toothpaste. More common in women aged 16\u201345.",
+    "symptoms": [
+      "Small erythematous papules and pustules (1\u20132 mm)",
+      "Distribution: perioral, perinasal, and periocular areas",
+      "Sparing of the immediate vermilion border (characteristic)",
+      "Burning and tight sensation",
+      "Mild pruritus",
+      "Background erythema and scaling"
+    ],
+    "triggers": [
+      "Topical corticosteroid use on face (especially potent steroids)",
+      "Heavy facial moisturizers and occlusive cosmetics",
+      "Fluorinated toothpaste and dental products",
+      "Hormonal factors (oral contraceptives, menstruation, pregnancy)",
+      "Physical factors (UV light, heat, wind)",
+      "Microbial factors (Demodex mites, Candida, bacteria)"
+    ],
+    "related_conditions": [
+      "rosacea",
+      "acne-vulgaris",
+      "seborrheic-dermatitis",
+      "contact-dermatitis"
+    ],
+    "red_flags": [
+      "Severe or rapidly worsening eruption",
+      "Signs of secondary bacterial infection",
+      "No improvement after 8\u201312 weeks of appropriate treatment",
+      "Granulomatous perioral dermatitis (non-itchy, skin-colored papules in darker skin)"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Erythema and papules readily visible; post-inflammatory erythema common",
+      "III_IV": "Papules may be skin-colored or hyperpigmented; erythema less obvious",
+      "V_VI": "Granulomatous variant more common; skin-colored or hyperpigmented papules; erythema difficult to appreciate; may be misdiagnosed as acne; post-inflammatory hyperpigmentation common"
+    },
+    "pregnancy_considerations": "Topical metronidazole, azelaic acid, and erythromycin generally safe. Oral tetracyclines avoided; oral erythromycin if systemic treatment needed. Avoid topical corticosteroids. Gentle skincare essential."
+  },
+  {
+    "id": "folliculitis",
+    "name": "Folliculitis",
+    "icd10": "L73.9",
+    "category": "infection",
+    "severity": "mild_to_moderate",
+    "description": "An inflammatory condition of the hair follicle caused by bacterial infection (Staphylococcus aureus most common), fungal infection (Malassezia), mechanical irritation, or chemical exposure. Presents as small pustules centered on hair follicles.",
+    "symptoms": [
+      "Small pustules with central hair (follicular papules and pustules)",
+      "Erythema and mild tenderness around lesions",
+      "Pruritus or burning",
+      "Distribution: beard area, scalp, buttocks, thighs, axillae, any hair-bearing area",
+      "May be superficial or deep (furuncles, carbuncles)"
+    ],
+    "triggers": [
+      "Bacterial infection (Staphylococcus aureus, including MRSA)",
+      "Fungal infection (Malassezia, dermatophytes)",
+      "Shaving and hair removal (mechanical irritation)",
+      "Occlusive clothing and sweating",
+      "Hot tubs and pools (Pseudomonas folliculitis)",
+      "Topical corticosteroids",
+      "Immunosuppression and diabetes",
+      "Acne medications (inducing gram-negative folliculitis)"
+    ],
+    "related_conditions": [
+      "acne-vulgaris",
+      "pseudofolliculitis-barbae",
+      "acne-mechanica",
+      "tinea-barbae"
+    ],
+    "red_flags": [
+      "Deep, painful nodules (possible furuncle or carbuncle)",
+      "Fever and systemic symptoms (possible cellulitis or abscess)",
+      "Widespread or recurrent folliculitis (possible immunosuppression or MRSA colonization)",
+      "Scarring or permanent hair loss (possible scarring alopecia)",
+      "Non-healing lesions in immunocompromised patients"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Pustules and erythema readily visible; post-inflammatory erythema common",
+      "III_IV": "Post-inflammatory hyperpigmentation common after resolution",
+      "V_VI": "Post-inflammatory hyperpigmentation significant and persistent; central hair may be more visible in pustules; keloid risk at sites of deep folliculitis; pseudofolliculitis barbae frequently coexists"
+    },
+    "pregnancy_considerations": "Topical benzoyl peroxide, clindamycin, and mupirocin generally safe. Oral antibiotics (cephalexin, dicloxacillin) safe if needed. Avoid oral tetracyclines and fluoroquinolones. Warm compresses and hygiene measures safe."
+  },
+  {
+    "id": "tinea-versicolor",
+    "name": "Tinea Versicolor",
+    "icd10": "B36.0",
+    "category": "infection",
+    "severity": "mild",
+    "description": "A superficial fungal infection caused by Malassezia species (lipophilic yeast), characterized by discolored macules and patches on the trunk and proximal extremities. Not contagious. More common in warm, humid climates and in adolescents/young adults.",
+    "symptoms": [
+      "Hypopigmented, hyperpigmented, or pink/tan macules and patches",
+      "Fine scaling, especially with scraping",
+      "Distribution: chest, back, upper arms, neck (seborrheic areas)",
+      "Asymptomatic or mild pruritus",
+      "Worse with sun exposure (hypopigmented lesions become more apparent)",
+      "May coalesce into large patches"
+    ],
+    "triggers": [
+      "Malassezia yeast overgrowth (lipophilic yeast normal skin flora)",
+      "Warm, humid climate",
+      "Excessive sweating (hyperhidrosis)",
+      "Oily skin",
+      "Immunosuppression",
+      "Oral corticosteroids",
+      "Genetic predisposition"
+    ],
+    "related_conditions": [
+      "seborrheic-dermatitis",
+      "pityriasis-alba",
+      "vitiligo"
+    ],
+    "red_flags": [
+      "Lesions not responding to antifungal treatment (possible other diagnosis)",
+      "Widespread or persistent infection in immunocompromised patient",
+      "Atypical distribution or appearance"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Hypopigmented or pink/tan patches; less visible on fair skin",
+      "III_IV": "Hyperpigmented or hypopigmented patches; more noticeable",
+      "V_VI": "Hypopigmented patches highly visible and cosmetically concerning; often misdiagnosed as vitiligo; hyperpigmented variants also occur; post-inflammatory pigmentary changes may persist for months after treatment; recurrence common"
+    },
+    "pregnancy_considerations": "Topical antifungals (selenium sulfide, ketoconazole shampoo, zinc pyrithione) generally safe. Oral antifungals (itraconazole, fluconazole) generally avoided. Topical terbinafine less effective for tinea versicolor."
+  },
+  {
+    "id": "cold-sores-hsv-1",
+    "name": "Cold Sores / HSV-1",
+    "icd10": "B00.9",
+    "category": "infection",
+    "severity": "mild_to_moderate",
+    "description": "A recurrent viral infection caused by herpes simplex virus type 1 (HSV-1), characterized by grouped vesicles on an erythematous base, typically around the lips and perioral area. Highly contagious. After primary infection, HSV establishes latency in trigeminal ganglia and reactivates periodically.",
+    "symptoms": [
+      "Prodrome: tingling, burning, itching, or pain at site 12\u201324 hours before eruption",
+      "Grouped vesicles on erythematous base",
+      "Vesicles rupture forming painful ulcers with honey-colored crusting",
+      "Distribution: lips (vermilion border), perioral skin, nose",
+      "Regional lymphadenopathy",
+      "May have systemic symptoms (fever, malaise) with primary infection",
+      "Recurrent episodes at same site"
+    ],
+    "triggers": [
+      "Viral reactivation from latency in trigeminal ganglia",
+      "Ultraviolet radiation (sun exposure)",
+      "Stress and fatigue",
+      "Fever and illness (hence 'cold sore' or 'fever blister')",
+      "Local trauma (chapped lips, dental procedures)",
+      "Hormonal changes (menstruation, pregnancy)",
+      "Immunosuppression"
+    ],
+    "related_conditions": [
+      "herpes-simplex-virus-2",
+      "impetigo",
+      "angular-cheilitis"
+    ],
+    "red_flags": [
+      "Eczema herpeticum: widespread HSV infection in patient with eczema \u2014 EMERGENCY",
+      "Ocular involvement: keratitis, blepharitis \u2014 urgent ophthalmology referral",
+      "Herpetic whitlow: painful vesicles on fingers",
+      "Severe, persistent, or atypical lesions in immunocompromised patients",
+      "Encephalitis symptoms (headache, fever, altered mental status) \u2014 EMERGENCY"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Erythema and vesicles readily visible; crusting prominent; post-inflammatory erythema common",
+      "III_IV": "Erythema may be subtle; vesicles and crusting visible; post-inflammatory hyperpigmentation common",
+      "V_VI": "Erythema difficult to appreciate; may present with dark crusting or grayish patches; post-inflammatory hyperpigmentation significant; perioral PIH can be persistent; eczema herpeticum may have atypical presentation"
+    },
+    "pregnancy_considerations": "Primary HSV infection during pregnancy is concerning (risk of neonatal herpes). Acyclovir, valacyclovir considered safe in pregnancy. Suppressive therapy near delivery if recurrent genital HSV. Avoid kissing newborn if active cold sore."
+  },
+  {
+    "id": "pseudofolliculitis-barbae",
+    "name": "Razor Bumps / Pseudofolliculitis Barbae",
+    "icd10": "L73.1",
+    "category": "inflammatory",
+    "severity": "mild_to_moderate",
+    "description": "An inflammatory condition caused by shaved hairs re-entering the skin (transfollicular penetration) or growing parallel to the skin surface (extrafollicular penetration), triggering a foreign body inflammatory response. Very common in individuals with curly hair, particularly African descent. Also called 'shave bumps' or 'razor bumps.'",
+    "symptoms": [
+      "Follicular papules and pustules in shaved areas",
+      "Pruritus and tenderness",
+      "Hair may be visible within or beneath the papule",
+      "Distribution: beard area, neck (shaved areas), scalp (if shaved), axillae, groin",
+      "May lead to post-inflammatory hyperpigmentation and keloid formation",
+      "Can cause pseudocysts and scarring in chronic cases"
+    ],
+    "triggers": [
+      "Shaving, especially close shaving and against the grain",
+      "Curly or coarse hair (more likely to re-enter skin)",
+      "Pulling skin taut while shaving",
+      "Using dull razors",
+      "Wearing tight clothing over shaved areas",
+      "Certain hair removal methods (waxing, plucking)"
+    ],
+    "related_conditions": [
+      "folliculitis",
+      "acne-vulgaris",
+      "acne-mechanica",
+      "keloid"
+    ],
+    "red_flags": [
+      "Severe scarring or keloid formation",
+      "Large inflammatory nodules or pseudocysts",
+      "Secondary bacterial infection with honey-colored crusting",
+      "Significant psychological distress or social impact",
+      "Not improving with behavioral modifications after 4\u20136 weeks"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Papules and pustules visible; post-inflammatory erythema common; less common in straight hair",
+      "III_IV": "Common; post-inflammatory hyperpigmentation prominent",
+      "V_VI": "Very common and significant concern; post-inflammatory hyperpigmentation and keloid formation major issues; pseudofolliculitis barbae can cause disfiguring keloids (acne keloidalis nuchae on posterior neck); requires culturally sensitive approach; hair texture and grooming practices must be considered"
+    },
+    "pregnancy_considerations": "Behavioral modifications (growing beard, proper shaving technique) preferred. Topical clindamycin or benzoyl peroxide safe. Avoid depilatory creams (chemical irritation risk). Electrolysis and laser hair removal generally safe but may be deferred."
+  },
+  {
+    "id": "stretch-marks",
+    "name": "Stretch Marks",
+    "icd10": "L90.6",
+    "category": "structural",
+    "severity": "mild",
+    "description": "Linear, atrophic scars caused by rapid stretching of the skin beyond its elastic capacity, resulting in dermal collagen and elastin disruption. Initially erythematous or violaceous (striae rubrae), then evolve to hypopigmented, atrophic scars (striae albae). Common during puberty, pregnancy, rapid weight gain/loss, and corticosteroid use.",
+    "symptoms": [
+      "Linear, band-like streaks parallel to skin tension lines",
+      "Striae rubrae: early, erythematous to violaceous, slightly raised",
+      "Striae albae: mature, hypopigmented, atrophic, wrinkled",
+      "Distribution: abdomen (especially pregnancy), breasts, thighs, hips, buttocks, upper arms, lower back",
+      "Initially may be pruritic",
+      "Asymptomatic once mature"
+    ],
+    "triggers": [
+      "Rapid skin stretching (growth spurts, pregnancy, weight gain/loss)",
+      "Corticosteroid use (topical, oral, or injectable)",
+      "Puberty and hormonal changes",
+      "Cushing syndrome and chronic corticosteroid therapy",
+      "Genetic predisposition",
+      "Breast augmentation or rapid muscle growth",
+      "Marfan syndrome and Ehlers-Danlos syndrome"
+    ],
+    "related_conditions": [
+      "cushing-syndrome",
+      "rapid-weight-change",
+      "pregnancy"
+    ],
+    "red_flags": [
+      "Widespread striae with signs of Cushing syndrome (central obesity, moon facies, buffalo hump, hypertension)",
+      "Striae with easy bruising and skin fragility",
+      "Atypical distribution (shoulders, axillae, face) suggesting Cushing or anabolic steroid use",
+      "Purple, wide striae in non-obese patient (possible Cushing)"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Striae rubrae: pink to red; striae albae: pearly white; highly visible on fair skin",
+      "III_IV": "Striae rubrae: violaceous to dark red; striae albae: lighter than surrounding skin; still visible",
+      "V_VI": "Striae rubrae: dark purple, brown, or black; striae albae: hypopigmented, often shiny and silvery; may be less visible than in fair skin; post-inflammatory hyperpigmentation may surround early lesions; treatment response to lasers more challenging due to risk of pigmentary changes"
+    },
+    "pregnancy_considerations": "Very common in pregnancy (striae gravidarum). Topical treatments (tretinoin) generally avoided; some use cautiously after first trimester. Moisturizers and oils may help prevent but evidence limited. Striae usually improve postpartum but may not fully resolve. Laser treatments deferred until after pregnancy and breastfeeding."
+  },
+  {
+    "id": "scarring",
+    "name": "Scarring",
+    "icd10": "L90.5",
+    "category": "structural",
+    "severity": "mild_to_severe",
+    "description": "A permanent fibrous tissue replacement of normal skin following injury, inflammation, or surgery. Results from abnormal wound healing with excessive or deficient collagen deposition. Types include atrophic (depressed), hypertrophic (raised, within wound boundaries), and keloid (raised, beyond wound boundaries) scars.",
+    "symptoms": [
+      "Atrophic scars: depressed, pitted, or ice-pick lesions (common in acne)",
+      "Hypertrophic scars: raised, erythematous, confined to original wound boundaries",
+      "Keloid scars: raised, firm, extending beyond original wound boundaries",
+      "Pruritus and pain (especially hypertrophic and keloid scars)",
+      "Contractures (in burn scars)",
+      "Texture and color changes"
+    ],
+    "triggers": [
+      "Deep skin injury (acne cysts, burns, surgery, trauma)",
+      "Inflammatory skin conditions (acne, chickenpox, hidradenitis suppurativa)",
+      "Genetic predisposition (keloid formation more common in Fitzpatrick V\u2013VI)",
+      "Tension on wound edges",
+      "Infection during wound healing",
+      "Foreign bodies in wound"
+    ],
+    "related_conditions": [
+      "acne-vulgaris",
+      "burns",
+      "surgical-wounds",
+      "hidradenitis-suppurativa"
+    ],
+    "red_flags": [
+      "Rapidly enlarging keloid with pain or ulceration (rarely, keloid sarcoma)",
+      "Contractures limiting function (especially over joints)",
+      "Scarring with persistent erythema and elevation (possible keloid or hypertrophic scar requiring treatment)",
+      "Significant psychological distress or functional impairment"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Atrophic acne scarring common; hypertrophic scars less common; keloids rare; post-inflammatory erythema prominent in healing",
+      "III_IV": "Mixed scarring types; keloid risk moderate; post-inflammatory hyperpigmentation may surround scars",
+      "V_VI": "Keloid formation significantly more common and severe; even minor trauma, piercings, or acne can cause large keloids; central chest, shoulders, back, and earlobes high-risk sites; atrophic acne scarring also common; treatment of keloids more challenging; higher recurrence after treatment; hypertrophic scarring more common"
+    },
+    "pregnancy_considerations": "Existing keloids may enlarge during pregnancy due to hormonal changes. Treatment of scars generally safe (silicone gel, compression, intralesional corticosteroids). Laser treatments and retinoids often deferred. Surgical revision of keloids generally avoided during pregnancy."
+  },
+  {
+    "id": "dark-circles",
+    "name": "Dark Circles",
+    "icd10": "L87.2",
+    "category": "pigmentation",
+    "severity": "mild",
+    "description": "Periorbital hyperpigmentation and shadowing causing dark discoloration under the lower eyelids. Multifactorial etiology including genetics, melanin deposition, vascular congestion, skin thinning, and tear trough deformity. Very common and often a cosmetic concern.",
+    "symptoms": [
+      "Brown, blue, or purple discoloration under eyes",
+      "Worse with fatigue and sleep deprivation",
+      "May have associated puffiness or bags",
+      "Tear trough depression creating shadow effect",
+      "Visible vascularity (blue/purple hue)",
+      "Often bilateral and symmetric"
+    ],
+    "triggers": [
+      "Genetics and family history (most common cause)",
+      "Melanin deposition (post-inflammatory, sun exposure)",
+      "Vascular congestion and periorbital edema",
+      "Fatigue, sleep deprivation, eye strain",
+      "Aging and skin thinning (dermal collagen loss makes vessels more visible)",
+      "Allergies and atopic dermatitis (allergic shiners)",
+      "Anemia and nutritional deficiencies",
+      "Sun exposure and UV-induced pigmentation",
+      "Smoking and alcohol consumption"
+    ],
+    "related_conditions": [
+      "allergic-rhinitis",
+      "atopic-dermatitis",
+      "anemia",
+      "photoaging"
+    ],
+    "red_flags": [
+      "Unilateral darkening (possible orbital mass or vascular lesion)",
+      "Sudden onset with other systemic symptoms",
+      "Dark circles with severe fatigue and pallor (possible anemia)",
+      "Periorbital swelling with pain or vision changes (urgent evaluation needed)"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Vascular component (blue/purple) often prominent; shadow effect from thin skin; melanin component less common",
+      "III_IV": "Mixed vascular and pigmentary components; brown discoloration common",
+      "V_VI": "Melanin-driven hyperpigmentation predominant; genetic/familial pigmentation very common; post-inflammatory hyperpigmentation from eczema or allergies significant; vascular component less visible; tear trough deformity still contributes to shadowing; treatments must address hyperpigmentation cautiously"
+    },
+    "pregnancy_considerations": "Dark circles may worsen during pregnancy due to hormonal changes, fluid retention, and sleep disturbances. Safe options: cold compresses, adequate sleep, sun protection, topical vitamin C, caffeine eye creams. Avoid retinoids and hydroquinone. Most improve postpartum."
+  },
+  {
+    "id": "xerosis",
+    "name": "Xerosis / Dry Skin",
+    "icd10": "L85.3",
+    "category": "structural",
+    "severity": "mild_to_moderate",
+    "description": "A common condition characterized by decreased skin moisture and impaired skin barrier function, resulting in rough, scaly, tight, and sometimes pruritic skin. Can be physiologic (aging, winter) or pathologic (eczema, ichthyosis, hypothyroidism, systemic disease). Very common, especially in older adults.",
+    "symptoms": [
+      "Rough, scaly skin texture",
+      "Tightness, especially after bathing",
+      "Mild to moderate pruritus",
+      "Fine cracks or fissures (severe cases)",
+      "Ashy or grayish appearance in darker skin",
+      "Flaking and peeling",
+      "Distribution: extensor lower legs (most common), arms, hands, trunk"
+    ],
+    "triggers": [
+      "Low environmental humidity (winter, heated indoor air)",
+      "Frequent hot baths or showers",
+      "Harsh soaps and detergents",
+      "Aging (decreased sebum production, impaired barrier)",
+      "Atopic diathesis",
+      "Hypothyroidism and other endocrine disorders",
+      "Medications (retinoids, diuretics, antihistamines)",
+      "Dehydration and malnutrition",
+      "Chronic kidney disease and diabetes"
+    ],
+    "related_conditions": [
+      "eczema-atopic-dermatitis",
+      "ichthyosis",
+      "contact-dermatitis",
+      "hypothyroidism"
+    ],
+    "red_flags": [
+      "Severe xerosis with systemic symptoms (possible hypothyroidism, diabetes, kidney disease)",
+      "Generalized severe pruritus without rash (possible cholestasis, hematologic malignancy)",
+      "Xerosis with failure to thrive in infants (possible ichthyosis or metabolic disorder)",
+      "Severe fissuring with bleeding or infection",
+      "Xerosis unresponsive to maximal emollient therapy"
+    ],
+    "fitzpatrick_considerations": {
+      "I_II": "Skin appears flaky and rough; erythema may be present; fine white scale",
+      "III_IV": "Skin may appear dull and ashy; scale less visible; post-inflammatory hyperpigmentation at excoriation sites",
+      "V_VI": "Prominent 'ashy' appearance \u2014 gray, whitish, or silvery scale on dark skin; often undertreated due to cultural perceptions; may be dismissed as 'just dry skin' when significant; post-inflammatory hyperpigmentation at scratch marks; higher risk of eczema and dermatitis in context of xerosis"
+    },
+    "pregnancy_considerations": "Very common in pregnancy due to hormonal changes and increased skin stretching. Emollients, gentle cleansers, and humidifiers safe. Avoid hot baths. Urea and lactic acid moisturizers generally safe. Address underlying conditions (thyroid, dehydration)."
+  }
+]

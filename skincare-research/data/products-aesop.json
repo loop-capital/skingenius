@@ -1,0 +1,1196 @@
+[
+  {
+    "name": "Lucent Facial Concentrate",
+    "brand": "Aesop",
+    "category": "serum",
+    "price": "$110",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Ascorbyl Phosphate",
+      "Niacinamide",
+      "Aloe Barbadensis Leaf Juice",
+      "Xanthan Gum",
+      "Potassium Sorbate",
+      "Sodium Benzoate",
+      "Lavandula Angustifolia (Lavender) Oil",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Cananga Odorata (Ylang Ylang) Oil",
+      "Phenoxyethanol",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Niacinamide",
+      "Sodium Ascorbyl Phosphate",
+      "Aloe Vera"
+    ],
+    "conditions_addressed": [
+      "dull skin",
+      "uneven tone",
+      "anti-aging"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Patch test recommended for sensitive skin",
+      "Discontinue use if irritation occurs"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Sublime Replenishing Night Masque",
+    "brand": "Aesop",
+    "category": "mask",
+    "price": "$135",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Squalane",
+      "Niacinamide",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      "Vitamin E",
+      "Squalane",
+      "Ceramides",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "aging skin",
+      "overnight repair"
+    ],
+    "skin_types": [
+      "dry",
+      "mature",
+      "dehydrated"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Avoid if allergic to sunflower oil"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "B Triple C Facial Balancing Gel",
+    "brand": "Aesop",
+    "category": "treatment",
+    "price": "$120",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Niacinamide (Vitamin B3)",
+      "Sodium Ascorbyl Phosphate (Vitamin C)",
+      "Aloe Barbadensis Leaf Juice",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Panthenol (Vitamin B5)",
+      "Sodium Hyaluronate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin B3",
+      "Vitamin C",
+      "Aloe Vera",
+      "Green Tea"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "oily skin",
+      "balancing"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Patch test recommended for sensitive skin",
+      "Contains vitamin C — use sunscreen during the day"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Mandarin Facial Hydrating Cream",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$49",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Citrus Medica Limonum (Lemon) Peel Oil",
+      "Citrus Tangerina (Tangerine) Peel Oil",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Juice",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Citral",
+      "Limonene",
+      "Linalool"
+    ],
+    "key_actives": [
+      "Mandarin Rind",
+      "Lemon Rind",
+      "Tangerine Rind"
+    ],
+    "conditions_addressed": [
+      "normal skin",
+      "combination skin",
+      "hydration"
+    ],
+    "skin_types": [
+      "normal",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains citrus essential oils — photosensitivity risk; use SPF during the day",
+      "Avoid if allergic to citrus oils",
+      "Not recommended for very sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Primrose Facial Hydrating Cream",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$53",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Oenothera Biennis (Evening Primrose) Oil",
+      "Rosa Canina (Rosehip) Seed Oil",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Lavandula Angustifolia (Lavender) Oil",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Evening Primrose Oil",
+      "Rosehip Seed Oil",
+      "Shea Butter"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "sensitive skin",
+      "nourishment"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Safe for sensitive skin",
+      "Contains shea butter — avoid if allergic to nuts",
+      "Contains lavender oil — patch test for very sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Camellia Nut Facial Hydrating Cream",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$53",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Camellia Japonica Seed Oil",
+      "Macadamia Ternifolia Seed Oil",
+      "Santalum Album (Sandalwood) Oil",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Camellia Nut Oil",
+      "Macadamia Nut Oil",
+      "Sandalwood"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "mature skin",
+      "rich hydration"
+    ],
+    "skin_types": [
+      "dry",
+      "mature"
+    ],
+    "contraindications": [
+      "Contains macadamia nut oil — avoid if allergic to tree nuts",
+      "Contains sandalwood essential oil — patch test for sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Parsley Seed Anti-Oxidant Serum",
+    "brand": "Aesop",
+    "category": "serum",
+    "price": "$73",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Carum Petroselinum (Parsley) Seed Oil",
+      "Vitis Vinifera (Grape) Seed Extract",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Juice",
+      "Panthenol (Vitamin B5)",
+      "Sodium Hyaluronate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Parsley Seed Extract",
+      "Grape Seed Extract",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "antioxidant protection",
+      "anti-aging"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Safe for all skin types",
+      "Contains parsley seed oil — avoid during pregnancy (high essential oil content)"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Parsley Seed Anti-Oxidant Eye Serum",
+    "brand": "Aesop",
+    "category": "eye_cream",
+    "price": "$73",
+    "size": "15 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Carum Petroselinum (Parsley) Seed Oil",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Juice",
+      "Sodium Hyaluronate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Parsley Seed Extract",
+      "Chamomile",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "dark circles",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Safe for all skin types",
+      "Avoid contact with eyes",
+      "Contains parsley seed oil — avoid during pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Parsley Seed Anti-Oxidant Facial Toner",
+    "brand": "Aesop",
+    "category": "toner",
+    "price": "$43",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Carum Petroselinum (Parsley) Seed Oil",
+      "Lavandula Angustifolia (Lavender) Oil",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Juice",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Parsley Seed Extract",
+      "Witch Hazel",
+      "Lavender"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "antioxidant protection",
+      "balancing"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains witch hazel — may be drying for very dry skin",
+      "Contains lavender essential oil — patch test for sensitive skin",
+      "Avoid during pregnancy due to essential oil content"
+    ],
+    "ph_range": "4.5-5.5"
+  },
+  {
+    "name": "Parsley Seed Anti-Oxidant Facial Hydrator",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$55",
+    "size": "60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Carum Petroselinum (Parsley) Seed Oil",
+      "Camellia Sinensis (White Tea) Leaf Extract",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Juice",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Parsley Seed Extract",
+      "White Tea",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "oily skin",
+      "light hydration"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Lightweight formula suitable for oily skin",
+      "Contains parsley seed oil — avoid during pregnancy"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Parsley Seed Facial Cleansing Oil",
+    "brand": "Aesop",
+    "category": "cleanser",
+    "price": "$55",
+    "size": "200 mL",
+    "inci_ingredients": [
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Carum Petroselinum (Parsley) Seed Oil",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Tocopherol (Vitamin E)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Parsley Seed Extract",
+      "Mandarin Rind",
+      "Jojoba Oil"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "makeup removal",
+      "gentle cleansing"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains nut oils (sweet almond) — avoid if allergic to tree nuts",
+      "Contains parsley seed oil — avoid during pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Fabulous Face Cleanser",
+    "brand": "Aesop",
+    "category": "cleanser",
+    "price": "$35",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Cananga Odorata (Ylang Ylang) Flower Oil",
+      "Lavandula Angustifolia (Lavender) Oil",
+      "Sodium Lauroyl Sarcosinate",
+      "Cocamidopropyl Betaine",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Mandarin Rind",
+      "Ylang Ylang",
+      "Lavender"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "daily cleansing",
+      "gentle"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains essential oils — patch test for sensitive skin",
+      "Avoid during pregnancy due to ylang ylang and lavender essential oils"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Amazing Face Cleanser",
+    "brand": "Aesop",
+    "category": "cleanser",
+    "price": "$35",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Cananga Odorata (Ylang Ylang) Flower Oil",
+      "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+      "Sodium Lauroyl Sarcosinate",
+      "Cocamidopropyl Betaine",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Mandarin Rind",
+      "Ylang Ylang",
+      "Rosemary Leaf"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "oily skin",
+      "refreshing"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Contains rosemary essential oil — avoid during pregnancy and epilepsy",
+      "Contains ylang ylang essential oil — avoid during pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "In Two Minds Facial Cleanser",
+    "brand": "Aesop",
+    "category": "cleanser",
+    "price": "$35",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Salicylic Acid",
+      "Salvia Officinalis (Sage) Leaf Extract",
+      "Sodium Lauroyl Sarcosinate",
+      "Cocamidopropyl Betaine",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Witch Hazel",
+      "Salicylic Acid",
+      "Sage Leaf"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "oily skin",
+      "balancing"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Contains salicylic acid (BHA) — avoid during pregnancy",
+      "May increase sun sensitivity — use SPF",
+      "Avoid if allergic to aspirin (salicylates)"
+    ],
+    "ph_range": "4.0-5.0"
+  },
+  {
+    "name": "Purifying Facial Exfoliant Paste",
+    "brand": "Aesop",
+    "category": "exfoliant",
+    "price": "$53",
+    "size": "75 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Quartz",
+      "Lactic Acid",
+      "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Quartz",
+      "Lactic Acid",
+      "Rosemary Leaf"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "exfoliation",
+      "texture"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains lactic acid (AHA) — use sunscreen during the day",
+      "Physical exfoliant — avoid on active acne or irritated skin",
+      "Contains rosemary oil — avoid during pregnancy and epilepsy"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Tea Tree Leaf Facial Exfoliant",
+    "brand": "Aesop",
+    "category": "exfoliant",
+    "price": "$40",
+    "size": "30 g",
+    "inci_ingredients": [
+      "Sodium Bicarbonate",
+      "Kaolin (Aluminum Silicate)",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Powder",
+      "Lactic Acid",
+      "Tocopherol (Vitamin E)"
+    ],
+    "key_actives": [
+      "Tea Tree Leaf",
+      "Aluminum Silicate",
+      "Sodium Bicarbonate"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "acne-prone",
+      "congested pores"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains lactic acid — use sunscreen during the day",
+      "Powder exfoliant — avoid on broken or irritated skin",
+      "Tea tree oil may irritate very sensitive skin"
+    ],
+    "ph_range": "6.0-7.0"
+  },
+  {
+    "name": "B & Tea Balancing Toner",
+    "brand": "Aesop",
+    "category": "toner",
+    "price": "$35",
+    "size": "200 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Panthenol (Vitamin B5)",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Aloe Barbadensis Leaf Juice",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin B5",
+      "Green Tea",
+      "Aloe Vera"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "oily skin",
+      "balancing"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Mild formula suitable for sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Bitter Orange Astringent Toner",
+    "brand": "Aesop",
+    "category": "toner",
+    "price": "$35",
+    "size": "200 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Citrus Aurantium Amara (Bitter Orange) Peel Oil",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Limonene",
+      "Linalool"
+    ],
+    "key_actives": [
+      "Bitter Orange",
+      "Witch Hazel",
+      "Rosemary Leaf"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "astringent",
+      "pore refining"
+    ],
+    "skin_types": [
+      "oily"
+    ],
+    "contraindications": [
+      "Contains witch hazel — may be drying for dry skin",
+      "Contains rosemary oil — avoid during pregnancy and epilepsy",
+      "Contains citrus oil — photosensitivity risk; use SPF"
+    ],
+    "ph_range": "4.0-5.0"
+  },
+  {
+    "name": "In Two Minds Facial Toner",
+    "brand": "Aesop",
+    "category": "toner",
+    "price": "$35",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Niacinamide",
+      "Panthenol (Vitamin B5)",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Witch Hazel",
+      "Chamomile",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "oily skin",
+      "balancing"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Contains witch hazel — may be drying for very dry skin",
+      "Niacinamide is generally well-tolerated",
+      "Safe for most skin types"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Sage & Zinc Facial Hydrating Cream SPF15",
+    "brand": "Aesop",
+    "category": "sunscreen",
+    "price": "$45",
+    "size": "50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Zinc Oxide",
+      "Glycerin",
+      "Salvia Officinalis (Sage) Leaf Extract",
+      "Tocopherol (Vitamin E)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Sage Leaf",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "daily protection",
+      "light hydration",
+      "all skin types"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains zinc oxide — may leave white cast on darker skin tones",
+      "SPF 15 is minimal protection — reapply every 2 hours",
+      "Safe for sensitive skin and pregnancy"
+    ],
+    "ph_range": "6.0-7.0"
+  },
+  {
+    "name": "Protective Body Lotion SPF50",
+    "brand": "Aesop",
+    "category": "sunscreen",
+    "price": "$45",
+    "size": "150 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Glycerin",
+      "Tocopherol (Vitamin E)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "sun protection",
+      "body",
+      "high protection"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Mineral sunscreen — may leave white cast",
+      "Reapply every 2 hours when in sun",
+      "Safe for sensitive skin and pregnancy"
+    ],
+    "ph_range": "6.0-7.0"
+  },
+  {
+    "name": "Lip Salve",
+    "brand": "Aesop",
+    "category": "treatment",
+    "price": "$13",
+    "size": "9 mL",
+    "inci_ingredients": [
+      "Ricinus Communis (Castor) Seed Oil",
+      "Cera Alba (Beeswax)",
+      "Tocopherol (Vitamin E)",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Tocopherol",
+      "Castor Oil",
+      "Beeswax"
+    ],
+    "conditions_addressed": [
+      "dry lips",
+      "hydration",
+      "protection"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains beeswax — avoid if allergic to bee products",
+      "Contains castor oil — generally safe",
+      "Safe for pregnancy"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Rosehip Seed Lip Cream",
+    "brand": "Aesop",
+    "category": "treatment",
+    "price": "$17",
+    "size": "6 mL",
+    "inci_ingredients": [
+      "Rosa Canina (Rosehip) Seed Oil",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Juice",
+      "Ricinus Communis (Castor) Seed Oil",
+      "Cera Alba (Beeswax)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Rosehip Seed Oil",
+      "Tocopherol",
+      "Aloe Vera"
+    ],
+    "conditions_addressed": [
+      "dry lips",
+      "nourishment",
+      "repair"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains beeswax — avoid if allergic to bee products",
+      "Safe for pregnancy"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Cedar & Citrus Lip Salve",
+    "brand": "Aesop",
+    "category": "treatment",
+    "price": "$13",
+    "size": "9 mL",
+    "inci_ingredients": [
+      "Ricinus Communis (Castor) Seed Oil",
+      "Cera Alba (Beeswax)",
+      "Cedrus Atlantica (Cedarwood) Bark Oil",
+      "Citrus Paradisi (Grapefruit) Peel Oil",
+      "Tocopherol (Vitamin E)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Cedarwood",
+      "Grapefruit",
+      "Beeswax"
+    ],
+    "conditions_addressed": [
+      "dry lips",
+      "protection",
+      "scented"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains beeswax — avoid if allergic to bee products",
+      "Contains citrus essential oil — photosensitivity risk",
+      "Avoid during pregnancy due to cedarwood essential oil"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Rind Concentrate Body Balm",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$35",
+    "size": "120 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Citrus Aurantium Dulcis (Orange) Peel Oil",
+      "Citrus Medica Limonum (Lemon) Peel Oil",
+      "Citrus Paradisi (Grapefruit) Peel Oil",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Orange Rind",
+      "Lemon Rind",
+      "Grapefruit Rind"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "body",
+      "citrus scent"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains citrus essential oils — photosensitivity risk; avoid sun exposure after application",
+      "Contains shea butter — avoid if allergic to nuts"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Geranium Leaf Body Balm",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$35",
+    "size": "120 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Pelargonium Graveolens (Geranium) Leaf Oil",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Citrus Aurantium Bergamia (Bergamot) Fruit Oil",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Geranium Leaf",
+      "Mandarin Rind",
+      "Bergamot"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "body",
+      "herbal scent"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains bergamot essential oil — photosensitivity risk",
+      "Contains citrus oils — use SPF if applied before sun exposure",
+      "Contains shea butter — avoid if allergic to nuts"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Reverence Aromatique Hand Balm",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$31",
+    "size": "75 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Vetiveria Zizanoides (Vetiver) Root Oil",
+      "Citrus Aurantium Amara (Petitgrain) Leaf/Twig Oil",
+      "Citrus Aurantium Bergamia (Bergamot) Fruit Oil",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vetiver Root",
+      "Petitgrain",
+      "Bergamot"
+    ],
+    "conditions_addressed": [
+      "dry hands",
+      "nourishment",
+      "herbal"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains bergamot essential oil — photosensitivity risk",
+      "Contains shea butter — avoid if allergic to nuts"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Resurrection Aromatique Hand Balm",
+    "brand": "Aesop",
+    "category": "moisturizer",
+    "price": "$31",
+    "size": "75 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+      "Cedrus Atlantica (Cedarwood) Bark Oil",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Mandarin Rind",
+      "Rosemary Leaf",
+      "Cedarwood"
+    ],
+    "conditions_addressed": [
+      "dry hands",
+      "nourishment",
+      "citrus"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains rosemary essential oil — avoid during pregnancy and epilepsy",
+      "Contains cedarwood essential oil — avoid during pregnancy",
+      "Contains shea butter — avoid if allergic to nuts"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Resurrection Aromatique Hand Wash",
+    "brand": "Aesop",
+    "category": "cleanser",
+    "price": "$39",
+    "size": "500 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Sodium Lauroyl Sarcosinate",
+      "Cocamidopropyl Betaine",
+      "Citrus Nobilis (Mandarin) Peel Oil",
+      "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+      "Cedrus Atlantica (Cedarwood) Bark Oil",
+      "Glycerin",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Mandarin Rind",
+      "Rosemary Leaf",
+      "Cedarwood"
+    ],
+    "conditions_addressed": [
+      "hand cleansing",
+      "frequent washing",
+      "citrus"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains rosemary essential oil — avoid during pregnancy and epilepsy",
+      "Contains cedarwood essential oil — avoid during pregnancy",
+      "Rinse thoroughly to avoid irritation"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Reverence Aromatique Hand Wash",
+    "brand": "Aesop",
+    "category": "cleanser",
+    "price": "$39",
+    "size": "500 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Sodium Lauroyl Sarcosinate",
+      "Cocamidopropyl Betaine",
+      "Vetiveria Zizanoides (Vetiver) Root Oil",
+      "Citrus Aurantium Amara (Petitgrain) Leaf/Twig Oil",
+      "Citrus Aurantium Bergamia (Bergamot) Fruit Oil",
+      "Glycerin",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vetiver Root",
+      "Petitgrain",
+      "Bergamot"
+    ],
+    "conditions_addressed": [
+      "hand cleansing",
+      "frequent washing",
+      "herbal"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains bergamot essential oil — photosensitivity risk",
+      "Rinse thoroughly to avoid irritation"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Geranium Leaf Body Scrub",
+    "brand": "Aesop",
+    "category": "exfoliant",
+    "price": "$35",
+    "size": "180 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Pumice",
+      "Bambusa Vulgaris (Bamboo) Stem Extract",
+      "Pelargonium Graveolens (Geranium) Leaf Oil",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Glycerin",
+      "Tocopherol (Vitamin E)",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Pumice",
+      "Bamboo Stem",
+      "Geranium Leaf"
+    ],
+    "conditions_addressed": [
+      "body exfoliation",
+      "rough skin",
+      "citrus"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Physical exfoliant — avoid on irritated or broken skin",
+      "Avoid use on face — body use only"
+    ],
+    "ph_range": "5.5-6.5"
+  }
+]

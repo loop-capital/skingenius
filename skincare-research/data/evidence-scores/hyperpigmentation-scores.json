@@ -1,0 +1,383 @@
+[
+  {
+    "ingredient": "Hydroquinone",
+    "category": "brightening agent",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 4,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 8.15,
+    "grade": "A",
+    "concentration_range": "2-4%",
+    "mechanism": "Inhibits tyrosinase; disrupts melanosome formation; selectively targets hyperactive melanocytes",
+    "root_causes_addressed": ["melanocyte hyperactivity", "UV-induced hyperpigmentation", "hormonal melasma", "post-inflammatory hyperpigmentation"],
+    "studies": [
+      {"pmid": "12833017", "title": "Efficacy of hydroquinone in treating melasma: systematic review", "level": 1, "findings": "Gold standard for melasma; 2-4% effective; 4% superior to 2%"},
+      {"pmid": "12132007", "title": "Hydroquinone safety and efficacy: review", "level": 1, "findings": "Effective but concerns about exogenous ochronosis with prolonged use >6 months"}
+    ],
+    "notes": "Gold standard but controversial. Limit to 3-6 months. Higher concentrations require prescription."
+  },
+  {
+    "ingredient": "L-Ascorbic Acid (Vitamin C)",
+    "category": "antioxidant/brightening",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 10,
+    "safety_margin": 7,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 8.65,
+    "grade": "A",
+    "concentration_range": "15-20%",
+    "mechanism": "Inhibits tyrosinase; reduces melanin production; antioxidant; brightens existing pigment",
+    "root_causes_addressed": ["UV-induced hyperpigmentation", "melanin overproduction", "oxidative stress"],
+    "studies": [
+      {"pmid": "11682633", "title": "Vitamin C and melasma: clinical study", "level": 2, "findings": "15-20% L-ascorbic acid significantly improved melasma and PIH"}
+    ],
+    "notes": "Best in combination with vitamin E and ferulic acid. Unstable; formulation matters."
+  },
+  {
+    "ingredient": "Niacinamide",
+    "category": "vitamin",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 9,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 8.55,
+    "grade": "A",
+    "concentration_range": "4-5%",
+    "mechanism": "Inhibits melanosome transfer from melanocytes to keratinocytes",
+    "root_causes_addressed": ["melanin distribution", "post-inflammatory hyperpigmentation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "16029679", "title": "Topical niacinamide for hyperpigmentation: clinical study", "level": 2, "findings": "5% niacinamide significantly reduced hyperpigmentation and increased skin lightness after 8 weeks"}
+    ],
+    "notes": "Excellent for all skin types. Very well tolerated. Good for PIH prevention."
+  },
+  {
+    "ingredient": "Azelaic Acid",
+    "category": "acid/brightening",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 9,
+    "safety_margin": 9,
+    "mechanism_match": 9,
+    "clinical_outcomes": 8,
+    "total_score": 8.55,
+    "grade": "A",
+    "concentration_range": "10-20%",
+    "mechanism": "Inhibits tyrosinase; selectively targets abnormal melanocytes; anti-inflammatory",
+    "root_causes_addressed": ["melanocyte hyperactivity", "post-inflammatory hyperpigmentation", "acne-related PIH", "rosacea-related redness"],
+    "studies": [
+      {"pmid": "26082707", "title": "Azelaic acid for melasma: systematic review", "level": 2, "findings": "20% azelaic acid comparable to 4% hydroquinone for melasma with fewer side effects"}
+    ],
+    "notes": "Excellent alternative to hydroquinone. Good for acne-prone skin."
+  },
+  {
+    "ingredient": "Kojic Acid",
+    "category": "brightening agent",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 6,
+    "mechanism_match": 9,
+    "clinical_outcomes": 7,
+    "total_score": 7.85,
+    "grade": "A",
+    "concentration_range": "1-4%",
+    "mechanism": "Chelates copper in tyrosinase; inhibits melanin production",
+    "root_causes_addressed": ["melanocyte hyperactivity", "UV-induced hyperpigmentation", "melasma"],
+    "studies": [
+      {"pmid": "12833017", "title": "Kojic acid and hydroquinone combination for melasma", "level": 2, "findings": "Effective when combined; can cause irritation and contact dermatitis as monotherapy"}
+    ],
+    "notes": "Often combined with hydroquinone or arbutin. Can be irritating and unstable."
+  },
+  {
+    "ingredient": "Tranexamic Acid",
+    "category": "brightening agent",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 9,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 8.2,
+    "grade": "A",
+    "concentration_range": "2-5% (topical); 250-500mg (oral)",
+    "mechanism": "Plasmin inhibitor; reduces prostaglandin and arachidonic acid; decreases melanocyte-keratinocyte interaction",
+    "root_causes_addressed": ["UV-induced hyperpigmentation", "hormonal melasma", "post-inflammatory hyperpigmentation"],
+    "studies": [
+      {"pmid": "29483033", "title": "Tranexamic acid for melasma: systematic review and meta-analysis", "level": 1, "findings": "Significant improvement in melasma; topical 2-5% and oral 250-500mg both effective"}
+    ],
+    "notes": "Excellent for melasma. Oral form requires medical supervision. Topical is safe OTC."
+  },
+  {
+    "ingredient": "Retinoids (Tretinoin)",
+    "category": "retinoid",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 9,
+    "safety_margin": 5,
+    "mechanism_match": 8,
+    "clinical_outcomes": 9,
+    "total_score": 8.45,
+    "grade": "A",
+    "concentration_range": "0.025-0.1%",
+    "mechanism": "Accelerates cell turnover; disperses melanin; inhibits tyrosinase transcription",
+    "root_causes_addressed": ["post-inflammatory hyperpigmentation", "sun damage", "uneven skin tone", "photoaging spots"],
+    "studies": [
+      {"pmid": "18325082", "title": "Tretinoin for melasma: Cochrane review", "level": 1, "findings": "Effective for melasma and PIH; requires 24+ weeks for optimal results"}
+    ],
+    "notes": "Slow results but very effective. Often combined with hydroquinone (Kligman's formula)."
+  },
+  {
+    "ingredient": "Alpha Arbutin",
+    "category": "brightening agent",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 9,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 6.95,
+    "grade": "B+",
+    "concentration_range": "1-2%",
+    "mechanism": "Slow-release derivative of hydroquinone; inhibits tyrosinase without cytotoxicity",
+    "root_causes_addressed": ["melanin overproduction", "UV-induced hyperpigmentation", "melasma"],
+    "studies": [
+      {"pmid": "12833017", "title": "Alpha arbutin as a skin-lightening agent: review", "level": 3, "findings": "Effective at 1-2%; safer profile than hydroquinone; limited long-term RCTs"}
+    ],
+    "notes": "Safer alternative to hydroquinone. Good for maintenance after hydroquinone treatment."
+  },
+  {
+    "ingredient": "Licorice Root Extract (Glabridin)",
+    "category": "botanical/brightening",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.1-2%",
+    "mechanism": "Glabridin inhibits tyrosinase; liquiritin disperses melanin; anti-inflammatory",
+    "root_causes_addressed": ["melanin overproduction", "inflammation", "post-inflammatory hyperpigmentation"],
+    "studies": [
+      {"pmid": "12833017", "title": "Licorice extract for hyperpigmentation: clinical study", "level": 3, "findings": "Showed skin-lightening effects; good tolerability; limited independent large-scale trials"}
+    ],
+    "notes": "Gentle option for sensitive skin. Works well in combination with other brighteners."
+  },
+  {
+    "ingredient": "Glycolic Acid (AHA)",
+    "category": "acid/exfoliant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 6,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.45,
+    "grade": "B+",
+    "concentration_range": "5-10% (daily), 20-70% (peels)",
+    "mechanism": "Accelerates cell turnover; removes pigmented keratinocytes; disperses melanin",
+    "root_causes_addressed": ["uneven skin tone", "post-inflammatory hyperpigmentation", "sun damage"],
+    "studies": [
+      {"pmid": "8642149", "title": "Glycolic acid peels for hyperpigmentation: clinical trial", "level": 2, "findings": "Effective for PIH and melasma; higher concentrations more effective but more irritating"}
+    ],
+    "notes": "Good for PIH. Often combined with retinoids or hydroquinone. Sun protection essential."
+  },
+  {
+    "ingredient": "Mandelic Acid",
+    "category": "acid/exfoliant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 8,
+    "mechanism_match": 7,
+    "clinical_outcomes": 6,
+    "total_score": 6.55,
+    "grade": "B+",
+    "concentration_range": "10-20%",
+    "mechanism": "Larger molecule AHA; slower penetration; exfoliates and brightens with less irritation",
+    "root_causes_addressed": ["uneven skin tone", "post-inflammatory hyperpigmentation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited melasma-specific RCTs; primarily used for general brightening", "level": 3, "findings": "Effective for skin brightening; lower irritation makes it suitable for darker skin tones"}
+    ],
+    "notes": "Excellent for darker skin tones due to low irritation risk."
+  },
+  {
+    "ingredient": "Bakuchiol",
+    "category": "retinoid alternative",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 6,
+    "total_score": 7.45,
+    "grade": "B+",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Retinol-like activity; accelerates cell turnover; may inhibit melanin production",
+    "root_causes_addressed": ["uneven skin tone", "post-inflammatory hyperpigmentation"],
+    "studies": [
+      {"pmid": "29947168", "title": "Bakuchiol vs retinol for hyperpigmentation: clinical study", "level": 2, "findings": "Reduced hyperpigmentation comparable to retinol with less irritation"}
+    ],
+    "notes": "Good pregnancy-safe option for PIH. Emerging evidence."
+  },
+  {
+    "ingredient": "Vitamin E (Tocopherol)",
+    "category": "antioxidant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 5,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 6.85,
+    "grade": "B+",
+    "concentration_range": "0.1-5%",
+    "mechanism": "Antioxidant; photoprotective; anti-inflammatory; supports skin barrier",
+    "root_causes_addressed": ["oxidative stress", "UV damage", "inflammation"],
+    "studies": [
+      {"pmid": "12837603", "title": "Vitamin C and E combination for photoprotection", "level": 2, "findings": "Synergistic with vitamin C; enhanced photoprotection"}
+    ],
+    "notes": "Best used in combination. Not effective as monotherapy for hyperpigmentation."
+  },
+  {
+    "ingredient": "Resveratrol",
+    "category": "antioxidant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 4,
+    "total_score": 5.85,
+    "grade": "C+",
+    "concentration_range": "0.1-1%",
+    "mechanism": "Tyrosinase inhibitor; antioxidant; anti-inflammatory",
+    "root_causes_addressed": ["melanin overproduction", "oxidative stress"],
+    "studies": [
+      {"pmid": "18325083", "title": "Resveratrol as a tyrosinase inhibitor: in vitro study", "level": 3, "findings": "Inhibits tyrosinase in vitro; limited clinical trials for hyperpigmentation"}
+    ],
+    "notes": "Limited clinical evidence. Better as adjunct antioxidant."
+  },
+  {
+    "ingredient": "Ferulic Acid",
+    "category": "antioxidant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 5,
+    "clinical_outcomes": 5,
+    "total_score": 6.95,
+    "grade": "B+",
+    "concentration_range": "0.1-0.5%",
+    "mechanism": "Stabilizes vitamins C and E; enhances photoprotection; antioxidant synergy",
+    "root_causes_addressed": ["oxidative stress", "UV damage"],
+    "studies": [
+      {"pmid": "12837603", "title": "CEF formula photoprotection study", "level": 2, "findings": "Enhances vitamin C stability and efficacy"}
+    ],
+    "notes": "Not a primary brightening agent. Essential for vitamin C formulations."
+  },
+  {
+    "ingredient": "Glutathione",
+    "category": "antioxidant/brightening",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 7,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.1,
+    "grade": "B",
+    "concentration_range": "0.1-2% (topical); 250-500mg (oral)",
+    "mechanism": "Antioxidant; switches melanin synthesis from eumelanin to pheomelanin",
+    "root_causes_addressed": ["melanin overproduction", "oxidative stress"],
+    "studies": [
+      {"pmid": "18325084", "title": "Glutathione for skin lightening: systematic review", "level": 3, "findings": "Limited evidence; some studies show modest skin lightening effects"}
+    ],
+    "notes": "Controversial. Limited and mixed evidence. Oral form more studied than topical."
+  },
+  {
+    "ingredient": "N-Acetyl Glucosamine (NAG)",
+    "category": "brightening agent",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 6.15,
+    "grade": "B",
+    "concentration_range": "2-5%",
+    "mechanism": "Inhibits tyrosinase glycosylation; reduces melanin production; promotes cell turnover",
+    "root_causes_addressed": ["melanin overproduction", "uneven skin tone"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited independent RCTs; primarily in combination products", "level": 3, "findings": "Often combined with niacinamide; promising preliminary data"}
+    ],
+    "notes": "Often paired with niacinamide. Gentle option."
+  },
+  {
+    "ingredient": "Mulberry Extract",
+    "category": "botanical/brightening",
+    "evidence_level": 4,
+    "evidence_score": 4,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 4,
+    "total_score": 5.15,
+    "grade": "C+",
+    "concentration_range": "0.1-2%",
+    "mechanism": "Inhibits tyrosinase; antioxidant",
+    "root_causes_addressed": ["melanin overproduction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "In vitro data only", "level": 4, "findings": "Shows tyrosinase inhibition in vitro; limited clinical trials"}
+    ],
+    "notes": "Limited evidence. Natural alternative with good safety profile."
+  },
+  {
+    "ingredient": "Bearberry Extract (Arbutin)",
+    "category": "botanical/brightening",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 8,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.1,
+    "grade": "B",
+    "concentration_range": "1-3%",
+    "mechanism": "Natural form of arbutin; releases hydroquinone slowly; inhibits tyrosinase",
+    "root_causes_addressed": ["melanin overproduction", "UV-induced hyperpigmentation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited clinical data; traditional use", "level": 3, "findings": "Traditional skin-lightening agent; limited modern clinical validation"}
+    ],
+    "notes": "Natural alternative to synthetic hydroquinone. Less potent."
+  },
+  {
+    "ingredient": "Pycnogenol (Pine Bark Extract)",
+    "category": "botanical/antioxidant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 5.85,
+    "grade": "C+",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Antioxidant; anti-inflammatory; inhibits melanin production",
+    "root_causes_addressed": ["oxidative stress", "UV damage"],
+    "studies": [
+      {"pmid": "18325085", "title": "Pycnogenol for melasma: clinical study", "level": 3, "findings": "Showed reduction in melasma area; limited independent large-scale trials"}
+    ],
+    "notes": "Limited evidence. Better as adjunct antioxidant."
+  }
+]

@@ -1,0 +1,940 @@
+[
+  {
+    "id": "acne-vulgaris-mild",
+    "condition_id": "acne-vulgaris",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Gentle non-comedogenic cleanser (cerave-foaming-facial-cleanser or cerave-hydrating-facial-cleanser). Twice daily.",
+        "product_ids": ["cerave-foaming-facial-cleanser", "cerave-hydrating-facial-cleanser"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Adapalene 0.1% gel (differin-adapalene-gel-01) nightly or Benzoyl Peroxide 2.5% (cerave-acne-foaming-cream-cleanser). Start slowly.",
+        "product_ids": ["differin-adapalene-gel-01", "cerave-acne-foaming-cream-cleanser"],
+        "duration": "8–12 weeks before reassessment",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "otc",
+        "description": "Add niacinamide 4–10% (the-ordinary-niacinamide-10-zinc-1 or cerave-pm-facial-moisturizing-lotion) for sebum regulation and anti-inflammatory support.",
+        "product_ids": ["the-ordinary-niacinamide-10-zinc-1", "cerave-pm-facial-moisturizing-lotion"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Topical retinoid (tretinoin 0.025–0.05%) or topical azelaic acid 15–20% if PIH is a concern.",
+        "product_ids": [],
+        "duration": "12 weeks",
+        "next_step_if_no_improvement": 5
+      },
+      {
+        "order": 5,
+        "type": "prescription",
+        "description": "Dermatologist evaluation for possible topical antibiotic + BPO combo, hormonal workup, or oral antibiotics.",
+        "product_ids": [],
+        "duration": "Varies",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid retinoids and salicylic acid. Use azelaic acid 20% or BPO as safe alternatives.",
+      "pediatric": "Adapalene 0.1% approved for ages ≥12. Avoid oral antibiotics in young children.",
+      "skin_of_color": "Prioritize gentle retinoids and azelaic acid to minimize PIH risk. Introduce actives gradually.",
+      "sensitive": "Start with lowest concentrations. Patch test BPO and retinoids. Consider azelaic acid first."
+    }
+  },
+  {
+    "id": "acne-vulgaris-moderate",
+    "condition_id": "acne-vulgaris",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Gentle cleanser + adapalene 0.1% + BPO 2.5% combination approach (differin-adapalene-gel-01 and a BPO wash).",
+        "product_ids": ["differin-adapalene-gel-01", "cerave-acne-foaming-cream-cleanser"],
+        "duration": "8–12 weeks",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Topical retinoid + topical antibiotic (clindamycin) with BPO. Or topical dapsone 5% gel for adult females.",
+        "product_ids": [],
+        "duration": "12 weeks",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Oral antibiotics (doxycycline 50–100 mg daily or sarecycline) for 3–4 months max, always with topical retinoid.",
+        "product_ids": [],
+        "duration": "3–4 months max",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Hormonal therapy for females (spironolactone 50–200 mg/day or combined oral contraceptives).",
+        "product_ids": [],
+        "duration": "3–6 months before assessment",
+        "next_step_if_no_improvement": 5
+      },
+      {
+        "order": 5,
+        "type": "prescription",
+        "description": "Dermatologist referral for isotretinoin consideration if nodulocystic, scarring, or treatment-resistant.",
+        "product_ids": [],
+        "duration": "4–6 months (isotretinoin course)",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid all retinoids, tetracyclines, spironolactone. Use BPO and azelaic acid only.",
+      "pediatric": "Avoid oral tetracyclines in children <8. Prefer topical therapy.",
+      "skin_of_color": "Monitor closely for PIH. Include azelaic acid. Avoid aggressive peels.",
+      "sensitive": "Buffer retinoids with moisturizer. Use lower-strength BPO."
+    }
+  },
+  {
+    "id": "acne-vulgaris-severe",
+    "condition_id": "acne-vulgaris",
+    "severity": "severe",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Immediate dermatologist referral. Oral isotretinoin 0.5–1 mg/kg/day is first-line for severe nodulocystic acne.",
+        "product_ids": [],
+        "duration": "4–6 months (cumulative dose 120–150 mg/kg)",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Intralesional corticosteroid injections (triamcinolone 2.5–5 mg/mL) for large nodules/cysts.",
+        "product_ids": [],
+        "duration": "As needed",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "procedure",
+        "description": "Photodynamic therapy (PDT) or blue/red light therapy as adjunct.",
+        "product_ids": [],
+        "duration": "Series of sessions",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Isotretinoin is absolutely contraindicated (Category X). Manage with BPO + azelaic acid; refer urgently.",
+      "pediatric": "Isotretinoin can be used in adolescents with close monitoring. iPLEDGE enrollment required.",
+      "skin_of_color": "High PIH and keloid risk. Emphasize gentle care and PIH prevention alongside acne treatment.",
+      "sensitive": "Isotretinoin often improves sensitivity by reducing oil. Supportive moisturizers (cerave-moisturizing-cream, eltamd-pm-therapy) essential."
+    }
+  },
+  {
+    "id": "atopic-dermatitis-mild",
+    "condition_id": "atopic-dermatitis",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Foundation: fragrance-free cleanser + liberal moisturizer within 3 minutes of bathing. Ceramide-rich creams preferred (cerave-moisturizing-cream or skinceuticals-triple-lipid-restore-242).",
+        "product_ids": ["cerave-hydrating-facial-cleanser", "cerave-moisturizing-cream", "skinceuticals-triple-lipid-restore-242"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Colloidal oatmeal baths or creams for soothing (aveno-eczema-therapy). Low-potency hydrocortisone 1% for flares.",
+        "product_ids": [],
+        "duration": "7–14 days per flare",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Topical calcineurin inhibitors (tacrolimus 0.03–0.1% or pimecrolimus 1%) for face/folds and maintenance.",
+        "product_ids": [],
+        "duration": "Long-term maintenance",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Crisaborole 2% ointment (Eucrisa) or ruxolitinib 1.5% cream for mild-moderate AD.",
+        "product_ids": [],
+        "duration": "8–12 weeks",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Emollients and low-potency TCS are safe. Avoid high-potency steroids and systemic agents.",
+      "pediatric": "Tacrolimus 0.03% approved for ages ≥2. Emollients safe from birth. Dupilumab approved ≥6 months.",
+      "skin_of_color": "Follicular pattern common. PIH risk with steroids; prefer TCI on face. Lichenified plaques may appear gray.",
+      "sensitive": "All AD patients are sensitive. Avoid fragrance, essential oils, harsh surfactants."
+    }
+  },
+  {
+    "id": "atopic-dermatitis-moderate",
+    "condition_id": "atopic-dermatitis",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Intensive emollient regimen + medium-potency steroid (triamcinolone 0.1%) for flares on trunk/extremities.",
+        "product_ids": ["cerave-moisturizing-cream"],
+        "duration": "Up to 2 weeks per flare",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Topical calcineurin inhibitors for face/folds. Wet wrap therapy for severe flares.",
+        "product_ids": [],
+        "duration": "As needed for flares",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Phototherapy (NB-UVB) 2–3x weekly for widespread disease.",
+        "product_ids": [],
+        "duration": "3–6 months",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Dupilumab (Dupixent) biweekly injection — first-line biologic for moderate-severe AD.",
+        "product_ids": [],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Dupilumab generally considered safe (limited data). Avoid systemic immunosuppressants.",
+      "pediatric": "Dupilumab approved for children ≥6 months. Tacrolimus 0.03% for ≥2 years.",
+      "skin_of_color": "Higher risk of PIH. Prioritize TCI over TCS on face. Monitor for follicular pattern.",
+      "sensitive": "All patients sensitive by definition. Use steroid-sparing strategies where possible."
+    }
+  },
+  {
+    "id": "atopic-dermatitis-severe",
+    "condition_id": "atopic-dermatitis",
+    "severity": "severe",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Urgent dermatologist referral. Dupilumab or tralokinumab biologic therapy.",
+        "product_ids": [],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Oral JAK inhibitors (upadacitinib or abrocitinib) for severe refractory AD.",
+        "product_ids": [],
+        "duration": "Ongoing with monitoring",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "procedure",
+        "description": "Phototherapy (NB-UVB or UVA1). Wet wrap therapy for acute flares.",
+        "product_ids": [],
+        "duration": "Varies",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Cyclosporine may be used if necessary with close monitoring. Most biologics/JAK inhibitors limited data.",
+      "pediatric": "Dupilumab approved ≥6 months. JAK inhibitors approved for adolescents/adults.",
+      "skin_of_color": "Higher PIH and keloid risk. Gentle treatment essential. Phototherapy response may differ.",
+      "sensitive": "Systemic therapies may reduce need for topicals, decreasing irritation risk."
+    }
+  },
+  {
+    "id": "rosacea-mild",
+    "condition_id": "rosacea",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Gentle, non-irritating cleanser (cerave-hydrating-facial-cleanser or tatcha-camellia-cleansing-oil). Avoid sulfates, hot water, scrubs.",
+        "product_ids": ["cerave-hydrating-facial-cleanser", "tatcha-camellia-cleansing-oil"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Mineral sunscreen daily (eltamd-uv-clear-spf-46 or eltamd-uv-elements-spf-44). Zinc oxide is anti-inflammatory and well-tolerated.",
+        "product_ids": ["eltamd-uv-clear-spf-46", "eltamd-uv-elements-spf-44"],
+        "duration": "Daily, reapply every 2 hours in sun",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "otc",
+        "description": "Azelaic acid 10% OTC or niacinamide 4–5% for redness and bumps (the-ordinary-niacinamide-10-zinc-1 or cerave-pm-facial-moisturizing-lotion).",
+        "product_ids": ["the-ordinary-niacinamide-10-zinc-1", "cerave-pm-facial-moisturizing-lotion"],
+        "duration": "8–12 weeks",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Metronidazole 0.75–1% cream/gel or azelaic acid 15% gel for papulopustular rosacea.",
+        "product_ids": [],
+        "duration": "8–12 weeks",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Azelaic acid and metronidazole are generally considered safe. Avoid ivermectin and brimonidine data limited.",
+      "pediatric": "Rosacea uncommon in children. Pediatric dermatology referral if suspected.",
+      "skin_of_color": "May present with darker, hyperpigmented papules rather than classic erythema. Post-inflammatory pigmentation common.",
+      "sensitive": "All rosacea skin is sensitive. Avoid acids, retinoids, benzoyl peroxide, scrubs, hot water."
+    }
+  },
+  {
+    "id": "rosacea-moderate",
+    "condition_id": "rosacea",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Topical ivermectin 1% cream (Soolantra) for papules/pustules. Or topical metronidazole + azelaic acid.",
+        "product_ids": [],
+        "duration": "12–16 weeks",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Low-dose oral doxycycline 40 mg (Oracea) — anti-inflammatory sub-antimicrobial dose for papulopustular rosacea.",
+        "product_ids": [],
+        "duration": "12–16 weeks",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Brimonidine 0.33% gel (Mirvaso) or oxymetazoline 1% cream (Rhofade) for persistent facial erythema.",
+        "product_ids": [],
+        "duration": "Daily as needed",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid oral tetracyclines. Topical metronidazole and azelaic acid preferred.",
+      "pediatric": "Rare in children; refer to pediatric dermatologist.",
+      "skin_of_color": "Hyperpigmentation may be primary concern. Treat inflammation to prevent PIH.",
+      "sensitive": "Introduce brimonidine cautiously — rebound redness can occur in some patients."
+    }
+  },
+  {
+    "id": "rosacea-severe",
+    "condition_id": "rosacea",
+    "severity": "severe",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Dermatologist referral for severe papulopustular or ocular rosacea. Oral isotretinoin may be considered (low dose).",
+        "product_ids": [],
+        "duration": "4–6 months",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "procedure",
+        "description": "Vascular laser (pulsed dye laser 585–595 nm or KTP laser) for persistent erythema and telangiectasias.",
+        "product_ids": [],
+        "duration": "Series of 3–5 sessions",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "B",
+    "special_populations": {
+      "pregnancy": "Avoid oral isotretinoin and tetracyclines. Manage with topicals only.",
+      "pediatric": "Rare; urgent pediatric dermatology referral.",
+      "skin_of_color": "Laser settings must be conservative to avoid PIH. Test spots mandatory.",
+      "sensitive": "Low-dose isotretinoin often tolerated. Intensive moisturization essential."
+    }
+  },
+  {
+    "id": "melasma-mild",
+    "condition_id": "melasma",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Strict photoprotection: broad-spectrum SPF 30+ daily, reapply every 2 hours. Mineral sunscreen with iron oxides preferred for Fitzpatrick IV–VI (eltamd-uv-clear-spf-46 or eltamd-uv-elements-spf-44).",
+        "product_ids": ["eltamd-uv-clear-spf-46", "eltamd-uv-elements-spf-44", "black-girl-sunscreen-make-it-bright"],
+        "duration": "Lifelong",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Azelaic acid 10% or niacinamide 4–5% (the-ordinary-niacinamide-10-zinc-1, the-ordinary-alpha-arbutin-2-ha) for gentle lightening.",
+        "product_ids": ["the-ordinary-niacinamide-10-zinc-1", "the-ordinary-alpha-arbutin-2-ha", "the-ordinary-azelaic-acid-suspension-10"],
+        "duration": "12 weeks minimum",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Azelaic acid 20% cream or hydroquinone 2–4% for 8–12 weeks with strict photoprotection.",
+        "product_ids": [],
+        "duration": "8–12 weeks on, then maintenance",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid hydroquinone and retinoids. Use azelaic acid, vitamin C, niacinamide, physical sunscreen only.",
+      "pediatric": "Rare in children; investigate hormonal causes if present.",
+      "skin_of_color": "Iron oxide-containing tinted sunscreens critical. Visible light protection essential. Conservative procedures only.",
+      "sensitive": "Azelaic acid and niacinamide are well-tolerated. Avoid high-strength AHAs."
+    }
+  },
+  {
+    "id": "melasma-moderate",
+    "condition_id": "melasma",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Triple combination cream (hydroquinone 4% + tretinoin 0.05% + mild steroid) for 8 weeks.",
+        "product_ids": [],
+        "duration": "8 weeks on, 4 weeks off (pulsed)",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Add oral tranexamic acid 250 mg BID (off-label) for refractory melasma, after thrombosis screening.",
+        "product_ids": [],
+        "duration": "3–6 months",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Cysteamine 5% cream (Cyspera) — non-hydroquinone option for maintenance.",
+        "product_ids": [],
+        "duration": "Ongoing maintenance",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid triple combo (HQ + retinoid). Use azelaic acid 20% as primary.",
+      "pediatric": "Rare; refer to dermatologist.",
+      "skin_of_color": "High risk of worsening with procedures. Lasers/peels only by expert with test spots.",
+      "sensitive": "Triple combo can irritate. Buffer with moisturizer. Start every other night."
+    }
+  },
+  {
+    "id": "melasma-severe",
+    "condition_id": "melasma",
+    "severity": "severe",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Dermatologist referral. Oral tranexamic acid + topical triple combination or azelaic acid 20%.",
+        "product_ids": [],
+        "duration": "6+ months",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "procedure",
+        "description": "Very conservative chemical peels (low-strength glycolic or salicylic acid series) ONLY by experienced provider. Test spots mandatory.",
+        "product_ids": [],
+        "duration": "Series of 4–6 sessions",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "procedure",
+        "description": "Low-fluence Q-switched Nd:YAG 1064 nm or fractional laser ONLY as last resort by melasma specialist. High PIH risk.",
+        "product_ids": [],
+        "duration": "Multiple sessions",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "B",
+    "special_populations": {
+      "pregnancy": "No procedures during pregnancy. Manage with azelaic acid and sunscreen only.",
+      "pediatric": "Rare; refer to specialist.",
+      "skin_of_color": "Procedures carry highest risk. Visible light protection (iron oxides) is non-negotiable. Maintenance for life.",
+      "sensitive": "Avoid all procedures if sensitive. Focus on topicals + sun protection."
+    }
+  },
+  {
+    "id": "post-inflammatory-hyperpigmentation-mild",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Daily SPF 30+ mineral sunscreen (eltamd-uv-clear-spf-46). Prevention is paramount.",
+        "product_ids": ["eltamd-uv-clear-spf-46", "black-girl-sunscreen-make-it-bright"],
+        "duration": "Lifelong",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Vitamin C serum AM (skinceuticals-ce-ferulic or the-ordinary-ascorbic-acid-8-alpha-arbutin-2) + niacinamide PM (the-ordinary-niacinamide-10-zinc-1).",
+        "product_ids": ["skinceuticals-ce-ferulic", "the-ordinary-ascorbic-acid-8-alpha-arbutin-2", "the-ordinary-niacinamide-10-zinc-1"],
+        "duration": "12+ weeks",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Hydroquinone 2–4% for 8–12 weeks OR azelaic acid 20% for longer-term maintenance.",
+        "product_ids": [],
+        "duration": "8–12 weeks (HQ)",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid HQ and retinoids. Use vitamin C, azelaic acid, niacinamide, physical sunscreen.",
+      "pediatric": "Focus on treating underlying condition (acne, eczema) to prevent new PIH.",
+      "skin_of_color": "PIH is the rule. Prevention > treatment. Gentle approach. Avoid aggressive procedures.",
+      "sensitive": "Vitamin C and niacinamide are generally well-tolerated. Patch test HQ."
+    }
+  },
+  {
+    "id": "post-inflammatory-hyperpigmentation-moderate",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "HQ 4% + tretinoin 0.025–0.05% combination. Use at night with strict daytime SPF.",
+        "product_ids": [],
+        "duration": "8–12 weeks on, then maintenance",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Add oral tranexamic acid 250 mg BID (after thrombosis screening) for refractory PIH.",
+        "product_ids": [],
+        "duration": "3–6 months",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "procedure",
+        "description": "Conservative chemical peel series (salicylic acid 20–30% or mandelic acid 20–40%). Multiple sessions.",
+        "product_ids": [],
+        "duration": "Series of 6+ sessions",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "B",
+    "special_populations": {
+      "pregnancy": "Avoid HQ, retinoids, oral TXA. Manage with azelaic acid and vitamin C only.",
+      "pediatric": "Address underlying inflammatory condition first.",
+      "skin_of_color": "Mandelic acid preferred over glycolic due to slower penetration. Test spots mandatory.",
+      "sensitive": "Peels may irritate. Start with lowest strength. Consider microdermabrasion instead."
+    }
+  },
+  {
+    "id": "psoriasis-mild",
+    "condition_id": "psoriasis",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Emollient moisturizers (cerave-moisturizing-cream, skinceuticals-triple-lipid-restore-242) to reduce scaling and itch.",
+        "product_ids": ["cerave-moisturizing-cream", "skinceuticals-triple-lipid-restore-242"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Coal tar preparations or salicylic acid shampoos for scalp. OTC topical steroids (hydrocortisone 1%) for limited plaques.",
+        "product_ids": [],
+        "duration": "As needed",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Topical corticosteroids (betamethasone dipropionate) + vitamin D analogs (calcipotriene) for body plaques.",
+        "product_ids": [],
+        "duration": "Up to 4 weeks per course",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Topical steroids and calcipotriene are generally safe. Avoid systemic agents.",
+      "pediatric": "Topicals first-line. Avoid potent steroids. Limited calcipotriene use.",
+      "skin_of_color": "May appear violaceous or hyperpigmented rather than classic erythema. PIH risk with irritation.",
+      "sensitive": "Start with lower-potency steroids. Vitamin D analogs may irritate sensitive skin."
+    }
+  },
+  {
+    "id": "psoriasis-moderate",
+    "condition_id": "psoriasis",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Phototherapy (NB-UVB) 2–3x weekly. First-line for moderate widespread psoriasis.",
+        "product_ids": [],
+        "duration": "3–6 months",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Systemic non-biologics: methotrexate 7.5–25 mg weekly OR apremilast (Otezla) OR cyclosporine short-term.",
+        "product_ids": [],
+        "duration": "Ongoing (methotrexate/apremilast); short-term (cyclosporine)",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Biologic agents: TNF inhibitors (adalimumab, etanercept) or IL-17 inhibitors (secukinumab, ixekizumab).",
+        "product_ids": [],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "NB-UVB is safe. Avoid methotrexate, acitretin, biologics in 3rd trimester.",
+      "pediatric": "Etanercept, adalimumab, ustekinumab approved for pediatric psoriasis. Phototherapy safe.",
+      "skin_of_color": "May present with gray scale and violaceous hue. Higher nail involvement. Scalp psoriasis common.",
+      "sensitive": "Phototherapy is well-tolerated. Biologics eliminate need for irritating topicals."
+    }
+  },
+  {
+    "id": "psoriasis-severe",
+    "condition_id": "psoriasis",
+    "severity": "severe",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Urgent dermatology referral. Biologic agents: IL-23 inhibitors (guselkumab, risankizumab) or IL-17 inhibitors.",
+        "product_ids": [],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Combination therapy: biologic + methotrexate (enhances efficacy, reduces immunogenicity).",
+        "product_ids": [],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "procedure",
+        "description": "Phototherapy (NB-UVB or PUVA) as adjunct. Targeted excimer laser for resistant plaques.",
+        "product_ids": [],
+        "duration": "Varies",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid systemic steroids (rebound risk). NB-UVB preferred. Cyclosporine if necessary.",
+      "pediatric": "Refer to pediatric dermatologist. Etanercept and ustekinumab approved.",
+      "skin_of_color": "Higher risk of PIH with phototherapy. Monitor closely. Scalp and nail involvement common.",
+      "sensitive": "Biologics minimize need for topical irritation. Systemic therapy often best option."
+    }
+  },
+  {
+    "id": "seborrheic-dermatitis-mild",
+    "condition_id": "seborrheic-dermatitis",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Anti-dandruff shampoo 2–3x weekly (ketoconazole 1%, zinc pyrithione, selenium sulfide). Leave on 3–5 minutes before rinsing.",
+        "product_ids": [],
+        "duration": "Ongoing maintenance",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Gentle facial cleanser + light moisturizer. Avoid oils that feed Malassezia (coconut, olive).",
+        "product_ids": ["cerave-foaming-facial-cleanser", "cerave-daily-moisturizing-lotion"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Ketoconazole 2% cream or ciclopirox 0.77% gel for facial/seborrheic areas.",
+        "product_ids": [],
+        "duration": "2–4 weeks",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Topical ketoconazole and zinc pyrithione are generally considered safe.",
+      "pediatric": "Cradle cap: mineral oil + gentle brushing. Avoid adult-strength antifungals on infants.",
+      "skin_of_color": "May present with hypopigmentation or hyperpigmentation rather than classic erythema.",
+      "sensitive": "Avoid harsh sulfates and fragrances. Gentle antifungal approach."
+    }
+  },
+  {
+    "id": "seborrheic-dermatitis-moderate",
+    "condition_id": "seborrheic-dermatitis",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Ketoconazole 2% shampoo/cream + low-potency corticosteroid (hydrocortisone 1–2.5%) for inflammation.",
+        "product_ids": [],
+        "duration": "1–2 weeks (steroid); ongoing (antifungal)",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Topical calcineurin inhibitors (tacrolimus 0.1% or pimecrolimus 1%) for steroid-sparing maintenance, especially on face.",
+        "product_ids": [],
+        "duration": "Ongoing maintenance",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Oral antifungal (itraconazole 200 mg daily for 7 days) for severe or refractory cases.",
+        "product_ids": [],
+        "duration": "1 week",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid oral antifungals. Topical ketoconazole + hydrocortisone only.",
+      "pediatric": "Refer to pediatric dermatologist for moderate-severe cases.",
+      "skin_of_color": "Post-inflammatory pigment changes common. Treat inflammation to prevent pigment issues.",
+      "sensitive": "Calcineurin inhibitors are excellent steroid-sparing option for sensitive facial skin."
+    }
+  },
+  {
+    "id": "keratosis-pilaris",
+    "condition_id": "keratosis-pilaris",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Urea 10–20% cream or lactic acid 12% lotion for keratolytic exfoliation. Apply daily.",
+        "product_ids": [],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Salicylic acid 2% body wash or gluconolactone (PHA) cleanser (cerave-renewing-sa-cleanser) for gentle follicular exfoliation.",
+        "product_ids": ["cerave-renewing-sa-cleanser"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "otc",
+        "description": "Ceramide moisturizer after exfoliation to support barrier (cerave-moisturizing-cream).",
+        "product_ids": ["cerave-moisturizing-cream"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Topical retinoid (tretinoin 0.025% or adapalene 0.1%) for persistent cases.",
+        "product_ids": ["differin-adapalene-gel-01"],
+        "duration": "12 weeks",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "B",
+    "special_populations": {
+      "pregnancy": "Avoid retinoids. Use urea and lactic acid only.",
+      "pediatric": "Urea and lactic acid safe for children. Start with lower concentrations.",
+      "skin_of_color": "Higher risk of PIH with aggressive exfoliation. Use gentle, consistent approach.",
+      "sensitive": "PHAs (gluconolactone) are gentler than AHAs/BHAs. Patch test urea and lactic acid."
+    }
+  },
+  {
+    "id": "perioral-dermatitis-mild",
+    "condition_id": "perioral-dermatitis",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Discontinue all topical steroids, heavy moisturizers, and fluoridated toothpaste. Use SLS-free, fragrance-free cleanser (cerave-hydrating-facial-cleanser).",
+        "product_ids": ["cerave-hydrating-facial-cleanser"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Topical metronidazole 0.75% gel or azelaic acid 15–20% for papules.",
+        "product_ids": [],
+        "duration": "6–8 weeks",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Low-dose oral tetracycline (doxycycline 40–100 mg/day or minocycline 50–100 mg/day) for 6–12 weeks.",
+        "product_ids": [],
+        "duration": "6–12 weeks",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "B",
+    "special_populations": {
+      "pregnancy": "Avoid oral tetracyclines. Use topical metronidazole or azelaic acid.",
+      "pediatric": "More common than thought in children. Avoid topical steroids. Gentle cleansers + topical metronidazole.",
+      "skin_of_color": "May present with hyperpigmented papules rather than classic erythema. PIH is common.",
+      "sensitive": "Minimal routine essential. No actives beyond prescribed treatment."
+    }
+  },
+  {
+    "id": "contact-dermatitis-mild",
+    "condition_id": "contact-dermatitis",
+    "severity": "mild",
+    "steps": [
+      {
+        "order": 1,
+        "type": "otc",
+        "description": "Identify and remove offending agent. Gentle fragrance-free cleanser + barrier repair moisturizer (cerave-moisturizing-cream or skinceuticals-triple-lipid-restore-242).",
+        "product_ids": ["cerave-hydrating-facial-cleanser", "cerave-moisturizing-cream", "skinceuticals-triple-lipid-restore-242"],
+        "duration": "Ongoing",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "otc",
+        "description": "Cool compresses. Colloidal oatmeal baths/soaks for soothing.",
+        "product_ids": [],
+        "duration": "As needed",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Low- to medium-potency topical corticosteroid (hydrocortisone 1–2.5% or triamcinolone 0.1%) for 1–2 weeks.",
+        "product_ids": [],
+        "duration": "1–2 weeks",
+        "next_step_if_no_improvement": 4
+      },
+      {
+        "order": 4,
+        "type": "prescription",
+        "description": "Patch testing by dermatologist for allergic contact dermatitis. Refer if persistent or recurrent.",
+        "product_ids": [],
+        "duration": "Varies",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Low-potency topical steroids are safe. Avoid systemic agents and extensive steroid use.",
+      "pediatric": "Hydrocortisone 1% preferred. Avoid medium/high-potency steroids on children.",
+      "skin_of_color": "Irritant and allergic contact dermatitis may cause significant PIH. Treat promptly to prevent pigment issues.",
+      "sensitive": "All patients with contact dermatitis have sensitive skin during flare. Minimal, fragrance-free routine essential."
+    }
+  },
+  {
+    "id": "contact-dermatitis-moderate",
+    "condition_id": "contact-dermatitis",
+    "severity": "moderate",
+    "steps": [
+      {
+        "order": 1,
+        "type": "prescription",
+        "description": "Medium-potency topical steroid (triamcinolone 0.1% or betamethasone valerate 0.1%) for 1–2 weeks.",
+        "product_ids": [],
+        "duration": "1–2 weeks",
+        "next_step_if_no_improvement": 2
+      },
+      {
+        "order": 2,
+        "type": "prescription",
+        "description": "Topical calcineurin inhibitors (tacrolimus 0.1% or pimecrolimus 1%) for face, eyelids, or maintenance.",
+        "product_ids": [],
+        "duration": "Maintenance",
+        "next_step_if_no_improvement": 3
+      },
+      {
+        "order": 3,
+        "type": "prescription",
+        "description": "Oral corticosteroid short course (prednisone taper) for widespread allergic contact dermatitis.",
+        "product_ids": [],
+        "duration": "10–14 days taper",
+        "next_step_if_no_improvement": null
+      }
+    ],
+    "evidence_level": "A",
+    "special_populations": {
+      "pregnancy": "Avoid oral steroids if possible. Topical hydrocortisone only.",
+      "pediatric": "Avoid oral steroids. Hydrocortisone 1% + wet wraps for moderate cases.",
+      "skin_of_color": "High PIH risk. Treat aggressively but gently. Patch testing essential.",
+      "sensitive": "TCI are preferred for long-term management to avoid steroid side effects."
+    }
+  }
+]

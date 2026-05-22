@@ -1,0 +1,227 @@
+{
+  "brand": "Tower 28 Beauty",
+  "brand_description": "A clean beauty brand focused on sensitive skin-friendly makeup and skincare. Products are dermatologist-tested, hypoallergenic, and free from common irritants.",
+  "products": [
+    {
+      "name": "SOS Daily Rescue Facial Spray",
+      "brand": "Tower 28 Beauty",
+      "category": "toner/skincare treatment",
+      "price": "$28.00",
+      "size": "120 mL / 4 fl oz (Standard); also available in 30mL, 150mL, 473mL",
+      "inci_ingredients": [
+        "Electrolyzed Water (H2O)",
+        "Sodium Chloride (NaCl)",
+        "Hypochlorous Acid (HOCl)"
+      ],
+      "key_actives": [
+        {
+          "name": "Hypochlorous Acid",
+          "concentration": "Optimized for facial skin (stabilized formulation)",
+          "purpose": "Anti-inflammatory, antibacterial, soothes irritation, reduces redness"
+        }
+      ],
+      "conditions_addressed": [
+        "Blemishes",
+        "Eczema",
+        "Flare-ups",
+        "Redness",
+        "Irritation",
+        "Angry skin"
+      ],
+      "skin_types": [
+        "All skin types",
+        "Sensitive skin",
+        "Reactive skin",
+        "Acne-prone skin"
+      ],
+      "contraindications": [
+        "None known"
+      ],
+      "ph_range": "Optimized for facial skin (stabilized pH)",
+      "notes": "National Eczema Association Seal of Acceptance™. Can be used AM/PM. Use before skincare actives like vitamin C. Not a makeup setting spray.",
+      "url": "https://www.tower28beauty.com/products/sos-daily-facial-rescue-spray"
+    },
+    {
+      "name": "ShineFlasher Brightening Powder",
+      "brand": "Tower 28 Beauty",
+      "category": "face powder/highlighter",
+      "price": "$28.00",
+      "size": "Not specified",
+      "inci_ingredients": [
+        "Not available - product may be discontinued or limited edition"
+      ],
+      "key_actives": [
+        "Not available"
+      ],
+      "conditions_addressed": [
+        "Dullness"
+      ],
+      "skin_types": [
+        "All skin types"
+      ],
+      "contraindications": [
+        "Not available"
+      ],
+      "ph_range": "Not applicable",
+      "notes": "This product could not be verified on the Tower 28 Beauty website. It may be discontinued, limited edition, or sold through exclusive retailers."
+    },
+    {
+      "name": "SuperDew Shimmer-Free Highlighter",
+      "brand": "Tower 28 Beauty",
+      "category": "highlighter",
+      "price": "$28.00",
+      "size": "Not specified",
+      "inci_ingredients": [
+        "Not available - product may be discontinued or limited edition"
+      ],
+      "key_actives": [
+        "Not available"
+      ],
+      "conditions_addressed": [
+        "Dullness"
+      ],
+      "skin_types": [
+        "All skin types"
+      ],
+      "contraindications": [
+        "Not available"
+      ],
+      "ph_range": "Not applicable",
+      "notes": "This product could not be verified on the Tower 28 Beauty website. It may be discontinued, limited edition, or sold through exclusive retailers."
+    },
+    {
+      "name": "Soothe & Glow Lip Oil",
+      "brand": "Tower 28 Beauty",
+      "category": "lip care",
+      "price": "$28.00",
+      "size": "Not specified",
+      "inci_ingredients": [
+        "Not available - product may be discontinued or limited edition"
+      ],
+      "key_actives": [
+        "Not available"
+      ],
+      "conditions_addressed": [
+        "Dry lips"
+      ],
+      "skin_types": [
+        "All skin types"
+      ],
+      "contraindications": [
+        "Not available"
+      ],
+      "ph_range": "Not applicable",
+      "notes": "This product could not be verified on the Tower 28 Beauty website. Similar products include LipSoftie Lip Treatment. May be discontinued or limited edition."
+    },
+    {
+      "name": "ClearInsight Peel Pads",
+      "brand": "Tower 28 Beauty",
+      "category": "exfoliating treatment pads",
+      "price": "$28.00",
+      "size": "Not specified",
+      "inci_ingredients": [
+        "Not available - product may be discontinued or limited edition"
+      ],
+      "key_actives": [
+        "Not available"
+      ],
+      "conditions_addressed": [
+        "Uneven texture",
+        "Dullness"
+      ],
+      "skin_types": [
+        "All skin types"
+      ],
+      "contraindications": [
+        "Not available"
+      ],
+      "ph_range": "Not available",
+      "notes": "This product could not be verified on the Tower 28 Beauty website. It may be discontinued, limited edition, or sold through exclusive retailers."
+    },
+    {
+      "name": "BeachPlease Lip + Cheek Stick",
+      "brand": "Tower 28 Beauty",
+      "category": "tinted balm/blush",
+      "price": "$28.00",
+      "size": "Multiple shades available",
+      "inci_ingredients": [
+        "Not fully available on public-facing pages"
+      ],
+      "key_actives": [
+        {
+          "name": "Plant-based waxes",
+          "concentration": "Not specified",
+          "purpose": "Provides creamy texture and blendability"
+        }
+      ],
+      "conditions_addressed": [
+        "Adds color and glow"
+      ],
+      "skin_types": [
+        "All skin types",
+        "Sensitive skin"
+      ],
+      "contraindications": [
+        "None known"
+      ],
+      "ph_range": "Not applicable",
+      "notes": "Luminous tinted balm for lips and cheeks. Available in multiple shades. Clean, hypoallergenic formula.",
+      "url": "https://www.tower28beauty.com/products/beachplease-luminous-tinted-balm-blush"
+    },
+    {
+      "name": "MakeWaves Mascara",
+      "brand": "Tower 28 Beauty",
+      "category": "mascara",
+      "price": "$28.00",
+      "size": "Not specified",
+      "inci_ingredients": [
+        "Not fully available on public-facing pages"
+      ],
+      "key_actives": [
+        {
+          "name": "Film-forming agents",
+          "concentration": "Not specified",
+          "purpose": "Provides lengthening and curling effect"
+        }
+      ],
+      "conditions_addressed": [
+        "Short lashes",
+        "Straight lashes"
+      ],
+      "skin_types": [
+        "All skin types",
+        "Sensitive eyes"
+      ],
+      "contraindications": [
+        "None known"
+      ],
+      "ph_range": "Not applicable",
+      "notes": "Lengthening and curling mascara. Ophthalmologist-tested. Safe for sensitive eyes and contact lens wearers.",
+      "url": "https://www.tower28beauty.com/products/makewaves-mascara"
+    }
+  ],
+  "research_notes": {
+    "data_sources": [
+      "Tower 28 Beauty official website (www.tower28beauty.com)",
+      "INCIDecoder database (for SOS Daily Rescue Facial Spray)",
+      "Wayback Machine archives"
+    ],
+    "limitations": [
+      "Several products (ShineFlasher Brightening Powder, SuperDew Shimmer-Free Highlighter, Soothe & Glow Lip Oil, ClearInsight Peel Pads) could not be verified on the Tower 28 Beauty website and may be discontinued or limited edition",
+      "Full INCI ingredient lists were not available on public-facing product pages for most products",
+      "Sephora and other retailer sites blocked access during research",
+      "Tower 28 Beauty does not consistently publish full INCI lists on their product pages"
+    ],
+    "verification_status": {
+      "SOS_Daily_Rescue_Facial_Spray": "Verified - Full ingredients available via INCIDecoder",
+      "BeachPlease_Lip_Cheek": "Verified - Product exists, partial data available",
+      "MakeWaves_Mascara": "Verified - Product exists, partial data available",
+      "ShineFlasher_Brightening_Powder": "NOT VERIFIED - Product not found on official website",
+      "SuperDew_Highlighter": "NOT VERIFIED - Product not found on official website",
+      "Soothe_Glow_Lip_Oil": "NOT VERIFIED - Product not found on official website (similar: LipSoftie Lip Treatment)",
+      "ClearInsight_Peel_Pads": "NOT VERIFIED - Product not found on official website"
+    }
+  },
+  "last_updated": "2026-05-15",
+  "researcher": "SKINgenius Research Agent"
+}

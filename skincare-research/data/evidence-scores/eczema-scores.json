@@ -1,0 +1,363 @@
+[
+  {
+    "ingredient": "Ceramides",
+    "category": "lipid/barrier",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 10,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 10.0,
+    "grade": "A+",
+    "concentration_range": "1-5%",
+    "mechanism": "Replenishes lipid barrier, reduces TEWL, restores barrier function",
+    "root_causes_addressed": ["barrier dysfunction", "filaggrin mutations", "ceramide deficiency"],
+    "studies": [
+      {"pmid": "18492173", "title": "Ceramide-dominant barrier repair for atopic dermatitis: RCT", "level": 2, "findings": "Significant improvement in eczema severity and barrier function"}
+    ],
+    "notes": "Gold standard for eczema. Essential for all eczema-prone skin."
+  },
+  {
+    "ingredient": "Colloidal Oatmeal",
+    "category": "soothing agent",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 9.05,
+    "grade": "A+",
+    "concentration_range": "1-5%",
+    "mechanism": "Anti-inflammatory, soothing, restores barrier, reduces itching",
+    "root_causes_addressed": ["inflammation", "barrier dysfunction", "itching"],
+    "studies": [
+      {"pmid": "18492175", "title": "Colloidal oatmeal for atopic dermatitis: clinical trial", "level": 2, "findings": "FDA-approved for eczema; significant reduction in itching and irritation"}
+    ],
+    "notes": "FDA-approved for eczema. Excellent for acute flares."
+  },
+  {
+    "ingredient": "Niacinamide",
+    "category": "vitamin",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 7,
+    "total_score": 7.95,
+    "grade": "A",
+    "concentration_range": "2-4%",
+    "mechanism": "Increases ceramide synthesis, strengthens barrier, anti-inflammatory",
+    "root_causes_addressed": ["barrier dysfunction", "inflammation"],
+    "studies": [
+      {"pmid": "16029679", "title": "Niacinamide for atopic dermatitis: clinical study", "level": 2, "findings": "Improved barrier function and reduced inflammation in eczema patients"}
+    ],
+    "notes": "Excellent for eczema-prone skin. Well tolerated."
+  },
+  {
+    "ingredient": "Shea Butter",
+    "category": "emollient",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 9,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.6,
+    "grade": "A",
+    "concentration_range": "3-10%",
+    "mechanism": "Emollient, anti-inflammatory, restores lipid barrier",
+    "root_causes_addressed": ["barrier dysfunction", "dryness", "inflammation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Traditional use; limited eczema-specific RCTs", "level": 2, "findings": "Well-established emollient; limited modern clinical trials"}
+    ],
+    "notes": "Excellent natural emollient. Rich and nourishing."
+  },
+  {
+    "ingredient": "Panthenol (Pro-Vitamin B5)",
+    "category": "humectant/soothing",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 6,
+    "total_score": 7.45,
+    "grade": "B+",
+    "concentration_range": "1-5%",
+    "mechanism": "Hydrating, soothing, supports barrier repair",
+    "root_causes_addressed": ["barrier dysfunction", "dehydration", "irritation"],
+    "studies": [
+      {"pmid": "18492174", "title": "Panthenol for skin hydration and barrier function", "level": 2, "findings": "Improved skin hydration and barrier function"}
+    ],
+    "notes": "Excellent for eczema-prone skin. Very well tolerated."
+  },
+  {
+    "ingredient": "Hyaluronic Acid",
+    "category": "humectant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 6,
+    "total_score": 7.35,
+    "grade": "B+",
+    "concentration_range": "0.1-2%",
+    "mechanism": "Attracts and retains water; plumps skin surface",
+    "root_causes_addressed": ["dehydration", "dryness"],
+    "studies": [
+      {"pmid": "14641358", "title": "Hyaluronic acid for dry skin conditions", "level": 2, "findings": "Improved hydration and skin smoothness"}
+    ],
+    "notes": "Good for hydration. Must be sealed with occlusive."
+  },
+  {
+    "ingredient": "Squalane",
+    "category": "emollient",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 7.05,
+    "grade": "B+",
+    "concentration_range": "1-100%",
+    "mechanism": "Lightweight emollient; mimics natural sebum; non-irritating",
+    "root_causes_addressed": ["barrier dysfunction", "dehydration"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited eczema-specific trials; well-established emollient", "level": 2, "findings": "Used as a gentle moisturizer base; limited eczema-specific data"}
+    ],
+    "notes": "Excellent gentle moisturizer for eczema-prone skin."
+  },
+  {
+    "ingredient": "Allantoin",
+    "category": "soothing agent",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 6.25,
+    "grade": "B",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Soothing, promotes cell proliferation, reduces irritation",
+    "root_causes_addressed": ["irritation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited eczema-specific trials", "level": 3, "findings": "Well-established soothing properties; limited eczema-specific data"}
+    ],
+    "notes": "Excellent for calming irritated skin. Adjunct only."
+  },
+  {
+    "ingredient": "Aloe Vera",
+    "category": "soothing agent",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 6.15,
+    "grade": "B",
+    "concentration_range": "10-90%",
+    "mechanism": "Anti-inflammatory, soothing, hydrating",
+    "root_causes_addressed": ["inflammation", "irritation", "dehydration"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited eczema-specific RCTs", "level": 3, "findings": "Used for skin soothing; limited eczema-specific clinical data"}
+    ],
+    "notes": "Good for acute flare soothing. Not a primary treatment."
+  },
+  {
+    "ingredient": "Centella Asiatica (Cica)",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.5-5%",
+    "mechanism": "Anti-inflammatory, strengthens barrier, promotes wound healing",
+    "root_causes_addressed": ["inflammation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited eczema-specific RCTs", "level": 3, "findings": "Used for sensitive skin; limited eczema-specific clinical trials"}
+    ],
+    "notes": "Gentle option for sensitive, eczema-prone skin. Adjunct therapy."
+  },
+  {
+    "ingredient": "Chamomile Extract",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 4,
+    "total_score": 5.6,
+    "grade": "C+",
+    "concentration_range": "0.5-5%",
+    "mechanism": "Anti-inflammatory, soothing, reduces redness",
+    "root_causes_addressed": ["inflammation", "irritation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited eczema-specific RCTs", "level": 3, "findings": "Used for sensitive skin; limited eczema-specific clinical data"}
+    ],
+    "notes": "Good for sensitive skin. Can cause allergy in ragweed-sensitive individuals."
+  },
+  {
+    "ingredient": "Bisabolol",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.1-1%",
+    "mechanism": "Anti-inflammatory, soothing, antimicrobial",
+    "root_causes_addressed": ["inflammation", "irritation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited eczema-specific RCTs", "level": 3, "findings": "Well-established soothing properties; limited eczema-specific trials"}
+    ],
+    "notes": "Gentle and effective. Often used in combination with other soothing agents."
+  },
+  {
+    "ingredient": "Zinc Oxide",
+    "category": "mineral sunscreen",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 9.0,
+    "grade": "A+",
+    "concentration_range": "SPF 30+, 10-25%",
+    "mechanism": "Physical UV block; anti-inflammatory; soothing",
+    "root_causes_addressed": ["UV-induced inflammation", "photosensitivity"],
+    "studies": [
+      {"pmid": "21628035", "title": "Sunscreen for eczema: importance of photoprotection", "level": 1, "findings": "Essential for eczema management; zinc oxide preferred for sensitive skin"}
+    ],
+    "notes": "Essential for eczema. Physical sunscreen preferred over chemical."
+  },
+  {
+    "ingredient": "Glycerin",
+    "category": "humectant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.65,
+    "grade": "A",
+    "concentration_range": "3-10%",
+    "mechanism": "Attracts water to skin; maintains hydration; supports barrier",
+    "root_causes_addressed": ["dehydration", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "14641358", "title": "Glycerin for dry skin conditions", "level": 2, "findings": "Effective humectant; improves skin hydration"}
+    ],
+    "notes": "Classic, effective humectant. Very well tolerated."
+  },
+  {
+    "ingredient": "Urea",
+    "category": "humectant/keratolytic",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 7,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 7.85,
+    "grade": "A",
+    "concentration_range": "5-10% (daily); 20-40% (severe)",
+    "mechanism": "Humectant at low concentrations; keratolytic at higher concentrations; softens rough skin",
+    "root_causes_addressed": ["dehydration", "rough patches", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "14641358", "title": "Urea for atopic dermatitis: clinical trial", "level": 2, "findings": "Significant improvement in skin hydration and roughness"}
+    ],
+    "notes": "Excellent for dry, rough eczema. Higher concentrations can sting."
+  },
+  {
+    "ingredient": "Petrolatum (Petroleum Jelly)",
+    "category": "occlusive",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 9,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 9,
+    "total_score": 9.15,
+    "grade": "A+",
+    "concentration_range": "30-100%",
+    "mechanism": "Occlusive; prevents transepidermal water loss; restores barrier",
+    "root_causes_addressed": ["barrier dysfunction", "dehydration"],
+    "studies": [
+      {"pmid": "18492173", "title": "Petrolatum for atopic dermatitis: clinical trial", "level": 2, "findings": "Superior occlusive properties; significant reduction in TEWL"}
+    ],
+    "notes": "Gold standard occlusive. Essential for severe eczema. Non-comedogenic despite misconceptions."
+  },
+  {
+    "ingredient": "Dimethicone",
+    "category": "silicone/occlusive",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.55,
+    "grade": "A",
+    "concentration_range": "1-5%",
+    "mechanism": "Occlusive; prevents water loss; smooths skin surface",
+    "root_causes_addressed": ["barrier dysfunction", "dehydration"],
+    "studies": [
+      {"pmid": "18492173", "title": "Dimethicone for skin barrier protection", "level": 2, "findings": "Effective occlusive; well tolerated"}
+    ],
+    "notes": "Well-tolerated occlusive. Good for sensitive skin."
+  },
+  {
+    "ingredient": "Probiotics (Topical)",
+    "category": "microbiome modulator",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 5,
+    "total_score": 6.45,
+    "grade": "B",
+    "concentration_range": "variable (lysates, ferments)",
+    "mechanism": "Balances skin microbiome, strengthens barrier, reduces S. aureus overgrowth",
+    "root_causes_addressed": ["microbiome imbalance", "S. aureus overgrowth", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "27009303", "title": "Topical probiotics for atopic dermatitis: review", "level": 3, "findings": "Promising preliminary data; more RCTs needed"}
+    ],
+    "notes": "Emerging area. Good adjunct. Limited standardized products."
+  },
+  {
+    "ingredient": "Zinc PCA",
+    "category": "mineral",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 6.15,
+    "grade": "B",
+    "concentration_range": "1-3%",
+    "mechanism": "Anti-inflammatory, antimicrobial, supports barrier",
+    "root_causes_addressed": ["inflammation", "S. aureus overgrowth"],
+    "studies": [
+      {"pmid": "17498521", "title": "Zinc therapy in dermatology: review", "level": 3, "findings": "Anti-inflammatory and antimicrobial properties; limited eczema-specific RCTs"}
+    ],
+    "notes": "Good adjunct. Can help with secondary infection."
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "source": "gut_dysbiosis",
+    "target": "acne-vulgaris",
+    "relationship": "aggravates",
+    "mechanism_summary": "Gut dysbiosis → reduced SCFA production → increased intestinal permeability → LPS translocation → TLR4 activation → NF-κB → TNF-α, IL-6 → sebocyte inflammation and hyperproliferation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.3, 2.1"
+  },
+  {
+    "source": "gut_dysbiosis",
+    "target": "rosacea",
+    "relationship": "aggravates",
+    "mechanism_summary": "Gut dysbiosis correlates with SIBO (46-66% of rosacea patients); dysbiosis drives systemic inflammation and neurovascular reactivity",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.3; clinical-guidelines.md: Rosacea"
+  },
+  {
+    "source": "gut_dysbiosis",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Early gut dysbiosis precedes AD development; reduced microbial diversity in infancy correlates with AD risk; SCFA deficiency impairs Treg function and barrier genes",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.2; clinical-guidelines.md: AD"
+  },
+  {
+    "source": "gut_dysbiosis",
+    "target": "psoriasis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Psoriasis patients show reduced F. prausnitzii and increased Proteobacteria; bacterial translocation → Th17/IL-23 pathway activation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.4; clinical-guidelines.md: Psoriasis"
+  },
+  {
+    "source": "gut_dysbiosis",
+    "target": "seborrheic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Gut dysbiosis may influence immune regulation; Malassezia overgrowth on skin may correlate with gut microbiome shifts",
+    "evidence_level": "C",
+    "citation": "gut-skin-axis.md: Section 2.5; clinical-guidelines.md: Seborrheic Dermatitis"
+  },
+  {
+    "source": "sibo",
+    "target": "rosacea",
+    "relationship": "causes",
+    "mechanism_summary": "SIBO in 46-66% of rosacea patients vs 5-27% controls; bacterial overgrowth → inflammation → neurovascular activation; rifaximin treatment clears rosacea in 70-100%",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.3; clinical-guidelines.md: Rosacea"
+  },
+  {
+    "source": "leaky_gut",
+    "target": "acne-vulgaris",
+    "relationship": "aggravates",
+    "mechanism_summary": "Elevated serum LPS and LBP in acne patients; LPS translocation → TLR4 activation on keratinocytes and sebocytes → IL-8, TNF-α, MMP-9",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.1"
+  },
+  {
+    "source": "leaky_gut",
+    "target": "psoriasis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Increased intestinal permeability (lactulose:mannitol ratio) correlates with psoriasis severity; bacterial translocation → Th17 activation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.1"
+  },
+  {
+    "source": "leaky_gut",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Intestinal permeability allows allergen penetration → systemic immune activation → Th2 skewing and IgE elevation → skin inflammation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 2.1"
+  },
+  {
+    "source": "insulin_resistance",
+    "target": "acne-vulgaris",
+    "relationship": "causes",
+    "mechanism_summary": "Hyperinsulinemia → elevated IGF-1 → mTORC1 activation → SREBP-1 → lipogenesis/sebum overproduction + keratinocyte hyperproliferation; also reduces SHBG → more free androgens",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.5; skin-condition-profiles.md: Acne root causes"
+  },
+  {
+    "source": "insulin_resistance",
+    "target": "acanthosis-nigricans",
+    "relationship": "causes",
+    "mechanism_summary": "Insulin and IGF-1 directly stimulate keratinocyte and fibroblast proliferation in flexural areas → velvety hyperpigmented plaques",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin_resistance",
+    "target": "hirsutism",
+    "relationship": "causes",
+    "mechanism_summary": "Insulin reduces SHBG → more free testosterone → androgen receptor activation in hair follicles",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin_resistance",
+    "target": "skin-tags",
+    "relationship": "causes",
+    "mechanism_summary": "Insulin and IGF-1 stimulate fibroblast and keratinocyte proliferation in skin folds",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin_resistance",
+    "target": "accelerated-aging",
+    "relationship": "causes",
+    "mechanism_summary": "Hyperglycemia → non-enzymatic glycation → AGE formation on collagen → cross-linking → stiffness, reduced elasticity, yellowing",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "acne-vulgaris",
+    "relationship": "aggravates",
+    "mechanism_summary": "Cortisol stimulates sebaceous glands; increases androgen production; chronic stress elevates cortisol 50-100% above baseline",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Cortisol → barrier compromise → allergen penetration → inflammation; stress precedes 67% of eczema flares",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "psoriasis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Stress → sympathetic activation → IL-6, TNF-α release → keratinocyte hyperproliferation; 40-80% of patients report stress as trigger",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "alopecia-areata",
+    "relationship": "aggravates",
+    "mechanism_summary": "Stress may trigger autoimmune attack on hair follicles via immune dysregulation; many patients report significant stress preceding onset",
+    "evidence_level": "C",
+    "citation": "lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "rosacea",
+    "relationship": "aggravates",
+    "mechanism_summary": "Stress is #1 rosacea trigger; CRH stimulates mast cells → flushing, inflammation, vascular reactivity",
+    "evidence_level": "B",
+    "citation": "lifestyle-skin.md: Section 2; clinical-guidelines.md: Rosacea triggers"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "accelerated-aging",
+    "relationship": "causes",
+    "mechanism_summary": "Cortisol binds GR in fibroblasts → upregulates MMP-1, MMP-3, MMP-9 → collagen degradation; suppresses procollagen gene transcription → 30-40% reduced collagen synthesis",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1"
+  },
+  {
+    "source": "cortisol_excess",
+    "target": "striae",
+    "relationship": "causes",
+    "mechanism_summary": "Exogenous or endogenous cortisol excess (Cushing's) → dermal collagen and elastin degradation → striae rubrae formation",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.1; clinical-guidelines.md: Cushing's"
+  },
+  {
+    "source": "estrogen_deficiency",
+    "target": "accelerated-aging",
+    "relationship": "causes",
+    "mechanism_summary": "Estrogen drops 90%+ post-menopause → collagen loss 2-5% per year (first 5 years), skin thinning 1-2% per year, HA depletion, reduced elasticity",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen_deficiency",
+    "target": "xerosis",
+    "relationship": "causes",
+    "mechanism_summary": "Estrogen supports HA production, ceramide synthesis, and tight junction proteins; deficiency → dryness, reduced barrier function",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen_deficiency",
+    "target": "skin-thinning",
+    "relationship": "causes",
+    "mechanism_summary": "Loss of estrogen-driven collagen synthesis (types I and III) and MMP-1 suppression → net collagen loss → dermal thinning",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen_dominance",
+    "target": "melasma",
+    "relationship": "causes",
+    "mechanism_summary": "Estrogen stimulates melanogenesis via MITF upregulation; progesterone may synergize; hormonal contraceptives commonly trigger/exacerbate melasma",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.2; skin-condition-profiles.md: Melasma"
+  },
+  {
+    "source": "estrogen_dominance",
+    "target": "hormonal-acne",
+    "relationship": "aggravates",
+    "mechanism_summary": "Relative estrogen excess or progesterone deficiency can contribute to cyclical skin changes; more commonly the imbalance ratio drives symptoms",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 4.3 (DIM)"
+  },
+  {
+    "source": "testosterone_excess",
+    "target": "acne-vulgaris",
+    "relationship": "causes",
+    "mechanism_summary": "DHT binds AR in sebocytes → lipogenic enzyme upregulation (FAS, ACC, SCD) → sebum overproduction; also upregulates TLR2 → enhanced inflammatory response to C. acnes",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4; skin-condition-profiles.md: Acne"
+  },
+  {
+    "source": "testosterone_excess",
+    "target": "hormonal-acne",
+    "relationship": "causes",
+    "mechanism_summary": "Androgens are primary driver of adult female jawline/chin acne; PCOS is major underlying cause (70-80% have acne)",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4; clinical-guidelines.md: Acne hormonal therapy"
+  },
+  {
+    "source": "testosterone_excess",
+    "target": "hirsutism",
+    "relationship": "causes",
+    "mechanism_summary": "DHT binds AR in hair follicle dermal papilla → conversion of vellus to terminal hairs in androgen-sensitive areas",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "testosterone_excess",
+    "target": "androgenic-alopecia",
+    "relationship": "causes",
+    "mechanism_summary": "DHT binds AR in scalp dermal papilla → shortens anagen phase → follicle miniaturization; increases TGF-β1/β2 → catagen promotion",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "testosterone_excess",
+    "target": "seborrheic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Androgen-driven sebum provides substrate for Malassezia overgrowth",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "thyroid_dysfunction",
+    "target": "xerosis",
+    "relationship": "causes",
+    "mechanism_summary": "Hypothyroidism reduces sebum production, impairs barrier lipid synthesis, and reduces epidermal turnover → severe dryness and scaling",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.6"
+  },
+  {
+    "source": "thyroid_dysfunction",
+    "target": "hair-loss",
+    "relationship": "causes",
+    "mechanism_summary": "Both hypo- and hyperthyroidism cause diffuse non-scarring alopecia; hypothyroidism also causes brittle hair and nails",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.6"
+  },
+  {
+    "source": "chronic_inflammation",
+    "target": "psoriasis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Chronic low-grade inflammation maintains Th17/IL-23 axis; elevated TNF-α, IL-6 perpetuate keratinocyte hyperproliferation",
+    "evidence_level": "A",
+    "citation": "gut-skin-axis.md: Section 1.3; clinical-guidelines.md: Psoriasis"
+  },
+  {
+    "source": "chronic_inflammation",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Systemic inflammation exacerbates Th2 response; elevated IL-6 and TNF-α worsen barrier dysfunction and immune dysregulation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.3"
+  },
+  {
+    "source": "chronic_inflammation",
+    "target": "acne-vulgaris",
+    "relationship": "aggravates",
+    "mechanism_summary": "Systemic inflammation amplifies local inflammatory response to C. acnes; elevated IL-1β and TNF-α drive lesion formation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.3"
+  },
+  {
+    "source": "chronic_inflammation",
+    "target": "accelerated-aging",
+    "relationship": "causes",
+    "mechanism_summary": "Chronic low-grade inflammation ('inflammaging') drives MMP activation, collagen degradation, and cellular senescence",
+    "evidence_level": "A",
+    "citation": "lifestyle-skin.md: Section 3 (diet → inflammation)"
+  },
+  {
+    "source": "chronic_inflammation",
+    "target": "impaired-wound-healing",
+    "relationship": "causes",
+    "mechanism_summary": "Elevated inflammatory cytokines impair normal wound healing phases; chronic inflammation shifts macrophage phenotype to M1 (pro-inflammatory) rather than M2 (pro-repair)",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "microbiome_imbalance_c_acnes",
+    "target": "acne-vulgaris",
+    "relationship": "causes",
+    "mechanism_summary": "IA1 phylotype dominance (60-90% of acne lesion isolates) → hyaluronate lyase, CAMP factors, porphyrins → TLR2/TLR4 → IL-8, TNF-α",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.1 (C. acnes)"
+  },
+  {
+    "source": "microbiome_imbalance_s_aureus",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "S. aureus colonization increases from 5% to >90% during AD flares; α-hemolysin damages keratinocytes; enterotoxins act as superantigens",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.1 (S. aureus); clinical-guidelines.md: AD"
+  },
+  {
+    "source": "microbiome_imbalance_s_aureus",
+    "target": "impetigo",
+    "relationship": "causes",
+    "mechanism_summary": "S. aureus (and Streptococcus pyogenes) are primary pathogens; exfoliative toxins A/B cleave desmoglein 1",
+    "evidence_level": "A",
+    "citation": "gut-skin-axis.md: Section 1.1 (S. aureus)"
+  },
+  {
+    "source": "microbiome_imbalance_malassezia",
+    "target": "seborrheic-dermatitis",
+    "relationship": "causes",
+    "mechanism_summary": "M. globosa lipases break down sebum triglycerides → oleic acid release → stratum corneum disruption and irritation",
+    "evidence_level": "A",
+    "citation": "gut-skin-axis.md: Section 1.1 (Malassezia); clinical-guidelines.md: Seborrheic Dermatitis"
+  },
+  {
+    "source": "microbiome_imbalance_malassezia",
+    "target": "tinea-versicolor",
+    "relationship": "causes",
+    "mechanism_summary": "M. globosa overgrowth produces azelaic acid → hypopigmentation; also affects melanocyte function",
+    "evidence_level": "A",
+    "citation": "gut-skin-axis.md: Section 1.1 (Malassezia)"
+  },
+  {
+    "source": "microbiome_imbalance_malassezia",
+    "target": "malassezia-folliculitis",
+    "relationship": "causes",
+    "mechanism_summary": "Malassezia proliferation within follicles triggers neutrophilic inflammation → monomorphic papules/pustules on trunk",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.1 (Malassezia)"
+  },
+  {
+    "source": "microbiome_imbalance_demodex",
+    "target": "rosacea",
+    "relationship": "aggravates",
+    "mechanism_summary": "Demodex density 5-10× higher in papulopustular rosacea; mite-associated Bacillus oleronius triggers TLR2-mediated inflammation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.1 (Demodex); clinical-guidelines.md: Rosacea"
+  },
+  {
+    "source": "microbiome_imbalance_demodex",
+    "target": "blepharitis",
+    "relationship": "causes",
+    "mechanism_summary": "D. folliculorum contributes to chronic lid margin inflammation; demodex debris blocks meibomian glands",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 1.1 (Demodex)"
+  },
+  {
+    "source": "oxidative_stress",
+    "target": "photoaging",
+    "relationship": "causes",
+    "mechanism_summary": "UV-generated ROS directly damage collagen, activate MMPs, and cause DNA mutations; cumulative effect over years",
+    "evidence_level": "A",
+    "citation": "lifestyle-skin.md: Section 3 (UV → ROS)"
+  },
+  {
+    "source": "oxidative_stress",
+    "target": "melasma",
+    "relationship": "aggravates",
+    "mechanism_summary": "ROS activate melanocytes and upregulate MITF; oxidative stress in melanocytes triggers compensatory melanin production",
+    "evidence_level": "B",
+    "citation": "lifestyle-skin.md: Section 3 (UV → melanocyte activation)"
+  },
+  {
+    "source": "oxidative_stress",
+    "target": "post-inflammatory-hyperpigmentation",
+    "relationship": "aggravates",
+    "mechanism_summary": "Inflammation-generated ROS trigger melanocyte activation and melanin deposition at sites of injury",
+    "evidence_level": "B",
+    "citation": "lifestyle-skin.md: Section 3"
+  },
+  {
+    "source": "oxidative_stress",
+    "target": "skin-cancer",
+    "relationship": "causes",
+    "mechanism_summary": "ROS cause DNA damage (CPDs, 8-oxo-guanine); oxidative damage to p53 and other tumor suppressors → malignant transformation",
+    "evidence_level": "A",
+    "citation": "lifestyle-skin.md: Section 3 (UV → DNA damage); clinical-guidelines.md: Skin cancer screening"
+  },
+  {
+    "source": "glycation",
+    "target": "accelerated-aging",
+    "relationship": "causes",
+    "mechanism_summary": "AGEs cross-link collagen and elastin → stiffness, reduced elasticity, yellowing; accelerated 2-3× in diabetes and insulin resistance",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "nutrient_deficiency_zinc",
+    "target": "acne-vulgaris",
+    "relationship": "aggravates",
+    "mechanism_summary": "Zinc inhibits 5α-reductase (weak), NF-κB, and has direct antibacterial effect against C. acnes; deficiency worsens inflammation",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 4.4 (Zinc); skin-condition-profiles.md: Acne supplements"
+  },
+  {
+    "source": "nutrient_deficiency_zinc",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Zinc essential for barrier repair, immune function, and filaggrin expression; deficiency impairs wound healing",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 4.4 (Zinc)"
+  },
+  {
+    "source": "nutrient_deficiency_zinc",
+    "target": "impaired-wound-healing",
+    "relationship": "causes",
+    "mechanism_summary": "Zinc is cofactor for collagen synthesis, DNA polymerase, and immune cell function; deficiency severely delays healing",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 4.4 (Zinc)"
+  },
+  {
+    "source": "nutrient_deficiency_vitamin_d",
+    "target": "psoriasis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Vitamin D suppresses Th17 and promotes Treg via VDR; deficiency removes this regulatory brake on inflammation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 3.2; clinical-guidelines.md: Psoriasis"
+  },
+  {
+    "source": "nutrient_deficiency_vitamin_d",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "VDR activation in keratinocytes promotes antimicrobial peptide production and barrier function; deficiency associated with increased AD severity",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 3.2"
+  },
+  {
+    "source": "nutrient_deficiency_omega3",
+    "target": "psoriasis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Omega-3 deficiency skews eicosanoid balance toward pro-inflammatory leukotriene B4; omega-3s produce anti-inflammatory resolvins",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 3.2; lifestyle-skin.md: Section 3"
+  },
+  {
+    "source": "nutrient_deficiency_omega3",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "aggravates",
+    "mechanism_summary": "Omega-3s are structural components of barrier lipids and precursors for anti-inflammatory mediators; deficiency impairs barrier and increases inflammation",
+    "evidence_level": "B",
+    "citation": "gut-skin-axis.md: Section 3.2"
+  },
+  {
+    "source": "nutrient_deficiency_omega3",
+    "target": "xerosis",
+    "relationship": "causes",
+    "mechanism_summary": "Omega-3 fatty acids are incorporated into ceramides and other barrier lipids; deficiency reduces barrier integrity and increases TEWL",
+    "evidence_level": "C",
+    "citation": "lifestyle-skin.md: Section 3 (diet → barrier)"
+  }
+]

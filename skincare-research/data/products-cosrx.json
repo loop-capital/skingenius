@@ -1,0 +1,864 @@
+[
+  {
+    "name": "Advanced Snail 96 Mucin Power Essence",
+    "brand": "COSRX",
+    "category": "essence",
+    "price": 25.00,
+    "price_currency": "USD",
+    "size": "100ml",
+    "inci_ingredients": [
+      "Snail Secretion Filtrate",
+      "Betaine",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Arginine",
+      "Allantoin",
+      "Ethyl Hexanediol",
+      "Sodium Polyacrylate",
+      "Carbomer",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      {
+        "name": "Snail Secretion Filtrate",
+        "concentration": "96%",
+        "purpose": "Skin repair, hydration, anti-aging, soothing"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Deep hydration, moisture retention"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, barrier repair, hydration"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Skin soothing, healing, anti-irritant"
+      },
+      {
+        "name": "Arginine",
+        "concentration": null,
+        "purpose": "Antioxidant, hydration, skin repair"
+      }
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "skin barrier damage",
+      "fine lines",
+      "uneven texture",
+      "redness",
+      "post-acne marks"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "combination",
+      "oily",
+      "normal"
+    ],
+    "contraindications": [
+      "snail mucin allergy",
+      "shellfish allergy (cross-reactivity possible)"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "AHA/BHA Clarifying Treatment Toner",
+    "brand": "COSRX",
+    "category": "toner",
+    "price": 17.00,
+    "price_currency": "USD",
+    "size": "150ml",
+    "inci_ingredients": [
+      "Water",
+      "Salix Alba (Willow) Bark Water",
+      "Pyrus Malus (Apple) Fruit Water",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Sodium Lactate",
+      "Glycolic Acid",
+      "Betaine Salicylate",
+      "Allantoin",
+      "Panthenol",
+      "Ethyl Hexanediol",
+      "Sodium Hyaluronate",
+      "Peg-60 Hydrogenated Castor Oil",
+      "Arginine",
+      "Niacinamide",
+      "Adenosine",
+      "Polyquaternium-10",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "name": "Glycolic Acid (AHA)",
+        "concentration": "0.1%",
+        "purpose": "Gentle exfoliation, skin texture improvement"
+      },
+      {
+        "name": "Betaine Salicylate (BHA)",
+        "concentration": "0.1%",
+        "purpose": "Pore cleansing, sebum control"
+      },
+      {
+        "name": "Willow Bark Water",
+        "concentration": null,
+        "purpose": "Natural BHA source, anti-inflammatory"
+      },
+      {
+        "name": "Apple Fruit Water",
+        "concentration": null,
+        "purpose": "Natural AHA source, brightening"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": null,
+        "purpose": "Brightening, pore minimizing, barrier support"
+      },
+      {
+        "name": "Adenosine",
+        "concentration": null,
+        "purpose": "Anti-aging, skin repair"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven skin texture",
+      "clogged pores",
+      "dullness",
+      "blackheads",
+      "whiteheads",
+      "excess sebum"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "sensitive or compromised skin barrier",
+      "active eczema or rosacea",
+      "use with strong retinoids or vitamin C",
+      "recent chemical peels or laser treatments"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "BHA Blackhead Power Liquid",
+    "brand": "COSRX",
+    "category": "exfoliant",
+    "price": 24.00,
+    "price_currency": "USD",
+    "size": "100ml",
+    "inci_ingredients": [
+      "Salix Alba (Willow) Bark Water",
+      "Butylene Glycol",
+      "Betaine Salicylate",
+      "Niacinamide",
+      "1,2-Hexanediol",
+      "Arginine",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Xanthan Gum",
+      "Ethyl Hexanediol"
+    ],
+    "key_actives": [
+      {
+        "name": "Betaine Salicylate",
+        "concentration": "4%",
+        "purpose": "BHA exfoliant, pore decongestion, blackhead removal"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": null,
+        "purpose": "Pore minimizing, sebum regulation, brightening"
+      },
+      {
+        "name": "Willow Bark Water",
+        "concentration": null,
+        "purpose": "Natural BHA source, soothing"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, hydration, barrier repair"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "blackheads",
+      "clogged pores",
+      "excess sebum",
+      "uneven skin texture",
+      "acne-prone skin"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "aspirin/salicylate allergy",
+      "pregnancy and breastfeeding",
+      "sensitive skin",
+      "use with other strong acids or retinoids"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "AHA 7 Whitehead Power Liquid",
+    "brand": "COSRX",
+    "category": "exfoliant",
+    "price": 22.00,
+    "price_currency": "USD",
+    "size": "100ml",
+    "inci_ingredients": [
+      "Pyrus Malus (Apple) Fruit Water",
+      "Butylene Glycol",
+      "Glycolic Acid",
+      "Niacinamide",
+      "Sodium Hydroxide",
+      "1,2-Hexanediol",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Xanthan Gum",
+      "Ethyl Hexanediol"
+    ],
+    "key_actives": [
+      {
+        "name": "Glycolic Acid (AHA)",
+        "concentration": "7%",
+        "purpose": "Chemical exfoliation, whitehead removal, skin texture smoothing"
+      },
+      {
+        "name": "Apple Fruit Water",
+        "concentration": null,
+        "purpose": "Natural AHA source, additional exfoliation"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": null,
+        "purpose": "Brightening, pore minimizing"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, hydration"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "whiteheads",
+      "uneven skin texture",
+      "dullness",
+      "rough skin",
+      "clogged pores"
+    ],
+    "skin_types": [
+      "combination",
+      "oily",
+      "normal"
+    ],
+    "contraindications": [
+      "sensitive skin",
+      "compromised skin barrier",
+      "active eczema or rosacea",
+      "use with retinoids or other acids",
+      "recent chemical peels"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Low pH Good Morning Gel Cleanser",
+    "brand": "COSRX",
+    "category": "cleanser",
+    "price": 14.00,
+    "price_currency": "USD",
+    "size": "150ml",
+    "inci_ingredients": [
+      "Water",
+      "Cocamidopropyl Betaine",
+      "Sodium Lauroyl Methyl Isethionate",
+      "Polysorbate 20",
+      "Styrax Japonicus Branch/Fruit/Leaf Extract",
+      "Butylene Glycol",
+      "Saccharomyces Ferment",
+      "Cryptomeria Japonica Leaf Extract",
+      "Nelumbo Nucifera Leaf Extract",
+      "Pinus Palustris Leaf Extract",
+      "Ulmus Davidiana Root Extract",
+      "Oenothera Biennis (Evening Primrose) Flower Extract",
+      "Pueraria Lobata Root Extract",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Allantoin",
+      "Caprylyl Glycol",
+      "Ethylhexylglycerin",
+      "Betaine Salicylate",
+      "Citric Acid",
+      "Ethyl Hexanediol",
+      "1,2-Hexanediol",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Sodium Benzoate",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "name": "Tea Tree Leaf Oil",
+        "concentration": null,
+        "purpose": "Antibacterial, anti-inflammatory, acne-fighting"
+      },
+      {
+        "name": "Betaine Salicylate",
+        "concentration": null,
+        "purpose": "Gentle exfoliation, pore cleansing"
+      },
+      {
+        "name": "Saccharomyces Ferment",
+        "concentration": null,
+        "purpose": "Skin conditioning, nutrient delivery"
+      },
+      {
+        "name": "Botanical Extracts (Styrax, Cryptomeria, Nelumbo, Pinus, Ulmus, Oenothera, Pueraria)",
+        "concentration": null,
+        "purpose": "Soothing, antioxidant, skin conditioning"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Soothing, healing"
+      }
+    ],
+    "conditions_addressed": [
+      "acne",
+      "excess sebum",
+      "clogged pores",
+      "sensitive skin (gentle formula)"
+    ],
+    "skin_types": [
+      "sensitive",
+      "oily",
+      "combination",
+      "normal",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "tea tree oil sensitivity",
+      "salicylate allergy"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Advanced Snail 92 All In One Cream",
+    "brand": "COSRX",
+    "category": "moisturizer",
+    "price": 26.00,
+    "price_currency": "USD",
+    "size": "100ml",
+    "inci_ingredients": [
+      "Snail Secretion Filtrate",
+      "Betaine",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Cetearyl Alcohol",
+      "Carbomer",
+      "Arginine",
+      "Dimethicone",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Allantoin",
+      "Sodium Polyacrylate",
+      "Xanthan Gum",
+      "Ethyl Hexanediol",
+      "Adenosine",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      {
+        "name": "Snail Secretion Filtrate",
+        "concentration": "92%",
+        "purpose": "Skin repair, hydration, anti-aging"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Deep hydration"
+      },
+      {
+        "name": "Adenosine",
+        "concentration": null,
+        "purpose": "Anti-aging, skin repair"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, barrier repair"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Soothing, healing"
+      },
+      {
+        "name": "Ceramide NP (naturally present in snail mucin)",
+        "concentration": null,
+        "purpose": "Barrier repair, moisture retention"
+      }
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "skin barrier damage",
+      "fine lines",
+      "redness",
+      "uneven texture",
+      "post-inflammatory hyperpigmentation"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "combination",
+      "normal"
+    ],
+    "contraindications": [
+      "snail mucin allergy",
+      "shellfish allergy (cross-reactivity possible)"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Centella Water Alcohol-Free Toner",
+    "brand": "COSRX",
+    "category": "toner",
+    "price": 17.00,
+    "price_currency": "USD",
+    "size": "150ml",
+    "inci_ingredients": [
+      "Water",
+      "Centella Asiatica Leaf Water",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Betaine",
+      "Panthenol",
+      "Allantoin",
+      "Ethyl Hexanediol",
+      "Sodium Hyaluronate",
+      "Peg-60 Hydrogenated Castor Oil",
+      "Madecassoside",
+      "Asiaticoside",
+      "Centella Asiatica Extract"
+    ],
+    "key_actives": [
+      {
+        "name": "Centella Asiatica Leaf Water",
+        "concentration": null,
+        "purpose": "Soothing, healing, anti-inflammatory"
+      },
+      {
+        "name": "Madecassoside",
+        "concentration": null,
+        "purpose": "Wound healing, collagen synthesis, anti-inflammatory"
+      },
+      {
+        "name": "Asiaticoside",
+        "concentration": null,
+        "purpose": "Skin repair, circulation improvement"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, hydration"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Hydration"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Soothing, healing"
+      }
+    ],
+    "conditions_addressed": [
+      "redness",
+      "irritation",
+      "sensitive skin",
+      "inflammation",
+      "compromised skin barrier",
+      "post-acne marks"
+    ],
+    "skin_types": [
+      "sensitive",
+      "dry",
+      "combination",
+      "normal",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "centella asiatica allergy (rare)"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Galactomyces 95 Whitening Power Essence",
+    "brand": "COSRX",
+    "category": "essence",
+    "price": 24.00,
+    "price_currency": "USD",
+    "size": "100ml",
+    "inci_ingredients": [
+      "Galactomyces Ferment Filtrate",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Betaine",
+      "Panthenol",
+      "Glycerin",
+      "1,2-Hexanediol",
+      "Allantoin",
+      "Butylene Glycol",
+      "Xanthan Gum",
+      "Ethyl Hexanediol",
+      "Adenosine"
+    ],
+    "key_actives": [
+      {
+        "name": "Galactomyces Ferment Filtrate",
+        "concentration": "95%",
+        "purpose": "Brightening, pore refining, sebum balance, skin texture improvement"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": "2%",
+        "purpose": "Brightening, pore minimizing, barrier support, sebum regulation"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Hydration"
+      },
+      {
+        "name": "Adenosine",
+        "concentration": null,
+        "purpose": "Anti-aging, skin repair"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "uneven skin tone",
+      "enlarged pores",
+      "excess sebum",
+      "uneven texture",
+      "hyperpigmentation"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "normal",
+      "dull"
+    ],
+    "contraindications": [
+      "fungal acne (Malassezia) - ferment filtrates may exacerbate",
+      "niacinamide sensitivity"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "One Step Original Clear Pad",
+    "brand": "COSRX",
+    "category": "exfoliant",
+    "price": 22.00,
+    "price_currency": "USD",
+    "size": "70 pads / 135ml",
+    "inci_ingredients": [
+      "Salix Alba (Willow) Bark Water",
+      "Butylene Glycol",
+      "Glycerin",
+      "Betaine Salicylate",
+      "1,2-Hexanediol",
+      "Arginine",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Ethyl Hexanediol",
+      "Citric Acid",
+      "Polyglyceryl-10 Laurate",
+      "Polyglyceryl-10 Myristate",
+      "Betaine",
+      "Pyrus Malus (Apple) Fruit Water",
+      "Melia Azadirachta Leaf Extract",
+      "Melia Azadirachta Flower Extract",
+      "Tocopheryl Acetate"
+    ],
+    "key_actives": [
+      {
+        "name": "Betaine Salicylate (BHA)",
+        "concentration": "1%",
+        "purpose": "Gentle exfoliation, pore cleansing, acne prevention"
+      },
+      {
+        "name": "Willow Bark Water",
+        "concentration": "85.9%",
+        "purpose": "Soothing, natural BHA source"
+      },
+      {
+        "name": "Apple Fruit Water",
+        "concentration": null,
+        "purpose": "Natural AHA source, brightening"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": null,
+        "purpose": "Sebum control, pore minimizing"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Soothing"
+      },
+      {
+        "name": "Tea Tree Extract",
+        "concentration": null,
+        "purpose": "Antibacterial, anti-inflammatory"
+      }
+    ],
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "whiteheads",
+      "excess sebum",
+      "uneven texture",
+      "clogged pores"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "aspirin/salicylate allergy",
+      "sensitive skin",
+      "use with other strong acids or retinoids"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Acne Pimple Master Patch",
+    "brand": "COSRX",
+    "category": "treatment",
+    "price": 6.00,
+    "price_currency": "USD",
+    "size": "24 patches",
+    "inci_ingredients": [
+      "Cellulose Gum",
+      "Styrene/Isoprene Copolymer",
+      "Hydrogenated Poly(C6-20 Olefin)",
+      "Polyisobutene",
+      "Petrolatum"
+    ],
+    "key_actives": [
+      {
+        "name": "Hydrocolloid",
+        "concentration": null,
+        "purpose": "Absorbs pus and oil, protects wound, promotes healing"
+      },
+      {
+        "name": "Cellulose Gum",
+        "concentration": null,
+        "purpose": "Hydrocolloid base, moisture absorption"
+      }
+    ],
+    "conditions_addressed": [
+      "active pimples",
+      "whiteheads",
+      "pus-filled acne",
+      "surface-level blemishes"
+    ],
+    "skin_types": [
+      "all",
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "deep cystic acne (not effective)",
+      "open wounds",
+      "allergy to adhesive/plaster materials"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Hydrium Watery Gel Cream",
+    "brand": "COSRX",
+    "category": "moisturizer",
+    "price": 25.00,
+    "price_currency": "USD",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Water",
+      "Dipropylene Glycol",
+      "Glycerin",
+      "1,2-Hexanediol",
+      "Hydrogenated Olive Oil Unsaponifiables",
+      "Sea Water",
+      "Ceramide NP",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Bifida Ferment Lysate",
+      "Propanediol",
+      "Butylene Glycol",
+      "Hydrogenated Lecithin",
+      "Sodium Phytate",
+      "Xanthan Gum",
+      "Hydrolyzed Hyaluronic Acid",
+      "Sodium Acetylated Hyaluronate",
+      "Hyaluronic Acid",
+      "Hydrolyzed Sodium Hyaluronate",
+      "Sodium Hyaluronate Crosspolymer",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "name": "Ceramide NP",
+        "concentration": null,
+        "purpose": "Barrier repair, moisture retention"
+      },
+      {
+        "name": "Hyaluronic Acid Complex (6 types)",
+        "concentration": null,
+        "purpose": "Multi-depth hydration, moisture retention"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, hydration"
+      },
+      {
+        "name": "Sea Water",
+        "concentration": null,
+        "purpose": "Mineral-rich hydration"
+      },
+      {
+        "name": "Bifida Ferment Lysate",
+        "concentration": null,
+        "purpose": "Skin barrier support, microbiome balance"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Soothing, healing"
+      }
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "compromised skin barrier",
+      "dryness",
+      "sensitive skin",
+      "flakiness"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "contraindications": [
+      "hyaluronic acid allergy (rare)"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Full Fit Propolis Light Ampoule",
+    "brand": "COSRX",
+    "category": "serum",
+    "price": 28.00,
+    "price_currency": "USD",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Propolis Extract",
+      "Butylene Glycol",
+      "Glycerin",
+      "1,2-Hexanediol",
+      "Niacinamide",
+      "Honey Extract",
+      "Hippophae Rhamnoides (Sea Buckthorn) Fruit Extract",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Carbomer",
+      "Arginine",
+      "Hydroxyethylcellulose",
+      "Ethyl Hexanediol",
+      "Adenosine",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "name": "Propolis Extract",
+        "concentration": "83.25%",
+        "purpose": "Antibacterial, anti-inflammatory, wound healing, antioxidant"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": null,
+        "purpose": "Brightening, pore minimizing, barrier support"
+      },
+      {
+        "name": "Honey Extract",
+        "concentration": null,
+        "purpose": "Hydration, antibacterial, healing"
+      },
+      {
+        "name": "Sea Buckthorn Fruit Extract",
+        "concentration": null,
+        "purpose": "Antioxidant, vitamin C, skin repair"
+      },
+      {
+        "name": "Adenosine",
+        "concentration": null,
+        "purpose": "Anti-aging, skin repair"
+      },
+      {
+        "name": "Panthenol",
+        "concentration": null,
+        "purpose": "Soothing, hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "dehydration",
+      "inflammation",
+      "uneven skin tone",
+      "fine lines",
+      "compromised skin barrier"
+    ],
+    "skin_types": [
+      "dry",
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "contraindications": [
+      "bee product allergy (propolis, honey)",
+      "niacinamide sensitivity"
+    ],
+    "ph_range": "5.5-6.5"
+  }
+]

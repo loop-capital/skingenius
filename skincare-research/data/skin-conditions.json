@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Acne Vulgaris",
+    "description": "A common skin condition characterized by clogged pores, inflammation, and the formation of pimples, blackheads, and whiteheads, typically appearing on the face, chest, and back.",
+    "symptoms": ["Blackheads (open comedones)", "Whiteheads (closed comedones)", "Papules (small red bumps)", "Pustules (pus-filled bumps)", "Nodules (large painful bumps)", "Cysts (deep, painful, pus-filled lesions)", "Oily skin", "Inflammation and redness"],
+    "evidence_based_treatments": ["Benzoyl Peroxide (2.5-10%)", "Salicylic Acid (0.5-2%)", "Retinoids (adapalene, tretinoin)", "Azelaic Acid (15-20%)", "Niacinamide (4-10%)", "Tea Tree Oil", "Zinc", "Sulfur", "Clindamycin (topical antibiotic)", "Benzoyl Peroxide + Clindamycin combination"],
+    "when_to_see_dermatologist": ["Moderate to severe acne", "Acne causing scarring", "Persistent acne despite 2-3 months of OTC treatment", "Acne affecting quality of life or self-esteem", "Signs of infection (increased pain, warmth, fever)", "Hormonal patterns suggesting underlying endocrine issue"],
+    "related_articles": ["American Academy of Dermatology Acne Guidelines", "Journal of the American Academy of Dermatology - Acne Treatment Updates", "Cochrane Review: Topical Treatments for Acne"]
+  },
+  {
+    "name": "Atopic Dermatitis (Eczema)",
+    "description": "A chronic inflammatory skin condition characterized by dry, itchy, and inflamed skin, often associated with allergies and asthma, commonly affecting flexural areas like elbows and knees.",
+    "symptoms": ["Intense itching (pruritus)", "Dry, scaly skin", "Red to brownish-gray patches", "Small raised bumps that may leak fluid", "Thickened, cracked skin", "Raw, sensitive skin from scratching", "Commonly affects cheeks, elbows, knees, wrists, ankles"],
+    "evidence_based_treatments": ["Fragrance-free moisturizers (ceramides, petrolatum)", "Topical corticosteroids (hydrocortisone to potent)", "Topical calcineurin inhibitors (tacrolimus, pimecrolimus)", "Colloidal oatmeal", "Antihistamines for itching", "Wet wrap therapy", "Bleach baths (for infection prevention)", "Dupilumab (biologic for moderate-severe)", "Phototherapy"],
+    "when_to_see_dermatologist": ["Severe or widespread eczema", "Signs of infection (yellow crusting, pain, fever)", "Failure to respond to OTC treatments after 2-4 weeks", "Significant impact on sleep or quality of life", "Need for prescription-strength treatments", "Uncertain diagnosis needing confirmation"],
+    "related_articles": ["American Academy of Dermatology Atopic Dermatitis Guidelines", "Journal of Allergy and Clinical Immunology - Eczema Management", "Cochrane Review: Emollients for Eczema"]
+  },
+  {
+    "name": "Rosacea",
+    "description": "A chronic inflammatory skin condition primarily affecting the central face, characterized by flushing, persistent redness, visible blood vessels, and sometimes acne-like bumps and eye irritation.",
+    "symptoms": ["Facial flushing and blushing", "Persistent redness on cheeks, nose, chin, forehead", "Visible blood vessels (telangiectasia)", "Papules and pustules (acne-like breakouts)", "Burning or stinging sensation", "Eye irritation (ocular rosacea)", "Skin thickening (especially nose - rhinophyma)", "Facial swelling"],
+    "evidence_based_treatments": ["Topical metronidazole", "Topical azelaic acid (15-20%)", "Topical ivermectin", "Brimonidine gel (for temporary redness reduction)", "Oral antibiotics (doxycycline, minocycline)", "Laser and light therapies", "Gentle skincare routine", "Trigger avoidance (heat, alcohol, spicy foods, stress)", "Sunscreen protection"],
+    "when_to_see_dermatologist": ["Persistent facial redness", "Visible blood vessels", "Acne-like breakouts that don't respond to acne treatments", "Eye symptoms (dryness, irritation, vision changes)", "Skin thickening or texture changes", "Uncertain diagnosis or need for prescription treatment"],
+    "related_articles": ["National Rosacea Society Expert Committee Guidelines", "Journal of the American Academy of Dermatology - Rosacea Updates", "Cochrane Review: Treatments for Rosacea"]
+  },
+  {
+    "name": "Psoriasis",
+    "description": "A chronic autoimmune condition that causes rapid buildup of skin cells, leading to thick, scaly patches that are often itchy, painful, and inflamed, commonly affecting elbows, knees, scalp, and lower back.",
+    "symptoms": ["Red patches covered with thick, silvery scales", "Small scaling spots (common in children)", "Dry, cracked skin that may bleed", "Itching, burning, or soreness", "Thickened, pitted, or ridged nails", "Swollen and stiff joints (psoriatic arthritis)", "Patches that vary from few spots to major eruptions"],
+    "evidence_based_treatments": ["Topical corticosteroids", "Topical vitamin D analogues (calcipotriene)", "Topical retinoids", "Coal tar preparations", "Salicylic acid (to remove scale)", "Moisturizers", "Light therapy (phototherapy)", "Systemic medications (methotrexate, cyclosporine)", "Biologics (TNF inhibitors, IL-17/IL-23 inhibitors)", "Apremilast (oral medication)"],
+    "when_to_see_dermatologist": ["Suspected psoriasis diagnosis", "Moderate to severe psoriasis", "Joint pain or stiffness", "Nail changes", "Failure to respond to OTC treatments", "Need for prescription or systemic treatment", "Impact on quality of life"],
+    "related_articles": ["American Academy of Dermatology Psoriasis Guidelines", "Journal of the American Academy of Dermatology - Psoriasis Treatment", "Cochrane Review: Treatments for Psoriasis"]
+  },
+  {
+    "name": "Contact Dermatitis",
+    "description": "A rash caused by skin contact with irritants or allergens, resulting in red, itchy, inflamed skin that may blister, peel, or feel burning, divided into irritant and allergic types.",
+    "symptoms": ["Red rash or patches", "Intense itching", "Dry, cracked, scaly skin", "Bumps and blisters that may ooze", "Swelling, burning, or tenderness", "Skin feels warm to touch", "Localized to area of contact", "May spread if allergen transferred"],
+    "evidence_based_treatments": ["Identify and avoid trigger", "Cool compresses", "Topical corticosteroids (for inflammation)", "Calamine lotion or oatmeal baths", "Antihistamines for itching", "Moisturizers to repair barrier", "Barrier creams or ointments", "Wet dressings for severe cases", "Patch testing to identify allergens"],
+    "when_to_see_dermatologist": ["Severe or widespread rash", "Signs of infection (pus, increasing pain, fever)", "Rash affecting face or genitals", "Persistent rash despite avoidance and OTC treatment", "Need for prescription-strength treatment", "Suspected allergic contact dermatitis needing patch testing", "Unclear cause of rash"],
+    "related_articles": ["American Academy of Dermatology Contact Dermatitis Guidelines", "Journal of the American Academy of Dermatology - Contact Dermatitis Updates", "Cochrane Review: Topical Steroids for Contact Dermatitis"]
+  },
+  {
+    "name": "Melasma",
+    "description": "A common hyperpigmentation disorder characterized by brown to gray-brown patches, typically appearing on the face (cheeks, forehead, nose, upper lip), often triggered by hormonal changes and sun exposure.",
+    "symptoms": ["Brown or gray-brown patches on face", "Symmetrical distribution (both cheeks, forehead, etc.)", "Patches commonly on cheeks, bridge of nose, forehead, chin, upper lip", "More pronounced after sun exposure", "No associated itching or pain", "Often worsens during pregnancy or with hormonal contraceptives", "May fade in winter, worsen in summer"],
+    "evidence_based_treatments": ["Strict sun protection (broad-spectrum SPF 30+)", "Topical hydroquinone (2-4%)", "Triple combination cream (hydroquinone, tretinoin, fluocinolone)", "Azelaic acid (15-20%)", "Kojic acid", "Vitamin C (L-ascorbic acid)", "Tranexamic acid (oral or topical)", "Chemical peels (glycolic, lactic acid)", "Laser and light therapies (with caution)", "Discontinuation of triggering hormones when possible"],
+    "when_to_see_dermatologist": ["New facial hyperpigmentation", "Pigmentation that doesn't fade with months of sun protection", "Need for prescription-strength lightening agents", "Uncertain diagnosis (rule out other causes)", "Consideration of procedures (peels, lasers)", "Pregnancy or hormonal treatment planning"],
+    "related_articles": ["American Academy of Dermatology Hyperpigmentation Guidelines", "Journal of the American Academy of Dermatology - Melasma Treatment", "Cochrane Review: Treatments for Melasma"]
+  },
+  {
+    "name": "Seborrheic Dermatitis",
+    "description": "A common inflammatory skin condition that causes scaly patches, red skin, and stubborn dandruff, primarily affecting oily areas like scalp, face (eyebrows, nose, ears), and chest.",
+    "symptoms": ["White or yellowish oily scales", "Red, inflamed skin underneath scales", "Stubborn dandruff on scalp, eyebrows, beard, or mustache", "Itching or burning sensation", "Greasy or oily appearance", "Commonly affects scalp, face (nasolabial folds, eyebrows, ears), chest", "May worsen with stress, cold weather, or hormonal changes"],
+    "evidence_based_treatments": ["Medicated shampoos (ketoconazole, selenium sulfide, zinc pyrithione)", "Topical antifungals (ketoconazole, ciclopirox)", "Topical corticosteroids (for inflammation)", "Salicylic acid preparations (to remove scale)", "Calcineurin inhibitors (tacrolimus, pimecrolimus)", "Regular cleansing with gentle products", "Moisturizers for non-scalp areas", "Light therapy", "Lithium or coal tar preparations"],
+    "when_to_see_dermatologist": ["Severe or widespread scalp involvement", "Failure to respond to OTC medicated shampoos after 4-6 weeks", "Significant facial or body involvement", "Need for prescription-strength treatment", "Uncertain diagnosis or overlapping with psoriasis/eczema", "Signs of secondary infection"],
+    "related_articles": ["American Academy of Dermatology Seborrheic Dermatitis Guidelines", "Journal of the American Academy of Dermatology - Seborrheic Dermatitis Updates", "Cochrane Review: Antifungals for Seborrheic Dermatitis"]
+  },
+  {
+    "name": "Actinic Keratosis",
+    "description": "A precancerous skin condition caused by years of sun exposure, characterized by rough, scaly patches on sun-exposed areas that can potentially develop into squamous cell carcinoma if left untreated.",
+    "symptoms": ["Rough, scaly, or crusty patches", "Flat or slightly raised lesions", "Color varies from pink to red to brown", "Typically <1 inch in diameter", "May feel sore or tender when touched", "Commonly on face, lips, ears, forearms, scalp, neck", "Often multiple lesions present", "More common in fair-skinned individuals with sun history"],
+    "evidence_based_treatments": ["Cryotherapy (freezing with liquid nitrogen)", "Topical 5-fluorouracil (5-FU)", "Topical imiquimod", "Topical diclofenac gel", "Topical ingenol mebutate", "Photodynamic therapy (PDT)", "Chemical peels (for multiple lesions)", "Laser resurfacing", "Curettage and desiccation", "Regular dermatological monitoring"],
+    "when_to_see_dermatologist": ["Any new or changing skin lesion", "Suspected actinic keratosis", "History of significant sun exposure", "Fair skin with light eyes and hair", "Multiple rough patches", "Lesions that bleed, grow, or change appearance", "Need for professional diagnosis and treatment", "Annual skin cancer screening recommended"],
+    "related_articles": ["American Academy of Dermatology Actinic Keratosis Guidelines", "Journal of the American Academy of Dermatology - Pre-Cancerous Lesions", "Cochrane Review: Treatments for Actinic Keratosis"]
+  },
+  {
+    "name": "Hyperhidrosis",
+    "description": "A medical condition characterized by excessive sweating beyond what's needed for temperature regulation, most commonly affecting palms, soles, underarms, and face, often causing significant emotional and social impact.",
+    "symptoms": ["Visible sweating that soaks through clothing", "Sweating without exertion or heat", "Frequent need to change clothes", "Skin maceration or breakdown from constant moisture", "Unpleasant odor from bacterial breakdown of sweat", "Social embarrassment and anxiety", "Cold, clammy palms or soles", "Sweating that interferes with daily activities"],
+    "evidence_based_treatments": ["Clinical strength antiperspirants (aluminum chloride)", "Prescription antiperspirants (aluminum chloride hexahydrate)", "Botulinum toxin (Botox) injections", "Anticholinergic medications (oral)", "Iontophoresis (water-based electrical treatment)", "Microwave thermolysis (miraDry)", "Laser sweat ablation", "Surgical options (sympathectomy, sweat gland removal)", "Lifestyle modifications and stress management"],
+    "when_to_see_dermatologist": ["Excessive sweating interfering with daily life", "Night sweats or generalized sweating", "Failure to respond to clinical-strength antiperspirants", "Skin irritation or infection from constant moisture", "Need for prescription treatments or procedures", "Uncertain diagnosis or rule out medical causes", "Consideration of procedural options"],
+    "related_articles": ["American Academy of Dermatology Hyperhidrosis Guidelines", "Journal of the American Academy of Dermatology - Hyperhidrosis Treatment", "Cochrane Review: Treatments for Hyperhidrosis"]
+  },
+  {
+    "name": "Alopecia Areata",
+    "description": "An autoimmune condition where the immune system attacks hair follicles, leading to sudden hair loss in small, round patches on the scalp, face, or other body areas, which may progress to larger areas or complete hair loss.",
+    "symptoms": ["Sudden loss of hair in round or oval patches", "Smooth, bald patches without inflammation or scarring", "Patches typically a few centimeters in diameter", "May affect scalp, beard, eyebrows, eyelashes, or body hair", "Sometimes preceded by tingling or itching in area", "Hair may regrow then fall out again", "Nail changes (pitting, ridges, roughness) in some cases", "Can progress to total scalp hair loss (alopecia totalis) or total body hair loss (alopecia universalis)" ],
+    "evidence_based_treatments": ["Intralesional corticosteroid injections", "Topical corticosteroids (high potency)", "Topical immunotherapy (DPCP, squaric acid)", "Oral corticosteroids (short-term)", "Janus kinase (JAK) inhibitors (tofacitinib, ruxolitinib)", "Topical minoxidil (to support regrowth)", "Platelet-rich plasma (PRP) therapy", "Low-level laser therapy", "Wigs or hairpieces for cosmetic coverage", "Stress reduction and support"],
+    "when_to_see_dermatologist": ["Sudden patchy hair loss", "Hair loss in eyebrows, eyelashes, or beard", "Rapid progression of hair loss", "Nail changes accompanying hair loss", "Need for prescription or injection treatments", "Uncertain diagnosis or rule out other causes", "Consideration of systemic treatments", "Cosmetic concerns needing professional guidance"],
+    "related_articles": ["American Academy of Dermatology Alopecia Areata Guidelines", "Journal of the American Academy of Dermatology - Alopecia Treatment", "Cochrane Review: Treatments for Alopecia Areata"]
+  },
+  {
+    "name": "Vitiligo",
+    "description": "An autoimmune condition that causes loss of skin color in patches when melanocytes (cells that produce pigment) are destroyed or stop functioning, resulting in white patches that can appear anywhere on the body.",
+    "symptoms": ["Patchy loss of skin color", "White or light-colored patches on skin", "Commonly affects hands, feet, arms, face, lips", "Patches may start small and grow over time", "Premature whitening or graying of hair on scalp, eyelashes, eyebrows, beard", "Loss of color in mucous membranes (mouth, nose)", "Changes in retinal layer color", "Patches often symmetrical but can be asymmetrical", "More noticeable in darker skin tones"],
+    "evidence_based_treatments": ["Topical corticosteroids (for early, localized vitiligo)", "Topical calcineurin inhibitors (tacrolimus, pimecrolimus)", "Psoralen plus ultraviolet A (PUVA) therapy", "Narrowband ultraviolet B (NB-UVB) phototherapy", "Excimer laser (targeted UVB)", "Depigmentation (for widespread vitiligo)", "Topical prostaglandin E2 analogs", "Oral antioxidants and supplements", "Surgical options (skin grafting, melanocyte transfer)", "Cosmetic camouflage and self-tanners"],
+    "when_to_see_dermatologist": ["New white patches on skin", "Rapid spreading of existing patches", "Whitening of hair in patches or scalp", "Need for prescription treatments or phototherapy", "Uncertain diagnosis or rule out other causes", "Consideration of procedural options", "Cosmetic concerns impacting quality of life", "Family history or associated autoimmune conditions"],
+    "related_articles": ["American Academy of Dermatology Vitiligo Guidelines", "Journal of the American Academy of Dermatology - Vitiligo Treatment", "Cochrane Review: Treatments for Vitiligo"]
+  },
+  {
+    "name": "Hives (Urticaria)",
+    "description": "A skin reaction that causes raised, itchy welts (wheals) that can vary in size and shape, appearing suddenly and often resolving within hours to days, though chronic cases can persist for months or years.",
+    "symptoms": ["Raised, itchy welts or wheals", "Welts that vary in size from small to large", "Welts that may join together to form larger areas", "Red or skin-colored appearance", "Individual welts typically last <24 hours", "Burning or stinging sensation", "Swelling (angioedema) around eyes, lips, hands, feet, or throat", "Welts that change shape, move, disappear, and reappear"],
+    "evidence_based_treatments": ["Antihistamines (cetirizine, loratadine, fexofenadine)", "High-dose or multiple antihistamines", "Leukotriene modifiers (montelukast)", "Corticosteroids (for severe cases)", "Doxepin (for antihistamine-resistant cases)", "Omalizumab (for chronic spontaneous urticaria)", "Identify and avoid triggers", "Cool compresses and loose clothing", "Stress management techniques", "Emergency epinephrine for severe reactions"],
+    "when_to_see_dermatologist": ["Severe or widespread hives", "Difficulty breathing or swallowing (signs of anaphylaxis)", "Swelling of lips, tongue, or throat", "Hives lasting >6 weeks (chronic urticaria)", "Need for prescription-strength treatment", "Uncertain diagnosis or rule out underlying causes", "Recurrent episodes needing evaluation", "History of severe reactions requiring epinephrine"],
+    "related_articles": ["American Academy of Dermatology Urticaria Guidelines", "Journal of the American Academy of Dermatology - Hives Treatment", "Cochrane Review: Antihistamines for Urticaria"]
+  },
+  {
+    "name": "Keratosis Pilaris",
+    "description": "A common, harmless skin condition that causes dry, rough patches and tiny bumps, usually on the upper arms, thighs, cheeks, or buttocks, often described as 'chicken skin' due to the buildup of keratin blocking hair follicles.",
+    "symptoms": ["Small, rough, bumpy patches", "Tiny papules that feel like sandpaper", "Typically affects upper arms, thighs, buttocks, cheeks", "May have slight redness or inflammation around bumps", "Skin feels dry and rough to touch", "Often worse in winter or low humidity", "Usually begins in childhood and may improve with age", "More common in people with dry skin or eczema", "Typically symmetrical distribution"],
+    "evidence_based_treatments": ["Regular moisturizing (ceramides, urea, lactic acid)", "Gentle exfoliation (lactic acid, glycolic acid, urea)", "Topical retinoids (in severe cases)", "Laser hair removal (for associated hair)", "Microdermabrasion", "Humidifiers to add moisture to air", "Avoiding harsh soaps and hot water", "Loose clothing to reduce friction", "Patience - condition often improves with age"],
+    "when_to_see_dermatologist": ["Severe or widespread roughness", "Significant cosmetic concern", "Uncertain diagnosis or rule out other conditions", "Need for prescription-strength treatment", "Signs of infection or inflammation", "Accompanying symptoms like weight loss or fatigue", "Persistent despite consistent OTC treatment", "Desire for professional evaluation and guidance"],
+    "related_articles": ["American Academy of Dermatology Keratosis Pilaris Guidelines", "Journal of the American Academy of Dermatology - KP Treatment Updates", "Cochrane Review: Emollients and Exfoliants for Keratosis Pilaris"]
+  },
+  {
+    "name": "Dry Skin (Xerosis)",
+    "description": "A common condition where skin lacks sufficient moisture in its outer layer, leading to roughness, tightness, flaking, and sometimes itching or cracking, particularly prevalent in older adults and during winter months.",
+    "symptoms": ["Feeling of tightness, especially after washing", "Rough, scaly, or flaky texture", "Itching (pruritus)", "Fine lines or cracks that may appear", "Ashy or gray appearance in darker skin tones", "Redness from irritation", "More pronounced on arms, legs, hands, feet", "Worsens in cold, dry weather or low humidity", "May feel better after applying moisturizer"],
+    "evidence_based_treatments": ["Fragrance-free moisturizers (ceramides, glycerin, hyaluronic acid)", "Ointments and creams over lotions", "Apply moisturizer to damp skin", "Humidifiers to add moisture to air", "Gentle, fragrance-free cleansers", "Shorter, lukewarm showers or baths", "Avoid harsh soaps, alcohols, and fragrances", "Occlusive agents (petrolatum, mineral oil) for severe cases", "Barrier repair ingredients (cholesterol, fatty acids)"],
+    "when_to_see_dermatologist": ["Severe or persistent dryness despite moisturizing", "Signs of infection (cracks that bleed, ooze, or show red streaks)", "Extensive cracking or fissures", "Underlying conditions like diabetes, thyroid disorders, or kidney disease", "Need for prescription treatments or underlying cause evaluation", "Significant impact on quality of life or comfort", "Uncertain diagnosis or rule out ichthyosis or other disorders", "Associated symptoms like weight loss, fatigue, or fever"],
+    "related_articles": ["American Academy of Dermatology Dry Skin Guidelines", "Journal of the American Academy of Dermatology - Xerosis Treatment", "Cochrane Review: Emollients for Dry Skin"]
+  }
+]

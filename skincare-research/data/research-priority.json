@@ -1,0 +1,833 @@
+{
+  "researched": [
+    "Peptides",
+    "Ceramides",
+    "Niacinamide",
+    "Hyaluronic Acid",
+    "Zinc Oxide",
+    "Titanium Dioxide",
+    "Retinol",
+    "Aloe Vera",
+    "Ferulic Acid",
+    "Allantoin",
+    "Squalane",
+    "Kojic Acid",
+    "Shea Butter",
+    "Jojoba Oil",
+    "Green Tea Extract",
+    "Resveratrol",
+    "Azelaic Acid"
+  ],
+  "unresearched": [
+    {
+      "name": "Vitamin E",
+      "frequency": 40
+    },
+    {
+      "name": "Vitamin C",
+      "frequency": 27
+    },
+    {
+      "name": "Antioxidants",
+      "frequency": 24
+    },
+    {
+      "name": "Vitamin A",
+      "frequency": 19
+    },
+    {
+      "name": "Lactic Acid",
+      "frequency": 13
+    },
+    {
+      "name": "Salicylic Acid",
+      "frequency": 12
+    },
+    {
+      "name": "Growth Factors",
+      "frequency": 9
+    },
+    {
+      "name": "Mandarin Rind",
+      "frequency": 7
+    },
+    {
+      "name": "Vitamins",
+      "frequency": 7
+    },
+    {
+      "name": "Witch Hazel",
+      "frequency": 6
+    },
+    {
+      "name": "Citric Acid",
+      "frequency": 6
+    },
+    {
+      "name": "Parsley Seed Extract",
+      "frequency": 5
+    },
+    {
+      "name": "Rosemary Leaf",
+      "frequency": 5
+    },
+    {
+      "name": "Botanical Extracts",
+      "frequency": 5
+    },
+    {
+      "name": "Vitamin B5",
+      "frequency": 4
+    },
+    {
+      "name": "Brightening Agents",
+      "frequency": 4
+    },
+    {
+      "name": "Amino Acids",
+      "frequency": 4
+    },
+    {
+      "name": "Tea Tree Oil",
+      "frequency": 4
+    },
+    {
+      "name": "Kaolin",
+      "frequency": 4
+    },
+    {
+      "name": "Glycolic Acid",
+      "frequency": 4
+    },
+    {
+      "name": "Retinol 0.5%",
+      "frequency": 4
+    },
+    {
+      "name": "Bisabolol",
+      "frequency": 4
+    },
+    {
+      "name": "L-Ascorbic Acid",
+      "frequency": 4
+    },
+    {
+      "name": "Green Tea",
+      "frequency": 3
+    },
+    {
+      "name": "Chamomile",
+      "frequency": 3
+    },
+    {
+      "name": "Cedarwood",
+      "frequency": 3
+    },
+    {
+      "name": "Bergamot",
+      "frequency": 3
+    },
+    {
+      "name": "Collagen",
+      "frequency": 3
+    },
+    {
+      "name": "Botanical Oils",
+      "frequency": 3
+    },
+    {
+      "name": "Vitamins A",
+      "frequency": 3
+    },
+    {
+      "name": "Fatty Acids",
+      "frequency": 3
+    },
+    {
+      "name": "Bentonite",
+      "frequency": 3
+    },
+    {
+      "name": "Sulfur",
+      "frequency": 3
+    },
+    {
+      "name": "Boswellia Serrata",
+      "frequency": 3
+    },
+    {
+      "name": "Lemon Rind",
+      "frequency": 2
+    },
+    {
+      "name": "Rosehip Seed Oil",
+      "frequency": 2
+    },
+    {
+      "name": "Lavender",
+      "frequency": 2
+    },
+    {
+      "name": "Ylang Ylang",
+      "frequency": 2
+    },
+    {
+      "name": "Sage Leaf",
+      "frequency": 2
+    },
+    {
+      "name": "Tocopherol",
+      "frequency": 2
+    },
+    {
+      "name": "Beeswax",
+      "frequency": 2
+    },
+    {
+      "name": "Geranium Leaf",
+      "frequency": 2
+    },
+    {
+      "name": "Vetiver Root",
+      "frequency": 2
+    },
+    {
+      "name": "Petitgrain",
+      "frequency": 2
+    },
+    {
+      "name": "Gluconolactone",
+      "frequency": 2
+    },
+    {
+      "name": "Elastin",
+      "frequency": 2
+    },
+    {
+      "name": "Matrixyl",
+      "frequency": 2
+    },
+    {
+      "name": "Zinc",
+      "frequency": 2
+    },
+    {
+      "name": "Oxygenating Agents",
+      "frequency": 2
+    },
+    {
+      "name": "Liquorice Extract",
+      "frequency": 2
+    },
+    {
+      "name": "Extremozymes",
+      "frequency": 2
+    },
+    {
+      "name": "Stem Cells",
+      "frequency": 2
+    },
+    {
+      "name": "Salicylic Acid 2%",
+      "frequency": 2
+    },
+    {
+      "name": "Glycerin",
+      "frequency": 2
+    },
+    {
+      "name": "Iron Oxides",
+      "frequency": 2
+    },
+    {
+      "name": "Caffeine",
+      "frequency": 2
+    },
+    {
+      "name": "Mandelic Acid",
+      "frequency": 2
+    },
+    {
+      "name": "Jojoba Beads",
+      "frequency": 2
+    },
+    {
+      "name": "Proxylane",
+      "frequency": 2
+    },
+    {
+      "name": "Cholesterol",
+      "frequency": 2
+    },
+    {
+      "name": "Hydroxy Acids",
+      "frequency": 2
+    },
+    {
+      "name": "Marine Extracts",
+      "frequency": 2
+    },
+    {
+      "name": "Tranexamic Acid",
+      "frequency": 2
+    },
+    {
+      "name": "Aloe",
+      "frequency": 2
+    },
+    {
+      "name": "Retinol 1%",
+      "frequency": 2
+    },
+    {
+      "name": "Sodium Ascorbyl Phosphate",
+      "frequency": 1
+    },
+    {
+      "name": "Vitamin B3",
+      "frequency": 1
+    },
+    {
+      "name": "Tangerine Rind",
+      "frequency": 1
+    },
+    {
+      "name": "Evening Primrose Oil",
+      "frequency": 1
+    },
+    {
+      "name": "Camellia Nut Oil",
+      "frequency": 1
+    },
+    {
+      "name": "Macadamia Nut Oil",
+      "frequency": 1
+    },
+    {
+      "name": "Sandalwood",
+      "frequency": 1
+    },
+    {
+      "name": "Grape Seed Extract",
+      "frequency": 1
+    },
+    {
+      "name": "White Tea",
+      "frequency": 1
+    },
+    {
+      "name": "Quartz",
+      "frequency": 1
+    },
+    {
+      "name": "Tea Tree Leaf",
+      "frequency": 1
+    },
+    {
+      "name": "Aluminum Silicate",
+      "frequency": 1
+    },
+    {
+      "name": "Sodium Bicarbonate",
+      "frequency": 1
+    },
+    {
+      "name": "Bitter Orange",
+      "frequency": 1
+    },
+    {
+      "name": "Castor Oil",
+      "frequency": 1
+    },
+    {
+      "name": "Grapefruit",
+      "frequency": 1
+    },
+    {
+      "name": "Orange Rind",
+      "frequency": 1
+    },
+    {
+      "name": "Grapefruit Rind",
+      "frequency": 1
+    },
+    {
+      "name": "Pumice",
+      "frequency": 1
+    },
+    {
+      "name": "Bamboo Stem",
+      "frequency": 1
+    },
+    {
+      "name": "Yeast Extracts",
+      "frequency": 1
+    },
+    {
+      "name": "Gentle Formula",
+      "frequency": 1
+    },
+    {
+      "name": "Iris Extract",
+      "frequency": 1
+    },
+    {
+      "name": "Pore-Refining Agents",
+      "frequency": 1
+    },
+    {
+      "name": "Astringents",
+      "frequency": 1
+    },
+    {
+      "name": "Amniotic Fluid",
+      "frequency": 1
+    },
+    {
+      "name": "Moisturizing Agents",
+      "frequency": 1
+    },
+    {
+      "name": "Higher Vitamin A",
+      "frequency": 1
+    },
+    {
+      "name": "High Vitamin A",
+      "frequency": 1
+    },
+    {
+      "name": "Maximum Vitamin A",
+      "frequency": 1
+    },
+    {
+      "name": "Retinyl Palmitate",
+      "frequency": 1
+    },
+    {
+      "name": "Retinyl Acetate",
+      "frequency": 1
+    },
+    {
+      "name": "Concentrated Retinol",
+      "frequency": 1
+    },
+    {
+      "name": "Higher Retinol",
+      "frequency": 1
+    },
+    {
+      "name": "Maximum Retinol",
+      "frequency": 1
+    },
+    {
+      "name": "Advanced Peptides",
+      "frequency": 1
+    },
+    {
+      "name": "Alpha Hydroxy Acids",
+      "frequency": 1
+    },
+    {
+      "name": "White Willow Bark",
+      "frequency": 1
+    },
+    {
+      "name": "Honey",
+      "frequency": 1
+    },
+    {
+      "name": "Papaya Enzymes",
+      "frequency": 1
+    },
+    {
+      "name": "Mushroom Extract",
+      "frequency": 1
+    },
+    {
+      "name": "Enzymes",
+      "frequency": 1
+    },
+    {
+      "name": "Retinaldehyde",
+      "frequency": 1
+    },
+    {
+      "name": "Digestive Enzymes",
+      "frequency": 1
+    },
+    {
+      "name": "Probiotics",
+      "frequency": 1
+    },
+    {
+      "name": "Detoxifying Herbs",
+      "frequency": 1
+    },
+    {
+      "name": "Rose Hip Seed Oil",
+      "frequency": 1
+    },
+    {
+      "name": "Sunflower Seed Oil",
+      "frequency": 1
+    },
+    {
+      "name": "Willow Bark Extract",
+      "frequency": 1
+    },
+    {
+      "name": "Benzoyl Peroxide 5%",
+      "frequency": 1
+    },
+    {
+      "name": "Phytic Acid",
+      "frequency": 1
+    },
+    {
+      "name": "Snap-8",
+      "frequency": 1
+    },
+    {
+      "name": "Snow Algae",
+      "frequency": 1
+    },
+    {
+      "name": "Microneedles",
+      "frequency": 1
+    },
+    {
+      "name": "Charcoal",
+      "frequency": 1
+    },
+    {
+      "name": "Papaya Enzyme",
+      "frequency": 1
+    },
+    {
+      "name": "L-Ascorbic Acid 15%",
+      "frequency": 1
+    },
+    {
+      "name": "Vitamin E 1%",
+      "frequency": 1
+    },
+    {
+      "name": "Ferulic Acid 0.5%",
+      "frequency": 1
+    },
+    {
+      "name": "Silymarin",
+      "frequency": 1
+    },
+    {
+      "name": "Phloretin",
+      "frequency": 1
+    },
+    {
+      "name": "Blueberry Extract",
+      "frequency": 1
+    },
+    {
+      "name": "Retinol 0.3%",
+      "frequency": 1
+    },
+    {
+      "name": "Retinol 1.0%",
+      "frequency": 1
+    },
+    {
+      "name": "Emollients",
+      "frequency": 1
+    },
+    {
+      "name": "Essential Oils",
+      "frequency": 1
+    },
+    {
+      "name": "Licorice Root",
+      "frequency": 1
+    },
+    {
+      "name": "Artemia Extract",
+      "frequency": 1
+    },
+    {
+      "name": "Silica",
+      "frequency": 1
+    },
+    {
+      "name": "Dioic Acid",
+      "frequency": 1
+    },
+    {
+      "name": "HEPES",
+      "frequency": 1
+    },
+    {
+      "name": "Cucumber",
+      "frequency": 1
+    },
+    {
+      "name": "Thyme",
+      "frequency": 1
+    },
+    {
+      "name": "Olive Leaf",
+      "frequency": 1
+    },
+    {
+      "name": "Soy Isoflavones",
+      "frequency": 1
+    },
+    {
+      "name": "Plant Extracts",
+      "frequency": 1
+    },
+    {
+      "name": "Magnesium Crystals",
+      "frequency": 1
+    },
+    {
+      "name": "panthenol",
+      "frequency": 1
+    },
+    {
+      "name": "Retinol 0.25%",
+      "frequency": 1
+    },
+    {
+      "name": "Sodium DNA",
+      "frequency": 1
+    },
+    {
+      "name": "Zanthoxylum Bungeanum",
+      "frequency": 1
+    },
+    {
+      "name": "Papain",
+      "frequency": 1
+    },
+    {
+      "name": "Hydroquinone 4%",
+      "frequency": 1
+    },
+    {
+      "name": "Benzoyl Peroxide 10%",
+      "frequency": 1
+    },
+    {
+      "name": "Beta-Glucan",
+      "frequency": 1
+    },
+    {
+      "name": "Colloidal Oatmeal",
+      "frequency": 1
+    },
+    {
+      "name": "Urea",
+      "frequency": 1
+    }
+  ],
+  "priorityQueue": [
+    {
+      "name": "Vitamin E",
+      "frequency": 40
+    },
+    {
+      "name": "Vitamin C",
+      "frequency": 27
+    },
+    {
+      "name": "Antioxidants",
+      "frequency": 24
+    },
+    {
+      "name": "Vitamin A",
+      "frequency": 19
+    },
+    {
+      "name": "Lactic Acid",
+      "frequency": 13
+    },
+    {
+      "name": "Salicylic Acid",
+      "frequency": 12
+    },
+    {
+      "name": "Growth Factors",
+      "frequency": 9
+    },
+    {
+      "name": "Mandarin Rind",
+      "frequency": 7
+    },
+    {
+      "name": "Vitamins",
+      "frequency": 7
+    },
+    {
+      "name": "Witch Hazel",
+      "frequency": 6
+    },
+    {
+      "name": "Citric Acid",
+      "frequency": 6
+    },
+    {
+      "name": "Parsley Seed Extract",
+      "frequency": 5
+    },
+    {
+      "name": "Rosemary Leaf",
+      "frequency": 5
+    },
+    {
+      "name": "Botanical Extracts",
+      "frequency": 5
+    },
+    {
+      "name": "Vitamin B5",
+      "frequency": 4
+    },
+    {
+      "name": "Brightening Agents",
+      "frequency": 4
+    },
+    {
+      "name": "Amino Acids",
+      "frequency": 4
+    },
+    {
+      "name": "Tea Tree Oil",
+      "frequency": 4
+    },
+    {
+      "name": "Kaolin",
+      "frequency": 4
+    },
+    {
+      "name": "Glycolic Acid",
+      "frequency": 4
+    },
+    {
+      "name": "Retinol 0.5%",
+      "frequency": 4
+    },
+    {
+      "name": "Bisabolol",
+      "frequency": 4
+    },
+    {
+      "name": "L-Ascorbic Acid",
+      "frequency": 4
+    },
+    {
+      "name": "Green Tea",
+      "frequency": 3
+    },
+    {
+      "name": "Chamomile",
+      "frequency": 3
+    },
+    {
+      "name": "Cedarwood",
+      "frequency": 3
+    },
+    {
+      "name": "Bergamot",
+      "frequency": 3
+    },
+    {
+      "name": "Collagen",
+      "frequency": 3
+    },
+    {
+      "name": "Botanical Oils",
+      "frequency": 3
+    },
+    {
+      "name": "Vitamins A",
+      "frequency": 3
+    },
+    {
+      "name": "Fatty Acids",
+      "frequency": 3
+    },
+    {
+      "name": "Bentonite",
+      "frequency": 3
+    },
+    {
+      "name": "Sulfur",
+      "frequency": 3
+    },
+    {
+      "name": "Boswellia Serrata",
+      "frequency": 3
+    },
+    {
+      "name": "Lemon Rind",
+      "frequency": 2
+    },
+    {
+      "name": "Rosehip Seed Oil",
+      "frequency": 2
+    },
+    {
+      "name": "Lavender",
+      "frequency": 2
+    },
+    {
+      "name": "Ylang Ylang",
+      "frequency": 2
+    },
+    {
+      "name": "Sage Leaf",
+      "frequency": 2
+    },
+    {
+      "name": "Tocopherol",
+      "frequency": 2
+    },
+    {
+      "name": "Beeswax",
+      "frequency": 2
+    },
+    {
+      "name": "Geranium Leaf",
+      "frequency": 2
+    },
+    {
+      "name": "Vetiver Root",
+      "frequency": 2
+    },
+    {
+      "name": "Petitgrain",
+      "frequency": 2
+    },
+    {
+      "name": "Gluconolactone",
+      "frequency": 2
+    },
+    {
+      "name": "Elastin",
+      "frequency": 2
+    },
+    {
+      "name": "Matrixyl",
+      "frequency": 2
+    },
+    {
+      "name": "Zinc",
+      "frequency": 2
+    },
+    {
+      "name": "Oxygenating Agents",
+      "frequency": 2
+    },
+    {
+      "name": "Liquorice Extract",
+      "frequency": 2
+    }
+  ]
+}

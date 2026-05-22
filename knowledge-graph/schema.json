@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "SKINgenius Knowledge Graph",
+    "version": "1.0",
+    "created": "2026-05-15",
+    "source_count": 16,
+    "total_lines_scanned": 23489,
+    "build_strategy": "Systematic extraction from research reports with evidence grading and source citations"
+  },
+  "node_types": {
+    "Condition": "Skin conditions with ICD-10 codes, severity levels, and Fitzpatrick considerations",
+    "RootCause": "Internal health factors (gut dysbiosis, insulin resistance, hormonal imbalance)",
+    "Mechanism": "Biological pathways (inflammation, sebum overproduction, collagen breakdown)",
+    "Treatment": "Products, supplements, lifestyle changes, professional procedures",
+    "Ingredient": "Active skincare ingredients with evidence levels, safety profiles, Fitzpatrick considerations",
+    "Medication": "Drugs that affect skin with interactions and contraindications",
+    "Nutrient": "Vitamins, minerals, supplements with dosing and evidence",
+    "RiskFactor": "Pregnancy, age, skin type, medications, allergies"
+  },
+  "edge_types": {
+    "causes": "RootCause → Condition",
+    "mechanism": "Mechanism connects RootCause ↔ Condition",
+    "treats": "Treatment → Condition",
+    "contains": "Treatment → Ingredient",
+    "interacts_with": "Medication → Treatment/Ingredient",
+    "contraindicated_for": "Treatment → RiskFactor",
+    "supports": "Nutrient → Mechanism",
+    "aggravates": "RiskFactor → Condition",
+    "fitzpatrick_safe": "Ingredient → Fitzpatrick types (I-VI)",
+    "fitzpatrick_caution": "Ingredient → Fitzpatrick types (I-VI)",
+    "fitzpatrick_avoid": "Ingredient → Fitzpatrick types (I-VI)"
+  },
+  "evidence_levels": {
+    "A": "Strong RCT evidence",
+    "B": "Moderate evidence (cohort, small RCTs)",
+    "C": "Case studies, expert opinion",
+    "D": "Emerging/theoretical"
+  }
+}

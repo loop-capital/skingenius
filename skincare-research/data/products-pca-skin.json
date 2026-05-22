@@ -1,0 +1,1433 @@
+[
+  {
+    "name": "Creamy Cleanser",
+    "brand": "PCA Skin",
+    "category": "cleanser",
+    "price": "$34",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Aloe Barbadensis Leaf Juice",
+      "Glycerin",
+      "C12-15 Alkyl Benzoate",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Rosa Canina Fruit Oil",
+      "Cetearyl Alcohol",
+      "Sodium Cocoyl Isethionate",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Lactic Acid",
+      "Tocopherol",
+      "Benzyl Alcohol",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Aloe Vera",
+      "Rose Hip Seed Oil",
+      "Sunflower Seed Oil"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "sensitive skin",
+      "gentle cleansing"
+    ],
+    "skin_types": [
+      "dry skin",
+      "sensitive skin",
+      "normal skin"
+    ],
+    "contraindications": [
+      "Contains lactic acid — caution with compromised skin barrier"
+    ],
+    "ph_range": "5.5 – 6.0"
+  },
+  {
+    "name": "Facial Wash",
+    "brand": "PCA Skin",
+    "category": "cleanser",
+    "price": "$34",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Cocamidopropyl Betaine",
+      "Sodium Laureth Sulfate",
+      "Aloe Barbadensis Leaf Juice",
+      "Salix Alba (Willow) Bark Extract",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Sodium Hydroxide",
+      "Sodium Chloride"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Aloe Vera",
+      "Willow Bark Extract"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "gentle exfoliation",
+      "daily cleansing"
+    ],
+    "skin_types": [
+      "all skin types",
+      "normal skin",
+      "combination skin"
+    ],
+    "contraindications": [
+      "Contains lactic acid — avoid if severely compromised barrier",
+      "Contains salicylic acid precursor (willow bark) — avoid if aspirin allergy"
+    ],
+    "ph_range": "3.5 – 4.0"
+  },
+  {
+    "name": "BPO 5% Cleanser",
+    "brand": "PCA Skin",
+    "category": "cleanser",
+    "price": "$42",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Benzoyl Peroxide 5%",
+      "Water (Aqua)",
+      "Gluconolactone",
+      "Glycerin",
+      "Cocamidopropyl Betaine",
+      "Sodium Lauroyl Sarcosinate",
+      "Aloe Barbadensis Leaf Juice",
+      "Phytic Acid",
+      "Tocopherol",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      "Benzoyl Peroxide 5%",
+      "Gluconolactone",
+      "Phytic Acid"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "oily skin",
+      "breakouts"
+    ],
+    "skin_types": [
+      "oily skin",
+      "acne-prone skin",
+      "combination skin"
+    ],
+    "contraindications": [
+      "Benzoyl peroxide can bleach fabrics",
+      "Avoid if allergic to benzoyl peroxide",
+      "Photosensitivity — daily SPF required",
+      "Do not use with tretinoin or other strong retinoids simultaneously",
+      "Can be irritating for sensitive skin"
+    ],
+    "ph_range": "3.5 – 4.5"
+  },
+  {
+    "name": "Nutrient Toner",
+    "brand": "PCA Skin",
+    "category": "toner",
+    "price": "$44",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Citric Acid",
+      "Malic Acid",
+      "Gluconic Acid",
+      "Tartaric Acid",
+      "Pyruvic Acid",
+      "Aloe Barbadensis Leaf Juice",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Vitamins",
+      "Amino Acids"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "mature skin",
+      "nourishing"
+    ],
+    "skin_types": [
+      "dry skin",
+      "mature skin",
+      "normal skin"
+    ],
+    "contraindications": [
+      "Multiple AHAs — may be irritating for sensitive skin",
+      "Photosensitivity — daily SPF required",
+      "Avoid if compromised skin barrier"
+    ],
+    "ph_range": "3.0 – 4.0"
+  },
+  {
+    "name": "Smoothing Toner",
+    "brand": "PCA Skin",
+    "category": "toner",
+    "price": "$44",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Citric Acid",
+      "Gluconolactone",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Aloe Barbadensis Leaf Juice",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Citric Acid",
+      "Witch Hazel"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "texture",
+      "pore refining"
+    ],
+    "skin_types": [
+      "oily skin",
+      "combination skin",
+      "acne-prone skin"
+    ],
+    "contraindications": [
+      "Multiple acids — avoid if sensitive or compromised barrier",
+      "Photosensitivity — daily SPF required",
+      "Witch hazel may be drying for very dry skin"
+    ],
+    "ph_range": "3.0 – 4.0"
+  },
+  {
+    "name": "Hyaluronic Acid Boosting Serum",
+    "brand": "PCA Skin",
+    "category": "serum",
+    "price": "$128",
+    "size": "28 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Sodium Acetylated Hyaluronate",
+      "Niacinamide",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Glycerin",
+      "Panthenol",
+      "Allantoin",
+      "Tocopherol",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Niacinamide",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "aging skin",
+      "plumping"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "aging skin",
+      "dehydrated skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Patch test if very sensitive to niacinamide (rare flush)"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Vitamin B3 Brightening Serum",
+    "brand": "PCA Skin",
+    "category": "serum",
+    "price": "$120-130",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Niacinamide",
+      "Glycerin",
+      "Ascorbyl Glucoside",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Niacinamide",
+      "Vitamin C",
+      "Brightening Agents"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "uneven tone",
+      "dark spots"
+    ],
+    "skin_types": [
+      "all skin types",
+      "hyperpigmentation-prone",
+      "dull skin"
+    ],
+    "contraindications": [
+      "Rare niacinamide sensitivity (flush/tingling)",
+      "Photosensitivity from vitamin C — daily SPF recommended"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "ExLinea Peptide Smoothing Serum",
+    "brand": "PCA Skin",
+    "category": "serum",
+    "price": "$120-130",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Acetyl Hexapeptide-8 (Argireline)",
+      "Dipeptide Diaminobutyroyl Benzylamide Diacetate (Syn-Ake)",
+      "Acetyl Octapeptide-3 (Snap-8)",
+      "Sodium Hyaluronate",
+      "Glycerin",
+      "Niacinamide",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Peptides",
+      "Hyaluronic Acid",
+      "Snap-8"
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "expression lines"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "mature skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Avoid if known peptide sensitivity"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Rejuvenating Serum",
+    "brand": "PCA Skin",
+    "category": "serum",
+    "price": "$100-110",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Niacinamide",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Peptides",
+      "Growth Factors",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Growth Factors",
+      "Peptides",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "repair",
+      "regeneration"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "mature skin"
+    ],
+    "contraindications": [
+      "Contains growth factors — consult physician if immunocompromised",
+      "Pregnancy and breastfeeding — consult physician"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "C-Quench Antioxidant Serum",
+    "brand": "PCA Skin",
+    "category": "serum",
+    "price": "$110-120",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Ascorbic Acid (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Ferulic Acid",
+      "Sodium Hyaluronate",
+      "Glycerin",
+      "Niacinamide",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Vitamin E",
+      "Ferulic Acid"
+    ],
+    "conditions_addressed": [
+      "antioxidant protection",
+      "brightening",
+      "anti-aging"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "sun-damaged skin"
+    ],
+    "contraindications": [
+      "High potency vitamin C may tingle on sensitive skin",
+      "Photosensitivity — daily SPF required",
+      "Can oxidize if not stored properly (dark, cool place)"
+    ],
+    "ph_range": "2.5 – 3.5"
+  },
+  {
+    "name": "A & C Synergy Serum",
+    "brand": "PCA Skin",
+    "category": "serum",
+    "price": "$120-130",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Retinol",
+      "Ascorbic Acid",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Niacinamide",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin C",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "hyperpigmentation",
+      "texture"
+    ],
+    "skin_types": [
+      "aging skin",
+      "sun-damaged skin",
+      "acne-prone skin (experienced users)"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding — retinoid contraindicated",
+      "Photosensitivity — daily SPF required",
+      "Can be irritating — introduce slowly",
+      "Do not use with other acids or benzoyl peroxide simultaneously"
+    ],
+    "ph_range": "2.5 – 3.5"
+  },
+  {
+    "name": "Intensive Brightening Treatment 0.5% Retinol",
+    "brand": "PCA Skin",
+    "category": "treatment",
+    "price": "$120",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Retinol 0.5%",
+      "Niacinamide",
+      "Resveratrol",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Retinol 0.5%",
+      "Niacinamide",
+      "Resveratrol"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "aging skin",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "aging skin",
+      "hyperpigmentation-prone",
+      "mature skin"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding — retinoid contraindicated",
+      "Photosensitivity — daily SPF required",
+      "Introduce slowly to avoid retinization",
+      "Do not use with other strong acids or benzoyl peroxide"
+    ],
+    "ph_range": "5.0 – 6.0"
+  },
+  {
+    "name": "Intensive Clarity Treatment 0.5% Retinol + 2% Salicylic",
+    "brand": "PCA Skin",
+    "category": "treatment",
+    "price": "$120",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Retinol 0.5%",
+      "Salicylic Acid 2%",
+      "Niacinamide",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Retinol 0.5%",
+      "Salicylic Acid 2%",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "hyperpigmentation",
+      "aging"
+    ],
+    "skin_types": [
+      "oily skin",
+      "acne-prone skin",
+      "combination skin"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding — retinoid and salicylic acid contraindicated",
+      "Photosensitivity — daily SPF required",
+      "Very drying — pair with moisturizer",
+      "Do not use with benzoyl peroxide simultaneously",
+      "Avoid if aspirin allergy (salicylic acid)"
+    ],
+    "ph_range": "3.0 – 4.0"
+  },
+  {
+    "name": "Retinol Treatment for Sensitive Skin",
+    "brand": "PCA Skin",
+    "category": "treatment",
+    "price": "$111",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Retinol",
+      "Niacinamide",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Retinol",
+      "Niacinamide",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "sensitive skin",
+      "retinol beginners",
+      "aging"
+    ],
+    "skin_types": [
+      "sensitive skin",
+      "dry skin",
+      "normal skin"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding — retinoid contraindicated",
+      "Photosensitivity — daily SPF required",
+      "Still may cause irritation — patch test first"
+    ],
+    "ph_range": "5.0 – 6.0"
+  },
+  {
+    "name": "ReBalance",
+    "brand": "PCA Skin",
+    "category": "moisturizer",
+    "price": "$50",
+    "size": "48 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Niacinamide",
+      "Glycerin",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Niacinamide",
+      "Ceramides",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "daily hydration",
+      "balancing"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive skin",
+      "combination skin",
+      "oily skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Patch test if known niacinamide sensitivity"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Collagen Hydrator",
+    "brand": "PCA Skin",
+    "category": "moisturizer",
+    "price": "$54",
+    "size": "48 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Collagen",
+      "Sodium Hyaluronate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Collagen",
+      "Hyaluronic Acid",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "aging skin",
+      "hydration"
+    ],
+    "skin_types": [
+      "dry skin",
+      "aging skin",
+      "mature skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Avoid if known collagen sensitivity (rare)"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Clearskin",
+    "brand": "PCA Skin",
+    "category": "moisturizer",
+    "price": "$52",
+    "size": "48 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Niacinamide",
+      "Bisabolol",
+      "Retinyl Palmitate (Vitamin A)",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Niacinamide",
+      "Bisabolol",
+      "Vitamin A"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "acne-prone",
+      "lightweight hydration"
+    ],
+    "skin_types": [
+      "oily skin",
+      "acne-prone skin",
+      "combination skin"
+    ],
+    "contraindications": [
+      "Contains retinyl palmitate — avoid during pregnancy and breastfeeding",
+      "Photosensitivity — daily SPF required",
+      "Can be irritating for very sensitive skin"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "HydraLuxe",
+    "brand": "PCA Skin",
+    "category": "moisturizer",
+    "price": "$149",
+    "size": "50 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Sodium Acetylated Hyaluronate",
+      "Peptides",
+      "Coenochloris Signiensis Extract (Snow Algae)",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Peptides",
+      "Snow Algae"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "mature skin",
+      "intensive hydration"
+    ],
+    "skin_types": [
+      "dry skin",
+      "mature skin",
+      "aging skin",
+      "normal skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Patch test if known peptide sensitivity"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Humectin",
+    "brand": "PCA Skin",
+    "category": "moisturizer",
+    "price": "$76",
+    "size": "48 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Glycerin",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "dehydrated skin",
+      "all skin types",
+      "humectant boost"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dehydrated skin",
+      "dry skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Humectants can draw water from skin in very dry climates — pair with occlusive"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Ideal Complex Revitalizing Eye Gel",
+    "brand": "PCA Skin",
+    "category": "eye_cream",
+    "price": "$90-100",
+    "size": "14.2 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Peptides",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Glycerin",
+      "Caffeine",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Peptides",
+      "Niacinamide",
+      "Hyaluronic Acid"
+    ],
+    "conditions_addressed": [
+      "dark circles",
+      "puffiness",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "tired eyes"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Avoid direct contact with eyes"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Ideal Complex Restorative Eye Cream",
+    "brand": "PCA Skin",
+    "category": "eye_cream",
+    "price": "$95-105",
+    "size": "14.2 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Peptides",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Ascorbic Acid (Vitamin C)",
+      "Sodium Hyaluronate",
+      "Glycerin",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Peptides",
+      "Ceramides",
+      "Vitamin C"
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "mature skin"
+    ],
+    "contraindications": [
+      "Vitamin C may tingle on sensitive skin",
+      "Avoid direct contact with eyes",
+      "Photosensitivity — daily SPF recommended"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Hyaluronic Acid Microneedle Eye Patches",
+    "brand": "PCA Skin",
+    "category": "mask",
+    "price": "$100",
+    "size": "4 pairs",
+    "inci_ingredients": [
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Sodium Acetylated Hyaluronate",
+      "Peptides",
+      "Glycerin",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Peptides",
+      "Microneedles"
+    ],
+    "conditions_addressed": [
+      "under eye",
+      "fine lines",
+      "hydration"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "dehydrated skin"
+    ],
+    "contraindications": [
+      "Do not use on broken or irritated skin",
+      "Avoid if allergic to any ingredient",
+      "Microneedles may cause temporary redness",
+      "Not for active acne or infections in the area"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Hyaluronic Acid Lip Booster",
+    "brand": "PCA Skin",
+    "category": "treatment",
+    "price": "$50",
+    "size": "6 mL",
+    "inci_ingredients": [
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tripeptide-38",
+      "Niacinamide",
+      "Glycerin",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Peptides",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "lip plumping",
+      "hydration",
+      "aging lips"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry lips",
+      "aging lips"
+    ],
+    "contraindications": [
+      "Avoid if allergic to any ingredient",
+      "Do not ingest",
+      "May tingle temporarily"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Perfecting Neck & Décolleté",
+    "brand": "PCA Skin",
+    "category": "treatment",
+    "price": "$80-90",
+    "size": "57 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Peptides",
+      "Retinol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Sodium Hyaluronate",
+      "Glycerin",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Peptides",
+      "Retinol",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "neck aging",
+      "décolleté",
+      "firming"
+    ],
+    "skin_types": [
+      "all skin types",
+      "aging skin",
+      "mature skin"
+    ],
+    "contraindications": [
+      "Contains retinol — pregnancy and breastfeeding contraindicated",
+      "Photosensitivity — daily SPF required",
+      "Introduce slowly to avoid irritation"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Sheer Tint Broad Spectrum SPF 45",
+    "brand": "PCA Skin",
+    "category": "sunscreen",
+    "price": "$40-45",
+    "size": "56.7 g",
+    "inci_ingredients": [
+      "Zinc Oxide 17.5%",
+      "Titanium Dioxide 2.0%",
+      "Iron Oxides",
+      "Water (Aqua)",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Coconut Alkanes",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Polyglyceryl-3 Polyricinoleate",
+      "Isostearic Acid",
+      "Lecithin",
+      "Magnesium Sulfate",
+      "Hydrogenated Castor Oil",
+      "Benzyl Alcohol",
+      "Dehydroacetic Acid",
+      "Tocopherol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Iron Oxides"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "tinted coverage",
+      "daily protection"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive skin",
+      "normal skin"
+    ],
+    "contraindications": [
+      "May leave a tint on very fair or very dark skin tones",
+      "Mineral sunscreens can be drying — pair with moisturizer if needed"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Weightless Protection Broad Spectrum SPF 45",
+    "brand": "PCA Skin",
+    "category": "sunscreen",
+    "price": "$40-45",
+    "size": "56.7 g",
+    "inci_ingredients": [
+      "Zinc Oxide 12.0%",
+      "Titanium Dioxide 3.5%",
+      "Water (Aqua)",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Coconut Alkanes",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Polyglyceryl-3 Polyricinoleate",
+      "Isostearic Acid",
+      "Lecithin",
+      "Magnesium Sulfate",
+      "Hydrogenated Castor Oil",
+      "Benzyl Alcohol",
+      "Dehydroacetic Acid",
+      "Tocopherol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "lightweight",
+      "daily protection"
+    ],
+    "skin_types": [
+      "all skin types",
+      "oily skin",
+      "combination skin",
+      "sensitive skin"
+    ],
+    "contraindications": [
+      "May leave white cast on darker skin tones",
+      "Mineral sunscreens can be drying — pair with moisturizer if needed"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Active Broad Spectrum SPF 45",
+    "brand": "PCA Skin",
+    "category": "sunscreen",
+    "price": "$40-45",
+    "size": "56.7 g",
+    "inci_ingredients": [
+      "Zinc Oxide 9.0%",
+      "Octinoxate 7.5%",
+      "Water (Aqua)",
+      "Caffeine",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Coconut Alkanes",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Polyglyceryl-3 Polyricinoleate",
+      "Isostearic Acid",
+      "Lecithin",
+      "Magnesium Sulfate",
+      "Hydrogenated Castor Oil",
+      "Benzyl Alcohol",
+      "Dehydroacetic Acid",
+      "Tocopherol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Octinoxate",
+      "Caffeine"
+    ],
+    "conditions_addressed": [
+      "active lifestyle",
+      "sweat resistant",
+      "daily protection"
+    ],
+    "skin_types": [
+      "all skin types",
+      "active lifestyle",
+      "oily skin"
+    ],
+    "contraindications": [
+      "Contains chemical filter octinoxate — avoid if reef-safe required",
+      "Chemical sunscreen sensitivity",
+      "Pregnancy — consult physician (octinoxate debated)"
+    ],
+    "ph_range": ""
+  },
+  {
+    "name": "Hyaluronic Acid Overnight Mask",
+    "brand": "PCA Skin",
+    "category": "mask",
+    "price": "$60-70",
+    "size": "28 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Sodium Acetylated Hyaluronate",
+      "Niacinamide",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Glycerin",
+      "Panthenol",
+      "Allantoin",
+      "Tocopherol",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Niacinamide",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "dehydration",
+      "aging skin",
+      "overnight repair"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "aging skin",
+      "dehydrated skin"
+    ],
+    "contraindications": [
+      "Generally well-tolerated",
+      "Avoid if known niacinamide sensitivity"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Detoxifying Mask",
+    "brand": "PCA Skin",
+    "category": "mask",
+    "price": "$55-65",
+    "size": "57 g",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Kaolin",
+      "Bentonite",
+      "Charcoal Powder",
+      "Glycerin",
+      "Aloe Barbadensis Leaf Juice",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Charcoal",
+      "Kaolin",
+      "Bentonite"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "congested pores",
+      "detox"
+    ],
+    "skin_types": [
+      "oily skin",
+      "combination skin",
+      "acne-prone skin"
+    ],
+    "contraindications": [
+      "Can be drying — avoid if dry or sensitive skin",
+      "Avoid if compromised skin barrier",
+      "Do not use on eczema or rosacea-prone skin"
+    ],
+    "ph_range": "5.5 – 7.0"
+  },
+  {
+    "name": "Pore Refining Treatment",
+    "brand": "PCA Skin",
+    "category": "exfoliant",
+    "price": "$60-70",
+    "size": "29.5 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Mandelic Acid",
+      "Lactic Acid",
+      "Salicylic Acid",
+      "Glycerin",
+      "Aloe Barbadensis Leaf Juice",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Mandelic Acid",
+      "Lactic Acid",
+      "Salicylic Acid"
+    ],
+    "conditions_addressed": [
+      "enlarged pores",
+      "texture",
+      "oily skin"
+    ],
+    "skin_types": [
+      "oily skin",
+      "combination skin",
+      "acne-prone skin"
+    ],
+    "contraindications": [
+      "Multiple acids — avoid if sensitive or compromised barrier",
+      "Photosensitivity — daily SPF required",
+      "Pregnancy and breastfeeding — salicylic acid contraindicated",
+      "Avoid if aspirin allergy (salicylic acid)",
+      "Do not use with other strong acids or retinoids simultaneously"
+    ],
+    "ph_range": "3.0 – 4.0"
+  },
+  {
+    "name": "Daily Exfoliant",
+    "brand": "PCA Skin",
+    "category": "exfoliant",
+    "price": "$40-50",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Jojoba Esters",
+      "Glycerin",
+      "Papain",
+      "Bromelain",
+      "Aloe Barbadensis Leaf Juice",
+      "Tocopherol",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Jojoba Beads",
+      "Papaya Enzyme",
+      "Aloe Vera"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "gentle exfoliation",
+      "daily use"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive skin",
+      "normal skin"
+    ],
+    "contraindications": [
+      "Allergy to papaya (papain) or pineapple (bromelain)",
+      "Physical exfoliants — avoid if active acne or rosacea"
+    ],
+    "ph_range": "5.5 – 6.5"
+  },
+  {
+    "name": "Body Therapy",
+    "brand": "PCA Skin",
+    "category": "moisturizer",
+    "price": "$50-60",
+    "size": "206 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Glycerin",
+      "Tocopherol (Vitamin E)",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Aloe Barbadensis Leaf Juice",
+      "Panthenol",
+      "Allantoin",
+      "Xanthan Gum",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Vitamin E",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "body skin",
+      "dry skin",
+      "texture"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry body skin",
+      "rough skin"
+    ],
+    "contraindications": [
+      "Contains lactic acid — avoid on freshly shaved or broken skin",
+      "Photosensitivity — SPF if exposed areas",
+      "Do not use on face"
+    ],
+    "ph_range": "3.5 – 4.5"
+  },
+  {
+    "name": "Pigment Bar",
+    "brand": "PCA Skin",
+    "category": "cleanser",
+    "price": "$40-50",
+    "size": "99.2 g",
+    "inci_ingredients": [
+      "Sodium Palmate",
+      "Sodium Cocoate",
+      "Water (Aqua)",
+      "Glycerin",
+      "Azelaic Acid",
+      "Kojic Acid",
+      "Niacinamide",
+      "Tocopherol",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Azelaic Acid",
+      "Kojic Acid",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "uneven tone",
+      "body"
+    ],
+    "skin_types": [
+      "all skin types",
+      "hyperpigmentation-prone",
+      "body"
+    ],
+    "contraindications": [
+      "Photosensitivity — daily SPF required",
+      "Avoid if sensitive to kojic acid or azelaic acid",
+      "Can be drying — pair with moisturizer"
+    ],
+    "ph_range": "5.5 – 7.0"
+  },
+  {
+    "name": "Blemish Control Bar",
+    "brand": "PCA Skin",
+    "category": "cleanser",
+    "price": "$40-50",
+    "size": "99.2 g",
+    "inci_ingredients": [
+      "Sodium Palmate",
+      "Sodium Cocoate",
+      "Water (Aqua)",
+      "Glycerin",
+      "Salicylic Acid",
+      "Sulfur",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Tocopherol",
+      "Sodium Benzoate"
+    ],
+    "key_actives": [
+      "Salicylic Acid",
+      "Sulfur",
+      "Tea Tree Oil"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "body",
+      "breakouts"
+    ],
+    "skin_types": [
+      "oily skin",
+      "acne-prone skin",
+      "body"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding — salicylic acid contraindicated",
+      "Avoid if aspirin allergy (salicylic acid)",
+      "Sulfur may cause dryness or irritation",
+      "Tea tree oil may irritate very sensitive skin",
+      "Photosensitivity — daily SPF required"
+    ],
+    "ph_range": "5.5 – 7.0"
+  }
+]

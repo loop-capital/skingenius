@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Hyaluronic Acid",
+    "category": "humectant",
+    "function": "Attracts and retains water in the skin, providing intense hydration and plumping effects",
+    "evidence_level": "strong",
+    "best_for": ["dry skin", "dehydration", "fine lines", "all skin types"],
+    "cautions": ["Generally well-tolerated", "May feel sticky if overapplied"],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": ["Glycerin", "Sodium Hyaluronate", "Panthenol"]
+  },
+  {
+    "name": "Vitamin C (L-Ascorbic Acid)",
+    "category": "antioxidant",
+    "function": "Brightens skin, reduces hyperpigmentation, and protects against free radical damage",
+    "evidence_level": "strong",
+    "best_for": ["dull skin", "hyperpigmentation", "uneven tone", "aging prevention"],
+    "cautions": ["Can be irritating at high concentrations", "Unstable in light/air", "May oxidize"],
+    "concentration_guide": "10-20%",
+    "related_ingredients": ["Vitamin E", "Ferulic Acid", "Glutathione"]
+  },
+  {
+    "name": "Retinol",
+    "category": "retinoid",
+    "function": "Increases cell turnover, stimulates collagen production, reduces wrinkles and acne",
+    "evidence_level": "strong",
+    "best_for": ["aging skin", "acne", "uneven texture", "hyperpigmentation"],
+    "cautions": ["Can cause irritation, dryness, peeling", "Increases sun sensitivity", "Not recommended during pregnancy"],
+    "concentration_guide": "0.1-1%",
+    "related_ingredients": ["Retinaldehyde", "Tretinoin", "Adapalene", "Bakuchiol"]
+  },
+  {
+    "name": "Niacinamide (Vitamin B3)",
+    "category": "vitamin",
+    "function": "Strengthens skin barrier, reduces redness, minimizes pores, regulates oil production",
+    "evidence_level": "strong",
+    "best_for": ["sensitive skin", "redness", "enlarged pores", "oily skin", "hyperpigmentation"],
+    "cautions": ["Generally well-tolerated", "High doses may cause flushing"],
+    "concentration_guide": "2-10%",
+    "related_ingredients": ["Zinc", "Panthenol", "Ceramides"]
+  },
+  {
+    "name": "Ceramides",
+    "category": "lipid",
+    "function": "Replenish skin's natural barrier, lock in moisture, protect against environmental damage",
+    "evidence_level": "strong",
+    "best_for": ["dry skin", "sensitive skin", "compromised barrier", "eczema-prone"],
+    "cautions": ["Generally well-tolerated", "Rare allergic reactions possible"],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": ["Cholesterol", "Fatty Acids", "Squalane"]
+  },
+  {
+    "name": "Peptides",
+    "category": "peptide",
+    "function": "Signal skin to produce more collagen, improve firmness, reduce fine lines",
+    "evidence_level": "moderate",
+    "best_for": ["aging skin", "loss of firmness", "fine lines", "all skin types"],
+    "cautions": ["Generally well-tolerated", "Results take time to appear"],
+    "concentration_guide": "3-10%",
+    "related_ingredients": ["Matrixyl", "Argireline", "Copper Peptides"]
+  },
+  {
+    "name": "Salicylic Acid (BHA)",
+    "category": "acid",
+    "function": "Exfoliates inside pores, reduces acne, blackheads, and inflammation",
+    "evidence_level": "strong",
+    "best_for": ["acne-prone skin", "oily skin", "blackheads", "clogged pores"],
+    "cautions": ["Can cause dryness/irritation", "Not recommended during pregnancy", "May increase sun sensitivity"],
+    "concentration_guide": "0.5-2%",
+    "related_ingredients": ["Glycolic Acid", "Lactic Acid", "Azelaic Acid"]
+  },
+  {
+    "name": "Glycolic Acid (AHA)",
+    "category": "acid",
+    "function": "Exfoliates surface skin, improves texture, brightness, and reduces fine lines",
+    "evidence_level": "strong",
+    "best_for": ["dull skin", "uneven texture", "hyperpigmentation", "aging"],
+    "cautions": ["Can cause irritation", "Increases sun sensitivity", "Start with low concentration"],
+    "concentration_guide": "5-10%",
+    "related_ingredients": ["Lactic Acid", "Mandelic Acid", "Citric Acid"]
+  },
+  {
+    "name": "Vitamin E (Tocopherol)",
+    "category": "antioxidant",
+    "function": "Protects against oxidative damage, moisturizes, enhances efficacy of other antioxidants",
+    "evidence_level": "strong",
+    "best_for": ["dry skin", "aging prevention", "scar healing", "all skin types"],
+    "cautions": ["Generally well-tolerated", "May clog pores in acne-prone individuals"],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": ["Vitamin C", "Ferulic Acid", "Green Tea"]
+  },
+  {
+    "name": "Green Tea Extract",
+    "category": "antioxidant",
+    "function": "Reduces inflammation, protects against UV damage, calms redness",
+    "evidence_level": "moderate",
+    "best_for": ["sensitive skin", "redness", "acne", "aging prevention"],
+    "cautions": ["Generally well-tolerated", "May cause sensitivity in rare cases"],
+    "concentration_guide": "0.5-5%",
+    "related_ingredients": ["Resveratrol", "Licorice Root", "Chamomile"]
+  },
+  {
+    "name": "Zinc Oxide",
+    "category": "mineral sunscreen",
+    "function": "Provides broad-spectrum UV protection by reflecting and scattering UV rays",
+    "evidence_level": "strong",
+    "best_for": ["sun protection", "sensitive skin", "rosacea", "post-procedure skin"],
+    "cautions": ["Can leave white cast", "May feel thick/heavy"],
+    "concentration_guide": "5-25%",
+    "related_ingredients": ["Titanium Dioxide", "Iron Oxides"]
+  },
+  {
+    "name": "Titanium Dioxide",
+    "category": "mineral sunscreen",
+    "function": "Provides UVB and short-wave UVA protection through physical blocking",
+    "evidence_level": "strong",
+    "best_for": ["sun protection", "sensitive skin", "children", "post-procedure"],
+    "cautions": ["Can leave white cast", "May feel heavy on skin"],
+    "concentration_guide": "2-25%",
+    "related_ingredients": ["Zinc Oxide", "Iron Oxides"]
+  },
+  {
+    "name": "Hyaluronic Acid",
+    "category": "humectant",
+    "function": "Attracts and retains water in the skin, providing intense hydration and plumping effects",
+    "evidence_level": "strong",
+    "best_for": ["dry skin", "dehydration", "fine lines", "all skin types"],
+    "cautions": ["Generally well-tolerated", "May feel sticky if overapplied"],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": ["Glycerin", "Sodium Hyaluronate", "Panthenol"]
+  },
+  {
+    "name": "Aloe Vera",
+    "category": "soothing agent",
+    "function": "Soothes irritation, reduces inflammation, provides lightweight hydration",
+    "evidence_level": "moderate",
+    "best_for": ["sensitive skin", "sunburn", "irritation", "all skin types"],
+    "cautions": ["May cause allergic reactions in sensitive individuals", "Quality varies greatly"],
+    "concentration_guide": "5-90%",
+    "related_ingredients": ["Chamomile", "Calendula", "Green Tea"]
+  },
+  {
+    "name": "Jojoba Oil",
+    "category": "emollient",
+    "function": "Mimics skin's natural sebum, balances oil production, provides non-comedogenic moisture",
+    "evidence_level": "moderate",
+    "best_for": ["oily skin", "acne-prone skin", "dry skin", "all skin types"],
+    "cautions": ["Generally well-tolerated", "May feel heavy if overused"],
+    "concentration_guide": "2-100%",
+    "related_ingredients": ["Squalane", "Argan Oil", "Rosehip Oil"]
+  },
+  {
+    "name": "Shea Butter",
+    "category": "emollient",
+    "function": "Deeply moisturizes, reduces inflammation, provides protective barrier",
+    "evidence_level": "moderate",
+    "best_for": ["dry skin", "eczema", "rough patches", "all skin types"],
+    "cautions": ["May feel heavy on oily skin", "Potential for clogging pores in acne-prone"],
+    "concentration_guide": "5-50%",
+    "related_ingredients": ["Cocoa Butter", "Mango Butter", "Ceramides"]
+  },
+  {
+    "name": "Licorice Root Extract",
+    "category": "brightening agent",
+    "function": "Reduces hyperpigmentation, calms inflammation, evens skin tone",
+    "evidence_level": "moderate",
+    "best_for": ["hyperpigmentation", "melasma", "redness", "sensitive skin"],
+    "cautions": ["Generally well-tolerated", "May cause sensitivity in rare cases"],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": ["Vitamin C", "Niacinamide", "Kojic Acid"]
+  },
+  {
+    "name": "Kojic Acid",
+    "category": "brightening agent",
+    "function": "Inhibits melanin production to reduce dark spots and hyperpigmentation",
+    "evidence_level": "moderate",
+    "best_for": ["hyperpigmentation", "age spots", "melasma", "uneven skin tone"],
+    "cautions": ["Can cause irritation/sensitivity", "Increases sun sensitivity", "Not for long-term continuous use"],
+    "concentration_guide": "1-4%",
+    "related_ingredients": ["Vitamin C", "Licorice Root", "Niacinamide"]
+  },
+  {
+    "name": "Azelaic Acid",
+    "category": "acid",
+    "function": "Reduces inflammation, kills acne bacteria, improves hyperpigmentation and rosacea",
+    "evidence_level": "strong",
+    "best_for": ["acne", "rosacea", "hyperpigmentation", "sensitive skin"],
+    "cautions": ["May cause stinging/tingling initially", "Generally well-tolerated"],
+    "concentration_guide": "10-15%",
+    "related_ingredients": ["Salicylic Acid", "Niacinamide", "Vitamin C"]
+  },
+  {
+    "name": "Peptides (Copper)",
+    "category": "peptide",
+    "function": "Stimulate collagen and elastin production, have antioxidant properties, promote healing",
+    "evidence_level": "moderate",
+    "best_for": ["aging skin", "wound healing", "loss of firmness", "all skin types"],
+    "cautions": ["Generally well-tolerated", "May cause temporary tingling"],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": ["Matrixyl", "Argireline", "Vitamin C"]
+  },
+  {
+    "name": "Resveratrol",
+    "category": "antioxidant",
+    "function": "Protects against environmental damage, reduces inflammation, supports skin barrier",
+    "evidence_level": "moderate",
+    "best_for": ["aging prevention", "sensitive skin", "redness", "all skin types"],
+    "cautions": ["Generally well-tolerated", "Can be unstable in formulations"],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": ["Vitamin E", "Green Tea", "Ferulic Acid"]
+  },
+  {
+    "name": "Ferulic Acid",
+    "category": "antioxidant",
+    "function": "Enhances stability and efficacy of Vitamins C and E, provides additional UV protection",
+    "evidence_level": "moderate",
+    "best_for": ["aging prevention", "hyperpigmentation", "all skin types (with Vit C/E)"],
+    "cautions": ["Generally well-tolerated", "Works best in combination with Vitamins C and E"],
+    "concentration_guide": "0.1-0.5%",
+    "related_ingredients": ["Vitamin C", "Vitamin E", "Resveratrol"]
+  },
+  {
+    "name": "Panthenol (Pro-Vitamin B5)",
+    "category": "humectant",
+    "function": "Attracts moisture, soothes irritation, supports skin barrier function",
+    "evidence_level": "strong",
+    "best_for": ["dry skin", "sensitive skin", "irritation", "post-procedure"],
+    "cautions": ["Generally well-tolerated", "Rare allergic reactions possible"],
+    "concentration_guide": "1-5%",
+    "related_ingredients": ["Hyaluronic Acid", "Glycerin", "Niacinamide"]
+  },
+  {
+    "name": "Squalane",
+    "category": "emollient",
+    "function": "Mimics skin's natural oils, provides lightweight non-greasy moisture, antioxidant protection",
+    "evidence_level": "strong",
+    "best_for": ["all skin types", "dry skin", "sensitive skin", "aging prevention"],
+    "cautions": ["Generally well-tolerated", "May feel insufficient for very dry skin alone"],
+    "concentration_guide": "2-100%",
+    "related_ingredients": ["Jojoba Oil", "Ceramides", "Fatty Acids"]
+  },
+  {
+    "name": "Allantoin",
+    "category": "soothing agent",
+    "function": "Soothes irritation, promotes healing, supports skin barrier recovery",
+    "evidence_level": "moderate",
+    "best_for": ["sensitive skin", "irritation", "post-procedure", "all skin types"],
+    "cautions": ["Generally well-tolerated", "Very low risk of side effects"],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": ["Aloe Vera", "Chamomile", "Calendula"]
+  },
+  {
+    "name": "Chamomile Extract",
+    "category": "soothing agent",
+    "function": "Reduces inflammation, calms irritation, provides antioxidant protection",
+    "evidence_level": "moderate",
+    "best_for": ["sensitive skin", "redness", "irritation", "all skin types"],
+    "cautions": ["May cause allergic reactions in those sensitive to ragweed", "Quality varies"],
+    "concentration_guide": "0.5-5%",
+    "related_ingredients": ["Aloe Vera", "Calendula", "Green Tea"]
+  },
+  {
+    "name": "Lactic Acid (AHA)",
+    "category": "acid",
+    "function": "Gentle exfoliation, improves hydration, reduces fine lines and hyperpigmentation",
+    "evidence_level": "strong",
+    "best_for": ["sensitive skin", "dry skin", "uneven texture", "hyperpigmentation"],
+    "cautions": ["May cause mild tingling", "Increases sun sensitivity", "Start with low frequency"],
+    "concentration_guide": "5-12%",
+    "related_ingredients": ["Glycolic Acid", "Mandelic Acid", "Citric Acid"]
+  },
+  {
+    "name": "Mandelic Acid (AHA)",
+    "category": "acid",
+    "function": "Gentle exfoliation with antibacterial properties, good for acne and sensitive skin",
+    "evidence_level": "moderate",
+    "best_for": ["acne-prone skin", "sensitive skin", "hyperpigmentation", "all skin types"],
+    "cautions": ["Generally well-tolerated", "Less irritating than other AHAs", "Increases sun sensitivity"],
+    "concentration_guide": "5-10%",
+    "related_ingredients": ["Lactic Acid", "Glycolic Acid", "Salicylic Acid"]
+  },
+  {
+    "name": "Bakuchiol",
+    "category": "retinoid alternative",
+    "function": "Provides retinol-like benefits (anti-aging, anti-acne) without irritation",
+    "evidence_level": "moderate",
+    "best_for": ["sensitive skin", "aging skin", "acne", "pregnancy-safe retinol alternative"],
+    "cautions": ["Generally well-tolerated", "Long-term data still limited"],
+    "concentration_guide": "0.5-2%",
+    "related_ingredients": ["Retinol", "Retinaldehyde", "Vitamin C"]
+  },
+  {
+    "name": "Centella Asiatica (Cica)",
+    "category": "soothing agent",
+    "function": "Soothes inflammation, supports wound healing, strengthens skin barrier",
+    "evidence_level": "moderate",
+    "best_for": ["sensitive skin", "irritation", "acne", "post-procedure", "all skin types"],
+    "cautions": ["Generally well-tolerated", "May cause sensitivity in rare cases"],
+    "concentration_guide": "0.5-5%",
+    "related_ingredients": ["Aloe Vera", "Chamomile", "Allantoin"]
+  },
+  {
+    "name": "Niacinamide",
+    "category": "vitamin",
+    "function": "Strengthens skin barrier, reduces redness, minimizes pores, regulates oil production",
+    "evidence_level": "strong",
+    "best_for": ["sensitive skin", "redness", "enlarged pores", "oily skin", "hyperpigmentation"],
+    "cautions": ["Generally well-tolerated", "High doses may cause flushing"],
+    "concentration_guide": "2-10%",
+    "related_ingredients": ["Zinc", "Panthenol", "Ceramides"]
+  }
+]

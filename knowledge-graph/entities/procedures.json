@@ -1,0 +1,910 @@
+[
+  {
+    "id": "botox",
+    "name": "Botulinum toxin",
+    "category": "injectable",
+    "description": "Neurotoxin that blocks acetylcholine release at the neuromuscular junction, causing temporary muscle relaxation to reduce dynamic wrinkles.",
+    "downtime": "none",
+    "fitzpatrick_considerations": "Safe for all skin types (I-VI). No melanin-targeting mechanism; does not cause PIH or hypopigmentation. Excellent safety profile across all Fitzpatrick types.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Avoid blood thinners if medically appropriate",
+      "Clean skin, no makeup",
+      "Discuss current medications"
+    ],
+    "post_care": [
+      "Avoid lying flat for 4 hours",
+      "Avoid strenuous exercise for 24 hours",
+      "No facial massage for 24 hours",
+      "Resume gentle skincare immediately"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to botulinum toxin or albumin",
+      "Infection at injection site",
+      "Myasthenia gravis, Eaton-Lambert syndrome, ALS",
+      "Pregnancy, breastfeeding",
+      "Age <18",
+      "Concurrent aminoglycoside antibiotics or neuromuscular blockers"
+    ],
+    "related_products": [
+      "Juvederm fillers",
+      "Restylane fillers",
+      "Sculptra",
+      "Radiesse"
+    ]
+  },
+  {
+    "id": "fillers",
+    "name": "Dermal fillers",
+    "category": "injectable",
+    "description": "Injectable substances (HA, CaHA, PLLA, PMMA, autologous fat) that restore volume, smooth wrinkles, and enhance facial contours through physical expansion and/or biostimulation.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Generally safe for all skin types. Higher PIH risk in darker skin from injection trauma or vascular compromise. Tyndall effect (blue tint) more visible on lighter skin.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Avoid blood thinners if appropriate",
+      "No alcohol 24-48 hours prior",
+      "Arrive with clean face"
+    ],
+    "post_care": [
+      "Ice packs for swelling",
+      "Avoid strenuous exercise 24 hours",
+      "Avoid excessive heat/sun 48 hours",
+      "No facial massage 1-2 weeks",
+      "Sleep elevated first night"
+    ],
+    "contraindications": [
+      "Severe allergy/anaphylaxis history",
+      "Bleeding disorders",
+      "Active infection at injection site",
+      "Autoimmune connective tissue diseases (relative)",
+      "Keloid history (consider carefully)",
+      "Pregnancy, breastfeeding"
+    ],
+    "related_products": [
+      "Botulinum toxin",
+      "Hyaluronic acid serums",
+      "Retinoids (post-healing)"
+    ]
+  },
+  {
+    "id": "biostimulators",
+    "name": "Biostimulators",
+    "category": "injectable",
+    "description": "Injectables that primarily induce endogenous collagen, elastin, and extracellular matrix production rather than providing immediate physical volume. Includes PLLA (Sculptra) and CaHA (Radiesse).",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Safe for all skin types. PIH risk from injection trauma higher in darker skin. Use smallest gauge needles, minimize passes. Post-procedure sun protection critical for Fitzpatrick IV-VI.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "For PLLA: ensure proper reconstitution time",
+      "Avoid blood thinners if appropriate",
+      "Discuss realistic timeline (gradual results)"
+    ],
+    "post_care": [
+      "PLLA: 5-5-5 massage protocol (5 minutes, 5x daily, 5 days)",
+      "Ice for swelling",
+      "Avoid sun exposure",
+      "Gentle skincare"
+    ],
+    "contraindications": [
+      "Active infection or inflammation at site",
+      "Autoimmune connective tissue disease (relative)",
+      "Keloid/scar formation history",
+      "Pregnancy, breastfeeding",
+      "For PLLA: recent radiation therapy to area",
+      "For CaHA: thin skin areas, lips"
+    ],
+    "related_products": [
+      "Hyaluronic acid fillers",
+      "PRP/PRF",
+      "Microneedling",
+      "Retinoids"
+    ]
+  },
+  {
+    "id": "laser-resurfacing",
+    "name": "Laser resurfacing",
+    "category": "laser",
+    "description": "Uses focused light energy to remove damaged skin layers and stimulate collagen remodeling. Includes ablative (CO2, Er:YAG) and non-ablative fractional systems.",
+    "downtime": "variable",
+    "fitzpatrick_considerations": "I-II: excellent. III-IV: caution with ablative. V-VI: avoid ablative CO2; fractional CO2 high risk; Er:YAG best ablative option. Pre-treat with hydroquinone 4% + tretinoin for 4-6 weeks. PIH risk 10-30% with ablative in darker skin.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Antiviral prophylaxis (valacyclovir) for ablative procedures",
+      "Discontinue retinoids 1-2 weeks prior",
+      "Pre-treat darker skin with hydroquinone + tretinoin for 4-6 weeks",
+      "No sun exposure or tanning 2-4 weeks prior"
+    ],
+    "post_care": [
+      "Occlusive ointment (Aquaphor) for ablative",
+      "Gentle cleansing + healing products",
+      "Strict sun protection SPF 30-50+",
+      "No picking at peeling skin",
+      "Resume retinoids 4-6 weeks post-healing"
+    ],
+    "contraindications": [
+      "Active infection (especially HSV)",
+      "Recent isotretinoin (within 6-12 months for ablative)",
+      "Pregnancy",
+      "Keloid/scar history",
+      "Active eczema, psoriasis, dermatitis",
+      "Connective tissue disease (relative)",
+      "Fitzpatrick VI with ablative lasers"
+    ],
+    "related_products": [
+      "Growth factor serums",
+      "Hyaluronic acid",
+      "Ceramide moisturizers",
+      "Zinc oxide sunscreen"
+    ]
+  },
+  {
+    "id": "ipl",
+    "name": "IPL",
+    "category": "light-therapy",
+    "description": "Intense Pulsed Light uses broad spectrum light (500-1200 nm) filtered to target hemoglobin, melanin, and water for vascular lesions, pigment, photorejuvenation, and hair reduction.",
+    "downtime": "none",
+    "fitzpatrick_considerations": "Best for Fitzpatrick I-III. Caution for IV. Avoid/high risk for V-VI. Melanin absorbs broad IPL spectrum causing thermal injury, PIH, blistering. If used on darker skin: longer wavelengths (690+ nm), lower fluences, test spots mandatory.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "No sun exposure or tanning 2-4 weeks prior",
+      "Discontinue photosensitizing medications if possible",
+      "Shave treatment area (do not wax)",
+      "No retinoids 1 week prior"
+    ],
+    "post_care": [
+      "Strict sun avoidance and SPF 30-50+",
+      "Avoid heat and strenuous exercise 24-48 hours",
+      "Gentle skincare; no irritants",
+      "Pigmented spots will darken before sloughing"
+    ],
+    "contraindications": [
+      "Recent tanning or sun exposure",
+      "Pregnancy",
+      "Active infection",
+      "Photosensitizing medications",
+      "Active cold sore history (HSV prophylaxis needed)",
+      "Fitzpatrick V-VI (relative contraindication)"
+    ],
+    "related_products": [
+      "Vitamin C serums (post-healing)",
+      "Niacinamide",
+      "Hydroquinone (for darker skin prep)",
+      "Retinoids (post-series)"
+    ]
+  },
+  {
+    "id": "radiofrequency",
+    "name": "Radiofrequency",
+    "category": "mechanical",
+    "description": "Delivers electrical energy creating ohmic heating in tissues, causing immediate collagen contraction and long-term neocollagenesis. Includes monopolar (Thermage), bipolar, and fractional RF microneedling (Morpheus8).",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Safe for ALL skin types (I-VI). Major advantage: no melanin chromophore dependence. Preferred energy device for skin of color. Fractional RF microneedling may cause temporary PIH in darker skin from needle trauma (rare).",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Avoid retinoids 1 week prior",
+      "No sun exposure",
+      "Arrive with clean face",
+      "Discuss pain management options for monopolar"
+    ],
+    "post_care": [
+      "Cooling gel for comfort",
+      "Gentle skincare; no heat exposure 24 hours",
+      "Resume normal routine 3-5 days post",
+      "Strict sun protection"
+    ],
+    "contraindications": [
+      "Pacemaker or implanted electrical device",
+      "Metal implants in treatment area",
+      "Pregnancy",
+      "Active infection, open wounds",
+      "Recent isotretinoin (for aggressive fractional RF)",
+      "Severe cardiac disease"
+    ],
+    "related_products": [
+      "Hyaluronic acid",
+      "Growth factor serums",
+      "Ceramide moisturizers",
+      "Retinoids (post-healing)"
+    ]
+  },
+  {
+    "id": "ultherapy",
+    "name": "Ultrasound",
+    "category": "mechanical",
+    "description": "High-intensity focused ultrasound (HIFU) delivers precise thermal energy to specific tissue depths (1.5-4.5 mm) including the SMAS layer for non-surgical skin lifting and tightening.",
+    "downtime": "none",
+    "fitzpatrick_considerations": "Safe for ALL skin types (I-VI). No melanin dependence; ultrasound passes through melanin-rich epidermis without absorption. Excellent option for skin of color.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "No sun exposure",
+      "Arrive with clean face",
+      "Discuss pain management (especially Ultherapy)",
+      "Remove all jewelry"
+    ],
+    "post_care": [
+      "Gentle skincare",
+      "No activity restrictions",
+      "Mild redness resolves in 1-2 hours",
+      "Stay hydrated"
+    ],
+    "contraindications": [
+      "Open wounds, active infection",
+      "Severe or cystic acne in treatment area",
+      "Metal implants in treatment area",
+      "Pregnancy, breastfeeding",
+      "Pacemaker or implanted electrical devices",
+      "Unrealistic expectations"
+    ],
+    "related_products": [
+      "Hyaluronic acid",
+      "Collagen-boosting peptides",
+      "Retinoids (post-treatment)"
+    ]
+  },
+  {
+    "id": "led-therapy",
+    "name": "LED/Low-level light therapy",
+    "category": "light-therapy",
+    "description": "Uses specific light wavelengths (blue 415 nm, red 630-660 nm, NIR 830 nm) to trigger photochemical reactions in cells, increasing ATP production and modulating inflammation without thermal damage.",
+    "downtime": "none",
+    "fitzpatrick_considerations": "Safe for ALL skin types (I-VI). No thermal injury; no risk of PIH or hypopigmentation. Ideal for sensitive skin and skin of color.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Cleanse skin thoroughly",
+      "Remove makeup",
+      "No special preparation needed"
+    ],
+    "post_care": [
+      "No restrictions; can resume all activities immediately",
+      "Apply serums for enhanced absorption",
+      "Maintain consistent schedule for results"
+    ],
+    "contraindications": [
+      "Photosensitivity disorders (lupus, porphyria, albinism, xeroderma pigmentosum)",
+      "Photosensitizing medications (isotretinoin, tetracyclines, psoralens, amiodarone)",
+      "Active skin cancer or precancerous lesions",
+      "Epilepsy (flickering lights may trigger seizures)",
+      "Active retinal disease (eye protection mandatory)",
+      "Pregnancy (caution; limited data)"
+    ],
+    "related_products": [
+      "Hyaluronic acid",
+      "Vitamin C",
+      "Niacinamide",
+      "Retinoids",
+      "Growth factor serums"
+    ]
+  },
+  {
+    "id": "chemical-peels",
+    "name": "Chemical peels",
+    "category": "chemical",
+    "description": "Acidic solutions cause controlled epidermal and/or dermal injury, triggering wound healing and skin renewal. Depths: superficial (AHAs, BHA, Jessner's), medium (TCA), deep (phenol).",
+    "downtime": "variable",
+    "fitzpatrick_considerations": "Superficial: good with caution for all. Medium TCA: high PIH risk in V-VI. Phenol: avoid V-VI. Pre-treat darker skin with hydroquinone 4% + tretinoin + sunscreen for 4-6 weeks. Mandelic acid is safest AHA for darker skin.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Pre-treat darker skin with hydroquinone + tretinoin for 4-6 weeks",
+      "Discontinue retinoids 1 week prior (superficial) or longer (medium/deep)",
+      "No sun exposure",
+      "For phenol: cardiac monitoring required"
+    ],
+    "post_care": [
+      "Gentle cleansing; no picking",
+      "Occlusive ointment for medium/deep",
+      "Strict sun protection SPF 30-50+",
+      "Resume actives per provider guidance (1-4 weeks)",
+      "Use hydroquinone if PIH develops"
+    ],
+    "contraindications": [
+      "Active infection (HSV, bacterial), open wounds",
+      "Recent isotretinoin (within 6-12 months for medium/deep)",
+      "Pregnancy (especially salicylic acid — teratogenic)",
+      "Keloid history (medium/deep)",
+      "Active eczema, psoriasis, dermatitis",
+      "Fitzpatrick V-VI for medium/deep peels"
+    ],
+    "related_products": [
+      "Hyaluronic acid",
+      "Ceramide moisturizers",
+      "Hydroquinone 4% (for darker skin)",
+      "Zinc oxide sunscreen",
+      "Retinoids (post-healing)"
+    ]
+  },
+  {
+    "id": "microneedling",
+    "name": "Microneedling",
+    "category": "mechanical",
+    "description": "Collagen induction therapy using fine needles to create controlled micro-injuries, triggering wound healing cascade, growth factor release, and enhanced topical product delivery.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Generally safe for ALL skin types. Lower PIH risk than lasers because epidermis remains largely intact. Safer than lasers for darker skin when treating acne scars and pigment. Pre/post-treat with tyrosinase inhibitors for darker skin.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Avoid retinoids 1 week prior",
+      "No sun exposure or tanning",
+      "Arrive with clean face",
+      "Numbing cream applied 30-45 minutes prior"
+    ],
+    "post_care": [
+      "Hyaluronic acid serum",
+      "No makeup 24 hours",
+      "Avoid sun exposure 1 week",
+      "No strenuous exercise 24 hours",
+      "Gentle skincare only"
+    ],
+    "contraindications": [
+      "Active infection, open wounds",
+      "Active inflammatory/cystic acne",
+      "Keloid/scar history (relative)",
+      "Blood clotting disorders",
+      "Active eczema, psoriasis, dermatitis",
+      "Recent radiation therapy"
+    ],
+    "related_products": [
+      "PRP/PRF",
+      "Growth factor serums",
+      "Hyaluronic acid",
+      "Peptide serums",
+      "Vitamin C (post-healing)"
+    ]
+  },
+  {
+    "id": "microdermabrasion",
+    "name": "Microdermabrasion",
+    "category": "mechanical",
+    "description": "Mechanical exfoliation using crystal or diamond-tip abrasion combined with vacuum suction to remove dead skin cells from the stratum corneum. Includes hydradermabrasion variants.",
+    "downtime": "none",
+    "fitzpatrick_considerations": "Safe for ALL skin types. Very superficial so minimal PIH risk. Gentle approach recommended for Fitzpatrick IV-VI to avoid petechiae.",
+    "pregnancy_safe": true,
+    "pre_care": [
+      "Arrive with clean face",
+      "No special preparation",
+      "Avoid retinoids if skin sensitive"
+    ],
+    "post_care": [
+      "Hydrating serum and moisturizer",
+      "SPF 30-50+",
+      "Avoid harsh products same day",
+      "Enhanced product absorption — good time for serums"
+    ],
+    "contraindications": [
+      "Active infection, open wounds",
+      "Active inflammatory acne",
+      "Eczema, psoriasis, dermatitis",
+      "Rosacea (relative — may worsen)",
+      "Fragile capillaries",
+      "Recent chemical peel or laser"
+    ],
+    "related_products": [
+      "Hyaluronic acid",
+      "Vitamin C",
+      "Niacinamide",
+      "Gentle chemical peels (alternating sessions)"
+    ]
+  },
+  {
+    "id": "dermarolling",
+    "name": "Dermarolling/Dermapen",
+    "category": "mechanical",
+    "description": "At-home (0.2-0.5 mm) or professional (0.5-3.0 mm) microneedling using rollers or automated pen devices to create micro-channels for product penetration or collagen induction.",
+    "downtime": "none to minimal",
+    "fitzpatrick_considerations": "At-home: very safe for all skin types at cosmetic depths. Professional: safe for all skin types; preferred over lasers for darker skin. Caution with deeper needles in Fitzpatrick V-VI for transient PIH.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "At-home: sterilize device with rubbing alcohol",
+      "Professional: numbing cream 30-45 minutes prior",
+      "Cleanse skin thoroughly",
+      "No active acne, eczema, or infections"
+    ],
+    "post_care": [
+      "At-home: minimal redness resolves in hours",
+      "Professional: redness 1-3 days, no makeup 24 hours",
+      "Apply hyaluronic acid or peptide serum",
+      "Avoid sun exposure",
+      "Replace at-home devices every 3-6 months"
+    ],
+    "contraindications": [
+      "At-home: never use needles >0.5 mm",
+      "Active infection, eczema, psoriasis, warts, moles",
+      "Keloid history (professional >0.5 mm)",
+      "Blood clotting disorders",
+      "Do not share devices"
+    ],
+    "related_products": [
+      "Hyaluronic acid",
+      "Peptide serums",
+      "Growth factors",
+      "Retinoids (professional treatment, post-healing)"
+    ]
+  },
+  {
+    "id": "prp-prf",
+    "name": "PRP/PRF",
+    "category": "injectable",
+    "description": "Platelet-Rich Plasma and Platelet-Rich Fibrin involve centrifuging patient's blood to concentrate platelets and growth factors, then injecting or topically applying to stimulate tissue repair and collagen.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Safe for ALL skin types. Autologous (patient's own blood) so no allergic reaction. No thermal injury so no PIH risk. Excellent for skin of color.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Hydrate well before blood draw",
+      "Avoid blood thinners if appropriate",
+      "Clean face if topical application"
+    ],
+    "post_care": [
+      "Redness/swelling at injection sites 1-3 days",
+      "Gentle skincare",
+      "Avoid sun exposure",
+      "No makeup 24 hours if microneedled"
+    ],
+    "contraindications": [
+      "Blood clotting disorders, anticoagulant therapy",
+      "Platelet dysfunction syndromes",
+      "Thrombocytopenia",
+      "Active infection",
+      "Cancer (especially hematologic)",
+      "Severe anemia"
+    ],
+    "related_products": [
+      "Microneedling",
+      "Hyaluronic acid",
+      "Growth factor serums",
+      "Exosomes (emerging)"
+    ]
+  },
+  {
+    "id": "exosomes",
+    "name": "Exosomes",
+    "category": "injectable",
+    "description": "Extracellular vesicles (30-150 nm) derived from stem cells or other sources that act as intercellular messengers, delivering proteins, lipids, and growth factors to modulate cellular behavior and stimulate repair.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Theoretical safety for all skin types. No thermal mechanism so no PIH risk. Long-term safety data lacking across all skin types. Monitor for adverse reactions.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Patch test recommended",
+      "Discuss source of exosomes",
+      "Cleanse skin if topical application"
+    ],
+    "post_care": [
+      "Gentle skincare",
+      "Monitor for any adverse reactions",
+      "Avoid sun exposure",
+      "No special restrictions"
+    ],
+    "contraindications": [
+      "Immunocompromised patients (caution)",
+      "Allergies to source materials",
+      "Pregnancy, breastfeeding (insufficient data)",
+      "Active infection"
+    ],
+    "related_products": [
+      "Microneedling (delivery method)",
+      "PRP/PRF",
+      "Growth factor serums"
+    ]
+  },
+  {
+    "id": "cryotherapy",
+    "name": "Cryotherapy",
+    "category": "mechanical",
+    "description": "Application of extreme cold (-100C to -196C) to destroy abnormal tissue or create vascular responses. Includes local cryosurgery, cryofacials, and whole-body cryotherapy chambers.",
+    "downtime": "none to moderate",
+    "fitzpatrick_considerations": "Local cryotherapy safe for all skin types. Post-inflammatory pigment changes (hypo- or hyperpigmentation) in darker skin after aggressive cryotherapy for lesions. Cryofacials generally safe for all.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Cleanse area if local treatment",
+      "No special preparation for WBC",
+      "Discuss cold sensitivity history"
+    ],
+    "post_care": [
+      "Keep area clean and dry",
+      "Blistering/crusting 1-2 weeks for cryosurgery",
+      "No special care for cryofacials",
+      "Monitor for infection signs"
+    ],
+    "contraindications": [
+      "Cold urticaria or cold intolerance",
+      "Raynaud's phenomenon",
+      "Cryoglobulinemia",
+      "Paroxysmal cold hemoglobinuria",
+      "Pregnancy (WBC)",
+      "Severe cardiovascular disease (WBC)"
+    ],
+    "related_products": [
+      "Healing ointments (post-cryosurgery)",
+      "Sunscreen",
+      "Gentle moisturizers"
+    ]
+  },
+  {
+    "id": "hydrafacial",
+    "name": "HydraFacial",
+    "category": "mechanical",
+    "description": "Patented multi-step facial using hydradermabrasion, gentle acid peel, vortex extraction, and serum infusion for deep cleansing, exfoliation, and hydration.",
+    "downtime": "none",
+    "fitzpatrick_considerations": "Safe for ALL skin types. Gentle nature makes it suitable for sensitive and darker skin. No thermal injury or significant trauma.",
+    "pregnancy_safe": true,
+    "pre_care": [
+      "Arrive with clean face",
+      "Avoid recent sun exposure or tanning",
+      "Discuss booster options for specific concerns"
+    ],
+    "post_care": [
+      "Can apply makeup immediately",
+      "Hydrating serum and SPF",
+      "Results last 5-7 days",
+      "Monthly maintenance recommended"
+    ],
+    "contraindications": [
+      "Active rashes, sunburn",
+      "Moderate-severe acne",
+      "Rosacea (relative)",
+      "Active eczema, dermatitis",
+      "Recent sun exposure or tanning"
+    ],
+    "related_products": [
+      "Hyaluronic acid serums",
+      "Antioxidant serums",
+      "Growth factor boosters",
+      "Brightening boosters"
+    ]
+  },
+  {
+    "id": "pdt",
+    "name": "Photodynamic therapy",
+    "category": "light-therapy",
+    "description": "Uses photosensitizing agent (ALA or MAL) activated by light to create reactive oxygen species that destroy target cells. FDA-approved for actinic keratoses; used off-label for acne and photorejuvenation.",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "Safe for most skin types. Challenge in darker skin: photosensitizer may cause temporary hyperpigmentation; light activation must be calibrated to avoid thermal injury to melanin-rich epidermis. Red light or blue light generally safer than IPL/PDL activation.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Photosensitizer applied 1-3 hours before light activation",
+      "Avoid sun exposure day of treatment",
+      "HSV prophylaxis if history of cold sores",
+      "Shave treatment area if needed"
+    ],
+    "post_care": [
+      "STRICT sun avoidance 48 hours (severe burns possible)",
+      "Gentle cleansing and moisturizer",
+      "Redness and crusting 2-14 days",
+      "Use provided post-care kit if available"
+    ],
+    "contraindications": [
+      "Porphyria, lupus, other photosensitivity disorders",
+      "Photosensitizing medications",
+      "Pregnancy, breastfeeding",
+      "Known allergy to photosensitizer",
+      "Active infection",
+      "Cold sore history (requires prophylaxis)"
+    ],
+    "related_products": [
+      "Healing ointments",
+      "Gentle cleansers",
+      "SPF 30-50+",
+      "Retinoids (maintenance post-healing)"
+    ]
+  },
+  {
+    "id": "thread-lifts",
+    "name": "Thread lifts",
+    "category": "injectable",
+    "description": "Dissolvable or permanent sutures (PDO, PLLA, PCL) inserted to mechanically lift sagging tissue and stimulate collagen through foreign body response.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "Safe for ALL skin types. No thermal injury so no PIH risk. Entry points may cause temporary PIH in darker skin. Excellent option for skin of color seeking lifting.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Avoid blood thinners if appropriate",
+      "No alcohol 48 hours prior",
+      "Arrive with clean face",
+      "Discuss realistic expectations (not a facelift substitute)"
+    ],
+    "post_care": [
+      "Avoid excessive facial movement 1-2 weeks",
+      "No facial massage 2 weeks",
+      "Sleep on back 1-2 weeks",
+      "Gentle cleansing",
+      "Avoid dental work 2 weeks"
+    ],
+    "contraindications": [
+      "Active infection, open wounds",
+      "Autoimmune connective tissue disease",
+      "Keloid/scar history",
+      "Blood clotting disorders",
+      "Severe laxity (surgical candidate)",
+      "Very thin skin (thread visibility)"
+    ],
+    "related_products": [
+      "Hyaluronic acid fillers",
+      "Botulinum toxin",
+      "RF devices",
+      "Collagen-stimulating skincare"
+    ]
+  },
+  {
+    "id": "microblading",
+    "name": "Microblading",
+    "category": "spmu",
+    "description": "Manual SPMU technique using handheld blade tool to create fine hair-like incisions in the epidermis/upper dermis, implanting pigment for natural brow appearance.",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "All skin types can undergo microblading. Challenges in darker skin: ash/gray undertones as pigment fades; PIH from procedure trauma (rare). Oily skin causes pigment to blur. Fitzpatrick V-VI: consider nano-blading or powder brows instead.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Discontinue retinoids 2-4 weeks prior",
+      "No Botox in brow area 2 weeks prior",
+      "No chemical peels or laser on brows until healed",
+      "No waxing, threading, tweezing 2 weeks prior"
+    ],
+    "post_care": [
+      "Gently blot lymph fluid Days 1-2",
+      "Apply provided aftercare ointment thinly 2-3x daily",
+      "Do not pick scabs (Days 3-7)",
+      "No makeup on brows 10-14 days",
+      "No swimming/saunas/sweating 7-10 days",
+      "Avoid retinoids on tattooed area long-term"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "Active skin infection, eczema, psoriasis in brow area",
+      "Keloid/scar history",
+      "Blood clotting disorders",
+      "Accutane/isotretinoin (wait 6-12 months)",
+      "Chemotherapy/radiation (wait until treatment complete)"
+    ],
+    "related_products": [
+      "Aftercare ointment (provided by artist)",
+      "Gentle cleansers",
+      "SPF for brows",
+      "Brow growth serums (avoid on tattooed area)"
+    ]
+  },
+  {
+    "id": "nanoblading",
+    "name": "Nano-bladed brows",
+    "category": "spmu",
+    "description": "Digital SPMU technique using a machine with single nano needle (0.18-0.25 mm) to create precise punctures rather than blade incisions, resulting in crisper, longer-lasting hair strokes with less trauma.",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "All skin types. Better option than microblading for Fitzpatrick IV-VI (less trauma, less risk of pigment ashing or PIH). Better for oily and sensitive skin. Still requires skilled color matching for darker skin.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Same as microblading",
+      "Discontinue retinoids 2-4 weeks prior",
+      "No Botox in brow area 2 weeks prior",
+      "No chemical peels or laser on brows"
+    ],
+    "post_care": [
+      "Similar to microblading but less scabbing",
+      "Apply aftercare ointment",
+      "Do not pick scabs",
+      "No makeup on brows 10-14 days",
+      "No swimming/saunas 7-10 days",
+      "Avoid retinoids on tattooed area long-term"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "Active infection, eczema, psoriasis in brow area",
+      "Keloid history",
+      "Blood clotting disorders",
+      "Accutane (wait 6-12 months)",
+      "Chemotherapy/radiation"
+    ],
+    "related_products": [
+      "Aftercare ointment",
+      "Gentle cleansers",
+      "SPF for brows"
+    ]
+  },
+  {
+    "id": "powder-brows",
+    "name": "Powder/ombre brows",
+    "category": "spmu",
+    "description": "Digital SPMU technique using stippling/dotting motion to create a shaded, makeup-like brow appearance with gradient effect (lighter inner brow, darker tail).",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "All skin types. Better option for Fitzpatrick IV-VI than microblading. Shading technique less likely to cause ashy appearance. Color selection still critical. Works well for oily skin where microblading strokes blur.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Discontinue retinoids 2-4 weeks prior",
+      "No Botox in brow area 2 weeks prior",
+      "No chemical peels or laser on brows",
+      "Discuss desired brow style (natural vs defined)"
+    ],
+    "post_care": [
+      "Apply aftercare ointment",
+      "Do not pick scabs",
+      "No makeup on brows 10-14 days",
+      "No swimming/saunas 7-10 days",
+      "Avoid retinoids on tattooed area long-term"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "Active infection, eczema, psoriasis in brow area",
+      "Keloid history",
+      "Blood clotting disorders",
+      "Accutane (wait 6-12 months)",
+      "Chemotherapy/radiation"
+    ],
+    "related_products": [
+      "Aftercare ointment",
+      "Gentle cleansers",
+      "SPF for brows"
+    ]
+  },
+  {
+    "id": "eyeliner-tattoo",
+    "name": "Eyeliner tattoo",
+    "category": "spmu",
+    "description": "Permanent pigment implanted along the lash line to enhance eye definition. Techniques include lash line enhancement (most natural), thin eyeliner, or winged eyeliner.",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "All skin types. Special considerations for darker skin: warm brown pigments often better than black (which can turn blue-gray). Blue-black pigments can turn blue-gray as they fade on all skin types.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Discontinue eyelash growth serums (Latisse) 2+ weeks prior",
+      "No eye makeup day of procedure",
+      "Remove contact lenses",
+      "Discuss desired style (lash enhancement vs winged)"
+    ],
+    "post_care": [
+      "No eye makeup 7-10 days",
+      "No contact lenses 3-5 days",
+      "No swimming/saunas 10-14 days",
+      "Apply provided aftercare ointment",
+      "Expect significant swelling Days 1-2"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "Active eye infection, conjunctivitis, blepharitis",
+      "Dry eye syndrome",
+      "Recent eye surgery (LASIK, cataract — wait 6+ months)",
+      "Keloid history",
+      "Trigeminal neuralgia or facial pain syndromes",
+      "History of corneal abrasion"
+    ],
+    "related_products": [
+      "Aftercare ointment",
+      "Gentle eye cleansers",
+      "Preservative-free artificial tears"
+    ]
+  },
+  {
+    "id": "lip-blushing",
+    "name": "Lip blushing",
+    "category": "spmu",
+    "description": "Semi-permanent pigment implanted into lips to enhance color and definition. Techniques range from vermilion border definition to full lip color or ombre effects.",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "All skin types can undergo lip blushing. Critical for melanin-rich lips (Fitzpatrick IV-VI): may cause hyperpigmentation or uneven color; must neutralize dark tones first (orange/peach corrector); may not achieve desired pink color on very dark lips.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "HSV-1 prophylaxis: valacyclovir 500 mg BID starting 2 days before (MANDATORY if any cold sore history)",
+      "Avoid alcohol 1 week prior",
+      "Stay hydrated",
+      "No lip fillers 4+ weeks prior",
+      "Discontinue retinoids 2-4 weeks prior"
+    ],
+    "post_care": [
+      "No kissing 10-14 days",
+      "No spicy, salty, acidic foods 7-10 days",
+      "No straws (stretching)",
+      "No swimming/saunas 10-14 days",
+      "No lipstick 10-14 days",
+      "Use straw for drinking",
+      "Apply aftercare ointment regularly"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "Active cold sores (ABSOLUTE)",
+      "History of cold sores (requires antiviral prophylaxis)",
+      "Active infection, eczema, psoriasis on lips",
+      "Diabetes (higher infection risk)",
+      "Recent lip fillers (wait 4+ weeks)",
+      "Accutane (wait 6-12 months)"
+    ],
+    "related_products": [
+      "Antiviral medication (prophylaxis)",
+      "Aftercare ointment (non-petroleum)",
+      "Gentle lip cleansers",
+      "Hydrating lip balms"
+    ]
+  },
+  {
+    "id": "freckle-tattooing",
+    "name": "Freckle tattooing",
+    "category": "spmu",
+    "description": "Cosmetic tattooing to create artificial freckles using manual or machine application of pigment in dot pattern to mimic natural freckle distribution.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "More visible and natural on Fitzpatrick I-III. On darker skin may appear as dark spots rather than freckles. Pigment migration risk higher on melanin-rich skin.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Discuss realistic outcomes and fading patterns",
+      "Review artist portfolio",
+      "Cleanse face",
+      "Avoid retinoids 2 weeks prior"
+    ],
+    "post_care": [
+      "Keep area clean",
+      "Apply thin layer of ointment",
+      "No picking at scabs",
+      "Avoid sun exposure while healing",
+      "SPF daily to prevent fading"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "History of skin cancer (relative)",
+      "Dysplastic nevus syndrome",
+      "Active infection",
+      "Keloid history"
+    ],
+    "related_products": [
+      "Aftercare ointment",
+      "SPF 30-50+"
+    ]
+  },
+  {
+    "id": "areola-tattooing",
+    "name": "Areola tattooing",
+    "category": "spmu",
+    "description": "Medical/paramedical tattooing to restore or enhance areola appearance post-mastectomy reconstruction, surgery, or for gender affirmation. Often creates 3D illusion of projection.",
+    "downtime": "moderate",
+    "fitzpatrick_considerations": "All skin types. Medical-grade pigments often more stable. Must match natural areola color for realistic appearance across all skin tones.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Wait 3-6 months post-surgery for fully healed scars",
+      "No radiation therapy to area until complete",
+      "No chemotherapy until treatment complete",
+      "Consult with surgeon if post-mastectomy"
+    ],
+    "post_care": [
+      "Keep area clean and dry",
+      "Apply healing ointment",
+      "No swimming/saunas 2 weeks",
+      "Loose, breathable clothing",
+      "Monitor for infection"
+    ],
+    "contraindications": [
+      "Pregnancy, breastfeeding",
+      "Active infection",
+      "Unhealed surgical scars (wait 3-6 months)",
+      "Active radiation therapy to area",
+      "Active chemotherapy"
+    ],
+    "related_products": [
+      "Medical-grade healing ointments",
+      "Gentle cleansers",
+      "Scar treatments (if cleared by provider)"
+    ]
+  },
+  {
+    "id": "scalp-micropigmentation",
+    "name": "Scalp micropigmentation",
+    "category": "spmu",
+    "description": "Specialized cosmetic tattooing implanting tiny pigment dots at superficial depth to simulate hair follicles, creating illusion of closely-shaved hair or density in thinning areas.",
+    "downtime": "minimal",
+    "fitzpatrick_considerations": "All skin types. Color matching critical — must match hair follicle color for natural appearance. On darker skin use darker pigments; ensure artist experienced with skin of color.",
+    "pregnancy_safe": false,
+    "pre_care": [
+      "Shave head to desired length (if buzz-cut look)",
+      "Wash hair (cannot wash immediately after)",
+      "Discuss hairline design",
+      "Stabilize hair loss with medical treatments if possible"
+    ],
+    "post_care": [
+      "Redness 1-3 days",
+      "Scabbing 3-7 days",
+      "No swimming, heavy sweating, sun exposure 7-10 days",
+      "Can wear hats immediately",
+      "Gentle shampoo after 5-7 days"
+    ],
+    "contraindications": [
+      "Active scalp infection, psoriasis, seborrheic dermatitis",
+      "Unstable hair loss (still actively shedding)",
+      "Keloid history (relative)",
+      "Pregnancy, breastfeeding",
+      "Active chemotherapy"
+    ],
+    "related_products": [
+      "Gentle shampoo",
+      "SPF for scalp",
+      "Minoxidil (for ongoing hair loss)",
+      "Finasteride (for ongoing hair loss)"
+    ]
+  }
+]

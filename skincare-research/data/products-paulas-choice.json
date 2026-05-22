@@ -1,0 +1,911 @@
+[
+  {
+    "name": "Skin Perfecting 2% BHA Liquid Exfoliant",
+    "brand": "Paula's Choice",
+    "category": "exfoliant",
+    "price": "$35.00",
+    "size": "4 oz / 118 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Methylpropanediol",
+      "Butylene Glycol",
+      "Salicylic Acid",
+      "Polysorbate 20",
+      "Green Tea (Camellia Sinensis) Extract",
+      "Sodium Hydroxide",
+      "Tetrasodium EDTA"
+    ],
+    "key_actives": {
+      "Salicylic Acid (BHA)": "2%"
+    },
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "enlarged pores",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor)",
+      "aspirin allergy (salicylate sensitivity)"
+    ],
+    "ph_range": "3.2 - 3.8"
+  },
+  {
+    "name": "Skin Perfecting 1% BHA Lotion Exfoliant",
+    "brand": "Paula's Choice",
+    "category": "exfoliant",
+    "price": "$35.00",
+    "size": "3.3 oz / 100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Methylpropanediol",
+      "Cetyl Alcohol",
+      "Butylene Glycol",
+      "Salicylic Acid",
+      "Squalane",
+      "Cetearyl Alcohol",
+      "Green Tea (Camellia Sinensis) Extract",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": {
+      "Salicylic Acid (BHA)": "1%"
+    },
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "dryness with breakouts"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "combination"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor)",
+      "aspirin allergy"
+    ],
+    "ph_range": "3.2 - 3.8"
+  },
+  {
+    "name": "C15 Super Booster",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$55.00",
+    "size": "0.67 oz / 20 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Ascorbic Acid (Vitamin C)",
+      "Ethoxydiglycol",
+      "PPG-26-Buteth-26",
+      "PEG-40 Hydrogenated Castor Oil",
+      "Tocopherol (Vitamin E)",
+      "Ferulic Acid",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Sodium Metabisulfite",
+      "Sodium Hydroxide",
+      "Hexylene Glycol",
+      "Phenoxyethanol"
+    ],
+    "key_actives": {
+      "Ascorbic Acid (Vitamin C)": "15%",
+      "Vitamin E": "1%",
+      "Ferulic Acid": "0.5%"
+    },
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "fine lines",
+      "dullness",
+      "sun damage"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "very sensitive skin may experience tingling"
+    ],
+    "ph_range": "2.5 - 3.0"
+  },
+  {
+    "name": "Resist Anti-Aging Intensive Repair Moisturizer",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$39.00",
+    "size": "1.7 oz / 50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Squalane",
+      "Glycerin",
+      "Dimethicone",
+      "Niacinamide",
+      "Glyceryl Stearate",
+      "Retinol",
+      "Adenosine",
+      "Ceramide NP",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Cholesterol",
+      "Sodium PCA",
+      "Cetearyl Alcohol"
+    ],
+    "key_actives": {
+      "Retinol": "0.1%",
+      "Niacinamide": "2-3%",
+      "Peptides": "palmitoyl tripeptide-1, palmitoyl tetrapeptide-7"
+    },
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "dryness",
+      "loss of firmness"
+    ],
+    "skin_types": [
+      "dry",
+      "mature",
+      "normal"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "breastfeeding",
+      "sensitive skin (start slowly)"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Resist Anti-Aging Clear Skin Hydrator",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$37.00",
+    "size": "1.7 oz / 50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Cyclopentasiloxane",
+      "Niacinamide",
+      "Glycerin",
+      "Butylene Glycol",
+      "Dimethicone",
+      "Laminaria Saccharina Extract",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Bisabolol",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Squalane",
+      "Allantoin",
+      "Sodium PCA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": {
+      "Niacinamide": "4%",
+      "Green Tea Extract": "antioxidant",
+      "Bisabolol": "soothing"
+    },
+    "conditions_addressed": [
+      "acne",
+      "uneven tone",
+      "enlarged pores",
+      "signs of aging"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Resist Anti-Aging Eye Cream",
+    "brand": "Paula's Choice",
+    "category": "eye cream",
+    "price": "$37.00",
+    "size": "0.5 oz / 15 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Dimethicone",
+      "Niacinamide",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Squalane",
+      "Sodium Hyaluronate",
+      "Resveratrol",
+      "Tocopherol",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Ceramide NP",
+      "Peptide Complex",
+      "Caffeine",
+      "Allantoin",
+      "Cholesterol"
+    ],
+    "key_actives": {
+      "Niacinamide": "2-3%",
+      "Peptides": "firming",
+      "Resveratrol": "antioxidant",
+      "Caffeine": "de-puffing"
+    },
+    "conditions_addressed": [
+      "fine lines",
+      "crow's feet",
+      "dark circles",
+      "puffiness"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Skin Recovery Daily Moisturizing Lotion SPF 30",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$32.00",
+    "size": "2 oz / 60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Homosalate",
+      "Ethylhexyl Salicylate (Octisalate)",
+      "Butyl Methoxydibenzoylmethane (Avobenzone)",
+      "Benzophenone-3 (Oxybenzone)",
+      "Octocrylene",
+      "Glycerin",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Squalane",
+      "Niacinamide",
+      "Ceramide NP",
+      "Cholesterol",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Allantoin",
+      "Avena Sativa (Oat) Kernel Extract"
+    ],
+    "key_actives": {
+      "Avobenzone": "3%",
+      "Homosalate": "10%",
+      "Octisalate": "5%",
+      "Octocrylene": "2%",
+      "Niacinamide": "2%"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "dryness",
+      "sensitivity",
+      "anti-aging"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "normal"
+    ],
+    "contraindications": [
+      "oxybenzone sensitivity",
+      "chemical sunscreen sensitivity"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Calm Redness Relief Repairing Serum",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$42.00",
+    "size": "1 oz / 30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Hyaluronic Acid",
+      "Beta-Glucan",
+      "Ceramide NP",
+      "Sodium Hyaluronate",
+      "Bisabolol",
+      "Allantoin",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Boerhavia Diffusa Root Extract",
+      "Panthenol",
+      "Squalane",
+      "Tocopherol",
+      "Sodium PCA"
+    ],
+    "key_actives": {
+      "Hyaluronic Acid": "hydration",
+      "Beta-Glucan": "soothing",
+      "Ceramides": "barrier repair",
+      "Bisabolol": "anti-inflammatory"
+    },
+    "conditions_addressed": [
+      "redness",
+      "irritation",
+      "sensitivity",
+      "barrier damage"
+    ],
+    "skin_types": [
+      "sensitive",
+      "rosacea-prone",
+      "dry"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Calm Redness Relief Moisturizer (Normal to Dry)",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$35.00",
+    "size": "2 oz / 60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Glycerin",
+      "Squalane",
+      "Cetearyl Alcohol",
+      "Ceramide NP",
+      "Sodium Hyaluronate",
+      "Bisabolol",
+      "Allantoin",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Boerhavia Diffusa Root Extract",
+      "Panthenol",
+      "Tocopherol",
+      "Cholesterol"
+    ],
+    "key_actives": {
+      "Ceramides": "barrier repair",
+      "Shea Butter": "moisturizing",
+      "Bisabolol": "soothing",
+      "Squalane": "hydration"
+    },
+    "conditions_addressed": [
+      "redness",
+      "dryness",
+      "sensitivity",
+      "irritation"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Defense Essential Glow Moisturizer SPF 30",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$35.00",
+    "size": "2 oz / 60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Glycerin",
+      "Squalane",
+      "Niacinamide",
+      "Resveratrol",
+      "Vitamin C (Ascorbic Acid derivative)",
+      "Antioxidant Blend",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Allantoin"
+    ],
+    "key_actives": {
+      "Zinc Oxide": "13% (mineral sunscreen)",
+      "Titanium Dioxide": "2%",
+      "Niacinamide": "2%",
+      "Resveratrol": "antioxidant"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "dullness",
+      "uneven tone",
+      "pollution defense"
+    ],
+    "skin_types": [
+      "all",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Omega+ Complex Moisturizer",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$39.00",
+    "size": "1.7 oz / 50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Shea Butter (Butyrospermum Parkii)",
+      "Squalane",
+      "Linoleic Acid (Omega-6)",
+      "Linolenic Acid (Omega-3)",
+      "Oleic Acid (Omega-9)",
+      "Ceramide NP",
+      "Cholesterol",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Beta-Glucan",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "key_actives": {
+      "Omega Fatty Acids (3,6,9)": "barrier support",
+      "Ceramides": "barrier repair",
+      "Cholesterol": "skin-identical lipid"
+    },
+    "conditions_addressed": [
+      "dryness",
+      "sensitivity",
+      "barrier damage",
+      "dehydration"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "mature",
+      "barrier-damaged"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Clinical 20% Niacinamide Treatment",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$52.00",
+    "size": "0.67 oz / 20 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Niacinamide",
+      "Glycerin",
+      "Ascorbyl Glucoside (Vitamin C derivative)",
+      "Tocopherol",
+      "Ubiquinone (Coenzyme Q10)",
+      "Sodium Hyaluronate",
+      "Acetyl Glucosamine",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "key_actives": {
+      "Niacinamide": "20%",
+      "Acetyl Glucosamine": "brightening support",
+      "Vitamin C derivative": "antioxidant",
+      "CoQ10": "antioxidant"
+    },
+    "conditions_addressed": [
+      "enlarged pores",
+      "uneven tone",
+      "fine lines",
+      "texture"
+    ],
+    "skin_types": [
+      "all",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "very sensitive skin may experience flushing at this concentration"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Pro-Collagen Multi-Peptide Booster",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$52.00",
+    "size": "0.67 oz / 20 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Palmitoyl Hexapeptide-12",
+      "Acetyl Hexapeptide-8",
+      "Sodium Hyaluronate",
+      "Amino Acids",
+      "Tocopherol",
+      "Ceramide NP",
+      "Panthenol"
+    ],
+    "key_actives": {
+      "Multi-Peptide Complex": "6+ peptides including signal peptides and neuropeptides"
+    },
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "loss of firmness",
+      "collagen depletion"
+    ],
+    "skin_types": [
+      "all",
+      "mature"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Resist 10% Niacinamide Booster",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$44.00",
+    "size": "0.67 oz / 20 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Niacinamide",
+      "Glycerin",
+      "Acetyl Glucosamine",
+      "Ascorbyl Glucoside",
+      "Tocopherol",
+      "Ubiquinone",
+      "Sodium Hyaluronate",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Panthenol"
+    ],
+    "key_actives": {
+      "Niacinamide": "10%",
+      "Acetyl Glucosamine": "2%",
+      "Vitamin C derivative": "antioxidant"
+    },
+    "conditions_addressed": [
+      "enlarged pores",
+      "uneven skin tone",
+      "fine lines",
+      "dullness"
+    ],
+    "skin_types": [
+      "all",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "none major at this concentration"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Clinical 1% Retinol Treatment",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$60.00",
+    "size": "1 oz / 30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Dimethicone",
+      "Glycerin",
+      "Retinol",
+      "Ceramide NP",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Bisabolol",
+      "Allantoin",
+      "Tocopherol",
+      "Squalane",
+      "Shea Butter (Butyrospermum Parkii)"
+    ],
+    "key_actives": {
+      "Retinol": "1%",
+      "Peptides": "firming support",
+      "Ceramides": "barrier support"
+    },
+    "conditions_addressed": [
+      "deep wrinkles",
+      "loss of firmness",
+      "uneven tone",
+      "sun damage"
+    ],
+    "skin_types": [
+      "mature",
+      "resilient"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "breastfeeding",
+      "sensitive skin",
+      "beginners to retinol"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Resist Retinol Serum 0.3%",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$42.00",
+    "size": "1 oz / 30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Retinol",
+      "Niacinamide",
+      "Ceramide NP",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Squalane",
+      "Bisabolol",
+      "Allantoin",
+      "Panthenol"
+    ],
+    "key_actives": {
+      "Retinol": "0.3%",
+      "Niacinamide": "2%",
+      "Ceramides": "barrier support"
+    },
+    "conditions_addressed": [
+      "fine lines",
+      "uneven tone",
+      "texture",
+      "early signs of aging"
+    ],
+    "skin_types": [
+      "all",
+      "beginner retinol users"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "breastfeeding"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Resist Retinol Serum 1%",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "price": "$42.00",
+    "size": "1 oz / 30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Retinol",
+      "Niacinamide",
+      "Ceramide NP",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Squalane",
+      "Bisabolol",
+      "Allantoin",
+      "Panthenol"
+    ],
+    "key_actives": {
+      "Retinol": "1%",
+      "Niacinamide": "2%",
+      "Ceramides": "barrier support"
+    },
+    "conditions_addressed": [
+      "deep wrinkles",
+      "loss of firmness",
+      "sun damage",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "mature",
+      "experienced retinol users"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "breastfeeding",
+      "sensitive skin",
+      "beginners"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Hydrating Treatment Essence",
+    "brand": "Paula's Choice",
+    "category": "toner/essence",
+    "price": "$32.00",
+    "size": "4 oz / 118 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Ceramide NP",
+      "Cholesterol",
+      "Panthenol",
+      "Allantoin",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Beta-Glucan",
+      "Tocopherol",
+      "Sodium PCA",
+      "Amino Acids"
+    ],
+    "key_actives": {
+      "Hyaluronic Acid": "multiple molecular weights",
+      "Ceramides": "barrier support",
+      "Amino Acids": "hydration"
+    },
+    "conditions_addressed": [
+      "dehydration",
+      "dryness",
+      "sensitivity",
+      "barrier damage"
+    ],
+    "skin_types": [
+      "all",
+      "dry",
+      "dehydrated"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Moisture Boost Daily Restoring Complex SPF 30",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price": "$32.00",
+    "size": "2 oz / 60 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Glycerin",
+      "Squalane",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Antioxidant Blend",
+      "Allantoin",
+      "Panthenol"
+    ],
+    "key_actives": {
+      "Zinc Oxide": "mineral sunscreen",
+      "Titanium Dioxide": "mineral sunscreen",
+      "Niacinamide": "2%"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "dryness",
+      "dullness"
+    ],
+    "skin_types": [
+      "all",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Resist Weightless Advanced Smoothing Treatment 10% AHA",
+    "brand": "Paula's Choice",
+    "category": "exfoliant",
+    "price": "$37.00",
+    "size": "1.7 oz / 50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycolic Acid",
+      "Lactic Acid",
+      "Malic Acid",
+      "Tartaric Acid",
+      "Citric Acid",
+      "Sodium Hydroxide",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Sodium Hyaluronate",
+      "Tocopherol",
+      "Allantoin",
+      "Bisabolol"
+    ],
+    "key_actives": {
+      "Glycolic Acid": "multi-AHA blend totaling 10%",
+      "Lactic Acid": "gentle exfoliation + hydration",
+      "Mixed Fruit Acids": "exfoliation"
+    },
+    "conditions_addressed": [
+      "uneven texture",
+      "fine lines",
+      "dullness",
+      "sun damage"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "sensitive skin",
+      "pregnancy (consult doctor)",
+      "do not use with retinol same night"
+    ],
+    "ph_range": "3.5 - 4.0"
+  },
+  {
+    "name": "Clear Regular Strength Anti-Redness Exfoliating Solution 2% Salicylic Acid",
+    "brand": "Paula's Choice",
+    "category": "exfoliant",
+    "price": "$35.00",
+    "size": "4 oz / 118 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Methylpropanediol",
+      "Butylene Glycol",
+      "Salicylic Acid",
+      "Polysorbate 20",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Sodium Hydroxide",
+      "Dipotassium Glycyrrhizate (Licorice Extract)",
+      "Allantoin"
+    ],
+    "key_actives": {
+      "Salicylic Acid (BHA)": "2%"
+    },
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "redness",
+      "inflammation"
+    ],
+    "skin_types": [
+      "combination",
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor)",
+      "aspirin allergy"
+    ],
+    "ph_range": "3.2 - 3.8"
+  },
+  {
+    "name": "Clear Extra Strength Anti-Redness Exfoliating Solution 2% Salicylic Acid",
+    "brand": "Paula's Choice",
+    "category": "exfoliant",
+    "price": "$35.00",
+    "size": "4 oz / 118 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Alcohol Denat.",
+      "Methylpropanediol",
+      "Salicylic Acid",
+      "Butylene Glycol",
+      "Polysorbate 20",
+      "Camellia Sinensis (Green Tea) Extract",
+      "Sodium Hydroxide",
+      "Dipotassium Glycyrrhizate"
+    ],
+    "key_actives": {
+      "Salicylic Acid (BHA)": "2%"
+    },
+    "conditions_addressed": [
+      "severe acne",
+      "blackheads",
+      "clogged pores",
+      "inflammation"
+    ],
+    "skin_types": [
+      "oily",
+      "very oily",
+      "stubborn acne"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor)",
+      "aspirin allergy",
+      "dry or sensitive skin (alcohol base)"
+    ],
+    "ph_range": "3.2 - 3.8"
+  }
+]

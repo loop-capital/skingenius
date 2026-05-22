@@ -1,0 +1,467 @@
+[
+  {
+    "id": "gut_dysbiosis",
+    "name": "Gut Dysbiosis",
+    "body_system": "gut",
+    "description": "Imbalance in gut microbiome composition characterized by loss of beneficial keystone species (Faecalibacterium prausnitzii, Roseburia intestinalis, Akkermansia muciniphila) and expansion of pathobionts (Proteobacteria bloom). Associated with inflammatory skin conditions via gut-skin axis.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Reduced alpha diversity",
+      "Proteobacterial bloom (>50% relative abundance)",
+      "Loss of SCFA-producers",
+      "Elevated fecal zonulin"
+    ],
+    "driving_factors": [
+      "High-glycemic diet",
+      "Antibiotic use",
+      "Chronic stress",
+      "NSAID use",
+      "Low fiber intake",
+      "Alcohol consumption"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.2, 1.3",
+      "hormone-skin-connection.md: Section 4.2 (zinc, probiotics)"
+    ]
+  },
+  {
+    "id": "sibo",
+    "name": "Small Intestinal Bacterial Overgrowth (SIBO)",
+    "body_system": "gut",
+    "description": "Excessive bacterial growth in the small intestine (normally relatively sterile). Strongly associated with rosacea — 46-66% of rosacea patients have SIBO vs. 5-27% of controls. Rifaximin treatment improves rosacea in 70-100% of cases.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Elevated H2/methane on breath testing",
+      "Bloating, distension, altered bowel habits",
+      "Nutrient malabsorption"
+    ],
+    "associated_conditions": [
+      "rosacea",
+      "acne-vulgaris",
+      "eczema-atopic-dermatitis"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 2.3",
+      "clinical-guidelines.md: Rosacea section"
+    ]
+  },
+  {
+    "id": "leaky_gut",
+    "name": "Leaky Gut / Intestinal Hyperpermeability",
+    "body_system": "gut",
+    "description": "Increased intestinal permeability due to tight junction disruption (claudin-1, occludin, ZO-1). Allows LPS and other bacterial antigens to translocate into systemic circulation, triggering TLR4-mediated inflammation in skin. Elevated in acne, psoriasis, AD, and rosacea cohorts.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Elevated serum zonulin",
+      "Elevated lactulose:mannitol ratio (>0.07)",
+      "Elevated serum LPS / LBP",
+      "Metabolic endotoxemia"
+    ],
+    "mechanism_summary": "Dysbiosis → zonulin release → tight junction disruption → LPS translocation → TLR4 activation → NF-κB → TNF-α, IL-6, IL-1β → skin inflammation",
+    "source_citations": [
+      "gut-skin-axis.md: Section 2.1",
+      "hormone-skin-connection.md: Section 1.5 (insulin resistance)"
+    ]
+  },
+  {
+    "id": "insulin_resistance",
+    "name": "Insulin Resistance",
+    "body_system": "metabolic",
+    "description": "Reduced cellular response to insulin leading to compensatory hyperinsulinemia. Drives acne via IGF-1/mTORC1 pathway, glycation (AGEs → collagen cross-linking), and androgen bioavailability (reduced SHBG). Associated with acanthosis nigricans and skin tags.",
+    "evidence_level": "A",
+    "key_markers": [
+      "Elevated fasting insulin",
+      "Elevated HbA1c (>5.7%)",
+      "Elevated fasting glucose",
+      "Low SHBG",
+      "Elevated free androgens"
+    ],
+    "associated_skin_signs": [
+      "acanthosis-nigricans",
+      "skin-tags",
+      "acne-vulgaris",
+      "hirsutism",
+      "accelerated-aging"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.5",
+      "skin-condition-profiles.md: Acne section (root causes table)"
+    ]
+  },
+  {
+    "id": "cortisol_excess",
+    "name": "Cortisol Excess / HPA Axis Dysfunction",
+    "body_system": "nervous",
+    "description": "Chronic elevation of cortisol due to sustained HPA axis activation from psychological or physiological stress. Causes collagen breakdown (MMP-1, MMP-3 upregulation), barrier disruption, delayed wound healing, and paradoxical pro-inflammation via glucocorticoid resistance.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Elevated serum AM/PM cortisol",
+      "Flattened cortisol rhythm",
+      "Elevated DUTCH cortisol metabolites",
+      "Reduced cortisol awakening response (CAR)"
+    ],
+    "skin_effects": [
+      "Collagen breakdown and skin thinning",
+      "Barrier dysfunction (reduced filaggrin, loricrin)",
+      "Delayed wound healing (24-40% slower)",
+      "Acne flares",
+      "Eczema exacerbation",
+      "Accelerated aging"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.1",
+      "lifestyle-skin.md: Section 2 (Stress & Skin)",
+      "gut-skin-axis.md: Section 1.3 (systemic inflammation)"
+    ]
+  },
+  {
+    "id": "estrogen_deficiency",
+    "name": "Estrogen Deficiency",
+    "body_system": "hormonal",
+    "description": "Decline in estradiol (E2) levels, most pronounced during perimenopause and menopause. Estrogen drives collagen synthesis (via TGF-β1), hyaluronic acid production (HAS2 upregulation), and barrier maintenance. Deficiency causes skin thinning, dryness, wrinkles, and impaired wound healing.",
+    "evidence_level": "A",
+    "key_markers": [
+      "Low serum E2 (<20 pg/mL postmenopausal)",
+      "Elevated FSH (>40 IU/L)",
+      "Vaginal pH elevation (>5.0)"
+    ],
+    "skin_effects": [
+      "Collagen loss (2-5% per year first 5 years post-menopause)",
+      "Skin thinning (1-2% per year)",
+      "Reduced elasticity",
+      "Dryness and xerosis",
+      "Wrinkle deepening",
+      "Impaired wound healing"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.2",
+      "clinical-guidelines.md: HRT section"
+    ]
+  },
+  {
+    "id": "estrogen_dominance",
+    "name": "Estrogen Dominance",
+    "body_system": "hormonal",
+    "description": "Relative excess of estrogen over progesterone, often due to impaired estrogen metabolism (favoring 16α-OH estrone) or xenoestrogen exposure. Associated with melasma, hormonal acne, and increased skin sensitivity. Can occur with normal estrogen if progesterone is low.",
+    "evidence_level": "C",
+    "key_markers": [
+      "Elevated 16α-OH estrone",
+      "Low 2-OH:16α-OH ratio",
+      "Low progesterone relative to estrogen",
+      "PMS symptoms, cyclical breast tenderness"
+    ],
+    "skin_effects": [
+      "Melasma",
+      "Cyclical acne flares",
+      "Increased skin sensitivity",
+      "Telangiectasias"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 4.3 (DIM, CDG)",
+      "skin-condition-profiles.md: Melasma section"
+    ]
+  },
+  {
+    "id": "testosterone_excess",
+    "name": "Testosterone / DHT Excess",
+    "body_system": "hormonal",
+    "description": "Elevated androgens (testosterone, DHT, DHEA-S) drive sebaceous gland hyperplasia, sebum overproduction, and follicular hyperkeratinization. Primary driver of acne, hirsutism, and androgenic alopecia. Sources: PCOS, adrenal hyperplasia, exogenous androgens.",
+    "evidence_level": "A",
+    "key_markers": [
+      "Elevated total testosterone (>55 ng/dL in women)",
+      "Elevated free testosterone",
+      "Elevated DHEA-S",
+      "Elevated DHT",
+      "Low SHBG"
+    ],
+    "associated_conditions": [
+      "acne-vulgaris",
+      "hormonal-acne",
+      "hirsutism",
+      "androgenic-alopecia",
+      "seborrheic-dermatitis"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.4",
+      "skin-condition-profiles.md: Acne root causes table"
+    ]
+  },
+  {
+    "id": "thyroid_dysfunction",
+    "name": "Thyroid Dysfunction",
+    "body_system": "hormonal",
+    "description": "Hypothyroidism or hyperthyroidism affecting skin metabolism. Hypothyroidism causes xerosis, myxedema, hair loss, and brittle nails. Hyperthyroidism causes warm/moist skin, fine hair, and heat intolerance. Both affect wound healing and skin barrier.",
+    "evidence_level": "B",
+    "key_markers": [
+      "TSH (elevated in hypo, suppressed in hyper)",
+      "Free T4, free T3",
+      "Anti-TPO, anti-thyroglobulin antibodies (autoimmune)"
+    ],
+    "hypothyroidism_skin_effects": [
+      "Xerosis and scaling",
+      "Myxedema (non-pitting edema)",
+      "Hair loss (diffuse)",
+      "Brittle nails",
+      "Cool, pale skin"
+    ],
+    "hyperthyroidism_skin_effects": [
+      "Warm, moist skin",
+      "Fine, brittle hair",
+      "Pretibial myxedema (Graves)",
+      "Heat intolerance and flushing"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.6",
+      "clinical-guidelines.md: Endocrine workup section"
+    ]
+  },
+  {
+    "id": "chronic_inflammation",
+    "name": "Chronic Systemic Inflammation",
+    "body_system": "immune",
+    "description": "Persistent low-grade inflammation characterized by elevated inflammatory cytokines (IL-6, TNF-α, IL-1β, CRP) and immune dysregulation. Can stem from multiple sources (gut, obesity, autoimmune, chronic infection) and manifests in skin as accelerated aging, impaired healing, and inflammatory conditions.",
+    "evidence_level": "A",
+    "key_markers": [
+      "Elevated hs-CRP",
+      "Elevated IL-6",
+      "Elevated TNF-α",
+      "Elevated IL-1β",
+      "Low albumin (chronic inflammation marker)"
+    ],
+    "sources": [
+      "Gut dysbiosis and metabolic endotoxemia",
+      "Obesity and adipose tissue inflammation",
+      "Autoimmune disease",
+      "Chronic infection",
+      "Smoking",
+      "Poor diet (high glycemic, processed foods)"
+    ],
+    "skin_manifestations": [
+      "Accelerated aging",
+      "Delayed wound healing",
+      "Exacerbation of psoriasis, eczema, acne",
+      "Impaired barrier function"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.3",
+      "lifestyle-skin.md: Section 3 (Diet & Inflammation)"
+    ]
+  },
+  {
+    "id": "nutrient_deficiency_zinc",
+    "name": "Zinc Deficiency",
+    "body_system": "metabolic",
+    "description": "Zinc is essential for skin health as cofactor for collagen synthesis, immune function, DNA repair, and retinol binding protein. Deficiency causes acrodermatitis enteropathica-like rash, impaired wound healing, hair loss, and worsened inflammatory skin conditions.",
+    "evidence_level": "A",
+    "key_markers": [
+      "Low serum zinc (<70 μg/dL)",
+      "Low alkaline phosphatase (zinc-dependent enzyme)"
+    ],
+    "skin_effects": [
+      "Impaired wound healing",
+      "Acrodermatitis enteropathica-like periorificial dermatitis",
+      "Hair loss",
+      "Worsened acne and eczema",
+      "Impaired barrier function"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 4.4 (Zinc)",
+      "skin-condition-profiles.md: Acne supplements table"
+    ]
+  },
+  {
+    "id": "nutrient_deficiency_vitamin_d",
+    "name": "Vitamin D Deficiency",
+    "body_system": "immune",
+    "description": "Vitamin D is a steroid hormone with immune-modulatory effects via VDR (vitamin D receptor) expressed in keratinocytes and immune cells. Deficiency associated with psoriasis, eczema, vitiligo, and increased susceptibility to skin infections. VDR activation suppresses Th17 and promotes Treg.",
+    "evidence_level": "B",
+    "key_markers": [
+      "25-OH vitamin D <30 ng/mL (insufficient)",
+      "25-OH vitamin D <20 ng/mL (deficient)"
+    ],
+    "skin_effects": [
+      "Psoriasis exacerbation",
+      "Atopic dermatitis worsening",
+      "Vitiligo progression",
+      "Increased infection susceptibility",
+      "Impaired barrier function"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 3.2 (vitamin D supplementation)",
+      "clinical-guidelines.md: Psoriasis section"
+    ]
+  },
+  {
+    "id": "nutrient_deficiency_omega3",
+    "name": "Omega-3 Fatty Acid Deficiency",
+    "body_system": "metabolic",
+    "description": "Omega-3 fatty acids (EPA/DHA) are precursors for anti-inflammatory resolvins and protectins. Deficiency skews toward pro-inflammatory eicosanoids from omega-6 pathway. Associated with increased inflammatory skin conditions and accelerated skin aging.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Low omega-3 index (<4%)",
+      "Elevated omega-6:omega-3 ratio (>4:1)"
+    ],
+    "skin_effects": [
+      "Increased inflammation",
+      "Impaired barrier lipids",
+      "Dryness and scaling",
+      "Worsened psoriasis and eczema"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 3.2 (omega-3)",
+      "lifestyle-skin.md: Section 3 (Diet)"
+    ]
+  },
+  {
+    "id": "microbiome_imbalance_c_acnes",
+    "name": "C. acnes Phylotype Imbalance",
+    "body_system": "gut",
+    "description": "Shift from protective C. acnes phylotypes (IA2, II, III) to inflammatory IA1 strains in sebaceous follicles. IA1 produces hyaluronate lyase, CAMP factors, and pro-inflammatory porphyrins that trigger TLR2/TLR4-mediated inflammation.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Dominance of IA1 phylotype in acne lesions (60-90% of isolates)",
+      "Reduced phylotype diversity"
+    ],
+    "mechanism": "IA1 strains secrete: hyaluronate lyase (tissue penetration), CAMP factors (keratinocyte cytotoxicity), porphyrins (IL-8, TNF-α via TLR2/TLR4)",
+    "associated_conditions": [
+      "acne-vulgaris",
+      "hormonal-acne"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.1 (C. acnes)"
+    ]
+  },
+  {
+    "id": "microbiome_imbalance_s_aureus",
+    "name": "S. aureus Colonization / Overgrowth",
+    "body_system": "immune",
+    "description": "S. aureus colonization increases from 5% on healthy skin to >90% during atopic dermatitis flares. α-hemolysin (Hla) pores keratinocyte membranes triggering pyroptosis and IL-1β release. Enterotoxins act as superantigens causing massive T-cell activation.",
+    "evidence_level": "B",
+    "key_markers": [
+      "S. aureus colonization >90% (AD flares)",
+      "Bacterial culture positive",
+      "TSST-1, SEA, SEB superantigen detection"
+    ],
+    "associated_conditions": [
+      "eczema-atopic-dermatitis",
+      "impetigo",
+      "folliculitis"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.1 (S. aureus)",
+      "clinical-guidelines.md: AD section (S. aureus decolonization)"
+    ]
+  },
+  {
+    "id": "microbiome_imbalance_malassezia",
+    "name": "Malassezia Overgrowth",
+    "body_system": "gut",
+    "description": "Malassezia globosa lipases break down sebum triglycerides releasing oleic acid, which irritates and disrupts stratum corneum. Associated with seborrheic dermatitis, pityriasis versicolor, and folliculitis. Malassezia-specific IgE correlates with head/neck AD severity.",
+    "evidence_level": "A",
+    "key_markers": [
+      "KOH prep showing budding yeast and short hyphae",
+      "ITS sequencing showing M. globosa/M. restricta dominance",
+      "Malassezia-specific IgE elevation"
+    ],
+    "associated_conditions": [
+      "seborrheic-dermatitis",
+      "tinea-versicolor",
+      "malassezia-folliculitis",
+      "eczema-atopic-dermatitis (head/neck)"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.1 (Malassezia)",
+      "clinical-guidelines.md: Seborrheic dermatitis section"
+    ]
+  },
+  {
+    "id": "microbiome_imbalance_demodex",
+    "name": "Demodex Mite Overgrowth",
+    "body_system": "gut",
+    "description": "Demodex folliculorum (hair follicles) and D. brevis (sebaceous glands) density is 5-10× higher in papulopustular rosacea. Mite-associated Bacillus oleronius triggers TLR2-mediated inflammation. Also associated with blepharitis and demodicosis.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Demodex density >5 mites/cm² (skin surface biopsy)",
+      "Bacillus oleronius IgG reactivity"
+    ],
+    "associated_conditions": [
+      "rosacea",
+      "blepharitis",
+      "demodicosis"
+    ],
+    "treatment_response": "Ivermectin cream targets mites; requires sustained therapy across multiple life cycles (14-18 days each)",
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.1 (Demodex)",
+      "clinical-guidelines.md: Rosacea section"
+    ]
+  },
+  {
+    "id": "gut_permeability",
+    "name": "Increased Gut Permeability",
+    "body_system": "gut",
+    "description": "Functional disruption of intestinal tight junctions allowing paracellular passage of antigens, LPS, and undigested proteins. Distinct from leaky gut as a measured endpoint — specifically the permeability state rather than the syndrome. Documented in acne, psoriasis, AD, and rosacea.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Lactulose:mannitol ratio >0.07",
+      "Serum zonulin >40 ng/mL",
+      "Serum LBP elevation"
+    ],
+    "testing_methods": [
+      "Lactulose-mannitol test (gold standard)",
+      "Serum zonulin ELISA",
+      "Serum LPS / LBP"
+    ],
+    "source_citations": [
+      "gut-skin-axis.md: Section 4.2 (Intestinal Permeability Testing)",
+      "hormone-skin-connection.md: Section 4.4 (glutamine for barrier)"
+    ]
+  },
+  {
+    "id": "oxidative_stress",
+    "name": "Oxidative Stress / ROS Excess",
+    "body_system": "metabolic",
+    "description": "Imbalance between reactive oxygen species (ROS) production and antioxidant defense capacity. Damages cellular lipids, proteins, and DNA. Contributes to photoaging, melanocyte hyperactivation, barrier dysfunction, and inflammatory skin diseases.",
+    "evidence_level": "B",
+    "sources": [
+      "UV radiation",
+      "Pollution (particulate matter, PAHs)",
+      "Smoking",
+      "Poor diet",
+      "Chronic inflammation",
+      "Mitochondrial dysfunction (statins, aging)"
+    ],
+    "skin_effects": [
+      "Collagen degradation via MMP activation",
+      "Lipid peroxidation in barrier",
+      "DNA damage and mutations",
+      "Melanocyte activation and hyperpigmentation",
+      "Inflammatory cascade amplification"
+    ],
+    "source_citations": [
+      "lifestyle-skin.md: Section 3 (UV, pollution, smoking)",
+      "medication-skin-interactions.md: Statins (CoQ10 depletion)"
+    ]
+  },
+  {
+    "id": "glycation",
+    "name": "Advanced Glycation End-Products (AGEs)",
+    "body_system": "metabolic",
+    "description": "Non-enzymatic attachment of glucose to proteins forming AGEs on collagen and elastin → cross-linking → stiffness, reduced elasticity, yellowing. RAGE signaling on keratinocytes/fibroblasts activates NF-κB → IL-6, TNF-α, MMP-9. Accelerated 2-3× in diabetes and insulin resistance.",
+    "evidence_level": "B",
+    "key_markers": [
+      "Skin autofluorescence",
+      "Elevated serum AGEs (pentosidine, CML)",
+      "Elevated HbA1c"
+    ],
+    "skin_effects": [
+      "Collagen cross-linking and stiffness",
+      "Reduced skin elasticity (30-50% in advanced glycation)",
+      "Yellowing of skin",
+      "Accelerated wrinkle formation",
+      "Impaired wound healing"
+    ],
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.5 (glycation)"
+    ]
+  }
+]

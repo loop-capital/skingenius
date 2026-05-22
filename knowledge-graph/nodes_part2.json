@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "RC_001",
+      "type": "RootCause",
+      "name": "Gut Dysbiosis",
+      "description": "Imbalanced gut microbiome with loss of keystone species and pathobiont overgrowth",
+      "key_markers": ["Reduced alpha diversity", "Loss of Faecalibacterium prausnitzii", "Proteobacterial bloom", "Increased zonulin"],
+      "skin_conditions": ["Acne", "Psoriasis", "Atopic Dermatitis", "Rosacea"],
+      "sources": ["gut-skin-axis.md"],
+      "evidence_level": "B"
+    },
+    {
+      "id": "RC_002",
+      "type": "RootCause",
+      "name": "Leaky Gut (Intestinal Permeability)",
+      "description": "Compromised intestinal barrier allowing LPS and antigens to enter systemic circulation",
+      "mechanism": "Zonulin release → tight junction disruption → LPS translocation → TLR4 activation → systemic inflammation",
+      "skin_conditions": ["Acne", "Psoriasis", "Atopic Dermatitis"],
+      "sources": ["gut-skin-axis.md"],
+      "evidence_level": "B"
+    },
+    {
+      "id": "RC_003",
+      "type": "RootCause",
+      "name": "Hormonal Imbalance",
+      "description": "Androgen excess, estrogen deficiency, or progesterone dominance affecting skin",
+      "subtypes": ["Androgen excess", "Estrogen deficiency", "Progesterone dominance", "PCOS", "Menopause"],
+      "skin_conditions": ["Acne", "Melasma", "Hirsutism", "Alopecia"],
+      "sources": ["hormone-skin-connection.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "RC_004",
+      "type": "RootCause",
+      "name": "Insulin Resistance",
+      "description": "Elevated insulin and IGF-1 stimulating sebum production and keratinocyte proliferation",
+      "mechanism": "High insulin → IGF-1 elevation → sebocyte proliferation + androgen synthesis",
+      "skin_conditions": ["Acne", "Acanthosis Nigricans", "Skin Tags"],
+      "sources": ["nutrition-skin.md", "hormone-skin-connection.md"],
+      "evidence_level": "B"
+    },
+    {
+      "id": "RC_005",
+      "type": "RootCause",
+      "name": "Chronic Stress (HPA Dysregulation)",
+      "description": "Sustained cortisol elevation causing collagen breakdown and barrier disruption",
+      "mechanism": "Chronic stress → elevated cortisol → MMP upregulation + collagen suppression + barrier dysfunction",
+      "skin_conditions": ["Acne", "Eczema", "Psoriasis", "Rosacea", "Premature Aging"],
+      "sources": ["hormone-skin-connection.md", "lifestyle-skin.md"],
+      "evidence_level": "B"
+    },
+    {
+      "id": "RC_006",
+      "type": "RootCause",
+      "name": "UV Radiation Damage",
+      "description": "Chronic sun exposure causing DNA damage, photoaging, and immunosuppression",
+      "mechanism": "UVA/UVB → ROS generation → DNA damage → collagen breakdown → immunosuppression",
+      "skin_conditions": ["Photoaging", "Melasma", "Skin Cancer", "PIH"],
+      "sources": ["lifestyle-skin.md", "melanin-assessment.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "RC_007",
+      "type": "RootCause",
+      "name": "Genetic Predisposition",
+      "description": "Inherited factors affecting skin barrier, immune response, and melanocyte activity",
+      "examples": ["HLA-Cw6 (Psoriasis)", "FLG mutations (Eczema)", "MC1R variants (Red hair, increased skin cancer risk)"],
+      "skin_conditions": ["Psoriasis", "Atopic Dermatitis", "Melasma", "Rosacea"],
+      "sources": ["skin-condition-profiles.md", "phenotype-skin-sensitivity.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "RC_008",
+      "type": "RootCause",
+      "name": "Nutrient Deficiency",
+      "description": "Insufficient vitamins, minerals, or fatty acids required for skin health",
+      "common_deficiencies": ["Vitamin D", "Zinc", "Omega-3", "Vitamin C", "Iron"],
+      "skin_conditions": ["Acne", "Eczema", "Poor Wound Healing", "Dry Skin"],
+      "sources": ["nutrition-skin.md", "supplement-protocols.md"],
+      "evidence_level": "B"
+    },
+    {
+      "id": "MECH_001",
+      "type": "Mechanism",
+      "name": "Inflammation",
+      "description": "Immune-mediated tissue response involving cytokines, immune cells, and vascular changes",
+      "key_cytokines": ["IL-1", "IL-6", "TNF-alpha", "IL-17", "IL-8"],
+      "skin_conditions": ["Acne", "Psoriasis", "Eczema", "Rosacea"],
+      "sources": ["skin-condition-profiles.md", "gut-skin-axis.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_002",
+      "type": "Mechanism",
+      "name": "Sebum Overproduction",
+      "description": "Excessive sebaceous gland activity leading to oily skin and follicular congestion",
+      "drivers": ["Androgens", "IGF-1", "Insulin", "Stress (cortisol)"],
+      "skin_conditions": ["Acne", "Seborrheic Dermatitis"],
+      "sources": ["skin-condition-profiles.md", "hormone-skin-connection.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_003",
+      "type": "Mechanism",
+      "name": "Collagen Breakdown",
+      "description": "Degradation of dermal collagen by matrix metalloproteinases",
+      "key_enzymes": ["MMP-1", "MMP-3", "MMP-9"],
+      "triggers": ["UV radiation", "Chronic stress (cortisol)", "Aging", "Smoking"],
+      "skin_conditions": ["Photoaging", "Intrinsic Aging", "Wrinkles"],
+      "sources": ["hormone-skin-connection.md", "lifestyle-skin.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_004",
+      "type": "Mechanism",
+      "name": "Barrier Dysfunction",
+      "description": "Disruption of stratum corneum lipid matrix and tight junction proteins",
+      "key_proteins": ["Filaggrin", "Loricrin", "Involucrin", "Claudin-1", "Occludin"],
+      "skin_conditions": ["Atopic Dermatitis", "Contact Dermatitis", "Xerosis"],
+      "sources": ["skin-condition-profiles.md", "gut-skin-axis.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_005",
+      "type": "Mechanism",
+      "name": "Melanin Overproduction",
+      "description": "Excessive melanin synthesis and transfer to keratinocytes",
+      "key_enzymes": ["Tyrosinase", "TYRP-1", "TYRP-2"],
+      "triggers": ["UV radiation", "Hormones (estrogen)", "Inflammation", "Injury"],
+      "skin_conditions": ["Melasma", "PIH", "Solar Lentigines"],
+      "sources": ["skin-condition-profiles.md", "melanin-assessment.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_006",
+      "type": "Mechanism",
+      "name": "Oxidative Stress",
+      "description": "Excess reactive oxygen species overwhelming antioxidant defenses",
+      "sources_of_ros": ["UV radiation", "Pollution", "Smoking", "Inflammation"],
+      "skin_conditions": ["Photoaging", "Melasma", "Eczema", "Acne"],
+      "sources": ["lifestyle-skin.md", "nutrition-skin.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_007",
+      "type": "Mechanism",
+      "name": "Microbial Dysbiosis",
+      "description": "Imbalance in skin or gut microbiome favoring pathogenic organisms",
+      "key_organisms": ["C. acnes (IA1)", "S. aureus", "Malassezia", "Demodex"],
+      "skin_conditions": ["Acne", "Eczema", "Seborrheic Dermatitis", "Rosacea"],
+      "sources": ["gut-skin-axis.md", "skin-condition-profiles.md"],
+      "evidence_level": "A"
+    },
+    {
+      "id": "MECH_008",
+      "type": "Mechanism",
+      "name": "Angiogenesis/Vascular Dysregulation",
+      "description": "Abnormal blood vessel formation and vascular reactivity",
+      "key_factors": ["VEGF", "TRPV1", "TRPA1", "Bradykinin"],
+      "skin_conditions": ["Rosacea", "Psoriasis", "PIE", "Telangiectasia"],
+      "sources": ["skin-condition-profiles.md"],
+      "evidence_level": "B"
+    }
+  ]
+}

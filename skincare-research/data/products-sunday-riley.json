@@ -1,0 +1,1201 @@
+[
+  {
+    "name": "Good Genes All-In-One Lactic Acid Treatment",
+    "brand": "Sunday Riley",
+    "category": "exfoliating_serum",
+    "price_usd": 122,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Water/Eau/Aqua",
+      "Opuntia Tuna Fruit (Prickly Pear) Extract",
+      "Agave Tequilana Leaf (Blue Agave) Extract",
+      "Cypripedium Pubescens (Lady's Slipper Orchid) Extract",
+      "Opuntia Vulgaris (Cactus) Extract",
+      "Aloe Barbadensis Leaf Extract",
+      "Saccharomyces Cerevisiae (Yeast) Extract",
+      "Lactic Acid",
+      "Caprylic/Capric Triglyceride",
+      "Butylene Glycol",
+      "Squalane",
+      "Cyclomethicone",
+      "Dimethicone",
+      "PPG-12/SMDI Copolymer",
+      "Stearic Acid",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Glyceryl Stearate",
+      "PEG-100 Stearate",
+      "Arnica Montana (Flower) Extract",
+      "PEG-75 Meadowfoam Oil",
+      "Glycyrrhiza Glabra (Licorice) Root Extract",
+      "Cymbopogon Schoenanthus (Lemongrass) Oil",
+      "Triethanolamine",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Steareth-20",
+      "DMDM Hydantoin"
+    ],
+    "key_actives": [
+      {
+        "name": "Lactic Acid",
+        "concentration": "5-10%",
+        "purpose": "AHA exfoliant for surface cell turnover, brightening, and fine line reduction"
+      },
+      {
+        "name": "Licorice Root Extract",
+        "concentration": null,
+        "purpose": "Skin brightening and anti-inflammatory"
+      },
+      {
+        "name": "Prickly Pear Extract",
+        "concentration": null,
+        "purpose": "Antioxidant and soothing"
+      },
+      {
+        "name": "Squalane",
+        "concentration": null,
+        "purpose": "Emollient and skin-identical moisturizer"
+      },
+      {
+        "name": "Yeast Extract",
+        "concentration": null,
+        "purpose": "Moisturizing and skin-conditioning"
+      }
+    ],
+    "conditions_addressed": [
+      "uneven_texture",
+      "dullness",
+      "fine_lines",
+      "hyperpigmentation",
+      "enlarged_pores"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "mature"
+    ],
+    "contraindications": [
+      "broken_skin",
+      "active_eczema",
+      "active_rosacea",
+      "pregnancy",
+      "lactation",
+      "use_with_other_acids_caution",
+      "retinol_same_routine_caution"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Luna Sleeping Night Oil",
+    "brand": "Sunday Riley",
+    "category": "night_oil",
+    "price_usd": 55,
+    "size": "15ml / 0.5 fl oz",
+    "inci_ingredients": [
+      "Persea Gratissima (Extra Virgin Cold Pressed Avocado) Oil",
+      "Vitis Vinifera (Organic Cold Pressed Concord Grape) Seed Oil",
+      "Rubus Fruticosus (Cold Pressed Blackberry) Seed Oil",
+      "Salvia Hispanica (Cold Pressed Chia) Oil",
+      "Dimethyl Isosorbide",
+      "Hydroxypinacolone Retinoate",
+      "Chamomilla Recutita (Matricaria) Flower Oil",
+      "Tanacetum Annuum (Blue Tansy) Oil",
+      "Anthemis Nobilis (English Chamomile) Oil",
+      "Eriocephalus Punctulatus (Cape Chamomile) Oil",
+      "Citrus Aurantium Amara (Neroli) Oil",
+      "Citrus Aurantium Dulcis (Blood Orange) Oil",
+      "Cananga Odorata Flower (Ylang Ylang) Oil",
+      "Vetiveria Zizanoides (Vetiver) Oil",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+      "CI 61565 (Green 6)",
+      "CI 60725 (Violet 2)"
+    ],
+    "key_actives": [
+      {
+        "name": "Hydroxypinacolone Retinoate (HPR)",
+        "concentration": "~0.5%",
+        "purpose": "Next-generation retinoid for cell turnover, wrinkle reduction, and pore refinement without traditional retinol irritation"
+      },
+      {
+        "name": "Blue Tansy Oil",
+        "concentration": null,
+        "purpose": "Anti-inflammatory and calming; provides characteristic blue color"
+      },
+      {
+        "name": "Avocado Oil",
+        "concentration": null,
+        "purpose": "Nourishing emollient rich in fatty acids and vitamin E"
+      },
+      {
+        "name": "Grape Seed Oil",
+        "concentration": null,
+        "purpose": "Antioxidant-rich, lightweight emollient"
+      },
+      {
+        "name": "Blackberry Seed Oil",
+        "concentration": null,
+        "purpose": "Antioxidant with high vitamin E and polyphenol content"
+      },
+      {
+        "name": "Chia Seed Oil",
+        "concentration": null,
+        "purpose": "Richest botanical source of alpha-linolenic acid for barrier support"
+      }
+    ],
+    "conditions_addressed": [
+      "fine_lines",
+      "wrinkles",
+      "enlarged_pores",
+      "uneven_texture",
+      "redness",
+      "dullness"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "mature"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "lactation",
+      "sensitive_skin_caution",
+      "essential_oil_sensitivity",
+      "do_not_use_with_other_retinoids",
+      "sun_required_next_day"
+    ],
+    "ph_range": "not_applicable_oil_based"
+  },
+  {
+    "name": "C.E.O. 15% Vitamin C Brightening Serum",
+    "brand": "Sunday Riley",
+    "category": "brightening_serum",
+    "price_usd": 85,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Tetrahexyldecyl Ascorbate",
+      "Squalane",
+      "Polyglyceryl-6 Distearate",
+      "PEG-8 Beeswax",
+      "Limonene",
+      "Citrus Sinensis (Sweet Orange) Oil",
+      "Citrus Tangerina Peel Oil",
+      "Glycine Soja Sterols",
+      "PPG-12/SMDI Copolymer",
+      "Sodium Phytate",
+      "Tocopherol",
+      "Phenoxyethanol",
+      "Acetamidoethoxyethanol",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Jojoba Esters",
+      "Glycolic Acid",
+      "Caprylyl Glycol",
+      "Cetyl Alcohol",
+      "Polyglyceryl-3 Beeswax",
+      "Chlorphenesin",
+      "Glycerin",
+      "Polysorbate 60",
+      "Sorbitan Isostearate",
+      "Saccharide Isomerate",
+      "Linalool"
+    ],
+    "key_actives": [
+      {
+        "name": "Tetrahexyldecyl Ascorbate (THD Ascorbate)",
+        "concentration": "15%",
+        "purpose": "Stable, oil-soluble vitamin C for brightening, antioxidant protection, and collagen support"
+      },
+      {
+        "name": "Glycolic Acid",
+        "concentration": "<1%",
+        "purpose": "AHA for enhanced exfoliation and penetration"
+      },
+      {
+        "name": "Squalane",
+        "concentration": null,
+        "purpose": "Skin-identical emollient for hydration"
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "concentration": null,
+        "purpose": "Antioxidant that stabilizes vitamin C"
+      },
+      {
+        "name": "Saccharide Isomerate",
+        "concentration": null,
+        "purpose": "Moisture-binding humectant"
+      },
+      {
+        "name": "Glycine Soja Sterols",
+        "concentration": null,
+        "purpose": "Emollient and skin-conditioning"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "hyperpigmentation",
+      "dark_spots",
+      "uneven_skin_tone",
+      "fine_lines",
+      "environmental_damage"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "mature"
+    ],
+    "contraindications": [
+      "ascorbic_acid_allergy_caution",
+      "citrus_oil_sensitivity",
+      "use_with_other_acids_caution",
+      "niacinamide_same_routine_caution",
+      "sensitive_skin_patch_test"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "C.E.O. Glow Vitamin C + Turmeric Face Oil",
+    "brand": "Sunday Riley",
+    "category": "face_oil",
+    "price_usd": 40,
+    "size": "15ml / 0.5 fl oz",
+    "inci_ingredients": [
+      "Rosa Canina (Rosehip) Seed Oil",
+      "Ribes Nigrum (Black Currant) Seed Oil",
+      "Crambe Abyssinica Seed Oil",
+      "Vitis Vinifera (Grape) Seed Oil",
+      "Raphanus Sativus (Radish) Seed Extract",
+      "Rosa Centifolia Flower Extract",
+      "Punica Granatum (Pomegranate) Seed Oil",
+      "Citrus Aurantium Dulcis (Orange) Peel Oil",
+      "Curcuma Longa (Turmeric) Root Extract",
+      "Bisabolol",
+      "Tetrahexyldecyl Ascorbate",
+      "Tocopherol",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+      "Thymus Vulgaris (Thyme) Extract",
+      "Isopropyl Palmitate",
+      "Caprylic/Capric Triglyceride",
+      "Limonene",
+      "Linalool",
+      "Citral"
+    ],
+    "key_actives": [
+      {
+        "name": "Tetrahexyldecyl Ascorbate (THD Ascorbate)",
+        "concentration": null,
+        "purpose": "Stable vitamin C for brightening and antioxidant protection in oil base"
+      },
+      {
+        "name": "Turmeric Root Extract",
+        "concentration": null,
+        "purpose": "Anti-inflammatory and brightening with curcumin"
+      },
+      {
+        "name": "Rosehip Seed Oil",
+        "concentration": null,
+        "purpose": "Rich in linoleic acid and natural retinoic acid precursors"
+      },
+      {
+        "name": "Bisabolol",
+        "concentration": null,
+        "purpose": "Soothing anti-inflammatory from chamomile"
+      },
+      {
+        "name": "Black Currant Seed Oil",
+        "concentration": null,
+        "purpose": "High in GLA and omega fatty acids for barrier repair"
+      },
+      {
+        "name": "Pomegranate Seed Oil",
+        "concentration": null,
+        "purpose": "Antioxidant-rich with punicic acid"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "hyperpigmentation",
+      "uneven_skin_tone",
+      "inflammation",
+      "dryness",
+      "environmental_damage"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "contraindications": [
+      "citrus_oil_sensitivity",
+      "essential_oil_sensitivity",
+      "oily_acne_prone_caution",
+      "pregnancy_caution_turmeric"
+    ],
+    "ph_range": "not_applicable_oil_based"
+  },
+  {
+    "name": "Tidal Brightening Enzyme Water Cream",
+    "brand": "Sunday Riley",
+    "category": "moisturizer",
+    "price_usd": 65,
+    "size": "50ml / 1.7 fl oz",
+    "inci_ingredients": [
+      "Water/Eau/Aqua",
+      "Neopentyl Glycol Diethylhexanoate",
+      "Propanediol",
+      "Polyglycerin-6",
+      "Sodium Acrylates Copolymer",
+      "Glycerin",
+      "Hydrolyzed Jojoba Esters",
+      "Caprylyl Caprylate/Caprate",
+      "Isododecane",
+      "Alpha-Arbutin",
+      "Cucumis Sativus (Cucumber) Fruit Extract",
+      "Allantoin",
+      "Pentylene Glycol",
+      "Adipic Acid/Neopentyl Glycol Crosspolymer",
+      "Lauryl Dimethicone",
+      "Sodium Hyaluronate",
+      "Sodium Hyaluronate Crosspolymer",
+      "Tamarindus Indica Seed Gum",
+      "Aesculus Hippocastanum (Horse Chestnut) Seed Extract",
+      "Strelitzia Nicolai (White Bird Of Paradise) Seed Aril Extract",
+      "Papain",
+      "Algin",
+      "Lecithin",
+      "Melia Azadirachta (Neem) Leaf Extract",
+      "Melia Azadirachta (Neem) Flower Extract",
+      "Corallina Officinalis Extract",
+      "Coccinia Indica Fruit Extract",
+      "Solanum Melongena (Eggplant) Fruit Extract",
+      "Aloe Barbadensis Flower Extract",
+      "Ocimum Sanctum (Holy Basil) Leaf Extract",
+      "Ocimum Basilicum (Basil) Flower/Leaf Extract",
+      "Curcuma Longa (Turmeric) Root Extract",
+      "Sodium Phytate",
+      "Hydrogenated Polyisobutene",
+      "Xanthan Gum",
+      "Synthetic Fluorphlogopite",
+      "Titanium Dioxide",
+      "Tin Oxide",
+      "Caprylyl Glycol",
+      "Tocopherol",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol",
+      "Carbomer",
+      "1,2-Hexanediol",
+      "Sodium Benzoate",
+      "Potassium Sorbate",
+      "Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate",
+      "Benzotriazolyl Dodecyl P-Cresol",
+      "Decyl Glucoside",
+      "Lauryl Glucoside",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      {
+        "name": "Alpha-Arbutin",
+        "concentration": null,
+        "purpose": "Skin-brightening agent that inhibits melanin production"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Hyaluronic acid for deep hydration and plumping"
+      },
+      {
+        "name": "Sodium Hyaluronate Crosspolymer",
+        "concentration": null,
+        "purpose": "Longer-lasting hyaluronic acid for sustained hydration"
+      },
+      {
+        "name": "Papain",
+        "concentration": null,
+        "purpose": "Enzymatic exfoliant for gentle surface cell turnover"
+      },
+      {
+        "name": "Tamarind Seed Gum",
+        "concentration": null,
+        "purpose": "Natural moisturizing polysaccharide with hyaluronic acid-like properties"
+      },
+      {
+        "name": "Turmeric Root Extract",
+        "concentration": null,
+        "purpose": "Anti-inflammatory and brightening"
+      },
+      {
+        "name": "Horse Chestnut Extract",
+        "concentration": null,
+        "purpose": "Soothing and circulation-supporting"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "hyperpigmentation",
+      "dehydration",
+      "uneven_texture",
+      "dark_spots"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily",
+      "dehydrated"
+    ],
+    "contraindications": [
+      "enzyme_sensitivity",
+      "arbutin_sensitivity_rare"
+    ],
+    "ph_range": "5.0-6.5"
+  },
+  {
+    "name": "Ice Ceramide Moisturizing Cream",
+    "brand": "Sunday Riley",
+    "category": "moisturizer",
+    "price_usd": 65,
+    "size": "50ml / 1.7 fl oz",
+    "inci_ingredients": [
+      "Water/Eau/Aqua",
+      "Chondrus Crispus (Red Algae) Extract",
+      "Squalane",
+      "C13-15 Alkane",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Wax",
+      "Lanolin Alcohol",
+      "Tri(Polyglyceryl-3/Lauryl) Hydrogenated Trilinoleate",
+      "Cocos Nucifera (Coconut) Fruit Extract",
+      "Ceramide NP",
+      "Ceramide EOP",
+      "Ceramide AP",
+      "Sodium Hyaluronate",
+      "Linoleic Acid",
+      "Oleic Acid",
+      "Palmitic Acid",
+      "Linolenic Acid",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Fruit Extract",
+      "Fructooligosaccharides",
+      "Beta Vulgaris (Beet) Root Extract",
+      "Shea Butter Ethyl Esters",
+      "Prunus Armeniaca (Apricot) Fruit Extract",
+      "Pimpinella Anisum (Anise) Fruit Extract",
+      "Rubus Idaeus (Raspberry) Fruit Extract",
+      "Vanilla Planifolia Fruit Extract",
+      "Cucumis Melo (Melon) Fruit Extract",
+      "Punica Granatum Sterols",
+      "Rosa Damascena Flower Oil",
+      "Ananas Sativus (Pineapple) Fruit Extract",
+      "Cinnamomum Cassia Leaf Oil",
+      "Ricinus Communis (Castor) Seed Oil",
+      "Rhus Verniciflua Peel Wax",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Triethyl Citrate",
+      "Tapioca Starch",
+      "Sodium Benzoate",
+      "Potassium Sorbate",
+      "Sodium Phytate",
+      "Magnesium Stearate",
+      "Magnesium Aspartate",
+      "Pentylene Glycol",
+      "Tocopherol",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Lithothamnion Calcareum Extract",
+      "Zinc Gluconate",
+      "Stearic Acid",
+      "Copper Gluconate",
+      "Phenoxyethanol",
+      "Polymethylsilsesquioxane",
+      "Xanthan Gum",
+      "Carbomer",
+      "Ascorbyl Palmitate",
+      "Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate",
+      "Benzotriazolyl Dodecyl P-Cresol"
+    ],
+    "key_actives": [
+      {
+        "name": "Ceramide NP",
+        "concentration": null,
+        "purpose": "Skin-identical ceramide for barrier repair and moisture retention"
+      },
+      {
+        "name": "Ceramide EOP",
+        "concentration": null,
+        "purpose": "Essential ceramide for lipid barrier structure"
+      },
+      {
+        "name": "Ceramide AP",
+        "concentration": null,
+        "purpose": "Ceramide for barrier reinforcement"
+      },
+      {
+        "name": "Squalane",
+        "concentration": null,
+        "purpose": "Skin-identical emollient for hydration"
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "concentration": null,
+        "purpose": "Hyaluronic acid for deep hydration"
+      },
+      {
+        "name": "Phytosphingosine",
+        "concentration": null,
+        "purpose": "Precursor to ceramides with antimicrobial properties"
+      },
+      {
+        "name": "Cholesterol",
+        "concentration": null,
+        "purpose": "Essential lipid for barrier repair in proper ratio with ceramides"
+      },
+      {
+        "name": "Red Algae Extract",
+        "concentration": null,
+        "purpose": "Moisturizing and film-forming polysaccharide"
+      },
+      {
+        "name": "Zinc Gluconate",
+        "concentration": null,
+        "purpose": "Soothing and sebum-regulating mineral"
+      },
+      {
+        "name": "Copper Gluconate",
+        "concentration": null,
+        "purpose": "Skin-repairing and antioxidant mineral"
+      }
+    ],
+    "conditions_addressed": [
+      "dryness",
+      "dehydration",
+      "compromised_barrier",
+      "sensitivity",
+      "fine_lines",
+      "environmental_stress"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "combination",
+      "sensitive",
+      "mature"
+    ],
+    "contraindications": [
+      "lanolin_allergy",
+      "cinnamon_sensitivity",
+      "essential_oil_sensitivity"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Auto Correct Brightening and Depuffing Eye Contour Cream",
+    "brand": "Sunday Riley",
+    "category": "eye_cream",
+    "price_usd": 65,
+    "size": "15ml / 0.5 fl oz",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "PEG-8 Beeswax",
+      "Caprylyl Caprylate/Caprate",
+      "Polyglyceryl-6 Distearate",
+      "Dimethicone",
+      "C10-18 Triglycerides",
+      "Glycerin",
+      "Polypropylsilsesquioxane",
+      "Phenyl Trimethicone",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Trimethylsiloxysilicate",
+      "Anthemis Nobilis Flower Oil",
+      "Boron Nitride",
+      "Fructose",
+      "Jojoba Esters",
+      "Sodium Phytate",
+      "Theobroma Cacao Seed Butter",
+      "Synthetic Fluorphlogopite",
+      "Carthamus Tinctorius Seed Oil",
+      "Methylpropanediol",
+      "Caprylyl Glycol",
+      "Propanediol",
+      "Glycolic Acid",
+      "Caffeine",
+      "Mica",
+      "Triethyl Citrate",
+      "Polysilicone-11",
+      "Titanium Dioxide",
+      "Cetyl Alcohol",
+      "Citrullus Lanatus Fruit Extract",
+      "Polyglyceryl-3 Beeswax",
+      "Butyrospermum Parkii Butter",
+      "Caprylyl/Capryl Glucoside",
+      "Coffea Arabica Seed Extract",
+      "Lens Esculenta Fruit Extract",
+      "Benzoic Acid",
+      "Phenoxyethanol",
+      "Aesculus Hippocastanum Extract",
+      "Pfaffia Paniculata Root Extract",
+      "Ptychopetalum Olacoides Bark/Stem Extract",
+      "Pyrus Malus Fruit Extract",
+      "Lilium Candidum Flower Extract",
+      "Lecithin",
+      "Acmella Oleracea Extract",
+      "Polysorbate 60",
+      "Sorbitan Isostearate",
+      "Tagetes Erecta Flower Extract",
+      "Sodium Lactate",
+      "Silica",
+      "Potassium Sorbate",
+      "Sodium PCA",
+      "Benzyl Alcohol",
+      "Sodium Benzoate",
+      "Citric Acid",
+      "Linalool",
+      "Limonene"
+    ],
+    "key_actives": [
+      {
+        "name": "Caffeine",
+        "concentration": null,
+        "purpose": "Vasoconstrictor that reduces puffiness and dark circles"
+      },
+      {
+        "name": "Brazilian Ginseng (Pfaffia Paniculata) Extract",
+        "concentration": null,
+        "purpose": "Reduces appearance of undereye bags and dark circles"
+      },
+      {
+        "name": "Horse Chestnut Extract",
+        "concentration": null,
+        "purpose": "Improves microcirculation and reduces puffiness"
+      },
+      {
+        "name": "Acmella Oleracea Extract",
+        "concentration": null,
+        "purpose": "Natural botox-like effect to smooth crow's feet and fine lines"
+      },
+      {
+        "name": "Glycolic Acid",
+        "concentration": null,
+        "purpose": "Gentle exfoliation for brightening around eye area"
+      },
+      {
+        "name": "Cocoa Butter",
+        "concentration": null,
+        "purpose": "Rich emollient for nourishment"
+      },
+      {
+        "name": "Shea Butter",
+        "concentration": null,
+        "purpose": "Moisturizing and barrier-supporting"
+      },
+      {
+        "name": "Sodium PCA",
+        "concentration": null,
+        "purpose": "Natural moisturizing factor"
+      },
+      {
+        "name": "Mica + Titanium Dioxide",
+        "concentration": null,
+        "purpose": "Immediate optical brightening effect"
+      }
+    ],
+    "conditions_addressed": [
+      "dark_circles",
+      "puffiness",
+      "crow_feet",
+      "fine_lines",
+      "dullness_eye_area",
+      "tired_eyes"
+    ],
+    "skin_types": [
+      "all",
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "contraindications": [
+      "glycolic_acid_near_eyes_caution",
+      "essential_oil_sensitivity",
+      "mica_sensitivity"
+    ],
+    "ph_range": "4.0-5.5"
+  },
+  {
+    "name": "Saturn Sulfur Acne Treatment Mask",
+    "brand": "Sunday Riley",
+    "category": "acne_treatment",
+    "price_usd": 20,
+    "size": "15ml / 0.5 fl oz",
+    "inci_ingredients": [
+      "Water",
+      "Sulfur",
+      "Isoamyl Laurate",
+      "Cetyl Ethylhexanoate",
+      "Niacinamide",
+      "Gum Arabic (Acacia Senegal Gum)",
+      "Bentonite",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Polyglyceryl-2 Caprate",
+      "Olive Oil Glycereth-8 Esters",
+      "Zinc PCA",
+      "Allantoin",
+      "Dipotassium Glycyrrhizate",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Leptospermum Scoparium (Manuka) Branch/Leaf Oil",
+      "Curcuma Longa (Turmeric) Root Extract",
+      "Corallina Officinalis Extract",
+      "Melia Azadirachta Leaf Extract",
+      "Amber Powder",
+      "Melia Azadirachta Flower Extract",
+      "Coccinia Indica Fruit Extract",
+      "Solanum Melongena (Eggplant) Leaf Extract",
+      "Ocimum Basilicum (Basil) Flower/Leaf Extract",
+      "Quartz",
+      "Polysorbate 60",
+      "Sorbitan Isostearate",
+      "Tocopherol",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Polysorbate 20",
+      "Alcohol Denat.",
+      "Chlorphenesin",
+      "PEG-40 Hydrogenated Castor Oil",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": [
+      {
+        "name": "Sulfur",
+        "concentration": "10%",
+        "purpose": "Keratolytic and antimicrobial for drying and clearing acne"
+      },
+      {
+        "name": "Niacinamide",
+        "concentration": "4%",
+        "purpose": "Anti-inflammatory, sebum-regulating, and pore-refining"
+      },
+      {
+        "name": "Zinc PCA",
+        "concentration": null,
+        "purpose": "Antimicrobial and sebum-regulating mineral complex"
+      },
+      {
+        "name": "Tea Tree Oil",
+        "concentration": null,
+        "purpose": "Antimicrobial with terpinen-4-ol standardization"
+      },
+      {
+        "name": "Manuka Oil",
+        "concentration": null,
+        "purpose": "Potent antimicrobial and anti-inflammatory"
+      },
+      {
+        "name": "Bentonite Clay",
+        "concentration": null,
+        "purpose": "Absorbs excess oil and draws out impurities"
+      },
+      {
+        "name": "Allantoin",
+        "concentration": null,
+        "purpose": "Soothing and healing"
+      },
+      {
+        "name": "Dipotassium Glycyrrhizate",
+        "concentration": null,
+        "purpose": "Anti-inflammatory from licorice"
+      },
+      {
+        "name": "Turmeric Root Extract",
+        "concentration": null,
+        "purpose": "Anti-inflammatory and calming"
+      }
+    ],
+    "conditions_addressed": [
+      "acne",
+      "blemishes",
+      "congested_pores",
+      "excess_oil",
+      "inflammatory_acne",
+      "hormonal_acne",
+      "acne_rosacea"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "contraindications": [
+      "sulfur_allergy",
+      "sensitive_skin_caution",
+      "dry_skin_caution",
+      "do_not_use_with_benzoyl_peroxide",
+      "do_not_use_with_retinoids_same_session",
+      "patch_test_required",
+      "may_discolor_jewelry"
+    ],
+    "ph_range": "5.5-7.0"
+  },
+  {
+    "name": "Ceramic Slip Cleanser",
+    "brand": "Sunday Riley",
+    "category": "cleanser",
+    "price_usd": 35,
+    "size": "150ml / 5 fl oz",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Octyldodecanol",
+      "Propanediol",
+      "Polyglyceryl-2 Caprate",
+      "Polyacrylate-33",
+      "Disodium Laureth Sulfosuccinate",
+      "Sodium Cocoyl Isethionate",
+      "Propylene Carbonate",
+      "Disteardimonium Hectorite",
+      "Caprylyl Glycol",
+      "Kaolin",
+      "Montmorillonite",
+      "Olive Oil Polyglyceryl-6 Esters",
+      "Rice Oil Glycereth-8 Esters",
+      "Sodium Phytate",
+      "Xanthan Gum",
+      "Pentylene Glycol",
+      "Sodium Lauroamphoacetate",
+      "Sodium Methyl Cocoyl Taurate",
+      "Coconut Acid",
+      "Laureth-10",
+      "Trisodium Sulfosuccinate",
+      "Sodium Chloride",
+      "Phospholipids",
+      "Propylene Glycol",
+      "Benzoic Acid",
+      "Sodium Xylenesulfonate",
+      "Dehydroacetic Acid",
+      "PVP",
+      "Bisabolol",
+      "Citrus Aurantium Amara Flower Extract",
+      "Sodium Citrate",
+      "Methylisothiazolinone"
+    ],
+    "key_actives": [
+      {
+        "name": "Kaolin Clay",
+        "concentration": null,
+        "purpose": "Gentle absorbent clay for purifying and tightening pores"
+      },
+      {
+        "name": "Montmorillonite Clay",
+        "concentration": null,
+        "purpose": "Mineral-rich clay for detoxification"
+      },
+      {
+        "name": "Sodium Cocoyl Isethionate",
+        "concentration": null,
+        "purpose": "Gentle coconut-derived surfactant"
+      },
+      {
+        "name": "Rice Oil Glycereth-8 Esters",
+        "concentration": null,
+        "purpose": "Gentle cleansing and conditioning from rice oil"
+      },
+      {
+        "name": "Olive Oil Polyglyceryl-6 Esters",
+        "concentration": null,
+        "purpose": "Mild emollient cleanser"
+      },
+      {
+        "name": "Phospholipids",
+        "concentration": null,
+        "purpose": "Skin-identical lipids for barrier support during cleansing"
+      },
+      {
+        "name": "Bisabolol",
+        "concentration": null,
+        "purpose": "Soothing anti-inflammatory"
+      },
+      {
+        "name": "Disodium Laureth Sulfosuccinate",
+        "concentration": null,
+        "purpose": "Ultra-mild surfactant"
+      }
+    ],
+    "conditions_addressed": [
+      "congested_pores",
+      "excess_oil",
+      "dullness",
+      "uneven_texture"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "methylisothiazolinone_sensitivity",
+      "fragrance_sensitivity_neroli"
+    ],
+    "ph_range": "5.0-6.5"
+  },
+  {
+    "name": "A+ High-Dose Retinoid Serum",
+    "brand": "Sunday Riley",
+    "category": "retinoid_serum",
+    "price_usd": 85,
+    "size": "30ml / 1 fl oz",
+    "inci_ingredients": [
+      "Water/Eau/Aqua",
+      "Propanediol",
+      "Dimethyl Isosorbide",
+      "Triheptanoin",
+      "Dimethicone",
+      "Glycerin",
+      "Pentylene Glycol",
+      "Hexyldecanol",
+      "Disiloxane",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Diheptyl Succinate",
+      "Propylene Carbonate",
+      "Hydroxypinacolone Retinoate",
+      "PPG-24-Glycereth-24",
+      "Phenyl Trimethicone",
+      "Retinol",
+      "Ubiquinone (CoQ10)",
+      "Honey Extract",
+      "Sodium Hyaluronate Crosspolymer",
+      "Algae Extract",
+      "Zingiber Officinale (Ginger) Extract",
+      "Opuntia Ficus-Indica Fruit Extract",
+      "Bisabolol",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Phospholipids",
+      "Saccharomyces Cerevisiae Extract",
+      "Lecithin",
+      "Sodium Acrylates Copolymer",
+      "Hydrogenated Polyisobutene",
+      "1,2-Hexanediol",
+      "4-T-Butylcyclohexanol",
+      "Polyglyceryl-10 Stearate",
+      "Caprylyl Glycol",
+      "Helianthus Annuus Seed Oil",
+      "Sorbitol",
+      "Cetylhydroxyproline Palmitamide",
+      "Polysilicone-11",
+      "Benzoic Acid",
+      "Dehydroacetic Acid",
+      "Sodium Phytate",
+      "Glyceryl Polyacrylate",
+      "Polysorbate",
+      "Hydroxyphenyl Propamidobenzoic Acid",
+      "Stearic Acid",
+      "Brassica Campestris Sterols",
+      "PVP",
+      "Capryloyl Glycerin/Sebacic Acid Copolymer",
+      "Sodium Benzoate",
+      "Alcohol",
+      "Potassium Phosphate",
+      "Decyl Glucoside",
+      "Phenoxyethanol",
+      "Hexylene Glycol",
+      "Potassium Sorbate",
+      "Tocopherol"
+    ],
+    "key_actives": [
+      {
+        "name": "Hydroxypinacolone Retinoate (HPR)",
+        "concentration": "0.5%",
+        "purpose": "Direct-acting retinoid ester that binds retinoic acid receptors without conversion"
+      },
+      {
+        "name": "Retinol",
+        "concentration": null,
+        "purpose": "Traditional vitamin A for cell turnover and collagen stimulation"
+      },
+      {
+        "name": "Coenzyme Q10 (Ubiquinone)",
+        "concentration": null,
+        "purpose": "Antioxidant that supports cellular energy production"
+      },
+      {
+        "name": "Honey Extract",
+        "concentration": null,
+        "purpose": "Humectant and soothing"
+      },
+      {
+        "name": "Sodium Hyaluronate Crosspolymer",
+        "concentration": null,
+        "purpose": "Long-lasting hyaluronic acid for hydration"
+      },
+      {
+        "name": "Bisabolol",
+        "concentration": null,
+        "purpose": "Soothing anti-inflammatory to offset retinoid irritation"
+      },
+      {
+        "name": "4-T-Butylcyclohexanol",
+        "concentration": null,
+        "purpose": "Sensory neutralizer that reduces stinging/burning sensation"
+      },
+      {
+        "name": "Hydroxyphenyl Propamidobenzoic Acid",
+        "concentration": null,
+        "purpose": "Anti-irritant derived from oats"
+      },
+      {
+        "name": "Ginger Extract",
+        "concentration": null,
+        "purpose": "Antioxidant and soothing"
+      },
+      {
+        "name": "Prickly Pear Extract",
+        "concentration": null,
+        "purpose": "Soothing and antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "fine_lines",
+      "wrinkles",
+      "uneven_texture",
+      "enlarged_pores",
+      "hyperpigmentation",
+      "acne",
+      "dullness",
+      "mature_skin"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily",
+      "mature"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "lactation",
+      "trying_to_conceive",
+      "sensitive_skin_introduce_slowly",
+      "do_not_use_with_other_retinoids",
+      "sun_required_daily",
+      "waxing_caution",
+      "avoid_eye_area",
+      "patch_test_required"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Juno Antioxidant + Superseed Face Oil",
+    "brand": "Sunday Riley",
+    "category": "face_oil",
+    "price_usd": 36,
+    "size": "15ml / 0.5 fl oz",
+    "inci_ingredients": [
+      "Rubus Fruticosus (Blackberry) Seed Oil",
+      "Vitis Vinifera (Chardonnay Grape) Seed Oil",
+      "Salvia Hispanica (Chia) Seed Oil",
+      "Camellia Oleifera (Camellia) Seed Oil",
+      "Caprylic/Capric Triglyceride",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Cranberry Seed Oil",
+      "Punica Granatum (Pomegranate) Seed Oil",
+      "Vaccinium Corymbosum (Blueberry) Seed Oil",
+      "Carthamus Tinctorius (Safflower) Seed Oil",
+      "Rosa Canina (Rosehip) Seed Oil",
+      "Mauritia Flexuosa (Buriti) Fruit Oil",
+      "Moringa Oleifera Seed Oil",
+      "Calophyllum Inophyllum (Tamanu) Seed Oil",
+      "Brassica Oleracea Italica (Broccoli) Seed Oil",
+      "Limnanthes Alba (Meadowfoam) Seed Oil",
+      "Tocopherol",
+      "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+      "Citrus Aurantium Amara (Neroli) Oil",
+      "Citrus Aurantium Dulcis (Orange) Peel Oil",
+      "Citrus Grandis (Grapefruit) Peel Oil",
+      "Citrus Aurantium Bergamia (Bergamot) Fruit Oil",
+      "Jasminum Officinale (Jasmine) Oil",
+      "Lavandula Angustifolia (Lavender) Oil"
+    ],
+    "key_actives": [
+      {
+        "name": "Blackberry Seed Oil",
+        "concentration": null,
+        "purpose": "High antioxidant content with vitamin E and carotenoids"
+      },
+      {
+        "name": "Chardonnay Grape Seed Oil",
+        "concentration": null,
+        "purpose": "Polyphenol-rich antioxidant and emollient"
+      },
+      {
+        "name": "Chia Seed Oil",
+        "concentration": null,
+        "purpose": "Richest botanical source of alpha-linolenic acid (omega-3)"
+      },
+      {
+        "name": "Camellia Seed Oil",
+        "concentration": null,
+        "purpose": "Lightweight, fast-absorbing oil rich in oleic acid"
+      },
+      {
+        "name": "Cranberry Seed Oil",
+        "concentration": null,
+        "purpose": "Unique 1:1:1 ratio of omega-3, omega-6, omega-9 fatty acids"
+      },
+      {
+        "name": "Blueberry Seed Oil",
+        "concentration": null,
+        "purpose": "Antioxidant-rich with high vitamin E content"
+      },
+      {
+        "name": "Rosehip Seed Oil",
+        "concentration": null,
+        "purpose": "Natural source of trans-retinoic acid for cell regeneration"
+      },
+      {
+        "name": "Buriti Oil",
+        "concentration": null,
+        "purpose": "Richest natural source of beta-carotene (pro-vitamin A)"
+      },
+      {
+        "name": "Moringa Oil",
+        "concentration": null,
+        "purpose": "Nutrient-dense with zeatin and antioxidants"
+      },
+      {
+        "name": "Tamanu Oil",
+        "concentration": null,
+        "purpose": "Regenerative and healing with calophyllolide"
+      },
+      {
+        "name": "Broccoli Seed Oil",
+        "concentration": null,
+        "purpose": "Natural silicone alternative with moisturizing properties"
+      },
+      {
+        "name": "Meadowfoam Seed Oil",
+        "concentration": null,
+        "purpose": "Long-chain fatty acids for superior moisture retention"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "dryness",
+      "environmental_damage",
+      "fine_lines",
+      "uneven_texture",
+      "dehydration"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "mature"
+    ],
+    "contraindications": [
+      "essential_oil_sensitivity",
+      "citrus_oil_photosensitivity",
+      "oily_acne_prone_caution",
+      "rosehip_sensitivity"
+    ],
+    "ph_range": "not_applicable_oil_based"
+  }
+]

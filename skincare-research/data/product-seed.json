@@ -1,0 +1,443 @@
+[
+  {
+    "name": "CeraVe Moisturizing Cream",
+    "brand": "CeraVe",
+    "category": "moisturizer",
+    "price_range": "$10-15",
+    "key_ingredients": ["Ceramides", "Hyaluronic Acid", "Glycerin"],
+    "best_for": ["dry skin", "sensitive skin", "barrier repair", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price_range": "$6-8",
+    "key_ingredients": ["Niacinamide", "Zinc PCA"],
+    "best_for": ["oily skin", "acne-prone", "enlarged pores", "redness"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "La Roche-Posay Hyalu B5 Serum",
+    "brand": "La Roche-Posay",
+    "category": "serum",
+    "price_range": "$35-40",
+    "key_ingredients": ["Hyaluronic Acid", "Vitamin B5 (Panthenol)", "Madecassoside"],
+    "best_for": ["dehydration", "fine lines", "sensitive skin", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "SkinCeuticals C E Ferulic",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price_range": "$166-182",
+    "key_ingredients": ["Vitamin C (L-Ascorbic Acid)", "Vitamin E", "Ferulic Acid"],
+    "best_for": ["antioxidant protection", "brightening", "anti-aging", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Paula's Choice CLEAR Oil-Free Moisturizer",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price_range": "$29-32",
+    "key_ingredients": ["Hyaluronic Acid", "Green Tea Extract", "Licorice Root"],
+    "best_for": ["acne-prone", "oily skin", "combination skin", "sensitive skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Granactive Retinoid 2% Emulsion",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price_range": "$9-11",
+    "key_ingredients": ["Hydroxypinacolone Retinoate"],
+    "best_for": ["anti-aging", "acne", "texture improvement", "sensitive to retinol"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Vanicream Gentle Facial Cleanser",
+    "brand": "Vanicream",
+    "category": "cleanser",
+    "price_range": "$8-12",
+    "key_ingredients": ["Glycerin", "Cetyl Alcohol", "Stearyl Alcohol"],
+    "best_for": ["sensitive skin", "eczema", "rosacea", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "EltaMD UV Clear Broad-Spectrum SPF 46",
+    "brand": "EltaMD",
+    "category": "sunscreen",
+    "price_range": "$36-39",
+    "key_ingredients": ["Zinc Oxide", "Niacinamide", "Hyaluronic Acid", "Lactic Acid"],
+    "best_for": ["acne-prone", "rosacea", "sensitive skin", "daily wear"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "brand": "Neutrogena",
+    "category": "moisturizer",
+    "price_range": "$18-22",
+    "key_ingredients": ["Hyaluronic Acid", "Glycerin"],
+    "best_for": ["dehydration", "all skin types", "oily skin needing hydration"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Differin Gel 0.1% Adapalene",
+    "brand": "Differin",
+    "category": "treatment",
+    "price_range": "$12-15",
+    "key_ingredients": ["Adapalene"],
+    "best_for": ["acne", "blackheads", "whiteheads", "prevention"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Vitamin C Suspension 23% + HA Spheres 2%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price_range": "$6-8",
+    "key_ingredients": ["Vitamin C", "Hyaluronic Acid"],
+    "best_for": ["brightening", "hyperpigmentation", "antioxidant protection"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Cetaphil Gentle Skin Cleanser",
+    "brand": "Cetaphil",
+    "category": "cleanser",
+    "price_range": "$10-14",
+    "key_ingredients": ["Glycerin", "Cetyl Alcohol", "Propylene Glycol"],
+    "best_for": ["sensitive skin", "dry skin", "all skin types", "daily cleansing"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Buffet + Copper Peptides 1%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price_range": "$14-16",
+    "key_ingredients": ["Peptides", "Copper PCA", "HA", "Matrixyl"],
+    "best_for": ["anti-aging", "firmer skin", "reducing fine lines", "all skin types"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Aveeno Calm + Restore Oat Gel Moisturizer",
+    "brand": "Aveeno",
+    "category": "moisturizer",
+    "price_range": "$12-16",
+    "key_ingredients": ["Oat Extract", "Feverfew", "Glycerin"],
+    "best_for": ["sensitive skin", "redness", "irritation", "dry to normal skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Paula's Choice RESIST Anti-Aging Eye Cream",
+    "brand": "Paula's Choice",
+    "category": "eye cream",
+    "price_range": "$29-32",
+    "key_ingredients": ["Retinol", "Peptides", "Vitamin C", "Niacinamide"],
+    "best_for": ["fine lines", "crow's feet", "dark circles", "puffiness"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "La Roche-Posay Anthelios Melt-in Milk SPF 60",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "price_range": "$32-36",
+    "key_ingredients": ["Avobenzone", "Homosalate", "Octisalate", "Octocrylene"],
+    "best_for": ["daily sun protection", "all skin types", "water resistant"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary AHA 30% + BHA 2% Peeling Solution",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price_range": "$6-8",
+    "key_ingredients": ["Glycolic Acid", "Lactic Acid", "Salicylic Acid"],
+    "best_for": ["exfoliation", "brightening", "texture improvement", "acne-prone"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "CeraVe Hydrating Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "price_range": "$10-14",
+    "key_ingredients": ["Ceramides", "Hyaluronic Acid", "Glycerin"],
+    "best_for": ["dry skin", "sensitive skin", "barrier repair", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Vichy Mineral 89",
+    "brand": "Vichy",
+    "category": "serum",
+    "price_range": "$29-34",
+    "key_ingredients": ["Hyaluronic Acid", "Vichy Mineralizing Water"],
+    "best_for": ["barrier support", "hydration", "all skin types", "sensitive skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Glycolic Acid 7% Toning Solution",
+    "brand": "The Ordinary",
+    "category": "toner",
+    "price_range": "$7-9",
+    "key_ingredients": ["Glycolic Acid", "Aloe Vera", "Ginseng"],
+    "best_for": ["exfoliation", "brightening", "texture improvement", "dull skin"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Neutrogena Rapid Wrinkle Repair Retinol Oil",
+    "brand": "Neutrogena",
+    "category": "treatment",
+    "price_range": "$20-24",
+    "key_ingredients": ["Retinol", "Hyaluronic Acid"],
+    "best_for": ["anti-aging", "fine lines", "wrinkles", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "First Aid Beauty Ultra Repair Cream",
+    "brand": "First Aid Beauty",
+    "category": "moisturizer",
+    "price_range": "$24-28",
+    "key_ingredients": ["Colloidal Oatmeal", "Shea Butter", "Ceramides"],
+    "best_for": ["eczema", "dry skin", "sensitive skin", "itchy skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Natural Moisturizing Factors + HA",
+    "brand": "The Ordinary",
+    "category": "moisturizer",
+    "price_range": "$6-8",
+    "key_ingredients": ["Amino Acids", "Urea", "Hyaluronic Acid", "Ceramides"],
+    "best_for": ["dry skin", "all skin types", "barrier support", "budget-friendly"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "La Roche-Posay Effaclar Duo (+)",
+    "brand": "La Roche-Posay",
+    "category": "treatment",
+    "price_range": "$30-34",
+    "key_ingredients": ["Niacinamide", "Salicylic Acid", "LHA"],
+    "best_for": ["acne", "blemishes", "post-acne marks", "oily skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "CeraVe Skin Renewing Vitamin C Serum",
+    "brand": "CeraVe",
+    "category": "serum",
+    "price_range": "$18-22",
+    "key_ingredients": ["Vitamin C", "Hyaluronic Acid", "Ceramides"],
+    "best_for": ["brightening", "antioxidant protection", "uneven skin tone"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Buffet",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price_range": "$14-16",
+    "key_ingredients": ["Peptides", "HA", "Matrixyl", "Argireline"],
+    "best_for": ["anti-aging", "fine lines", "firmer skin", "all skin types"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Eucerin Advanced Repair Cream",
+    "brand": "Eucerin",
+    "category": "moisturizer",
+    "price_range": "$10-14",
+    "key_ingredients": ["Urea", "Ceramides", "Glycerin"],
+    "best_for": ["very dry skin", "rough patches", "eczema", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Paula's Choice CLEAR Pore Normalizing Cleanser",
+    "brand": "Paula's Choice",
+    "category": "cleanser",
+    "price_range": "$22-25",
+    "key_ingredients": ["Salicylic Acid", "Green Tea", "Licorice Root"],
+    "best_for": ["acne", "blackheads", "oily skin", "combination skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price_range": "$6-8",
+    "key_ingredients": ["Hyaluronic Acid", "Vitamin B5"],
+    "best_for": ["hydration", "plumping", "all skin types", "dehydration"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Neutrogena Oil-Free Acne Wash",
+    "brand": "Neutrogena",
+    "category": "cleanser",
+    "price_range": "$6-9",
+    "key_ingredients": ["Salicylic Acid"],
+    "best_for": ["acne", "oily skin", "blackheads", "breakout-prone"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "CeraVe PM Facial Moisturizing Lotion",
+    "brand": "CeraVe",
+    "category": "moisturizer",
+    "price_range": "$12-16",
+    "key_ingredients": ["Ceramides", "Niacinamide", "Hyaluronic Acid"],
+    "best_for": ["nighttime", "all skin types", "acne-prone", "sensitive skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+    "brand": "La Roche-Posay",
+    "category": "moisturizer",
+    "price_range": "$16-20",
+    "key_ingredients": ["Ceramides", "Niacinamide", "Glycerin"],
+    "best_for": ["sensitive skin", "barrier repair", "dry to normal skin", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Azelaic Acid Suspension 10%",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price_range": "$8-10",
+    "key_ingredients": ["Azelaic Acid"],
+    "best_for": ["rosacea", "acne", "hyperpigmentation", "blemish-prone skin"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Vanicream Moisturizing Cream",
+    "brand": "Vanicream",
+    "category": "moisturizer",
+    "price_range": "$12-16",
+    "key_ingredients": ["Petrolatum", "Glycerin", "Cetyl Alcohol"],
+    "best_for": ["sensitive skin", "eczema", "psoriasis", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "SkinCeuticals Phyto Corrective Gel",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price_range": "$42-46",
+    "key_ingredients": ["Hyaluronic Acid", "Licorice Root", "Green Tea", "Cucumber"],
+    "best_for": ["redness", "sensitive skin", "calming", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Cetaphil PRO Redness Relieving Prims Moisturizer",
+    "brand": "Cetaphil",
+    "category": "moisturizer",
+    "price_range": "$14-18",
+    "key_ingredients": ["Licorice Root", "Allantoin", "Glycerin"],
+    "best_for": ["rosacea", "redness", "sensitive skin", "irritation"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Retinol 0.5% in Squalane",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price_range": "$6-8",
+    "key_ingredients": ["Retinol", "Squalane"],
+    "best_for": ["anti-aging", "acne", "texture improvement", "beginner retinol"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55",
+    "brand": "Neutrogena",
+    "category": "sunscreen",
+    "price_range": "$9-12",
+    "key_ingredients": ["Homosalate", "Octisalate", "Octocrylene", "Avobenzone"],
+    "best_for": ["daily sun protection", "oily skin", "non-greasy feel", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "First Aid Beauty KP Bump Eraser Body Scrub",
+    "brand": "First Aid Beauty",
+    "category": "exfoliant",
+    "price_range": "$22-26",
+    "key_ingredients": ["Glycolic Acid", "Lactic Acid", "Pumice"],
+    "best_for": ["keratosis pilaris", "rough skin", "body exfoliation", "bumpy skin"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "CeraVe SA Cleanser for Rough & Bumpy Skin",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "price_range": "$10-14",
+    "key_ingredients": ["Salicylic Acid", "Ceramides", "Hyaluronic Acid"],
+    "best_for": ["keratosis pilaris", "rough texture", "acne", "bumpy skin"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "La Roche-Posay Cicaplast Baume B5",
+    "brand": "La Roche-Posay",
+    "category": "healing balm",
+    "price_range": "$12-16",
+    "key_ingredients": ["Panthenol", "Madecassoside", "Zinc"],
+    "best_for": ["barrier repair", "post-procedure", "irritation", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Natural Moisturizing Factors",
+    "brand": "The Ordinary",
+    "category": "moisturizer",
+    "price_range": "$5-7",
+    "key_ingredients": ["Amino Acids", "Urea", "Ceramides", "Fatty Acids"],
+    "best_for": ["dry skin", "barrier support", "all skin types", "minimalist routine"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Paula's Choice RESIST Anti-Aging Moisturizer",
+    "brand": "Paula's Choice",
+    "category": "moisturizer",
+    "price_range": "$32-36",
+    "key_ingredients": ["Retinol", "Peptides", "Vitamin C", "Niacinamide"],
+    "best_for": ["anti-aging", "fine lines", "wrinkles", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "Vichy LiftActiv Vitamin C Serum",
+    "brand": "Vichy",
+    "category": "serum",
+    "price_range": "$32-36",
+    "key_ingredients": ["Vitamin C", "Hyaluronic Acid", "Vichy Mineralizing Water"],
+    "best_for": ["brightening", "antioxidant protection", "anti-aging", "all skin types"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Buffet + Copper Peptides 1%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "price_range": "$14-16",
+    "key_ingredients": ["Peptides", "Copper PCA", "HA", "Matrixyl"],
+    "best_for": ["anti-aging", "firmer skin", "reducing fine lines", "all skin types"],
+    "evidence_grade": "B"
+  },
+  {
+    "name": "Neutrogena Rapid Clear Stubborn Acne Spot Treatment",
+    "brand": "Neutrogena",
+    "category": "treatment",
+    "price_range": "$6-9",
+    "key_ingredients": ["Benzoyl Peroxide"],
+    "best_for": ["spot treatment", "active breakouts", "inflammatory acne", "overnight results"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "CeraVe Hydrating Hyaluronic Acid Serum",
+    "brand": "CeraVe",
+    "category": "serum",
+    "price_range": "$14-18",
+    "key_ingredients": ["Hyaluronic Acid", "Ceramides"],
+    "best_for": ["hydration", "plumping", "all skin types", "dehydration"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "La Roche-Posay Anthelios UVMune 400 Fluid SPF 50+",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "price_range": "$34-38",
+    "key_ingredients": ["Mexoryl XL", "Mexoryl SX", "Avobenzone"],
+    "best_for": ["ultra-high sun protection", "daily wear", "all skin types", "photostable"],
+    "evidence_grade": "A"
+  },
+  {
+    "name": "The Ordinary Mandelic Acid 10% + HA",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "price_range": "$6-8",
+    "key_ingredients": ["Mandelic Acid", "Hyaluronic Acid"],
+    "best_for": ["acne-prone", "sensitive skin", "hyperpigmentation", "gentle exfoliation"],
+    "evidence_grade": "B"
+  }
+]

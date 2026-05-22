@@ -1,0 +1,1151 @@
+[
+  {
+    "name": "C E Ferulic",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$182",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Ethoxydiglycol",
+      "L-Ascorbic Acid",
+      "Glycerin",
+      "Propylene Glycol",
+      "Laureth-23",
+      "Phenoxyethanol",
+      "Tocopherol",
+      "Triethanolamine",
+      "Ferulic Acid",
+      "Sodium Hyaluronate"
+    ],
+    "key_actives": [
+      "L-Ascorbic Acid 15%",
+      "Vitamin E 1%",
+      "Ferulic Acid 0.5%"
+    ],
+    "conditions_addressed": [
+      "antioxidant protection",
+      "fine lines",
+      "sun damage",
+      "all skin types"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains ferulic acid - patch test recommended for sensitive skin",
+      "L-ascorbic acid can cause irritation in very sensitive skin",
+      "Use with caution if allergic to vitamin C derivatives",
+      "Photosensitivity - must use sunscreen daily"
+    ],
+    "ph_range": "2.5-3.5"
+  },
+  {
+    "name": "Silymarin CF",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$182",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Alcohol Denat.",
+      "L-Ascorbic Acid",
+      "Silybum Marianum Fruit Extract",
+      "Propylene Glycol",
+      "Ferulic Acid",
+      "Salicylic Acid",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Silymarin",
+      "L-Ascorbic Acid",
+      "Ferulic Acid"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "acne-prone",
+      "antioxidant protection"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains salicylic acid - avoid during pregnancy and breastfeeding",
+      "Contains alcohol denat - may irritate very sensitive skin",
+      "Avoid if allergic to milk thistle (silymarin)",
+      "Photosensitivity - must use sunscreen daily"
+    ],
+    "ph_range": "2.5-3.5"
+  },
+  {
+    "name": "Phloretin CF",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$182",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Alcohol Denat.",
+      "L-Ascorbic Acid",
+      "Phloretin",
+      "Propylene Glycol",
+      "Ferulic Acid",
+      "Disodium EDTA",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Phloretin",
+      "L-Ascorbic Acid",
+      "Ferulic Acid"
+    ],
+    "conditions_addressed": [
+      "combination skin",
+      "hyperpigmentation",
+      "antioxidant protection"
+    ],
+    "skin_types": [
+      "combination",
+      "normal",
+      "oily"
+    ],
+    "contraindications": [
+      "Contains alcohol denat - may irritate very sensitive skin",
+      "L-ascorbic acid can cause irritation in very sensitive skin",
+      "Use with caution if allergic to apple/pear-derived compounds",
+      "Photosensitivity - must use sunscreen daily"
+    ],
+    "ph_range": "2.5-3.5"
+  },
+  {
+    "name": "Serum 10 AOX+",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$72",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Propylene Glycol",
+      "L-Ascorbic Acid",
+      "Glycerin",
+      "Citrus Grandis (Grapefruit) Extract",
+      "Parfum / Fragrance",
+      "Hydroxyethylcellulose",
+      "Triethanolamine",
+      "Ferulic Acid",
+      "Sodium Hyaluronate"
+    ],
+    "key_actives": [
+      "L-Ascorbic Acid",
+      "Ferulic Acid"
+    ],
+    "conditions_addressed": [
+      "sensitive skin",
+      "beginners",
+      "gentle antioxidant"
+    ],
+    "skin_types": [
+      "sensitive",
+      "all"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains grapefruit extract - avoid if allergic to citrus",
+      "L-ascorbic acid can cause irritation in very sensitive skin",
+      "Photosensitivity - must use sunscreen daily"
+    ],
+    "ph_range": "2.5-3.5"
+  },
+  {
+    "name": "P-TIOX Anti-Wrinkle Cream",
+    "brand": "SkinCeuticals",
+    "category": "treatment",
+    "price": "$120",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Cetearyl Alcohol",
+      "Butylene Glycol",
+      "Ceteareth-20",
+      "Pentaerythrityl Tetraisostearate",
+      "Propylene Glycol",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Retinol",
+      "Peptides",
+      "Tocopherol",
+      "Bisabolol",
+      "Boswellia Serrata Extract",
+      "Dimethicone",
+      "Phenoxyethanol",
+      "Polysorbate 20",
+      "Caprylic/Capric Triglyceride",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Peptides",
+      "Retinol",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "fine lines",
+      "wrinkles"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Introduce gradually to avoid irritation",
+      "Photosensitivity - must use sunscreen daily",
+      "Not suitable for very sensitive skin without patch test"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "A.G.E. Interrupter Advanced",
+    "brand": "SkinCeuticals",
+    "category": "moisturizer",
+    "price": "$185",
+    "size": "48ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Propylene Glycol",
+      "Cetyl Palmitate",
+      "Hydrogenated Polyisobutene",
+      "Glyceryl Stearate",
+      "Cetyl Alcohol",
+      "Ceteareth-20",
+      "Stearyl Alcohol",
+      "Hydroxypropyl Tetrahydropyrantriol (Proxylane)",
+      "Vaccinium Myrtillus Fruit Extract (Blueberry Extract)",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Proxylane",
+      "Blueberry Extract",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "mature skin",
+      "advanced aging",
+      "glycation"
+    ],
+    "skin_types": [
+      "mature",
+      "dry",
+      "normal"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Safe for most skin types including sensitive"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Triple Lipid Restore 2:4:2",
+    "brand": "SkinCeuticals",
+    "category": "moisturizer",
+    "price": "$150",
+    "size": "48ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Linoleic Acid",
+      "Linolenic Acid",
+      "Oleic Acid",
+      "Tocopherol",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Ceramides",
+      "Cholesterol",
+      "Fatty Acids"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "aging skin",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "dry",
+      "mature",
+      "normal"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Safe for most skin types including sensitive"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Retinol 0.3",
+    "brand": "SkinCeuticals",
+    "category": "treatment",
+    "price": "$72",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Propylene Glycol",
+      "Cetyl Alcohol",
+      "Stearyl Alcohol",
+      "Polysorbate 20",
+      "Retinol 0.3%",
+      "Bisabolol",
+      "Boswellia Serrata Extract",
+      "Dimethicone",
+      "Carbomer",
+      "Tocopherol",
+      "Phenoxyethanol",
+      "Sodium Hydroxide",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Retinol 0.3%",
+      "Bisabolol",
+      "Boswellia Serrata"
+    ],
+    "conditions_addressed": [
+      "retinol beginners",
+      "aging skin",
+      "texture"
+    ],
+    "skin_types": [
+      "all",
+      "beginner"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Not suitable for sensitive skin without gradual introduction",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid combining with other retinoids or strong acids",
+      "Discontinue if severe irritation occurs"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Retinol 0.5",
+    "brand": "SkinCeuticals",
+    "category": "treatment",
+    "price": "$82",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Propylene Glycol",
+      "Cetyl Alcohol",
+      "Stearyl Alcohol",
+      "Polysorbate 20",
+      "Retinol 0.5%",
+      "Bisabolol",
+      "Boswellia Serrata Extract",
+      "Dimethicone",
+      "Carbomer",
+      "Tocopherol",
+      "Phenoxyethanol",
+      "Sodium Hydroxide",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Retinol 0.5%",
+      "Bisabolol",
+      "Boswellia Serrata"
+    ],
+    "conditions_addressed": [
+      "intermediate users",
+      "aging skin",
+      "wrinkles"
+    ],
+    "skin_types": [
+      "intermediate",
+      "non-sensitive"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Not suitable for beginners or sensitive skin",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid combining with other retinoids or strong acids",
+      "Discontinue if severe irritation occurs"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Retinol 1.0",
+    "brand": "SkinCeuticals",
+    "category": "treatment",
+    "price": "$92",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Propylene Glycol",
+      "Cetyl Alcohol",
+      "Stearyl Alcohol",
+      "Polysorbate 20",
+      "Retinol 1.0%",
+      "Bisabolol",
+      "Boswellia Serrata Extract",
+      "Dimethicone",
+      "Carbomer",
+      "Tocopherol",
+      "Phenoxyethanol",
+      "Sodium Hydroxide",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Retinol 1.0%",
+      "Bisabolol",
+      "Boswellia Serrata"
+    ],
+    "conditions_addressed": [
+      "advanced users",
+      "mature skin",
+      "deep wrinkles"
+    ],
+    "skin_types": [
+      "advanced",
+      "tolerant"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "For experienced retinol users only",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid combining with other retinoids or strong acids",
+      "High risk of irritation - use with caution"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Simply Clean Gel",
+    "brand": "SkinCeuticals",
+    "category": "cleanser",
+    "price": "$36",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Propylene Glycol",
+      "Peg-120 Methyl Glucose Dioleate",
+      "Glycerin",
+      "Sorbitol",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Citrus Grandis (Grapefruit) Peel Oil",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citric Acid",
+      "Sodium Chloride",
+      "Methylparaben",
+      "Propylparaben",
+      "Ethylparaben",
+      "Butylparaben",
+      "Isobutylparaben",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Botanical Extracts",
+      "Hydroxy Acids"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "combination skin",
+      "deep cleansing"
+    ],
+    "skin_types": [
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains SLS - may irritate very sensitive skin",
+      "Contains parabens - avoid if sensitive to parabens",
+      "Contains essential oils - avoid if sensitive to fragrance",
+      "Not suitable for extremely dry or eczema-prone skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Gentle Cleanser Cream",
+    "brand": "SkinCeuticals",
+    "category": "cleanser",
+    "price": "$36",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Cetyl Alcohol",
+      "Propylene Glycol",
+      "Stearyl Alcohol",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Glycerin",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Aloe Barbadensis Leaf Extract",
+      "Allantoin",
+      "Methylparaben",
+      "Propylparaben",
+      "Ethylparaben",
+      "Butylparaben",
+      "Isobutylparaben",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Emollients",
+      "Botanical Extracts"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "sensitive skin",
+      "gentle cleansing"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "normal"
+    ],
+    "contraindications": [
+      "Contains SLS - may irritate very sensitive skin",
+      "Contains parabens - avoid if sensitive to parabens",
+      "Contains essential oils - avoid if sensitive to fragrance",
+      "Patch test recommended for very sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Conditioning Toner",
+    "brand": "SkinCeuticals",
+    "category": "toner",
+    "price": "$36",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Alcohol Denat.",
+      "Glycerin",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Citric Acid",
+      "Sodium Hydroxide",
+      "Methylparaben",
+      "Propylparaben",
+      "Ethylparaben",
+      "Butylparaben",
+      "Isobutylparaben",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Botanical Extracts",
+      "Hydroxy Acids"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "pH balancing",
+      "prep"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains alcohol denat - may dry out very sensitive skin",
+      "Contains parabens - avoid if sensitive to parabens",
+      "Contains witch hazel - avoid if allergic to witch hazel",
+      "Patch test recommended for sensitive skin"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Daily Moisture",
+    "brand": "SkinCeuticals",
+    "category": "moisturizer",
+    "price": "$66",
+    "size": "60ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Tocopherol (Vitamin E)",
+      "Spirulina Maxima Extract (Marine Extract)",
+      "Amino Acids",
+      "Sodium Hyaluronate",
+      "Algae Extract",
+      "Urea",
+      "Allantoin",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Vitamin E",
+      "Marine Extracts",
+      "Amino Acids"
+    ],
+    "conditions_addressed": [
+      "normal skin",
+      "combination skin",
+      "pore minimizing"
+    ],
+    "skin_types": [
+      "normal",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Contains algae - avoid if allergic to seaweed/algae",
+      "Safe for most skin types"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Emollience",
+    "brand": "SkinCeuticals",
+    "category": "moisturizer",
+    "price": "$66",
+    "size": "60ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Marine Extracts",
+      "Essential Oils",
+      "Tocopherol (Vitamin E)",
+      "Macadamia Ternifolia Seed Oil",
+      "Rosemary Extract",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Marine Extracts",
+      "Essential Oils",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "mature skin",
+      "rich hydration"
+    ],
+    "skin_types": [
+      "dry",
+      "mature"
+    ],
+    "contraindications": [
+      "Contains essential oils - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Contains macadamia oil - avoid if allergic to tree nuts",
+      "Rich texture may not suit oily skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Hydrating B5 Gel",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$86",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Panthenol (Vitamin B5)",
+      "Sodium Hyaluronate (Hyaluronic Acid)",
+      "Calcium Pantothenate",
+      "Phenoxyethanol",
+      "Sodium Benzoate",
+      "Sodium PCA",
+      "Urea",
+      "Trehalose",
+      "Polyquaternium-51",
+      "Sodium Hyaluronate Crosspolymer"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Vitamin B5"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "hydration",
+      "plumping"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Generally well-tolerated by all skin types",
+      "Safe for sensitive skin",
+      "Safe during pregnancy and breastfeeding",
+      "No known major contraindications"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Hyaluronic Acid Intensifier",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$102",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Propylene Glycol",
+      "Alcohol Denat.",
+      "Sodium Hyaluronate (Hyaluronic Acid)",
+      "Hydroxypropyl Tetrahydropyrantriol (Proxylane)",
+      "Glycyrrhiza Glabra (Licorice) Root Extract",
+      "Phenoxyethanol",
+      "Caprylyl Glycol",
+      "Parfum / Fragrance",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Proxylane",
+      "Licorice Root"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "dehydration",
+      "fine lines"
+    ],
+    "skin_types": [
+      "aging",
+      "dehydrated"
+    ],
+    "contraindications": [
+      "Contains alcohol denat - may irritate very sensitive skin",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains licorice root - use caution if sensitive to licorice",
+      "Safe for most skin types"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Physical Fusion UV Defense SPF 50",
+    "brand": "SkinCeuticals",
+    "category": "sunscreen",
+    "price": "$42",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Titanium Dioxide",
+      "Zinc Oxide",
+      "Dimethicone",
+      "Cyclohexasiloxane",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Neopentyl Glycol Diheptanoate",
+      "Glycerin",
+      "Artemia Extract",
+      "Iron Oxides",
+      "Silica",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Artemia Extract"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "sun protection",
+      "tinted coverage"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains iron oxides for tint - may not suit very fair or very deep skin tones",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Mineral sunscreen may leave white cast on darker skin",
+      "Safe for sensitive skin and during pregnancy"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Sheer Physical UV Defense SPF 50",
+    "brand": "SkinCeuticals",
+    "category": "sunscreen",
+    "price": "$42",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Titanium Dioxide",
+      "Zinc Oxide",
+      "Dimethicone",
+      "Cyclohexasiloxane",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Neopentyl Glycol Diheptanoate",
+      "Glycerin",
+      "Silica",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "sun protection",
+      "sheer finish"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains silicones - patch test if sensitive to silicones",
+      "Mineral sunscreen may leave white cast on darker skin",
+      "Safe for sensitive skin and during pregnancy",
+      "No known major contraindications"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Sport UV Defense SPF 50",
+    "brand": "SkinCeuticals",
+    "category": "sunscreen",
+    "price": "$42",
+    "size": "90ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Avobenzone",
+      "Homosalate",
+      "Octisalate",
+      "Octocrylene",
+      "Oxybenzone",
+      "Silica",
+      "Dimethicone",
+      "Cyclohexasiloxane",
+      "Glycerin",
+      "Styrene/Acrylates Copolymer",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Avobenzone",
+      "Homosalate",
+      "Octisalate",
+      "Octocrylene",
+      "Oxybenzone"
+    ],
+    "conditions_addressed": [
+      "active lifestyle",
+      "sweat resistant",
+      "sun protection"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains oxybenzone - avoid if sensitive to chemical sunscreens",
+      "Contains chemical filters - may irritate very sensitive skin",
+      "Not recommended for coral reef environments",
+      "Safe for most skin types"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Blemish + Age Defense",
+    "brand": "SkinCeuticals",
+    "category": "treatment",
+    "price": "$92",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Alcohol Denat.",
+      "Methylpropanediol",
+      "Glycolic Acid",
+      "Dioic Acid",
+      "Triethanolamine",
+      "Salicylic Acid",
+      "Citric Acid",
+      "Capryloyl Salicylic Acid",
+      "Sodium Citrate",
+      "Sodium Hydroxide",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Dioic Acid",
+      "Salicylic Acid",
+      "Glycolic Acid",
+      "Citric Acid"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "aging skin",
+      "adult acne"
+    ],
+    "skin_types": [
+      "acne-prone",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains salicylic acid (BHA) - avoid during pregnancy and breastfeeding",
+      "Contains multiple acids - high irritation potential",
+      "Not suitable for sensitive skin",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid combining with other strong acids or retinoids"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "Discoloration Defense",
+    "brand": "SkinCeuticals",
+    "category": "treatment",
+    "price": "$102",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Tranexamic Acid",
+      "Kojic Acid",
+      "Niacinamide",
+      "Hepes (Hydroxyethylpiperazine Ethane Sulfonic Acid)",
+      "Glycerin",
+      "Propylene Glycol",
+      "Phenoxyethanol",
+      "Citric Acid",
+      "Sodium Hydroxide",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      "Tranexamic Acid",
+      "Kojic Acid",
+      "Niacinamide",
+      "HEPES"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "dark spots",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains kojic acid - patch test recommended for sensitive skin",
+      "Contains tranexamic acid - consult doctor if taking blood thinners",
+      "Niacinamide may cause flushing in some individuals",
+      "Photosensitivity - must use sunscreen daily",
+      "Safe for most skin types including sensitive"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Phyto Corrective Gel",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "price": "$68",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Propylene Glycol",
+      "Sodium Hyaluronate (Hyaluronic Acid)",
+      "Cucumis Sativus (Cucumber) Fruit Extract",
+      "Thymus Vulgaris (Thyme) Extract",
+      "Olea Europaea (Olive) Leaf Extract",
+      "Phenoxyethanol",
+      "Parfum / Fragrance",
+      "Sodium Benzoate",
+      "Citric Acid",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Cucumber",
+      "Thyme",
+      "Olive Leaf"
+    ],
+    "conditions_addressed": [
+      "sensitive skin",
+      "redness",
+      "hydration"
+    ],
+    "skin_types": [
+      "sensitive",
+      "all"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains thyme - avoid if allergic to thyme/oregano family",
+      "Contains olive leaf - avoid if allergic to olive",
+      "Generally well-tolerated by sensitive skin",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "AOX+ Eye Gel",
+    "brand": "SkinCeuticals",
+    "category": "eye_cream",
+    "price": "$72",
+    "size": "15ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "L-Ascorbic Acid",
+      "Propylene Glycol",
+      "Glycerin",
+      "Ferulic Acid",
+      "Caffeine",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Sodium Hyaluronate",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "L-Ascorbic Acid",
+      "Ferulic Acid",
+      "Caffeine"
+    ],
+    "conditions_addressed": [
+      "dark circles",
+      "puffiness",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains L-ascorbic acid - may irritate very sensitive eye area",
+      "Contains caffeine - avoid if sensitive to caffeine topically",
+      "Photosensitivity - must use sunscreen daily",
+      "Use caution when applying near eyes",
+      "Patch test recommended for sensitive skin"
+    ],
+    "ph_range": "2.5-3.5"
+  },
+  {
+    "name": "Eye Balm",
+    "brand": "SkinCeuticals",
+    "category": "eye_cream",
+    "price": "$82",
+    "size": "15ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Tocopherol (Vitamin E)",
+      "Soy Isoflavones",
+      "Squalane",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Vitamin E",
+      "Soy Isoflavones",
+      "Squalane"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "mature skin",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "dry",
+      "mature"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains soy isoflavones - avoid if allergic to soy",
+      "Contains shea butter - avoid if allergic to nuts",
+      "Safe for most skin types",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Eye Cream",
+    "brand": "SkinCeuticals",
+    "category": "eye_cream",
+    "price": "$72",
+    "size": "20ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Tocopherol (Vitamin E)",
+      "Aloe Barbadensis Leaf Extract",
+      "Allantoin",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Vitamin E",
+      "Aloe",
+      "Allantoin"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "fine lines",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Generally well-tolerated by all skin types",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  }
+]

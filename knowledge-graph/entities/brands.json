@@ -1,0 +1,242 @@
+[
+  {
+    "id": "aesop",
+    "name": "Aesop",
+    "positioning": "luxury-botanical",
+    "price_tier": "$$$$",
+    "philosophy": "botanical formulations with aromatherapy",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "biologique-recherche",
+    "name": "Biologique Recherche",
+    "positioning": "clinical/luxury",
+    "price_tier": "$$$$",
+    "philosophy": "French clinical methodology, customization",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "environ",
+    "name": "Environ",
+    "positioning": "clinical",
+    "price_tier": "$$$",
+    "philosophy": "vitamin A step-up system",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "is-clinical",
+    "name": "iS Clinical",
+    "positioning": "clinical",
+    "price_tier": "$$$",
+    "philosophy": "results-driven, extremozyme technology",
+    "dermatologist_recommended": true,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "osmosis-beauty",
+    "name": "Osmosis Beauty",
+    "positioning": "holistic/medical",
+    "price_tier": "$$$",
+    "philosophy": "wellness-first, inner health approach",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "pca-skin",
+    "name": "PCA Skin",
+    "positioning": "professional",
+    "price_tier": "$$",
+    "philosophy": "professional treatments, studio-only",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "skinceuticals",
+    "name": "SkinCeuticals",
+    "positioning": "clinical",
+    "price_tier": "$$$$",
+    "philosophy": "antioxidant science, CE Ferulic",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "zo-skin-health",
+    "name": "ZO Skin Health",
+    "positioning": "medical-grade",
+    "price_tier": "$$$",
+    "philosophy": "Dr. Zein Obagi methodology",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "drunk-elephant",
+    "name": "Drunk Elephant",
+    "positioning": "clean-clinical",
+    "price_tier": "$$$$",
+    "philosophy": "clean-compatible, pH-correct",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "the-ordinary",
+    "name": "The Ordinary",
+    "positioning": "budget",
+    "price_tier": "$",
+    "philosophy": "ingredient transparency, affordable",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "paulas-choice",
+    "name": "Paula's Choice",
+    "positioning": "clinical",
+    "price_tier": "$$-$$$",
+    "philosophy": "evidence-based, Paula Begoun",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "la-roche-posay",
+    "name": "La Roche-Posay",
+    "positioning": "pharmacy",
+    "price_tier": "$$",
+    "philosophy": "French pharmacy, thermal spring water",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "cerave",
+    "name": "CeraVe",
+    "positioning": "budget",
+    "price_tier": "$",
+    "philosophy": "ceramide-based, barrier repair",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "eltamd",
+    "name": "EltaMD",
+    "positioning": "professional",
+    "price_tier": "$$",
+    "philosophy": "dermatologist #1 SPF",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "differin",
+    "name": "Differin",
+    "positioning": "budget",
+    "price_tier": "$",
+    "philosophy": "OTC retinoid leader, adapalene",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "alastin",
+    "name": "Alastin",
+    "positioning": "clinical",
+    "price_tier": "$$$$",
+    "philosophy": "TriHex peptide technology, procedure aftercare",
+    "dermatologist_recommended": true,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "tatcha",
+    "name": "Tatcha",
+    "positioning": "luxury/j-beauty",
+    "price_tier": "$$$$",
+    "philosophy": "Japanese beauty rituals, Hadasei-3",
+    "dermatologist_recommended": false,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "black-girl-sunscreen",
+    "name": "Black Girl Sunscreen",
+    "positioning": "inclusive",
+    "price_tier": "$$",
+    "philosophy": "no white cast, melanin-rich skin",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "sunday-riley",
+    "name": "Sunday Riley",
+    "positioning": "clinical-botanical",
+    "price_tier": "$$$",
+    "philosophy": "clinical actives + botanicals",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "glow-recipe",
+    "name": "Glow Recipe",
+    "positioning": "k-beauty/clean",
+    "price_tier": "$$-$$$",
+    "philosophy": "fruit-powered, K-beauty inspired",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "cosrx",
+    "name": "COSRX",
+    "positioning": "k-beauty/budget",
+    "price_tier": "$",
+    "philosophy": "affordable K-beauty, snail mucin, BHA",
+    "dermatologist_recommended": false,
+    "cruelty_free": false,
+    "pregnancy_line": false
+  },
+  {
+    "id": "hyper-skin",
+    "name": "Hyper Skin",
+    "positioning": "inclusive",
+    "price_tier": "$$",
+    "philosophy": "hyperpigmentation specialist, skin of color",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "medik8",
+    "name": "Medik8",
+    "positioning": "clinical",
+    "price_tier": "$$$",
+    "philosophy": "retinol ladder, CSA philosophy",
+    "dermatologist_recommended": true,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  },
+  {
+    "id": "tower-28",
+    "name": "Tower 28",
+    "positioning": "sensitive/clean",
+    "price_tier": "$$",
+    "philosophy": "National Eczema Association accepted",
+    "dermatologist_recommended": false,
+    "cruelty_free": true,
+    "pregnancy_line": false
+  }
+]
