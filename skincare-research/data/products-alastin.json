@@ -1,0 +1,759 @@
+[
+  {
+    "name": "Regenerating Skin Nudge",
+    "brand": "Alastin",
+    "category": "Treatment - Retinol",
+    "price": "$125.00 - $135.00",
+    "size": "1.0 oz (30ml)",
+    "inci_ingredients": [
+      "Water",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Retinol",
+      "Niacinamide",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Lauric Acid",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Tetrapeptide-30",
+      "Hexapeptide-11",
+      "Tocopherol",
+      "Bisabolol",
+      "Allantoin",
+      "Panthenol",
+      "Squalane",
+      "Sodium Hyaluronate",
+      "Dimethicone",
+      "Polysorbate 20",
+      "Ceteareth-20",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Retinol",
+        "concentration": "0.25% - 0.5% (estimated)",
+        "function": "Stimulates collagen, increases cell turnover, reduces fine lines and photodamage"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%",
+        "function": "Barrier support, anti-inflammatory, brightening, regulates sebum"
+      },
+      {
+        "ingredient": "TriHex Technology® (Peptides: Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Tetrapeptide-30, Hexapeptide-11)",
+        "concentration": "Proprietary blend",
+        "function": "Supports extracellular matrix remodeling, enhances collagen and elastin production"
+      },
+      {
+        "ingredient": "Ceramide Complex (NP, AP, EOP)",
+        "concentration": "~1-2% total",
+        "function": "Barrier repair, reduces retinol-associated irritation"
+      }
+    ],
+    "conditions_addressed": [
+      "Photoaging",
+      "Fine lines and wrinkles",
+      "Skin laxity",
+      "Uneven texture",
+      "Post-procedure skin maintenance"
+    ],
+    "skin_types": [
+      "Mature",
+      "Normal",
+      "Dry",
+      "Combination"
+    ],
+    "contraindications": [
+      "Pregnancy (Category C; retinol is contraindicated)",
+      "Breastfeeding",
+      "Sensitive or rosacea-prone skin (introduce slowly)",
+      "Eczema or dermatitis flares",
+      "Avoid concurrent use with AHAs, BHAs, benzoyl peroxide, or other retinoids",
+      "Waxing or aggressive exfoliation on treated areas"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "TriNeck Cream",
+    "brand": "Alastin",
+    "category": "Treatment - Neck/Décolleté",
+    "price": "$115.00 - $125.00",
+    "size": "1.7 oz (50ml)",
+    "inci_ingredients": [
+      "Water",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Hexapeptide-11",
+      "Tetrapeptide-30",
+      "Acetyl Hexapeptide-8",
+      "Tocopherol",
+      "Bisabolol",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Silk",
+      "Squalane",
+      "Allantoin",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Stimulates elastin and collagen synthesis, targeted for neck skin laxity"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%",
+        "function": "Improves elasticity, barrier function, reduces transepidermal water loss"
+      },
+      {
+        "ingredient": "Acetyl Hexapeptide-8 (Argireline)",
+        "concentration": "~0.05-0.1%",
+        "function": "Neuropeptide that reduces muscle contraction-associated lines ('expression lines')"
+      },
+      {
+        "ingredient": "Hydrolyzed Silk",
+        "concentration": "~0.5-1%",
+        "function": "Film-forming, smoothing, improves skin feel and appearance"
+      }
+    ],
+    "conditions_addressed": [
+      "Neck lines and wrinkles",
+      "'Turkey neck' laxity",
+      "Horizontal neck lines",
+      "Décolleté creasing",
+      "Crepey skin texture"
+    ],
+    "skin_types": [
+      "Mature",
+      "Normal",
+      "Dry",
+      "Combination"
+    ],
+    "contraindications": [
+      "Generally well-tolerated; safe in pregnancy (no retinoids)",
+      "Patch test if sensitive to peptides or silicones",
+      "Avoid applying immediately before aggressive procedures"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "HydraTint Pro Mineral Sunscreen SPF 36",
+    "brand": "Alastin",
+    "category": "Sunscreen - Mineral/Tinted",
+    "price": "$70.00 - $75.00",
+    "size": "2.3 oz (68ml)",
+    "inci_ingredients": [
+      "Titanium Dioxide (CI 77891)",
+      "Zinc Oxide",
+      "Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Butylene Glycol",
+      "Glycerin",
+      "Niacinamide",
+      "Tocopherol",
+      "Ascorbyl Palmitate",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Bisabolol",
+      "Allantoin",
+      "Panthenol",
+      "Iron Oxides (CI 77492, CI 77491, CI 77499)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Chloride"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "~10-12%",
+        "function": "Broad-spectrum UVA/UVB mineral filter, anti-inflammatory, soothing"
+      },
+      {
+        "ingredient": "Titanium Dioxide",
+        "concentration": "~2-4%",
+        "function": "UVB mineral filter, contributes to tint and coverage"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2%",
+        "function": "Antioxidant, barrier support, reduces UV-induced pigmentation"
+      },
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Supports collagen while protecting from UV damage"
+      },
+      {
+        "ingredient": "Iron Oxides",
+        "concentration": "Variable for tint",
+        "function": "Provides universal tint, visible light protection (blue light)"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily UV protection",
+      "Post-laser or peel protection",
+      "Hyperpigmentation prevention",
+      "Photoaging prevention",
+      "Post-procedure care"
+    ],
+    "skin_types": [
+      "All",
+      "Sensitive",
+      "Post-Procedure"
+    ],
+    "contraindications": [
+      "Safe in pregnancy and breastfeeding",
+      "Mineral sunscreens preferred for sensitive/post-procedure skin",
+      "Iron oxides may not suit very fair or very deep skin tones (universal tint limitations)"
+    ],
+    "ph_range": "Not applicable (anhydrous/suspension)"
+  },
+  {
+    "name": "SilkSHIELD All Mineral Sunscreen SPF 36",
+    "brand": "Alastin",
+    "category": "Sunscreen - Mineral",
+    "price": "$68.00 - $72.00",
+    "size": "2.0 oz (59ml)",
+    "inci_ingredients": [
+      "Zinc Oxide",
+      "Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Butylene Glycol",
+      "Glycerin",
+      "Niacinamide",
+      "Tocopherol",
+      "Ascorbyl Palmitate",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Bisabolol",
+      "Allantoin",
+      "Panthenol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Chloride"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "~12-14%",
+        "function": "Broad-spectrum UVA/UVB mineral filter, antimicrobial, soothing"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2%",
+        "function": "Anti-inflammatory, barrier support, complements UV protection"
+      },
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Supports extracellular matrix health"
+      },
+      {
+        "ingredient": "Ascorbyl Palmitate",
+        "concentration": "~0.5%",
+        "function": "Oil-soluble antioxidant, supports photoprotection"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily sun protection",
+      "Post-procedure UV defense",
+      "Sensitive skin protection",
+      "Acne-prone skin UV care"
+    ],
+    "skin_types": [
+      "All",
+      "Sensitive",
+      "Acne-Prone",
+      "Post-Procedure"
+    ],
+    "contraindications": [
+      "Safe in pregnancy and breastfeeding",
+      "Zinc oxide is non-irritating; suitable for rosacea and eczema",
+      "Silicone base may not be preferred by all users but is non-comedogenic"
+    ],
+    "ph_range": "Not applicable (anhydrous/suspension)"
+  },
+  {
+    "name": "Restorative Skin Complex",
+    "brand": "Alastin",
+    "category": "Serum - Anti-Aging",
+    "price": "$220.00 - $235.00",
+    "size": "1.0 oz (30ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Hexapeptide-11",
+      "Tetrapeptide-30",
+      "Acetyl Hexapeptide-8",
+      "Tocopherol",
+      "Bisabolol",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Squalane",
+      "Allantoin",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Clears damaged collagen and elastin, stimulates new production; cornerstone of Alastin technology"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~3-5%",
+        "function": "Multi-functional: barrier, brightening, anti-inflammatory, pore refinement"
+      },
+      {
+        "ingredient": "Acetyl Hexapeptide-8",
+        "concentration": "~0.05-0.1%",
+        "function": "Botox-like peptide, reduces dynamic wrinkle depth"
+      },
+      {
+        "ingredient": "Ceramide Complex",
+        "concentration": "~1%",
+        "function": "Barrier repair, essential for mature and compromised skin"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.2-0.5%",
+        "function": "Deep hydration, plumping effect"
+      }
+    ],
+    "conditions_addressed": [
+      "Comprehensive anti-aging",
+      "Fine lines and wrinkles",
+      "Skin laxity",
+      "Volume loss",
+      "Crepey texture",
+      "Post-procedure maintenance",
+      "Pre-procedure skin conditioning"
+    ],
+    "skin_types": [
+      "Mature",
+      "Dry",
+      "Normal",
+      "Combination"
+    ],
+    "contraindications": [
+      "Safe in pregnancy and breastfeeding (no retinoids)",
+      "Premium pricing reflects peptide technology; results visible in 8-12 weeks",
+      "Patch test if history of peptide sensitivity (rare)"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Ultra Light Moisturizer",
+    "brand": "Alastin",
+    "category": "Moisturizer",
+    "price": "$85.00 - $95.00",
+    "size": "2.0 oz (59ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Tocopherol",
+      "Bisabolol",
+      "Panthenol",
+      "Allantoin",
+      "Squalane",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-3%",
+        "function": "Lightweight barrier support, sebum regulation, brightening"
+      },
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Lightweight collagen and elastin support"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.2%",
+        "function": "Hydration without heaviness"
+      }
+    ],
+    "conditions_addressed": [
+      "Lightweight daily hydration",
+      "Oily skin moisture balance",
+      "Under makeup",
+      "Post-procedure light moisture",
+      "Humid climates"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Normal",
+      "Acne-Prone"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "May not provide sufficient moisture for very dry skin (use Restorative Skin Complex or HydraTint instead)",
+      "Non-comedogenic formula"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Ultra Calm Cleansing Cream",
+    "brand": "Alastin",
+    "category": "Cleanser",
+    "price": "$55.00 - $65.00",
+    "size": "5.0 oz (150ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Squalane",
+      "Bisabolol",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Green Tea (Camellia Sinensis) Leaf Extract",
+      "Oat (Avena Sativa) Kernel Extract",
+      "Xanthan Gum",
+      "Carbomer",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Bisabolol",
+        "concentration": "~0.5-1%",
+        "function": "Potent anti-inflammatory, soothing, derived from chamomile"
+      },
+      {
+        "ingredient": "Oat Kernel Extract",
+        "concentration": "~1-2%",
+        "function": "Colloidal oat benefits: soothing, anti-itch, barrier support"
+      },
+      {
+        "ingredient": "Green Tea Extract",
+        "concentration": "~0.5-1%",
+        "function": "Antioxidant (EGCG), anti-inflammatory, photoprotective"
+      },
+      {
+        "ingredient": "Squalane",
+        "concentration": "~2-3%",
+        "function": "Non-irritating emollient, restores lipids without heaviness"
+      }
+    ],
+    "conditions_addressed": [
+      "Gentle cleansing for compromised skin",
+      "Post-procedure care",
+      "Rosacea",
+      "Eczema",
+      "Retinoid-associated irritation",
+      "General sensitivity"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Dry",
+      "Post-Procedure",
+      "Rosacea-Prone",
+      "Eczema-Prone"
+    ],
+    "contraindications": [
+      "Extremely gentle; safe in pregnancy and breastfeeding",
+      "Avoid if allergic to Asteraceae/Compositae family (chamomile-related)",
+      "Suitable for all ages including pediatric with physician guidance"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "INhance Post-Injection Serum",
+    "brand": "Alastin",
+    "category": "Serum - Post-Procedure",
+    "price": "$145.00 - $155.00",
+    "size": "0.5 oz (15ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Hexapeptide-11",
+      "Tetrapeptide-30",
+      "Tocopherol",
+      "Bisabolol",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Squalane",
+      "Allantoin",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Optimizes filler integration, supports collagen around injection sites"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-3%",
+        "function": "Reduces post-injection inflammation, barrier support"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.5%",
+        "function": "Complements HA filler, maintains hydration in treated areas"
+      }
+    ],
+    "conditions_addressed": [
+      "Post-dermal filler care",
+      "Post-Botox care",
+      "Post-thread lift",
+      "Injection site optimization",
+      "Bruising reduction support"
+    ],
+    "skin_types": [
+      "All",
+      "Post-Procedure"
+    ],
+    "contraindications": [
+      "Safe in pregnancy and breastfeeding",
+      "Use as directed by injecting physician",
+      "Do not apply to broken skin or active infection at injection site",
+      "Wait 24 hours post-injection before application (per physician guidance)"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "A-Luminate Brightening Serum",
+    "brand": "Alastin",
+    "category": "Serum - Brightening",
+    "price": "$165.00 - $175.00",
+    "size": "1.0 oz (30ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Niacinamide",
+      "Butylene Glycol",
+      "Tranexamic Acid",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Hexapeptide-11",
+      "Tetrapeptide-30",
+      "Tocopherol",
+      "Bisabolol",
+      "Licorice Root Extract (Glycyrrhiza Glabra)",
+      "Arbutin",
+      "Sodium Hyaluronate",
+      "Squalane",
+      "Panthenol",
+      "Allantoin",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Tranexamic Acid",
+        "concentration": "~2%",
+        "function": "Inhibits plasmin-mediated melanin synthesis; effective for melasma and PIH"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%",
+        "function": "Inhibits melanosome transfer, anti-inflammatory, brightening"
+      },
+      {
+        "ingredient": "Arbutin",
+        "concentration": "~1-2%",
+        "function": "Tyrosinase inhibitor, melanin synthesis blocker"
+      },
+      {
+        "ingredient": "Licorice Root Extract",
+        "concentration": "~0.5-1%",
+        "function": "Glabridin inhibits tyrosinase, anti-inflammatory"
+      },
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Supports skin remodeling during brightening process"
+      }
+    ],
+    "conditions_addressed": [
+      "Melasma",
+      "Post-inflammatory hyperpigmentation (PIH)",
+      "Solar lentigines (age spots)",
+      "Uneven skin tone",
+      "Post-procedure hyperpigmentation prevention"
+    ],
+    "skin_types": [
+      "All",
+      "Hyperpigmentation-Prone",
+      "Melasma-Prone",
+      "Mature"
+    ],
+    "contraindications": [
+      "Tranexamic acid oral is contraindicated in pregnancy; topical data limited—consult physician",
+      "Arbutin can degrade to hydroquinone in alkaline conditions; this formulation is pH-controlled",
+      "Patch test if sensitive to brightening agents",
+      "Always pair with sunscreen; brightening actives increase photosensitivity"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Restorative Eye Treatment",
+    "brand": "Alastin",
+    "category": "Eye Cream",
+    "price": "$110.00 - $120.00",
+    "size": "0.5 oz (15ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Hexapeptide-11",
+      "Tetrapeptide-30",
+      "Acetyl Hexapeptide-8",
+      "Tocopherol",
+      "Bisabolol",
+      "Panthenol",
+      "Sodium Hyaluronate",
+      "Squalane",
+      "Allantoin",
+      "Ceramide NP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Caffeine",
+      "Carbomer",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "TriHex Technology® (Peptides)",
+        "concentration": "Proprietary blend",
+        "function": "Targets periorbital collagen and elastin for firmness"
+      },
+      {
+        "ingredient": "Caffeine",
+        "concentration": "~1%",
+        "function": "Vasoconstrictor, reduces puffiness and dark circles (vascular component)"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2%",
+        "function": "Brightens under-eye area, strengthens fragile periorbital skin"
+      },
+      {
+        "ingredient": "Acetyl Hexapeptide-8",
+        "concentration": "~0.05%",
+        "function": "Reduces crow's feet and expression lines around eyes"
+      },
+      {
+        "ingredient": "Ceramide NP",
+        "concentration": "~0.5%",
+        "function": "Reinforces thin under-eye barrier, reduces transepidermal water loss"
+      }
+    ],
+    "conditions_addressed": [
+      "Under-eye wrinkles",
+      "Crow's feet",
+      "Under-eye puffiness",
+      "Dark circles (vascular/pigmented)",
+      "Periorbital crepiness"
+    ],
+    "skin_types": [
+      "All",
+      "Mature",
+      "Dry"
+    ],
+    "contraindications": [
+      "Safe in pregnancy and breastfeeding",
+      "Caffeine may cause mild tingling; discontinue if irritation occurs",
+      "Avoid direct contact with eyes; for external periorbital use only"
+    ],
+    "ph_range": "5.0 - 6.0"
+  }
+]

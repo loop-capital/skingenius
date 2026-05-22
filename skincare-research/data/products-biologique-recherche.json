@@ -1,0 +1,708 @@
+[
+  {
+    "name": "Lotion P50",
+    "brand": "Biologique Recherche",
+    "category": "toner",
+    "price": "$100",
+    "size": "150 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Citric Acid",
+      "Salicylic Acid",
+      "Gluconolactone",
+      "Niacinamide",
+      "Thiamine HCl (Vitamin B1)",
+      "Riboflavin (Vitamin B2)",
+      "Pyridoxine HCl (Vitamin B6)",
+      "Cyanocobalamin (Vitamin B12)",
+      "Sulfur",
+      "Vinegar (Acetum)",
+      "Sodium Benzoate",
+      "Potassium Sorbate"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Citric Acid",
+      "Salicylic Acid",
+      "Gluconolactone"
+    ],
+    "conditions_addressed": [
+      "normal to oily skin",
+      "exfoliation",
+      "balancing"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains salicylic acid (BHA) — avoid during pregnancy",
+      "Contains AHA acids — use sunscreen daily",
+      "May cause initial purging or tingling",
+      "Avoid if allergic to aspirin (salicylates)",
+      "Not for sensitive skin"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "Lotion P50V",
+    "brand": "Biologique Recherche",
+    "category": "toner",
+    "price": "$100",
+    "size": "150 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Citric Acid",
+      "Niacinamide",
+      "Thiamine HCl (Vitamin B1)",
+      "Riboflavin (Vitamin B2)",
+      "Pyridoxine HCl (Vitamin B6)",
+      "Cyanocobalamin (Vitamin B12)",
+      "Yeast Extract",
+      "Vinegar (Acetum)",
+      "Sodium Benzoate",
+      "Potassium Sorbate"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Citric Acid",
+      "Vitamins",
+      "Yeast Extracts"
+    ],
+    "conditions_addressed": [
+      "mature skin",
+      "vitamin-enriched",
+      "exfoliation"
+    ],
+    "skin_types": [
+      "mature",
+      "dry"
+    ],
+    "contraindications": [
+      "Contains AHA acids — use sunscreen daily",
+      "May cause initial purging or tingling",
+      "Contains yeast extract — avoid if allergic to yeast"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "Lotion P50W",
+    "brand": "Biologique Recherche",
+    "category": "toner",
+    "price": "$100",
+    "size": "150 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Citric Acid",
+      "Gluconolactone",
+      "Niacinamide",
+      "Thiamine HCl (Vitamin B1)",
+      "Riboflavin (Vitamin B2)",
+      "Pyridoxine HCl (Vitamin B6)",
+      "Cyanocobalamin (Vitamin B12)",
+      "Vinegar (Acetum)",
+      "Sodium Benzoate",
+      "Potassium Sorbate"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Citric Acid",
+      "Gentle Formula"
+    ],
+    "conditions_addressed": [
+      "sensitive skin",
+      "gentle exfoliation"
+    ],
+    "skin_types": [
+      "sensitive"
+    ],
+    "contraindications": [
+      "Gentler formula but still contains AHA — use sunscreen daily",
+      "Patch test recommended for very sensitive skin",
+      "Avoid if allergic to any of the acid components"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Lotion P50 PIGM 400",
+    "brand": "Biologique Recherche",
+    "category": "toner",
+    "price": "$110",
+    "size": "150 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Lactic Acid",
+      "Citric Acid",
+      "Gluconolactone",
+      "Niacinamide",
+      "Ascorbic Acid (Vitamin C)",
+      "Arbutin",
+      "Kojic Acid",
+      "Thiamine HCl (Vitamin B1)",
+      "Riboflavin (Vitamin B2)",
+      "Pyridoxine HCl (Vitamin B6)",
+      "Cyanocobalamin (Vitamin B12)",
+      "Vinegar (Acetum)",
+      "Sodium Benzoate",
+      "Potassium Sorbate"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Citric Acid",
+      "Brightening Agents"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "uneven tone",
+      "exfoliation"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains AHA acids — use sunscreen daily",
+      "May cause initial purging or tingling",
+      "Contains arbutin and kojic acid — patch test for sensitive skin",
+      "Avoid during pregnancy due to high acid content"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "Sérum Authentique Elastine",
+    "brand": "Biologique Recherche",
+    "category": "serum",
+    "price": "$120-140",
+    "size": "30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Elastin",
+      "Palmitoyl Pentapeptide-4 (Matrixyl)",
+      "Acetyl Hexapeptide-8 (Argireline)",
+      "Amino Acids",
+      "Hyaluronic Acid",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Elastin",
+      "Peptides",
+      "Amino Acids"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "loss of elasticity",
+      "fine lines"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Contains peptides — generally well-tolerated",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Sérum Authentique Collagène",
+    "brand": "Biologique Recherche",
+    "category": "serum",
+    "price": "$120-140",
+    "size": "30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Soluble Collagen",
+      "Palmitoyl Pentapeptide-4 (Matrixyl)",
+      "Acetyl Hexapeptide-8 (Argireline)",
+      "Amino Acids",
+      "Hyaluronic Acid",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Collagen",
+      "Peptides",
+      "Amino Acids"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "collagen loss",
+      "wrinkles"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Contains collagen peptides — avoid if allergic to marine/bovine sources",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Sérum Authentique Matriciel",
+    "brand": "Biologique Recherche",
+    "category": "serum",
+    "price": "$130-150",
+    "size": "30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Palmitoyl Pentapeptide-4 (Matrixyl)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Growth Factors",
+      "Hyaluronic Acid",
+      "Amino Acids",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Matrixyl",
+      "Peptides",
+      "Growth Factors"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "firming",
+      "volume loss"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains growth factors — consult dermatologist if pregnant or breastfeeding",
+      "Avoid if allergic to peptide ingredients"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Sérum Authentique Complexe Iribiol",
+    "brand": "Biologique Recherche",
+    "category": "serum",
+    "price": "$100-120",
+    "size": "30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Iris Florentina Root Extract",
+      "Zinc PCA",
+      "Salicylic Acid",
+      "Niacinamide",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Iris Extract",
+      "Zinc",
+      "Salicylic Acid"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "oily skin",
+      "imperfections"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains salicylic acid (BHA) — avoid during pregnancy",
+      "May cause dryness — start with every other day",
+      "Avoid if allergic to aspirin (salicylates)"
+    ],
+    "ph_range": "4.0-5.0"
+  },
+  {
+    "name": "Sérum Authentique Sérum Dermopore",
+    "brand": "Biologique Recherche",
+    "category": "serum",
+    "price": "$100-120",
+    "size": "30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Enantia Chlorantha Bark Extract",
+      "Oleanolic Acid",
+      "Niacinamide",
+      "Zinc PCA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Pore-Refining Agents",
+      "Astringents"
+    ],
+    "conditions_addressed": [
+      "enlarged pores",
+      "oily skin",
+      "texture"
+    ],
+    "skin_types": [
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "May cause initial dryness — start with every other day"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Sérum Authentique Sérum PIGM 400",
+    "brand": "Biologique Recherche",
+    "category": "serum",
+    "price": "$130-150",
+    "size": "30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Niacinamide",
+      "Ascorbic Acid (Vitamin C)",
+      "Arbutin",
+      "Kojic Acid",
+      "Licorice Root Extract",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Brightening Agents",
+      "Niacinamide",
+      "Vitamin C"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "melasma",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains vitamin C — may cause irritation for very sensitive skin",
+      "Use sunscreen daily to prevent further pigmentation",
+      "Contains arbutin and kojic acid — patch test for sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Crème VIP O2",
+    "brand": "Biologique Recherche",
+    "category": "moisturizer",
+    "price": "$150-170",
+    "size": "50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Perfluorodecalin (Oxygen Carrier)",
+      "Niacinamide",
+      "Ascorbic Acid (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Hyaluronic Acid",
+      "Ceramide NP",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Oxygenating Agents",
+      "Vitamins",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "dull skin",
+      "oxygenation",
+      "radiance"
+    ],
+    "skin_types": [
+      "dull",
+      "mature"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Contains oxygenating agents — patch test for sensitive skin",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Crème Elastine",
+    "brand": "Biologique Recherche",
+    "category": "moisturizer",
+    "price": "$120-140",
+    "size": "50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Elastin",
+      "Palmitoyl Pentapeptide-4 (Matrixyl)",
+      "Niacinamide",
+      "Tocopherol (Vitamin E)",
+      "Hyaluronic Acid",
+      "Ceramide NP",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Elastin",
+      "Peptides",
+      "Vitamins"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "loss of elasticity",
+      "fine lines"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Contains peptides — generally well-tolerated",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Crème Collagène",
+    "brand": "Biologique Recherche",
+    "category": "moisturizer",
+    "price": "$120-140",
+    "size": "50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Soluble Collagen",
+      "Palmitoyl Pentapeptide-4 (Matrixyl)",
+      "Niacinamide",
+      "Tocopherol (Vitamin E)",
+      "Hyaluronic Acid",
+      "Ceramide NP",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Collagen",
+      "Peptides",
+      "Vitamins"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "collagen loss",
+      "wrinkles"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Contains collagen — avoid if allergic to marine/bovine sources",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Crème Amnios",
+    "brand": "Biologique Recherche",
+    "category": "moisturizer",
+    "price": "$130-150",
+    "size": "50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Amniotic Fluid Extract",
+      "Growth Factors",
+      "Niacinamide",
+      "Tocopherol (Vitamin E)",
+      "Hyaluronic Acid",
+      "Ceramide NP",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Amniotic Fluid",
+      "Growth Factors",
+      "Vitamins"
+    ],
+    "conditions_addressed": [
+      "regeneration",
+      "repair",
+      "aging skin"
+    ],
+    "skin_types": [
+      "mature",
+      "damaged"
+    ],
+    "contraindications": [
+      "Contains growth factors — consult dermatologist if pregnant or breastfeeding",
+      "Contains amniotic fluid-derived ingredients — ethical concerns for some users",
+      "Patch test recommended"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Masque VIP O2",
+    "brand": "Biologique Recherche",
+    "category": "mask",
+    "price": "$80-100",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Perfluorodecalin (Oxygen Carrier)",
+      "Kaolin",
+      "Niacinamide",
+      "Ascorbic Acid (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Hyaluronic Acid",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Oxygenating Agents",
+      "Vitamins",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "dull skin",
+      "oxygenation",
+      "radiance"
+    ],
+    "skin_types": [
+      "dull",
+      "mature"
+    ],
+    "contraindications": [
+      "Safe for most skin types",
+      "Contains oxygenating agents — patch test for sensitive skin",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Masque Visolastine+",
+    "brand": "Biologique Recherche",
+    "category": "mask",
+    "price": "$80-100",
+    "size": "100 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Hyaluronate (Hyaluronic Acid)",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Fatty Acids",
+      "Cholesterol",
+      "Phytosphingosine",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Ceramides",
+      "Moisturizing Agents"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "dehydration",
+      "sensitivity"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "dehydrated"
+    ],
+    "contraindications": [
+      "Safe for sensitive skin",
+      "Ceramide-rich formula — suitable for compromised skin barrier",
+      "Safe for pregnancy"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Masque PIGM 400",
+    "brand": "Biologique Recherche",
+    "category": "mask",
+    "price": "$90-110",
+    "size": "4 masks",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Niacinamide",
+      "Ascorbic Acid (Vitamin C)",
+      "Arbutin",
+      "Kojic Acid",
+      "Licorice Root Extract",
+      "Hyaluronic Acid",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Brightening Agents",
+      "Niacinamide",
+      "Vitamin C"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "melasma",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains brightening agents — use sunscreen daily",
+      "Patch test recommended for sensitive skin",
+      "Contains arbutin and kojic acid — avoid if sensitive to these ingredients"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Protection U.V. SPF 50",
+    "brand": "Biologique Recherche",
+    "category": "sunscreen",
+    "price": "$70-80",
+    "size": "50 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Glycerin",
+      "Tocopherol (Vitamin E)",
+      "Ascorbic Acid (Vitamin C)",
+      "Niacinamide",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "sun protection",
+      "all skin types",
+      "anti-aging"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Mineral sunscreen — may leave white cast on darker skin tones",
+      "Reapply every 2 hours when in sun",
+      "Safe for sensitive skin and pregnancy"
+    ],
+    "ph_range": "6.0-7.0"
+  }
+]

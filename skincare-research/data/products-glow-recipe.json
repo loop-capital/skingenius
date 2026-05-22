@@ -1,0 +1,838 @@
+[
+  {
+    "name": "Watermelon Glow Pink Juice Moisturizer",
+    "brand": "Glow Recipe",
+    "category": "moisturizer",
+    "price_usd": 39.0,
+    "size": "60ml",
+    "inci_ingredients": [
+      "Citrullus Lanatus (Watermelon) Fruit Extract",
+      "Water/Aqua/Eau",
+      "Glycerin",
+      "Citrullus Lanatus (Watermelon) Seed Oil",
+      "Squalane",
+      "Hyaluronic Acid",
+      "Sodium Hyaluronate",
+      "Beta-Glucan",
+      "Moringa Oleifera Seed Extract",
+      "Aloe Barbadensis Flower Extract",
+      "Citrullus Lanatus (Watermelon) Fruit",
+      "Sorbitan Olivate",
+      "Cetearyl Olivate",
+      "Cetearyl Alcohol",
+      "Silica",
+      "Cetyl Alcohol",
+      "1,2-Hexanediol",
+      "Butylene Glycol",
+      "Glycine Soja (Soybean) Sterols",
+      "Carbomer",
+      "Isohexadecane",
+      "Polysorbate 80",
+      "Arginine",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Caprylyl Glycol",
+      "Tocopherol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Parfum/Fragrance",
+      "Red 33 (CI 17200)"
+    ],
+    "key_actives": [
+      {
+        "name": "Watermelon Extract",
+        "purpose": "Hydration, amino acids, vitamins A and C, antioxidants"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Deep hydration, holds 1000x weight in water"
+      },
+      {
+        "name": "Watermelon Seed Oil",
+        "purpose": "Nourishing fatty acids, non-comedogenic moisture"
+      },
+      {
+        "name": "Squalane",
+        "purpose": "Lightweight moisture, skin barrier support"
+      },
+      {
+        "name": "Beta-Glucan",
+        "purpose": "Soothing, antioxidant, supports skin barrier"
+      },
+      {
+        "name": "Moringa Extract",
+        "purpose": "Antioxidant, anti-pollution, purifying"
+      }
+    ],
+    "conditions_addressed": [
+      "dryness",
+      "dullness",
+      "dehydration",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "fragrance sensitivity"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Watermelon Glow Ultra-Fine Mist",
+    "brand": "Glow Recipe",
+    "category": "toner/mist",
+    "price_usd": 28.0,
+    "size": "75ml",
+    "inci_ingredients": [
+      "Citrullus Lanatus (Watermelon) Fruit Extract",
+      "Water/Aqua/Eau",
+      "Citrullus Lanatus (Watermelon) Seed Oil",
+      "Oryza Sativa (Rice) Germ Oil",
+      "Scutellaria Baicalensis Root Extract",
+      "Paeonia Suffruticosa Root Extract",
+      "Glycyrrhiza Glabra (Licorice) Root Extract",
+      "Cucurbita Pepo (Pumpkin) Seed Oil",
+      "Glycine Soja (Soybean) Sterols",
+      "Oryza Sativa (Rice) Germ Extract",
+      "Moringa Oleifera Seed Extract",
+      "Lithospermum Erythrorhizon Root Extract",
+      "Alkanna Tinctoria Root Extract",
+      "Sodium Hyaluronate",
+      "Soy Amino Acids",
+      "Fructooligosaccharides",
+      "Glycerin",
+      "Centella Asiatica Extract",
+      "Hibiscus Sabdariffa Flower Extract",
+      "Acetum/Vinegar/Vinaigre",
+      "Sorbitan Oleate",
+      "Beta-Glucan",
+      "Brassica Oleracea Capitata (Cabbage) Leaf Extract",
+      "Ipomoea Batatas Root Extract",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Benzyl Benzoate",
+      "Phenoxyethanol",
+      "Polyglutamic Acid",
+      "Tocopherol",
+      "Limonene",
+      "Fragrance/Parfum"
+    ],
+    "key_actives": [
+      {
+        "name": "Watermelon Extract (84%)",
+        "purpose": "Amino acids, vitamins A and C, lycopene, antioxidant hydration"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Instant hydration, plumping"
+      },
+      {
+        "name": "Polyglutamic Acid",
+        "purpose": "Enhanced moisture retention, supports HA efficacy"
+      },
+      {
+        "name": "Hibiscus AHA",
+        "purpose": "Natural AHAs for gentle exfoliation and texture smoothing"
+      },
+      {
+        "name": "Rice Germ Oil",
+        "purpose": "Vitamin E, antioxidant-rich hydration"
+      },
+      {
+        "name": "Apple Cider Vinegar",
+        "purpose": "Balances oil production, tones skin"
+      },
+      {
+        "name": "Centella Asiatica",
+        "purpose": "Soothing, calming, supports skin barrier"
+      }
+    ],
+    "conditions_addressed": [
+      "dryness",
+      "dullness",
+      "dehydration",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "fragrance sensitivity",
+      "apple cider vinegar sensitivity"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Watermelon Glow Niacinamide Dew Drops",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "price_usd": 35.0,
+    "size": "40ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Citrullus Lanatus (Watermelon) Fruit Extract",
+      "Glycerin",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Moringa Oleifera Seed Extract",
+      "Citrullus Lanatus (Watermelon) Seed Oil",
+      "Squalane",
+      "Beta-Glucan",
+      "Aloe Barbadensis Flower Extract",
+      "Sorbitan Olivate",
+      "Cetearyl Olivate",
+      "Cetearyl Alcohol",
+      "Silica",
+      "Cetyl Alcohol",
+      "1,2-Hexanediol",
+      "Butylene Glycol",
+      "Glycine Soja (Soybean) Sterols",
+      "Carbomer",
+      "Isohexadecane",
+      "Polysorbate 80",
+      "Arginine",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Caprylyl Glycol",
+      "Tocopherol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Parfum/Fragrance"
+    ],
+    "key_actives": [
+      {
+        "name": "Niacinamide",
+        "concentration": "2%",
+        "purpose": "Brightening, pore-refining, barrier support, oil regulation"
+      },
+      {
+        "name": "Watermelon Extract",
+        "purpose": "Hydration, amino acids, vitamins, antioxidants"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Deep hydration, plumping"
+      },
+      {
+        "name": "Moringa Extract",
+        "purpose": "Antioxidant, anti-pollution"
+      },
+      {
+        "name": "Beta-Glucan",
+        "purpose": "Soothing, antioxidant, barrier support"
+      }
+    ],
+    "conditions_addressed": [
+      "dullness",
+      "enlarged pores",
+      "uneven tone",
+      "dryness",
+      "dehydration"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "fragrance sensitivity"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Avocado Ceramide Recovery Serum",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "price_usd": 45.0,
+    "size": "30ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Persea Gratissima (Avocado) Oil",
+      "Glycerin",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Sodium Hyaluronate",
+      "Persea Gratissima (Avocado) Fruit Extract",
+      "Allantoin",
+      "Rice Ferment Filtrate (Sake)",
+      "Centella Asiatica Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Tocopherol",
+      "Squalane",
+      "Beta-Glucan",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Caprylyl Glycol",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Lauroyl Lactylate",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      {
+        "name": "Ceramides (NP, AP, EOP)",
+        "purpose": "Barrier repair, lipid restoration, moisture retention"
+      },
+      {
+        "name": "Avocado Oil",
+        "purpose": "Nourishing fatty acids, vitamin E, barrier support"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Hydration, plumping"
+      },
+      {
+        "name": "Phytosphingosine",
+        "purpose": "Skin-identical lipid, antimicrobial, barrier support"
+      },
+      {
+        "name": "Allantoin",
+        "purpose": "Soothing, healing, calming"
+      },
+      {
+        "name": "Centella Asiatica",
+        "purpose": "Soothing, wound healing, anti-inflammatory"
+      },
+      {
+        "name": "Rice Ferment Filtrate (Sake)",
+        "purpose": "Brightening, smoothing, nutrient-rich"
+      }
+    ],
+    "conditions_addressed": [
+      "redness",
+      "sensitivity",
+      "barrier damage",
+      "dryness",
+      "irritation"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "combination",
+      "normal"
+    ],
+    "contraindications": [
+      "avocado allergy"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Banana Souffle Moisture Cream",
+    "brand": "Glow Recipe",
+    "category": "moisturizer",
+    "price_usd": 39.0,
+    "size": "50ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Propanediol",
+      "Glycerin",
+      "C13-15 Alkane",
+      "Caprylic/Capric Triglyceride",
+      "C9-12 Alkane",
+      "Musa Sapientum (Banana) Water",
+      "Squalane",
+      "Pentylene Glycol",
+      "Musa Sapientum (Banana) Flower Extract",
+      "Musa Sapientum (Banana) Peel Extract",
+      "Musa Sapientum (Banana) Pulp Extract",
+      "Centella Asiatica Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Tocopherol",
+      "Sodium Hyaluronate",
+      "Beta-Glucan",
+      "Allantoin",
+      "Acetyl Glucosamine",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Caprylyl Glycol",
+      "Cetearyl Alcohol",
+      "Ethylhexylglycerin",
+      "Glyceryl Stearate",
+      "Isononyl Isononanoate",
+      "Sodium Chloride",
+      "Sodium Hydroxide",
+      "Stearic Acid",
+      "Xylitylglucoside",
+      "Anhydroxylitol",
+      "Xylitol",
+      "1,2-Hexanediol",
+      "Phenoxyethanol",
+      "Fragrance/Parfum"
+    ],
+    "key_actives": [
+      {
+        "name": "Banana Extract",
+        "purpose": "Potassium, vitamin B6, amino acids, moisture barrier support"
+      },
+      {
+        "name": "Centella Asiatica",
+        "purpose": "Soothing, healing, anti-inflammatory"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Hydration, plumping"
+      },
+      {
+        "name": "Squalane",
+        "purpose": "Lightweight moisture, barrier support"
+      },
+      {
+        "name": "Acetyl Glucosamine",
+        "purpose": "Gentle exfoliation, brightening, supports hyaluronic acid synthesis"
+      },
+      {
+        "name": "Allantoin",
+        "purpose": "Soothing, healing"
+      },
+      {
+        "name": "Beta-Glucan",
+        "purpose": "Soothing, antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "dryness",
+      "sensitivity",
+      "irritation",
+      "dehydration"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "combination",
+      "normal"
+    ],
+    "contraindications": [
+      "fragrance sensitivity",
+      "banana allergy"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Blueberry Bounce Gentle Cleanser",
+    "brand": "Glow Recipe",
+    "category": "cleanser",
+    "price_usd": 34.0,
+    "size": "160ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Decyl Glucoside",
+      "Caulerpa Lentillifera Extract",
+      "Beta-Glucan",
+      "Sodium Hyaluronate",
+      "Vaccinium Angustifolium (Blueberry) Fruit",
+      "Glycolic Acid",
+      "Lactic Acid",
+      "Physalis Peruviana Fruit Extract",
+      "Rubus Idaeus (Raspberry) Fruit",
+      "Arctostaphylos Uva-Ursi Leaf Extract",
+      "Morus Nigra Fruit Extract",
+      "Vaccinium Myrtillus Fruit Extract",
+      "Scutellaria Baicalensis Root Extract",
+      "Paeonia Suffruticosa Root Extract",
+      "Glycyrrhiza Glabra (Licorice) Root Extract",
+      "Betaine",
+      "Sodium Chloride",
+      "Glycerin",
+      "1,2-Hexanediol",
+      "Butylene Glycol",
+      "Fragrance/Parfum"
+    ],
+    "key_actives": [
+      {
+        "name": "Blueberry Extract",
+        "purpose": "Antioxidants, vitamins, anti-aging, hydration"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Hydration during cleansing"
+      },
+      {
+        "name": "Glycolic Acid",
+        "purpose": "AHA exfoliation, pore refining"
+      },
+      {
+        "name": "Lactic Acid",
+        "purpose": "Gentle AHA exfoliation, hydration"
+      },
+      {
+        "name": "Caulerpa Lentillifera (Sea Grape)",
+        "purpose": "Mineral-rich, hydrating algae extract"
+      },
+      {
+        "name": "Beta-Glucan",
+        "purpose": "Soothing, antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "congested pores",
+      "breakouts",
+      "dullness",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "fragrance sensitivity",
+      "AHA sensitivity",
+      "active acne (may irritate)"
+    ],
+    "ph_range": "5.5-6.0"
+  },
+  {
+    "name": "Pineapple-C Bright Serum",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "price_usd": 49.0,
+    "size": "30ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Propanediol",
+      "3-O-Ethyl Ascorbic Acid",
+      "Glycerin",
+      "Ananas Sativus (Pineapple) Fruit Extract",
+      "Sodium Hyaluronate",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Aloe Barbadensis Leaf Extract",
+      "Carica Papaya (Papaya) Fruit Extract",
+      "Mangifera Indica (Mango) Fruit Extract",
+      "Centella Asiatica Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Tocopherol",
+      "Squalane",
+      "Beta-Glucan",
+      "Bromelain",
+      "Carbomer",
+      "Caprylyl Glycol",
+      "1,2-Hexanediol",
+      "Butylene Glycol",
+      "Sodium Hydroxide",
+      "Xanthan Gum",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol",
+      "Fragrance/Parfum"
+    ],
+    "key_actives": [
+      {
+        "name": "3-O-Ethyl Ascorbic Acid",
+        "concentration": "22%",
+        "purpose": "Stable vitamin C, brightening, antioxidant, collagen synthesis"
+      },
+      {
+        "name": "Pineapple Extract",
+        "purpose": "Natural bromelain enzymes, gentle exfoliation, vitamin C"
+      },
+      {
+        "name": "Papaya Extract",
+        "purpose": "Papain enzymes, gentle exfoliation, brightening"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Hydration"
+      },
+      {
+        "name": "Centella Asiatica",
+        "purpose": "Soothing, anti-inflammatory"
+      },
+      {
+        "name": "Aloe Vera",
+        "purpose": "Soothing, hydrating"
+      }
+    ],
+    "conditions_addressed": [
+      "dark spots",
+      "hyperpigmentation",
+      "dullness",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "normal",
+      "combination",
+      "oily",
+      "dry"
+    ],
+    "contraindications": [
+      "fragrance sensitivity",
+      "vitamin C sensitivity",
+      "enzyme sensitivity"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "Papaya Sorbet Enzyme Cleansing Balm",
+    "brand": "Glow Recipe",
+    "category": "cleanser",
+    "price_usd": 32.0,
+    "size": "100ml",
+    "inci_ingredients": [
+      "Cetyl Ethylhexanoate",
+      "Sorbitan Oleate",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Carica Papaya (Papaya) Seed Oil",
+      "Carica Papaya (Papaya) Fruit Extract",
+      "Oryza Sativa (Rice) Bran Oil",
+      "Aleurites Moluccanus Seed Oil",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Tocopherol",
+      "Papain",
+      "Bromelain",
+      "Camellia Sinensis Leaf Extract",
+      "Centella Asiatica Extract",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Fragrance/Parfum",
+      "Caprylic/Capric Triglyceride",
+      "1,2-Hexanediol",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": [
+      {
+        "name": "Papaya Enzymes (Papain)",
+        "purpose": "Natural exfoliation, dissolves dead skin cells, brightening"
+      },
+      {
+        "name": "Papaya Seed Oil",
+        "purpose": "Vitamin C, antioxidants, nourishing fatty acids"
+      },
+      {
+        "name": "Bromelain",
+        "purpose": "Pineapple enzyme, gentle exfoliation"
+      },
+      {
+        "name": "Sweet Almond Oil",
+        "purpose": "Makeup removal, nourishing"
+      },
+      {
+        "name": "Rice Bran Oil",
+        "purpose": "Vitamin E, antioxidant, brightening"
+      },
+      {
+        "name": "Jojoba Oil",
+        "purpose": "Non-comedogenic, mimics skin's natural sebum"
+      }
+    ],
+    "conditions_addressed": [
+      "makeup removal",
+      "dullness",
+      "uneven texture",
+      "congested pores"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "fragrance sensitivity",
+      "nut allergy (almond oil)",
+      "papaya/pineapple enzyme sensitivity"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Plum Plump Hyaluronic Acid Moisturizer",
+    "brand": "Glow Recipe",
+    "category": "moisturizer",
+    "price_usd": 39.0,
+    "size": "50ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Propanediol",
+      "Glycerin",
+      "C13-15 Alkane",
+      "Caprylic/Capric Triglyceride",
+      "C9-12 Alkane",
+      "Prunus Domestica Seed Oil",
+      "Pentylene Glycol",
+      "Squalane",
+      "Terminalia Ferdinandiana Seed Oil",
+      "Hyaluronic Acid",
+      "Sodium Acetylated Hyaluronate",
+      "Sodium Hyaluronate",
+      "Davidsonia Jerseyana Fruit Extract",
+      "Terminalia Ferdinandiana Fruit Extract",
+      "Podocarpus Elatus Fruit Extract",
+      "Polyglutamic Acid",
+      "Pleiogynium Timoriense Fruit Extract",
+      "Sodium Hyaluronate Crosspolymer",
+      "Hydrolyzed Sodium Hyaluronate",
+      "Epilobium Fleischeri (Alpine Willowherb) Flower/Leaf/Stem Extract",
+      "Niacinamide",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Xylitylglucoside",
+      "Isononyl Isononanoate",
+      "Caprylyl Glycol",
+      "Anhydroxylitol",
+      "Cetearyl Alcohol",
+      "Glyceryl Stearate",
+      "Arginine",
+      "Ethylhexylglycerin",
+      "Sodium Chloride",
+      "Xylitol",
+      "Stearic Acid",
+      "Tremella Fuciformis Polysaccharide",
+      "Sodium Lauroyl Glutamate",
+      "Genipa Americana Fruit Extract",
+      "Glucose",
+      "Lithospermum Erythrorhizon Root Extract",
+      "Potassium Phosphate",
+      "Butylene Glycol",
+      "Disodium Phosphate",
+      "Potassium Chloride",
+      "1,2-Hexanediol",
+      "Citric Acid",
+      "Potassium Sorbate",
+      "Sodium Hydroxide",
+      "Phenoxyethanol",
+      "Fragrance/Parfum"
+    ],
+    "key_actives": [
+      {
+        "name": "Multi-Weight Hyaluronic Acid (5 types)",
+        "purpose": "Deep hydration across all skin layers, plumping"
+      },
+      {
+        "name": "Polyglutamic Acid",
+        "purpose": "Boosts HA efficacy, locks in moisture"
+      },
+      {
+        "name": "Plum Extracts (Kakadu, Illawarra, Burdekin)",
+        "purpose": "Antioxidants, vitamins, hydration, rejuvenation"
+      },
+      {
+        "name": "Niacinamide",
+        "purpose": "Brightening, pore-refining, barrier support"
+      },
+      {
+        "name": "Alpine Willowherb",
+        "purpose": "Balances oil, soothes, supports barrier"
+      },
+      {
+        "name": "Tremella Mushroom Polysaccharide",
+        "purpose": "Natural hydration, antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "dryness",
+      "dehydration",
+      "dullness",
+      "uneven texture",
+      "oil imbalance"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination",
+      "dry"
+    ],
+    "contraindications": [
+      "fragrance sensitivity"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Strawberry Smooth AHA Salicylic Acid Serum",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "price_usd": 42.0,
+    "size": "30ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Propanediol",
+      "Glycerin",
+      "Salicylic Acid",
+      "Fragaria Vesca (Strawberry) Fruit Extract",
+      "Fragaria Ananassa (Strawberry) Fruit Extract",
+      "Fragaria Chiloensis (Strawberry) Fruit Extract",
+      "Glycolic Acid",
+      "Lactic Acid",
+      "Citric Acid",
+      "Malic Acid",
+      "Tartaric Acid",
+      "Sodium Hyaluronate",
+      "Centella Asiatica Extract",
+      "Allantoin",
+      "Beta-Glucan",
+      "Tocopherol",
+      "Squalane",
+      "Sodium Hydroxide",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Caprylyl Glycol",
+      "Carbomer",
+      "Xanthan Gum",
+      "Ethylhexylglycerin",
+      "Phenoxyethanol",
+      "Fragrance/Parfum"
+    ],
+    "key_actives": [
+      {
+        "name": "Salicylic Acid",
+        "concentration": "2%",
+        "purpose": "BHA exfoliation, pore-clearing, acne-fighting"
+      },
+      {
+        "name": "Glycolic Acid",
+        "purpose": "AHA exfoliation, skin texture refinement"
+      },
+      {
+        "name": "Lactic Acid",
+        "purpose": "Gentle AHA exfoliation, hydration"
+      },
+      {
+        "name": "Strawberry Extracts",
+        "purpose": "Vitamin C, antioxidants, AHAs"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "purpose": "Hydration during exfoliation"
+      },
+      {
+        "name": "Centella Asiatica",
+        "purpose": "Soothing, anti-inflammatory"
+      },
+      {
+        "name": "Allantoin",
+        "purpose": "Soothing, healing"
+      }
+    ],
+    "conditions_addressed": [
+      "acne",
+      "congested pores",
+      "blackheads",
+      "uneven texture",
+      "breakouts"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "breastfeeding",
+      "salicylic acid sensitivity",
+      "fragrance sensitivity",
+      "use with other AHAs/BHAs or retinoids"
+    ],
+    "ph_range": "3.5-4.5"
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "id": "zinc_acne",
+    "name": "Zinc",
+    "dosage": "15-45 mg elemental daily (acne: 25-30 mg as picolinate with 2-3 mg copper)",
+    "evidence_level": "B",
+    "benefits": ["Inhibits 5-alpha reductase (reduces DHT)", "Anti-inflammatory (reduces IL-6, TNF-alpha)", "Inhibits P. acnes growth", "Reduces sebum production", "Antioxidant (SOD cofactor)", "Supports hair protein synthesis", "Supports hair follicle cycling"],
+    "concerns_treated": ["acne", "hair_loss"],
+    "interactions": ["Tetracyclines and fluoroquinolones (separate by 2-4 hours)", "Penicillamine (reduces absorption)", "Iron (competitive absorption)", "Thiazide diuretics (increase excretion)", "Isotretinoin (may increase zinc needs)"],
+    "pregnancy_safe": "Generally safe at RDA levels (11 mg elemental). Avoid high-dose supplementation without physician oversight."
+  },
+  {
+    "id": "omega3_epa_dha",
+    "name": "Omega-3 EPA/DHA",
+    "dosage": "1,000-3,000 mg EPA+DHA combined daily (acne: 2,000 mg; anti-inflammatory threshold ~2,000 mg)",
+    "evidence_level": "B",
+    "benefits": ["Reduces pro-inflammatory eicosanoids (PGE2, LTB4)", "Inhibits IL-1, IL-6, TNF-alpha", "May reduce IGF-1 signaling", "Improves insulin sensitivity", "Supports skin barrier function", "Reduces inflammatory eicosanoids", "Modulates Th1/Th2 balance", "Reduces itch-scratch cycle"],
+    "concerns_treated": ["acne", "eczema", "aging"],
+    "interactions": ["Warfarin, aspirin, clopidogrel (monitor INR/bleeding at >3 g/day)", "Blood pressure medications (may potentiate hypotensive effects)", "Orlistat (reduces absorption)"],
+    "pregnancy_safe": "Generally safe and beneficial. Limit to ≤3,000 mg EPA+DHA combined. Essential for fetal neural development (DHA)."
+  },
+  {
+    "id": "vitamin_a",
+    "name": "Vitamin A",
+    "dosage": "≤5,000-10,000 IU retinol daily (short-term, monitored); prefer dietary sources",
+    "evidence_level": "C",
+    "benefits": ["Normalizes keratinization (reduces follicular plugging)", "Reduces sebum production", "Anti-inflammatory", "Supports immune function in skin"],
+    "concerns_treated": ["acne"],
+    "interactions": ["Isotretinoin/tretinoin (additive toxicity — NEVER combine without dermatologist)", "Hepatotoxic drugs (alcohol, methotrexate, acetaminophen)", "Orlistat (reduces absorption)"],
+    "pregnancy_safe": "CONTRAINDICATED. Do NOT use retinol supplements if pregnant, planning pregnancy, or breastfeeding. Beta-carotene is safe but ineffective for acne."
+  },
+  {
+    "id": "probiotics",
+    "name": "Probiotics",
+    "dosage": "10-50 billion CFU daily (acne: 25-50B multi-strain; eczema: 25-50B with LGG)",
+    "evidence_level": "B",
+    "benefits": ["Gut microbiome modulation (gut-skin axis)", "Reduces systemic inflammation", "Modulates IGF-1 and insulin signaling", "Produces antimicrobial peptides", "Strengthens intestinal barrier", "T-regulatory cell enhancement", "Produces SCFAs (butyrate)"],
+    "concerns_treated": ["acne", "eczema"],
+    "interactions": ["Antibiotics (separate by 2+ hours)", "Antifungals (may reduce efficacy)", "Immunosuppressants (use caution)"],
+    "pregnancy_safe": "Generally considered safe; LGG specifically studied in pregnancy for eczema prevention in offspring."
+  },
+  {
+    "id": "dim",
+    "name": "DIM (Diindolylmethane)",
+    "dosage": "200-300 mg standard DIM or 150 mg BR-DIM daily",
+    "evidence_level": "C",
+    "benefits": ["Modulates estrogen metabolism (favors 2-hydroxyestrone)", "Mild anti-androgen effects", "Supports liver estrogen detoxification", "Anti-inflammatory", "May reduce sebum production in hormonal acne"],
+    "concerns_treated": ["acne"],
+    "interactions": ["Hormonal contraceptives (may theoretically reduce efficacy)", "Tamoxifen (similar pathways — avoid)", "CYP450 inducers (may interact with various medications)"],
+    "pregnancy_safe": "NOT RECOMMENDED — hormonal effects unknown; avoid."
+  },
+  {
+    "id": "saw_palmetto_acne",
+    "name": "Saw Palmetto",
+    "dosage": "320 mg standardized extract daily (85-95% fatty acids and sterols)",
+    "evidence_level": "C",
+    "benefits": ["Inhibits 5-alpha reductase (Type I and II)", "Anti-androgen effects", "Anti-inflammatory", "May reduce sebum production", "May prolong anagen (growth) phase"],
+    "concerns_treated": ["acne", "hair_loss"],
+    "interactions": ["Finasteride/dutasteride (additive 5-AR inhibition)", "Hormonal contraceptives (theoretical interaction)", "Anticoagulants (may have mild antiplatelet effects)"],
+    "pregnancy_safe": "NOT RECOMMENDED — anti-androgen effects; avoid."
+  },
+  {
+    "id": "spearmint",
+    "name": "Spearmint",
+    "dosage": "2 cups strong tea daily (steep 5-10 min) OR 400-600 mg capsules",
+    "evidence_level": "C",
+    "benefits": ["Anti-androgen (reduces free testosterone)", "Increases LH and FSH", "Antioxidant", "Anti-inflammatory"],
+    "concerns_treated": ["acne"],
+    "interactions": ["Hormonal medications (theoretical interaction)", "Liver-metabolized drugs (menthol compounds may affect CYP enzymes)"],
+    "pregnancy_safe": "Limited data; avoid high doses. Tea in moderation likely safe."
+  },
+  {
+    "id": "berberine",
+    "name": "Berberine",
+    "dosage": "500 mg 2-3 times daily (1,000-1,500 mg total); start once daily and titrate up",
+    "evidence_level": "B",
+    "benefits": ["Improves insulin sensitivity (metformin-like effects)", "Reduces IGF-1 and androgen signaling", "Anti-inflammatory", "Antimicrobial (modulates gut microbiome)", "Supports hormonal balance in PCOS"],
+    "concerns_treated": ["acne"],
+    "interactions": ["CYP3A4 substrates (many medications — berberine inhibits this enzyme)", "Metformin (additive hypoglycemic effects)", "Anticoagulants (may affect platelet function)", "Macrolide antibiotics (additive QT prolongation risk)", "Cyclosporine (increased levels)", "Sedatives (may potentiate effects)"],
+    "pregnancy_safe": "CONTRAINDICATED — may cause uterine contractions; kernicterus risk in newborns."
+  },
+  {
+    "id": "vitamin_c",
+    "name": "Vitamin C",
+    "dosage": "500-1,000 mg daily (skin health); 1,000 mg daily for hyperpigmentation; photoprotection 500 mg 2x/day with vitamin E",
+    "evidence_level": "B",
+    "benefits": ["Essential cofactor for collagen synthesis", "Potent antioxidant (neutralizes ROS from UV)", "Regenerates oxidized vitamin E", "Inhibits tyrosinase (melanin production)", "Anti-inflammatory", "Enhances iron absorption"],
+    "concerns_treated": ["aging", "hyperpigmentation"],
+    "interactions": ["Iron (significantly enhances absorption — separate if iron overload concern)", "Chemotherapy (antioxidant interactions complex; consult oncologist)", "Statins (may reduce efficacy — limited evidence)", "Warfarin (high-dose may reduce efficacy — monitor INR)"],
+    "pregnancy_safe": "Safe at standard doses (85-120 mg RDA). Avoid megadoses (>2,000 mg)."
+  },
+  {
+    "id": "niacinamide",
+    "name": "Niacinamide",
+    "dosage": "500 mg 1-2 times daily (up to 1,000 mg/day); topical niacinamide (2-10%) is first-line, oral is adjunct",
+    "evidence_level": "C",
+    "benefits": ["Anti-inflammatory (reduces IL-1, IL-8, TNF-alpha)", "Regulates sebum production", "Improves barrier function", "Antioxidant", "Inhibits melanosome transfer (hyperpigmentation benefit)"],
+    "concerns_treated": ["acne", "hyperpigmentation"],
+    "interactions": ["Carbamazepine (niacinamide may increase levels)", "Primidone (may reduce efficacy)", "Anticoagulants (high-dose may affect platelets)"],
+    "pregnancy_safe": "Safe at standard doses; essential nutrient."
+  },
+  {
+    "id": "glutathione",
+    "name": "Glutathione",
+    "dosage": "250-500 mg liposomal glutathione daily (oral only; do NOT recommend IV)",
+    "evidence_level": "C",
+    "benefits": ["Master antioxidant (reduces oxidative stress driving pigmentation)", "Inhibits tyrosinase (direct melanin inhibition)", "Promotes melanin shift from eumelanin to pheomelanin", "Detoxification support", "Anti-inflammatory"],
+    "concerns_treated": ["hyperpigmentation"],
+    "interactions": ["Chemotherapy (may interfere with treatments — avoid during chemotherapy)", "Nitroglycerin (glutathione may potentiate effects)", "Acetaminophen (NAC is antidote for overdose)"],
+    "pregnancy_safe": "Avoid — insufficient safety data."
+  },
+  {
+    "id": "tranexamic_acid",
+    "name": "Tranexamic Acid",
+    "dosage": "250-500 mg 2-3 times daily (500-1,500 mg total); melasma: 250 mg BID preferred for safety",
+    "evidence_level": "B",
+    "benefits": ["Plasmin inhibitor (reduces arachidonic acid pathway)", "Reduces UV-induced melanin synthesis", "Inhibits tyrosinase", "Anti-inflammatory", "Reduces melanocyte-keratinocyte interaction"],
+    "concerns_treated": ["hyperpigmentation"],
+    "interactions": ["Hormonal contraceptives (increased thrombosis risk — avoid combination)", "Hormone replacement therapy (same concern)", "Anticoagulants (may reduce efficacy or increase bleeding)", "Tretinoin (may enhance effects topically)"],
+    "pregnancy_safe": "CONTRAINDICATED — potential thrombotic risk."
+  },
+  {
+    "id": "marine_collagen_skin",
+    "name": "Marine Collagen",
+    "dosage": "5-10 g daily of Type I/III hydrolyzed collagen; hair growth: 5-10 g daily",
+    "evidence_level": "C",
+    "benefits": ["Provides building blocks for collagen synthesis", "Stimulates fibroblasts to produce new collagen", "Increases skin hydration and elasticity", "Contains proline, glycine, hydroxyproline", "Bioactive peptides may have signaling effects", "Provides amino acid building blocks for keratin", "Supports hair follicle protein synthesis", "May improve scalp health"],
+    "concerns_treated": ["aging", "hair_loss"],
+    "interactions": ["Minimal known interactions"],
+    "pregnancy_safe": "Generally considered safe; food-derived. Fish/shellfish allergy caution for marine sources."
+  },
+  {
+    "id": "coq10",
+    "name": "CoQ10 (Coenzyme Q10)",
+    "dosage": "100-200 mg ubiquinol daily (or 200-400 mg ubiquinone if under 40)",
+    "evidence_level": "C",
+    "benefits": ["Mitochondrial energy production (ATP synthesis)", "Lipid-soluble antioxidant", "Protects against oxidative stress", "Supports skin cell repair", "Reduces UV-induced damage", "Replenishes ubiquinol depleted by statins"],
+    "concerns_treated": ["aging"],
+    "interactions": ["Statins (CoQ10 depleted by statins — supplementation essential for statin users)", "Warfarin (theoretical interaction — monitor INR)", "Chemotherapy (antioxidant effects may interfere — consult oncologist)", "Blood pressure meds (may potentiate hypotensive effects)"],
+    "pregnancy_safe": "Limited data; generally considered safe but consult physician."
+  },
+  {
+    "id": "astaxanthin",
+    "name": "Astaxanthin",
+    "dosage": "4-6 mg daily (general); 6-12 mg daily (skin/UV protection)",
+    "evidence_level": "B",
+    "benefits": ["6,000x stronger antioxidant than vitamin C", "550x stronger than vitamin E", "Crosses blood-brain and blood-retinal barriers", "Reduces ROS and lipid peroxidation", "Anti-inflammatory", "Improves skin elasticity and hydration", "Reduces UV-induced skin damage", "May improve skin moisture barrier"],
+    "concerns_treated": ["aging"],
+    "interactions": ["Anticoagulants (very high doses may have mild antiplatelet effects — rare at standard doses)", "Hormonal therapies (may affect hormone metabolism — limited evidence)"],
+    "pregnancy_safe": "Limited data; likely safe at 4-6 mg but consult physician."
+  },
+  {
+    "id": "resveratrol",
+    "name": "Resveratrol",
+    "dosage": "250-500 mg trans-resveratrol daily (micronized or with piperine for absorption)",
+    "evidence_level": "C",
+    "benefits": ["SIRT1 activation (longevity pathway)", "Potent antioxidant", "Anti-inflammatory", "Improves mitochondrial function", "May protect against UV damage", "Supports collagen synthesis"],
+    "concerns_treated": ["aging"],
+    "interactions": ["Anticoagulants (may increase bleeding risk — theoretical)", "CYP3A4 substrates (resveratrol may inhibit metabolism)", "Blood pressure medications (may potentiate effects)"],
+    "pregnancy_safe": "NOT RECOMMENDED — limited safety data; theoretical hormonal effects."
+  },
+  {
+    "id": "hyaluronic_acid",
+    "name": "Hyaluronic Acid",
+    "dosage": "120-200 mg daily",
+    "evidence_level": "C",
+    "benefits": ["Increases skin hydration and elasticity", "Supports skin moisture barrier", "May reduce appearance of fine lines"],
+    "concerns_treated": ["aging"],
+    "interactions": ["Minimal known interactions"],
+    "pregnancy_safe": "Limited data; generally considered safe but consult physician."
+  },
+  {
+    "id": "evening_primrose_oil",
+    "name": "Evening Primrose Oil",
+    "dosage": "1,000-2,000 mg EPO daily (provides 80-200 mg GLA); children: 500-1,000 mg",
+    "evidence_level": "C",
+    "benefits": ["GLA → DGLA → anti-inflammatory prostaglandin E1 (PGE1)", "Supports skin barrier function", "Reduces inflammation", "Some eczema patients have impaired delta-6-desaturase"],
+    "concerns_treated": ["eczema"],
+    "interactions": ["Anticoagulants (potential additive effect at high doses)", "Anticonvulsants (theoretical interaction)", "Phenothiazines (may lower seizure threshold — rare)"],
+    "pregnancy_safe": "Generally safe; GLA present in breast milk naturally. Avoid high doses."
+  },
+  {
+    "id": "vitamin_d3",
+    "name": "Vitamin D3",
+    "dosage": "2,000-4,000 IU daily (adjust based on 25(OH)D levels); maintenance 1,000-2,000 IU",
+    "evidence_level": "B",
+    "benefits": ["Regulates immune function (T-regulatory cells)", "Supports skin barrier function (filaggrin expression)", "Anti-inflammatory", "Antimicrobial (cathelicidin production)", "Modulates Th1/Th2/Th17 responses"],
+    "concerns_treated": ["eczema"],
+    "interactions": ["Thiazide diuretics (may increase hypercalcemia risk)", "Corticosteroids (may deplete vitamin D)", "Orlistat (reduces absorption)", "Cholestyramine (reduces absorption)"],
+    "pregnancy_safe": "Essential; safe at standard doses (4,000-6,000 IU for lactating mothers)."
+  },
+  {
+    "id": "quercetin",
+    "name": "Quercetin",
+    "dosage": "500-1,000 mg standard daily; quercetin phytosome 250-500 mg; EMIQ 200-400 mg",
+    "evidence_level": "C",
+    "benefits": ["Mast cell stabilizer (reduces histamine release)", "Anti-inflammatory (inhibits COX, LOX, NF-kB)", "Antioxidant", "Reduces itch-scratch cycle", "Modulates Th1/Th2 immune response"],
+    "concerns_treated": ["eczema"],
+    "interactions": ["Anticoagulants (may have mild antiplatelet effects)", "CYP3A4 substrates (may inhibit metabolism)", "Quinolone antibiotics (may reduce absorption)", "Cyclosporine (may increase levels)"],
+    "pregnancy_safe": "Limited data; avoid high doses."
+  },
+  {
+    "id": "biotin",
+    "name": "Biotin",
+    "dosage": "2,500-10,000 mcg daily (only if deficiency suspected); RDA 30 mcg",
+    "evidence_level": "D",
+    "benefits": ["Cofactor for keratin synthesis", "Supports hair protein structure", "Cell proliferation in hair follicle"],
+    "concerns_treated": ["hair_loss"],
+    "interactions": ["Anticonvulsants (may deplete biotin — long-term use)", "Isotretinoin (may affect biotinidase)", "LAB TESTS: causes false results on TSH, troponin, HCG, many immunoassays — stop 48-72 hours before blood work"],
+    "pregnancy_safe": "Safe; RDA increases to 35 mcg during lactation. CRITICAL: stop before blood work."
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "dosage": "25-65 mg elemental iron 1-2 times daily (only if deficient); ferritin target for hair growth >40 ng/mL (ideally 70-100)",
+    "evidence_level": "B",
+    "benefits": ["Essential for DNA synthesis in rapidly dividing hair follicle cells", "Ribonucleotide reductase cofactor", "Supports oxygen delivery to hair follicles", "Ferritin directly involved in hair follicle cycling"],
+    "concerns_treated": ["hair_loss"],
+    "interactions": ["Antacids/PPIs (reduce absorption significantly)", "Thyroid medication (separate by 4 hours — iron reduces levothyroxine absorption)", "Antibiotics (tetracyclines, fluoroquinolones, penicillamine — separate by 2-4 hours)", "Bisphosphonates (separate by 2+ hours)", "Calcium (competes for absorption — separate)", "Zinc (competes for absorption — separate)", "Copper (high-dose iron depletes copper)"],
+    "pregnancy_safe": "Iron needs increase; standard prenatal contains 27-30 mg. Safe at standard doses. Do NOT take without confirmed deficiency."
+  },
+  {
+    "id": "colostrum",
+    "name": "Bovine Colostrum",
+    "dosage": "2-4g powder daily (standard); 1-2g of 40% IgG concentrate (optimized). Morning, empty stomach or with light meal.",
+    "evidence_level": "C",
+    "benefits": ["Rich in immunoglobulins (IgG, IgA) — systemic immune modulation", "Lactoferrin — antimicrobial (iron chelation), anti-inflammatory, barrier support", "Growth factors (IGF-1, TGF-β) — tissue repair, wound healing, collagen synthesis", "Proline-rich polypeptides (PRPs) — immune modulation", "Supports gut barrier integrity (tight junctions)", "Reduces intestinal permeability", "Modulates inflammatory cytokine production"],
+    "concerns_treated": ["acne", "eczema", "rosacea", "aging"],
+    "interactions": ["Dairy allergy (contraindicated)", "Immunosuppressants (theoretical concern — consult physician)", "No known drug interactions at standard doses"],
+    "pregnancy_safe": "Limited data; theoretical benefit but insufficient safety studies. Consult physician before use during pregnancy or breastfeeding.",
+    "root_causes_targeted": ["gut_dysbiosis", "leaky_gut", "chronic_inflammation"],
+    "contraindications": ["dairy_allergy", "vegan", "immunocompromised"],
+    "pair_with": ["probiotics", "zinc", "L-glutamine"],
+    "timing": "Morning, empty stomach or with light meal",
+    "evidence_notes": "Most evidence is for athletic performance, gut barrier repair, and immune support. Direct skin-specific RCTs are limited. Lactoferrin isolates have stronger acne evidence than whole colostrum. Evidence grade C = small trials, observational studies, expert opinion.",
+    "quality_markers": ["IgG content 20-40% minimum", "Cold-processed / low-heat dried", "Grass-fed source (New Zealand or USA)", "Third-party tested (heavy metals, pathogens, IgG verification)"],
+    "product_sourcing": {
+      "affiliate_options": [
+        {"brand": "Armra", "form": "Powder, packets", "price": "$50-80/mo", "notes": "Grass-fed, cold-processed, IgG 40%+"},
+        {"brand": "Colostrum-LD (Sovereign Labs)", "form": "Powder, capsules", "price": "$40-60/mo", "notes": "Liposomal delivery, 25%+ IgG"},
+        {"brand": "Ancestral Supplements", "form": "Capsules", "price": "$60-80/mo", "notes": "Grass-fed, whole food"},
+        {"brand": "Mt. Capra", "form": "Powder", "price": "$40-60/mo", "notes": "Goat colostrum (lower allergenicity)"}
+      ],
+      "private_label_suppliers": [
+        "Sovereign Labs — bulk Colostrum-LD; MOQ ~100 units",
+        "APS BioGroup — Arizona-based; supplies many brands",
+        "Ingredient Depot — wholesale colostrum; flexible MOQ"
+      ]
+    }
+  }
+]

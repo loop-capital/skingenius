@@ -1,0 +1,782 @@
+[
+  {
+    "id": "ing_014",
+    "name": "Collagen / Hydrolyzed Collagen",
+    "inci_name": "Hydrolyzed Collagen",
+    "category": "protein",
+    "function": "Provides amino acids for skin structure; film-forming hydration; stimulates endogenous collagen production when delivered effectively",
+    "evidence_level": "moderate",
+    "evidence_grade": "C+",
+    "best_for": ["fine lines", "loss of firmness", "dehydration", "aging skin"],
+    "conditions_treated": [
+      {
+        "condition": "fine_lines_wrinkles",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Topical collagen may improve skin hydration and elasticity through film-forming and amino acid delivery, but cannot directly replace dermal collagen due to molecular size limitations"
+      },
+      {
+        "condition": "dehydration",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Excellent humectant properties; hydrolyzed forms penetrate better than native collagen"
+      },
+      {
+        "condition": "loss_of_firmness",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "Primarily cosmetic benefit through surface hydration and plumping"
+      }
+    ],
+    "mechanism_of_action": "1) Film-forming: Creates moisture-retentive barrier on skin surface. 2) Amino acid delivery: Hydrolyzed collagen provides glycine, proline, and hydroxyproline for skin's own collagen synthesis. 3) Humectant: Binds water to improve skin hydration. 4) Signaling: Some peptides from hydrolyzed collagen may signal fibroblasts to increase collagen production",
+    "concentration_guide": "1-5% (cosmetic); oral supplementation 2.5-10g/day shows better evidence for skin benefits",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; those with fish/shellfish allergies should check source (marine collagen)",
+      "sensitivities": "Very well tolerated",
+      "interactions": "None known",
+      "cautions": ["Cannot replace injectable collagen or stimulate significant dermal collagen production on its own", "Marine source may trigger fish allergies"]
+    },
+    "root_cause_addressed": "Amino acid deficiency in skin matrix; surface dehydration",
+    "related_ingredients": ["Peptides", "Hyaluronic Acid", "Ceramides", "Amino Acids"],
+    "notes": "Most effective when hydrolyzed to small peptides (<5000 Da). Oral collagen supplements have stronger evidence for skin benefits than topical application. Marine and bovine sources most common."
+  },
+  {
+    "id": "ing_015",
+    "name": "Gluconolactone",
+    "inci_name": "Gluconolactone",
+    "category": "acid",
+    "function": "Gentle exfoliation, antioxidant chelation, and hydration through polyhydroxy acid (PHA) mechanism",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": ["sensitive skin", "aging skin", "rosacea", "dry skin", "hyperpigmentation"],
+    "conditions_treated": [
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Larger molecular structure than AHAs results in slower, gentler penetration; suitable for reactive skin"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Provides anti-aging benefits comparable to AHAs with less irritation (PubMed: PHA regimen provides antiaging effects comparable to AHA)"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Gentle exfoliation promotes cell turnover; antioxidant properties help prevent further pigmentation"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Non-irritating exfoliation option for rosacea-prone skin; antioxidant benefits"
+      },
+      {
+        "condition": "dehydration",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Natural humectant properties attract moisture while exfoliating"
+      }
+    ],
+    "mechanism_of_action": "1) Chelation: Binds metal ions that catalyze free radical formation, providing antioxidant protection. 2) Gentle exfoliation: Larger molecule than AHAs penetrates more slowly, dissolving intercellular bonds with less irritation. 3) Humectant: Attracts and retains moisture. 4) Barrier-friendly: Strengthens skin barrier while exfoliating, unlike traditional AHAs that can compromise barrier function",
+    "concentration_guide": "5-15% for daily use; 20-30% for professional treatments",
+    "optimal_ph": "3.5-4.5",
+    "safety_profile": {
+      "pregnancy": "Generally considered safe (milder than retinoids and BHAs)",
+      "breastfeeding": "Safe",
+      "allergies": "Rare",
+      "sensitivities": "Very well tolerated; ideal for sensitive skin",
+      "interactions": "Compatible with most ingredients; can be combined with retinoids and vitamin C",
+      "cautions": ["Still increases photosensitivity, though less than AHAs; SPF required", "Results may be slower than traditional AHAs due to gentler action"]
+    },
+    "root_cause_addressed": "Impaired cell turnover; oxidative stress; barrier dysfunction in sensitive skin",
+    "related_ingredients": ["Lactic Acid", "Mandelic Acid", "Niacinamide", "Hyaluronic Acid"],
+    "notes": "PHA (polyhydroxy acid) with unique dual action: exfoliation + antioxidant. Used in Biologique Recherche P50. Less photosensitizing than AHAs. Can be used in combination with other actives due to gentleness."
+  },
+  {
+    "id": "ing_016",
+    "name": "Matrixyl / Palmitoyl Pentapeptide-4",
+    "inci_name": "Palmitoyl Pentapeptide-4",
+    "category": "peptide",
+    "function": "Signal peptide that stimulates collagen I, III, and IV production; reduces appearance of fine lines and wrinkles",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": ["aging skin", "fine lines", "loss of firmness", "all skin types"],
+    "conditions_treated": [
+      {
+        "condition": "fine_lines_wrinkles",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "In vitro and clinical studies show stimulation of collagen synthesis; visible wrinkle reduction in 8-12 weeks"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Supports dermal matrix repair; best used with other anti-aging ingredients"
+      },
+      {
+        "condition": "loss_of_firmness",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Collagen stimulation improves skin firmness over time"
+      }
+    ],
+    "mechanism_of_action": "1) Signal peptide mimics natural skin repair signals: Sequence Lys-Thr-Thr-Lys-Ser (KTTKS) mimics procollagen type I fragment. 2) Fibroblast activation: Signals fibroblasts to produce new collagen (types I, III, IV). 3) Extracellular matrix support: Improves skin structural integrity. 4) Palmitoyl chain: Lipid attachment enhances skin penetration",
+    "concentration_guide": "0.001-0.1% (very effective at low concentrations); typically used at 0.01-0.05% in formulations",
+    "optimal_ph": "4.0-6.0",
+    "safety_profile": {
+      "pregnancy": "Safe (no known teratogenic effects)",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare",
+      "sensitivities": "Extremely well tolerated; suitable for sensitive skin",
+      "interactions": "Compatible with retinoids, vitamin C, niacinamide, and most actives",
+      "cautions": ["Results take 8-12 weeks of consistent use", "Less potent than retinoids but gentler"]
+    },
+    "root_cause_addressed": "Age-related decline in collagen synthesis; extracellular matrix degradation",
+    "related_ingredients": ["Peptides", "Retinol", "Vitamin C", "Copper Peptides", "Argireline"],
+    "notes": "One of the most studied cosmetic peptides. Developed by Sederma. Often combined with other peptides (Matrixyl 3000 combines Palmitoyl Pentapeptide-4 with Palmitoyl Tetrapeptide-7). Works well in combination with retinoids and antioxidants."
+  },
+  {
+    "id": "ing_017",
+    "name": "Tranexamic Acid",
+    "inci_name": "Tranexamic Acid",
+    "category": "brightening agent",
+    "function": "Inhibits melanin production through plasminogen/plasmin pathway inhibition; reduces hyperpigmentation, melasma, and post-inflammatory hyperpigmentation",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": ["melasma", "hyperpigmentation", "post-inflammatory hyperpigmentation", "uneven skin tone"],
+    "conditions_treated": [
+      {
+        "condition": "melasma",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Oral tranexamic acid is gold-standard treatment for melasma; topical shows significant improvement with fewer systemic risks"
+      },
+      {
+        "condition": "post_inflammatory_hyperpigmentation",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Effective for PIH, especially in darker skin tones"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Multiple RCTs support efficacy; inhibits UV-induced melanin synthesis"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Anti-inflammatory properties may help reduce redness and vascular component"
+      }
+    ],
+    "mechanism_of_action": "1) Plasmin inhibition: Blocks plasminogen activator, reducing plasmin-mediated arachidonic acid release and prostaglandin synthesis. 2) Melanin suppression: Reduces UV-induced melanin synthesis by inhibiting melanocyte-keratinocyte interaction. 3) Anti-inflammatory: Decreases inflammatory mediators that trigger melanin production. 4) Vascular component: Reduces blood vessel growth associated with melasma",
+    "concentration_guide": "Topical: 2-5%; Oral: 250-500mg twice daily (prescription, for melasma)",
+    "optimal_ph": "7.0-8.0 (works at neutral pH)",
+    "safety_profile": {
+      "pregnancy": "Avoid oral form; topical likely safe but limited data",
+      "breastfeeding": "Avoid oral form; topical safety not established",
+      "allergies": "Rare",
+      "sensitivities": "Generally well tolerated; mild irritation possible",
+      "interactions": "Oral form: increases clotting risk; do not combine with hormonal contraceptives or anticoagulants without medical supervision",
+      "cautions": ["Oral form requires medical supervision due to thromboembolic risk", "Topical form is much safer with minimal systemic absorption", "Best results when combined with sunscreen and other brightening agents"]
+    },
+    "root_cause_addressed": "UV-induced melanin overproduction; inflammatory melanin triggers; vascular component of melasma",
+    "related_ingredients": ["Vitamin C", "Niacinamide", "Kojic Acid", "Azelaic Acid", "Hydroquinone"],
+    "notes": "Originally an antifibrinolytic drug. Topical formulation increasingly popular for hyperpigmentation with excellent safety profile compared to oral form. Can be combined with vitamin C and niacinamide for enhanced brightening. Works at neutral pH, making it compatible with most routines."
+  },
+  {
+    "id": "ing_018",
+    "name": "Mandelic Acid",
+    "inci_name": "Mandelic Acid",
+    "category": "acid",
+    "function": "Gentle AHA exfoliation with antibacterial properties; larger molecular size provides slower, more controlled penetration suitable for sensitive skin",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": ["acne", "sensitive skin", "hyperpigmentation", "aging skin", "post-inflammatory hyperpigmentation"],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antibacterial properties and gentle exfoliation help clear pores; less irritating than other acne treatments"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Promotes cell turnover to fade dark spots; safer for darker skin tones than glycolic acid"
+      },
+      {
+        "condition": "post_inflammatory_hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Gentle exfoliation reduces PIH without triggering additional inflammation"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Stimulates collagen and elastin production with less irritation than glycolic acid"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Largest AHA molecule (152 Da vs 76 Da for glycolic) = slower penetration = less irritation"
+      }
+    ],
+    "mechanism_of_action": "1) Exfoliation: Dissolves intercellular bonds between corneocytes to promote cell turnover. 2) Antibacterial: Natural antimicrobial properties help reduce acne bacteria. 3) Collagen stimulation: Promotes dermal remodeling with less irritation than glycolic acid. 4) Melanin dispersion: Promotes even distribution of melanin to reduce hyperpigmentation. 5) Larger molecular size (152 Da): Slower penetration = gentler, more controlled action",
+    "concentration_guide": "5-10% for daily use; 20-30% for professional peels; 10% considered optimal for home use",
+    "optimal_ph": "3.0-3.5",
+    "safety_profile": {
+      "pregnancy": "Generally considered safe at low concentrations (category C - consult physician)",
+      "breastfeeding": "Likely safe at cosmetic concentrations",
+      "allergies": "Rare; those with nut allergies should note it's derived from bitter almonds",
+      "sensitivities": "Gentler than glycolic and lactic acid; suitable for sensitive skin and darker skin tones",
+      "interactions": "Avoid combining with other strong acids or retinoids initially",
+      "cautions": ["Increases photosensitivity - SPF 30+ required", "Start 2-3 times weekly and increase frequency", "Can cause mild tingling initially"]
+    },
+    "root_cause_addressed": "Impaired cell turnover; bacterial acne; uneven melanin distribution",
+    "related_ingredients": ["Lactic Acid", "Glycolic Acid", "Salicylic Acid", "Niacinamide", "Retinol"],
+    "notes": "Derived from bitter almonds. Unique among AHAs for antibacterial properties. Excellent choice for darker skin tones prone to PIH due to gentler action. Can be combined with salicylic acid for enhanced acne treatment. Slower results than glycolic but better tolerated."
+  },
+  {
+    "id": "ing_019",
+    "name": "Caffeine",
+    "inci_name": "Caffeine",
+    "category": "antioxidant",
+    "function": "Vasoconstrictor, antioxidant, and anti-inflammatory; reduces puffiness and improves circulation",
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": ["dark circles", "puffiness", "cellulite", "oxidative stress"],
+    "conditions_treated": [
+      {
+        "condition": "dark_circles",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Vasoconstriction reduces visible blood vessels under eyes; improves microcirculation"
+      },
+      {
+        "condition": "puffiness",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Diuretic effect helps reduce fluid retention; vasoconstriction tightens skin"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Antioxidant properties provide UV protection; less potent than vitamin C and E"
+      },
+      {
+        "condition": "cellulite",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "May improve microcirculation and reduce fluid retention; temporary effects"
+      }
+    ],
+    "mechanism_of_action": "1) Vasoconstriction: Constricts blood vessels to reduce redness and puffiness. 2) Antioxidant: Scavenges free radicals and reduces UV-induced oxidative stress. 3) Anti-inflammatory: Inhibits phosphodiesterase, reducing inflammation. 4) Lipolysis stimulation: May help break down fat cells (cellulite treatment). 5) Microcirculation: Improves blood flow to skin surface",
+    "concentration_guide": "0.5-3% for eye products; 1-5% for body cellulite treatments",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe at cosmetic concentrations",
+      "breastfeeding": "Safe at cosmetic concentrations",
+      "allergies": "Very rare",
+      "sensitivities": "Well tolerated; may cause mild tingling",
+      "interactions": "None significant at topical concentrations",
+      "cautions": ["Effects on puffiness are temporary; not a permanent solution", "May cause insomnia if applied before bed (systemic absorption minimal but possible)", "Not effective for structural dark circles (fat loss, bone structure)"]
+    },
+    "root_cause_addressed": "Vascular dilation under eyes; fluid retention; oxidative stress",
+    "related_ingredients": ["Vitamin C", "Peptides", "Hyaluronic Acid", "Retinol"],
+    "notes": "Most effective for vascular dark circles (blue/purple tint) caused by visible blood vessels. Less effective for pigmented dark circles (brown tint) or structural hollows. Works quickly (within minutes) for puffiness but effects are temporary. Often combined with vitamin C and peptides in eye treatments."
+  },
+  {
+    "id": "ing_020",
+    "name": "Cholesterol",
+    "inci_name": "Cholesterol",
+    "category": "lipid",
+    "function": "Essential component of skin barrier; maintains membrane fluidity and prevents transepidermal water loss",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": ["dry skin", "sensitive skin", "compromised barrier", "eczema", "aging skin"],
+    "conditions_treated": [
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Essential lipid for barrier repair; prevents moisture loss"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Often deficient in eczema skin; cholesterol-dominant moisturizers (2:4:2 ratio) show superior barrier repair"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Restores compromised barrier; reduces reactivity"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Cholesterol levels decline with age; supplementation supports barrier function"
+      }
+    ],
+    "mechanism_of_action": "1) Barrier lipid: Along with ceramides and fatty acids, forms the lipid matrix of stratum corneum. 2) Membrane fluidity: Maintains proper cell membrane structure and function. 3) Water retention: Prevents transepidermal water loss (TEWL). 4) Optimal ratio: Works in specific ratio with ceramides and free fatty acids (1:2:1 or 2:4:2 for optimal barrier repair). 5) Cell signaling: Involved in skin cell differentiation and proliferation",
+    "concentration_guide": "Typically used in combination: ceramides:cholesterol:fatty acids at 1:2:1 or 2:4:2 ratios; individual concentration 0.5-2%",
+    "optimal_ph": "5.0-6.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare; avoid if allergic to wool (lanolin-derived cholesterol)",
+      "sensitivities": "Extremely well tolerated; essential for skin health",
+      "interactions": "Compatible with virtually all ingredients",
+      "cautions": ["Must be used in proper ratio with ceramides and fatty acids for optimal barrier repair", "Overuse without proper balance may disrupt barrier"]
+    },
+    "root_cause_addressed": "Barrier lipid deficiency; transepidermal water loss; impaired skin barrier function",
+    "related_ingredients": ["Ceramides", "Fatty Acids", "Phytosphingosine", "Squalane"],
+    "notes": "One of the three essential barrier lipids (with ceramides and free fatty acids). Optimal repair achieved with specific ratios (2:4:2 ceramides:cholesterol:fatty acids). Cholesterol-dominant ratios accelerate barrier recovery. Essential for eczema and barrier-compromised skin. Often sourced from wool (lanolin) or plant sterols."
+  },
+  {
+    "id": "ing_021",
+    "name": "Glycerin",
+    "inci_name": "Glycerin",
+    "category": "humectant",
+    "function": "Powerful humectant that attracts and retains moisture; strengthens skin barrier; enhances penetration of other ingredients",
+    "evidence_level": "strong",
+    "evidence_grade": "A",
+    "best_for": ["dry skin", "dehydration", "sensitive skin", "all skin types"],
+    "conditions_treated": [
+      {
+        "condition": "dehydration",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Attracts water from environment and deeper skin layers; maintains hydration at concentrations as low as 5%"
+      },
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Improves skin hydration and barrier function; reduces flaking and roughness"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Well-tolerated; supports barrier repair; rarely causes irritation"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Plumps fine lines through hydration; improves skin elasticity"
+      }
+    ],
+    "mechanism_of_action": "1) Humectant: Attracts and binds water molecules (holds up to 25x its weight in water). 2) Barrier support: Stimulates production of barrier lipids (ceramides). 3) Penetration enhancer: Helps other active ingredients absorb better. 4) Osmolyte: Protects skin cells from osmotic stress and dehydration. 5) Skin protectant: Forms occlusive layer to prevent moisture loss. 6) Healing support: Accelerates wound healing by maintaining moist environment",
+    "concentration_guide": "5-20% (most effective range); can be used up to 100% but may feel sticky",
+    "optimal_ph": "3.0-8.0 (versatile across pH ranges)",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Extremely rare; plant-derived glycerin suitable for most",
+      "sensitivities": "Very well tolerated; non-irritating",
+      "interactions": "Compatible with all skincare ingredients; enhances penetration of actives",
+      "cautions": ["In very dry environments, can draw moisture from skin if not paired with occlusive ingredient", "High concentrations (>20%) may feel sticky", "Ensure vegetable-derived if avoiding animal products"]
+    },
+    "root_cause_addressed": "Transepidermal water loss; dehydration; impaired barrier function",
+    "related_ingredients": ["Hyaluronic Acid", "Panthenol", "Ceramides", "Squalane", "Urea"],
+    "notes": "One of the most researched and proven skincare ingredients. Found naturally in skin (NMF component). Vegetable-derived glycerin is standard in modern cosmetics. Works synergistically with hyaluronic acid and ceramides. Essential ingredient in most moisturizers. Can be used alone or in combination."
+  },
+  {
+    "id": "ing_022",
+    "name": "Beta-Glucan",
+    "inci_name": "Beta-Glucan",
+    "category": "soothing agent",
+    "function": "Immunomodulator, wound healer, and hydrating agent; soothes irritated skin and supports barrier function",
+    "evidence_level": "moderate",
+    "evidence_grade": "B+",
+    "best_for": ["sensitive skin", "irritated skin", "dry skin", "aging skin", "post-procedure"],
+    "conditions_treated": [
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Calms reactive skin; reduces redness and inflammation"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Supports barrier repair and reduces inflammation; can be used alongside prescription treatments"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antioxidant properties and collagen support; may reduce fine lines"
+      },
+      {
+        "condition": "dehydration",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Humectant properties; improves skin moisture content"
+      },
+      {
+        "condition": "wound_healing",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Accelerates tissue repair; stimulates macrophage activity"
+      }
+    ],
+    "mechanism_of_action": "1) Immunomodulation: Activates macrophages and Langerhans cells to enhance skin's immune defense. 2) Collagen stimulation: Stimulates fibroblasts to produce collagen and elastin. 3) Wound healing: Accelerates tissue repair through growth factor stimulation. 4) Anti-inflammatory: Reduces pro-inflammatory cytokines. 5) Antioxidant: Scavenges free radicals. 6) Moisturization: Forms protective film and enhances skin hydration. 7) Source-dependent: 1,3-beta-glucan from yeast/ mushrooms most studied for skin",
+    "concentration_guide": "1-5% (effective at low concentrations); up to 10% in intensive treatments",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; those with mushroom or yeast sensitivities should patch test",
+      "sensitivities": "Extremely well tolerated; anti-inflammatory properties make it ideal for reactive skin",
+      "interactions": "Compatible with all ingredients; enhances retinoid and acid tolerance",
+      "cautions": ["Source matters: yeast-derived and mushroom-derived have strongest evidence", "Oat-derived beta-glucan also effective but different molecular structure", "Effects on collagen less proven than retinoids or peptides"]
+    },
+    "root_cause_addressed": "Impaired immune response in skin; inflammation; barrier dysfunction; collagen decline",
+    "related_ingredients": ["Niacinamide", "Ceramides", "Hyaluronic Acid", "Centella Asiatica", "Allantoin"],
+    "notes": "Polysaccharide found in yeast, mushrooms, oats, and bacteria. Used in Osmosis liposomal formulation. Often compared to hyaluronic acid for hydration but offers additional immunomodulatory benefits. Excellent for post-procedure skin and reducing retinoid irritation. 1,3-beta-glucan from Saccharomyces cerevisiae has strongest clinical evidence."
+  },
+  {
+    "id": "ing_023",
+    "name": "Colloidal Oatmeal / Avena Sativa",
+    "inci_name": "Avena Sativa (Oat) Kernel Flour",
+    "category": "soothing agent",
+    "function": "FDA-approved skin protectant; soothes itching, reduces inflammation, and restores barrier function",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": ["eczema", "dry skin", "itchy skin", "sensitive skin", "atopic dermatitis", " irritated skin"],
+    "conditions_treated": [
+      {
+        "condition": "eczema",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "FDA-approved for eczema treatment; restores barrier, reduces inflammation, relieves itching"
+      },
+      {
+        "condition": "atopic_dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Recommended by National Eczema Association; clinical studies show significant improvement"
+      },
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Forms protective film; contains lipids that restore barrier function"
+      },
+      {
+        "condition": "itchy_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Direct anti-itch properties through avenanthramides; fast-acting relief"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Minimal allergenicity; extremely well tolerated even by severely reactive skin"
+      }
+    ],
+    "mechanism_of_action": "1) Anti-inflammatory: Avenanthramides (unique polyphenols in oats) inhibit NF-κB and reduce inflammatory cytokines. 2) Barrier repair: Rich in lipids (phospholipids, glycolipids) and beta-glucan that restore skin barrier. 3) Anti-itch: Direct inhibition of histamine release and nerve signaling. 4) Humectant: Beta-glucan and starches hold moisture. 5) Buffering: Maintains skin pH. 6) Antioxidant: Phenolic compounds neutralize free radicals. 7) Cleansing: Saponins provide gentle cleansing without stripping",
+    "concentration_guide": "1-5% in leave-on products; 5-50% in therapeutic bath products; 1% minimum for FDA skin protectant claim",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare; true oat allergy is uncommon (usually protein allergy, not oat kernel lipids)",
+      "sensitivities": "Extremely well tolerated; recommended for infant eczema",
+      "interactions": "Compatible with all treatments including topical corticosteroids and calcineurin inhibitors",
+      "cautions": ["Use colloidal (finely ground) oatmeal for best results", "Ensure products are free of oat contaminants if severely allergic", "Bath products should be lukewarm, not hot"]
+    },
+    "root_cause_addressed": "Barrier dysfunction; inflammation; histamine-mediated itching; lipid deficiency in stratum corneum",
+    "related_ingredients": ["Ceramides", "Niacinamide", "Panthenol", "Beta-Glucan", "Shea Butter"],
+    "notes": "FDA-recognized skin protectant (Category I). The only natural ingredient with this designation. Avenanthramides are unique anti-inflammatory compounds found only in oats. Safe for all ages including infants. Often used as adjunct to prescription eczema treatments. Look for products certified by National Eczema Association."
+  },
+  {
+    "id": "ing_024",
+    "name": "Urea",
+    "inci_name": "Urea",
+    "category": "humectant",
+    "function": "Multi-functional: humectant, exfoliant (at higher concentrations), and penetration enhancer; treats dry, rough, and scaly skin",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": ["dry skin", "rough skin", "calluses", "eczema", "ichthyosis", "hyperkeratosis"],
+    "conditions_treated": [
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "At concentrations 5-10%, acts as powerful humectant and barrier strengthener"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Reduces TEWL and improves barrier function; often combined with hydrocortisone"
+      },
+      {
+        "condition": "hyperkeratosis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "At 10-40%, dissolves keratin and softens thick, scaly skin"
+      },
+      {
+        "condition": "ichthyosis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "First-line treatment for ichthyosis; softens scales significantly"
+      },
+      {
+        "condition": "calluses",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "20-40% urea preparations effectively soften corns and calluses"
+      }
+    ],
+    "mechanism_of_action": "1) Humectant (5-10%): Attracts and binds water to stratum corneum; increases skin moisture content by 50%+. 2) Keratolytic (10-40%): Dissolves desmosomal connections between corneocytes, promoting exfoliation. 3) Barrier repair: Stimulates synthesis of filaggrin, loricrin, and other barrier proteins. 4) Antimicrobial: Inhibits growth of bacteria and fungi (particularly Malassezia). 5) Penetration enhancer: Disrupts lipid packing in stratum corneum, improving delivery of other actives. 6) Natural moisturizing factor (NMF): Naturally present in skin; decreases with age and in atopic skin",
+    "concentration_guide": "5-10%: Humectant and barrier repair; 10-20%: Mild keratolytic; 20-40%: Strong keratolytic for thick skin; >40%: Wart removal (medical use)",
+    "optimal_ph": "4.5-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; urea is natural skin component",
+      "sensitivities": "Generally well tolerated; stinging possible at higher concentrations on broken skin",
+      "interactions": "Enhances penetration of other topicals (corticosteroids, antifungals)",
+      "cautions": ["Higher concentrations (>20%) may cause stinging on irritated or broken skin", "Not for use on face at concentrations >10% unless directed", "Keep away from eyes and mucous membranes at high concentrations"]
+    },
+    "root_cause_addressed": "NMF deficiency; impaired desquamation; barrier protein deficiency; excessive keratin buildup",
+    "related_ingredients": ["Glycerin", "Hyaluronic Acid", "Lactic Acid", "Ceramides", "Salicylic Acid"],
+    "notes": "Natural moisturizing factor found in skin. Concentration determines function: low = humectant, high = keratolytic. One of the most effective ingredients for dry, scaly skin conditions. Often combined with lactic acid for enhanced keratolysis. Safe for long-term use. Synthetic and natural sources identical."
+  },
+  {
+    "id": "ing_025",
+    "name": "Sulfur",
+    "inci_name": "Sulfur",
+    "category": "antimicrobial",
+    "function": "Antibacterial, antifungal, and keratolytic agent; reduces oil production and treats acne, rosacea, and seborrheic dermatitis",
+    "evidence_level": "strong",
+    "evidence_grade": "B+",
+    "best_for": ["acne", "rosacea", "seborrheic dermatitis", "oily skin", "fungal acne"],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Reduces acne bacteria and regulates sebum; effective for inflammatory and non-inflammatory acne"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Anti-inflammatory and antimicrobial; helps reduce papules and pustules of rosacea"
+      },
+      {
+        "condition": "seborrheic_dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Antifungal properties target Malassezia yeast; reduces scaling and inflammation"
+      },
+      {
+        "condition": "oily_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Regulates sebum production and reduces oiliness"
+      },
+      {
+        "condition": "fungal_acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Antifungal properties effective against Malassezia folliculitis"
+      }
+    ],
+    "mechanism_of_action": "1) Antibacterial: Converts to pentathionic acid and hydrogen sulfide, which inhibit acne bacteria (C. acnes). 2) Keratolytic: Dissolves intercellular cement, promoting exfoliation and preventing pore clogging. 3) Antifungal: Inhibits Malassezia yeast growth. 4) Sebum regulator: Reduces oil production in sebaceous glands. 5) Anti-inflammatory: Reduces inflammatory cytokines. 6) Comedolytic: Helps dissolve existing comedones and prevent new ones",
+    "concentration_guide": "3-10% for facial products; 10% most common; higher concentrations available in spot treatments and masks",
+    "optimal_ph": "6.0-8.0 (works at skin pH)",
+    "safety_profile": {
+      "pregnancy": "Generally considered safe at cosmetic concentrations (category N - no known risk)",
+      "breastfeeding": "Likely safe at cosmetic concentrations",
+      "allergies": "Possible sulfur sensitivity; may trigger sulfa drug allergies in rare cases (different compound but caution advised)",
+      "sensitivities": "Can cause dryness, peeling, and irritation; typical sulfur smell",
+      "interactions": "May be drying when combined with retinoids or benzoyl peroxide; separate application times",
+      "cautions": ["Distinct sulfur/rotten egg odor in some formulations", "Can be very drying; use with moisturizer", "May darken silver jewelry temporarily", "Test on small area first if sensitive to sulfa medications"]
+    },
+    "root_cause_addressed": "Bacterial overgrowth (C. acnes); fungal overgrowth (Malassezia); excessive sebum production; abnormal keratinization",
+    "related_ingredients": ["Salicylic Acid", "Benzoyl Peroxide", "Niacinamide", "Zinc", "Tea Tree Oil"],
+    "notes": "One of oldest acne treatments (used since Roman times). Gentler than benzoyl peroxide for sensitive skin. Often combined with resorcinol in historical formulations. Sulfur springs (spa treatments) have been used for skin conditions for centuries. Modern formulations mask odor better. Effective for fungal acne when other treatments fail."
+  },
+  {
+    "id": "ing_026",
+    "name": "Kaolin",
+    "inci_name": "Kaolin",
+    "category": "absorbent",
+    "function": "Natural clay that absorbs excess oil, purifies pores, and provides gentle exfoliation; soothes irritated skin",
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": ["oily skin", "acne", "clogged pores", "sensitive skin"],
+    "conditions_treated": [
+      {
+        "condition": "oily_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Excellent oil-absorbing properties; mattifies skin immediately"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Draws out impurities and reduces excess oil that contributes to acne"
+      },
+      {
+        "condition": "clogged_pores",
+ "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Absorbs sebum and debris from pores; prevents blackhead formation"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Gentlest of cosmetic clays; does not over-dry or irritate like bentonite may"
+      }
+    ],
+    "mechanism_of_action": "1) Oil absorption: Highly adsorbent structure binds excess sebum and lipids from skin surface. 2) Gentle exfoliation: Fine particles provide physical exfoliation without harsh abrasion. 3) Purification: Draws out impurities, toxins, and pollutants from pores. 4) Soothing: Mild anti-inflammatory properties calm irritated skin. 5) Astringent: Tightens pores temporarily. 6) Healing: Traditional use for minor wounds and skin irritation",
+    "concentration_guide": "5-25% in masks and cleansers; can be used as 100% powder for spot treatments",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare",
+      "sensitivities": "Well tolerated; gentlest clay for sensitive skin",
+      "interactions": "None known; can be combined with most actives",
+      "cautions": ["Can be drying if overused; limit to 1-2 times weekly for dry skin", "Does not provide antibacterial action like sulfur or benzoyl peroxide", "Effects are temporary; not a treatment for acne root causes"]
+    },
+    "root_cause_addressed": "Excess sebum production; surface debris accumulation; temporary pore congestion",
+    "related_ingredients": ["Bentonite", "Sulfur", "Salicylic Acid", "Niacinamide", "Charcoal"],
+    "notes": "White clay mineral (hydrated aluminum silicate). Gentlest of cosmetic clays, making it ideal for sensitive and dry skin types. Less absorbent than bentonite but more gentle. Often combined with other clays or actives in masks. Naturally occurring; mined from clay deposits. Used for centuries in skincare and medicine."
+  },
+  {
+    "id": "ing_027",
+    "name": "Bentonite",
+    "inci_name": "Bentonite",
+    "category": "absorbent",
+    "function": "Highly absorbent volcanic clay that draws out impurities, toxins, and excess oil; provides deep pore cleansing",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": ["oily skin", "acne", "clogged pores", "detoxification"],
+    "conditions_treated": [
+      {
+        "condition": "oily_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Most absorbent cosmetic clay; can absorb several times its weight in oil"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Draws out pore-clogging debris and reduces sebum; often combined with sulfur or salicylic acid"
+      },
+      {
+        "condition": "clogged_pores",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Deep pore cleansing through adsorption of impurities and toxins"
+      },
+      {
+        "condition": "skin_detoxification",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Adsorbs environmental pollutants and heavy metals from skin surface"
+      }
+    ],
+    "mechanism_of_action": "1) Adsorption: Negatively charged ions attract positively charged toxins, impurities, and excess oil. 2) Deep cleansing: Draws out debris from pores through capillary action. 3) Oil absorption: Highly porous structure absorbs sebum and lipids. 4) Exfoliation: Fine particles provide gentle physical exfoliation. 5) Antimicrobial: Creates unfavorable environment for bacteria in pores. 6) Mineral delivery: Rich in minerals (silica, aluminum, magnesium, calcium) that benefit skin",
+    "concentration_guide": "5-25% in masks; up to 50% in intensive detox masks",
+    "optimal_ph": "8.0-10.0 (naturally alkaline; often formulated to lower pH)",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; may contain trace minerals",
+      "sensitivities": "Can be drying for dry/sensitive skin types; stronger than kaolin",
+      "interactions": "Can be combined with most ingredients; avoid with very low pH products (<3) which may reduce efficacy",
+      "cautions": ["More drying than kaolin; not ideal for dry or sensitive skin", "Should not be allowed to fully dry on skin (can cause dehydration)", "Rinse thoroughly to prevent residue", "Can be mixed with apple cider vinegar to balance pH"]
+    },
+    "root_cause_addressed": "Excess sebum; pore congestion; surface toxin/pollutant accumulation",
+    "related_ingredients": ["Kaolin", "Sulfur", "Salicylic Acid", "Charcoal", "Green Clay"],
+    "notes": "Formed from volcanic ash and named after Fort Benton, Wyoming. Montmorillonite is the primary mineral. Most absorbent of cosmetic clays. Naturally alkaline pH (8-10) is often adjusted in formulations. Can expand up to 15x its volume when wet. Used in Aztec Secret Indian Healing Clay (calcium bentonite). Often combined with kaolin to balance absorbency and gentleness."
+  },
+  {
+    "id": "ing_028",
+    "name": "Honey",
+    "inci_name": "Mel",
+    "category": "humectant",
+    "function": "Natural humectant with antibacterial, anti-inflammatory, and wound-healing properties; soothes and hydrates skin",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": ["dry skin", "sensitive skin", "acne", "wound healing", "irritated skin"],
+    "conditions_treated": [
+      {
+        "condition": "wound_healing",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "MediHoney and medical-grade honey used in clinical wound care; promotes tissue regeneration"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antibacterial properties (H2O2 production, low pH, high sugar); reduces C. acnes"
+      },
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Natural humectant; attracts and retains moisture"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Soothes irritation; anti-inflammatory properties calm reactive skin"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Manuka honey specifically studied for eczema; reduces inflammation and infection risk"
+      }
+    ],
+    "mechanism_of_action": "1) Antibacterial: Low pH (3.2-4.5), high sugar content, and hydrogen peroxide production inhibit bacterial growth. 2) Humectant: Natural sugars (fructose, glucose) attract and bind water. 3) Anti-inflammatory: Polyphenols and flavonoids reduce inflammatory cytokines. 4) Wound healing: Stimulates tissue regeneration, angiogenesis, and epithelialization. 5) Antioxidant: Phenolic compounds neutralize free radicals. 6) Osmotic effect: Draws fluid from bacteria, inhibiting their growth. 7) Enzymatic activity: Glucose oxidase produces hydrogen peroxide for sustained antibacterial action",
+    "concentration_guide": "5-20% in cosmetic formulations; medical-grade honey used at 100% for wound dressings",
+    "optimal_ph": "3.2-4.5 (naturally acidic; maintains stability)",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; avoid if allergic to bee products or pollen",
+      "sensitivities": "Generally well tolerated; patch test if concerned about bee/pollen allergies",
+      "interactions": "None known; compatible with most ingredients",
+      "cautions": ["Not vegan (animal product)", "Can be sticky in formulations", "May increase photosensitivity in some individuals", "Manuka honey has strongest antibacterial properties (UMF 10+ or MGO 250+)"]
+    },
+    "root_cause_addressed": "Bacterial overgrowth; dehydration; inflammation; impaired wound healing",
+    "related_ingredients": ["Propolis", "Royal Jelly", "Beeswax", "Colloidal Oatmeal", "Aloe Vera"],
+    "notes": "Used in medicine for thousands of years. Manuka honey (from New Zealand) has strongest evidence due to methylglyoxal (MGO) content. Medical-grade honey (MediHoney) used in hospitals for wound care. Raw, unpasteurized honey has more enzymes but cosmetic formulations typically use processed forms for stability. UMF (Unique Manuka Factor) and MGO ratings indicate antibacterial potency."
+  }
+]

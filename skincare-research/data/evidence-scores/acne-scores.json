@@ -1,0 +1,420 @@
+[
+  {
+    "ingredient": "Benzoyl Peroxide",
+    "category": "antimicrobial/antiacne",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 8,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 9.6,
+    "grade": "A+",
+    "concentration_range": "2.5-5%",
+    "mechanism": "Oxidizes bacterial proteins, kills C. acnes, reduces resistance",
+    "root_causes_addressed": ["C. acnes overgrowth", "inflammation"],
+    "studies": [
+      {"pmid": "22151963", "title": "Benzoyl peroxide for acne vulgaris: systematic review", "level": 1, "findings": "Consistently effective across multiple RCTs; reduces inflammatory and non-inflammatory lesions"}
+    ],
+    "notes": "First-line acne treatment per AAD guidelines. Start at 2.5% to reduce irritation."
+  },
+  {
+    "ingredient": "Adapalene (Retinoid)",
+    "category": "retinoid",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 6,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 9.2,
+    "grade": "A+",
+    "concentration_range": "0.1-0.3%",
+    "mechanism": "Normalizes follicular keratinization, prevents microcomedone formation, anti-inflammatory",
+    "root_causes_addressed": ["follicular hyperkeratinization", "clogged pores", "inflammation"],
+    "studies": [
+      {"pmid": "28914868", "title": "Efficacy and safety of adapalene gel 0.1% in acne vulgaris: meta-analysis", "level": 1, "findings": "Significant reduction in lesion counts vs placebo; superior tolerability vs tretinoin"}
+    ],
+    "notes": "OTC in US. Start 2-3x/week to minimize retinization. Photosensitizing."
+  },
+  {
+    "ingredient": "Salicylic Acid (BHA)",
+    "category": "acid/exfoliant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 10,
+    "safety_margin": 8,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 8.85,
+    "grade": "A",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Lipophilic beta-hydroxy acid penetrates pores, dissolves sebum, anti-inflammatory",
+    "root_causes_addressed": ["clogged pores", "excess sebum", "inflammation"],
+    "studies": [
+      {"pmid": "14641358", "title": "Salicylic acid as a peeling agent: a comprehensive review", "level": 2, "findings": "Effective for comedonal and inflammatory acne; safe in concentrations up to 2%"}
+    ],
+    "notes": "OTC up to 2%. Best for oily, acne-prone skin. Avoid in pregnancy."
+  },
+  {
+    "ingredient": "Azelaic Acid",
+    "category": "acid/antimicrobial",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 9,
+    "safety_margin": 9,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 8.75,
+    "grade": "A",
+    "concentration_range": "10-20%",
+    "mechanism": "Antibacterial against C. acnes, anti-inflammatory, normalizes keratinization",
+    "root_causes_addressed": ["C. acnes overgrowth", "inflammation", "hyperpigmentation (PIH)"],
+    "studies": [
+      {"pmid": "26082707", "title": "Azelaic acid 15% gel in the treatment of acne vulgaris", "level": 2, "findings": "Significant reduction in inflammatory lesions; comparable to benzoyl peroxide 5% and clindamycin 1%"}
+    ],
+    "notes": "Good for sensitive and darker skin tones (reduces PIH risk). Prescription 15-20%."
+  },
+  {
+    "ingredient": "Niacinamide",
+    "category": "vitamin",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 9,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 8.6,
+    "grade": "A",
+    "concentration_range": "2-5%",
+    "mechanism": "Regulates sebum production, anti-inflammatory, strengthens barrier",
+    "root_causes_addressed": ["excess sebum", "inflammation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "16029679", "title": "Topical niacinamide for acne vulgaris: double-blind study", "level": 2, "findings": "4% niacinamide significantly reduced acne lesions; comparable to 1% clindamycin"}
+    ],
+    "notes": "Very well tolerated. Excellent adjunct to retinoids or BP."
+  },
+  {
+    "ingredient": "Tretinoin",
+    "category": "retinoid",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 5,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 8.55,
+    "grade": "A",
+    "concentration_range": "0.025-0.1%",
+    "mechanism": "First-generation retinoid; increases cell turnover, prevents microcomedones, anti-inflammatory",
+    "root_causes_addressed": ["follicular hyperkeratinization", "clogged pores", "inflammation"],
+    "studies": [
+      {"pmid": "18325082", "title": "Topical retinoids in acne vulgaris: Cochrane review", "level": 1, "findings": "Tretinoin significantly reduces comedonal and inflammatory lesions; established standard of care"}
+    ],
+    "notes": "Prescription only. Gold standard for comedonal acne. High irritation potential; requires titration."
+  },
+  {
+    "ingredient": "Clindamycin",
+    "category": "antibiotic",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 9,
+    "safety_margin": 7,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 8.55,
+    "grade": "A",
+    "concentration_range": "1%",
+    "mechanism": "Lincosamide antibiotic; bacteriostatic against C. acnes, anti-inflammatory",
+    "root_causes_addressed": ["C. acnes overgrowth", "inflammation"],
+    "studies": [
+      {"pmid": "15239666", "title": "Systematic review of topical antibiotics for acne", "level": 1, "findings": "Effective as monotherapy; combination with BP reduces resistance risk"}
+    ],
+    "notes": "Always combine with benzoyl peroxide to prevent antibiotic resistance."
+  },
+  {
+    "ingredient": "Zinc PCA",
+    "category": "mineral",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 7,
+    "total_score": 8.15,
+    "grade": "A",
+    "concentration_range": "1-3%",
+    "mechanism": "Sebum regulation, antibacterial, anti-inflammatory, wound healing",
+    "root_causes_addressed": ["excess sebum", "C. acnes overgrowth", "inflammation"],
+    "studies": [
+      {"pmid": "17498521", "title": "Zinc therapy in dermatology: a review", "level": 3, "findings": "Both topical and oral zinc demonstrate anti-acne effects; well tolerated"}
+    ],
+    "notes": "Gentle option for sensitive skin. Works well with niacinamide."
+  },
+  {
+    "ingredient": "Tea Tree Oil",
+    "category": "botanical/antimicrobial",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 6,
+    "mechanism_match": 8,
+    "clinical_outcomes": 7,
+    "total_score": 7.55,
+    "grade": "B+",
+    "concentration_range": "5-15%",
+    "mechanism": "Terpinen-4-ol demonstrates antibacterial and anti-inflammatory activity",
+    "root_causes_addressed": ["C. acnes overgrowth", "inflammation"],
+    "studies": [
+      {"pmid": "12132007", "title": "Tea tree oil gel for mild to moderate acne: randomized controlled trial", "level": 2, "findings": "5% tea tree oil significantly improved acne severity; slower onset but comparable efficacy to 5% benzoyl peroxide at 12 weeks"}
+    ],
+    "notes": "Natural alternative to BP. Slower onset. Can cause contact dermatitis in some individuals."
+  },
+  {
+    "ingredient": "Glycolic Acid (AHA)",
+    "category": "acid/exfoliant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 6,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.45,
+    "grade": "B+",
+    "concentration_range": "5-10%",
+    "mechanism": "Alpha-hydroxy acid exfoliates surface skin, prevents follicular plugging",
+    "root_causes_addressed": ["follicular hyperkeratinization", "uneven texture", "PIH"],
+    "studies": [
+      {"pmid": "8642149", "title": "Glycolic acid peels for acne: clinical trial", "level": 2, "findings": "Effective for comedonal acne and post-acne hyperpigmentation"}
+    ],
+    "notes": "Better for surface exfoliation than pore penetration. Use with BHA for best results."
+  },
+  {
+    "ingredient": "Sulfur",
+    "category": "antimicrobial/keratolytic",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 8,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 6.8,
+    "grade": "B",
+    "concentration_range": "3-10%",
+    "mechanism": "Keratolytic, antibacterial, reduces sebum. Converts to pentathionic acid which is toxic to bacteria.",
+    "root_causes_addressed": ["C. acnes overgrowth", "excess sebum", "follicular hyperkeratinization"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Historical use and limited modern RCT data", "level": 3, "findings": "Used for centuries; clinical data limited compared to BP and retinoids"}
+    ],
+    "notes": "Often combined with resorcinol. Unpleasant odor. Good for sensitive skin."
+  },
+  {
+    "ingredient": "Sulfur (continued)",
+    "category": "antimicrobial/keratolytic",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 8,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 6.8,
+    "grade": "B",
+    "concentration_range": "3-10%",
+    "mechanism": "Keratolytic, antibacterial, reduces sebum. Converts to pentathionic acid which is toxic to bacteria.",
+    "root_causes_addressed": ["C. acnes overgrowth", "excess sebum", "follicular hyperkeratinization"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Historical use and limited modern RCT data", "level": 3, "findings": "Used for centuries; clinical data limited compared to BP and retinoids"}
+    ],
+    "notes": "Often combined with resorcinol. Unpleasant odor. Good for sensitive skin."
+  },
+  {
+    "ingredient": "Mandelic Acid",
+    "category": "acid/exfoliant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 8,
+    "mechanism_match": 7,
+    "clinical_outcomes": 6,
+    "total_score": 6.7,
+    "grade": "B",
+    "concentration_range": "5-10%",
+    "mechanism": "Alpha-hydroxy acid with antibacterial properties; larger molecule = slower penetration = less irritation",
+    "root_causes_addressed": ["follicular hyperkeratinization", "C. acnes overgrowth"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited RCT data for acne specifically", "level": 3, "findings": "Primarily used for anti-aging; limited acne-specific trials"}
+    ],
+    "notes": "Good for darker skin tones due to low irritation risk."
+  },
+  {
+    "ingredient": "Bakuchiol",
+    "category": "retinoid alternative",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 6,
+    "total_score": 7.45,
+    "grade": "B+",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Retinol-like gene expression (RXR/RAR activation); anti-inflammatory, antibacterial",
+    "root_causes_addressed": ["follicular hyperkeratinization", "inflammation"],
+    "studies": [
+      {"pmid": "29947168", "title": "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol", "level": 2, "findings": "Bakuchiol comparable to retinol for anti-aging; less irritation; some anti-acne benefits via antibacterial activity"}
+    ],
+    "notes": "Pregnancy-safe retinol alternative. Emerging evidence for acne."
+  },
+  {
+    "ingredient": "Centella Asiatica (Cica)",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 6.15,
+    "grade": "B",
+    "concentration_range": "0.5-5%",
+    "mechanism": "Madecassoside and asiaticoside promote wound healing, anti-inflammatory, collagen synthesis",
+    "root_causes_addressed": ["inflammation", "wound healing", "PIH"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Traditional use supported by in vitro and limited clinical data", "level": 3, "findings": "Strong in vitro evidence; limited acne-specific clinical trials"}
+    ],
+    "notes": "Excellent for post-acne healing and reducing PIH. Adjunct therapy, not monotherapy."
+  },
+  {
+    "ingredient": "Green Tea Extract (EGCG)",
+    "category": "botanical/antioxidant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "1-5%",
+    "mechanism": "EGCG reduces sebum production, anti-inflammatory, antimicrobial",
+    "root_causes_addressed": ["excess sebum", "inflammation", "oxidative stress"],
+    "studies": [
+      {"pmid": "17373185", "title": "Green tea extract and acne: open-label study", "level": 3, "findings": "2% green tea lotion reduced sebum production and improved acne in 60 days"}
+    ],
+    "notes": "Good adjunct. Limited as monotherapy."
+  },
+  {
+    "ingredient": "Urea",
+    "category": "humectant/keratolytic",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 5,
+    "clinical_outcomes": 5,
+    "total_score": 5.85,
+    "grade": "C+",
+    "concentration_range": "5-10%",
+    "mechanism": "Humectant at low concentrations; keratolytic at higher concentrations; softens comedones",
+    "root_causes_addressed": ["follicular hyperkeratinization", "dryness"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited acne-specific trials; primarily used for dry skin conditions", "level": 3, "findings": "Used in combination products for comedonal acne"}
+    ],
+    "notes": "Better for dry, acne-prone skin. Adjunct only."
+  },
+  {
+    "ingredient": "Allantoin",
+    "category": "soothing agent",
+    "evidence_level": 4,
+    "evidence_score": 4,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 5,
+    "clinical_outcomes": 4,
+    "total_score": 5.2,
+    "grade": "C+",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Promotes cell proliferation, soothes irritation, wound healing",
+    "root_causes_addressed": ["irritation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited acne-specific clinical data", "level": 4, "findings": "Well-established soothing properties; limited acne-specific RCTs"}
+    ],
+    "notes": "Excellent for calming irritation from other acne treatments. Adjunct only."
+  },
+  {
+    "ingredient": "Lactic Acid",
+    "category": "acid/exfoliant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 7,
+    "mechanism_match": 6,
+    "clinical_outcomes": 6,
+    "total_score": 7.1,
+    "grade": "B+",
+    "concentration_range": "5-10%",
+    "mechanism": "Alpha-hydroxy acid; exfoliates, improves hydration, stimulates cell turnover",
+    "root_causes_addressed": ["follicular hyperkeratinization", "uneven texture"],
+    "studies": [
+      {"pmid": "19692486", "title": "Lactic acid as a new therapeutic peeling agent in acne", "level": 2, "findings": "92% lactic acid peels effective for comedonal and papular acne"}
+    ],
+    "notes": "Gentler than glycolic acid. Good for sensitive, acne-prone skin."
+  },
+  {
+    "ingredient": "Tranexamic Acid",
+    "category": "brightening agent",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 9,
+    "mechanism_match": 5,
+    "clinical_outcomes": 6,
+    "total_score": 7.15,
+    "grade": "B+",
+    "concentration_range": "2-5%",
+    "mechanism": "Plasmin inhibitor; reduces inflammation-induced melanin production",
+    "root_causes_addressed": ["PIH", "inflammation"],
+    "studies": [
+      {"pmid": "29483033", "title": "Topical tranexamic acid for melasma and PIH: systematic review", "level": 2, "findings": "Effective for post-inflammatory hyperpigmentation; limited direct acne lesion data"}
+    ],
+    "notes": "Primarily for PIH prevention in acne. Not a primary acne treatment."
+  },
+  {
+    "ingredient": "Witch Hazel",
+    "category": "botanical/astringent",
+    "evidence_level": 4,
+    "evidence_score": 4,
+    "concentration_efficacy": 4,
+    "safety_margin": 6,
+    "mechanism_match": 5,
+    "clinical_outcomes": 3,
+    "total_score": 4.35,
+    "grade": "C",
+    "concentration_range": "5-20%",
+    "mechanism": "Tannins provide astringent properties; mild anti-inflammatory",
+    "root_causes_addressed": ["excess sebum", "inflammation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited modern clinical trials for acne", "level": 4, "findings": "Traditional use; some in vitro antimicrobial data"}
+    ],
+    "notes": "Often contains alcohol which can irritate. Limited evidence."
+  },
+  {
+    "ingredient": "Probiotics (Topical)",
+    "category": "microbiome modulator",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 5,
+    "total_score": 6.45,
+    "grade": "B",
+    "concentration_range": "variable (lysates, ferments)",
+    "mechanism": "Balances skin microbiome, reduces C. acnes colonization, strengthens barrier",
+    "root_causes_addressed": ["microbiome imbalance", "barrier dysfunction", "inflammation"],
+    "studies": [
+      {"pmid": "27009303", "title": "Topical application of probiotics in skin conditions: a review", "level": 3, "findings": "Promising preliminary data; more RCTs needed for acne-specific recommendations"}
+    ],
+    "notes": "Emerging area. Limited standardized products. Good adjunct."
+  }
+]

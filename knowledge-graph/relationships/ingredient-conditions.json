@@ -1,0 +1,3495 @@
+[
+  {
+    "from": "retinol",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Comedolytic and anti-inflammatory via retinoic acid receptor activation"
+  },
+  {
+    "from": "retinol",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Accelerates cell turnover and inhibits melanin transfer"
+  },
+  {
+    "from": "retinol",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Disperses melanin granules and increases epidermal turnover"
+  },
+  {
+    "from": "retinol",
+    "to": "scarring",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates collagen I/III to remodel atrophic scars over months"
+  },
+  {
+    "from": "retinol",
+    "to": "xerosis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Initial retinization can cause dryness and flaking"
+  },
+  {
+    "from": "retinol",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can trigger flushing and barrier disruption in rosacea-prone skin"
+  },
+  {
+    "from": "retinol",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Compromises already-impaired barrier; avoid during flares"
+  },
+  {
+    "from": "retinol",
+    "to": "actinic-keratosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Normalizes keratinocyte differentiation; used as field therapy"
+  },
+  {
+    "from": "retinol",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Exfoliates follicular plugs and normalizes keratinization"
+  },
+  {
+    "from": "retinol",
+    "to": "stretch-marks",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "May improve early striae distensae via collagen stimulation"
+  },
+  {
+    "from": "tretinoin",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Gold standard comedolytic and anti-inflammatory retinoid"
+  },
+  {
+    "from": "tretinoin",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Cornerstone of triple-combination therapy for melasma"
+  },
+  {
+    "from": "tretinoin",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Accelerates melanin dispersion more rapidly than retinol"
+  },
+  {
+    "from": "tretinoin",
+    "to": "actinic-keratosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "FDA-approved for actinic keratosis field treatment"
+  },
+  {
+    "from": "tretinoin",
+    "to": "scarring",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Induces collagen remodeling in atrophic acne scars"
+  },
+  {
+    "from": "tretinoin",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "High irritation risk; contraindicated in most rosacea subtypes"
+  },
+  {
+    "from": "tretinoin",
+    "to": "perioral-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can trigger or worsen perioral dermatitis"
+  },
+  {
+    "from": "tretinoin",
+    "to": "xerosis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Common side effect: dryness, peeling, and irritation"
+  },
+  {
+    "from": "tretinoin",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Effective for follicular keratotic disorders"
+  },
+  {
+    "from": "adapalene",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "First-line retinoid for acne; stable with benzoyl peroxide"
+  },
+  {
+    "from": "adapalene",
+    "to": "acne-mechanica",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Effective for friction-induced and body acne"
+  },
+  {
+    "from": "adapalene",
+    "to": "hormonal-acne",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Epiduo (adapalene + BP) commonly prescribed for hormonal acne"
+  },
+  {
+    "from": "adapalene",
+    "to": "scarring",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Prevents comedonal progression to inflammatory lesions and scars"
+  },
+  {
+    "from": "adapalene",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Less irritating than tretinoin but still risky for rosacea"
+  },
+  {
+    "from": "adapalene",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Avoid on eczematous skin"
+  },
+  {
+    "from": "niacinamide",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Reduces sebum, anti-inflammatory, and normalizes pore lining"
+  },
+  {
+    "from": "niacinamide",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits melanosome transfer; effective in 4-5% concentrations"
+  },
+  {
+    "from": "niacinamide",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces redness and strengthens barrier in papulopustular rosacea"
+  },
+  {
+    "from": "niacinamide",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Inhibits melanosome transfer from melanocytes to keratinocytes"
+  },
+  {
+    "from": "niacinamide",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Increases ceramide synthesis and restores barrier function"
+  },
+  {
+    "from": "niacinamide",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and sebum-regulating properties"
+  },
+  {
+    "from": "niacinamide",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Stimulates barrier lipid synthesis and reduces TEWL"
+  },
+  {
+    "from": "niacinamide",
+    "to": "dark-circles",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Strengthens capillaries and reduces periorbital pigmentation"
+  },
+  {
+    "from": "niacinamide",
+    "to": "stretch-marks",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "May improve striae via barrier support and collagen stimulation"
+  },
+  {
+    "from": "niacinamide",
+    "to": "acne-mechanica",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Barrier support helpful for friction-induced acne"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Inhibits tyrosinase; reduces melanin synthesis"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Accelerates melanin dispersion and inhibits new pigment"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Stimulates collagen to support scar remodeling"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Antioxidant protection and collagen stimulation"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "actinic-keratosis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Antioxidant support for photodamaged skin"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Low pH can irritate rosacea-prone skin"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Acidic pH may sting compromised barrier"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "xerosis",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Upregulates ceramide synthesis"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Lipophilic BHA penetrates pores; comedolytic and antimicrobial"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Exfoliates scaly plaques and has antifungal properties"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Dissolves keratin plugs in hair follicles"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "psoriasis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Keratolytic action reduces plaque thickness"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can irritate and trigger flushing in rosacea"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Too harsh for eczematous skin"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "fungal-acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal properties help Malassezia-related folliculitis"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "acne-mechanica",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Effective for body and friction-induced acne"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "razor-bumps",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents and treats pseudofolliculitis barbae"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "tinea-versicolor",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal against Malassezia species"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Exfoliates surface and reduces comedones"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Accelerates melanin dispersion and epidermal turnover"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Peels speed up PIH fading significantly"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Stimulates collagen I/III and GAG synthesis"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Dissolves follicular keratin plugs"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Avoid in active rosacea; too irritating"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Compromises already-impaired barrier"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "actinic-keratosis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Chemical peels used as field treatment adjunct"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "xerosis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "May worsen dryness initially"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Humectant AHA treats dry skin while gently exfoliating"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Gentle follicular exfoliation with hydration"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentler than glycolic for pigmentation in sensitive skin"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Safer for darker skin tones at risk of PIH"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Stimulates collagen with less irritation than glycolic"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Humectant properties support eczematous skin barrier"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Even gentle AHAs can irritate rosacea"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "ichthyosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Standard treatment for ichthyosis vulgaris"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Exceptional humectant holds 1000x weight in water"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "A",
+    "note": "Hydration essential for eczema management"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "photoaging",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Plumps fine lines via hydration; different MW target different depths"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Supports wound healing and tissue repair"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Non-irritating hydration for sensitive rosacea skin"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "seborrheic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Hydration without triggering yeast overgrowth"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Supports barrier recovery after inflammatory lesions"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Bactericidal against C. acnes; no resistance develops"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "inflammatory-acne",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Reduces inflammatory lesions by 50-70%"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "cystic-acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Helps reduce cystic lesions when combined with retinoids"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "fungal-acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Oxygen release creates hostile environment for Malassezia"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Too irritating for rosacea-prone skin"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "xerosis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Drying effect common side effect"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Irritating to eczematous skin"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "perioral-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can trigger or worsen perioral dermatitis"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "razor-bumps",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antibacterial and keratolytic for pseudofolliculitis"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "FDA-approved; antibacterial, anti-inflammatory, comedolytic"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "FDA-approved for papulopustular rosacea"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Inhibits tyrosinase and abnormal melanocytes"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Gentle brightener safe for all skin tones"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "fungal-acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal properties against Malassezia"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "perioral-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle anti-inflammatory for perioral dermatitis"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Normalizes keratinization in follicular disorders"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Anti-inflammatory mineral sunscreen ideal for rosacea"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Physical UV filter prevents melasma darkening"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents UV-induced PIH darkening"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "actinic-keratosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents UV-induced progression of AKs"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "basal-cell-carcinoma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Broad-spectrum UV protection reduces BCC risk"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "squamous-cell-carcinoma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "UV protection reduces SCC risk"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "melanoma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Critical for melanoma prevention"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents UV-induced photoaging"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "seborrheic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and non-irritating for SD"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Gentle and non-irritating for eczema-prone skin"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "perioral-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Non-chemical sunscreen preferred for POD"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "acne-vulgaris",
+    "type": "supports",
+    "evidence_level": "A",
+    "note": "Non-comedogenic and anti-inflammatory for acne"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Physical UVB/short-UVA filter protects against pigmentation"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents UV-induced PIH darkening"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "actinic-keratosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "UV protection prevents AK development"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "basal-cell-carcinoma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "UV protection reduces BCC risk"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "squamous-cell-carcinoma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "UV protection reduces SCC risk"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "melanoma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Essential for melanoma prevention"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents UVB-induced photoaging"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "A",
+    "note": "Gentle physical filter for rosacea"
+  },
+  {
+    "from": "ceramides",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Essential barrier lipid; deficient in eczema"
+  },
+  {
+    "from": "ceramides",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Restores moisture barrier and reduces TEWL"
+  },
+  {
+    "from": "ceramides",
+    "to": "seborrheic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Supports barrier without feeding Malassezia"
+  },
+  {
+    "from": "ceramides",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Barrier repair critical for rosacea management"
+  },
+  {
+    "from": "ceramides",
+    "to": "perioral-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Gentle barrier repair for POD"
+  },
+  {
+    "from": "ceramides",
+    "to": "contact-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Restores barrier after irritant exposure"
+  },
+  {
+    "from": "ceramides",
+    "to": "photoaging",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Barrier lipids decline with age"
+  },
+  {
+    "from": "ceramides",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Supports wound healing environment"
+  },
+  {
+    "from": "ceramides",
+    "to": "acne-vulgaris",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Barrier support without comedogenicity"
+  },
+  {
+    "from": "matrixyl",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates collagen I/III production"
+  },
+  {
+    "from": "matrixyl",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces wrinkle depth and volume"
+  },
+  {
+    "from": "matrixyl",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Collagen stimulation supports scar remodeling"
+  },
+  {
+    "from": "matrixyl",
+    "to": "stretch-marks",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "May improve striae via collagen induction"
+  },
+  {
+    "from": "argireline",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces expression lines via SNARE competition"
+  },
+  {
+    "from": "argireline",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Targeted for forehead and periorbital lines"
+  },
+  {
+    "from": "squalane",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Lightweight occlusive moisturizer"
+  },
+  {
+    "from": "squalane",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Non-irritating emollient for eczema"
+  },
+  {
+    "from": "squalane",
+    "to": "seborrheic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Non-comedogenic and does not feed Malassezia"
+  },
+  {
+    "from": "squalane",
+    "to": "acne-vulgaris",
+    "type": "supports",
+    "evidence_level": "A",
+    "note": "0 on comedogenic scale; non-irritating for acne"
+  },
+  {
+    "from": "squalane",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Gentle, non-irritating moisturizer"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and strengthens capillaries"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes wound healing and reduces inflammation"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and wound healing for acne lesions"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "scarring",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates collagen I/III for scar remodeling"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Supports healing to prevent PIH formation"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "stretch-marks",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Traditional remedy for striae and wound healing"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "perioral-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Gentle anti-inflammatory for POD"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes irritant and allergic contact dermatitis"
+  },
+  {
+    "from": "snail-mucin",
+    "to": "acne-scars",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes tissue regeneration and collagen"
+  },
+  {
+    "from": "snail-mucin",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Healing support reduces PIH development"
+  },
+  {
+    "from": "snail-mucin",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Rich in hyaluronic acid and glycoproteins"
+  },
+  {
+    "from": "snail-mucin",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Humectant and soothing for eczema"
+  },
+  {
+    "from": "propolis",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antibacterial and anti-inflammatory for acne"
+  },
+  {
+    "from": "propolis",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates tissue regeneration"
+  },
+  {
+    "from": "propolis",
+    "to": "cold-sores",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antiviral properties against HSV"
+  },
+  {
+    "from": "propolis",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal against Malassezia"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Comparable efficacy to benzoyl peroxide with less irritation"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "fungal-acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal against Malassezia furfur"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal and anti-inflammatory for SD"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "folliculitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antimicrobial for bacterial and fungal folliculitis"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can irritate and trigger rosacea flares"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Essential oils too irritating for eczema"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "contact-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Common cause of allergic contact dermatitis"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Gold-standard depigmenting agent"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Most potent PIH treatment"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Inhibits tyrosinase and melanocyte metabolism"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "age-spots",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Effective for solar lentigines"
+  },
+  {
+    "from": "kojic-acid",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits tyrosinase via copper chelation"
+  },
+  {
+    "from": "kojic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle brightener for PIH"
+  },
+  {
+    "from": "kojic-acid",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Alternative to hydroquinone"
+  },
+  {
+    "from": "kojic-acid",
+    "to": "contact-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can cause contact sensitization"
+  },
+  {
+    "from": "arbutin",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Slow-release hydroquinone alternative"
+  },
+  {
+    "from": "arbutin",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle and safe for all skin tones"
+  },
+  {
+    "from": "arbutin",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits tyrosinase without cytotoxicity"
+  },
+  {
+    "from": "tranexamic-acid",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Inhibits plasminogen activator reducing melanocyte stimulation"
+  },
+  {
+    "from": "tranexamic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Effective for inflammatory pigmentation"
+  },
+  {
+    "from": "tranexamic-acid",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces vascular component and inflammation"
+  },
+  {
+    "from": "tranexamic-acid",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Multiple pathways to reduce melanin synthesis"
+  },
+  {
+    "from": "ferulic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Doubles photoprotection when combined with vitamins C and E"
+  },
+  {
+    "from": "ferulic-acid",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant prevents UV-induced pigmentation"
+  },
+  {
+    "from": "ferulic-acid",
+    "to": "actinic-keratosis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Antioxidant support for photodamaged skin"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Lipid-soluble antioxidant protecting cell membranes"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Supports wound healing and tissue repair"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Moisturizing and barrier-supporting antioxidant"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory for eczema"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "acne-vulgaris",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "High concentrations may worsen acne in oily skin"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "stretch-marks",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Antioxidant support during tissue stretching"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "EGCG reduces sebum and inflammation"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and reduces redness"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Potent antioxidant against UV damage"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "seborrheic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory for SD"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "oily-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "EGCG modulates androgen receptors reducing sebum"
+  },
+  {
+    "from": "resveratrol",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Activates SIRT1 and AMPK for anti-aging"
+  },
+  {
+    "from": "resveratrol",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits tyrosinase and melanin production"
+  },
+  {
+    "from": "resveratrol",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits NF-\u03baB and COX-2 pathways"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Retinol-like anti-acne effects without irritation"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Comparable to retinol for anti-aging"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits tyrosinase like retinoids"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Pregnancy-safe alternative to retinoids"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Gentle enough for rosacea-prone skin"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "atopic-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Non-irritating retinoid alternative for eczema"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates collagen, elastin, and GAG synthesis"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes tissue repair via TGF-\u03b2"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Supports scar remodeling"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "hair-loss",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates hair follicle activity"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and antioxidant"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "stretch-marks",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Collagen and elastin support"
+  },
+  {
+    "from": "growth-factors",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Stimulates cell renewal and collagen"
+  },
+  {
+    "from": "growth-factors",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Accelerates post-procedure recovery"
+  },
+  {
+    "from": "growth-factors",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Promotes keratinocyte proliferation"
+  },
+  {
+    "from": "growth-factors",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Fibroblast activation for collagen"
+  },
+  {
+    "from": "adenosine",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Korea MFDS-approved anti-wrinkle ingredient"
+  },
+  {
+    "from": "adenosine",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Increases collagen I/III synthesis"
+  },
+  {
+    "from": "adenosine",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory via adenosine receptor activation"
+  },
+  {
+    "from": "adenosine",
+    "to": "wound-healing",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Promotes cell proliferation"
+  },
+  {
+    "from": "allantoin",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes healing and soothes eczema"
+  },
+  {
+    "from": "allantoin",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes irritant and allergic contact dermatitis"
+  },
+  {
+    "from": "allantoin",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes cell proliferation and hydration"
+  },
+  {
+    "from": "allantoin",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "FDA-recognized skin protectant"
+  },
+  {
+    "from": "allantoin",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Promotes wound healing"
+  },
+  {
+    "from": "allantoin",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Gentle soothing for rosacea"
+  },
+  {
+    "from": "bisabolol",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and reduces redness"
+  },
+  {
+    "from": "bisabolol",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes eczema and reduces inflammation"
+  },
+  {
+    "from": "bisabolol",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Calms irritant and allergic reactions"
+  },
+  {
+    "from": "bisabolol",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits melanin synthesis"
+  },
+  {
+    "from": "bisabolol",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "One of safest soothing actives"
+  },
+  {
+    "from": "bisabolol",
+    "to": "sunburn",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Calms UV-induced inflammation"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "FDA Category I skin protectant for eczema"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Restores barrier and relieves itching"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Soothes irritant and allergic contact dermatitis"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "National Eczema Association seal"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "itchy-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Anti-itch via histamine inhibition"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "irritation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Soothes all forms of skin irritation"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "A",
+    "note": "Gentle and non-irritating for rosacea"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antibacterial AHA for acne"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle for darker skin tones at risk of PIH"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Safe brightening for sensitive skin"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Even gentle AHAs can irritate rosacea"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Exfoliates with less irritation"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentlest exfoliant for reactive skin"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "PHA safe for rosacea-prone skin"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant chelation and gentle anti-aging"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle brightening for sensitive skin"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "dry-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Humectant PHA hydrates while exfoliating"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Direct retinoic acid precursor; antibacterial"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Faster results than retinol"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Accelerates melanin dispersion"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Less irritating than tretinoin but still risky"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "atopic-dermatitis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Avoid on eczematous skin"
+  },
+  {
+    "from": "sap",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antimicrobial against C. acnes"
+  },
+  {
+    "from": "sap",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stable vitamin C for brightening"
+  },
+  {
+    "from": "sap",
+    "to": "dullness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant brightening"
+  },
+  {
+    "from": "sap",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant protection"
+  },
+  {
+    "from": "map",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle brightening for dry/sensitive skin"
+  },
+  {
+    "from": "map",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Collagen support with hydration"
+  },
+  {
+    "from": "map",
+    "to": "dry-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Hydrating vitamin C derivative"
+  },
+  {
+    "from": "ascorbyl-palmitate",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Lipid-phase antioxidant"
+  },
+  {
+    "from": "ascorbyl-palmitate",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Membrane antioxidant"
+  },
+  {
+    "from": "ascorbyl-palmitate",
+    "to": "dry-skin",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Oil-soluble for dry skin formulas"
+  },
+  {
+    "from": "madecassoside",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Pure active compound of Centella for eczema"
+  },
+  {
+    "from": "madecassoside",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and capillary strengthening"
+  },
+  {
+    "from": "madecassoside",
+    "to": "acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Healing and anti-inflammatory for acne"
+  },
+  {
+    "from": "madecassoside",
+    "to": "post-procedure",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Intensive wound healing"
+  },
+  {
+    "from": "madecassoside",
+    "to": "redness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces inflammatory redness"
+  },
+  {
+    "from": "ursolic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Inhibits collagenase and stimulates collagen"
+  },
+  {
+    "from": "ursolic-acid",
+    "to": "acne",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Antimicrobial and anti-inflammatory"
+  },
+  {
+    "from": "ursolic-acid",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Anti-inflammatory triterpenoid"
+  },
+  {
+    "from": "ursolic-acid",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Collagen stimulation for wrinkles"
+  },
+  {
+    "from": "glycine-soja",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Phytoestrogens support collagen in aging skin"
+  },
+  {
+    "from": "glycine-soja",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits melanin transfer"
+  },
+  {
+    "from": "glycine-soja",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "May help hormonally-influenced pigmentation"
+  },
+  {
+    "from": "glycine-soja",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightening via melanin transfer inhibition"
+  },
+  {
+    "from": "licorice-root",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Glabridin inhibits tyrosinase"
+  },
+  {
+    "from": "licorice-root",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle brightener for melasma"
+  },
+  {
+    "from": "licorice-root",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Safe for all skin tones"
+  },
+  {
+    "from": "licorice-root",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Licochalcone A soothes redness"
+  },
+  {
+    "from": "licorice-root",
+    "to": "redness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory for facial redness"
+  },
+  {
+    "from": "panthenol",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Deep hydration and barrier repair"
+  },
+  {
+    "from": "panthenol",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "FDA-approved for wound healing; soothes eczema"
+  },
+  {
+    "from": "panthenol",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Extremely well-tolerated soothing ingredient"
+  },
+  {
+    "from": "panthenol",
+    "to": "post-procedure",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Promotes wound healing after procedures"
+  },
+  {
+    "from": "panthenol",
+    "to": "irritation",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Calms all forms of skin irritation"
+  },
+  {
+    "from": "panthenol",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Deeply soothing for eczema flares"
+  },
+  {
+    "from": "panthenol",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Soothes irritant reactions"
+  },
+  {
+    "from": "panthenol",
+    "to": "scarring",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Supports wound healing"
+  },
+  {
+    "from": "cholesterol",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Essential barrier lipid (25% of barrier)"
+  },
+  {
+    "from": "cholesterol",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents moisture loss and restores barrier"
+  },
+  {
+    "from": "cholesterol",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Critical for barrier repair"
+  },
+  {
+    "from": "cholesterol",
+    "to": "barrier-dysfunction",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Optimal ratio with ceramides and fatty acids"
+  },
+  {
+    "from": "cholesterol",
+    "to": "aging",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Declines with age; replacement helps"
+  },
+  {
+    "from": "cholesterol",
+    "to": "contact-dermatitis",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Restores barrier after irritant exposure"
+  },
+  {
+    "from": "sulfur",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Keratolytic and antibacterial"
+  },
+  {
+    "from": "sulfur",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory for papulopustular rosacea"
+  },
+  {
+    "from": "sulfur",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal against Malassezia"
+  },
+  {
+    "from": "sulfur",
+    "to": "fungal-acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal properties"
+  },
+  {
+    "from": "sulfur",
+    "to": "oily-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces sebum production"
+  },
+  {
+    "from": "sulfur",
+    "to": "xerosis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can be drying"
+  },
+  {
+    "from": "sulfur",
+    "to": "sensitive-skin",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can irritate sensitive skin"
+  },
+  {
+    "from": "beta-glucan",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Immunomodulating and soothing"
+  },
+  {
+    "from": "beta-glucan",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces inflammatory cytokines"
+  },
+  {
+    "from": "beta-glucan",
+    "to": "aging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stimulates fibroblast collagen"
+  },
+  {
+    "from": "beta-glucan",
+    "to": "dehydration",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Forms hydrating protective film"
+  },
+  {
+    "from": "beta-glucan",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes tissue repair"
+  },
+  {
+    "from": "urea",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Humectant and keratolytic for dry skin"
+  },
+  {
+    "from": "urea",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Restores barrier and reduces itch"
+  },
+  {
+    "from": "urea",
+    "to": "hyperkeratosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Keratolytic at 10-40%"
+  },
+  {
+    "from": "urea",
+    "to": "ichthyosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Standard treatment for ichthyosis"
+  },
+  {
+    "from": "urea",
+    "to": "calluses",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Softens and removes thickened skin"
+  },
+  {
+    "from": "urea",
+    "to": "rough-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Smooths rough texture"
+  },
+  {
+    "from": "urea",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Barrier repair and hydration"
+  },
+  {
+    "from": "urea",
+    "to": "keratosis-pilaris",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Keratolytic for follicular plugs"
+  },
+  {
+    "from": "caffeine",
+    "to": "dark-circles",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Vasoconstrictor for vascular dark circles"
+  },
+  {
+    "from": "caffeine",
+    "to": "puffiness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces fluid accumulation"
+  },
+  {
+    "from": "caffeine",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant and anti-inflammatory"
+  },
+  {
+    "from": "caffeine",
+    "to": "cellulite",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "May stimulate lipolysis"
+  },
+  {
+    "from": "astaxanthin",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "6000x more potent antioxidant than vitamin C"
+  },
+  {
+    "from": "astaxanthin",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Spans cell membrane bilayer"
+  },
+  {
+    "from": "astaxanthin",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces UV-induced inflammation"
+  },
+  {
+    "from": "astaxanthin",
+    "to": "loss-of-elasticity",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Improves skin elasticity"
+  },
+  {
+    "from": "glycerin",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Most researched humectant"
+  },
+  {
+    "from": "glycerin",
+    "to": "atopic-dermatitis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Stimulates ceramide production"
+  },
+  {
+    "from": "glycerin",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Universal compatibility"
+  },
+  {
+    "from": "glycerin",
+    "to": "dehydration",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Holds 25x weight in water"
+  },
+  {
+    "from": "glycerin",
+    "to": "barrier-dysfunction",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Stimulates barrier lipid synthesis"
+  },
+  {
+    "from": "glycerin",
+    "to": "aging",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Increases skin hydration and elasticity"
+  },
+  {
+    "from": "glycerin",
+    "to": "photoaging",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Hydration supports photodamaged skin"
+  },
+  {
+    "from": "honey",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Medical-grade honey used clinically"
+  },
+  {
+    "from": "honey",
+    "to": "acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antibacterial and anti-inflammatory"
+  },
+  {
+    "from": "honey",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Natural humectant"
+  },
+  {
+    "from": "honey",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes and heals eczema lesions"
+  },
+  {
+    "from": "honey",
+    "to": "cold-sores",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antiviral against HSV"
+  },
+  {
+    "from": "honey",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Well-tolerated natural ingredient"
+  },
+  {
+    "from": "alpha-arbutin",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "More potent than beta-arbutin"
+  },
+  {
+    "from": "alpha-arbutin",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Safe for long-term melasma management"
+  },
+  {
+    "from": "alpha-arbutin",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle and effective for PIH"
+  },
+  {
+    "from": "alpha-arbutin",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightens overall complexion"
+  },
+  {
+    "from": "phytosphingosine",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antimicrobial against C. acnes"
+  },
+  {
+    "from": "phytosphingosine",
+    "to": "barrier-dysfunction",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Precursor to ceramides"
+  },
+  {
+    "from": "phytosphingosine",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and barrier support"
+  },
+  {
+    "from": "phytosphingosine",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces inflammatory cytokines"
+  },
+  {
+    "from": "ectoin",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Protects cells from environmental stress"
+  },
+  {
+    "from": "ectoin",
+    "to": "pollution-damage",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-pollution extremolyte"
+  },
+  {
+    "from": "ectoin",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "UV-protective hydration shell"
+  },
+  {
+    "from": "ectoin",
+    "to": "barrier-dysfunction",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Supports barrier repair"
+  },
+  {
+    "from": "ectoin",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Forms protective hydration shell"
+  },
+  {
+    "from": "hemp-seed-oil",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "0 comedogenic rating; regulates sebum"
+  },
+  {
+    "from": "hemp-seed-oil",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Rich in essential fatty acids"
+  },
+  {
+    "from": "hemp-seed-oil",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and non-irritating"
+  },
+  {
+    "from": "hemp-seed-oil",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Optimal omega-6:3 ratio for SD"
+  },
+  {
+    "from": "hemp-seed-oil",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory fatty acids"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Natural retinoic acid and antioxidants"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "acne-scars",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes tissue regeneration"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Natural brightening via vitamin C and retinoic acid"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Rich in essential fatty acids"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Cell regeneration"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "acne-vulgaris",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "May be too rich for active acne"
+  },
+  {
+    "from": "jojoba-oil",
+    "to": "oily-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Regulates sebum production"
+  },
+  {
+    "from": "jojoba-oil",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Non-comedogenic; mimics sebum"
+  },
+  {
+    "from": "jojoba-oil",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Effective emollient"
+  },
+  {
+    "from": "jojoba-oil",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Non-irritating and balancing"
+  },
+  {
+    "from": "jojoba-oil",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Balances skin and does not feed Malassezia"
+  },
+  {
+    "from": "shea-butter",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Deep moisturization"
+  },
+  {
+    "from": "shea-butter",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory for eczema"
+  },
+  {
+    "from": "shea-butter",
+    "to": "stretch-marks",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Traditional remedy for striae"
+  },
+  {
+    "from": "shea-butter",
+    "to": "aging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes collagen"
+  },
+  {
+    "from": "shea-butter",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle and soothing"
+  },
+  {
+    "from": "shea-butter",
+    "to": "acne",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "May be comedogenic for some"
+  },
+  {
+    "from": "safflower-seed-oil",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "High linoleic acid dissolves sebum"
+  },
+  {
+    "from": "safflower-seed-oil",
+    "to": "oily-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Regulates sebum with linoleic acid"
+  },
+  {
+    "from": "safflower-seed-oil",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Essential fatty acid emollient"
+  },
+  {
+    "from": "safflower-seed-oil",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory fatty acids"
+  },
+  {
+    "from": "dimethicone",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Non-comedogenic occlusive"
+  },
+  {
+    "from": "dimethicone",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Protects from irritants"
+  },
+  {
+    "from": "dimethicone",
+    "to": "post-procedure",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Protects healing skin"
+  },
+  {
+    "from": "dimethicone",
+    "to": "barrier-dysfunction",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Reduces TEWL"
+  },
+  {
+    "from": "dimethicone",
+    "to": "dehydration",
+    "type": "treats",
+    "evidence_level": "A",
+    "note": "Prevents water loss"
+  },
+  {
+    "from": "zinc-pca",
+    "to": "oily-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Regulates sebum production"
+  },
+  {
+    "from": "zinc-pca",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antimicrobial against C. acnes"
+  },
+  {
+    "from": "zinc-pca",
+    "to": "seborrheic-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antifungal and sebum-regulating"
+  },
+  {
+    "from": "zinc-pca",
+    "to": "enlarged-pores",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces sebum and pore appearance"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Omega-7 rich emollient"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "aging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Rich in vitamins C, E, beta-carotene"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory flavonoids"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Strengthens capillaries"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes tissue regeneration"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "burns",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Traditional burn treatment"
+  },
+  {
+    "from": "probiotics",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Supports microbiome balance"
+  },
+  {
+    "from": "probiotics",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Balances skin microbiome"
+  },
+  {
+    "from": "probiotics",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Microbiome support for atopic skin"
+  },
+  {
+    "from": "probiotics",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory microbiome modulation"
+  },
+  {
+    "from": "probiotics",
+    "to": "aging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Supports barrier and reduces inflammation"
+  },
+  {
+    "from": "tamanu-oil",
+    "to": "acne-scars",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Promotes tissue regeneration"
+  },
+  {
+    "from": "tamanu-oil",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Calophyllolide promotes healing"
+  },
+  {
+    "from": "tamanu-oil",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Anti-inflammatory for eczema"
+  },
+  {
+    "from": "tamanu-oil",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Xanthones reduce inflammation"
+  },
+  {
+    "from": "lactobionic-acid",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle PHA for reactive skin"
+  },
+  {
+    "from": "lactobionic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant and anti-aging PHA"
+  },
+  {
+    "from": "lactobionic-acid",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Humectant PHA hydrates while exfoliating"
+  },
+  {
+    "from": "lactobionic-acid",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Safe for rosacea-prone skin"
+  },
+  {
+    "from": "lactobionic-acid",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle brightening for sensitive skin"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Maximum cica soothing benefits"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Healing and anti-inflammatory"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Comprehensive triterpenoid healing"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory for rosacea"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "post-procedure",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Intensive healing after procedures"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "redness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Reduces inflammatory redness"
+  },
+  {
+    "from": "heparan-sulfate",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Matrix support for aging skin"
+  },
+  {
+    "from": "heparan-sulfate",
+    "to": "barrier-dysfunction",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Supports barrier function"
+  },
+  {
+    "from": "heparan-sulfate",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Anti-inflammatory"
+  },
+  {
+    "from": "heparan-sulfate",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Supports skin resilience"
+  },
+  {
+    "from": "azelaoyl-diglycine",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentler azelaic acid derivative"
+  },
+  {
+    "from": "azelaoyl-diglycine",
+    "to": "acne-vulgaris",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and normalizes turnover"
+  },
+  {
+    "from": "azelaoyl-diglycine",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle anti-inflammatory for rosacea"
+  },
+  {
+    "from": "azelaoyl-diglycine",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightens at neutral pH"
+  },
+  {
+    "from": "acetyl-glucosamine",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits tyrosinase glycosylation"
+  },
+  {
+    "from": "acetyl-glucosamine",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Olay's NAG+niacinamide brightening combo"
+  },
+  {
+    "from": "acetyl-glucosamine",
+    "to": "dry-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes hyaluronic acid synthesis"
+  },
+  {
+    "from": "acetyl-glucosamine",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Supports GAG synthesis"
+  },
+  {
+    "from": "thioctic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Universal antioxidant"
+  },
+  {
+    "from": "thioctic-acid",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Recycles vitamins C and E"
+  },
+  {
+    "from": "thioctic-acid",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory"
+  },
+  {
+    "from": "thioctic-acid",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Improves skin texture"
+  },
+  {
+    "from": "glutathione",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Inhibits melanin synthesis"
+  },
+  {
+    "from": "glutathione",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Brightening via tyrosinase inactivation"
+  },
+  {
+    "from": "glutathione",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Master intracellular antioxidant"
+  },
+  {
+    "from": "glutathione",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Neutralizes free radicals"
+  },
+  {
+    "from": "glutathione",
+    "to": "dullness",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Brightens overall complexion"
+  },
+  {
+    "from": "pomegranate-extract",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Ellagic acid protects against UV damage"
+  },
+  {
+    "from": "pomegranate-extract",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Inhibits tyrosinase"
+  },
+  {
+    "from": "pomegranate-extract",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory polyphenols"
+  },
+  {
+    "from": "pomegranate-extract",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightens and evens skin tone"
+  },
+  {
+    "from": "coenzyme-q10",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Antioxidant and energizes skin cells"
+  },
+  {
+    "from": "coenzyme-q10",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Supports collagen and elastin"
+  },
+  {
+    "from": "coenzyme-q10",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Neutralizes free radicals"
+  },
+  {
+    "from": "coenzyme-q10",
+    "to": "dullness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Energizes cellular metabolism"
+  },
+  {
+    "from": "silymarin",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "UV protective and antioxidant"
+  },
+  {
+    "from": "silymarin",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Potent antioxidant flavonolignan"
+  },
+  {
+    "from": "silymarin",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory"
+  },
+  {
+    "from": "silymarin",
+    "to": "sun-damage",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "DNA repair support"
+  },
+  {
+    "from": "idebenone",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Superior penetration vs CoQ10"
+  },
+  {
+    "from": "idebenone",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-aging antioxidant"
+  },
+  {
+    "from": "idebenone",
+    "to": "pollution-damage",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Protects against pollution-induced oxidative stress"
+  },
+  {
+    "from": "idebenone",
+    "to": "oxidative-stress",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Potent antioxidant activity"
+  },
+  {
+    "from": "epidermal-growth-factor",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Stimulates cell renewal"
+  },
+  {
+    "from": "epidermal-growth-factor",
+    "to": "wound-healing",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Accelerates tissue repair"
+  },
+  {
+    "from": "epidermal-growth-factor",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Promotes keratinocyte proliferation"
+  },
+  {
+    "from": "epidermal-growth-factor",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Fibroblast activation"
+  },
+  {
+    "from": "methylsulfonylmethane",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Anti-inflammatory organic sulfur"
+  },
+  {
+    "from": "methylsulfonylmethane",
+    "to": "acne",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Supports collagen and keratin"
+  },
+  {
+    "from": "methylsulfonylmethane",
+    "to": "aging",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Supports collagen production"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "rosacea",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Potent anti-inflammatory comparable to hydrocortisone"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes eczema flares"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "sunburn",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Calms UV-induced inflammation"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "irritation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes all forms of irritation"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Calms allergic reactions"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentle and calming"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "sunburn",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Classic sunburn remedy"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Hydrates and soothes eczema"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "irritation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Calms irritated skin"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "sensitive-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Well-tolerated soothing ingredient"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Hydrating polysaccharides"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "minor-wounds",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Promotes wound healing"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothes allergic reactions"
+  },
+  {
+    "from": "witch-hazel",
+    "to": "oily-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Astringent reduces oiliness"
+  },
+  {
+    "from": "witch-hazel",
+    "to": "acne",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Astringent and antimicrobial"
+  },
+  {
+    "from": "witch-hazel",
+    "to": "inflammation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory flavonoids"
+  },
+  {
+    "from": "witch-hazel",
+    "to": "xerosis",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Alcohol-based versions dry skin"
+  },
+  {
+    "from": "witch-hazel",
+    "to": "sensitive-skin",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Can irritate sensitive skin"
+  },
+  {
+    "from": "kojic-acid-dipalmitate",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Oil-soluble brightening"
+  },
+  {
+    "from": "kojic-acid-dipalmitate",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Stable kojic acid alternative"
+  },
+  {
+    "from": "kojic-acid-dipalmitate",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Gentle brightening for PIH"
+  },
+  {
+    "from": "ethyl-ascorbic-acid",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Highly stable vitamin C"
+  },
+  {
+    "from": "ethyl-ascorbic-acid",
+    "to": "dullness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightening antioxidant"
+  },
+  {
+    "from": "ethyl-ascorbic-acid",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Collagen stimulating"
+  },
+  {
+    "from": "ethyl-ascorbic-acid",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightens complexion"
+  },
+  {
+    "from": "tetrahexyldecyl-ascorbate",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Oil-soluble deep-penetrating vitamin C"
+  },
+  {
+    "from": "tetrahexyldecyl-ascorbate",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Deep delivery for collagen"
+  },
+  {
+    "from": "tetrahexyldecyl-ascorbate",
+    "to": "dry-skin",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Oil-soluble for dry skin"
+  },
+  {
+    "from": "tetrahexyldecyl-ascorbate",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightens skin tone"
+  },
+  {
+    "from": "ascorbyl-glucoside",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Stable neutral pH vitamin C"
+  },
+  {
+    "from": "ascorbyl-glucoside",
+    "to": "dullness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightening antioxidant"
+  },
+  {
+    "from": "ascorbyl-glucoside",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Collagen stimulating"
+  },
+  {
+    "from": "ascorbyl-glucoside",
+    "to": "uneven-tone",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightens complexion"
+  },
+  {
+    "from": "marine-collagen",
+    "to": "dehydration",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Film-forming hydration"
+  },
+  {
+    "from": "marine-collagen",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Plumps fine lines"
+  },
+  {
+    "from": "marine-collagen",
+    "to": "loss-of-firmness",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Supports skin structure"
+  },
+  {
+    "from": "marine-collagen",
+    "to": "dry-skin",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Hydrating protein"
+  },
+  {
+    "from": "retinyl-palmitate",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Gentlest retinoid for anti-aging"
+  },
+  {
+    "from": "retinyl-palmitate",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Mild cell turnover"
+  },
+  {
+    "from": "retinyl-palmitate",
+    "to": "dullness",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Mild brightening"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "photoaging",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "More stable than retinol"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Brightening via retinoic acid"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "fine-lines",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Dual-action vitamin A"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "uneven-texture",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Improves skin texture"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "rosacea",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Less irritating but still risky"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "eczema",
+    "type": "exacerbates",
+    "evidence_level": "C",
+    "note": "Avoid on eczematous skin"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "dark-circles",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Thickens dermis, reduces vascular visibility"
+  },
+  {
+    "from": "licorice-root-extract",
+    "to": "melasma",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Glabridin inhibits tyrosinase; effective brightening agent"
+  },
+  {
+    "from": "licorice-root-extract",
+    "to": "post-inflammatory-hyperpigmentation",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory and brightening dual action"
+  },
+  {
+    "from": "licorice-root-extract",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory via glabridin"
+  },
+  {
+    "from": "chamomile",
+    "to": "eczema",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Anti-inflammatory flavonoids soothe dermatitis"
+  },
+  {
+    "from": "chamomile",
+    "to": "rosacea",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Calming, but caution with Asteraceae allergy"
+  },
+  {
+    "from": "chamomile",
+    "to": "contact-dermatitis",
+    "type": "treats",
+    "evidence_level": "B",
+    "note": "Soothing and anti-inflammatory"
+  },
+  {
+    "from": "chamomile",
+    "to": "xerosis",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Moisturizing and soothing"
+  },
+  {
+    "from": "marula-oil",
+    "to": "xerosis",
+    "type": "treats",
+    "evidence_level": "C",
+    "note": "Rich in oleic acid, deeply moisturizing"
+  },
+  {
+    "from": "marula-oil",
+    "to": "photoaging",
+    "type": "supports",
+    "evidence_level": "C",
+    "note": "Antioxidant vitamins C and E"
+  }
+]

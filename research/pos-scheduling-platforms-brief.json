@@ -1,0 +1,762 @@
+{
+  "research_title": "POS & Scheduling Platform Integration Research for Salon/Beauty Industry",
+  "date": "2026-05-15",
+  "purpose": "Identify optimal integration targets for SKINgenius to pull transaction, inventory, appointment, and client data from salon POS and booking systems.",
+
+  "executive_summary": {
+    "key_finding": "The salon industry is fragmented between all-in-one platforms (Vagaro, Fresha) and modular setups (Square POS + Square Appointments, Clover + third-party booking). For SKINgenius, prioritizing platforms with robust REST APIs, webhook support, and high salon market penetration is critical. Square and Vagaro emerge as the top priorities due to market share, API maturity, and data richness.",
+    "recommended_priority_order": [
+      "Square (POS + Appointments)",
+      "Vagaro (All-in-One)",
+      "Fresha (Scheduling-focused)",
+      "Clover (POS with partner integrations)",
+      "Boulevard (Premium salon-focused)"
+    ]
+  },
+
+  "pos_systems": {
+    "title": "Top 5 POS Systems in Salon/Beauty Industry",
+    "systems": [
+      {
+        "rank": 1,
+        "name": "Square",
+        "market_share_estimate": "35-40% of small-to-medium salons",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": false,
+          "sdk": ["Python", "Node.js", "PHP", "Ruby", ".NET", "Java"]
+        },
+        "data_access": {
+          "transactions": "Full access via Payments API, Orders API",
+          "inventory": "Catalog API - items, variations, stock levels",
+          "product_sales": "Orders API with line-item detail",
+          "client_records": "Customers API - profiles, preferences, purchase history",
+          "employees": "Team API - staff, permissions, wages",
+          "locations": "Locations API - multi-location support"
+        },
+        "rate_limits": {
+          "default": "10 requests/second per application per seller",
+          "batch_operations": "Supported (batch retrieve, upsert)",
+          "webhook_retries": "Automatic with exponential backoff"
+        },
+        "pricing": {
+          "api_access": "Free (no additional charge beyond transaction fees)",
+          "transaction_fee": "2.6% + 10¢ per transaction",
+          "premium_features": "Square for Retail/Salon plans at $60-300/month"
+        },
+        "integration_difficulty": 2,
+        "integration_difficulty_notes": "Excellent documentation, sandbox environment, OAuth 2.0 flow. Webhooks well-supported. Most developer-friendly.",
+        "key_api_endpoints": [
+          "GET /v2/payments",
+          "GET /v2/orders",
+          "GET /v2/catalog/list",
+          "GET /v2/customers",
+          "POST /v2/webhooks/subscribe",
+          "GET /v2/locations",
+          "GET /v2/team/members"
+        ],
+        "gotchas": [
+          "OAuth tokens expire and require refresh token rotation",
+          "Webhook signatures must be validated for security",
+          "Inventory webhooks have slight delay (not truly real-time)",
+          "Customer notes/fields are limited to basic types"
+        ],
+        "salon_specific_features": [
+          "Square Appointments native integration",
+          "Service-based catalog with duration/pricing",
+          "Staff commission tracking",
+          "Integrated payment processing"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Clover",
+        "market_share_estimate": "15-20% (strong in multi-location chains)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": false,
+          "sdk": ["Android SDK", "REST"]
+        },
+        "data_access": {
+          "transactions": "Ecommerce API + Orders API - payment records",
+          "inventory": "Inventory API - items, stock levels, categories",
+          "product_sales": "Orders API with item-level detail",
+          "client_records": "Customers API - limited compared to Square",
+          "employees": "Employees API",
+          "locations": "Merchants API - business locations"
+        },
+        "rate_limits": {
+          "default": "Not publicly documented - believed to be 10 req/sec",
+          "throttling": "May occur during peak hours"
+        },
+        "pricing": {
+          "api_access": "Free for approved developers",
+          "developer_program": "Requires Clover developer account approval",
+          "hardware_cost": "$599-$1,799 for terminals"
+        },
+        "integration_difficulty": 3,
+        "integration_difficulty_notes": "Solid REST API but requires Android app for deep POS integration. Approval process for developer program. Good for building apps ON the Clover platform.",
+        "key_api_endpoints": [
+          "GET /v3/merchants/{id}/orders",
+          "GET /v3/merchants/{id}/items",
+          "GET /v3/merchants/{id}/customers",
+          "GET /v3/merchants/{id}/employees",
+          "POST /v3/apps/{appId}/webhooks"
+        ],
+        "gotchas": [
+          "Developer program approval required",
+          "API access tied to merchant app installation",
+          "Less salon-specific features out of the box",
+          "Webhook documentation is sparse",
+          "Customer data model is less flexible than Square"
+        ],
+        "salon_specific_features": [
+          "App marketplace with salon-specific apps",
+          "Can integrate with third-party booking via apps",
+          "Service menu support via custom items"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Vagaro POS",
+        "market_share_estimate": "20-25% (beauty/wellness vertical)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": false,
+          "graphql": false,
+          "sdk": ["REST only"]
+        },
+        "data_access": {
+          "transactions": "Public API - transaction records",
+          "inventory": "Product catalog and stock levels",
+          "product_sales": "Sales data with product breakdown",
+          "client_records": "Customers API - contact info, tags, service history",
+          "employees": "Employees API - contact, roles, schedules",
+          "locations": "Business Locations API - multi-location"
+        },
+        "rate_limits": {
+          "default": "Not publicly specified - implement exponential backoff",
+          "notes": "Contact Vagaro for enterprise rate limits"
+        },
+        "pricing": {
+          "api_access": "Included with subscription tier",
+          "base_plan": "$25-$85/month per location",
+          "api_features": "Available on higher tiers"
+        },
+        "integration_difficulty": 3,
+        "integration_difficulty_notes": "All-in-one platform means POS data is deeply integrated with scheduling. API is newer (launched ~2023) but growing. Webhook support for real-time updates.",
+        "key_api_endpoints": [
+          "GET /api/v1/transactions",
+          "GET /api/v1/customers",
+          "GET /api/v1/employees",
+          "GET /api/v1/locations",
+          "GET /api/v1/appointments",
+          "POST /webhooks/subscribe"
+        ],
+        "gotchas": [
+          "API is relatively new - may have stability issues",
+          "OAuth not available - API key based auth",
+          "Rate limits not clearly documented",
+          "Webhook event types are limited compared to Square",
+          "Some advanced POS features may not be API-accessible"
+        ],
+        "salon_specific_features": [
+          "Built-in for salons - service menus, packages, memberships",
+          "Integrated booking with POS",
+          "Staff commission and payroll",
+          "Inventory tied to retail and professional products"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Lightspeed Retail",
+        "market_share_estimate": "5-8% (stronger in retail, growing in beauty)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": false,
+          "sdk": ["PHP", "Python", "Node.js"]
+        },
+        "data_access": {
+          "transactions": "Sales API - receipts, payments",
+          "inventory": "Items API - products, stock, variants",
+          "product_sales": "Sales line items",
+          "client_records": "Customers API - basic profile data",
+          "employees": "Employees API",
+          "locations": "Shops API - multi-location"
+        },
+        "rate_limits": {
+          "default": "60 requests/minute for standard accounts",
+          "burst": "May allow short bursts above limit"
+        },
+        "pricing": {
+          "api_access": "Available on Advanced plan+",
+          "plans": "$89-$269/month",
+          "developer_account": "Free signup"
+        },
+        "integration_difficulty": 4,
+        "integration_difficulty_notes": "More retail-focused than salon-focused. API is mature but less tailored to service-based businesses. Good for salons with heavy retail inventory.",
+        "key_api_endpoints": [
+          "GET /API/Account/{accountID}/Sale",
+          "GET /API/Account/{accountID}/Item",
+          "GET /API/Account/{accountID}/Customer",
+          "GET /API/Account/{accountID}/Employee",
+          "GET /API/Account/{accountID}/Shop"
+        ],
+        "gotchas": [
+          "More retail-oriented - service booking is weaker",
+          "Lower rate limits (60/min)",
+          "OAuth 1.0a (older standard)",
+          "Less salon-specific webhook events",
+          "Customer relationship features are limited"
+        ],
+        "salon_specific_features": [
+          "Service items can be configured as products",
+          "Appointment scheduling via Lightspeed eCom",
+          "Inventory management is strong point"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Shopify POS",
+        "market_share_estimate": "3-5% in salons (stronger in retail)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": true,
+          "sdk": ["Ruby", "Python", "Node.js", "PHP"]
+        },
+        "data_access": {
+          "transactions": "Orders API + Payments API",
+          "inventory": "Inventory API - levels, locations, adjustments",
+          "product_sales": "Order line items with product references",
+          "client_records": "Customers API - profiles, addresses, orders",
+          "employees": "Staff API (limited)",
+          "locations": "Locations API"
+        },
+        "rate_limits": {
+          "default": "2 requests/second for standard",
+          "shopify_plus": "Higher limits available",
+          "leaky_bucket": "Implemented - allows bursts"
+        },
+        "pricing": {
+          "api_access": "Free with subscription",
+          "pos_plan": "$89-$399/month",
+          "transaction_fee": "2.4-2.7% + 0¢ (Shopify Payments)"
+        },
+        "integration_difficulty": 3,
+        "integration_difficulty_notes": "Excellent API ecosystem but retail-focused. Shopify POS Pro adds staff and location features. Good for salons with significant retail operations.",
+        "key_api_endpoints": [
+          "GET /admin/api/2024-01/orders.json",
+          "GET /admin/api/2024-01/products.json",
+          "GET /admin/api/2024-01/customers.json",
+          "GET /admin/api/2024-01/inventory_levels.json",
+          "POST /admin/api/2024-01/webhooks.json"
+        ],
+        "gotchas": [
+          "POS-specific features require Shopify POS Pro ($89/mo)",
+          "Appointment booking not native - requires third-party app",
+          "Rate limits are strict for non-Plus merchants",
+          "GraphQL API is newer and recommended for complex queries",
+          "Staff/employee API is limited compared to dedicated salon systems"
+        ],
+        "salon_specific_features": [
+          "Can sell services as products",
+          "BookThatApp or Sesami for appointments",
+          "Strong inventory for retail products",
+          "Integrated e-commerce for product sales"
+        ]
+      }
+    ]
+  },
+
+  "scheduling_platforms": {
+    "title": "Top 5 Scheduling/Booking Platforms in Salon Industry",
+    "platforms": [
+      {
+        "rank": 1,
+        "name": "Vagaro",
+        "market_share_estimate": "25-30% (beauty/wellness)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": false,
+          "graphql": false,
+          "sdk": ["REST only"]
+        },
+        "data_access": {
+          "appointments": "Full CRUD - status, time, service, provider, client",
+          "client_bookings": "Customer appointment history",
+          "service_types": "Services API - name, duration, price, category",
+          "stylist_schedules": "Employee calendar and availability",
+          "packages": "Service packages and memberships",
+          "forms": "Custom intake forms and responses"
+        },
+        "rate_limits": {
+          "default": "Not publicly specified",
+          "notes": "Contact for enterprise limits"
+        },
+        "pricing": {
+          "base_plan": "$25-$85/month per location",
+          "api_access": "Included with subscription",
+          "add_ons": "Marketing, client notifications extra"
+        },
+        "integration_difficulty": 3,
+        "integration_difficulty_notes": "All-in-one means scheduling + POS data in one place. API is newer but comprehensive for beauty/wellness. Webhooks available for real-time sync.",
+        "key_api_endpoints": [
+          "GET /api/v1/appointments",
+          "GET /api/v1/customers",
+          "GET /api/v1/employees",
+          "GET /api/v1/services",
+          "GET /api/v1/locations",
+          "GET /api/v1/transactions",
+          "POST /webhooks/subscribe"
+        ],
+        "gotchas": [
+          "API key authentication (no OAuth)",
+          "Rate limits unclear - implement backoff",
+          "Webhook event types are limited (appointments, customers, transactions, employees, form responses, locations)",
+          "Some advanced features may not be API-accessible",
+          "Multi-location requires specific business ID handling"
+        ],
+        "salon_specific_features": [
+          "Built for salons - service categories, add-ons, packages",
+          "Waitlist management",
+          "Employee scheduling with breaks",
+          "Room/equipment booking",
+          "Deposit and cancellation policies"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Square Appointments",
+        "market_share_estimate": "20-25% (paired with Square POS)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": false,
+          "sdk": ["Python", "Node.js", "PHP", "Ruby", ".NET", "Java"]
+        },
+        "data_access": {
+          "appointments": "Bookings API - full schedule data",
+          "client_bookings": "Customer + Bookings APIs",
+          "service_types": "Catalog API - service items with duration",
+          "stylist_schedules": "Team API + Bookings for availability",
+          "staff": "Team API - members, permissions, wages"
+        },
+        "rate_limits": {
+          "default": "10 requests/second (shared with Square APIs)",
+          "batch": "Supported for bulk operations"
+        },
+        "pricing": {
+          "api_access": "Free",
+          "appointments_plan": "Free-$69/month per location",
+          "processing": "2.6% + 10¢ per transaction"
+        },
+        "integration_difficulty": 2,
+        "integration_difficulty_notes": "Seamlessly integrates with Square POS. Same OAuth and webhook infrastructure. Best developer experience for appointment + transaction data together.",
+        "key_api_endpoints": [
+          "GET /v2/bookings",
+          "GET /v2/bookings/{booking_id}",
+          "POST /v2/bookings",
+          "GET /v2/team/members",
+          "GET /v2/team/member-booking-profiles",
+          "GET /v2/catalog/list",
+          "POST /v2/webhooks/subscribe"
+        ],
+        "gotchas": [
+          "Requires Square Appointments subscription (free tier available)",
+          "Multi-location requires proper location scoping",
+          "Service variations can be complex in catalog structure",
+          "Booking webhooks don't include customer details - need separate fetch",
+          "Staff availability rules are not fully API-exposable"
+        ],
+        "salon_specific_features": [
+          "Service duration and buffer time support",
+          "Staff-specific service assignments",
+          "Recurring appointments",
+          "Cancellation/no-show tracking",
+          "Integrated with Square POS payments"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Fresha",
+        "market_share_estimate": "15-20% (strong internationally)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": false,
+          "sdk": ["REST only"]
+        },
+        "data_access": {
+          "appointments": "Appointments API - detailed scheduling data",
+          "client_bookings": "Clients API + appointment linkage",
+          "service_types": "Services API - treatments, categories, durations",
+          "stylist_schedules": "Staff API + availability",
+          "products": "Products API for retail sales",
+          "reports": "Analytics API for business metrics"
+        },
+        "rate_limits": {
+          "default": "100 requests/minute per partner",
+          "notes": "Contact for increased limits"
+        },
+        "pricing": {
+          "base_plan": "Free (charges 2.19% + 20¢ on card payments)",
+          "api_access": "Free for partners",
+          "plus_plan": "Custom pricing for enterprise"
+        },
+        "integration_difficulty": 3,
+        "integration_difficulty_notes": "Modern API with good documentation. Free tier is compelling. Strong internationally. Good webhook support. Partner program required for API access.",
+        "key_api_endpoints": [
+          "GET /partners/v1/appointments",
+          "GET /partners/v1/clients",
+          "GET /partners/v1/services",
+          "GET /partners/v1/staff",
+          "GET /partners/v1/products",
+          "POST /partners/v1/webhooks"
+        ],
+        "gotchas": [
+          "Partner program application required",
+          "Free salon tier means they may not have premium features",
+          "API is partner-focused, not merchant self-serve",
+          "Some advanced scheduling rules not exposed",
+          "International focus - US market share growing but smaller"
+        ],
+        "salon_specific_features": [
+          "Built for beauty/wellness",
+          "Treatment notes and client history",
+          "Staff roster and scheduling",
+          "Product sales tracking",
+          "Membership and package management"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Boulevard",
+        "market_share_estimate": "3-5% (premium salon/spa segment)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": true,
+          "graphql": true,
+          "sdk": ["GraphQL preferred"]
+        },
+        "data_access": {
+          "appointments": "Appointments query - detailed with client, service, provider",
+          "client_bookings": "Clients query with appointment history",
+          "service_types": "Services query with pricing and duration",
+          "stylist_schedules": "Staff schedules and availability",
+          "transactions": "Payments and refunds",
+          "forms": "Custom forms and responses"
+        },
+        "rate_limits": {
+          "default": "Not publicly specified",
+          "notes": "GraphQL allows precise data fetching"
+        },
+        "pricing": {
+          "base_plan": "$175-$400+/month (premium pricing)",
+          "api_access": "Included",
+          "enterprise": "Custom pricing"
+        },
+        "integration_difficulty": 4,
+        "integration_difficulty_notes": "Premium platform with modern GraphQL API. Targets high-end salons and medspas. Smaller market share but high-value clients. Good for premium salon integration.",
+        "key_api_endpoints": [
+          "GraphQL: appointments query",
+          "GraphQL: clients query",
+          "GraphQL: services query",
+          "GraphQL: staff query",
+          "GraphQL: payments query",
+          "REST: /webhooks endpoint"
+        ],
+        "gotchas": [
+          "Premium pricing means smaller addressable market",
+          "GraphQL learning curve if team is unfamiliar",
+          "Smaller user base = fewer salons to integrate",
+          "Webhook documentation is limited",
+          "API access may require enterprise agreement"
+        ],
+        "salon_specific_features": [
+          "Premium client experience focus",
+          "Advanced scheduling with constraints",
+          "Medspa-specific features (ePrescribe, charts)",
+          "Membership and loyalty",
+          "Two-way SMS communication"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Acuity Scheduling",
+        "market_share_estimate": "5-8% (general scheduling, less salon-specific)",
+        "api_availability": {
+          "rest_api": true,
+          "webhooks": true,
+          "oauth": false,
+          "graphql": false,
+          "sdk": ["REST only"]
+        },
+        "data_access": {
+          "appointments": "Appointments endpoint - time, client, service, notes",
+          "client_bookings": "Clients endpoint with appointment history",
+          "service_types": "Appointment Types endpoint",
+          "stylist_schedules": "Calendars endpoint for availability",
+          "forms": "Intake forms and responses"
+        },
+        "rate_limits": {
+          "default": "Not specified",
+          "notes": "Generally permissive for read operations"
+        },
+        "pricing": {
+          "base_plan": "$16-$61/month",
+          "api_access": "Available on Emerging plan+",
+          "squarespace": "Owned by Squarespace"
+        },
+        "integration_difficulty": 2,
+        "integration_difficulty_notes": "Simple, clean API. Good for basic appointment data. Not salon-specific but widely used. Easy to integrate for core scheduling data.",
+        "key_api_endpoints": [
+          "GET /api/v1/appointments",
+          "GET /api/v1/clients",
+          "GET /api/v1/appointment-types",
+          "GET /api/v1/calendars",
+          "POST /api/v1/webhooks"
+        ],
+        "gotchas": [
+          "Not salon-specific - lacks service menu depth",
+          "No native POS integration (relies on integrations)",
+          "Client data model is simpler than dedicated salon platforms",
+          "No inventory/product sales tracking",
+          "Webhook events are basic (appointment created/modified/cancelled)"
+        ],
+        "salon_specific_features": [
+          "Basic appointment scheduling",
+          "Client intake forms",
+          "Calendar sync (Google, Outlook)",
+          "Payment integration via Stripe/Square",
+          "Group class support"
+        ]
+      }
+    ]
+  },
+
+  "common_combinations": {
+    "title": "Typical Salon Technology Stacks",
+    "combinations": [
+      {
+        "name": "Square All-in-One",
+        "components": ["Square POS", "Square Appointments", "Square Payments"],
+        "market_prevalence": "High (35-40% of independent salons)",
+        "integration_approach": "Single OAuth flow, unified API, shared customer/transaction/appointment data",
+        "pros": ["Seamless data flow", "One vendor relationship", "Lower integration complexity"],
+        "cons": ["Less specialized than salon-specific tools", "May outgrow for large multi-location chains"]
+      },
+      {
+        "name": "Vagaro All-in-One",
+        "components": ["Vagaro POS", "Vagaro Scheduling", "Vagaro Payments"],
+        "market_prevalence": "High (25-30% of beauty/wellness)",
+        "integration_approach": "Single API key, POS + scheduling data in one platform",
+        "pros": ["Built for salons", "Deep service/appointment data", "Membership and package tracking"],
+        "cons": ["API is newer/less mature", "No OAuth", "Rate limits unclear"]
+      },
+      {
+        "name": "Clover + Third-Party Booking",
+        "components": ["Clover POS", "Acuity/Vagaro/Fresha for booking"],
+        "market_prevalence": "Medium (10-15%)",
+        "integration_approach": "Two separate integrations - POS data from Clover, scheduling from booking platform",
+        "pros": ["Best-of-breed selection", "Flexible for specific needs"],
+        "cons": ["Data silos between POS and scheduling", "Higher integration complexity", "Customer identity may not sync"]
+      },
+      {
+        "name": "Fresha + External POS",
+        "components": ["Fresha Scheduling", "Square/iZettle for POS"],
+        "market_prevalence": "Medium (5-10%, growing internationally)",
+        "integration_approach": "Fresha handles scheduling, separate POS for transactions",
+        "pros": ["Free scheduling tier", "Modern API", "International support"],
+        "cons": ["No native POS integration", "Data fragmentation", "Payment reconciliation challenges"]
+      },
+      {
+        "name": "Premium: Boulevard + Stripe",
+        "components": ["Boulevard Scheduling + POS", "Stripe payments"],
+        "market_prevalence": "Low (2-3%, high-end segment)",
+        "integration_approach": "Single platform with built-in payments",
+        "pros": ["Premium experience", "Modern GraphQL API", "Advanced salon features"],
+        "cons": ["High price point limits market", "Smaller user base"]
+      }
+    ]
+  },
+
+  "integration_priority_matrix": {
+    "title": "Recommended Integration Priority for SKINgenius",
+    "tiers": [
+      {
+        "tier": "P0 - Must Have",
+        "platforms": ["Square", "Vagaro"],
+        "rationale": "Combined 55-65% salon market share. Mature APIs. Rich transaction + appointment + customer data. Webhook support for real-time updates.",
+        "effort": "Medium - Well-documented APIs, OAuth support",
+        "expected_data": "Full customer profiles, purchase history, appointment history, service preferences, retail product purchases"
+      },
+      {
+        "tier": "P1 - Should Have",
+        "platforms": ["Fresha", "Square Appointments (standalone)"],
+        "rationale": "Fresha is strong internationally and growing. Square Appointments covers salons using Square POS. Both have solid APIs.",
+        "effort": "Medium - Fresha requires partner program, Square is straightforward",
+        "expected_data": "Appointment history, client data, service types, some transaction data"
+      },
+      {
+        "tier": "P2 - Nice to Have",
+        "platforms": ["Clover", "Boulevard"],
+        "rationale": "Clover for multi-location chains. Boulevard for premium salons. Smaller market share but valuable segments.",
+        "effort": "Higher - Clover requires dev program approval, Boulevard is GraphQL",
+        "expected_data": "Transaction data (Clover), premium client data (Boulevard)"
+      },
+      {
+        "tier": "P3 - Future Consideration",
+        "platforms": ["Acuity", "Mindbody", "Booksy"],
+        "rationale": "Acuity is simpler but less salon-specific. Mindbody is fitness-focused. Booksy is growing but API is limited.",
+        "effort": "Variable",
+        "expected_data": "Basic scheduling data primarily"
+      }
+    ]
+  },
+
+  "technical_architecture_recommendations": {
+    "title": "Integration Architecture Notes",
+    "recommendations": [
+      {
+        "topic": "Authentication",
+        "advice": "Implement OAuth 2.0 for Square, Clover, Fresha, Boulevard. API keys for Vagaro. Store tokens securely with refresh logic."
+      },
+      {
+        "topic": "Webhook Strategy",
+        "advice": "Use webhooks for real-time updates (appointment created, transaction completed). Implement signature validation, idempotency, and exponential backoff for retries."
+      },
+      {
+        "topic": "Data Sync",
+        "advice": "Full sync on initial connection, then incremental via webhooks + periodic polling as fallback. Store sync cursor/timestamp per integration."
+      },
+      {
+        "topic": "Rate Limiting",
+        "advice": "Implement client-side rate limiters per platform. Queue requests when approaching limits. Use batch operations where available (Square)."
+      },
+      {
+        "topic": "Error Handling",
+        "advice": "Expect transient failures. Log all API errors with context. Alert on sustained failures. Implement circuit breaker for degraded platforms."
+      },
+      {
+        "topic": "Customer Identity Resolution",
+        "advice": "Challenge: Customer in POS may not match customer in booking system. Build matching logic (phone, email, name). Create unified customer profile in SKINgenius."
+      },
+      {
+        "topic": "Data Model Mapping",
+        "advice": "Each platform has different service/product models. Create normalized schema: Customer, Appointment, Service, Product, Transaction, Employee. Map platform-specific fields to normalized model."
+      }
+    ]
+  },
+
+  "data_mapping_summary": {
+    "title": "What Data SKINgenius Can Extract",
+    "entities": [
+      {
+        "entity": "Customer",
+        "fields": ["Name", "Email", "Phone", "Birth date", "Service history", "Product purchases", "Preferences", "Notes", "Visit frequency", "Lifetime value"],
+        "use_for_skingenius": "Personalized skincare recommendations, ingredient preference learning, routine timing based on visit patterns"
+      },
+      {
+        "entity": "Appointment",
+        "fields": ["Service type", "Date/time", "Provider", "Duration", "Status", "Check-in time", "Price", "Add-ons"],
+        "use_for_skingenius": "Correlate treatments with skin condition changes, recommend pre/post-treatment skincare"
+      },
+      {
+        "entity": "Service",
+        "fields": ["Name", "Category", "Duration", "Price", "Description", "Products used"],
+        "use_for_skingenius": "Understand treatment types, recommend compatible at-home products"
+      },
+      {
+        "entity": "Product (Retail)",
+        "fields": ["Name", "SKU", "Category", "Brand", "Price", "Stock level", "Sales velocity"],
+        "use_for_skingenius": "Ingredient analysis, retail recommendations, trending products"
+      },
+      {
+        "entity": "Transaction",
+        "fields": ["Items purchased", "Total", "Discounts", "Payment method", "Date/time", "Location"],
+        "use_for_skingenius": "Purchase pattern analysis, product affinity, spending behavior"
+      }
+    ]
+  },
+
+  "gotchas_summary": {
+    "title": "Critical Gotchas Across All Platforms",
+    "items": [
+      {
+        "severity": "High",
+        "issue": "Customer data privacy",
+        "description": "Salon customer data is PII. Ensure GDPR/CCPA compliance. Get explicit consent for data sharing. Implement data retention policies."
+      },
+      {
+        "severity": "High",
+        "issue": "OAuth token management",
+        "description": "Tokens expire. Implement refresh token logic. Handle re-auth gracefully. Don't lose data on token expiry."
+      },
+      {
+        "severity": "Medium",
+        "issue": "Webhook delivery guarantees",
+        "description": "Webhooks can be missed. Implement idempotency keys. Have polling fallback for critical data."
+      },
+      {
+        "severity": "Medium",
+        "issue": "Rate limit surprises",
+        "description": "Limits change, some undocumented. Monitor 429 responses. Implement adaptive rate limiting."
+      },
+      {
+        "severity": "Medium",
+        "issue": "Multi-location complexity",
+        "description": "Customer may visit multiple locations. Location scoping varies by API. Plan for cross-location identity resolution."
+      },
+      {
+        "severity": "Low",
+        "issue": "Sandbox vs production differences",
+        "description": "Test thoroughly in production. Sandbox may not have all features (e.g., webhooks sometimes behave differently)."
+      }
+    ]
+  },
+
+  "next_steps": {
+    "title": "Recommended Next Steps for SKINgenius",
+    "actions": [
+      "1. Create developer accounts on Square, Vagaro, and Fresha",
+      "2. Build proof-of-concept integration with Square (highest market share + best dev experience)",
+      "3. Implement OAuth flow and webhook handlers",
+      "4. Build normalized data model mapping Square objects to SKINgenius schema",
+      "5. Test with a pilot salon partner",
+      "6. Add Vagaro integration (second priority)",
+      "7. Design unified customer identity resolution logic",
+      "8. Plan for data privacy compliance (consent flows, data retention)"
+    ]
+  },
+
+  "sources": [
+    "Square Developer Documentation (developer.squareup.com)",
+    "Vagaro Developer Documentation (docs.vagaro.com)",
+    "Clover Developer Documentation (docs.clover.com)",
+    "Fresha Partner API Documentation",
+    "Boulevard Developer Portal",
+    "Industry knowledge and Capterra/G2 platform reviews",
+    "Lightspeed API Documentation"
+  ],
+
+  "metadata": {
+    "version": "1.0",
+    "author": "SKINgenius Research Agent",
+    "confidence_level": "High for market share estimates (industry consensus), Medium for specific rate limits (may vary)",
+    "last_updated": "2026-05-15",
+    "review_cycle": "Quarterly or when major platform API changes announced"
+  }
+}

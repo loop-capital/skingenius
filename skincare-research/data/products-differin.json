@@ -1,0 +1,371 @@
+[
+  {
+    "name": "Differin Gel",
+    "brand": "Differin",
+    "category": "Treatment - Retinoid",
+    "price": "$12.99 - $14.99",
+    "size": "0.5 oz (15g)",
+    "inci_ingredients": [
+      "Adapalene (0.1%)",
+      "Carbomer 940",
+      "Edetate Disodium",
+      "Methylparaben",
+      "Poloxamer 182",
+      "Propylene Glycol",
+      "Purified Water",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Adapalene",
+        "concentration": "0.1%",
+        "function": "Third-generation synthetic retinoid; modulates keratinization, anti-inflammatory, comedolytic"
+      }
+    ],
+    "conditions_addressed": [
+      "Acne vulgaris",
+      "Comedonal acne",
+      "Maintenance therapy for acne"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone"
+    ],
+    "contraindications": [
+      "Pregnancy (Category C; avoid)",
+      "Breastfeeding (consult physician)",
+      "Known hypersensitivity to adapalene or retinoids",
+      "Concurrent use with other topical retinoids or strong exfoliants (increased irritation)",
+      "Waxing or laser on treated areas (risk of skin removal)"
+    ],
+    "ph_range": "4.5 - 5.5"
+  },
+  {
+    "name": "Differin Gel (Prescription Strength)",
+    "brand": "Differin",
+    "category": "Treatment - Retinoid (Rx)",
+    "price": "Rx - varies by insurance",
+    "size": "45g pump",
+    "inci_ingredients": [
+      "Adapalene (0.3%)",
+      "Carbomer 940",
+      "Edetate Disodium",
+      "Methylparaben",
+      "Poloxamer 182",
+      "Propylene Glycol",
+      "Purified Water",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Adapalene",
+        "concentration": "0.3%",
+        "function": "Higher-strength retinoid for moderate to severe acne"
+      }
+    ],
+    "conditions_addressed": [
+      "Moderate to severe acne vulgaris",
+      "Treatment-resistant acne"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone"
+    ],
+    "contraindications": [
+      "Pregnancy (Category C; absolutely contraindicated)",
+      "Breastfeeding",
+      "Sensitive or eczematous skin (high irritation risk)",
+      "Concurrent use with benzoyl peroxide (may reduce stability)",
+      "Isotretinoin use (consult dermatologist)"
+    ],
+    "ph_range": "4.5 - 5.5"
+  },
+  {
+    "name": "Differin Daily Deep Cleanser",
+    "brand": "Differin",
+    "category": "Cleanser",
+    "price": "$9.99 - $11.99",
+    "size": "4 oz (118ml)",
+    "inci_ingredients": [
+      "Water",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Glycerin",
+      "Peg-150 Pentaerythrityl Tetrastearate",
+      "Ppg-2 Hydroxyethyl Cocamide",
+      "Phenoxyethanol",
+      "Sodium Benzoate",
+      "Citric Acid",
+      "Fragrance"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Cocamidopropyl Betaine",
+        "concentration": "~2-5%",
+        "function": "Gentle surfactant, reduces irritation from primary cleanser"
+      },
+      {
+        "ingredient": "Glycerin",
+        "concentration": "~3-5%",
+        "function": "Humectant, maintains hydration during cleansing"
+      }
+    ],
+    "conditions_addressed": [
+      "Acne-prone skin maintenance",
+      "Excess oil",
+      "Daily cleansing for retinoid users"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone"
+    ],
+    "contraindications": [
+      "Sodium Laureth Sulfate may be irritating for very sensitive skin",
+      "Fragrance may irritate fragrance-sensitive individuals",
+      "Avoid if allergic to any surfactant components"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Differin Soothing Toner",
+    "brand": "Differin",
+    "category": "Toner",
+    "price": "$8.99 - $10.99",
+    "size": "8 oz (236ml)",
+    "inci_ingredients": [
+      "Water",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Glycerin",
+      "Panthenol",
+      "Allantoin",
+      "Aloe Barbadensis Leaf Juice",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Green Tea (Camellia Sinensis) Leaf Extract",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Witch Hazel",
+        "concentration": "~10-15%",
+        "function": "Astringent, reduces excess oil, anti-inflammatory"
+      },
+      {
+        "ingredient": "Panthenol (Pro-Vitamin B5)",
+        "concentration": "~1-2%",
+        "function": "Soothing, hydrating, supports skin barrier repair"
+      },
+      {
+        "ingredient": "Allantoin",
+        "concentration": "~0.2-0.5%",
+        "function": "Keratolytic, soothing, promotes healing"
+      }
+    ],
+    "conditions_addressed": [
+      "Post-acne inflammation",
+      "Excess oil",
+      "Retinoid-associated irritation",
+      "Enlarged pores"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Acne-Prone",
+      "Normal"
+    ],
+    "contraindications": [
+      "Witch hazel may be drying for very dry skin types",
+      "Avoid if allergic to Asteraceae/Compositae family (chamomile)",
+      "Not recommended for eczema or rosacea-prone skin without patch test"
+    ],
+    "ph_range": "4.5 - 5.5"
+  },
+  {
+    "name": "Differin Moisturizer",
+    "brand": "Differin",
+    "category": "Moisturizer",
+    "price": "$9.99 - $12.99",
+    "size": "4 oz (118ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Dimethicone",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Caprylic/Capric Triglyceride",
+      "Dimethiconol",
+      "Panthenol",
+      "Allantoin",
+      "Sodium Hyaluronate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramide Complex (NP, AP, EOP)",
+        "concentration": "~1-2% total",
+        "function": "Barrier repair, lipid restoration, reduces transepidermal water loss"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.1-0.5%",
+        "function": "Hydration, moisture retention"
+      },
+      {
+        "ingredient": "Dimethicone",
+        "concentration": "~1-3%",
+        "function": "Occlusive, protects barrier, reduces irritation from actives"
+      }
+    ],
+    "conditions_addressed": [
+      "Retinoid-induced dryness",
+      "Compromised barrier",
+      "Dehydration",
+      "Post-acne recovery"
+    ],
+    "skin_types": [
+      "All",
+      "Dry",
+      "Sensitive",
+      "Acne-Prone"
+    ],
+    "contraindications": [
+      "Generally well-tolerated; patch test if extremely sensitive",
+      "Cetearyl alcohol may cause breakouts in very acne-prone individuals (rare)"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Differin Dark Spot Correcting Serum",
+    "brand": "Differin",
+    "category": "Serum - Brightening",
+    "price": "$14.99 - $18.99",
+    "size": "1 oz (30ml)",
+    "inci_ingredients": [
+      "Water",
+      "Niacinamide",
+      "Glycerin",
+      "Tranexamic Acid",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Hydroxyethylcellulose",
+      "Sodium Hyaluronate",
+      "Ascorbyl Glucoside",
+      "Tocopherol",
+      "Licorice Root Extract (Glycyrrhiza Glabra)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Citric Acid",
+      "Sodium Citrate"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%",
+        "function": "Brightening, anti-inflammatory, regulates sebum, strengthens barrier"
+      },
+      {
+        "ingredient": "Tranexamic Acid",
+        "concentration": "~2%",
+        "function": "Inhibits melanin synthesis, reduces post-inflammatory hyperpigmentation (PIH)"
+      },
+      {
+        "ingredient": "Ascorbyl Glucoside (Vitamin C derivative)",
+        "concentration": "~1-2%",
+        "function": "Antioxidant, tyrosinase inhibition, collagen support"
+      },
+      {
+        "ingredient": "Licorice Root Extract",
+        "concentration": "~0.5-1%",
+        "function": "Glabridin content inhibits tyrosinase, anti-inflammatory"
+      }
+    ],
+    "conditions_addressed": [
+      "Post-inflammatory hyperpigmentation (PIH)",
+      "Dark spots",
+      "Uneven skin tone",
+      "Melasma (adjunctive)"
+    ],
+    "skin_types": [
+      "All",
+      "Acne-Prone",
+      "Hyperpigmentation-Prone"
+    ],
+    "contraindications": [
+      "Niacinamide is generally safe in pregnancy (Category A/B), but tranexamic acid oral is contraindicated; topical use during pregnancy lacks data—consult physician",
+      "Avoid combining with strong acids (AHAs/BHAs) in same routine to prevent irritation",
+      "Patch test if sensitive to vitamin C derivatives"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Differin Balancing Moisturizer",
+    "brand": "Differin",
+    "category": "Moisturizer",
+    "price": "$10.99 - $13.99",
+    "size": "4 oz (118ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Squalane",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Dimethicone",
+      "Niacinamide",
+      "Ceramide NP",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Panthenol",
+      "Tocopheryl Acetate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%",
+        "function": "Regulates sebum, brightens, anti-inflammatory, barrier support"
+      },
+      {
+        "ingredient": "Squalane",
+        "concentration": "~2-5%",
+        "function": "Non-comedogenic emollient, restores lipid balance"
+      },
+      {
+        "ingredient": "Ceramide NP",
+        "concentration": "~0.5-1%",
+        "function": "Barrier repair, essential for retinoid users"
+      }
+    ],
+    "conditions_addressed": [
+      "Oily-dehydrated skin",
+      "Barrier maintenance during acne treatment",
+      "Post-acne recovery"
+    ],
+    "skin_types": [
+      "Combination",
+      "Oily",
+      "Acne-Prone",
+      "Normal"
+    ],
+    "contraindications": [
+      "Generally safe; niacinamide well-tolerated in pregnancy",
+      "Patch test if history of contact dermatitis to ceramide products"
+    ],
+    "ph_range": "5.0 - 6.0"
+  }
+]

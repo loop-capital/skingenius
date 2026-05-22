@@ -1,0 +1,681 @@
+[
+  {
+    "from": "botox",
+    "from_type": "procedure",
+    "to": "Juvederm fillers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "botox",
+    "from_type": "procedure",
+    "to": "Restylane fillers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "botox",
+    "from_type": "procedure",
+    "to": "Sculptra",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "botox",
+    "from_type": "procedure",
+    "to": "Radiesse",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "fillers",
+    "from_type": "procedure",
+    "to": "Botulinum toxin",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "fillers",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "fillers",
+    "from_type": "procedure",
+    "to": "Retinoids (post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "biostimulators",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid fillers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "biostimulators",
+    "from_type": "procedure",
+    "to": "PRP/PRF",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "biostimulators",
+    "from_type": "procedure",
+    "to": "Microneedling",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "biostimulators",
+    "from_type": "procedure",
+    "to": "Retinoids",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "laser-resurfacing",
+    "from_type": "procedure",
+    "to": "Growth factor serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "laser-resurfacing",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "laser-resurfacing",
+    "from_type": "procedure",
+    "to": "Ceramide moisturizers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "laser-resurfacing",
+    "from_type": "procedure",
+    "to": "Zinc oxide sunscreen",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ipl",
+    "from_type": "procedure",
+    "to": "Vitamin C serums (post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ipl",
+    "from_type": "procedure",
+    "to": "Niacinamide",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ipl",
+    "from_type": "procedure",
+    "to": "Hydroquinone (for darker skin prep)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ipl",
+    "from_type": "procedure",
+    "to": "Retinoids (post-series)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "radiofrequency",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "radiofrequency",
+    "from_type": "procedure",
+    "to": "Growth factor serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "radiofrequency",
+    "from_type": "procedure",
+    "to": "Ceramide moisturizers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "radiofrequency",
+    "from_type": "procedure",
+    "to": "Retinoids (post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ultherapy",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ultherapy",
+    "from_type": "procedure",
+    "to": "Collagen-boosting peptides",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "ultherapy",
+    "from_type": "procedure",
+    "to": "Retinoids (post-treatment)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "led-therapy",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "led-therapy",
+    "from_type": "procedure",
+    "to": "Vitamin C",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "led-therapy",
+    "from_type": "procedure",
+    "to": "Niacinamide",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "led-therapy",
+    "from_type": "procedure",
+    "to": "Retinoids",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "led-therapy",
+    "from_type": "procedure",
+    "to": "Growth factor serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "chemical-peels",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "chemical-peels",
+    "from_type": "procedure",
+    "to": "Ceramide moisturizers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "chemical-peels",
+    "from_type": "procedure",
+    "to": "Hydroquinone 4% (for darker skin)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "chemical-peels",
+    "from_type": "procedure",
+    "to": "Zinc oxide sunscreen",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "chemical-peels",
+    "from_type": "procedure",
+    "to": "Retinoids (post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microneedling",
+    "from_type": "procedure",
+    "to": "PRP/PRF",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microneedling",
+    "from_type": "procedure",
+    "to": "Growth factor serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microneedling",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microneedling",
+    "from_type": "procedure",
+    "to": "Peptide serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microneedling",
+    "from_type": "procedure",
+    "to": "Vitamin C (post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microdermabrasion",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microdermabrasion",
+    "from_type": "procedure",
+    "to": "Vitamin C",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microdermabrasion",
+    "from_type": "procedure",
+    "to": "Niacinamide",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microdermabrasion",
+    "from_type": "procedure",
+    "to": "Gentle chemical peels (alternating sessions)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "dermarolling",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "dermarolling",
+    "from_type": "procedure",
+    "to": "Peptide serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "dermarolling",
+    "from_type": "procedure",
+    "to": "Growth factors",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "dermarolling",
+    "from_type": "procedure",
+    "to": "Retinoids (professional treatment, post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "prp-prf",
+    "from_type": "procedure",
+    "to": "Microneedling",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "prp-prf",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "prp-prf",
+    "from_type": "procedure",
+    "to": "Growth factor serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "prp-prf",
+    "from_type": "procedure",
+    "to": "Exosomes (emerging)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "exosomes",
+    "from_type": "procedure",
+    "to": "Microneedling (delivery method)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "exosomes",
+    "from_type": "procedure",
+    "to": "PRP/PRF",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "exosomes",
+    "from_type": "procedure",
+    "to": "Growth factor serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "cryotherapy",
+    "from_type": "procedure",
+    "to": "Healing ointments (post-cryosurgery)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "cryotherapy",
+    "from_type": "procedure",
+    "to": "Sunscreen",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "cryotherapy",
+    "from_type": "procedure",
+    "to": "Gentle moisturizers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "hydrafacial",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "hydrafacial",
+    "from_type": "procedure",
+    "to": "Antioxidant serums",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "hydrafacial",
+    "from_type": "procedure",
+    "to": "Growth factor boosters",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "hydrafacial",
+    "from_type": "procedure",
+    "to": "Brightening boosters",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "pdt",
+    "from_type": "procedure",
+    "to": "Healing ointments",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "pdt",
+    "from_type": "procedure",
+    "to": "Gentle cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "pdt",
+    "from_type": "procedure",
+    "to": "SPF 30-50+",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "pdt",
+    "from_type": "procedure",
+    "to": "Retinoids (maintenance post-healing)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "thread-lifts",
+    "from_type": "procedure",
+    "to": "Hyaluronic acid fillers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "thread-lifts",
+    "from_type": "procedure",
+    "to": "Botulinum toxin",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "thread-lifts",
+    "from_type": "procedure",
+    "to": "RF devices",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "thread-lifts",
+    "from_type": "procedure",
+    "to": "Collagen-stimulating skincare",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microblading",
+    "from_type": "procedure",
+    "to": "Aftercare ointment (provided by artist)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microblading",
+    "from_type": "procedure",
+    "to": "Gentle cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microblading",
+    "from_type": "procedure",
+    "to": "SPF for brows",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "microblading",
+    "from_type": "procedure",
+    "to": "Brow growth serums (avoid on tattooed area)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "nanoblading",
+    "from_type": "procedure",
+    "to": "Aftercare ointment",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "nanoblading",
+    "from_type": "procedure",
+    "to": "Gentle cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "nanoblading",
+    "from_type": "procedure",
+    "to": "SPF for brows",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "powder-brows",
+    "from_type": "procedure",
+    "to": "Aftercare ointment",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "powder-brows",
+    "from_type": "procedure",
+    "to": "Gentle cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "powder-brows",
+    "from_type": "procedure",
+    "to": "SPF for brows",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "eyeliner-tattoo",
+    "from_type": "procedure",
+    "to": "Aftercare ointment",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "eyeliner-tattoo",
+    "from_type": "procedure",
+    "to": "Gentle eye cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "eyeliner-tattoo",
+    "from_type": "procedure",
+    "to": "Preservative-free artificial tears",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "lip-blushing",
+    "from_type": "procedure",
+    "to": "Antiviral medication (prophylaxis)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "lip-blushing",
+    "from_type": "procedure",
+    "to": "Aftercare ointment (non-petroleum)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "lip-blushing",
+    "from_type": "procedure",
+    "to": "Gentle lip cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "lip-blushing",
+    "from_type": "procedure",
+    "to": "Hydrating lip balms",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "freckle-tattooing",
+    "from_type": "procedure",
+    "to": "Aftercare ointment",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "freckle-tattooing",
+    "from_type": "procedure",
+    "to": "SPF 30-50+",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "areola-tattooing",
+    "from_type": "procedure",
+    "to": "Medical-grade healing ointments",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "areola-tattooing",
+    "from_type": "procedure",
+    "to": "Gentle cleansers",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "areola-tattooing",
+    "from_type": "procedure",
+    "to": "Scar treatments (if cleared by provider)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "scalp-micropigmentation",
+    "from_type": "procedure",
+    "to": "Gentle shampoo",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "scalp-micropigmentation",
+    "from_type": "procedure",
+    "to": "SPF for scalp",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "scalp-micropigmentation",
+    "from_type": "procedure",
+    "to": "Minoxidil (for ongoing hair loss)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  },
+  {
+    "from": "scalp-micropigmentation",
+    "from_type": "procedure",
+    "to": "Finasteride (for ongoing hair loss)",
+    "to_type": "product",
+    "relationship": "aftercare_with"
+  }
+]

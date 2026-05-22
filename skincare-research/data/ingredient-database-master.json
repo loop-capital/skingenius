@@ -1,0 +1,3765 @@
+[
+  {
+    "name": "Hyaluronic Acid",
+    "category": "humectant",
+    "function": "Attracts and retains water in the skin, providing intense hydration and plumping effects",
+    "evidence_level": "strong",
+    "best_for": [
+      "dry skin",
+      "dehydration",
+      "fine lines",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May feel sticky if overapplied"
+    ],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": [
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Panthenol"
+    ]
+  },
+  {
+    "name": "Vitamin C (L-Ascorbic Acid)",
+    "category": "antioxidant",
+    "function": "Brightens skin, reduces hyperpigmentation, and protects against free radical damage",
+    "evidence_level": "strong",
+    "best_for": [
+      "dull skin",
+      "hyperpigmentation",
+      "uneven tone",
+      "aging prevention"
+    ],
+    "cautions": [
+      "Can be irritating at high concentrations",
+      "Unstable in light/air",
+      "May oxidize"
+    ],
+    "concentration_guide": "10-20%",
+    "related_ingredients": [
+      "Vitamin E",
+      "Ferulic Acid",
+      "Glutathione"
+    ]
+  },
+  {
+    "name": "Retinol",
+    "category": "retinoid",
+    "function": "Increases cell turnover, stimulates collagen production, reduces wrinkles and acne",
+    "evidence_level": "strong",
+    "best_for": [
+      "aging skin",
+      "acne",
+      "uneven texture",
+      "hyperpigmentation"
+    ],
+    "cautions": [
+      "Can cause irritation, dryness, peeling",
+      "Increases sun sensitivity",
+      "Not recommended during pregnancy"
+    ],
+    "concentration_guide": "0.1-1%",
+    "related_ingredients": [
+      "Retinaldehyde",
+      "Tretinoin",
+      "Adapalene",
+      "Bakuchiol"
+    ]
+  },
+  {
+    "name": "Niacinamide (Vitamin B3)",
+    "category": "vitamin",
+    "function": "Strengthens skin barrier, reduces redness, minimizes pores, regulates oil production",
+    "evidence_level": "strong",
+    "best_for": [
+      "sensitive skin",
+      "redness",
+      "enlarged pores",
+      "oily skin",
+      "hyperpigmentation"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "High doses may cause flushing"
+    ],
+    "concentration_guide": "2-10%",
+    "related_ingredients": [
+      "Zinc",
+      "Panthenol",
+      "Ceramides"
+    ]
+  },
+  {
+    "name": "Ceramides",
+    "category": "lipid",
+    "function": "Replenish skin's natural barrier, lock in moisture, protect against environmental damage",
+    "evidence_level": "strong",
+    "best_for": [
+      "dry skin",
+      "sensitive skin",
+      "compromised barrier",
+      "eczema-prone"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Rare allergic reactions possible"
+    ],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": [
+      "Cholesterol",
+      "Fatty Acids",
+      "Squalane"
+    ]
+  },
+  {
+    "name": "Peptides",
+    "category": "peptide",
+    "function": "Signal skin to produce more collagen, improve firmness, reduce fine lines",
+    "evidence_level": "moderate",
+    "best_for": [
+      "aging skin",
+      "loss of firmness",
+      "fine lines",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Results take time to appear"
+    ],
+    "concentration_guide": "3-10%",
+    "related_ingredients": [
+      "Matrixyl",
+      "Argireline",
+      "Copper Peptides"
+    ]
+  },
+  {
+    "name": "Salicylic Acid (BHA)",
+    "category": "acid",
+    "function": "Exfoliates inside pores, reduces acne, blackheads, and inflammation",
+    "evidence_level": "strong",
+    "best_for": [
+      "acne-prone skin",
+      "oily skin",
+      "blackheads",
+      "clogged pores"
+    ],
+    "cautions": [
+      "Can cause dryness/irritation",
+      "Not recommended during pregnancy",
+      "May increase sun sensitivity"
+    ],
+    "concentration_guide": "0.5-2%",
+    "related_ingredients": [
+      "Glycolic Acid",
+      "Lactic Acid",
+      "Azelaic Acid"
+    ]
+  },
+  {
+    "name": "Glycolic Acid (AHA)",
+    "category": "acid",
+    "function": "Exfoliates surface skin, improves texture, brightness, and reduces fine lines",
+    "evidence_level": "strong",
+    "best_for": [
+      "dull skin",
+      "uneven texture",
+      "hyperpigmentation",
+      "aging"
+    ],
+    "cautions": [
+      "Can cause irritation",
+      "Increases sun sensitivity",
+      "Start with low concentration"
+    ],
+    "concentration_guide": "5-10%",
+    "related_ingredients": [
+      "Lactic Acid",
+      "Mandelic Acid",
+      "Citric Acid"
+    ]
+  },
+  {
+    "name": "Vitamin E (Tocopherol)",
+    "category": "antioxidant",
+    "function": "Protects against oxidative damage, moisturizes, enhances efficacy of other antioxidants",
+    "evidence_level": "strong",
+    "best_for": [
+      "dry skin",
+      "aging prevention",
+      "scar healing",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May clog pores in acne-prone individuals"
+    ],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": [
+      "Vitamin C",
+      "Ferulic Acid",
+      "Green Tea"
+    ]
+  },
+  {
+    "name": "Green Tea Extract",
+    "category": "antioxidant",
+    "function": "Reduces inflammation, protects against UV damage, calms redness",
+    "evidence_level": "moderate",
+    "best_for": [
+      "sensitive skin",
+      "redness",
+      "acne",
+      "aging prevention"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May cause sensitivity in rare cases"
+    ],
+    "concentration_guide": "0.5-5%",
+    "related_ingredients": [
+      "Resveratrol",
+      "Licorice Root",
+      "Chamomile"
+    ]
+  },
+  {
+    "name": "Zinc Oxide",
+    "category": "mineral sunscreen",
+    "function": "Provides broad-spectrum UV protection by reflecting and scattering UV rays",
+    "evidence_level": "strong",
+    "best_for": [
+      "sun protection",
+      "sensitive skin",
+      "rosacea",
+      "post-procedure skin"
+    ],
+    "cautions": [
+      "Can leave white cast",
+      "May feel thick/heavy"
+    ],
+    "concentration_guide": "5-25%",
+    "related_ingredients": [
+      "Titanium Dioxide",
+      "Iron Oxides"
+    ]
+  },
+  {
+    "name": "Titanium Dioxide",
+    "category": "mineral sunscreen",
+    "function": "Provides UVB and short-wave UVA protection through physical blocking",
+    "evidence_level": "strong",
+    "best_for": [
+      "sun protection",
+      "sensitive skin",
+      "children",
+      "post-procedure"
+    ],
+    "cautions": [
+      "Can leave white cast",
+      "May feel heavy on skin"
+    ],
+    "concentration_guide": "2-25%",
+    "related_ingredients": [
+      "Zinc Oxide",
+      "Iron Oxides"
+    ]
+  },
+  {
+    "name": "Hyaluronic Acid",
+    "category": "humectant",
+    "function": "Attracts and retains water in the skin, providing intense hydration and plumping effects",
+    "evidence_level": "strong",
+    "best_for": [
+      "dry skin",
+      "dehydration",
+      "fine lines",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May feel sticky if overapplied"
+    ],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": [
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Panthenol"
+    ]
+  },
+  {
+    "name": "Aloe Vera",
+    "category": "soothing agent",
+    "function": "Soothes irritation, reduces inflammation, provides lightweight hydration",
+    "evidence_level": "moderate",
+    "best_for": [
+      "sensitive skin",
+      "sunburn",
+      "irritation",
+      "all skin types"
+    ],
+    "cautions": [
+      "May cause allergic reactions in sensitive individuals",
+      "Quality varies greatly"
+    ],
+    "concentration_guide": "5-90%",
+    "related_ingredients": [
+      "Chamomile",
+      "Calendula",
+      "Green Tea"
+    ]
+  },
+  {
+    "name": "Jojoba Oil",
+    "category": "emollient",
+    "function": "Mimics skin's natural sebum, balances oil production, provides non-comedogenic moisture",
+    "evidence_level": "moderate",
+    "best_for": [
+      "oily skin",
+      "acne-prone skin",
+      "dry skin",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May feel heavy if overused"
+    ],
+    "concentration_guide": "2-100%",
+    "related_ingredients": [
+      "Squalane",
+      "Argan Oil",
+      "Rosehip Oil"
+    ]
+  },
+  {
+    "name": "Shea Butter",
+    "category": "emollient",
+    "function": "Deeply moisturizes, reduces inflammation, provides protective barrier",
+    "evidence_level": "moderate",
+    "best_for": [
+      "dry skin",
+      "eczema",
+      "rough patches",
+      "all skin types"
+    ],
+    "cautions": [
+      "May feel heavy on oily skin",
+      "Potential for clogging pores in acne-prone"
+    ],
+    "concentration_guide": "5-50%",
+    "related_ingredients": [
+      "Cocoa Butter",
+      "Mango Butter",
+      "Ceramides"
+    ]
+  },
+  {
+    "name": "Licorice Root Extract",
+    "category": "brightening agent",
+    "function": "Reduces hyperpigmentation, calms inflammation, evens skin tone",
+    "evidence_level": "moderate",
+    "best_for": [
+      "hyperpigmentation",
+      "melasma",
+      "redness",
+      "sensitive skin"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May cause sensitivity in rare cases"
+    ],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": [
+      "Vitamin C",
+      "Niacinamide",
+      "Kojic Acid"
+    ]
+  },
+  {
+    "name": "Kojic Acid",
+    "category": "brightening agent",
+    "function": "Inhibits melanin production to reduce dark spots and hyperpigmentation",
+    "evidence_level": "moderate",
+    "best_for": [
+      "hyperpigmentation",
+      "age spots",
+      "melasma",
+      "uneven skin tone"
+    ],
+    "cautions": [
+      "Can cause irritation/sensitivity",
+      "Increases sun sensitivity",
+      "Not for long-term continuous use"
+    ],
+    "concentration_guide": "1-4%",
+    "related_ingredients": [
+      "Vitamin C",
+      "Licorice Root",
+      "Niacinamide"
+    ]
+  },
+  {
+    "name": "Azelaic Acid",
+    "category": "acid",
+    "function": "Reduces inflammation, kills acne bacteria, improves hyperpigmentation and rosacea",
+    "evidence_level": "strong",
+    "best_for": [
+      "acne",
+      "rosacea",
+      "hyperpigmentation",
+      "sensitive skin"
+    ],
+    "cautions": [
+      "May cause stinging/tingling initially",
+      "Generally well-tolerated"
+    ],
+    "concentration_guide": "10-15%",
+    "related_ingredients": [
+      "Salicylic Acid",
+      "Niacinamide",
+      "Vitamin C"
+    ]
+  },
+  {
+    "name": "Peptides (Copper)",
+    "category": "peptide",
+    "function": "Stimulate collagen and elastin production, have antioxidant properties, promote healing",
+    "evidence_level": "moderate",
+    "best_for": [
+      "aging skin",
+      "wound healing",
+      "loss of firmness",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May cause temporary tingling"
+    ],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": [
+      "Matrixyl",
+      "Argireline",
+      "Vitamin C"
+    ]
+  },
+  {
+    "name": "Resveratrol",
+    "category": "antioxidant",
+    "function": "Protects against environmental damage, reduces inflammation, supports skin barrier",
+    "evidence_level": "moderate",
+    "best_for": [
+      "aging prevention",
+      "sensitive skin",
+      "redness",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Can be unstable in formulations"
+    ],
+    "concentration_guide": "0.1-5%",
+    "related_ingredients": [
+      "Vitamin E",
+      "Green Tea",
+      "Ferulic Acid"
+    ]
+  },
+  {
+    "name": "Ferulic Acid",
+    "category": "antioxidant",
+    "function": "Enhances stability and efficacy of Vitamins C and E, provides additional UV protection",
+    "evidence_level": "moderate",
+    "best_for": [
+      "aging prevention",
+      "hyperpigmentation",
+      "all skin types (with Vit C/E)"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Works best in combination with Vitamins C and E"
+    ],
+    "concentration_guide": "0.1-0.5%",
+    "related_ingredients": [
+      "Vitamin C",
+      "Vitamin E",
+      "Resveratrol"
+    ]
+  },
+  {
+    "name": "Panthenol (Pro-Vitamin B5)",
+    "category": "humectant",
+    "function": "Attracts moisture, soothes irritation, supports skin barrier function",
+    "evidence_level": "strong",
+    "best_for": [
+      "dry skin",
+      "sensitive skin",
+      "irritation",
+      "post-procedure"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Rare allergic reactions possible"
+    ],
+    "concentration_guide": "1-5%",
+    "related_ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin",
+      "Niacinamide"
+    ]
+  },
+  {
+    "name": "Squalane",
+    "category": "emollient",
+    "function": "Mimics skin's natural oils, provides lightweight non-greasy moisture, antioxidant protection",
+    "evidence_level": "strong",
+    "best_for": [
+      "all skin types",
+      "dry skin",
+      "sensitive skin",
+      "aging prevention"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May feel insufficient for very dry skin alone"
+    ],
+    "concentration_guide": "2-100%",
+    "related_ingredients": [
+      "Jojoba Oil",
+      "Ceramides",
+      "Fatty Acids"
+    ]
+  },
+  {
+    "name": "Allantoin",
+    "category": "soothing agent",
+    "function": "Soothes irritation, promotes healing, supports skin barrier recovery",
+    "evidence_level": "moderate",
+    "best_for": [
+      "sensitive skin",
+      "irritation",
+      "post-procedure",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Very low risk of side effects"
+    ],
+    "concentration_guide": "0.1-2%",
+    "related_ingredients": [
+      "Aloe Vera",
+      "Chamomile",
+      "Calendula"
+    ]
+  },
+  {
+    "name": "Chamomile Extract",
+    "category": "soothing agent",
+    "function": "Reduces inflammation, calms irritation, provides antioxidant protection",
+    "evidence_level": "moderate",
+    "best_for": [
+      "sensitive skin",
+      "redness",
+      "irritation",
+      "all skin types"
+    ],
+    "cautions": [
+      "May cause allergic reactions in those sensitive to ragweed",
+      "Quality varies"
+    ],
+    "concentration_guide": "0.5-5%",
+    "related_ingredients": [
+      "Aloe Vera",
+      "Calendula",
+      "Green Tea"
+    ]
+  },
+  {
+    "name": "Lactic Acid (AHA)",
+    "category": "acid",
+    "function": "Gentle exfoliation, improves hydration, reduces fine lines and hyperpigmentation",
+    "evidence_level": "strong",
+    "best_for": [
+      "sensitive skin",
+      "dry skin",
+      "uneven texture",
+      "hyperpigmentation"
+    ],
+    "cautions": [
+      "May cause mild tingling",
+      "Increases sun sensitivity",
+      "Start with low frequency"
+    ],
+    "concentration_guide": "5-12%",
+    "related_ingredients": [
+      "Glycolic Acid",
+      "Mandelic Acid",
+      "Citric Acid"
+    ]
+  },
+  {
+    "name": "Mandelic Acid (AHA)",
+    "category": "acid",
+    "function": "Gentle exfoliation with antibacterial properties, good for acne and sensitive skin",
+    "evidence_level": "moderate",
+    "best_for": [
+      "acne-prone skin",
+      "sensitive skin",
+      "hyperpigmentation",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Less irritating than other AHAs",
+      "Increases sun sensitivity"
+    ],
+    "concentration_guide": "5-10%",
+    "related_ingredients": [
+      "Lactic Acid",
+      "Glycolic Acid",
+      "Salicylic Acid"
+    ]
+  },
+  {
+    "name": "Bakuchiol",
+    "category": "retinoid alternative",
+    "function": "Provides retinol-like benefits (anti-aging, anti-acne) without irritation",
+    "evidence_level": "moderate",
+    "best_for": [
+      "sensitive skin",
+      "aging skin",
+      "acne",
+      "pregnancy-safe retinol alternative"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "Long-term data still limited"
+    ],
+    "concentration_guide": "0.5-2%",
+    "related_ingredients": [
+      "Retinol",
+      "Retinaldehyde",
+      "Vitamin C"
+    ]
+  },
+  {
+    "name": "Centella Asiatica (Cica)",
+    "category": "soothing agent",
+    "function": "Soothes inflammation, supports wound healing, strengthens skin barrier",
+    "evidence_level": "moderate",
+    "best_for": [
+      "sensitive skin",
+      "irritation",
+      "acne",
+      "post-procedure",
+      "all skin types"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "May cause sensitivity in rare cases"
+    ],
+    "concentration_guide": "0.5-5%",
+    "related_ingredients": [
+      "Aloe Vera",
+      "Chamomile",
+      "Allantoin"
+    ]
+  },
+  {
+    "name": "Niacinamide",
+    "category": "vitamin",
+    "function": "Strengthens skin barrier, reduces redness, minimizes pores, regulates oil production",
+    "evidence_level": "strong",
+    "best_for": [
+      "sensitive skin",
+      "redness",
+      "enlarged pores",
+      "oily skin",
+      "hyperpigmentation"
+    ],
+    "cautions": [
+      "Generally well-tolerated",
+      "High doses may cause flushing"
+    ],
+    "concentration_guide": "2-10%",
+    "related_ingredients": [
+      "Zinc",
+      "Panthenol",
+      "Ceramides"
+    ]
+  },
+  {
+    "id": "ing_001",
+    "name": "Vitamin E",
+    "inci_name": "Tocopherol",
+    "category": "antioxidant",
+    "function": "Lipid-soluble antioxidant that protects cell membranes from oxidative damage, supports skin barrier function, and enhances UV defense when combined with vitamin C",
+    "evidence_level": "strong",
+    "evidence_grade": "A",
+    "best_for": [
+      "aging",
+      "dryness",
+      "environmental_protection",
+      "barrier_repair",
+      "inflammation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "photoaging",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Reduces UV-induced oxidative stress and lipid peroxidation in skin cell membranes"
+      },
+      {
+        "condition": "skin_barrier_dysfunction",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Essential for maintaining stratum corneum integrity and reducing transepidermal water loss"
+      },
+      {
+        "condition": "inflammation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Inhibits inflammatory mediators including prostaglandins and cytokines"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Shows mild inhibitory effect on melanin production when combined with vitamin C"
+      }
+    ],
+    "mechanism_of_action": "As a lipid-soluble antioxidant, tocopherol donates electrons to neutralize free radicals in cell membranes and sebum. It protects polyunsaturated fatty acids from peroxidation chain reactions. Tocopherol also upregulates genes involved in lipid metabolism and barrier formation, inhibits NF-kB signaling to reduce inflammation, and works synergistically with vitamin C to regenerate oxidized vitamin E back to its active form (the 'vitamin E-vitamin C redox cycle'). Additionally, it helps stabilize other ingredients and formulations.",
+    "concentration_guide": {
+      "minimum_effective": "0.1%",
+      "typical_range": "0.5% - 2%",
+      "maximum_studied": "5%",
+      "notes": "Most effective at 0.5-1% when formulated with vitamin C. Higher concentrations (2-5%) may increase risk of irritation or oxidation. Often combined with tocopheryl acetate (ester form) for stability."
+    },
+    "optimal_ph": {
+      "range": "3.5 - 7.0",
+      "notes": "Stable across wide pH range; can be formulated in both acidic and neutral products. Less pH-sensitive than vitamin C."
+    },
+    "safety_profile": {
+      "pregnancy": "Safe - Category A. Essential nutrient during pregnancy; topical use considered safe.",
+      "breastfeeding": "Safe - topical use has no known concerns during breastfeeding.",
+      "allergies": "Rare contact dermatitis reported; true allergy to tocopherol is uncommon but possible. More common with tocopheryl acetate.",
+      "sensitivities": "Generally well-tolerated; high concentrations (>2%) may cause breakouts in acne-prone skin due to occlusive nature of oil-soluble form.",
+      "interactions": "Synergistic with vitamin C (ascorbic acid), ferulic acid, and niacinamide. May oxidize when exposed to air/heat/light - requires proper packaging.",
+      "cautions": [
+        "May oxidize and turn yellow/rancid if improperly stored",
+        "Oil-soluble forms can be comedogenic at high concentrations in acne-prone skin",
+        "Use stabilized derivatives (tocopheryl acetate, tocopheryl succinate) for better shelf stability"
+      ]
+    },
+    "root_cause_addressed": "oxidation",
+    "related_ingredients": [
+      "Vitamin C",
+      "Ferulic Acid",
+      "Niacinamide",
+      "Squalane",
+      "Coenzyme Q10",
+      "Astaxanthin"
+    ],
+    "notes": "Most commonly used skincare ingredient across 40+ products in SKINgenius database. Natural vitamin E (d-alpha-tocopherol) is more bioactive than synthetic (dl-alpha-tocopherol). The acetate ester form (tocopheryl acetate) is more stable but requires skin esterase enzymes to convert to active tocopherol. Often paired with vitamin C in the classic 'CE Ferulic' combination for enhanced photoprotection. Works primarily in the lipid phase of skin."
+  },
+  {
+    "id": "ing_002",
+    "name": "Vitamin C",
+    "inci_name": "L-Ascorbic Acid",
+    "category": "vitamin",
+    "function": "Water-soluble antioxidant essential for collagen synthesis, melanin inhibition, and free radical neutralization; brightens skin and improves photodamage",
+    "evidence_level": "strong",
+    "evidence_grade": "A",
+    "best_for": [
+      "hyperpigmentation",
+      "aging",
+      "dullness",
+      "environmental_protection",
+      "collagen_loss",
+      "acne_scarring"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Inhibits tyrosinase activity and melanin production at multiple pathways; effective for melasma, PIH, and sun spots"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Stimulates collagen types I and III synthesis; reduces UV-induced damage when used with sunscreen"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Anti-inflammatory effects and promotes wound healing; may reduce post-inflammatory hyperpigmentation from acne"
+      },
+      {
+        "condition": "dull_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Brightens complexion by reducing melanin and providing antioxidant glow"
+      },
+      {
+        "condition": "collagen_loss",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Cofactor for prolyl and lysyl hydroxylase enzymes required for collagen maturation"
+      }
+    ],
+    "mechanism_of_action": "L-ascorbic acid is the biologically active form of vitamin C. As an electron donor, it neutralizes reactive oxygen species (ROS) by donating electrons. It is a required cofactor for the enzymes prolyl hydroxylase and lysyl hydroxylase, which hydroxylate collagen molecules for proper triple helix formation and cross-linking. Vitamin C also inhibits tyrosinase (the rate-limiting enzyme in melanin synthesis) by reducing copper ions at the active site. Additionally, it promotes keratinocyte differentiation, enhances ceramide synthesis for barrier function, and upregulates transcription of collagen genes (COL1A1, COL1A2). In the skin, it recycles oxidized vitamin E back to its active form, creating a powerful antioxidant network.",
+    "concentration_guide": {
+      "minimum_effective": "3%",
+      "typical_range": "10% - 20%",
+      "maximum_studied": "20%",
+      "notes": "Concentrations above 20% do not increase absorption and may cause irritation. 10-15% is the sweet spot for efficacy and tolerability. pH must be below 3.5 for optimal penetration."
+    },
+    "optimal_ph": {
+      "range": "2.5 - 3.5",
+      "notes": "Must be formulated at pH < 3.5 for protonation and skin penetration. Higher pH (>3.5) dramatically reduces bioavailability. Unstable in water-based formulations - anhydrous or powder formulations preferred for stability."
+    },
+    "safety_profile": {
+      "pregnancy": "Safe - Category A. Essential nutrient; topical use well-established as safe during pregnancy.",
+      "breastfeeding": "Safe - no known concerns with topical vitamin C during breastfeeding.",
+      "allergies": "Extremely rare; vitamin C is not a common allergen.",
+      "sensitivities": "Can cause stinging, redness, or irritation at concentrations >15%, especially on sensitive skin. Titrate up gradually. May cause purging initially in acne-prone skin.",
+      "interactions": "Synergistic with vitamin E (tocopherol) and ferulic acid. Can be used with niacinamide (myth about incompatibility has been debunked). Avoid pairing with benzoyl peroxide in same routine (oxidizes vitamin C). Retinol can be paired with vitamin C if skin tolerates it.",
+      "cautions": [
+        "Highly unstable - oxidizes on exposure to light, air, and heat (turns yellow/orange when degraded)",
+        "Must be stored in opaque, air-tight containers",
+        "Can increase sun sensitivity if used without sunscreen",
+        "May cause temporary stinging upon application",
+        "Derivative forms (magnesium ascorbyl phosphate, ascorbyl glucoside, tetrahexyldecyl ascorbate) are more stable but less potent"
+      ]
+    },
+    "root_cause_addressed": "oxidation",
+    "related_ingredients": [
+      "Vitamin E",
+      "Ferulic Acid",
+      "Niacinamide",
+      "Alpha Arbutin",
+      "Tranexamic Acid",
+      "Resveratrol"
+    ],
+    "notes": "Found in 27 products in SKINgenius database. The gold standard brightening ingredient with decades of clinical evidence. L-ascorbic acid is the most potent form but least stable. Derivatives like magnesium ascorbyl phosphate (MAP) and ascorbyl tetraisopalmitate are more stable but require conversion in skin. The combination of 15% L-ascorbic acid + 1% vitamin E + 0.5% ferulic acid provides 8x photoprotection vs vitamin C alone (Duke Antioxidant Patent). Water-free and powder formulations solve stability issues."
+  },
+  {
+    "id": "ing_003",
+    "name": "Lactic Acid",
+    "inci_name": "Lactic Acid",
+    "category": "acid",
+    "function": "Alpha-hydroxy acid (AHA) that provides gentle chemical exfoliation while simultaneously hydrating skin through its humectant properties",
+    "evidence_level": "strong",
+    "evidence_grade": "B+",
+    "best_for": [
+      "dullness",
+      "texture",
+      "dryness",
+      "hyperpigmentation",
+      "aging",
+      "sensitive_skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Unique among AHAs for its humectant properties; increases natural moisturizing factors (NMF) in stratum corneum"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Accelerates cell turnover to fade dark spots and even skin tone; gentler than glycolic acid for this purpose"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Stimulates collagen synthesis and improves skin thickness at 5-12% concentrations"
+      },
+      {
+        "condition": "keratosis_pilaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Effective for body KP due to its dual exfoliating and hydrating properties"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Helps clear pore-clogging dead skin cells; less effective than salicylic acid for acne"
+      }
+    ],
+    "mechanism_of_action": "As an alpha-hydroxy acid, lactic acid exfoliates by disrupting corneocyte adhesion in the stratum corneum through chelation of calcium ions, which loosens desmosomal connections. This promotes desquamation (shedding of dead skin cells) and reveals fresher skin beneath. Unlike other AHAs, lactic acid is also a humectant that attracts water to the skin and increases synthesis of ceramides and glycosaminoglycans. At higher concentrations (5-12%), it stimulates fibroblast activity and collagen production in the dermis. Lactic acid is the mildest AHA due to its larger molecular size compared to glycolic acid, resulting in slower penetration and less potential for irritation. It also has antimicrobial properties against P. acnes.",
+    "concentration_guide": {
+      "minimum_effective": "2%",
+      "typical_range": "5% - 12%",
+      "maximum_studied": "12% (cosmetic); higher in professional peels",
+      "notes": "At 2-5%: primarily humectant and mild exfoliant. At 5-10%: effective chemical exfoliation with hydrating benefits. At 10-12%: significant collagen stimulation. Professional peels use 30-70% but should be administered by professionals."
+    },
+    "optimal_ph": {
+      "range": "3.0 - 4.0",
+      "notes": "Like all AHAs, must be formulated at acidic pH (<4.0) for protonation and skin penetration. Free acid value of 4-10% is ideal. Formulated pH of 3.5-4.0 balances efficacy and tolerability."
+    },
+    "safety_profile": {
+      "pregnancy": "Generally considered safe in cosmetic concentrations (<12%); avoid professional-strength peels during pregnancy.",
+      "breastfeeding": "Safe at cosmetic concentrations; avoid high-concentration peels.",
+      "allergies": "Rare; lactic acid is naturally present in skin (part of NMF).",
+      "sensitivities": "Generally the most tolerated AHA. May cause mild tingling, especially at higher concentrations. Less irritating than glycolic acid due to larger molecule size.",
+      "interactions": "Can be combined with other AHAs (not recommended - redundant and increases irritation). Avoid using with retinol in the same routine initially. Can be combined with hyaluronic acid and niacinamide. Do not mix with high-pH products in same routine.",
+      "cautions": [
+        "Increases photosensitivity - must use SPF 30+ daily",
+        "Start with lower concentrations (5%) and gradually increase",
+        "May cause temporary redness or peeling during initial use",
+        "Not for use on broken or freshly shaved skin",
+        "Patch test recommended for sensitive skin"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Glycolic Acid",
+      "Mandelic Acid",
+      "Citric Acid",
+      "Salicylic Acid",
+      "Polyhydroxy Acids (PHAs)",
+      "Hyaluronic Acid"
+    ],
+    "notes": "Found in 13 products in SKINgenius database. Naturally occurring in milk and part of the skin's natural moisturizing factor (NMF). The gentlest AHA due to its larger molecular size, making it ideal for sensitive skin and beginners to chemical exfoliation. Unlike glycolic acid, lactic acid provides hydration while exfoliating, making it unique among AHAs. Often used in body lotions for dry skin and keratosis pilaris. The Sodium Lactate salt form is also used as a humectant and pH buffer."
+  },
+  {
+    "id": "ing_004",
+    "name": "Salicylic Acid",
+    "inci_name": "Salicylic Acid",
+    "category": "acid",
+    "function": "Beta-hydroxy acid (BHA) that penetrates oil to exfoliate inside pores, making it the gold standard for acne and blackhead treatment",
+    "evidence_level": "strong",
+    "evidence_grade": "A",
+    "best_for": [
+      "acne",
+      "blackheads",
+      "oily_skin",
+      "enlarged_pores",
+      "inflammation",
+      "textured_skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "First-line topical treatment for acne; comedolytic and anti-inflammatory; penetrates sebum-filled pores"
+      },
+      {
+        "condition": "blackheads_and_whiteheads",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Dissolves sebum and keratin plugs within pores; most effective ingredient for comedonal acne"
+      },
+      {
+        "condition": "seborrheic_dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Keratolytic and anti-inflammatory; also has antifungal properties against Malassezia"
+      },
+      {
+        "condition": "psoriasis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Keratolytic effect helps remove scales; used in concentrations up to 3% in OTC products"
+      },
+      {
+        "condition": "enlarged_pores",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Keeps pores clear of debris, making them appear smaller over time"
+      }
+    ],
+    "mechanism_of_action": "As a beta-hydroxy acid, salicylic acid is lipophilic (oil-soluble), allowing it to penetrate into sebaceous follicles and pores filled with sebum. It works by dissolving the intercellular cement that holds corneocytes together (desmolytic action) and by directly dissolving sebum and keratin plugs. Salicylic acid is also a keratolytic agent that increases the shedding of the stratum corneum. Importantly, it has anti-inflammatory properties through inhibition of cyclooxygenase (COX) enzymes and suppression of pro-inflammatory prostaglandins. At higher concentrations, it demonstrates antimicrobial activity against Propionibacterium acnes. Unlike AHAs, it can exfoliate within the pore itself, making it uniquely effective for acne.",
+    "concentration_guide": {
+      "minimum_effective": "0.5%",
+      "typical_range": "0.5% - 2%",
+      "maximum_studied": "2% (OTC cosmetic); up to 30% in professional peels",
+      "notes": "0.5-1%: mild exfoliation suitable for daily use. 2%: maximum OTC strength for effective acne treatment and pore clearing. Professional chemical peels use 20-30% but must be administered by licensed professionals."
+    },
+    "optimal_ph": {
+      "range": "3.0 - 4.0",
+      "notes": "Most effective at pH 3.0-3.5 for optimal protonation and skin penetration. At pH >4, efficacy decreases significantly. Often formulated at pH 3.2-3.5 for best balance of efficacy and tolerability."
+    },
+    "safety_profile": {
+      "pregnancy": "Caution - avoid high concentrations and large surface area use during pregnancy. Low concentrations (≤2%) on limited areas generally considered safe, but consult healthcare provider. Salicylates can be absorbed systemically.",
+      "breastfeeding": "Caution - minimize use on large surface areas; topical absorption is minimal but not zero.",
+      "allergies": "Rare true allergy; however, cross-reactivity possible in those with aspirin (salicylate) allergy. Those with salicylate sensitivity may react.",
+      "sensitivities": "Can cause dryness, peeling, and irritation, especially when starting or at higher concentrations. Often causes initial purging as pores clear. Less irritating than AHAs for some due to anti-inflammatory properties.",
+      "interactions": "Can be combined with niacinamide (complementary for acne). Avoid using with benzoyl peroxide in same routine initially (too drying). Can alternate with retinol. Do not use with other strong acids in same routine. Patch testing with other exfoliants recommended.",
+      "cautions": [
+        "Increases photosensitivity - daily SPF 30+ essential",
+        "Can cause initial purging (2-6 weeks) as pores clear",
+        "Overuse can compromise skin barrier and cause rebound oiliness",
+        "Avoid applying to broken skin or open wounds",
+        "Slight stinging upon application is normal; persistent burning is not",
+        "Those with aspirin allergy should consult physician before use"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Benzoyl Peroxide",
+      "Niacinamide",
+      "Azelaic Acid",
+      "Glycolic Acid",
+      "Sulfur",
+      "Retinoids"
+    ],
+    "notes": "Found in 12 products in SKINgenius database. The only BHA commonly used in skincare (other BHAs like betaine salicylate are less common). Derived from willow bark (though commercially synthesized). Structurally related to aspirin and shares its anti-inflammatory properties. Unique among exfoliating acids for being oil-soluble, enabling pore penetration. The maximum OTC concentration in the US is 2%. Often found in cleansers, toners, spot treatments, and masks. Time-release formulations (encapsulated SA) improve tolerability."
+  },
+  {
+    "id": "ing_005",
+    "name": "Growth Factors",
+    "inci_name": "Sh-Oligopeptide-1 (EGF)",
+    "category": "growth_factor",
+    "function": "Cell signaling proteins that stimulate cell proliferation, differentiation, and wound healing; used for anti-aging and skin repair",
+    "evidence_level": "moderate",
+    "evidence_grade": "C+",
+    "best_for": [
+      "aging",
+      "wound_healing",
+      "skin_repair",
+      "scarring",
+      "texture",
+      "post_procedure"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Some clinical studies show improvement in fine lines and skin texture; evidence quality variable across studies"
+      },
+      {
+        "condition": "wound_healing",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Well-established in medical literature for wound repair; topical cosmetic application less studied"
+      },
+      {
+        "condition": "post_procedure_recovery",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Commonly recommended after laser, microneedling, and peels to accelerate recovery"
+      },
+      {
+        "condition": "skin_texture",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Anecdotal and some clinical evidence for improved skin smoothness and elasticity"
+      },
+      {
+        "condition": "acne_scarring",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "Theoretical benefit for remodeling scar tissue; limited direct evidence for topical cosmetic use"
+      }
+    ],
+    "mechanism_of_action": "Epidermal Growth Factor (EGF), designated as Sh-Oligopeptide-1 in INCI nomenclature, is a 53-amino acid polypeptide that binds to epidermal growth factor receptors (EGFR) on cell membranes. This binding activates intracellular signaling cascades (MAPK/ERK and PI3K/AKT pathways) that stimulate cellular proliferation, migration, and differentiation. In skin, EGF promotes keratinocyte turnover, fibroblast activity, and synthesis of collagen, elastin, and hyaluronic acid. Other growth factors used in cosmetics include TGF-beta (transforming growth factor), FGF (fibroblast growth factor), and PDGF (platelet-derived growth factor). Most cosmetic growth factors are produced through recombinant DNA technology (often in barley or yeast) to ensure bioactivity and consistency.",
+    "concentration_guide": {
+      "minimum_effective": "Not well established",
+      "typical_range": "0.001% - 0.01%",
+      "maximum_studied": "Variable by specific growth factor",
+      "notes": "Growth factors are active at very low concentrations (nanogram to microgram range). There is no standardized optimal concentration. Efficacy depends heavily on delivery system, stability, and penetration."
+    },
+    "optimal_ph": {
+      "range": "5.0 - 7.0",
+      "notes": "Growth factors are proteins/peptides and require near-neutral pH for stability. Acidic environments (pH <4) can denature the protein structure. Best formulated in pH-neutral serums and creams."
+    },
+    "safety_profile": {
+      "pregnancy": "Limited data; generally considered safe topically but evidence is sparse. No known systemic absorption concerns at cosmetic concentrations.",
+      "breastfeeding": "Limited data; topical use unlikely to pose risk given minimal systemic absorption.",
+      "allergies": "Low risk; proteins in cosmetic-grade growth factors are generally well-tolerated. However, any protein ingredient carries theoretical allergy risk.",
+      "sensitivities": "Generally well-tolerated; non-irritating. Suitable for sensitive skin. Rare reports of breakouts or reactions.",
+      "interactions": "Should not be combined with strong acids (low pH may denature proteins). Can be combined with most other ingredients including peptides, hyaluronic acid, and niacinamide. Best applied to clean, dry skin before other products.",
+      "cautions": [
+        "Evidence for anti-aging efficacy is emerging but not as robust as retinoids or vitamin C",
+        "High cost relative to evidence level",
+        "Stability is a concern - proteins can degrade over time",
+        "Penetration through stratum corneum is debated; delivery systems (liposomes, nanosomes) may help",
+        "Quality varies significantly between manufacturers",
+        "Some dermatologists express theoretical concern about stimulating cell proliferation"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Peptides",
+      "Copper Peptides",
+      "Retinoids",
+      "Hyaluronic Acid",
+      "Ceramides",
+      "Niacinamide"
+    ],
+    "notes": "Found in 9 products in SKINgenius database. A controversial category in skincare - promising in theory and wound healing medicine, but cosmetic topical evidence is less robust than established ingredients like retinoids or vitamin C. Most evidence comes from ex vivo studies, cell culture, or small clinical trials. Originally discovered by Stanley Cohen and Rita Levi-Montalcini (Nobel Prize 1986). Popular brands include BioEffect (barley-derived EGF) and various medical-grade lines. The cosmetic use of growth factors is more established in Asian markets (K-beauty) than in Western dermatology. Cost-per-ounce is typically high."
+  },
+  {
+    "id": "ing_006",
+    "name": "Witch Hazel",
+    "inci_name": "Hamamelis Virginiana",
+    "category": "botanical",
+    "function": "Natural astringent with anti-inflammatory, antioxidant, and antimicrobial properties; traditionally used for soothing irritated skin and tightening pores",
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": [
+      "oily_skin",
+      "inflammation",
+      "acne",
+      "pore_appearance",
+      "irritation",
+      "minor_wounds"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "inflammation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Contains tannins and flavonoids with documented anti-inflammatory effects; traditional use supported by some modern research"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "limited",
+        "evidence_grade": "B-",
+        "notes": "Astringent and antimicrobial properties may help; less effective than salicylic acid or benzoyl peroxide"
+      },
+      {
+        "condition": "oily_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Tannins provide astringent effect that temporarily tightens pores and reduces oiliness"
+      },
+      {
+        "condition": "irritated_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Traditionally used for soothing minor skin irritations, insect bites, and sunburn"
+      },
+      {
+        "condition": "minor_wounds",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Traditional antiseptic use; some evidence supports wound healing properties"
+      }
+    ],
+    "mechanism_of_action": "Witch hazel extract contains several bioactive compounds including tannins (hamamelitannin, gallic acid), flavonoids (quercetin, kaempferol), and volatile oils. The tannins act as astringents by precipitating proteins on the skin surface, creating a temporary tightening effect and mild barrier that reduces oiliness. Tannins also possess antioxidant activity by scavenging free radicals. The flavonoids (particularly quercetin) exhibit anti-inflammatory effects by inhibiting inflammatory mediators like prostaglandins and leukotrienes. Hamamelitannin has shown antimicrobial activity against various bacteria and fungi. Witch hazel also contains small amounts of procyanidins and essential oils that contribute to its soothing properties. However, many commercial witch hazel products contain significant alcohol (14-15%), which can be drying and potentially irritating.",
+    "concentration_guide": {
+      "minimum_effective": "Not well established",
+      "typical_range": "Variable (extract-based)",
+      "maximum_studied": "Not applicable",
+      "notes": "Typically used as an extract (distillate) at various concentrations. Pure witch hazel extract is rarely used; most products contain 5-15% extract in a water/alcohol base. Alcohol-free formulations preferred for dry/sensitive skin."
+    },
+    "optimal_ph": {
+      "range": "4.0 - 6.0",
+      "notes": "Witch hazel distillate is naturally slightly acidic. pH compatibility depends on the base formulation."
+    },
+    "safety_profile": {
+      "pregnancy": "Generally considered safe for topical use during pregnancy in cosmetic formulations.",
+      "breastfeeding": "Safe for topical use during breastfeeding.",
+      "allergies": "Rare contact dermatitis reported. Those with sensitivities to plants in the Hamamelidaceae family may react.",
+      "sensitivities": "Alcohol-based witch hazel can be drying and irritating, especially for dry and sensitive skin. Alcohol-free versions are better tolerated. Overuse can disrupt skin barrier.",
+      "interactions": "Can be combined with most ingredients. Works well in toner formulations with niacinamide or hyaluronic acid. Avoid combining alcohol-based versions with other drying ingredients (strong acids, benzoyl peroxide) in same routine.",
+      "cautions": [
+        "Many commercial products contain 14-15% alcohol which can be drying",
+        "Alcohol-free formulations are preferred for sensitive and dry skin types",
+        "Overuse can strip skin barrier and cause rebound oiliness",
+        "Tannin content varies by extraction method",
+        "Some products may contain witch hazel mixed with other irritating ingredients",
+        "Patch test recommended for sensitive skin"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Niacinamide",
+      "Salicylic Acid",
+      "Tea Tree Oil",
+      "Zinc",
+      "Green Tea Extract",
+      "Calendula"
+    ],
+    "notes": "Found in 6 products in SKINgenius database. Native to North America and used medicinally by Native Americans for centuries. The name 'witch hazel' comes from the Old English 'wych' meaning 'pliant' or 'bendable,' referring to its flexible branches. Most commonly found as a distillate/extract in toners and astringents. Quality varies significantly - look for alcohol-free formulations. Clinical evidence is moderate; traditional use is well-established but modern dermatological evidence is less robust than synthetic alternatives. Often overhyped as a 'natural' alternative to chemical ingredients while containing alcohol in many formulations."
+  },
+  {
+    "id": "ing_007",
+    "name": "Citric Acid",
+    "inci_name": "Citric Acid",
+    "category": "acid",
+    "function": "Alpha-hydroxy acid (AHA), pH adjuster, and antioxidant that provides mild exfoliation while maintaining product stability",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "pH_balance",
+      "mild_exfoliation",
+      "product_stability",
+      "antioxidant_support",
+      "brightening"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "uneven_texture",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Provides mild AHA exfoliation; less potent than glycolic or lactic acid for this purpose"
+      },
+      {
+        "condition": "product_pH_optimization",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Primary use in skincare is pH adjustment and buffering to maintain product stability and active ingredient efficacy"
+      },
+      {
+        "condition": "antioxidant_support",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Chelates metal ions that catalyze oxidation; contributes to product preservation"
+      },
+      {
+        "condition": "mild_hyperpigmentation",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "At higher concentrations, may contribute to brightening through exfoliation"
+      }
+    ],
+    "mechanism_of_action": "As a tricarboxylic acid and member of the AHA family, citric acid can exfoliate skin by disrupting corneocyte adhesion similar to other AHAs, though it is less potent than glycolic or lactic acid. Its primary role in skincare formulations is as a pH adjuster and buffer - it can raise or lower product pH to optimal ranges for active ingredients. Citric acid is an excellent chelating agent that binds metal ions (iron, copper) that catalyze oxidation reactions, thereby enhancing product stability and antioxidant systems. It also acts as a preservative booster by lowering pH to levels inhospitable to microbial growth. In higher concentrations, it provides antioxidant benefits by neutralizing free radicals. Additionally, citric acid is part of the skin's natural moisturizing factor (NMF) and plays a role in the skin's acid mantle.",
+    "concentration_guide": {
+      "minimum_effective": "0.1% (as pH adjuster)",
+      "typical_range": "0.5% - 5%",
+      "maximum_studied": "10% (for exfoliation); up to 30% in professional peels",
+      "notes": "At <1%: primarily pH adjustment and chelation. At 1-5%: mild exfoliation and antioxidant benefits. At 5-10%: noticeable AHA exfoliation. Professional peels use higher concentrations. Most common use in products is as a pH adjuster at low concentrations."
+    },
+    "optimal_ph": {
+      "range": "3.0 - 6.0 (formulation dependent)",
+      "notes": "When used as pH adjuster, final product pH is the key consideration. When used as active AHA, pH 3.0-4.0 optimal for exfoliation. Naturally occurs in citrus fruits at pH 2-3."
+    },
+    "safety_profile": {
+      "pregnancy": "Safe at cosmetic concentrations used for pH adjustment. Higher concentrations (peel levels) should be avoided during pregnancy.",
+      "breastfeeding": "Safe at cosmetic concentrations.",
+      "allergies": "Rare; citric acid is naturally present in the body (Krebs cycle). Citrus fruit allergies do not necessarily indicate citric acid sensitivity.",
+      "sensitivities": "Generally well-tolerated at low concentrations used for pH adjustment. Higher concentrations can cause stinging and photosensitivity like other AHAs.",
+      "interactions": "Essential for stabilizing pH-dependent actives like vitamin C and retinol. Can be combined with most ingredients. As an AHA, should not be combined with other strong acids in same routine if used at exfoliating concentrations.",
+      "cautions": [
+        "At exfoliating concentrations, increases photosensitivity - SPF required",
+        "Can sting if applied to broken or irritated skin",
+        "Primary function in most products is pH adjustment, not active exfoliation",
+        "Less effective as an exfoliant compared to glycolic or lactic acid",
+        "Professional peels require trained application"
+      ]
+    },
+    "root_cause_addressed": "oxidation",
+    "related_ingredients": [
+      "Glycolic Acid",
+      "Lactic Acid",
+      "Malic Acid",
+      "Tartaric Acid",
+      "Sodium Citrate",
+      "EDTA"
+    ],
+    "notes": "Found in 6 products in SKINgenius database. Most commonly used as a pH adjuster and chelating agent rather than as a primary active ingredient. Naturally occurring in citrus fruits and part of the Krebs cycle (citric acid cycle) in all living cells. When listed low on ingredient labels, it's typically functioning as a pH adjuster or stabilizer. As an AHA, it's less effective than glycolic or lactic acid due to its larger molecular size and different pKa. Often paired with sodium citrate as a buffering system. The most common AHA in nature but less commonly used for exfoliation in cosmetic formulations compared to glycolic and lactic acids."
+  },
+  {
+    "id": "ing_008",
+    "name": "Glycolic Acid",
+    "inci_name": "Glycolic Acid",
+    "category": "acid",
+    "function": "The smallest and most penetrating alpha-hydroxy acid (AHA), providing potent chemical exfoliation, collagen stimulation, and skin renewal",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "aging",
+      "hyperpigmentation",
+      "texture",
+      "acne",
+      "dullness",
+      "enlarged_pores",
+      "scarring"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "photoaging",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Extensive evidence for stimulating collagen, reducing fine lines, and improving skin thickness at 5-10% concentrations"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Accelerates cell turnover to fade melasma, PIH, and sun spots; professional peels (20-70%) show dramatic results"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Effective comedolytic and keratolytic; less pore-penetrating than salicylic acid but effective for surface acne"
+      },
+      {
+        "condition": "skin_texture",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Smoothes rough skin, reduces appearance of pores, and improves overall skin quality"
+      },
+      {
+        "condition": "acne_scarring",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Medium-depth peels (35-70%) can improve atrophic acne scars through dermal remodeling"
+      },
+      {
+        "condition": "keratosis_pilaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Effective for body KP when used in body lotions at 8-10% concentrations"
+      }
+    ],
+    "mechanism_of_action": "Glycolic acid is the smallest AHA (molecular weight 76 g/mol) with only two carbon atoms, allowing it to penetrate skin more deeply and rapidly than other AHAs. It exfoliates by disrupting ionic bonding between corneocytes in the stratum corneum through calcium chelation, promoting desquamation and cell turnover. At concentrations of 5-10%, glycolic acid penetrates into the dermis and stimulates fibroblasts to produce new collagen (types I and III), elastin, and glycosaminoglycans. It also increases epidermal thickness and promotes more uniform melanin distribution. Glycolic acid has been shown to activate cellular transcription factors and increase hyaluronic acid synthesis in the dermis. Its small size enables faster results but also higher potential for irritation compared to larger AHAs like lactic or mandelic acid.",
+    "concentration_guide": {
+      "minimum_effective": "2%",
+      "typical_range": "5% - 10%",
+      "maximum_studied": "10% (daily cosmetic use); 70% (professional peels)",
+      "notes": "2-5%: gentle daily exfoliation suitable for beginners. 5-8%: effective anti-aging and brightening. 8-10%: maximum daily strength with significant collagen stimulation. Professional chemical peels use 20-70% with neutralization required. Free acid value of 8-10% at pH 3.5-4.0 is the gold standard."
+    },
+    "optimal_ph": {
+      "range": "3.0 - 4.0",
+      "notes": "Most effective at pH 3.5-3.8 where approximately 50% is in the protonated (active) free acid form. Below pH 3.0: too irritating. Above pH 4.0: significantly reduced penetration and efficacy. Products should specify pH or free acid value."
+    },
+    "safety_profile": {
+      "pregnancy": "Avoid high-concentration peels during pregnancy. Low concentrations (≤5%) generally considered safe, but many dermatologists recommend avoiding all AHAs during pregnancy as a precaution.",
+      "breastfeeding": "Low concentrations generally considered safe; avoid peels and high concentrations.",
+      "allergies": "Rare; glycolic acid is not a common allergen.",
+      "sensitivities": "Highest irritation potential among AHAs due to small molecular size. Can cause redness, peeling, stinging, and sensitivity. Not recommended for sensitive skin or rosacea without medical supervision.",
+      "interactions": "Do not combine with other strong acids, retinol, or benzoyl peroxide in the same routine initially (too irritating). Can alternate with retinol (e.g., glycolic acid AM, retinol PM). Works well with hyaluronic acid and niacinamide when used in separate steps. Always use with sunscreen.",
+      "cautions": [
+        "Significantly increases photosensitivity - daily SPF 30+ is mandatory",
+        "Highest irritation risk among AHAs - start with lower concentrations (5%)",
+        "Not suitable for sensitive skin, eczema, or active rosacea without dermatologist guidance",
+        "Can cause initial purging (2-6 weeks)",
+        "Over-exfoliation can damage skin barrier",
+        "Professional peels require neutralization and post-care",
+        "Buffering and free acid value matter more than percentage alone"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Lactic Acid",
+      "Mandelic Acid",
+      "Citric Acid",
+      "Salicylic Acid",
+      "Retinol",
+      "Azelaic Acid"
+    ],
+    "notes": "Found in 4 products in SKINgenius database. Derived from sugarcane (though commercially synthesized). The gold standard AHA with the most clinical evidence for anti-aging and hyperpigmentation. First AHA to be studied extensively in dermatology. Its small molecular size (76 Da) enables deep penetration but also means higher irritation potential. The 'free acid value' (percentage of protonated acid at formulation pH) is more important than nominal concentration - a 10% glycolic acid at pH 4.0 has less free acid than 8% at pH 3.5. Popular in both daily-use products and professional peels. Often combined with other AHAs in multi-acid formulations."
+  },
+  {
+    "id": "ing_009",
+    "name": "Tea Tree Oil",
+    "inci_name": "Melaleuca Alternifolia Leaf Oil",
+    "category": "botanical",
+    "function": "Potent antimicrobial and anti-inflammatory essential oil derived from the Australian tea tree; primary natural alternative for acne treatment",
+    "evidence_level": "moderate",
+    "evidence_grade": "B+",
+    "best_for": [
+      "acne",
+      "inflammation",
+      "oily_skin",
+      "fungal_infections",
+      "minor_wounds",
+      "scalp_conditions"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Multiple studies show 5% tea tree oil comparable to 5% benzoyl peroxide for acne with fewer side effects (though slower action)"
+      },
+      {
+        "condition": "fungal_infections",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Effective against Malassezia (fungal acne), athlete's foot, and nail fungus due to terpinen-4-ol content"
+      },
+      {
+        "condition": "inflammation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Anti-inflammatory properties help reduce redness and swelling associated with acne and irritation"
+      },
+      {
+        "condition": "minor_wounds",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Traditional antiseptic use supported by antimicrobial properties; may aid in wound healing"
+      },
+      {
+        "condition": "seborrheic_dermatitis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Effective against Malassezia yeast; commonly used in anti-dandruff shampoos"
+      }
+    ],
+    "mechanism_of_action": "Tea tree oil contains over 100 bioactive compounds, with terpinen-4-ol being the primary active component responsible for antimicrobial activity. Terpinen-4-ol disrupts microbial cell membranes by increasing permeability and causing leakage of cellular contents, leading to bacterial and fungal cell death. It is effective against Propionibacterium acnes (acne-causing bacteria), Staphylococcus aureus, and various fungi including Malassezia. Tea tree oil also exhibits anti-inflammatory effects by suppressing inflammatory mediators and reducing histamine-induced inflammation. Additional components like alpha-terpinene, gamma-terpinene, and 1,8-cineole contribute to its antimicrobial spectrum. Unlike benzoyl peroxide, tea tree oil does not generate free radicals and causes less oxidative stress to skin. However, it is an essential oil and can be irritating if used undiluted.",
+    "concentration_guide": {
+      "minimum_effective": "0.5%",
+      "typical_range": "0.5% - 5%",
+      "maximum_studied": "5% (cosmetic); up to 100% (medical use under supervision)",
+      "notes": "0.5-1%: mild antimicrobial suitable for sensitive skin. 2-3%: effective for daily acne treatment. 5%: maximum cosmetic strength comparable to 5% benzoyl peroxide. Undiluted tea tree oil (100%) should never be applied directly to skin."
+    },
+    "optimal_ph": {
+      "range": "5.0 - 7.0",
+      "notes": "Not pH-dependent for efficacy, but best formulated in near-neutral products to minimize irritation. Essential oils can be unstable in highly acidic or alkaline environments."
+    },
+    "safety_profile": {
+      "pregnancy": "Caution - limited safety data during pregnancy. Some essential oils are contraindicated. Low concentrations (≤1%) on small areas likely safe, but consult healthcare provider.",
+      "breastfeeding": "Caution - minimize use on large surface areas; essential oil components can be absorbed.",
+      "allergies": "Contact dermatitis occurs in approximately 1-2% of users; allergic sensitization more common with oxidized (aged) oil. Tea tree oil is one of the more common essential oil allergens.",
+      "sensitivities": "Can cause irritation, dryness, and contact dermatitis, especially at higher concentrations or when used undiluted. More likely to cause irritation than synthetic alternatives like benzoyl peroxide at equivalent efficacy.",
+      "interactions": "Can be combined with niacinamide and salicylic acid for enhanced acne treatment. Avoid combining with benzoyl peroxide in same routine (excessive dryness). Should not be combined with other strong irritants. Often formulated with carrier oils to reduce irritation.",
+      "cautions": [
+        "Never apply undiluted (100%) tea tree oil directly to skin",
+        "Oxidized/aged oil has higher allergenic potential - store properly",
+        "Can cause severe irritation if used on mucous membranes",
+        "Cross-sensitization possible with other essential oils",
+        "Some people experience initial worsening before improvement",
+        "Quality varies significantly between suppliers",
+        "Not recommended for use on pets (toxic to cats and dogs when ingested/groomed)",
+        "Keep away from eyes and broken skin"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Salicylic Acid",
+      "Benzoyl Peroxide",
+      "Niacinamide",
+      "Zinc",
+      "Sulfur",
+      "Witch Hazel"
+    ],
+    "notes": "Found in 4 products in SKINgenius database. Native to Australia and used by indigenous Aboriginal peoples for centuries. First commercial tea tree oil industry established in the 1920s. The key quality marker is terpinen-4-ol content (should be ≥30% for therapeutic grade). International Standard ISO 4730 specifies chemotypes. Australian tea tree oil is considered the highest quality. Oxidation significantly increases allergenicity - proper storage (cool, dark, airtight) is essential. More effective as a spot treatment than full-face application. Slower acting than benzoyl peroxide but better tolerated long-term. Popular in 'clean beauty' formulations as a natural alternative to synthetic acne treatments."
+  },
+  {
+    "id": "ing_010",
+    "name": "Bisabolol",
+    "inci_name": "Bisabolol",
+    "category": "botanical",
+    "function": "Primary active compound from chamomile with potent anti-inflammatory, soothing, and skin-brightening properties; enhances penetration of other actives",
+    "evidence_level": "moderate",
+    "evidence_grade": "B+",
+    "best_for": [
+      "inflammation",
+      "sensitive_skin",
+      "redness",
+      "irritation",
+      "post_procedure",
+      "hyperpigmentation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "inflammation",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Potent anti-inflammatory comparable to hydrocortisone in some studies; inhibits multiple inflammatory pathways"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Extremely well-tolerated; reduces redness and reactivity in sensitive and rosacea-prone skin"
+      },
+      {
+        "condition": "post_procedure_irritation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Commonly used after chemical peels, laser treatments, and microneedling to reduce inflammation and redness"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Inhibits melanin synthesis and has skin-brightening effects; often combined with other brightening agents"
+      },
+      {
+        "condition": "sunburn",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Soothes UV-induced inflammation and may accelerate healing"
+      }
+    ],
+    "mechanism_of_action": "Bisabolol (specifically alpha-bisabolol) is the primary sesquiterpene alcohol in chamomile (Matricaria recutita) and is also found in the Candeia tree (Vanillosmopsis erythropappa) from Brazil. It exhibits anti-inflammatory activity through multiple pathways: inhibition of COX-2 and lipoxygenase enzymes (reducing prostaglandins and leukotrienes), suppression of NF-kB signaling, and modulation of cytokine production. Bisabolol also inhibits melanin synthesis by reducing tyrosinase activity and interfering with melanin transfer, contributing to its skin-brightening effects. It enhances skin penetration of other active ingredients by disrupting the lipid barrier temporarily. Additionally, bisabolol has antimicrobial properties against various bacteria and fungi, promotes wound healing by stimulating granulation tissue formation, and provides mild analgesic effects. Its lipophilic nature allows good skin penetration while maintaining excellent tolerability.",
+    "concentration_guide": {
+      "minimum_effective": "0.1%",
+      "typical_range": "0.5% - 1%",
+      "maximum_studied": "1% (cosmetic); higher in experimental settings",
+      "notes": "0.1-0.5%: effective soothing and anti-inflammatory. 0.5-1%: optimal for treatment of inflammation, redness, and sensitivity. Higher concentrations do not significantly increase efficacy due to excellent potency at low levels."
+    },
+    "optimal_ph": {
+      "range": "5.0 - 7.0",
+      "notes": "Stable across a wide pH range. Most commonly formulated in pH-neutral or slightly acidic products. Compatible with most formulation types."
+    },
+    "safety_profile": {
+      "pregnancy": "Safe - considered non-irritating and non-toxic. No known contraindications during pregnancy.",
+      "breastfeeding": "Safe - no known concerns with topical use during breastfeeding.",
+      "allergies": "Extremely rare; bisabolol is actually used to treat allergic skin reactions. Those with severe chamomile allergy may want to patch test.",
+      "sensitivities": "One of the best-tolerated active ingredients in skincare. Non-irritating, non-sensitizing, and suitable for all skin types including sensitive and compromised skin.",
+      "interactions": "Enhances penetration of other actives (a penetration enhancer). Can be combined with virtually all ingredients including retinoids, acids, vitamin C, and niacinamide. Often paired with panthenol and allantoin in soothing formulations.",
+      "cautions": [
+        "Enhances penetration of other ingredients - ensure they are well-tolerated",
+        "Plant-derived (chamomile or Candeia tree) - sustainability concerns for Candeia source",
+        "Synthetic bisabolol is available and chemically identical",
+        "Can be expensive as a primary active ingredient",
+        "Sometimes listed as 'alpha-bisabolol' or under chamomile extract"
+      ]
+    },
+    "root_cause_addressed": "inflammation",
+    "related_ingredients": [
+      "Chamomile Extract",
+      "Allantoin",
+      "Panthenol",
+      "Centella Asiatica",
+      "Niacinamide",
+      "Aloe Vera"
+    ],
+    "notes": "Found in 4 products in SKINgenius database. Alpha-bisabolol is the most active form; beta-bisabolol and bisabolol oxide are less active. Traditionally extracted from German chamomile (Matricaria recutita), but most commercial bisabolol now comes from the Candeia tree in Brazil due to higher yield. Synthetic bisabolol is also available and chemically identical. Considered one of the safest and best-tolerated active ingredients in dermatology. Its penetration-enhancing property makes it valuable in formulations with other actives. Often overlooked as a 'supporting' ingredient but has substantial standalone benefits. The chamazulene in blue chamomile oil is a related anti-inflammatory compound but distinct from bisabolol."
+  },
+  {
+    "id": "ing_014",
+    "name": "Collagen / Hydrolyzed Collagen",
+    "inci_name": "Hydrolyzed Collagen",
+    "category": "protein",
+    "function": "Provides amino acids for skin structure; film-forming hydration; stimulates endogenous collagen production when delivered effectively",
+    "evidence_level": "moderate",
+    "evidence_grade": "C+",
+    "best_for": [
+      "fine lines",
+      "loss of firmness",
+      "dehydration",
+      "aging skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "fine_lines_wrinkles",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Topical collagen may improve skin hydration and elasticity through film-forming and amino acid delivery, but cannot directly replace dermal collagen due to molecular size limitations"
+      },
+      {
+        "condition": "dehydration",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Excellent humectant properties; hydrolyzed forms penetrate better than native collagen"
+      },
+      {
+        "condition": "loss_of_firmness",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "Primarily cosmetic benefit through surface hydration and plumping"
+      }
+    ],
+    "mechanism_of_action": "1) Film-forming: Creates moisture-retentive barrier on skin surface. 2) Amino acid delivery: Hydrolyzed collagen provides glycine, proline, and hydroxyproline for skin's own collagen synthesis. 3) Humectant: Binds water to improve skin hydration. 4) Signaling: Some peptides from hydrolyzed collagen may signal fibroblasts to increase collagen production",
+    "concentration_guide": "1-5% (cosmetic); oral supplementation 2.5-10g/day shows better evidence for skin benefits",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; those with fish/shellfish allergies should check source (marine collagen)",
+      "sensitivities": "Very well tolerated",
+      "interactions": "None known",
+      "cautions": [
+        "Cannot replace injectable collagen or stimulate significant dermal collagen production on its own",
+        "Marine source may trigger fish allergies"
+      ]
+    },
+    "root_cause_addressed": "Amino acid deficiency in skin matrix; surface dehydration",
+    "related_ingredients": [
+      "Peptides",
+      "Hyaluronic Acid",
+      "Ceramides",
+      "Amino Acids"
+    ],
+    "notes": "Most effective when hydrolyzed to small peptides (<5000 Da). Oral collagen supplements have stronger evidence for skin benefits than topical application. Marine and bovine sources most common."
+  },
+  {
+    "id": "ing_015",
+    "name": "Gluconolactone",
+    "inci_name": "Gluconolactone",
+    "category": "acid",
+    "function": "Gentle exfoliation, antioxidant chelation, and hydration through polyhydroxy acid (PHA) mechanism",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "sensitive skin",
+      "aging skin",
+      "rosacea",
+      "dry skin",
+      "hyperpigmentation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Larger molecular structure than AHAs results in slower, gentler penetration; suitable for reactive skin"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Provides anti-aging benefits comparable to AHAs with less irritation (PubMed: PHA regimen provides antiaging effects comparable to AHA)"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Gentle exfoliation promotes cell turnover; antioxidant properties help prevent further pigmentation"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Non-irritating exfoliation option for rosacea-prone skin; antioxidant benefits"
+      },
+      {
+        "condition": "dehydration",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Natural humectant properties attract moisture while exfoliating"
+      }
+    ],
+    "mechanism_of_action": "1) Chelation: Binds metal ions that catalyze free radical formation, providing antioxidant protection. 2) Gentle exfoliation: Larger molecule than AHAs penetrates more slowly, dissolving intercellular bonds with less irritation. 3) Humectant: Attracts and retains moisture. 4) Barrier-friendly: Strengthens skin barrier while exfoliating, unlike traditional AHAs that can compromise barrier function",
+    "concentration_guide": "5-15% for daily use; 20-30% for professional treatments",
+    "optimal_ph": "3.5-4.5",
+    "safety_profile": {
+      "pregnancy": "Generally considered safe (milder than retinoids and BHAs)",
+      "breastfeeding": "Safe",
+      "allergies": "Rare",
+      "sensitivities": "Very well tolerated; ideal for sensitive skin",
+      "interactions": "Compatible with most ingredients; can be combined with retinoids and vitamin C",
+      "cautions": [
+        "Still increases photosensitivity, though less than AHAs; SPF required",
+        "Results may be slower than traditional AHAs due to gentler action"
+      ]
+    },
+    "root_cause_addressed": "Impaired cell turnover; oxidative stress; barrier dysfunction in sensitive skin",
+    "related_ingredients": [
+      "Lactic Acid",
+      "Mandelic Acid",
+      "Niacinamide",
+      "Hyaluronic Acid"
+    ],
+    "notes": "PHA (polyhydroxy acid) with unique dual action: exfoliation + antioxidant. Used in Biologique Recherche P50. Less photosensitizing than AHAs. Can be used in combination with other actives due to gentleness."
+  },
+  {
+    "id": "ing_016",
+    "name": "Matrixyl / Palmitoyl Pentapeptide-4",
+    "inci_name": "Palmitoyl Pentapeptide-4",
+    "category": "peptide",
+    "function": "Signal peptide that stimulates collagen I, III, and IV production; reduces appearance of fine lines and wrinkles",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "aging skin",
+      "fine lines",
+      "loss of firmness",
+      "all skin types"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "fine_lines_wrinkles",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "In vitro and clinical studies show stimulation of collagen synthesis; visible wrinkle reduction in 8-12 weeks"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Supports dermal matrix repair; best used with other anti-aging ingredients"
+      },
+      {
+        "condition": "loss_of_firmness",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Collagen stimulation improves skin firmness over time"
+      }
+    ],
+    "mechanism_of_action": "1) Signal peptide mimics natural skin repair signals: Sequence Lys-Thr-Thr-Lys-Ser (KTTKS) mimics procollagen type I fragment. 2) Fibroblast activation: Signals fibroblasts to produce new collagen (types I, III, IV). 3) Extracellular matrix support: Improves skin structural integrity. 4) Palmitoyl chain: Lipid attachment enhances skin penetration",
+    "concentration_guide": "0.001-0.1% (very effective at low concentrations); typically used at 0.01-0.05% in formulations",
+    "optimal_ph": "4.0-6.0",
+    "safety_profile": {
+      "pregnancy": "Safe (no known teratogenic effects)",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare",
+      "sensitivities": "Extremely well tolerated; suitable for sensitive skin",
+      "interactions": "Compatible with retinoids, vitamin C, niacinamide, and most actives",
+      "cautions": [
+        "Results take 8-12 weeks of consistent use",
+        "Less potent than retinoids but gentler"
+      ]
+    },
+    "root_cause_addressed": "Age-related decline in collagen synthesis; extracellular matrix degradation",
+    "related_ingredients": [
+      "Peptides",
+      "Retinol",
+      "Vitamin C",
+      "Copper Peptides",
+      "Argireline"
+    ],
+    "notes": "One of the most studied cosmetic peptides. Developed by Sederma. Often combined with other peptides (Matrixyl 3000 combines Palmitoyl Pentapeptide-4 with Palmitoyl Tetrapeptide-7). Works well in combination with retinoids and antioxidants."
+  },
+  {
+    "id": "ing_017",
+    "name": "Tranexamic Acid",
+    "inci_name": "Tranexamic Acid",
+    "category": "brightening agent",
+    "function": "Inhibits melanin production through plasminogen/plasmin pathway inhibition; reduces hyperpigmentation, melasma, and post-inflammatory hyperpigmentation",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "melasma",
+      "hyperpigmentation",
+      "post-inflammatory hyperpigmentation",
+      "uneven skin tone"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "melasma",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Oral tranexamic acid is gold-standard treatment for melasma; topical shows significant improvement with fewer systemic risks"
+      },
+      {
+        "condition": "post_inflammatory_hyperpigmentation",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Effective for PIH, especially in darker skin tones"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Multiple RCTs support efficacy; inhibits UV-induced melanin synthesis"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Anti-inflammatory properties may help reduce redness and vascular component"
+      }
+    ],
+    "mechanism_of_action": "1) Plasmin inhibition: Blocks plasminogen activator, reducing plasmin-mediated arachidonic acid release and prostaglandin synthesis. 2) Melanin suppression: Reduces UV-induced melanin synthesis by inhibiting melanocyte-keratinocyte interaction. 3) Anti-inflammatory: Decreases inflammatory mediators that trigger melanin production. 4) Vascular component: Reduces blood vessel growth associated with melasma",
+    "concentration_guide": "Topical: 2-5%; Oral: 250-500mg twice daily (prescription, for melasma)",
+    "optimal_ph": "7.0-8.0 (works at neutral pH)",
+    "safety_profile": {
+      "pregnancy": "Avoid oral form; topical likely safe but limited data",
+      "breastfeeding": "Avoid oral form; topical safety not established",
+      "allergies": "Rare",
+      "sensitivities": "Generally well tolerated; mild irritation possible",
+      "interactions": "Oral form: increases clotting risk; do not combine with hormonal contraceptives or anticoagulants without medical supervision",
+      "cautions": [
+        "Oral form requires medical supervision due to thromboembolic risk",
+        "Topical form is much safer with minimal systemic absorption",
+        "Best results when combined with sunscreen and other brightening agents"
+      ]
+    },
+    "root_cause_addressed": "UV-induced melanin overproduction; inflammatory melanin triggers; vascular component of melasma",
+    "related_ingredients": [
+      "Vitamin C",
+      "Niacinamide",
+      "Kojic Acid",
+      "Azelaic Acid",
+      "Hydroquinone"
+    ],
+    "notes": "Originally an antifibrinolytic drug. Topical formulation increasingly popular for hyperpigmentation with excellent safety profile compared to oral form. Can be combined with vitamin C and niacinamide for enhanced brightening. Works at neutral pH, making it compatible with most routines."
+  },
+  {
+    "id": "ing_018",
+    "name": "Mandelic Acid",
+    "inci_name": "Mandelic Acid",
+    "category": "acid",
+    "function": "Gentle AHA exfoliation with antibacterial properties; larger molecular size provides slower, more controlled penetration suitable for sensitive skin",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "acne",
+      "sensitive skin",
+      "hyperpigmentation",
+      "aging skin",
+      "post-inflammatory hyperpigmentation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antibacterial properties and gentle exfoliation help clear pores; less irritating than other acne treatments"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Promotes cell turnover to fade dark spots; safer for darker skin tones than glycolic acid"
+      },
+      {
+        "condition": "post_inflammatory_hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Gentle exfoliation reduces PIH without triggering additional inflammation"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Stimulates collagen and elastin production with less irritation than glycolic acid"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Largest AHA molecule (152 Da vs 76 Da for glycolic) = slower penetration = less irritation"
+      }
+    ],
+    "mechanism_of_action": "1) Exfoliation: Dissolves intercellular bonds between corneocytes to promote cell turnover. 2) Antibacterial: Natural antimicrobial properties help reduce acne bacteria. 3) Collagen stimulation: Promotes dermal remodeling with less irritation than glycolic acid. 4) Melanin dispersion: Promotes even distribution of melanin to reduce hyperpigmentation. 5) Larger molecular size (152 Da): Slower penetration = gentler, more controlled action",
+    "concentration_guide": "5-10% for daily use; 20-30% for professional peels; 10% considered optimal for home use",
+    "optimal_ph": "3.0-3.5",
+    "safety_profile": {
+      "pregnancy": "Generally considered safe at low concentrations (category C - consult physician)",
+      "breastfeeding": "Likely safe at cosmetic concentrations",
+      "allergies": "Rare; those with nut allergies should note it's derived from bitter almonds",
+      "sensitivities": "Gentler than glycolic and lactic acid; suitable for sensitive skin and darker skin tones",
+      "interactions": "Avoid combining with other strong acids or retinoids initially",
+      "cautions": [
+        "Increases photosensitivity - SPF 30+ required",
+        "Start 2-3 times weekly and increase frequency",
+        "Can cause mild tingling initially"
+      ]
+    },
+    "root_cause_addressed": "Impaired cell turnover; bacterial acne; uneven melanin distribution",
+    "related_ingredients": [
+      "Lactic Acid",
+      "Glycolic Acid",
+      "Salicylic Acid",
+      "Niacinamide",
+      "Retinol"
+    ],
+    "notes": "Derived from bitter almonds. Unique among AHAs for antibacterial properties. Excellent choice for darker skin tones prone to PIH due to gentler action. Can be combined with salicylic acid for enhanced acne treatment. Slower results than glycolic but better tolerated."
+  },
+  {
+    "id": "ing_019",
+    "name": "Caffeine",
+    "inci_name": "Caffeine",
+    "category": "antioxidant",
+    "function": "Vasoconstrictor, antioxidant, and anti-inflammatory; reduces puffiness and improves circulation",
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": [
+      "dark circles",
+      "puffiness",
+      "cellulite",
+      "oxidative stress"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "dark_circles",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Vasoconstriction reduces visible blood vessels under eyes; improves microcirculation"
+      },
+      {
+        "condition": "puffiness",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Diuretic effect helps reduce fluid retention; vasoconstriction tightens skin"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Antioxidant properties provide UV protection; less potent than vitamin C and E"
+      },
+      {
+        "condition": "cellulite",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "May improve microcirculation and reduce fluid retention; temporary effects"
+      }
+    ],
+    "mechanism_of_action": "1) Vasoconstriction: Constricts blood vessels to reduce redness and puffiness. 2) Antioxidant: Scavenges free radicals and reduces UV-induced oxidative stress. 3) Anti-inflammatory: Inhibits phosphodiesterase, reducing inflammation. 4) Lipolysis stimulation: May help break down fat cells (cellulite treatment). 5) Microcirculation: Improves blood flow to skin surface",
+    "concentration_guide": "0.5-3% for eye products; 1-5% for body cellulite treatments",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe at cosmetic concentrations",
+      "breastfeeding": "Safe at cosmetic concentrations",
+      "allergies": "Very rare",
+      "sensitivities": "Well tolerated; may cause mild tingling",
+      "interactions": "None significant at topical concentrations",
+      "cautions": [
+        "Effects on puffiness are temporary; not a permanent solution",
+        "May cause insomnia if applied before bed (systemic absorption minimal but possible)",
+        "Not effective for structural dark circles (fat loss, bone structure)"
+      ]
+    },
+    "root_cause_addressed": "Vascular dilation under eyes; fluid retention; oxidative stress",
+    "related_ingredients": [
+      "Vitamin C",
+      "Peptides",
+      "Hyaluronic Acid",
+      "Retinol"
+    ],
+    "notes": "Most effective for vascular dark circles (blue/purple tint) caused by visible blood vessels. Less effective for pigmented dark circles (brown tint) or structural hollows. Works quickly (within minutes) for puffiness but effects are temporary. Often combined with vitamin C and peptides in eye treatments."
+  },
+  {
+    "id": "ing_020",
+    "name": "Cholesterol",
+    "inci_name": "Cholesterol",
+    "category": "lipid",
+    "function": "Essential component of skin barrier; maintains membrane fluidity and prevents transepidermal water loss",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "dry skin",
+      "sensitive skin",
+      "compromised barrier",
+      "eczema",
+      "aging skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Essential lipid for barrier repair; prevents moisture loss"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Often deficient in eczema skin; cholesterol-dominant moisturizers (2:4:2 ratio) show superior barrier repair"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Restores compromised barrier; reduces reactivity"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Cholesterol levels decline with age; supplementation supports barrier function"
+      }
+    ],
+    "mechanism_of_action": "1) Barrier lipid: Along with ceramides and fatty acids, forms the lipid matrix of stratum corneum. 2) Membrane fluidity: Maintains proper cell membrane structure and function. 3) Water retention: Prevents transepidermal water loss (TEWL). 4) Optimal ratio: Works in specific ratio with ceramides and free fatty acids (1:2:1 or 2:4:2 for optimal barrier repair). 5) Cell signaling: Involved in skin cell differentiation and proliferation",
+    "concentration_guide": "Typically used in combination: ceramides:cholesterol:fatty acids at 1:2:1 or 2:4:2 ratios; individual concentration 0.5-2%",
+    "optimal_ph": "5.0-6.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare; avoid if allergic to wool (lanolin-derived cholesterol)",
+      "sensitivities": "Extremely well tolerated; essential for skin health",
+      "interactions": "Compatible with virtually all ingredients",
+      "cautions": [
+        "Must be used in proper ratio with ceramides and fatty acids for optimal barrier repair",
+        "Overuse without proper balance may disrupt barrier"
+      ]
+    },
+    "root_cause_addressed": "Barrier lipid deficiency; transepidermal water loss; impaired skin barrier function",
+    "related_ingredients": [
+      "Ceramides",
+      "Fatty Acids",
+      "Phytosphingosine",
+      "Squalane"
+    ],
+    "notes": "One of the three essential barrier lipids (with ceramides and free fatty acids). Optimal repair achieved with specific ratios (2:4:2 ceramides:cholesterol:fatty acids). Cholesterol-dominant ratios accelerate barrier recovery. Essential for eczema and barrier-compromised skin. Often sourced from wool (lanolin) or plant sterols."
+  },
+  {
+    "id": "ing_021",
+    "name": "Glycerin",
+    "inci_name": "Glycerin",
+    "category": "humectant",
+    "function": "Powerful humectant that attracts and retains moisture; strengthens skin barrier; enhances penetration of other ingredients",
+    "evidence_level": "strong",
+    "evidence_grade": "A",
+    "best_for": [
+      "dry skin",
+      "dehydration",
+      "sensitive skin",
+      "all skin types"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "dehydration",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Attracts water from environment and deeper skin layers; maintains hydration at concentrations as low as 5%"
+      },
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "Improves skin hydration and barrier function; reduces flaking and roughness"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Well-tolerated; supports barrier repair; rarely causes irritation"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Plumps fine lines through hydration; improves skin elasticity"
+      }
+    ],
+    "mechanism_of_action": "1) Humectant: Attracts and binds water molecules (holds up to 25x its weight in water). 2) Barrier support: Stimulates production of barrier lipids (ceramides). 3) Penetration enhancer: Helps other active ingredients absorb better. 4) Osmolyte: Protects skin cells from osmotic stress and dehydration. 5) Skin protectant: Forms occlusive layer to prevent moisture loss. 6) Healing support: Accelerates wound healing by maintaining moist environment",
+    "concentration_guide": "5-20% (most effective range); can be used up to 100% but may feel sticky",
+    "optimal_ph": "3.0-8.0 (versatile across pH ranges)",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Extremely rare; plant-derived glycerin suitable for most",
+      "sensitivities": "Very well tolerated; non-irritating",
+      "interactions": "Compatible with all skincare ingredients; enhances penetration of actives",
+      "cautions": [
+        "In very dry environments, can draw moisture from skin if not paired with occlusive ingredient",
+        "High concentrations (>20%) may feel sticky",
+        "Ensure vegetable-derived if avoiding animal products"
+      ]
+    },
+    "root_cause_addressed": "Transepidermal water loss; dehydration; impaired barrier function",
+    "related_ingredients": [
+      "Hyaluronic Acid",
+      "Panthenol",
+      "Ceramides",
+      "Squalane",
+      "Urea"
+    ],
+    "notes": "One of the most researched and proven skincare ingredients. Found naturally in skin (NMF component). Vegetable-derived glycerin is standard in modern cosmetics. Works synergistically with hyaluronic acid and ceramides. Essential ingredient in most moisturizers. Can be used alone or in combination."
+  },
+  {
+    "id": "ing_022",
+    "name": "Beta-Glucan",
+    "inci_name": "Beta-Glucan",
+    "category": "soothing agent",
+    "function": "Immunomodulator, wound healer, and hydrating agent; soothes irritated skin and supports barrier function",
+    "evidence_level": "moderate",
+    "evidence_grade": "B+",
+    "best_for": [
+      "sensitive skin",
+      "irritated skin",
+      "dry skin",
+      "aging skin",
+      "post-procedure"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Calms reactive skin; reduces redness and inflammation"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Supports barrier repair and reduces inflammation; can be used alongside prescription treatments"
+      },
+      {
+        "condition": "aging_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antioxidant properties and collagen support; may reduce fine lines"
+      },
+      {
+        "condition": "dehydration",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Humectant properties; improves skin moisture content"
+      },
+      {
+        "condition": "wound_healing",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Accelerates tissue repair; stimulates macrophage activity"
+      }
+    ],
+    "mechanism_of_action": "1) Immunomodulation: Activates macrophages and Langerhans cells to enhance skin's immune defense. 2) Collagen stimulation: Stimulates fibroblasts to produce collagen and elastin. 3) Wound healing: Accelerates tissue repair through growth factor stimulation. 4) Anti-inflammatory: Reduces pro-inflammatory cytokines. 5) Antioxidant: Scavenges free radicals. 6) Moisturization: Forms protective film and enhances skin hydration. 7) Source-dependent: 1,3-beta-glucan from yeast/ mushrooms most studied for skin",
+    "concentration_guide": "1-5% (effective at low concentrations); up to 10% in intensive treatments",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; those with mushroom or yeast sensitivities should patch test",
+      "sensitivities": "Extremely well tolerated; anti-inflammatory properties make it ideal for reactive skin",
+      "interactions": "Compatible with all ingredients; enhances retinoid and acid tolerance",
+      "cautions": [
+        "Source matters: yeast-derived and mushroom-derived have strongest evidence",
+        "Oat-derived beta-glucan also effective but different molecular structure",
+        "Effects on collagen less proven than retinoids or peptides"
+      ]
+    },
+    "root_cause_addressed": "Impaired immune response in skin; inflammation; barrier dysfunction; collagen decline",
+    "related_ingredients": [
+      "Niacinamide",
+      "Ceramides",
+      "Hyaluronic Acid",
+      "Centella Asiatica",
+      "Allantoin"
+    ],
+    "notes": "Polysaccharide found in yeast, mushrooms, oats, and bacteria. Used in Osmosis liposomal formulation. Often compared to hyaluronic acid for hydration but offers additional immunomodulatory benefits. Excellent for post-procedure skin and reducing retinoid irritation. 1,3-beta-glucan from Saccharomyces cerevisiae has strongest clinical evidence."
+  },
+  {
+    "id": "ing_023",
+    "name": "Colloidal Oatmeal / Avena Sativa",
+    "inci_name": "Avena Sativa (Oat) Kernel Flour",
+    "category": "soothing agent",
+    "function": "FDA-approved skin protectant; soothes itching, reduces inflammation, and restores barrier function",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "eczema",
+      "dry skin",
+      "itchy skin",
+      "sensitive skin",
+      "atopic dermatitis",
+      " irritated skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "eczema",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "FDA-approved for eczema treatment; restores barrier, reduces inflammation, relieves itching"
+      },
+      {
+        "condition": "atopic_dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Recommended by National Eczema Association; clinical studies show significant improvement"
+      },
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Forms protective film; contains lipids that restore barrier function"
+      },
+      {
+        "condition": "itchy_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Direct anti-itch properties through avenanthramides; fast-acting relief"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Minimal allergenicity; extremely well tolerated even by severely reactive skin"
+      }
+    ],
+    "mechanism_of_action": "1) Anti-inflammatory: Avenanthramides (unique polyphenols in oats) inhibit NF-κB and reduce inflammatory cytokines. 2) Barrier repair: Rich in lipids (phospholipids, glycolipids) and beta-glucan that restore skin barrier. 3) Anti-itch: Direct inhibition of histamine release and nerve signaling. 4) Humectant: Beta-glucan and starches hold moisture. 5) Buffering: Maintains skin pH. 6) Antioxidant: Phenolic compounds neutralize free radicals. 7) Cleansing: Saponins provide gentle cleansing without stripping",
+    "concentration_guide": "1-5% in leave-on products; 5-50% in therapeutic bath products; 1% minimum for FDA skin protectant claim",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare; true oat allergy is uncommon (usually protein allergy, not oat kernel lipids)",
+      "sensitivities": "Extremely well tolerated; recommended for infant eczema",
+      "interactions": "Compatible with all treatments including topical corticosteroids and calcineurin inhibitors",
+      "cautions": [
+        "Use colloidal (finely ground) oatmeal for best results",
+        "Ensure products are free of oat contaminants if severely allergic",
+        "Bath products should be lukewarm, not hot"
+      ]
+    },
+    "root_cause_addressed": "Barrier dysfunction; inflammation; histamine-mediated itching; lipid deficiency in stratum corneum",
+    "related_ingredients": [
+      "Ceramides",
+      "Niacinamide",
+      "Panthenol",
+      "Beta-Glucan",
+      "Shea Butter"
+    ],
+    "notes": "FDA-recognized skin protectant (Category I). The only natural ingredient with this designation. Avenanthramides are unique anti-inflammatory compounds found only in oats. Safe for all ages including infants. Often used as adjunct to prescription eczema treatments. Look for products certified by National Eczema Association."
+  },
+  {
+    "id": "ing_024",
+    "name": "Urea",
+    "inci_name": "Urea",
+    "category": "humectant",
+    "function": "Multi-functional: humectant, exfoliant (at higher concentrations), and penetration enhancer; treats dry, rough, and scaly skin",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "dry skin",
+      "rough skin",
+      "calluses",
+      "eczema",
+      "ichthyosis",
+      "hyperkeratosis"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "At concentrations 5-10%, acts as powerful humectant and barrier strengthener"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Reduces TEWL and improves barrier function; often combined with hydrocortisone"
+      },
+      {
+        "condition": "hyperkeratosis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "At 10-40%, dissolves keratin and softens thick, scaly skin"
+      },
+      {
+        "condition": "ichthyosis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "First-line treatment for ichthyosis; softens scales significantly"
+      },
+      {
+        "condition": "calluses",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "20-40% urea preparations effectively soften corns and calluses"
+      }
+    ],
+    "mechanism_of_action": "1) Humectant (5-10%): Attracts and binds water to stratum corneum; increases skin moisture content by 50%+. 2) Keratolytic (10-40%): Dissolves desmosomal connections between corneocytes, promoting exfoliation. 3) Barrier repair: Stimulates synthesis of filaggrin, loricrin, and other barrier proteins. 4) Antimicrobial: Inhibits growth of bacteria and fungi (particularly Malassezia). 5) Penetration enhancer: Disrupts lipid packing in stratum corneum, improving delivery of other actives. 6) Natural moisturizing factor (NMF): Naturally present in skin; decreases with age and in atopic skin",
+    "concentration_guide": "5-10%: Humectant and barrier repair; 10-20%: Mild keratolytic; 20-40%: Strong keratolytic for thick skin; >40%: Wart removal (medical use)",
+    "optimal_ph": "4.5-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; urea is natural skin component",
+      "sensitivities": "Generally well tolerated; stinging possible at higher concentrations on broken skin",
+      "interactions": "Enhances penetration of other topicals (corticosteroids, antifungals)",
+      "cautions": [
+        "Higher concentrations (>20%) may cause stinging on irritated or broken skin",
+        "Not for use on face at concentrations >10% unless directed",
+        "Keep away from eyes and mucous membranes at high concentrations"
+      ]
+    },
+    "root_cause_addressed": "NMF deficiency; impaired desquamation; barrier protein deficiency; excessive keratin buildup",
+    "related_ingredients": [
+      "Glycerin",
+      "Hyaluronic Acid",
+      "Lactic Acid",
+      "Ceramides",
+      "Salicylic Acid"
+    ],
+    "notes": "Natural moisturizing factor found in skin. Concentration determines function: low = humectant, high = keratolytic. One of the most effective ingredients for dry, scaly skin conditions. Often combined with lactic acid for enhanced keratolysis. Safe for long-term use. Synthetic and natural sources identical."
+  },
+  {
+    "id": "ing_025",
+    "name": "Sulfur",
+    "inci_name": "Sulfur",
+    "category": "antimicrobial",
+    "function": "Antibacterial, antifungal, and keratolytic agent; reduces oil production and treats acne, rosacea, and seborrheic dermatitis",
+    "evidence_level": "strong",
+    "evidence_grade": "B+",
+    "best_for": [
+      "acne",
+      "rosacea",
+      "seborrheic dermatitis",
+      "oily skin",
+      "fungal acne"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Reduces acne bacteria and regulates sebum; effective for inflammatory and non-inflammatory acne"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Anti-inflammatory and antimicrobial; helps reduce papules and pustules of rosacea"
+      },
+      {
+        "condition": "seborrheic_dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "B+",
+        "notes": "Antifungal properties target Malassezia yeast; reduces scaling and inflammation"
+      },
+      {
+        "condition": "oily_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Regulates sebum production and reduces oiliness"
+      },
+      {
+        "condition": "fungal_acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Antifungal properties effective against Malassezia folliculitis"
+      }
+    ],
+    "mechanism_of_action": "1) Antibacterial: Converts to pentathionic acid and hydrogen sulfide, which inhibit acne bacteria (C. acnes). 2) Keratolytic: Dissolves intercellular cement, promoting exfoliation and preventing pore clogging. 3) Antifungal: Inhibits Malassezia yeast growth. 4) Sebum regulator: Reduces oil production in sebaceous glands. 5) Anti-inflammatory: Reduces inflammatory cytokines. 6) Comedolytic: Helps dissolve existing comedones and prevent new ones",
+    "concentration_guide": "3-10% for facial products; 10% most common; higher concentrations available in spot treatments and masks",
+    "optimal_ph": "6.0-8.0 (works at skin pH)",
+    "safety_profile": {
+      "pregnancy": "Generally considered safe at cosmetic concentrations (category N - no known risk)",
+      "breastfeeding": "Likely safe at cosmetic concentrations",
+      "allergies": "Possible sulfur sensitivity; may trigger sulfa drug allergies in rare cases (different compound but caution advised)",
+      "sensitivities": "Can cause dryness, peeling, and irritation; typical sulfur smell",
+      "interactions": "May be drying when combined with retinoids or benzoyl peroxide; separate application times",
+      "cautions": [
+        "Distinct sulfur/rotten egg odor in some formulations",
+        "Can be very drying; use with moisturizer",
+        "May darken silver jewelry temporarily",
+        "Test on small area first if sensitive to sulfa medications"
+      ]
+    },
+    "root_cause_addressed": "Bacterial overgrowth (C. acnes); fungal overgrowth (Malassezia); excessive sebum production; abnormal keratinization",
+    "related_ingredients": [
+      "Salicylic Acid",
+      "Benzoyl Peroxide",
+      "Niacinamide",
+      "Zinc",
+      "Tea Tree Oil"
+    ],
+    "notes": "One of oldest acne treatments (used since Roman times). Gentler than benzoyl peroxide for sensitive skin. Often combined with resorcinol in historical formulations. Sulfur springs (spa treatments) have been used for skin conditions for centuries. Modern formulations mask odor better. Effective for fungal acne when other treatments fail."
+  },
+  {
+    "id": "ing_026",
+    "name": "Kaolin",
+    "inci_name": "Kaolin",
+    "category": "absorbent",
+    "function": "Natural clay that absorbs excess oil, purifies pores, and provides gentle exfoliation; soothes irritated skin",
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": [
+      "oily skin",
+      "acne",
+      "clogged pores",
+      "sensitive skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "oily_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Excellent oil-absorbing properties; mattifies skin immediately"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Draws out impurities and reduces excess oil that contributes to acne"
+      },
+      {
+        "condition": "clogged_pores",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Absorbs sebum and debris from pores; prevents blackhead formation"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Gentlest of cosmetic clays; does not over-dry or irritate like bentonite may"
+      }
+    ],
+    "mechanism_of_action": "1) Oil absorption: Highly adsorbent structure binds excess sebum and lipids from skin surface. 2) Gentle exfoliation: Fine particles provide physical exfoliation without harsh abrasion. 3) Purification: Draws out impurities, toxins, and pollutants from pores. 4) Soothing: Mild anti-inflammatory properties calm irritated skin. 5) Astringent: Tightens pores temporarily. 6) Healing: Traditional use for minor wounds and skin irritation",
+    "concentration_guide": "5-25% in masks and cleansers; can be used as 100% powder for spot treatments",
+    "optimal_ph": "5.0-7.0",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Very rare",
+      "sensitivities": "Well tolerated; gentlest clay for sensitive skin",
+      "interactions": "None known; can be combined with most actives",
+      "cautions": [
+        "Can be drying if overused; limit to 1-2 times weekly for dry skin",
+        "Does not provide antibacterial action like sulfur or benzoyl peroxide",
+        "Effects are temporary; not a treatment for acne root causes"
+      ]
+    },
+    "root_cause_addressed": "Excess sebum production; surface debris accumulation; temporary pore congestion",
+    "related_ingredients": [
+      "Bentonite",
+      "Sulfur",
+      "Salicylic Acid",
+      "Niacinamide",
+      "Charcoal"
+    ],
+    "notes": "White clay mineral (hydrated aluminum silicate). Gentlest of cosmetic clays, making it ideal for sensitive and dry skin types. Less absorbent than bentonite but more gentle. Often combined with other clays or actives in masks. Naturally occurring; mined from clay deposits. Used for centuries in skincare and medicine."
+  },
+  {
+    "id": "ing_027",
+    "name": "Bentonite",
+    "inci_name": "Bentonite",
+    "category": "absorbent",
+    "function": "Highly absorbent volcanic clay that draws out impurities, toxins, and excess oil; provides deep pore cleansing",
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "oily skin",
+      "acne",
+      "clogged pores",
+      "detoxification"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "oily_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Most absorbent cosmetic clay; can absorb several times its weight in oil"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Draws out pore-clogging debris and reduces sebum; often combined with sulfur or salicylic acid"
+      },
+      {
+        "condition": "clogged_pores",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Deep pore cleansing through adsorption of impurities and toxins"
+      },
+      {
+        "condition": "skin_detoxification",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Adsorbs environmental pollutants and heavy metals from skin surface"
+      }
+    ],
+    "mechanism_of_action": "1) Adsorption: Negatively charged ions attract positively charged toxins, impurities, and excess oil. 2) Deep cleansing: Draws out debris from pores through capillary action. 3) Oil absorption: Highly porous structure absorbs sebum and lipids. 4) Exfoliation: Fine particles provide gentle physical exfoliation. 5) Antimicrobial: Creates unfavorable environment for bacteria in pores. 6) Mineral delivery: Rich in minerals (silica, aluminum, magnesium, calcium) that benefit skin",
+    "concentration_guide": "5-25% in masks; up to 50% in intensive detox masks",
+    "optimal_ph": "8.0-10.0 (naturally alkaline; often formulated to lower pH)",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; may contain trace minerals",
+      "sensitivities": "Can be drying for dry/sensitive skin types; stronger than kaolin",
+      "interactions": "Can be combined with most ingredients; avoid with very low pH products (<3) which may reduce efficacy",
+      "cautions": [
+        "More drying than kaolin; not ideal for dry or sensitive skin",
+        "Should not be allowed to fully dry on skin (can cause dehydration)",
+        "Rinse thoroughly to prevent residue",
+        "Can be mixed with apple cider vinegar to balance pH"
+      ]
+    },
+    "root_cause_addressed": "Excess sebum; pore congestion; surface toxin/pollutant accumulation",
+    "related_ingredients": [
+      "Kaolin",
+      "Sulfur",
+      "Salicylic Acid",
+      "Charcoal",
+      "Green Clay"
+    ],
+    "notes": "Formed from volcanic ash and named after Fort Benton, Wyoming. Montmorillonite is the primary mineral. Most absorbent of cosmetic clays. Naturally alkaline pH (8-10) is often adjusted in formulations. Can expand up to 15x its volume when wet. Used in Aztec Secret Indian Healing Clay (calcium bentonite). Often combined with kaolin to balance absorbency and gentleness."
+  },
+  {
+    "id": "ing_028",
+    "name": "Honey",
+    "inci_name": "Mel",
+    "category": "humectant",
+    "function": "Natural humectant with antibacterial, anti-inflammatory, and wound-healing properties; soothes and hydrates skin",
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "dry skin",
+      "sensitive skin",
+      "acne",
+      "wound healing",
+      "irritated skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "wound_healing",
+        "evidence_level": "strong",
+        "evidence_grade": "A",
+        "notes": "MediHoney and medical-grade honey used in clinical wound care; promotes tissue regeneration"
+      },
+      {
+        "condition": "acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antibacterial properties (H2O2 production, low pH, high sugar); reduces C. acnes"
+      },
+      {
+        "condition": "dry_skin",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Natural humectant; attracts and retains moisture"
+      },
+      {
+        "condition": "sensitive_skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Soothes irritation; anti-inflammatory properties calm reactive skin"
+      },
+      {
+        "condition": "eczema",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Manuka honey specifically studied for eczema; reduces inflammation and infection risk"
+      }
+    ],
+    "mechanism_of_action": "1) Antibacterial: Low pH (3.2-4.5), high sugar content, and hydrogen peroxide production inhibit bacterial growth. 2) Humectant: Natural sugars (fructose, glucose) attract and bind water. 3) Anti-inflammatory: Polyphenols and flavonoids reduce inflammatory cytokines. 4) Wound healing: Stimulates tissue regeneration, angiogenesis, and epithelialization. 5) Antioxidant: Phenolic compounds neutralize free radicals. 6) Osmotic effect: Draws fluid from bacteria, inhibiting their growth. 7) Enzymatic activity: Glucose oxidase produces hydrogen peroxide for sustained antibacterial action",
+    "concentration_guide": "5-20% in cosmetic formulations; medical-grade honey used at 100% for wound dressings",
+    "optimal_ph": "3.2-4.5 (naturally acidic; maintains stability)",
+    "safety_profile": {
+      "pregnancy": "Safe",
+      "breastfeeding": "Safe",
+      "allergies": "Rare; avoid if allergic to bee products or pollen",
+      "sensitivities": "Generally well tolerated; patch test if concerned about bee/pollen allergies",
+      "interactions": "None known; compatible with most ingredients",
+      "cautions": [
+        "Not vegan (animal product)",
+        "Can be sticky in formulations",
+        "May increase photosensitivity in some individuals",
+        "Manuka honey has strongest antibacterial properties (UMF 10+ or MGO 250+)"
+      ]
+    },
+    "root_cause_addressed": "Bacterial overgrowth; dehydration; inflammation; impaired wound healing",
+    "related_ingredients": [
+      "Propolis",
+      "Royal Jelly",
+      "Beeswax",
+      "Colloidal Oatmeal",
+      "Aloe Vera"
+    ],
+    "notes": "Used in medicine for thousands of years. Manuka honey (from New Zealand) has strongest evidence due to methylglyoxal (MGO) content. Medical-grade honey (MediHoney) used in hospitals for wound care. Raw, unpasteurized honey has more enzymes but cosmetic formulations typically use processed forms for stability. UMF (Unique Manuka Factor) and MGO ratings indicate antibacterial potency."
+  },
+  {
+    "id": "bot_001",
+    "name": "Mandarin Rind Oil",
+    "inci_name": "Citrus Nobilis Peel Oil",
+    "category": "essential_oil",
+    "function": "Antioxidant, skin brightening, anti-inflammatory, mild astringent",
+    "active_compounds": [
+      "Limonene (65-75%)",
+      "γ-Terpinene (15-25%)",
+      "α-Pinene",
+      "β-Pinene",
+      "Citral",
+      "Methyl methylanthranilate (unique to mandarin)",
+      "Flavonoids (nobiletin, tangeretin)",
+      "Vitamin C"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "dullness",
+      "uneven skin tone",
+      "fine lines",
+      "mild acne",
+      "inflammation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Flavonoids nobiletin and tangeretin inhibit tyrosinase activity"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antioxidant capacity scavenges free radicals from UV exposure"
+      },
+      {
+        "condition": "mild acne",
+        "evidence_level": "limited",
+        "evidence_grade": "B-",
+        "notes": "Mild antimicrobial and anti-inflammatory properties"
+      }
+    ],
+    "mechanism_of_action": "The primary active compound limonene demonstrates potent antioxidant activity by scavenging free radicals and inhibiting lipid peroxidation. Unique polymethoxyflavonoids (nobiletin and tangeretin) penetrate skin effectively and inhibit melanogenesis via tyrosinase suppression and melanosome transfer interruption. γ-Terpinene contributes antimicrobial activity against Cutibacterium acnes. The oil also modulates NF-κB pathway reducing inflammatory cytokine production (IL-6, TNF-α).",
+    "concentration_guide": {
+      "effective_range": "0.5% - 2%",
+      "safe_maximum": "5%",
+      "typical_use": "1%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "citrus allergy",
+        "limonene sensitivity",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "may enhance penetration of other actives",
+        "avoid with other strong acids in same routine"
+      ],
+      "cautions": [
+        "Despite lower phototoxicity than other citrus oils, SPF still recommended during daytime use",
+        "Patch test recommended for sensitive skin",
+        "May cause mild irritation in concentrations >3%"
+      ]
+    },
+    "root_cause_addressed": "Oxidative stress-induced melanogenesis and inflammation from environmental damage",
+    "related_ingredients": [
+      "lemon_peel_oil",
+      "bergamot_oil",
+      "vitamin_c",
+      "niacinamide"
+    ],
+    "notes": "Unlike most citrus oils, mandarin is NOT phototoxic due to very low furanocoumarin content. This makes it safer for daytime formulations. The methyl methylanthranilate content gives it a characteristic sweet aroma. Cold-pressed oil contains higher levels of beneficial compounds than steam-distilled. Always store in amber glass away from light."
+  },
+  {
+    "id": "bot_002",
+    "name": "Rosemary Leaf Extract",
+    "inci_name": "Rosmarinus Officinalis Leaf Extract",
+    "category": "antioxidant",
+    "function": "Potent antioxidant, antimicrobial, anti-inflammatory, circulation stimulant, photoprotective",
+    "active_compounds": [
+      "Carnosic acid (primary antioxidant)",
+      "Rosmarinic acid",
+      "Carnosol",
+      "1,8-Cineole (eucalyptol)",
+      "α-Pinene",
+      "Camphor",
+      "Ursolic acid",
+      "Betulinic acid"
+    ],
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "aging",
+      "acne",
+      "inflammation",
+      "sun damage",
+      "puffiness",
+      "dullness"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "photoaging",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Carnosic acid provides significant UV-protective antioxidant capacity"
+      },
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Antimicrobial against P. acnes; anti-inflammatory reduces lesion severity"
+      },
+      {
+        "condition": "dermatitis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Rosmarinic acid inhibits inflammatory mediators and histamine release"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Inhibits melanin synthesis and tyrosinase activity"
+      }
+    ],
+    "mechanism_of_action": "Carnosic acid and carnosol act as potent radical scavengers that protect cellular membranes from oxidative damage. Carnosic acid upregulates Nrf2 pathway, enhancing endogenous antioxidant defenses (glutathione, superoxide dismutase). Rosmarinic acid inhibits 5-lipoxygenase and cyclooxygenase pathways, reducing arachidonic acid-derived inflammatory mediators. Ursolic acid promotes collagen synthesis and inhibits collagenase (MMP-1). The extract demonstrates broad-spectrum antimicrobial activity via disruption of bacterial cell membranes.",
+    "concentration_guide": {
+      "effective_range": "0.1% - 2%",
+      "safe_maximum": "5%",
+      "typical_use": "0.5% - 1%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "asteraceae/compositae allergy",
+        "camphor sensitivity",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "may potentiate anticoagulant effects theoretically (topical use minimal risk)",
+        "may enhance absorption of other actives"
+      ],
+      "cautions": [
+        "High camphor chemotypes should be avoided in pregnancy",
+        "Can irritate sensitive skin at concentrations >2%",
+        "May increase blood pressure if used in very high concentrations in massage"
+      ]
+    },
+    "root_cause_addressed": "Oxidative stress, inflammatory cascade activation, collagen degradation, microbial overgrowth",
+    "related_ingredients": [
+      "green_tea_extract",
+      "vitamin_e",
+      "ferulic_acid",
+      "ursolic_acid"
+    ],
+    "notes": "Extract form (vs essential oil) preferred for skincare due to lower volatility and higher concentration of carnosic/rosmarinic acids. CO2 extraction yields superior antioxidant profile. Spanish rosemary (Rosmarinus officinalis) is most commonly used. The antioxidant capacity has been extensively studied in vitro and in vivo. Safe for pregnancy at typical cosmetic concentrations."
+  },
+  {
+    "id": "bot_003",
+    "name": "Chamomile Flower Extract",
+    "inci_name": "Matricaria Recutita Flower Extract",
+    "category": "soothing",
+    "function": "Exceptional anti-inflammatory, soothing, wound healing, antioxidant, mild antimicrobial",
+    "active_compounds": [
+      "α-Bisabolol (primary active)",
+      "Chamazulene (blue color)",
+      "Apigenin",
+      "Luteolin",
+      "Quercetin",
+      "Matricin (pro-chamazulene)",
+      "Farnesene",
+      "Polysaccharides"
+    ],
+    "evidence_level": "strong",
+    "evidence_grade": "A-",
+    "best_for": [
+      "sensitive skin",
+      "rosacea",
+      "eczema",
+      "sunburn",
+      "inflammation",
+      "barrier repair"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "atopic dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Significant reduction in pruritus and inflammation in clinical studies"
+      },
+      {
+        "condition": "contact dermatitis",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Anti-inflammatory superior to hydrocortisone 0.25% in some studies"
+      },
+      {
+        "condition": "rosacea",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Reduces erythema and calms inflammatory flares"
+      },
+      {
+        "condition": "wound healing",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Accelerates re-epithelialization and tissue regeneration"
+      }
+    ],
+    "mechanism_of_action": "α-Bisabolol inhibits prostaglandin synthesis and reduces IL-1α release from keratinocytes. Chamazulene and α-bisabolol both inhibit 5-lipoxygenase, reducing leukotriene formation. Apigenin and luteolin modulate NF-κB and AP-1 transcription factors, suppressing inflammatory gene expression. Apigenin binds to benzodiazepine receptors providing anxiolytic/calming effects. Polysaccharides form a protective hydrating film on skin surface. The extract promotes fibroblast proliferation and collagen deposition during wound healing.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 5%",
+      "safe_maximum": "10%",
+      "typical_use": "1% - 3%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "asteraceae/compositae allergy (ragweed, daisy family)",
+        "chamomile allergy"
+      ],
+      "interactions": [
+        "theoretical interaction with sedatives due to apigenin content",
+        "may enhance absorption of other topicals"
+      ],
+      "cautions": [
+        "Avoid if allergic to ragweed or related plants",
+        "Very rare case reports of contact dermatitis",
+        "Roman chamomile (Anthemis nobilis) has different safety profile"
+      ]
+    },
+    "root_cause_addressed": "Inflammatory hyperresponsiveness, barrier dysfunction, neurogenic inflammation, oxidative stress",
+    "related_ingredients": [
+      "centella_asiatica",
+      "allantoin",
+      "panthenol",
+      "green_tea_extract",
+      "bisabolol"
+    ],
+    "notes": "German chamomile (Matricaria recutita) is preferred over Roman chamomile for anti-inflammatory applications due to higher chamazulene and α-bisabolol content. The characteristic blue color comes from chamazulene. Standardized extracts with defined bisabolol content (0.2-0.5%) are most reliable. One of the best-studied botanicals for sensitive skin conditions."
+  },
+  {
+    "id": "bot_004",
+    "name": "Cedarwood Bark Oil",
+    "inci_name": "Cedrus Atlantica Bark Oil",
+    "category": "essential_oil",
+    "function": "Astringent, antiseptic, anti-inflammatory, grounding aromatherapy, mild sedative",
+    "active_compounds": [
+      "Cedrol (primary)",
+      "α-Cedrene",
+      "β-Cedrene",
+      "Thujopsene",
+      "Widdrol",
+      "Atlanticone"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": [
+      "oily skin",
+      "acne",
+      "scalp conditions",
+      "stress-related skin issues",
+      "puffiness"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antiseptic properties help reduce P. acnes proliferation"
+      },
+      {
+        "condition": "seborrheic dermatitis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Antifungal activity against Malassezia species"
+      },
+      {
+        "condition": "stress-induced inflammation",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Aromatherapeutic calming may reduce cortisol-mediated skin inflammation"
+      }
+    ],
+    "mechanism_of_action": "Cedrol demonstrates moderate antimicrobial activity by disrupting bacterial cell membrane integrity. The oil exhibits astringent properties through protein precipitation and pore tightening effects on skin surface. Anti-inflammatory effects are modest via inhibition of nitric oxide production in macrophages. Aromatherapeutic benefits include activation of GABA receptors by cedrol, producing anxiolytic and sedative effects that may reduce stress-related skin flare-ups.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 2%",
+      "safe_maximum": "5%",
+      "typical_use": "1%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "cedar allergy",
+        "fragrance sensitivity",
+        "tree pollen allergy"
+      ],
+      "interactions": [
+        "may enhance sedative effects of CNS depressants when inhaled"
+      ],
+      "cautions": [
+        "Can irritate sensitive skin at concentrations >2%",
+        "Avoid contact with eyes and mucous membranes",
+        "Patch test recommended"
+      ]
+    },
+    "root_cause_addressed": "Microbial overgrowth, excess sebum production, stress-mediated inflammation",
+    "related_ingredients": [
+      "tea_tree_oil",
+      "sandalwood_oil",
+      "lavender_oil",
+      "salicylic_acid"
+    ],
+    "notes": "Atlas cedarwood (Cedrus atlantica) is preferred over Virginian cedarwood (Juniperus virginiana) for skincare. Virginian cedarwood is actually a juniper species with different chemistry. Sustainable sourcing is important as Atlas cedar forests are declining due to climate change. Often used in formulations for oily skin and scalp treatments."
+  },
+  {
+    "id": "bot_005",
+    "name": "Bergamot Peel Oil",
+    "inci_name": "Citrus Aurantium Bergamia Peel Oil",
+    "category": "essential_oil",
+    "function": "Antioxidant, antimicrobial, mood elevating, skin brightening (with restrictions)",
+    "active_compounds": [
+      "Limonene (30-45%)",
+      "Linalyl acetate (20-35%)",
+      "Linalool (5-15%)",
+      "γ-Terpinene",
+      "β-Pinene",
+      "Bergapten (furanocoumarin, phototoxic)",
+      "Bergamottin"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "C+",
+    "best_for": [
+      "oily skin",
+      "acne",
+      "mood support",
+      "body care"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Antimicrobial and sebum-regulating properties"
+      },
+      {
+        "condition": "stress",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Aromatherapy reduces cortisol and elevates mood"
+      }
+    ],
+    "mechanism_of_action": "Limonene and linalool provide antimicrobial activity against P. acnes and S. aureus. The oil demonstrates antioxidant capacity via free radical scavenging. Linalyl acetate and linalool modulate GABAergic transmission producing anxiolytic effects. HOWEVER: Bergapten (5-methoxypsoralen) intercalates into DNA and upon UVA exposure forms covalent bonds with pyrimidine bases, causing phototoxic reactions, DNA damage, and potential carcinogenicity. Bergapten-free (FCF) versions have had the furanocoumarins removed.",
+    "concentration_guide": {
+      "effective_range": "0.1% - 1% (FCF only)",
+      "safe_maximum": "0.4% (non-FCF for body wash/rinse-off only), 2% (FCF)",
+      "typical_use": "0.5% (FCF)"
+    },
+    "safety_profile": {
+      "pregnancy_safe": false,
+      "breastfeeding_safe": false,
+      "phototoxic": true,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "citrus allergy",
+        "limonene sensitivity",
+        "linalool sensitivity",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "CONTRAINDICATED with UV exposure if non-FCF",
+        "May interact with photosensitizing medications",
+        "Increases photosensitivity of tetracyclines, NSAIDs, retinoids"
+      ],
+      "cautions": [
+        "⚠️ HIGHLY PHOTOTOXIC - MUST use bergapten-free (FCF/Furocoumarin-Free) version for skincare",
+        "Non-FCF bergamot oil should NEVER be used in leave-on products",
+        "Even FCF version should be used with sunscreen during daytime",
+        "Avoid during pregnancy and breastfeeding due to limited safety data",
+        "Photosensitivity can persist 24-72 hours after application"
+      ]
+    },
+    "root_cause_addressed": "Microbial overgrowth, oxidative stress, psychological stress (aromatherapy)",
+    "related_ingredients": [
+      "lemon_peel_oil",
+      "mandarin_oil",
+      "linalool",
+      "limonene"
+    ],
+    "notes": "⚠️ CRITICAL SAFETY CONCERN: Standard bergamot oil contains bergapten which is highly phototoxic. Only bergapten-free (FCF/bergaptene-free) versions are safe for skincare. Even FCF versions should include sun protection warnings. Most reputable cosmetic suppliers only offer FCF versions. If product contains 'Citrus Aurantium Bergamia Peel Oil' without FCF designation, assume it contains bergapten and avoid daytime use."
+  },
+  {
+    "id": "bot_006",
+    "name": "Lemon Rind Oil",
+    "inci_name": "Citrus Limon Peel Oil",
+    "category": "essential_oil",
+    "function": "Antioxidant, skin brightening, antimicrobial, astringent",
+    "active_compounds": [
+      "Limonene (60-75%)",
+      "β-Pinene",
+      "γ-Terpinene",
+      "Citral (geranial + neral)",
+      "Nerol",
+      "Geraniol",
+      "Bergapten (furanocoumarin)",
+      "Psoralen"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": [
+      "oily skin",
+      "acne",
+      "dullness",
+      "body care"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Antimicrobial against P. acnes; astringent properties reduce oiliness"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Citral and vitamin C content may inhibit melanin production"
+      }
+    ],
+    "mechanism_of_action": "High limonene content provides potent antioxidant and antimicrobial activity. Citral (mixture of geranial and neral) demonstrates antimicrobial and anti-inflammatory properties. The oil has astringent effects through protein precipitation and pore constriction. HOWEVER: Contains furanocoumarins (bergapten, psoralen) that are phototoxic. Upon UV exposure, these compounds intercalate into DNA, forming covalent photoducts that cause severe phototoxic reactions and potential photocarcinogenicity.",
+    "concentration_guide": {
+      "effective_range": "0.1% - 0.5% (leave-on with sun protection)",
+      "safe_maximum": "2% (rinse-off products)",
+      "typical_use": "0.2% - 0.5%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": false,
+      "breastfeeding_safe": false,
+      "phototoxic": true,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "citrus allergy",
+        "limonene sensitivity",
+        "citral sensitivity",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "Increases photosensitivity of retinoids, tetracyclines, NSAIDs",
+        "May enhance penetration of other actives"
+      ],
+      "cautions": [
+        "⚠️ PHOTOTOXIC - contains furanocoumarins (bergapten, psoralen)",
+        "Should not be used in leave-on products without adequate sun protection",
+        "Safer in rinse-off products (cleansers, body wash)",
+        "Avoid during pregnancy due to phototoxicity and limited safety data",
+        "Can cause skin irritation and sensitization at concentrations >1%",
+        "Photosensitivity reactions can be severe and delayed 24-48 hours"
+      ]
+    },
+    "root_cause_addressed": "Oxidative stress, microbial overgrowth, excess sebum",
+    "related_ingredients": [
+      "bergamot_oil",
+      "mandarin_oil",
+      "grapefruit_oil",
+      "vitamin_c"
+    ],
+    "notes": "⚠️ SAFETY WARNING: Lemon oil is phototoxic due to furanocoumarin content. Unlike mandarin oil, it should not be used in daytime leave-on products without strong sun protection. Steam-distilled lemon oil has lower furanocoumarin content than cold-pressed but still carries phototoxic risk. Some suppliers offer furanocoumarin-free (FCF) versions. Cold-pressed oil has stronger aroma but higher phototoxic risk."
+  },
+  {
+    "id": "bot_007",
+    "name": "Lavender Oil",
+    "inci_name": "Lavandula Angustifolia Oil",
+    "category": "essential_oil",
+    "function": "Wound healing, antimicrobial, calming, anti-inflammatory, analgesic",
+    "active_compounds": [
+      "Linalool (25-45%)",
+      "Linalyl acetate (25-45%)",
+      "Camphor",
+      "1,8-Cineole",
+      "Lavandulyl acetate",
+      "Terpinen-4-ol",
+      "β-Caryophyllene"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B+",
+    "best_for": [
+      "wound healing",
+      "acne",
+      "inflammation",
+      "sensitive skin",
+      "stress-related skin issues",
+      "burns"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "burns",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Accelerates re-epithelialization and reduces pain in minor burns"
+      },
+      {
+        "condition": "wound healing",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Promotes collagen synthesis and fibroblast proliferation"
+      },
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antimicrobial against P. acnes and anti-inflammatory"
+      },
+      {
+        "condition": "anxiety-related skin conditions",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Anxiolytic effects via GABA modulation reduce stress flare-ups"
+      }
+    ],
+    "mechanism_of_action": "Linalool and linalyl acetate demonstrate antimicrobial activity through disruption of bacterial cell membranes. The oil promotes wound healing by increasing TGF-β expression and enhancing fibroblast collagen production. Anti-inflammatory effects are mediated through inhibition of histamine release and reduction of IL-1β and TNF-α. Linalool acts on GABA receptors producing anxiolytic and sedative effects. Analgesic properties occur through modulation of voltage-gated sodium channels. ⚠️ Endocrine concern: Some studies suggest lavender oil may have weak estrogenic and anti-androgenic activity at very high concentrations.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 3%",
+      "safe_maximum": "5%",
+      "typical_use": "1% - 2%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": true,
+      "allergies": [
+        "fragrance sensitivity",
+        "linalool sensitivity",
+        "lavender allergy"
+      ],
+      "interactions": [
+        "May enhance sedative effects of CNS depressants",
+        "May potentiate anticoagulant effects theoretically"
+      ],
+      "cautions": [
+        "⚠️ POTENTIAL ENDOCRINE DISRUPTOR at high concentrations (>5%)",
+        "Rare cases of prepubertal gynecomastia linked to lavender exposure in very young children",
+        "Use lower concentrations (<2%) for prolonged use",
+        "Can cause skin irritation in sensitive individuals",
+        "Not recommended for use on deep puncture wounds"
+      ]
+    },
+    "root_cause_addressed": "Impaired wound healing, microbial infection, inflammatory response, stress-mediated skin dysfunction",
+    "related_ingredients": [
+      "tea_tree_oil",
+      "chamomile_extract",
+      "rosehip_oil",
+      "centella_asiatica"
+    ],
+    "notes": "⚠️ ENDOCRINE CONCERN: Multiple case reports of prepubertal gynecomastia in boys using lavender-containing products. NIEHS study confirmed weak estrogenic and anti-androgenic activity in vitro. Risk appears highest with prolonged exposure to concentrated products in prepubertal children. Adults at typical cosmetic concentrations appear to have minimal risk. True lavender (Lavandula angustifolia) preferred over spike lavender (L. latifolia) or lavandin (L. x intermedia) for skincare."
+  },
+  {
+    "id": "bot_008",
+    "name": "Ylang Ylang Flower Oil",
+    "inci_name": "Cananga Odorata Flower Oil",
+    "category": "essential_oil",
+    "function": "Sebum balancing, calming, antimicrobial, aphrodisiac aromatherapy",
+    "active_compounds": [
+      "Linalool",
+      "Germacrene D",
+      "β-Caryophyllene",
+      "Geranyl acetate",
+      "Benzyl acetate",
+      "Benzyl benzoate",
+      "Farnesene",
+      "Eugenol (trace)"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B-",
+    "best_for": [
+      "oily skin",
+      "combination skin",
+      "acne",
+      "stress-related skin issues",
+      "mature skin"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "seborrhea",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Sebum-regulating properties help balance oil production"
+      },
+      {
+        "condition": "anxiety",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Aromatherapy reduces blood pressure and heart rate"
+      },
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Mild antimicrobial and sebum-regulating benefits"
+      }
+    ],
+    "mechanism_of_action": "The oil demonstrates sebum-regulating activity that may help balance both oily and dry skin conditions. Linalool and eugenol provide modest antimicrobial activity. β-Caryophyllene interacts with CB2 cannabinoid receptors producing anti-inflammatory effects. Aromatherapeutic benefits include reduction of sympathetic nervous system activity, lowering cortisol and promoting relaxation. Benzyl benzoate has mild fixative and antimicrobial properties.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 2%",
+      "safe_maximum": "5%",
+      "typical_use": "1%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "fragrance sensitivity",
+        "ylang ylang allergy",
+        "eugenol sensitivity"
+      ],
+      "interactions": [
+        "May enhance sedative effects when combined with CNS depressants"
+      ],
+      "cautions": [
+        "Can cause headaches in sensitive individuals when inhaled",
+        "May irritate sensitive skin at concentrations >2%",
+        "Strong fragrance may cause nausea in some individuals",
+        "Patch test recommended"
+      ]
+    },
+    "root_cause_addressed": "Sebum imbalance, stress-mediated inflammation, microbial overgrowth",
+    "related_ingredients": [
+      "geranium_oil",
+      "lavender_oil",
+      "sandalwood_oil",
+      "jojoba_oil"
+    ],
+    "notes": "Ylang ylang is graded by distillation time (Extra, I, II, III). Extra grade (first distillation) is most fragrant but most expensive; Grade III is best for skincare due to higher sesquiterpene content. The oil has a very strong floral scent - use sparingly in formulations. Sustainably sourced from Madagascar and Comoros islands."
+  },
+  {
+    "id": "bot_009",
+    "name": "Geranium Leaf Oil",
+    "inci_name": "Pelargonium Graveolens Oil",
+    "category": "essential_oil",
+    "function": "Astringent, sebum balancing, anti-inflammatory, antimicrobial, cicatrizant",
+    "active_compounds": [
+      "Citronellol (30-40%)",
+      "Geraniol (15-25%)",
+      "Linalool",
+      "Citronellyl formate",
+      "Isomenthone",
+      "Menthone",
+      "Geranyl formate"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "oily skin",
+      "combination skin",
+      "acne",
+      "mature skin",
+      "scars",
+      "inflammation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antimicrobial and sebum-regulating properties"
+      },
+      {
+        "condition": "dermatitis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Anti-inflammatory and soothing effects"
+      },
+      {
+        "condition": "scarring",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "Cicatrizant properties promote tissue regeneration"
+      }
+    ],
+    "mechanism_of_action": "Citronellol and geraniol demonstrate antimicrobial activity through bacterial cell membrane disruption. The oil has astringent properties that tighten skin and reduce pore appearance. Anti-inflammatory effects mediated through inhibition of inflammatory cytokines and reduction of neutrophil infiltration. Sebum-regulating activity may normalize production in both oily and dry skin types. Cicatrizant properties promote wound contraction and epithelialization.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 2%",
+      "safe_maximum": "5%",
+      "typical_use": "1%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "fragrance sensitivity",
+        "geraniol allergy",
+        "citronellol allergy",
+        "rose-scent allergy"
+      ],
+      "interactions": [
+        "May enhance absorption of other topical actives"
+      ],
+      "cautions": [
+        "Can cause contact dermatitis in sensitive individuals",
+        "Avoid use on broken skin",
+        "May be slightly irritating to very sensitive skin types",
+        "Patch test recommended"
+      ]
+    },
+    "root_cause_addressed": "Excess sebum, inflammatory acne, impaired healing, microbial overgrowth",
+    "related_ingredients": [
+      "ylang_ylang_oil",
+      "rose_oil",
+      "lavender_oil",
+      "tea_tree_oil"
+    ],
+    "notes": "Often called 'rose geranium' but is a different species from true rose. Egyptian and Chinese varieties are most common in commerce. Rose-scented varieties (Bourbon, Rose) have higher geraniol content. The oil has a pleasant rose-like aroma making it popular in natural perfumery and skincare. Generally well-tolerated but contains several potential allergens (geraniol, citronellol, linalool)."
+  },
+  {
+    "id": "bot_010",
+    "name": "Tea Tree Leaf Oil",
+    "inci_name": "Melaleuca Alternifolia Leaf Oil",
+    "category": "essential_oil",
+    "function": "Potent antimicrobial, anti-inflammatory, acne treatment, antifungal",
+    "active_compounds": [
+      "Terpinen-4-ol (primary active, 35-45%)",
+      "γ-Terpinene",
+      "α-Terpinene",
+      "1,8-Cineole",
+      "p-Cymene",
+      "α-Pinene",
+      "Aromadendrene"
+    ],
+    "evidence_level": "strong",
+    "evidence_grade": "B+",
+    "best_for": [
+      "acne",
+      "fungal infections",
+      "oily skin",
+      "inflammation",
+      "dandruff"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Clinical studies show efficacy comparable to benzoyl peroxide 5% with fewer side effects"
+      },
+      {
+        "condition": "seborrheic dermatitis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Antifungal against Malassezia furfur"
+      },
+      {
+        "condition": "onychomycosis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Antifungal efficacy demonstrated in clinical trials"
+      },
+      {
+        "condition": "wound infections",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Broad-spectrum antimicrobial for minor wound care"
+      }
+    ],
+    "mechanism_of_action": "Terpinen-4-ol is the primary antimicrobial agent that disrupts microbial cell membranes through loss of intracellular material and inhibition of respiration. It demonstrates broad-spectrum activity against bacteria (P. acnes, S. aureus), fungi (Candida, dermatophytes), and viruses. Anti-inflammatory effects include suppression of IL-8, TNF-α, and prostaglandin E2 production. The oil also demonstrates mild local anesthetic properties. At concentrations >5%, there is concern for potential endocrine disruption.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 5%",
+      "safe_maximum": "5% (endocrine concern above this)",
+      "typical_use": "2% - 5% for acne treatment"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": true,
+      "allergies": [
+        "tea tree oil allergy",
+        "terpinen-4-ol sensitivity",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "May enhance penetration of other actives",
+        "Avoid use with other strong antimicrobials simultaneously"
+      ],
+      "cautions": [
+        "⚠️ POTENTIAL ENDOCRINE DISRUPTOR at concentrations >5%",
+        "Never ingest - toxic when swallowed",
+        "Can cause severe skin irritation if used undiluted",
+        "Some cases of breast development (gynecomastia) in prepubertal boys with high-dose exposure",
+        "Store away from light and air to prevent oxidation",
+        "Oxidized tea tree oil more likely to cause sensitization"
+      ]
+    },
+    "root_cause_addressed": "Microbial overgrowth (P. acnes, fungi), biofilm formation, inflammatory response to infection",
+    "related_ingredients": [
+      "salicylic_acid",
+      "benzoyl_peroxide",
+      "clindamycin",
+      "zinc_pca"
+    ],
+    "notes": "⚠️ ENDOCRINE CONCERN: Several case reports of prepubertal gynecomastia associated with tea tree oil exposure. NIEHS study showed weak estrogenic and anti-androgenic activity in vitro. Risk appears highest with prolonged use of high-concentration products in children. Adults using standard cosmetic concentrations (2-5%) have minimal risk. Always use diluted and avoid in leave-on products for very young children. Look for ISO 4730 standard compliance (terpinen-4-ol >30%, 1,8-cineole <15%). Australian origin preferred."
+  },
+  {
+    "id": "bot_011",
+    "name": "Sage Leaf Extract",
+    "inci_name": "Salvia Officinalis Leaf Extract",
+    "category": "antioxidant",
+    "function": "Antioxidant, antimicrobial, astringent, anti-inflammatory",
+    "active_compounds": [
+      "α-Thujone (20-50% in oil)",
+      "β-Thujone",
+      "Camphor",
+      "1,8-Cineole",
+      "Rosmarinic acid",
+      "Carnosic acid",
+      "Ursolic acid",
+      "Flavonoids"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "C+",
+    "best_for": [
+      "oily skin",
+      "acne",
+      "inflammation"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Antimicrobial and astringent properties"
+      },
+      {
+        "condition": "excess sebum",
+        "evidence_level": "moderate",
+        "evidence_grade": "C+",
+        "notes": "Astringent properties reduce oiliness"
+      }
+    ],
+    "mechanism_of_action": "Rosmarinic acid and carnosic acid provide antioxidant activity via free radical scavenging. The extract demonstrates antimicrobial effects against various skin pathogens through thujone and camphor content. Astringent effects are due to protein precipitation and pore tightening. Anti-inflammatory activity occurs through COX-2 inhibition. ⚠️ α-Thujone acts as a GABA-gated chloride channel antagonist in the CNS, causing neurotoxicity at high doses.",
+    "concentration_guide": {
+      "effective_range": "0.1% - 1%",
+      "safe_maximum": "2%",
+      "typical_use": "0.5%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": false,
+      "breastfeeding_safe": false,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "asteraceae allergy",
+        "thujone sensitivity",
+        "camphor sensitivity"
+      ],
+      "interactions": [
+        "May interact with anticonvulsant medications",
+        "May interact with sedatives",
+        "Theoretical interaction with anticoagulants"
+      ],
+      "cautions": [
+        "⚠️ NOT SAFE FOR PREGNANCY - HIGH THUJONE CONTENT",
+        "⚠️ THUJONE IS NEUROTOXIC at high concentrations",
+        "Avoid during breastfeeding",
+        "Avoid in epilepsy/seizure disorders",
+        "Can cause severe skin irritation and sensitization",
+        "Not recommended for sensitive skin",
+        "Avoid in children",
+        "Maximum safe oral thujone dose: 0.1-1.0 mg/kg/day"
+      ]
+    },
+    "root_cause_addressed": "Microbial overgrowth, oxidative stress, excess sebum",
+    "related_ingredients": [
+      "rosemary_extract",
+      "thyme_extract",
+      "clary_sage"
+    ],
+    "notes": "⚠️ CRITICAL SAFETY CONCERN: Sage contains high levels of thujone, a neurotoxic compound that can cause seizures and other CNS effects. Spanish sage (Salvia lavandulifolia) has lower thujone content and may be safer. Clary sage (Salvia sclarea) is different species with different safety profile. Essential oil form is more concentrated in thujone than extracts. Generally NOT recommended for skincare use due to safety concerns; consider safer alternatives like rosemary or chamomile."
+  },
+  {
+    "id": "bot_012",
+    "name": "Sandalwood Oil",
+    "inci_name": "Santalum Album Oil",
+    "category": "essential_oil",
+    "function": "Anti-inflammatory, anti-melanoma potential, antimicrobial, aromatherapy calming",
+    "active_compounds": [
+      "α-Santalol (primary, 41-55%)",
+      "β-Santalol",
+      "Santalone",
+      "Nuciferol",
+      "Lanceol",
+      "Santalic acid"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "inflammation",
+      "mature skin",
+      "acne",
+      "hyperpigmentation",
+      "stress-related skin issues"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "inflammatory skin conditions",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Potent anti-inflammatory comparable to some NSAIDs"
+      },
+      {
+        "condition": "acne vulgaris",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Antimicrobial and anti-inflammatory properties"
+      },
+      {
+        "condition": "melanoma",
+        "evidence_level": "limited",
+        "evidence_grade": "C+",
+        "notes": "In vitro studies show α-santalol induces apoptosis in melanoma cells"
+      },
+      {
+        "condition": "warts",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "α-Santalol shows antiviral activity against HPV"
+      }
+    ],
+    "mechanism_of_action": "α-Santalol is the primary active compound responsible for anti-inflammatory, antimicrobial, and potential anti-cancer effects. It inhibits COX-2 and lipoxygenase pathways, reducing prostaglandin and leukotriene synthesis. Anti-melanoma activity occurs through induction of apoptosis via caspase activation and cell cycle arrest at G2/M phase. Antiviral activity against HPV involves disruption of viral replication. The oil also demonstrates mild astringent and hydrating properties. Aromatherapeutic effects include reduction of sympathetic nervous system activity.",
+    "concentration_guide": {
+      "effective_range": "0.5% - 2%",
+      "safe_maximum": "5%",
+      "typical_use": "1%"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "fragrance sensitivity",
+        "sandalwood allergy"
+      ],
+      "interactions": [
+        "May enhance absorption of other topical actives"
+      ],
+      "cautions": [
+        "⚠️ ENDANGERED SPECIES CONCERN",
+        "Ensure sustainably sourced or cultivated ( plantation-grown ) oil",
+        "Can irritate sensitive skin at concentrations >2%",
+        "Very expensive - may be adulterated with synthetic or other oils",
+        "Patch test recommended"
+      ]
+    },
+    "root_cause_addressed": "Inflammation, microbial overgrowth, oxidative stress, abnormal cell proliferation",
+    "related_ingredients": [
+      "cedarwood_oil",
+      "frankincense_oil",
+      "myrrh_oil",
+      "chamomile_extract"
+    ],
+    "notes": "⚠️ CONSERVATION CONCERN: Indian sandalwood (Santalum album) is listed as Vulnerable by IUCN due to overharvesting. Australian sandalwood (Santalum spicatum) and New Caledonian sandalwood are alternatives but also face sustainability issues. Look for plantation-grown, certified sustainable sources (e.g., Quintis/TFS in Australia). Some suppliers offer synthetic santalols or alternative species. The oil is very expensive ($2000+ per kg for pure Indian sandalwood). Adulteration is common."
+  },
+  {
+    "id": "bot_013",
+    "name": "Parsley Seed Extract",
+    "inci_name": "Carum Petroselinum Seed Oil",
+    "category": "essential_oil",
+    "function": "Antimicrobial, antioxidant, diuretic",
+    "active_compounds": [
+      "Apiole",
+      "Myristicin",
+      "Elemicin",
+      "β-Pinene",
+      "α-Pinene",
+      "Myrcene",
+      "Furanocoumarins ( bergapten, isoimperatorin, oxypeucedanin )"
+    ],
+    "evidence_level": "limited",
+    "evidence_grade": "C",
+    "best_for": [],
+    "conditions_treated": [
+      {
+        "condition": "acne",
+        "evidence_level": "limited",
+        "evidence_grade": "C",
+        "notes": "Mild antimicrobial properties"
+      }
+    ],
+    "mechanism_of_action": "The oil demonstrates mild antimicrobial activity from apiol and myristicin content. However, it contains significant amounts of furanocoumarins (bergapten, isoimperatorin, oxypeucedanin) that are highly phototoxic. Apiole has documented abortifacient activity. Myristicin has psychoactive properties at high doses and may be neurotoxic.",
+    "concentration_guide": {
+      "effective_range": "NOT RECOMMENDED FOR SKINCARE",
+      "safe_maximum": "NOT RECOMMENDED FOR SKINCARE",
+      "typical_use": "NOT RECOMMENDED FOR SKINCARE"
+    },
+    "safety_profile": {
+      "pregnancy_safe": false,
+      "breastfeeding_safe": false,
+      "phototoxic": true,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "apiaceae/carrot family allergy",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "CONTRAINDICATED with photosensitizing medications",
+        "May interact with anticoagulants",
+        "May interact with CNS depressants"
+      ],
+      "cautions": [
+        "⚠️ NOT RECOMMENDED FOR SKINCARE USE",
+        "⚠️ HIGHLY PHOTOTOXIC due to furanocoumarin content",
+        "⚠️ ABORTIFACIENT - apiole content can stimulate uterine contractions",
+        "⚠️ CONTRAINDICATED in pregnancy",
+        "⚠️ Potential neurotoxicity from myristicin at high doses",
+        "⚠️ Can cause severe skin sensitization and photodermatitis",
+        "Historical use as abortifacient and emmenagogue",
+        "If present in products, should be in very low concentrations (<0.1%) and with clear warnings"
+      ]
+    },
+    "root_cause_addressed": "Not applicable - not recommended for skincare",
+    "related_ingredients": [
+      "celery_seed_oil",
+      "carrot_seed_oil",
+      "dill_seed_oil"
+    ],
+    "notes": "⚠️ NOT RECOMMENDED: Parsley seed oil is NOT suitable for skincare due to multiple severe safety concerns. The furanocoumarin content makes it highly phototoxic (more so than bergamot or lemon). Api ole is a known abortifacient. Myristicin is psychoactive and potentially neurotoxic. Despite these concerns, it appears in 5 products in the database. If users encounter this ingredient, they should be strongly cautioned. Suggest avoiding products containing this oil or ensuring it is present at extremely low concentrations (<0.1%) in rinse-off products only."
+  },
+  {
+    "id": "bot_014",
+    "name": "Evening Primrose Oil",
+    "inci_name": "Oenothera Biennis Oil",
+    "category": "emollient",
+    "function": "Barrier repair, anti-inflammatory, emollient, hormone balancing",
+    "active_compounds": [
+      "Gamma-linolenic acid (GLA, 8-14%)",
+      "Linoleic acid (70-75%)",
+      "Oleic acid (5-10%)",
+      "Palmitic acid",
+      "Stearic acid",
+      "Vitamin E",
+      "Phytosterols"
+    ],
+    "evidence_level": "moderate",
+    "evidence_grade": "B",
+    "best_for": [
+      "eczema",
+      "atopic dermatitis",
+      "dry skin",
+      "barrier repair",
+      "mature skin",
+      "hormonal acne"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "atopic dermatitis",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "GLA deficiency common in atopic patients; supplementation helps restore barrier"
+      },
+      {
+        "condition": "essential fatty acid deficiency",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Topical GLA directly addresses EFAD in skin"
+      },
+      {
+        "condition": "hormonal acne",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "May help modulate inflammatory response in hormonal acne"
+      },
+      {
+        "condition": "premenstrual skin issues",
+        "evidence_level": "moderate",
+        "evidence_grade": "B-",
+        "notes": "Systemic GLA may help PMS-related skin changes"
+      }
+    ],
+    "mechanism_of_action": "GLA is converted to dihomo-gamma-linolenic acid (DGLA), which competes with arachidonic acid for COX and lipoxygenase enzymes. This shifts eicosanoid production from pro-inflammatory (PGE2, LTB4) to anti-inflammatory (PGE1) mediators. GLA also incorporates into ceramides, strengthening the skin barrier and reducing transepidermal water loss (TEWL). The oil provides essential fatty acids that are often deficient in atopic skin. Linoleic acid helps regulate sebum composition, making it less pore-clogging.",
+    "concentration_guide": {
+      "effective_range": "2% - 10%",
+      "safe_maximum": "100% (as carrier oil)",
+      "typical_use": "3% - 5% in formulations, or 100% as facial oil"
+    },
+    "safety_profile": {
+      "pregnancy_safe": true,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "evening primrose allergy",
+        "onagraceae family allergy"
+      ],
+      "interactions": [
+        "May lower seizure threshold in patients on anticonvulsants (theoretical, oral more than topical)",
+        "May interact with anticoagulant medications (high oral doses)"
+      ],
+      "cautions": [
+        "Can oxidize quickly - store in dark, cool place",
+        "Some individuals with seizure disorders should avoid (theoretical risk)",
+        "Quality varies significantly between suppliers - ensure cold-pressed"
+      ]
+    },
+    "root_cause_addressed": "Essential fatty acid deficiency, impaired barrier function, inflammatory eicosanoid imbalance, ceramide deficiency",
+    "related_ingredients": [
+      "borage_oil",
+      "rosehip_oil",
+      "safflower_oil",
+      "ceramides",
+      "linoleic_acid"
+    ],
+    "notes": "One of the best plant sources of GLA. Cold-pressed, organic oil preferred. Often used at 100% as a facial oil for barrier repair. The GLA content makes it particularly beneficial for atopic and eczema-prone skin. Store in refrigerator to prevent oxidation. Comedogenic rating: 2-3 (moderate). May not be suitable for very acne-prone skin despite benefits."
+  },
+  {
+    "id": "bot_015",
+    "name": "Rosehip Seed Oil",
+    "inci_name": "Rosa Canina Seed Oil",
+    "category": "emollient",
+    "function": "Scar reduction, anti-aging, skin regeneration, moisturizing, natural retinoid alternative",
+    "active_compounds": [
+      "All-trans-retinoic acid (tretinoin, trace ~0.02-0.4 mg/100g)",
+      "Linoleic acid (35-55%)",
+      "α-Linolenic acid (20-35%)",
+      "Oleic acid (14-20%)",
+      "Vitamin C (ascorbic acid)",
+      "Vitamin E",
+      "Carotenoids",
+      "Phenolic compounds"
+    ],
+    "evidence_level": "strong",
+    "evidence_grade": "B+",
+    "best_for": [
+      "scars",
+      "stretch marks",
+      "mature skin",
+      "hyperpigmentation",
+      "dry skin",
+      "uneven texture"
+    ],
+    "conditions_treated": [
+      {
+        "condition": "scars and striae",
+        "evidence_level": "strong",
+        "evidence_grade": "A-",
+        "notes": "Multiple clinical studies show significant improvement in scar appearance and texture"
+      },
+      {
+        "condition": "photoaging",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "Natural tretinoin content promotes cell turnover and collagen synthesis"
+      },
+      {
+        "condition": "hyperpigmentation",
+        "evidence_level": "moderate",
+        "evidence_grade": "B",
+        "notes": "Tretinoin and vitamin C content inhibit melanogenesis"
+      },
+      {
+        "condition": "dry skin",
+        "evidence_level": "moderate",
+        "evidence_grade": "B+",
+        "notes": "High EFAs restore barrier function and hydration"
+      }
+    ],
+    "mechanism_of_action": "Contains naturally occurring all-trans-retinoic acid (tretinoin) which promotes cellular turnover, stimulates collagen synthesis, and inhibits matrix metalloproteinases (MMPs). The high linoleic acid content (35-55%) strengthens the skin barrier and regulates sebum composition. Alpha-linolenic acid provides anti-inflammatory effects. Vitamin C content (though variable) contributes antioxidant protection and collagen synthesis. Carotenoids provide additional antioxidant activity. The oil promotes wound healing through enhanced fibroblast activity and tissue regeneration.",
+    "concentration_guide": {
+      "effective_range": "2% - 10%",
+      "safe_maximum": "100% (as carrier oil)",
+      "typical_use": "3% - 5% in formulations, or 100% as facial oil"
+    },
+    "safety_profile": {
+      "pregnancy_safe": false,
+      "breastfeeding_safe": true,
+      "phototoxic": false,
+      "endocrine_disruptor": false,
+      "allergies": [
+        "rose allergy",
+        "rosaceae family allergy",
+        "fragrance sensitivity"
+      ],
+      "interactions": [
+        "May enhance photosensitivity if used with retinoids",
+        "May enhance exfoliating effects when combined with AHAs/BHAs"
+      ],
+      "cautions": [
+        "⚠️ NOT RECOMMENDED DURING PREGNANCY due to natural tretinoin content",
+        "May cause mild purging/initial breakouts due to tretinoin content",
+        "Can oxidize quickly - store in dark, cool place",
+        "Use sunscreen during daytime due to photosensitizing potential from tretinoin",
+        "Patch test recommended - rare cases of irritation from tretinoin content",
+        "Quality varies enormously between suppliers"
+      ]
+    },
+    "root_cause_addressed": "Impaired cellular turnover, collagen depletion, barrier dysfunction, oxidative stress, abnormal melanogenesis",
+    "related_ingredients": [
+      "retinol",
+      "tretinoin",
+      "evening_primrose_oil",
+      "vitamin_c",
+      "rose_essential_oil"
+    ],
+    "notes": "Distinguished from rose essential oil (from petals) - rosehip seed oil is pressed from the seeds/hips and contains tretinoin. The natural tretinoin content is very low (0.02-0.4 mg per 100g oil) but may still be biologically active and problematic during pregnancy. CO2 extraction preserves more actives than cold pressing. Chilean rosehip is considered highest quality. Comedogenic rating: 1 (low). One of the most researched botanical oils for scar treatment."
+  }
+]

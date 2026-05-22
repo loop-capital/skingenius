@@ -1,0 +1,434 @@
+[
+  {
+    "source": "isotretinoin",
+    "target": "acne-vulgaris",
+    "relationship": "improves",
+    "effect_description": "Dramatically reduces sebum production (up to 90% by sebocyte apoptosis), normalizes keratinization, reduces C. acnes colonization, and has anti-inflammatory effects. Single course often curative (65-85% long-term remission).",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1; clinical-guidelines.md: Acne"
+  },
+  {
+    "source": "isotretinoin",
+    "target": "hormonal-acne",
+    "relationship": "improves",
+    "effect_description": "Effective for severe hormonal acne unresponsive to other treatments. Permanently shrinks sebaceous glands regardless of hormonal driver.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1; clinical-guidelines.md: Acne"
+  },
+  {
+    "source": "isotretinoin",
+    "target": "xerosis",
+    "relationship": "worsens",
+    "effect_description": "Expected side effect. >80% develop dry skin due to dramatic sebum reduction. Managed with emollient-rich moisturizers.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1"
+  },
+  {
+    "source": "isotretinoin",
+    "target": "photosensitivity",
+    "relationship": "worsens",
+    "effect_description": "20-30% develop photosensitivity. Mandatory broad-spectrum SPF 50+ and sun avoidance. Physical sunscreens preferred.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1"
+  },
+  {
+    "source": "isotretinoin",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Category X - absolute contraindication. Causes severe birth defects (craniofacial, cardiac, CNS). iPLEDGE mandatory in US.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1"
+  },
+  {
+    "source": "topical_retinoids",
+    "target": "acne-vulgaris",
+    "relationship": "improves",
+    "effect_description": "Normalize keratinocyte proliferation and differentiation, prevent comedone formation, stimulate comedone extrusion. First-line for comedonal and mild inflammatory acne.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 2; clinical-guidelines.md: Acne"
+  },
+  {
+    "source": "topical_retinoids",
+    "target": "photoaging",
+    "relationship": "improves",
+    "effect_description": "Stimulate collagen synthesis (types I and III) via TGF-β, increase angiogenesis, disperse melanin, and inhibit MMPs. Gold standard for photoaging.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 2"
+  },
+  {
+    "source": "topical_retinoids",
+    "target": "post-inflammatory-hyperpigmentation",
+    "relationship": "improves",
+    "effect_description": "Accelerates cell turnover and melanin dispersion. Tretinoin particularly effective for PIH in darker skin types when combined with sunscreen.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 2; skin-condition-profiles.md: PIH"
+  },
+  {
+    "source": "topical_retinoids",
+    "target": "melasma",
+    "relationship": "improves",
+    "effect_description": "Increases epidermal turnover and disperses melanosomes. Triple combination (tretinoin + hydroquinone + corticosteroid) is gold standard for melasma.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 2"
+  },
+  {
+    "source": "topical_retinoids",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Tretinoin Category C (avoid if possible); Tazarotene Category X (absolute contraindication); Adapalene Category C (newer data suggests minimal systemic absorption).",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 2"
+  },
+  {
+    "source": "oral_contraceptives",
+    "target": "hormonal-acne",
+    "relationship": "improves",
+    "effect_description": "FDA-approved for acne: norgestimate, drospirenone, norethindrone combinations. Reduce ovarian androgen production and increase SHBG. Effective for cyclical jawline acne.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 5; clinical-guidelines.md: Acne hormonal therapy"
+  },
+  {
+    "source": "oral_contraceptives",
+    "target": "hirsutism",
+    "relationship": "improves",
+    "effect_description": "Increase SHBG → reduce free testosterone → decrease androgenic effects on hair follicles. Drospirenone-containing pills particularly effective.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 5"
+  },
+  {
+    "source": "oral_contraceptives",
+    "target": "melasma",
+    "relationship": "worsens",
+    "effect_description": "Estrogen stimulates melanogenesis. Can trigger or worsen melasma, especially in sun-exposed individuals with genetic predisposition.",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 5; skin-condition-profiles.md: Melasma"
+  },
+  {
+    "source": "spironolactone",
+    "target": "hormonal-acne",
+    "relationship": "improves",
+    "effect_description": "Anti-androgen that blocks androgen receptors and inhibits 5α-reductase. 50-200 mg/day effective for adult female acne, especially jawline/chin distribution.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 6; clinical-guidelines.md: Acne hormonal therapy"
+  },
+  {
+    "source": "spironolactone",
+    "target": "hirsutism",
+    "relationship": "improves",
+    "effect_description": "Blocks androgen receptors in hair follicles. Reduces terminal hair growth in androgen-sensitive areas.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 6"
+  },
+  {
+    "source": "spironolactone",
+    "target": "androgenic-alopecia",
+    "relationship": "improves",
+    "effect_description": "Anti-androgen effects may slow progression of female pattern hair loss. Often combined with minoxidil.",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 6"
+  },
+  {
+    "source": "spironolactone",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Absolutely contraindicated - anti-androgenic, can feminize male fetus. Strict contraception required.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 6"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "eczema-atopic-dermatitis",
+    "relationship": "improves",
+    "effect_description": "Potent anti-inflammatory. Reduces IL-4, IL-13, TNF-α, and other Th2 cytokines. Rapidly controls flares. First-line for acute AD.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 7; clinical-guidelines.md: AD"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "psoriasis",
+    "relationship": "improves",
+    "effect_description": "Reduces inflammation and keratinocyte hyperproliferation. Rapid onset. Combined with vitamin D analogs for maintenance.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 7; clinical-guidelines.md: Psoriasis"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "seborrheic-dermatitis",
+    "relationship": "improves",
+    "effect_description": "Low-potency corticosteroids reduce inflammation in seborrheic dermatitis. Often combined with antifungals.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 7"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "rosacea",
+    "relationship": "worsens",
+    "effect_description": "Topical corticosteroids on face cause steroid rosacea, perioral dermatitis, and skin atrophy. NEVER use high-potency steroids on face.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 7"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "skin-thinning",
+    "relationship": "worsens",
+    "effect_description": "Universal with prolonged use. Downregulates glucocorticoid receptors, reduces collagen synthesis, causes striae and easy bruising.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 7"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "acne-vulgaris",
+    "relationship": "worsens",
+    "effect_description": "Systemic and topical steroids can cause steroid acne (monomorphic papules/pustules). Also causes perioral dermatitis.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 7"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "pregnancy",
+    "relationship": "caution",
+    "effect_description": "Topical: Generally safe with appropriate use (prefer low potency). Systemic: Category C/D - possible cleft lip/palate risk (weak evidence), third trimester adrenal suppression risk.",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 7"
+  },
+  {
+    "source": "statins",
+    "target": "xerosis",
+    "relationship": "worsens",
+    "effect_description": "Reduces CoQ10 synthesis (20-40% reduction) → mitochondrial dysfunction in skin cells → impaired repair, barrier disruption, dry skin (5-15% incidence).",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 8"
+  },
+  {
+    "source": "statins",
+    "target": "photosensitivity",
+    "relationship": "worsens",
+    "effect_description": "1-5% develop photosensitivity, possibly related to porphyrin metabolism disruption. SPF 30+ recommended.",
+    "evidence_level": "C",
+    "citation": "medication-skin-interactions.md: Section 8"
+  },
+  {
+    "source": "statins",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Category X. Cholesterol essential for fetal development. Discontinue immediately if pregnancy occurs.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 8"
+  },
+  {
+    "source": "ssris_snris",
+    "target": "hyperhidrosis",
+    "relationship": "worsens",
+    "effect_description": "Most common side effect (5-20% SSRIs, higher with SNRIs). Altered hypothalamic thermoregulation and serotonin receptor activation on eccrine glands.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 9"
+  },
+  {
+    "source": "ssris_snris",
+    "target": "photosensitivity",
+    "relationship": "worsens",
+    "effect_description": "2-8% develop photosensitivity. Mechanism unclear but serotonin receptors on melanocytes may be involved. SPF 50+ recommended.",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 9"
+  },
+  {
+    "source": "ssris_snris",
+    "target": "xerosis",
+    "relationship": "worsens",
+    "effect_description": "Anticholinergic effects of some agents reduce sweating and can cause dry skin (2-5%).",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 9"
+  },
+  {
+    "source": "nsaids",
+    "target": "psoriasis",
+    "relationship": "worsens",
+    "effect_description": "Can exacerbate psoriasis, especially COX-2 selective agents. Arachidonic acid shunting to lipoxygenase pathway increases leukotrienes.",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Section 10"
+  },
+  {
+    "source": "nsaids",
+    "target": "wound-healing",
+    "relationship": "worsens",
+    "effect_description": "Prostaglandin depletion impairs granulation tissue formation, angiogenesis, and epithelialization. Clinically significant in surgical patients.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 10"
+  },
+  {
+    "source": "nsaids",
+    "target": "photosensitivity",
+    "relationship": "worsens",
+    "effect_description": "1-5% photosensitivity, especially piroxicam and ketoprofen. SPF 50+ recommended.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 10"
+  },
+  {
+    "source": "nsaids",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Third trimester: Category D (premature ductus arteriosus closure, oligohydramnios). First/second trimester: avoid if possible.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 10"
+  },
+  {
+    "source": "chemotherapy_agents",
+    "target": "alopecia",
+    "relationship": "worsens",
+    "effect_description": ">80% develop anagen effluvium. Taxanes, anthracyclines, and alkylating agents most commonly cause hair loss. Usually reversible 3-6 months post-treatment.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 11"
+  },
+  {
+    "source": "chemotherapy_agents",
+    "target": "xerosis",
+    "relationship": "worsens",
+    "effect_description": "EGFR inhibitors cause severe xerosis (30-50%). Chemotherapy impairs keratinocyte proliferation and barrier repair.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 11"
+  },
+  {
+    "source": "chemotherapy_agents",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Virtually all chemotherapy agents are Category D/X. Fetal death, malformations, growth restriction. Mandatory contraception during and after treatment.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 11"
+  },
+  {
+    "source": "metformin",
+    "target": "acne-vulgaris",
+    "relationship": "improves",
+    "effect_description": "Improves insulin sensitivity → reduces IGF-1/mTORC1 signaling → decreases sebum production. Particularly effective in PCOS-related acne.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 4.2"
+  },
+  {
+    "source": "metformin",
+    "target": "hirsutism",
+    "relationship": "improves",
+    "effect_description": "Improves insulin sensitivity → reduces ovarian androgen production → decreases hirsutism in PCOS.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 4.2"
+  },
+  {
+    "source": "antibiotics_tetracyclines",
+    "target": "acne-vulgaris",
+    "relationship": "improves",
+    "effect_description": "Anti-inflammatory and antibacterial effects. Reduce C. acnes and inhibit MMPs. Maximum 3-4 months to limit antibiotic exposure.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 3; clinical-guidelines.md: Acne"
+  },
+  {
+    "source": "antibiotics_tetracyclines",
+    "target": "rosacea",
+    "relationship": "improves",
+    "effect_description": "Doxycycline 40mg modified release (anti-inflammatory dose) effective for papulopustular rosacea. Reduces inflammation without full antibacterial effect.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 3; clinical-guidelines.md: Rosacea"
+  },
+  {
+    "source": "antibiotics_tetracyclines",
+    "target": "photosensitivity",
+    "relationship": "worsens",
+    "effect_description": "Especially doxycycline. Photosensitivity reactions common. Mandatory SPF 50+ and sun avoidance.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 3"
+  },
+  {
+    "source": "antibiotics_tetracyclines",
+    "target": "pregnancy",
+    "relationship": "contraindicated_with",
+    "effect_description": "Category D. Contraindicated - affects fetal teeth and bone development. Also contraindicated in children <8 years.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 3"
+  },
+  {
+    "source": "biotin",
+    "target": "acne-vulgaris",
+    "relationship": "worsens",
+    "effect_description": "High-dose biotin (>5-10mg/day) can cause acneiform eruptions and worsen existing acne. Mechanism unclear.",
+    "evidence_level": "C",
+    "citation": "medication-skin-interactions.md: Section 17"
+  },
+  {
+    "source": "topical_retinoids",
+    "target": "benzoyl_peroxide",
+    "relationship": "interacts_with",
+    "effect_description": "Benzoyl peroxide degrades tretinoin (oxidizes it). Do not apply simultaneously. OK with adapalene (stable). If using together: BPO AM, retinoid PM.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 23"
+  },
+  {
+    "source": "isotretinoin",
+    "target": "vitamin_a_supplements",
+    "relationship": "contraindicated_with",
+    "effect_description": "Additive toxicity risk - hypervitaminosis A. Can cause intracranial hypertension, liver toxicity, bone changes. Avoid all vitamin A supplements during isotretinoin therapy.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1"
+  },
+  {
+    "source": "isotretinoin",
+    "target": "tetracycline_antibiotics",
+    "relationship": "contraindicated_with",
+    "effect_description": "Combined use increases risk of pseudotumor cerebri (benign intracranial hypertension) - headache, visual changes, papilledema. Emergency.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 1; clinical-guidelines.md: Acne"
+  },
+  {
+    "source": "spironolactone",
+    "target": "ace_inhibitors",
+    "relationship": "contraindicated_with",
+    "effect_description": "Hyperkalemia risk. Both affect potassium balance. Monitor potassium if combined; often avoid co-prescription.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 6"
+  },
+  {
+    "source": "ssris_snris",
+    "target": "other_serotonergic_drugs",
+    "relationship": "contraindicated_with",
+    "effect_description": "Serotonin syndrome risk - diaphoresis, flushing, hyperthermia, tremor, agitation. Medical emergency. Includes MAOIs, tramadol, triptans, St. John's Wort.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 9"
+  },
+  {
+    "source": "corticosteroids",
+    "target": "retinoids",
+    "relationship": "caution",
+    "effect_description": "Both affect skin barrier and wound healing. Using together on same area increases irritation and atrophy risk. Space applications or rotate.",
+    "evidence_level": "B",
+    "citation": "medication-skin-interactions.md: Sections 2, 7"
+  },
+  {
+    "source": "nsaids",
+    "target": "procedures",
+    "relationship": "interacts_with",
+    "effect_description": "Increase bleeding risk and impair wound healing. Discontinue 7-10 days before invasive procedures (coordinate with prescriber).",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 10"
+  },
+  {
+    "source": "statins",
+    "target": "coq10",
+    "relationship": "interacts_with",
+    "effect_description": "Statins deplete CoQ10 (20-40% reduction). CoQ10 supplementation (100-200mg/day) recommended to counter mitochondrial dysfunction and myalgia. May benefit skin.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 8"
+  },
+  {
+    "source": "immunosuppressants",
+    "target": "live_vaccines",
+    "relationship": "contraindicated_with",
+    "effect_description": "Live vaccines contraindicated due to impaired immune response and risk of disseminated infection. Includes MMR, varicella, yellow fever, intranasal flu.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 12"
+  },
+  {
+    "source": "immunosuppressants",
+    "target": "phototherapy",
+    "relationship": "caution",
+    "effect_description": "Increased skin cancer risk with combined immunosuppression and UV exposure. Monitor closely; consider alternatives.",
+    "evidence_level": "A",
+    "citation": "medication-skin-interactions.md: Section 12"
+  }
+]

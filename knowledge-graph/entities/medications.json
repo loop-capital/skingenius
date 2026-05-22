@@ -1,0 +1,394 @@
+[
+  {
+    "id": "isotretinoin",
+    "name": "Isotretinoin (Accutane)",
+    "drug_class": "Systemic Retinoid",
+    "skin_effects": [
+      "Dramatically reduces sebum production (up to 90%)",
+      "Cheilitis (>90%)",
+      "Xerosis (>80%)",
+      "Dry eyes / conjunctivitis (40-50%)",
+      "Epistaxis (30-40%)",
+      "Photosensitivity (20-30%)",
+      "Facial erythema (20-30%)",
+      "Desquamation / peeling (30-50%)",
+      "Initial acne flare (15-25%)",
+      "Skin fragility (10-15%)",
+      "Delayed wound healing",
+      "Teratogenicity (Category X - absolute contraindication)"
+    ],
+    "interactions": [
+      "Vitamin A supplements - additive toxicity risk",
+      "Tetracyclines - pseudotumor cerebri risk",
+      "Waxing/dermaplaning - skin tearing, scarring",
+      "Laser treatments/microneedling/chemical peels - scarring risk (avoid during + 6 months post)",
+      "Alcohol - additive hepatotoxicity"
+    ],
+    "pregnancy_category": "X",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "monitoring": [
+      "Monthly pregnancy test",
+      "Lipid panel baseline + monthly x2, then q2 months",
+      "Liver function (AST/ALT) baseline + monthly x2",
+      "iPLEDGE enrollment (US)"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 1 (Isotretinoin)"
+    ]
+  },
+  {
+    "id": "topical_retinoids",
+    "name": "Topical Retinoids (Tretinoin, Adapalene, Tazarotene)",
+    "drug_class": "Topical Retinoid",
+    "skin_effects": [
+      "Erythema (dose-dependent; tazarotene > tretinoin > adapalene)",
+      "Peeling / desquamation (peaks week 2-4)",
+      "Dryness / xerosis",
+      "Burning / stinging (transient)",
+      "Photosensitivity",
+      "Initial acne flare ('retinization')",
+      "Pruritus",
+      "Post-inflammatory hyperpigmentation (if irritated without sun protection)"
+    ],
+    "interactions": [
+      "Benzoyl peroxide - degrades tretinoin (OK with adapalene)",
+      "AHA/BHA - alternate nights initially",
+      "Vitamin C (L-Ascorbic acid) - can combine with proper timing",
+      "Waxing/threading - avoid within 1 week",
+      "Harsh cleansers (SLS) - additive irritation"
+    ],
+    "pregnancy_category": "C (tretinoin, adapalene); X (tazarotene)",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "source_citations": [
+      "medication-skin-interactions.md: Section 2 (Topical Retinoids)"
+    ]
+  },
+  {
+    "id": "oral_contraceptives",
+    "name": "Oral Contraceptives (Combined)",
+    "drug_class": "Hormonal Contraceptive",
+    "skin_effects": [
+      "Can improve hormonal acne (FDA-approved: norgestimate, drospirenone, norethindrone combinations)",
+      "May worsen melasma (especially estrogen-containing)",
+      "Can improve hirsutism",
+      "May cause chloasma",
+      "Spider telangiectasias (rare)"
+    ],
+    "interactions": [
+      "Antibiotics (rifampin, some others) - reduced efficacy",
+      "St. John's Wort - reduced efficacy",
+      "Spironolactone - additive potassium elevation",
+      "Retinoids - pregnancy contraindication synergy"
+    ],
+    "pregnancy_category": "X (when used for contraception)",
+    "photosensitivity": false,
+    "evidence_level": "A",
+    "source_citations": [
+      "medication-skin-interactions.md: Section 5 (Oral Contraceptives)",
+      "clinical-guidelines.md: Acne (hormonal therapy)"
+    ]
+  },
+  {
+    "id": "spironolactone",
+    "name": "Spironolactone",
+    "drug_class": "Potassium-Sparing Diuretic / Anti-Androgen",
+    "skin_effects": [
+      "Reduces hormonal acne (50-200 mg/day)",
+      "Improves hirsutism",
+      "Supports hair growth in female pattern hair loss",
+      "Can cause breast tenderness",
+      "May cause menstrual irregularities"
+    ],
+    "interactions": [
+      "ACE inhibitors / ARBs - hyperkalemia risk",
+      "Potassium supplements - hyperkalemia",
+      "Oral contraceptives - additive potassium effect",
+      "NSAIDs - reduced diuretic effect + potassium retention"
+    ],
+    "pregnancy_category": "C (but absolutely contraindicated - anti-androgenic, can feminize male fetus)",
+    "photosensitivity": false,
+    "evidence_level": "A",
+    "monitoring": [
+      "Potassium levels (especially with ACE inhibitors/ARBs)"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 6 (Spironolactone)",
+      "clinical-guidelines.md: Acne (hormonal therapy)"
+    ]
+  },
+  {
+    "id": "corticosteroids",
+    "name": "Corticosteroids (Topical and Systemic)",
+    "drug_class": "Glucocorticoid",
+    "skin_effects": [
+      "Skin thinning / atrophy (universal with prolonged topical use)",
+      "Easy bruising / steroid purpura",
+      "Striae (purple, permanent)",
+      "Acne / steroid acne (monomorphic papules/pustules)",
+      "Hirsutism",
+      "Delayed wound healing",
+      "Subcutaneous fat atrophy (injection sites)",
+      "Perioral dermatitis (face misuse)",
+      "Steroid rosacea (face misuse)",
+      "Tachyphylaxis (reduced efficacy with continued use)"
+    ],
+    "interactions": [
+      "Retinoids - additive irritation",
+      "AHAs/BHAs - additive irritation",
+      "Other potent actives on same area",
+      "Occlusion over high-potency - increases absorption and side effects",
+      "Vitamin C (topical) - generally safe but monitor irritation"
+    ],
+    "pregnancy_category": "C (topical generally safe with appropriate use)",
+    "photosensitivity": false,
+    "evidence_level": "A",
+    "safety_rules": [
+      "Face/eyelids/genitals/intertriginous: low-potency only (VII-VI)",
+      "Trunk/extremities: mid-potency (V-IV)",
+      "Thick plaques/palms/soles: high-potency (III-I) short-term only",
+      "Never use on undiagnosed rashes",
+      "Taper after prolonged use",
+      "Pulse therapy: daily 2 weeks, then 2x/week maintenance"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 7 (Corticosteroids)"
+    ]
+  },
+  {
+    "id": "statins",
+    "name": "Statins (HMG-CoA Reductase Inhibitors)",
+    "drug_class": "Lipid-Lowering Agent",
+    "skin_effects": [
+      "Xerosis (5-15%) - reduced sebum, barrier lipid disruption",
+      "Photosensitivity (1-5%)",
+      "Eczema/dermatitis (2-8%)",
+      "Pruritus (3-10%)",
+      "Alopecia (<1%)",
+      "Dermatomyositis-like eruption (rare)",
+      "Lupus exacerbation (rare)"
+    ],
+    "mechanism": "Inhibit HMG-CoA reductase → reduces CoQ10 synthesis (20-40% reduction) → mitochondrial dysfunction in skin cells → impaired repair, barrier dysfunction, oxidative stress",
+    "interactions": [
+      "CoQ10 supplements - recommended to counter depletion",
+      "Grapefruit juice - increases statin levels",
+      "Fibrates - myopathy risk"
+    ],
+    "pregnancy_category": "X",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "skincare_recommendations": [
+      "CoQ10 supplementation (100-200 mg/day)",
+      "Ceramide-rich moisturizers",
+      "Niacinamide 2-5%",
+      "Gentle non-foaming cleansers",
+      "Broad-spectrum SPF 30+"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 8 (Statins)"
+    ]
+  },
+  {
+    "id": "ssris_snris",
+    "name": "SSRIs / SNRIs",
+    "drug_class": "Antidepressant (Serotonin Reuptake Inhibitor)",
+    "skin_effects": [
+      "Hyperhidrosis (excessive sweating, 5-20%)",
+      "Night sweats (10-25%)",
+      "Photosensitivity (2-8%)",
+      "Easy bruising / petechiae (5-15%)",
+      "Pruritus (2-10%)",
+      "Urticaria (1-3%)",
+      "Xerosis (2-5%)",
+      "Acneiform eruption (<2%)",
+      "Alopecia (<1%)",
+      "Serotonin syndrome (diaphoresis, flushing, hyperthermia - emergency)"
+    ],
+    "mechanism": "Increased serotonin activates 5-HT receptors on keratinocytes, melanocytes, fibroblasts, mast cells; altered thermoregulation; platelet serotonin depletion → impaired clotting; anticholinergic effects",
+    "interactions": [
+      "Other serotonergic drugs - serotonin syndrome risk",
+      "Photosensitizing skincare - additive risk",
+      "MAOIs - contraindicated",
+      "Tramadol - serotonin syndrome risk"
+    ],
+    "pregnancy_category": "C (paroxetine: D)",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "skincare_recommendations": [
+      "Clinical-strength antiperspirant (20% aluminum chloride) for hyperhidrosis",
+      "Broad-spectrum SPF 50+",
+      "Gentle barrier-repair moisturizers for xerosis",
+      "Niacinamide 4-5%",
+      "Azelaic acid if acneiform eruption develops"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 9 (SSRIs/SNRIs)"
+    ]
+  },
+  {
+    "id": "nsaids",
+    "name": "NSAIDs",
+    "drug_class": "Non-Steroidal Anti-Inflammatory Drug",
+    "skin_effects": [
+      "Photosensitivity (1-5%, especially piroxicam, ketoprofen)",
+      "Urticaria / angioedema (0.5-2%)",
+      "Wound healing delay (dose-dependent)",
+      "Purpura / petechiae (1-3%, especially aspirin)",
+      "Contact dermatitis (topical, 5-10%)",
+      "Xerosis (2-5%)",
+      "Psoriasis exacerbation (especially COX-2 selective)",
+      "Stevens-Johnson syndrome / TEN (rare, <0.01%)"
+    ],
+    "mechanism": "COX inhibition → prostaglandin depletion → impaired wound healing; arachidonic acid shunting to lipoxygenase → leukotrienes; increased intestinal permeability → gut-skin axis activation",
+    "interactions": [
+      "Topical NSAIDs + oral NSAIDs - systemic absorption risk",
+      "Anticoagulants - bleeding risk",
+      "SSRIs - GI bleeding risk",
+      "Retinoids - both affect wound healing",
+      "Corticosteroids - GI bleeding risk"
+    ],
+    "pregnancy_category": "D (3rd trimester); avoid 1st/2nd if possible",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "skincare_recommendations": [
+      "Discontinue 7-10 days before invasive procedures (coordinate with prescriber)",
+      "Broad-spectrum SPF 50+ for photosensitizing NSAIDs",
+      "Gentle barrier-supportive skincare",
+      "Avoid aggressive exfoliation if bruising present"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 10 (NSAIDs)"
+    ]
+  },
+  {
+    "id": "chemotherapy_agents",
+    "name": "Chemotherapy Agents",
+    "drug_class": "Cytotoxic / Targeted Antineoplastic",
+    "skin_effects": [
+      "Hand-foot syndrome (palmar-plantar erythrodysesthesia, 40-60% with taxanes/5-FU)",
+      "Alopecia (>80% with most agents)",
+      "Acneiform rash (60-90% with EGFR inhibitors)",
+      "Xerosis (30-50% with EGFR inhibitors)",
+      "Pruritus (20-40%)",
+      "Paronychia (10-20% with EGFR inhibitors)",
+      "Nail changes (Beau's lines, onycholysis, 30-50%)",
+      "Radiation recall dermatitis",
+      "Immune-related adverse events - rash, vitiligo, lichenoid (ICIs)"
+    ],
+    "class_specific_effects": {
+      "taxanes": "Hand-foot syndrome, alopecia, nail changes, scleroderma-like changes",
+      "egfr_inhibitors": "Acneiform rash, xerosis, pruritus, paronychia, hair changes",
+      "5fu_capecitabine": "Hand-foot syndrome, photosensitivity, hyperpigmentation, mucositis",
+      "immune_checkpoint_inhibitors": "Maculopapular rash, vitiligo, pruritus, lichenoid reactions, SJS/TEN"
+    },
+    "interactions": [
+      "Topical retinoids - may worsen EGFR-induced xerosis",
+      "Photosensitizing skincare - additive with photosensitizing chemo",
+      "Vitamin A supplements - additive toxicity with retinoid-like chemo"
+    ],
+    "pregnancy_category": "D/X (teratogenic - virtually all agents)",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "skincare_recommendations": [
+      "Urea 10-20% cream for hand-foot syndrome",
+      "Cold therapy (frozen gloves/socks) for taxane hand-foot",
+      "Minoxidil for alopecia (limited efficacy during active chemo)",
+      "Broad-spectrum SPF 50+",
+      "Gentle, fragrance-free moisturizers",
+      "Avoid procedures during treatment + 6 months post"
+    ],
+    "source_citations": [
+      "medication-skin-interactions.md: Section 11 (Chemotherapy)"
+    ]
+  },
+  {
+    "id": "immunosuppressants",
+    "name": "Immunosuppressants (Methotrexate, Cyclosporine, Biologics)",
+    "drug_class": "Immunosuppressive Agent",
+    "skin_effects": [
+      "Methotrexate: mucositis, alopecia, photosensitivity, ulceration",
+      "Cyclosporine: hypertrichosis, gingival hyperplasia, skin thickening",
+      "Biologics: injection site reactions, increased infection risk",
+      "TNF inhibitors: psoriasis paradoxical reaction (rare)"
+    ],
+    "interactions": [
+      "Live vaccines - contraindicated",
+      "Phototherapy - increased skin cancer risk with biologics",
+      "NSAIDs - additive toxicity with methotrexate",
+      "Retinoids - contraindicated with methotrexate (both hepatotoxic)"
+    ],
+    "pregnancy_category": "X (methotrexate, cyclosporine varies by trimester)",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "source_citations": [
+      "medication-skin-interactions.md: Section 12 (Immunosuppressants)",
+      "clinical-guidelines.md: Psoriasis, AD sections"
+    ]
+  },
+  {
+    "id": "metformin",
+    "name": "Metformin",
+    "drug_class": "Biguanide Antidiabetic",
+    "skin_effects": [
+      "Can improve acne (via insulin sensitivity improvement)",
+      "May reduce hirsutism (in PCOS)",
+      "Can cause vitamin B12 deficiency (long-term) - may affect skin health",
+      "Lactic acidosis (rare, serious)"
+    ],
+    "interactions": [
+      "Contrast dye - hold before/after studies",
+      "Alcohol - lactic acidosis risk"
+    ],
+    "pregnancy_category": "B (generally considered safe in pregnancy)",
+    "photosensitivity": false,
+    "evidence_level": "B",
+    "source_citations": [
+      "hormone-skin-connection.md: Section 4.2 (metformin for PCOS-related skin)"
+    ]
+  },
+  {
+    "id": "antibiotics_tetracyclines",
+    "name": "Tetracycline Antibiotics (Doxycycline, Minocycline, Sarecycline)",
+    "drug_class": "Antibiotic (Tetracycline)",
+    "skin_effects": [
+      "Photosensitivity (especially doxycycline)",
+      "Pigmentation (minocycline - skin, nails, sclera, teeth)",
+      "Fixed drug eruption",
+      "Stevens-Johnson syndrome (rare)"
+    ],
+    "interactions": [
+      "Retinoids (isotretinoin) - pseudotumor cerebri",
+      "Antacids/dairy - reduced absorption",
+      "Zinc supplements - chelation, reduced absorption",
+      "Oral contraceptives - possible reduced efficacy (controversial)"
+    ],
+    "pregnancy_category": "D (contraindicated - teeth/bone effects in fetus)",
+    "photosensitivity": true,
+    "evidence_level": "A",
+    "source_citations": [
+      "medication-skin-interactions.md: Section 3 (Oral Antibiotics)",
+      "clinical-guidelines.md: Acne (oral antibiotics)"
+    ]
+  },
+  {
+    "id": "biotin",
+    "name": "Biotin Supplements",
+    "drug_class": "Vitamin B7 (OTC Supplement)",
+    "skin_effects": [
+      "Can cause acneiform eruptions at high doses (>5-10 mg/day)",
+      "May worsen existing acne",
+      "Supports nail strength (limited skin benefit)"
+    ],
+    "interactions": [
+      "Lab tests - biotin interferes with immunoassays (thyroid, troponin, PSA) - stop 48-72h before testing",
+      "High doses can cause falsely abnormal lab results"
+    ],
+    "pregnancy_category": "A (safe)",
+    "photosensitivity": false,
+    "evidence_level": "C",
+    "source_citations": [
+      "medication-skin-interactions.md: Section 17 (Biotin)"
+    ]
+  }
+]

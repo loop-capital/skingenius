@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FFFBF5;
+  --color-foreground: #1C1917;
+  --color-primary: #047857;
+  --color-primary-hover: #059669;
+  --color-primary-active: #065F46;
+  --color-primary-50: #ECFDF5;
+  --color-primary-100: #D1FAE5;
+  --color-tertiary: #D97706;
+  --color-tertiary-hover: #F59E0B;
+  --color-ink: #1C1917;
+  --color-ink-secondary: #78716C;
+  --color-ink-muted: #A8A29E;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F5F5F4;
+  --color-hairline: #E7E5E4;
+  --color-canvas-dark: #1C1917;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-hairline);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-ink);
+  }
+}
+
+@keyframes scanLine {
+  0%, 100% { top: 20%; }
+  50% { top: 80%; }
+}
+
+.animate-scan-line {
+  animation: scanLine 2s ease-in-out infinite;
+}

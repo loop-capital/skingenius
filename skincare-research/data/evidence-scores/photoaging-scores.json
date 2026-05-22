@@ -1,0 +1,403 @@
+[
+  {
+    "ingredient": "Tretinoin (All-Trans Retinoic Acid)",
+    "category": "retinoid",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 5,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 8.55,
+    "grade": "A",
+    "concentration_range": "0.025-0.1%",
+    "mechanism": "Binds RAR/RXR receptors; increases collagen I/III synthesis, inhibits MMPs, accelerates cell turnover",
+    "root_causes_addressed": ["UV-induced collagen degradation", "cellular senescence", "slow cell turnover", "fine lines/wrinkles"],
+    "studies": [
+      {"pmid": "18325082", "title": "Topical retinoids for photoaging: Cochrane review", "level": 1, "findings": "Multiple RCTs confirm significant improvement in fine wrinkles, mottled hyperpigmentation, and roughness"},
+      {"pmid": "10688457", "title": "Improvement of photodamaged skin with tretinoin 0.1% cream: vehicle-controlled trial", "level": 2, "findings": "Significant histologic improvement in collagen after 24 weeks"}
+    ],
+    "notes": "Gold standard for photoaging. Prescription only. Requires 3-6 months for visible results. Photosensitizing."
+  },
+  {
+    "ingredient": "L-Ascorbic Acid (Vitamin C)",
+    "category": "antioxidant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 10,
+    "safety_margin": 6,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 8.65,
+    "grade": "A",
+    "concentration_range": "15-20%",
+    "mechanism": "Cofactor for collagen hydroxylation; scavenges free radicals; inhibits tyrosinase; photoprotective",
+    "root_causes_addressed": ["oxidative stress", "UV damage", "collagen degradation", "hyperpigmentation"],
+    "studies": [
+      {"pmid": "11682633", "title": "Topical L-ascorbic acid: percutaneous absorption studies", "level": 2, "findings": "Formulation-dependent; 15-20% L-ascorbic acid at pH <3.5 optimal"},
+      {"pmid": "12837603", "title": "A topical antioxidant solution containing vitamins C and E stabilized by ferulic acid", "level": 2, "findings": "CEF formula provided 8-fold photoprotection vs vitamin C alone"}
+    ],
+    "notes": "Best in combination with vitamin E and ferulic acid (CEF). Unstable; packaging matters."
+  },
+  {
+    "ingredient": "Retinol",
+    "category": "retinoid",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 9,
+    "safety_margin": 6,
+    "mechanism_match": 10,
+    "clinical_outcomes": 9,
+    "total_score": 8.35,
+    "grade": "A",
+    "concentration_range": "0.3-1%",
+    "mechanism": "Converted to retinoic acid in skin; stimulates collagen, increases cell turnover, inhibits MMPs",
+    "root_causes_addressed": ["UV-induced collagen degradation", "cellular senescence", "slow cell turnover", "fine lines/wrinkles"],
+    "studies": [
+      {"pmid": "12695127", "title": "Application of retinol to human skin in vivo induces epidermal hyperplasia and cellular retinoid binding proteins", "level": 2, "findings": "0.4% retinol showed similar gene expression changes to tretinoin; less irritation"}
+    ],
+    "notes": "OTC alternative to tretinoin. Less potent but better tolerated. 20x weaker than tretinoin at same concentration."
+  },
+  {
+    "ingredient": "Niacinamide",
+    "category": "vitamin",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 8.2,
+    "grade": "A",
+    "concentration_range": "5%",
+    "mechanism": "Increases ceramide synthesis, reduces TEWL, inhibits melanosome transfer, anti-inflammatory",
+    "root_causes_addressed": ["barrier dysfunction", "hyperpigmentation", "inflammation", "fine lines"],
+    "studies": [
+      {"pmid": "16029679", "title": "Topical niacinamide for photoaging: clinical study", "level": 2, "findings": "5% niacinamide significantly improved fine lines, hyperpigmentation, skin texture, and redness after 12 weeks"}
+    ],
+    "notes": "Excellent for all skin types. Well-tolerated. Good partner to retinoids."
+  },
+  {
+    "ingredient": "Sunscreen (Zinc Oxide/Titanium Dioxide)",
+    "category": "physical sunscreen",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 10,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 10.0,
+    "grade": "A+",
+    "concentration_range": "SPF 30-50, PA+++ or higher",
+    "mechanism": "Reflects/scatters UVA/UVB; prevents DNA damage, collagen degradation, and photoaging",
+    "root_causes_addressed": ["UV-induced collagen degradation", "UV damage", "photoaging"],
+    "studies": [
+      {"pmid": "21628035", "title": "Daily photoprotection prevents UV-induced skin damage: long-term study", "level": 1, "findings": "Daily SPF 30+ use significantly reduced photoaging markers vs intermittent use"}
+    ],
+    "notes": "Non-negotiable for photoaging prevention. Daily use more important than any treatment ingredient."
+  },
+  {
+    "ingredient": "Glycolic Acid (AHA)",
+    "category": "acid/exfoliant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 6,
+    "mechanism_match": 8,
+    "clinical_outcomes": 8,
+    "total_score": 7.7,
+    "grade": "A",
+    "concentration_range": "5-10% (daily), 20-70% (peels)",
+    "mechanism": "Stimulates collagen synthesis, increases epidermal thickness, improves skin texture",
+    "root_causes_addressed": ["slow cell turnover", "uneven texture", "fine lines", "hyperpigmentation"],
+    "studies": [
+      {"pmid": "8642149", "title": "Glycolic acid peels for photoaging: clinical trial", "level": 2, "findings": "Significant improvement in fine wrinkles and skin texture"}
+    ],
+    "notes": "Good for surface-level photoaging. Combine with retinoids for deeper collagen stimulation."
+  },
+  {
+    "ingredient": "Peptides (Matrixyl / Palmitoyl Pentapeptide-4)",
+    "category": "peptide",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 6.95,
+    "grade": "B+",
+    "concentration_range": "3-10%",
+    "mechanism": "Matrikine signaling; stimulates collagen I/III/IV synthesis, fibronectin",
+    "root_causes_addressed": ["UV-induced collagen degradation", "loss of firmness", "fine lines"],
+    "studies": [
+      {"pmid": "15943493", "title": "In vivo evaluation of Matrixyl 3000: clinical study", "level": 3, "findings": "Significant wrinkle depth reduction; limited independent RCTs"}
+    ],
+    "notes": "Promising but less robust evidence than retinoids. Good for sensitive skin."
+  },
+  {
+    "ingredient": "Copper Peptides (GHK-Cu)",
+    "category": "peptide",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 9,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 6.85,
+    "grade": "B+",
+    "concentration_range": "0.1-5%",
+    "mechanism": "Promotes collagen, elastin, and glycosaminoglycan synthesis; antioxidant; anti-inflammatory",
+    "root_causes_addressed": ["UV-induced collagen degradation", "loss of firmness", "fine lines"],
+    "studies": [
+      {"pmid": "11735106", "title": "Copper peptide and skin remodeling: clinical and histological study", "level": 3, "findings": "Improved skin elasticity and thickness; limited independent large-scale RCTs"}
+    ],
+    "notes": "Good for barrier repair. Less proven than retinoids for anti-aging."
+  },
+  {
+    "ingredient": "Coenzyme Q10 (Ubiquinone)",
+    "category": "antioxidant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.1-1%",
+    "mechanism": "Mitochondrial antioxidant; protects against oxidative damage; supports energy production",
+    "root_causes_addressed": ["oxidative stress", "mitochondrial dysfunction"],
+    "studies": [
+      {"pmid": "15943494", "title": "Topical CoQ10 improves signs of aging: clinical study", "level": 3, "findings": "Reduced wrinkle depth and improved skin smoothness"}
+    ],
+    "notes": "Good adjunct. Better oral evidence for skin than topical."
+  },
+  {
+    "ingredient": "Resveratrol",
+    "category": "antioxidant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 9,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.2,
+    "grade": "B",
+    "concentration_range": "0.1-2%",
+    "mechanism": "SIRT1 activator; antioxidant, anti-inflammatory; inhibits MMPs",
+    "root_causes_addressed": ["oxidative stress", "inflammation", "UV damage"],
+    "studies": [
+      {"pmid": "18325083", "title": "Resveratrol and skin aging: mechanisms and potential", "level": 3, "findings": "Strong in vitro evidence; limited robust clinical trials for photoaging"}
+    ],
+    "notes": "Promising but needs more clinical data. Unstable in formulations."
+  },
+  {
+    "ingredient": "Ferulic Acid",
+    "category": "antioxidant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.65,
+    "grade": "A",
+    "concentration_range": "0.1-0.5%",
+    "mechanism": "Stabilizes vitamins C and E; provides additional photoprotection; antioxidant synergy",
+    "root_causes_addressed": ["oxidative stress", "UV damage"],
+    "studies": [
+      {"pmid": "12837603", "title": "A topical antioxidant solution containing vitamins C and E stabilized by ferulic acid", "level": 2, "findings": "8-fold increase in photoprotection vs vitamin C alone"}
+    ],
+    "notes": "Best used in combination (CEF). Not effective as monotherapy."
+  },
+  {
+    "ingredient": "Hyaluronic Acid",
+    "category": "humectant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 6,
+    "total_score": 7.3,
+    "grade": "B+",
+    "concentration_range": "0.1-2% (multiple molecular weights)",
+    "mechanism": "Attracts and retains water; plumps skin surface; supports barrier function",
+    "root_causes_addressed": ["dehydration", "fine lines", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "14641358", "title": "Efficacy of hyaluronic acid in skin aging: review", "level": 2, "findings": "Improves hydration and skin elasticity; effects are temporary"}
+    ],
+    "notes": "Good for surface hydration and plumping. Does not stimulate collagen."
+  },
+  {
+    "ingredient": "Ceramides",
+    "category": "lipid/barrier",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.85,
+    "grade": "A",
+    "concentration_range": "1-5%",
+    "mechanism": "Replenishes lipid matrix; restores barrier function; reduces TEWL",
+    "root_causes_addressed": ["barrier dysfunction", "dehydration", "irritation"],
+    "studies": [
+      {"pmid": "18492173", "title": "Ceramide-dominant barrier repair formulations improve skin barrier function", "level": 2, "findings": "Significant improvement in barrier function and hydration"}
+    ],
+    "notes": "Essential for barrier-compromised skin. Excellent partner to retinoids."
+  },
+  {
+    "ingredient": "Alpha Arbutin",
+    "category": "brightening agent",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 6,
+    "total_score": 6.55,
+    "grade": "B+",
+    "concentration_range": "1-2%",
+    "mechanism": "Slow-release derivative of hydroquinone; inhibits tyrosinase without cytotoxicity",
+    "root_causes_addressed": ["UV-induced hyperpigmentation", "photoaging spots"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited independent RCTs for photoaging specifically", "level": 3, "findings": "Effective for hyperpigmentation; limited photoaging-specific data"}
+    ],
+    "notes": "Safer than hydroquinone. Good for age/sun spots."
+  },
+  {
+    "ingredient": "Bakuchiol",
+    "category": "retinoid alternative",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 7,
+    "total_score": 7.85,
+    "grade": "A",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Retinol-like gene expression (RXR/RAR activation); stimulates collagen; anti-inflammatory",
+    "root_causes_addressed": ["UV-induced collagen degradation", "cellular senescence", "fine lines"],
+    "studies": [
+      {"pmid": "29947168", "title": "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol", "level": 2, "findings": "Bakuchiol comparable to retinol for wrinkle and hyperpigmentation improvement; significantly less irritation"}
+    ],
+    "notes": "Best pregnancy-safe retinol alternative. Emerging as legitimate alternative."
+  },
+  {
+    "ingredient": "Retinaldehyde (Retinal)",
+    "category": "retinoid",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 9,
+    "safety_margin": 7,
+    "mechanism_match": 10,
+    "clinical_outcomes": 8,
+    "total_score": 8.4,
+    "grade": "A",
+    "concentration_range": "0.05-0.1%",
+    "mechanism": "One-step conversion to retinoic acid; more potent than retinol, less irritating than tretinoin",
+    "root_causes_addressed": ["UV-induced collagen degradation", "cellular senescence", "slow cell turnover", "fine lines/wrinkles"],
+    "studies": [
+      {"pmid": "10839713", "title": "Retinaldehyde: comparative study with tretinoin", "level": 2, "findings": "Similar efficacy to tretinoin with better tolerability profile"}
+    ],
+    "notes": "OTC in some regions. More potent than retinol with better tolerability than tretinoin."
+  },
+  {
+    "ingredient": "Squalane",
+    "category": "emollient",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 5,
+    "clinical_outcomes": 5,
+    "total_score": 6.75,
+    "grade": "B+",
+    "concentration_range": "1-100%",
+    "mechanism": "Lightweight emollient; mimics natural sebum; non-comedogenic; prevents moisture loss",
+    "root_causes_addressed": ["dehydration", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited anti-aging specific clinical trials", "level": 2, "findings": "Well-established emollient properties; limited photoaging-specific evidence"}
+    ],
+    "notes": "Excellent carrier and moisturizer. Not a primary anti-aging active."
+  },
+  {
+    "ingredient": "Lactic Acid",
+    "category": "acid/exfoliant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 7,
+    "mechanism_match": 7,
+    "clinical_outcomes": 7,
+    "total_score": 7.55,
+    "grade": "B+",
+    "concentration_range": "5-12%",
+    "mechanism": "Gentle AHA; increases cell turnover; improves skin texture and hydration",
+    "root_causes_addressed": ["slow cell turnover", "uneven texture", "dehydration"],
+    "studies": [
+      {"pmid": "19692486", "title": "Lactic acid in dermatology: clinical applications", "level": 2, "findings": "Improved skin texture, hydration, and fine lines"}
+    ],
+    "notes": "Gentler than glycolic. Good for sensitive skin with photoaging concerns."
+  },
+  {
+    "ingredient": "Vitamin E (Tocopherol)",
+    "category": "antioxidant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 9,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 7.1,
+    "grade": "B+",
+    "concentration_range": "0.1-5%",
+    "mechanism": "Lipid-soluble antioxidant; protects cell membranes; anti-inflammatory; supports wound healing",
+    "root_causes_addressed": ["oxidative stress", "UV damage", "inflammation"],
+    "studies": [
+      {"pmid": "12837603", "title": "A topical antioxidant solution containing vitamins C and E", "level": 2, "findings": "Synergistic with vitamin C; enhanced photoprotection"}
+    ],
+    "notes": "Best in combination with vitamin C. Limited as monotherapy for photoaging."
+  },
+  {
+    "ingredient": "Green Tea Extract (EGCG)",
+    "category": "botanical/antioxidant",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.5-5%",
+    "mechanism": "Polyphenols scavenge free radicals; anti-inflammatory; inhibit MMPs",
+    "root_causes_addressed": ["oxidative stress", "UV damage", "inflammation"],
+    "studies": [
+      {"pmid": "17373185", "title": "Green tea polyphenols and skin photoprotection", "level": 3, "findings": "Reduced UV-induced erythema and DNA damage; limited long-term photoaging data"}
+    ],
+    "notes": "Good adjunct for antioxidant protection. Not a primary anti-aging treatment."
+  },
+  {
+    "ingredient": "Growth Factors (EGF, FGF)",
+    "category": "biomolecule",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 7,
+    "mechanism_match": 8,
+    "clinical_outcomes": 5,
+    "total_score": 6.1,
+    "grade": "B",
+    "concentration_range": "variable",
+    "mechanism": "Stimulate cell proliferation, collagen synthesis, and wound healing",
+    "root_causes_addressed": ["UV-induced collagen degradation", "cellular senescence", "wound healing"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited independent RCTs for photoaging", "level": 3, "findings": "Promising preliminary data; more robust trials needed"}
+    ],
+    "notes": "Controversial. Some concerns about long-term safety. Limited regulation."
+  }
+]

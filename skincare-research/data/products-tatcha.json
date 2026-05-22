@@ -1,0 +1,1140 @@
+[
+  {
+    "name": "The Water Cream",
+    "brand": "Tatcha",
+    "category": "Moisturizer",
+    "price": "$72.00",
+    "size": "1.7 oz (50ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Dimethicone",
+      "Cyclopentasiloxane",
+      "Diglycerin",
+      "Silica",
+      "Squalane",
+      "Panax Ginseng Root Extract",
+      "Camellia Japonica Seed Oil",
+      "Inositol (Rice Extract)",
+      "Sericin (Silk Extract)",
+      "Algae Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Glycyrrhiza Glabra (Licorice) Root Extract",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Oryza Sativa (Rice) Bran",
+      "Chondrus Crispus (Carrageenan) Extract",
+      "Thymus Serpillum Extract",
+      "Allantoin",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "Dimethicone/PEG-10 Crosspolymer",
+      "Propanediol",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™ (Fermented Japanese Superfoods: Green Tea, Rice, Algae)",
+        "concentration": "Proprietary blend",
+        "function": "Antioxidant-rich complex, boosts skin luminosity, supports barrier function"
+      },
+      {
+        "ingredient": "Japanese Wild Rose",
+        "concentration": "Extract",
+        "function": "Tightens appearance of pores, smooths skin texture"
+      },
+      {
+        "ingredient": "Japanese Leopard Lily",
+        "concentration": "Extract",
+        "function": "Calms skin, helps control excess oil and shine"
+      },
+      {
+        "ingredient": "Silk Extract (Sericin)",
+        "concentration": "~0.5%",
+        "function": "Protein-rich, improves moisture retention, gives characteristic silky finish"
+      },
+      {
+        "ingredient": "Squalane",
+        "concentration": "~2-3%",
+        "function": "Non-comedogenic emollient, balances oil production"
+      }
+    ],
+    "conditions_addressed": [
+      "Excess oil",
+      "Enlarged pores",
+      "Dehydrated oily skin",
+      "Lightweight hydration",
+      "Pre-makeup base"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Normal"
+    ],
+    "contraindications": [
+      "Contains fragrance (natural); patch test if fragrance-sensitive",
+      "Silicone-heavy formula may not suit those avoiding silicones",
+      "Generally safe in pregnancy"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "The Rice Polish: Classic (Foaming Enzyme Powder)",
+    "brand": "Tatcha",
+    "category": "Exfoliant/Cleanser",
+    "price": "$68.00",
+    "size": "2.1 oz (60g)",
+    "inci_ingredients": [
+      "Microcrystalline Cellulose",
+      "Oryza Sativa (Rice) Bran",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Oryza Sativa (Rice) Starch",
+      "Papain (Papaya Enzyme)",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Lauryl Betaine",
+      "Sodium Chloride",
+      "Sodium Dehydroacetate",
+      "Cellulose Gum",
+      "Sericin (Silk Extract)",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Fragrance (Natural)",
+      "Mica",
+      "Titanium Dioxide (CI 77891)"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Japanese Rice Bran",
+        "concentration": "~30-40% (base)",
+        "function": "Physical exfoliant rich in inositol, softens and polishes skin"
+      },
+      {
+        "ingredient": "Papain (Papaya Enzyme)",
+        "concentration": "~0.5-1%",
+        "function": "Proteolytic enzyme, gently dissolves dead skin cells"
+      },
+      {
+        "ingredient": "Hadasei-3™ (Fermented Complex)",
+        "concentration": "Proprietary",
+        "function": "Antioxidant support, brightening"
+      },
+      {
+        "ingredient": "Silk Extract (Sericin)",
+        "concentration": "~0.3%",
+        "function": "Moisture-binding protein, leaves skin silky"
+      }
+    ],
+    "conditions_addressed": [
+      "Dullness",
+      "Uneven texture",
+      "Gentle daily exfoliation",
+      "Brightening"
+    ],
+    "skin_types": [
+      "Normal",
+      "Combination",
+      "Dull"
+    ],
+    "contraindications": [
+      "Physical exfoliant; avoid if actively inflamed acne (may spread bacteria)",
+      "Not for use with retinoids or strong acids in same session",
+      "Enzyme sensitivity rare but possible—patch test",
+      "Safe in pregnancy"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "The Rice Polish: Deep (Oily Skin)",
+    "brand": "Tatcha",
+    "category": "Exfoliant/Cleanser",
+    "price": "$68.00",
+    "size": "2.1 oz (60g)",
+    "inci_ingredients": [
+      "Microcrystalline Cellulose",
+      "Oryza Sativa (Rice) Bran",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Oryza Sativa (Rice) Starch",
+      "Papain",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Lauryl Betaine",
+      "Sodium Chloride",
+      "Sodium Dehydroacetate",
+      "Cellulose Gum",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Fragrance (Natural)",
+      "Mica",
+      "Titanium Dioxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Japanese Rice Bran",
+        "concentration": "~35-45%",
+        "function": "Deep cleansing physical exfoliant for oilier skin"
+      },
+      {
+        "ingredient": "Papain",
+        "concentration": "~0.5-1%",
+        "function": "Enzymatic exfoliation"
+      }
+    ],
+    "conditions_addressed": [
+      "Excess oil",
+      "Congested pores",
+      "Dullness",
+      "Deep cleansing"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination"
+    ],
+    "contraindications": [
+      "Same as Classic variant; stronger for oilier skin",
+      "Avoid over-exfoliation—use 2-3x/week max"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "The Rice Polish: Gentle (Dry/Sensitive Skin)",
+    "brand": "Tatcha",
+    "category": "Exfoliant/Cleanser",
+    "price": "$68.00",
+    "size": "2.1 oz (60g)",
+    "inci_ingredients": [
+      "Microcrystalline Cellulose",
+      "Oryza Sativa (Rice) Bran",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Oryza Sativa (Rice) Starch",
+      "Papain",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Lauryl Betaine",
+      "Sodium Chloride",
+      "Sodium Dehydroacetate",
+      "Cellulose Gum",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Fragrance (Natural)",
+      "Mica",
+      "Titanium Dioxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Japanese Rice Bran",
+        "concentration": "~25-35% (finer particle size)",
+        "function": "Ultra-gentle physical exfoliation"
+      },
+      {
+        "ingredient": "Papain",
+        "concentration": "~0.3-0.5%",
+        "function": "Very gentle enzymatic exfoliation"
+      }
+    ],
+    "conditions_addressed": [
+      "Gentle brightening",
+      "Sensitive skin exfoliation",
+      "Mature skin texture improvement"
+    ],
+    "skin_types": [
+      "Dry",
+      "Sensitive",
+      "Mature"
+    ],
+    "contraindications": [
+      "Safest variant for sensitive skin",
+      "Still a physical exfoliant—avoid on active rosacea or eczema flares"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Violet-C Brightening Serum",
+    "brand": "Tatcha",
+    "category": "Serum - Brightening",
+    "price": "$92.00",
+    "size": "1.0 oz (30ml)",
+    "inci_ingredients": [
+      "Water",
+      "Ascorbic Acid (Vitamin C)",
+      "Propanediol",
+      "Glycerin",
+      "Pentylene Glycol",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Tranexamic Acid",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Squalane",
+      "Tocopherol",
+      "Aminopropyl Ascorbyl Phosphate (Vitamin C derivative)",
+      "Citric Acid",
+      "Sodium Citrate",
+      "Xanthan Gum",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ascorbic Acid (Pure Vitamin C)",
+        "concentration": "~20%",
+        "function": "Potent antioxidant, tyrosinase inhibitor, collagen synthesis, brightening"
+      },
+      {
+        "ingredient": "Aminopropyl Ascorbyl Phosphate",
+        "concentration": "~2-3%",
+        "function": "Stable Vitamin C derivative, enhanced penetration"
+      },
+      {
+        "ingredient": "Tranexamic Acid",
+        "concentration": "~2%",
+        "function": "Melanin synthesis inhibitor, effective for melasma and PIH"
+      },
+      {
+        "ingredient": "Japanese Beautyberry (Callicarpa Japonica)",
+        "concentration": "Extract",
+        "function": "Rich in polyphenols, enhances Vitamin C stability and efficacy"
+      }
+    ],
+    "conditions_addressed": [
+      "Hyperpigmentation",
+      "Melasma",
+      "Post-inflammatory hyperpigmentation (PIH)",
+      "Dullness",
+      "Uneven tone",
+      "Anti-aging (collagen support)"
+    ],
+    "skin_types": [
+      "All",
+      "Dull",
+      "Hyperpigmentation-Prone"
+    ],
+    "contraindications": [
+      "High-concentration ascorbic acid may irritate sensitive skin; introduce gradually",
+      "Patch test essential",
+      "Use morning (with SPF) or evening; do not pair with retinoids or strong acids in same routine",
+      "Safe in pregnancy (topical vitamin C is Category A)"
+    ],
+    "ph_range": "2.5 - 3.5 (optimized for ascorbic acid penetration)"
+  },
+  {
+    "name": "Luminous Deep Hydration Firming Eye Serum",
+    "brand": "Tatcha",
+    "category": "Eye Serum",
+    "price": "$85.00",
+    "size": "0.5 oz (15ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Propanediol",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Squalane",
+      "Panax Ginseng Root Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Thymus Serpillum Extract",
+      "Algae Extract",
+      "Caffeine",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Silk",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Dimethicone",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™ (Fermented Complex)",
+        "concentration": "Proprietary",
+        "function": "Antioxidant and hydrating base"
+      },
+      {
+        "ingredient": "Caffeine",
+        "concentration": "~0.5-1%",
+        "function": "Reduces puffiness, improves microcirculation"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.2-0.5%",
+        "function": "Deep hydration for thin under-eye skin"
+      },
+      {
+        "ingredient": "Hydrolyzed Silk",
+        "concentration": "~0.5%",
+        "function": "Smoothing, moisture-binding"
+      }
+    ],
+    "conditions_addressed": [
+      "Under-eye puffiness",
+      "Dehydrated under-eyes",
+      "Fine lines",
+      "Dark circles (vascular)",
+      "Pre-makeup eye prep"
+    ],
+    "skin_types": [
+      "All",
+      "Dry",
+      "Mature"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Avoid direct contact with eyes",
+      "Caffeine sensitivity may cause mild tingling"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "The Silk Canvas Protective Primer",
+    "brand": "Tatcha",
+    "category": "Primer",
+    "price": "$54.00",
+    "size": "0.7 oz (20g)",
+    "inci_ingredients": [
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Water",
+      "Polysilicone-11",
+      "Glycerin",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Squalane",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Tocopherol",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "Peg-10 Dimethicone",
+      "Silica",
+      "Propanediol",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™ (Fermented Complex)",
+        "concentration": "Proprietary",
+        "function": "Skincare benefits even under makeup"
+      },
+      {
+        "ingredient": "Silk Extract (Sericin)",
+        "concentration": "~1%",
+        "function": "Creates smooth canvas, blurs pores, controls oil"
+      },
+      {
+        "ingredient": "Silica",
+        "concentration": "~2-3%",
+        "function": "Oil absorption, mattifying, extends makeup wear"
+      }
+    ],
+    "conditions_addressed": [
+      "Makeup longevity",
+      "Pore blurring",
+      "Oil control",
+      "Protective barrier under makeup"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination",
+      "Normal"
+    ],
+    "contraindications": [
+      "Heavily silicone-based; avoid if silicone-sensitive or acne-prone to silicones",
+      "May pill if layered with incompatible water-based products",
+      "Safe in pregnancy"
+    ],
+    "ph_range": "Not applicable (anhydrous)"
+  },
+  {
+    "name": "The Silk Peony Melting Eye Cream",
+    "brand": "Tatcha",
+    "category": "Eye Cream",
+    "price": "$72.00",
+    "size": "0.5 oz (15ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Squalane",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Propanediol",
+      "Paeonia Albiflora Root Extract (White Peony)",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Thymus Serpillum Extract",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Silk",
+      "Tocopherol",
+      "Allantoin",
+      "Panthenol",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "White Peony Extract (Paeonia Albiflora)",
+        "concentration": "~1-2%",
+        "function": "Brightening, anti-inflammatory, traditional Japanese skincare ingredient"
+      },
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary",
+        "function": "Antioxidant and nourishing base"
+      },
+      {
+        "ingredient": "Hydrolyzed Silk",
+        "concentration": "~0.5%",
+        "function": "Smoothing, luxurious feel"
+      }
+    ],
+    "conditions_addressed": [
+      "Under-eye dryness",
+      "Fine lines",
+      "Dark circles",
+      "Luxury eye care"
+    ],
+    "skin_types": [
+      "All",
+      "Dry",
+      "Mature"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Rich formula may be too heavy for very oily skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "The Dewy Skin Cream",
+    "brand": "Tatcha",
+    "category": "Moisturizer",
+    "price": "$72.00",
+    "size": "1.7 oz (50ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Squalane",
+      "Propanediol",
+      "Dimethicone",
+      "Cyclopentasiloxane",
+      "Camellia Japonica Seed Oil",
+      "Panax Ginseng Root Extract",
+      "Inositol",
+      "Sericin",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Oryza Sativa (Rice) Bran",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Thymus Serpillum Extract",
+      "Algae Extract",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Silk",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary",
+        "function": "Nourishing antioxidant base"
+      },
+      {
+        "ingredient": "Japanese Purple Rice",
+        "concentration": "Extract",
+        "function": "Rich in anthocyanins, antioxidant protection, supports natural moisture barrier"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.2-0.5%",
+        "function": "Deep hydration, plumping"
+      },
+      {
+        "ingredient": "Squalane",
+        "concentration": "~3-5%",
+        "function": "Rich emollient, restores lipids"
+      }
+    ],
+    "conditions_addressed": [
+      "Dehydration",
+      "Dryness",
+      "Dullness",
+      "Pre-makeup dewy base",
+      "Winter skin care"
+    ],
+    "skin_types": [
+      "Dry",
+      "Normal",
+      "Mature",
+      "Combination (in dry climates)"
+    ],
+    "contraindications": [
+      "May be too rich for oily skin (The Water Cream preferred instead)",
+      "Contains fragrance; patch test if sensitive",
+      "Safe in pregnancy"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Gold Camellia Beauty Oil",
+    "brand": "Tatcha",
+    "category": "Face Oil",
+    "price": "$96.00",
+    "size": "1.0 oz (30ml)",
+    "inci_ingredients": [
+      "Camellia Japonica Seed Oil",
+      "Squalane",
+      "Oryza Sativa (Rice) Bran Oil",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Inositol",
+      "Sericin",
+      "Tocopherol",
+      "Fragrance (Natural)"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Camellia Japonica Seed Oil (Tsubaki Oil)",
+        "concentration": "~70-80%",
+        "function": "Rich in oleic acid (80%+), squalene, vitamins A, D, E; deeply nourishing, traditional Japanese beauty oil"
+      },
+      {
+        "ingredient": "Squalane",
+        "concentration": "~10-15%",
+        "function": "Lightweight emollient, balances heavier oils"
+      },
+      {
+        "ingredient": "Rice Bran Oil",
+        "concentration": "~5-10%",
+        "function": "Rich in gamma-oryzanol, ferulic acid, antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "Dryness",
+      "Dehydration",
+      "Dullness",
+      "Anti-aging nourishment",
+      "Facial massage",
+      "Overnight treatment"
+    ],
+    "skin_types": [
+      "Dry",
+      "Normal",
+      "Mature",
+      "Combination (as night treatment)"
+    ],
+    "contraindications": [
+      "Avoid if allergic to camellia/tea plant family",
+      "May be comedogenic for very acne-prone skin (patch test)",
+      "Safe in pregnancy",
+      "Use at night or under rich moisturizer; not for oily daytime use"
+    ],
+    "ph_range": "Not applicable (anhydrous oil)"
+  },
+  {
+    "name": "Indigo Soothing Triple Recovery Cream",
+    "brand": "Tatcha",
+    "category": "Moisturizer - Soothing",
+    "price": "$88.00",
+    "size": "1.7 oz (50ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Squalane",
+      "Propanediol",
+      "Dimethicone",
+      "Cyclopentasiloxane",
+      "Camellia Japonica Seed Oil",
+      "Indigofera Tinctoria (Japanese Indigo) Leaf/Stem Extract",
+      "Colloidal Oatmeal",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Oryza Sativa (Rice) Bran",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Sericin",
+      "Inositol",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Bisabolol",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Japanese Indigo (Indigofera Tinctoria)",
+        "concentration": "~1-2%",
+        "function": "Traditional anti-inflammatory; contains tryptanthrin, soothes eczema and irritation"
+      },
+      {
+        "ingredient": "Colloidal Oatmeal",
+        "concentration": "~1%",
+        "function": "FDA-approved skin protectant, soothes itch and inflammation"
+      },
+      {
+        "ingredient": "Bisabolol",
+        "concentration": "~0.5%",
+        "function": "Anti-inflammatory, soothing"
+      },
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary",
+        "function": "Antioxidant support"
+      }
+    ],
+    "conditions_addressed": [
+      "Eczema",
+      "Rosacea",
+      "Redness",
+      "Irritation",
+      "Retinoid-associated dryness",
+      "Post-procedure soothing"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Dry",
+      "Eczema-Prone",
+      "Rosacea-Prone",
+      "Normal"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Patch test if allergic to legumes (indigo is in Fabaceae family)",
+      "Oat allergy is rare but possible—patch test if concerned",
+      "Not for active acne (too rich)"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "The Serum Stick",
+    "brand": "Tatcha",
+    "category": "Treatment Balm/Stick",
+    "price": "$50.00",
+    "size": "0.28 oz (8g)",
+    "inci_ingredients": [
+      "Squalane",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Propanediol",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Camellia Japonica Seed Oil",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Sericin",
+      "Inositol",
+      "Tocopherol",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Panthenol",
+      "Fragrance (Natural)"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Squalane",
+        "concentration": "~40-50%",
+        "function": "Primary base, non-comedogenic moisturizing"
+      },
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary",
+        "function": "Antioxidant infusion in portable format"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.2%",
+        "function": "Hydration boost"
+      }
+    ],
+    "conditions_addressed": [
+      "On-the-go hydration",
+      "Targeted dry patches",
+      "Pre-makeup smoothing",
+      "Travel skincare"
+    ],
+    "skin_types": [
+      "All",
+      "Dry",
+      "Combination"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Avoid applying over active acne (occlusive nature may trap bacteria)",
+      "Clean application—do not share stick format"
+    ],
+    "ph_range": "Not applicable (anhydrous balm)"
+  },
+  {
+    "name": "Kissu Lip Mask",
+    "brand": "Tatcha",
+    "category": "Lip Treatment",
+    "price": "$32.00",
+    "size": "0.32 oz (9g)",
+    "inci_ingredients": [
+      "Squalane",
+      "Diisostearyl Malate",
+      "Hydrogenated Polyisobutene",
+      "Phytosteryl/Octyldodecyl Lauroyl Glutamate",
+      "Dextrin Palmitate",
+      "Camellia Japonica Seed Oil",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Sericin",
+      "Inositol",
+      "Tocopherol",
+      "Glyceryl Diisostearate",
+      "Fragrance (Natural)",
+      "Blue 1 Lake (CI 42090)",
+      "Yellow 5 Lake (CI 19140)"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Squalane",
+        "concentration": "~30-40%",
+        "function": "Primary lip moisturizer, non-irritating"
+      },
+      {
+        "ingredient": "Camellia Japonica Seed Oil",
+        "concentration": "~5-10%",
+        "function": "Nourishing, traditional Japanese lip care ingredient"
+      },
+      {
+        "ingredient": "Rice Bran Extract",
+        "concentration": "~1-2%",
+        "function": "Softening, antioxidant"
+      }
+    ],
+    "conditions_addressed": [
+      "Dry lips",
+      "Chapped lips",
+      "Overnight lip treatment",
+      "Lip prep"
+    ],
+    "skin_types": [
+      "All"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Avoid if allergic to any plant oils in formula",
+      "Contains dyes (Blue 1, Yellow 5) if concerned about colorants"
+    ],
+    "ph_range": "Not applicable (lip product)"
+  },
+  {
+    "name": "Kissu Lip Scrub",
+    "brand": "Tatcha",
+    "category": "Lip Exfoliant",
+    "price": "$28.00",
+    "size": "0.4 oz (11g)",
+    "inci_ingredients": [
+      "Sucrose",
+      "Caprylic/Capric Triglyceride",
+      "Squalane",
+      "Cera Alba (Beeswax)",
+      "Camellia Japonica Seed Oil",
+      "Oryza Sativa (Rice) Bran Wax",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Sericin",
+      "Inositol",
+      "Tocopherol",
+      "Fragrance (Natural)"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Sucrose",
+        "concentration": "~40-50%",
+        "function": "Natural exfoliant, dissolves gently with water"
+      },
+      {
+        "ingredient": "Camellia Japonica Seed Oil",
+        "concentration": "~5-10%",
+        "function": "Nourishes lips during exfoliation"
+      }
+    ],
+    "conditions_addressed": [
+      "Flaky lips",
+      "Dry lip texture",
+      "Lip prep before color"
+    ],
+    "skin_types": [
+      "All"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Avoid on cracked or bleeding lips",
+      "Beeswax may concern vegans"
+    ],
+    "ph_range": "Not applicable (lip scrub)"
+  },
+  {
+    "name": "Ageless Eye Revitalizer",
+    "brand": "Tatcha",
+    "category": "Eye Treatment",
+    "price": "$185.00",
+    "size": "0.5 oz (15ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Propanediol",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Squalane",
+      "Panax Ginseng Root Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Thymus Serpillum Extract",
+      "Algae Extract",
+      "Caffeine",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Silk",
+      "Acetyl Hexapeptide-8",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Dimethicone",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary",
+        "function": "Antioxidant base"
+      },
+      {
+        "ingredient": "Acetyl Hexapeptide-8 (Argireline)",
+        "concentration": "~0.05-0.1%",
+        "function": "Neuropeptide, reduces expression lines around eyes"
+      },
+      {
+        "ingredient": "Palmitoyl Tripeptide-1 & Palmitoyl Tetrapeptide-7 (Matrixyl 3000)",
+        "concentration": "~0.001-0.01%",
+        "function": "Collagen-stimulating peptides"
+      },
+      {
+        "ingredient": "Caffeine",
+        "concentration": "~0.5-1%",
+        "function": "De-puffing, microcirculation"
+      }
+    ],
+    "conditions_addressed": [
+      "Advanced eye aging",
+      "Deep wrinkles",
+      "Crow's feet",
+      "Loss of firmness",
+      "Under-eye bags"
+    ],
+    "skin_types": [
+      "Mature",
+      "Dry",
+      "Normal"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Premium pricing; similar peptide technology available at lower cost",
+      "Patch test if sensitive to peptides"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Liquid Silk Canvas",
+    "brand": "Tatcha",
+    "category": "Primer",
+    "price": "$54.00",
+    "size": "1.0 oz (30ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Propanediol",
+      "Squalane",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Tocopherol",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Polymethylsilsesquioxane",
+      "Silica",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary",
+        "function": "Skincare benefits under makeup"
+      },
+      {
+        "ingredient": "Silk Extract",
+        "concentration": "~0.5%",
+        "function": "Smoothing, pore-blurring"
+      },
+      {
+        "ingredient": "Liquid format",
+        "concentration": "N/A",
+        "function": "Lighter than balm primer, suitable for drier skin types"
+      }
+    ],
+    "conditions_addressed": [
+      "Makeup prep",
+      "Pore smoothing",
+      "Hydrating primer base"
+    ],
+    "skin_types": [
+      "Dry",
+      "Normal",
+      "Combination"
+    ],
+    "contraindications": [
+      "Silicone-based; avoid if silicone-sensitive",
+      "Safe in pregnancy"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Hadasei-3 Anti-Aging Eye Cream",
+    "brand": "Tatcha",
+    "category": "Eye Cream",
+    "price": "$98.00",
+    "size": "0.5 oz (15ml)",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Propanediol",
+      "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate",
+      "Squalane",
+      "Panax Ginseng Root Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Cladosiphon Okamuranus Extract",
+      "Oryza Sativa (Rice) Bran Extract",
+      "Sericin",
+      "Inositol",
+      "Camellia Japonica Seed Oil",
+      "Thymus Serpillum Extract",
+      "Algae Extract",
+      "Caffeine",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Silk",
+      "Allantoin",
+      "Panthenol",
+      "Tocopherol",
+      "Dimethicone",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Carbomer",
+      "Sodium Dilauramidoglutamide Lysine",
+      "Fragrance (Natural)",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Hadasei-3™",
+        "concentration": "Proprietary (higher concentration)",
+        "function": "Concentrated anti-aging fermented complex"
+      },
+      {
+        "ingredient": "Caffeine",
+        "concentration": "~0.5-1%",
+        "function": "De-puffing"
+      },
+      {
+        "ingredient": "Sodium Hyaluronate",
+        "concentration": "~0.3%",
+        "function": "Hydration"
+      }
+    ],
+    "conditions_addressed": [
+      "Eye aging",
+      "Dry under-eyes",
+      "Fine lines",
+      "Prevention"
+    ],
+    "skin_types": [
+      "Mature",
+      "Dry",
+      "Normal"
+    ],
+    "contraindications": [
+      "Safe in pregnancy",
+      "Less peptide-heavy than Ageless Eye Revitalizer"
+    ],
+    "ph_range": "5.5 - 6.5"
+  }
+]

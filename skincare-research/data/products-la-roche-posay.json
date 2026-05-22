@@ -1,0 +1,1056 @@
+[
+  {
+    "name": "Toleriane Hydrating Gentle Cleanser",
+    "brand": "La Roche-Posay",
+    "category": "cleanser",
+    "price": "$16.99",
+    "size": "13.52 fl oz / 400 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Laureth Sulfate",
+      "PEG-200 Hydrogenated Glyceryl Palmate",
+      "Coco-Betaine",
+      "Polysorbate 20",
+      "Citric Acid",
+      "PEG-7 Glyceryl Cocoate",
+      "Niacinamide",
+      "Acrylates Copolymer",
+      "Coco-Glucoside",
+      "Glyceryl Oleate",
+      "Sodium Benzoate",
+      "Sodium Chloride",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": {
+      "Niacinamide": "soothing, barrier support",
+      "Glycerin": "hydration",
+      "Coco-Betaine": "gentle surfactant"
+    },
+    "conditions_addressed": [
+      "dryness",
+      "sensitivity",
+      "makeup removal"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Toleriane Purifying Foaming Cleanser",
+    "brand": "La Roche-Posay",
+    "category": "cleanser",
+    "price": "$16.99",
+    "size": "13.52 fl oz / 400 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Sodium Laureth Sulfate",
+      "PEG-200 Hydrogenated Glyceryl Palmate",
+      "Coco-Betaine",
+      "Glyceryl Oleate",
+      "Citric Acid",
+      "PEG-7 Glyceryl Cocoate",
+      "Acrylates Copolymer",
+      "Sodium Chloride",
+      "Sodium Benzoate",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": {
+      "Glycerin": "hydration",
+      "Coco-Betaine": "gentle cleansing"
+    },
+    "conditions_addressed": [
+      "excess oil",
+      "impurities",
+      "makeup removal"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Toleriane Double Repair Face Moisturizer",
+    "brand": "La Roche-Posay",
+    "category": "moisturizer",
+    "price": "$22.99",
+    "size": "2.5 fl oz / 75 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Dimethicone",
+      "Niacinamide",
+      "Isopropyl Palmitate",
+      "Cetearyl Alcohol",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Glyceryl Stearate",
+      "Sodium Hyaluronate",
+      "Ceramide NP",
+      "Cholesterol",
+      "Caprylyl Glycol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Disodium EDTA"
+    ],
+    "key_actives": {
+      "Niacinamide": "4%",
+      "Ceramide NP": "barrier repair",
+      "Hyaluronic Acid": "hydration",
+      "Prebiotic Thermal Water": "soothing"
+    },
+    "conditions_addressed": [
+      "dryness",
+      "sensitivity",
+      "barrier damage",
+      "dehydration"
+    ],
+    "skin_types": [
+      "normal",
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Toleriane Dermallergo Fluide",
+    "brand": "La Roche-Posay",
+    "category": "moisturizer",
+    "price": "$29.99",
+    "size": "1.35 fl oz / 40 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Glycerin",
+      "Squalane",
+      "Niacinamide",
+      "Propanediol",
+      "Butylene Glycol",
+      "Dimethicone",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Pentylene Glycol",
+      "Caprylyl Glycol",
+      "Citric Acid",
+      "Neurosensine",
+      "Xanthan Gum"
+    ],
+    "key_actives": {
+      "Neurosensine": "neurosensine peptide (anti-inflammatory)",
+      "Niacinamide": "soothing, barrier support",
+      "Squalane": "hydration",
+      "Thermal Spring Water": "soothing"
+    },
+    "conditions_addressed": [
+      "allergic reactions",
+      "intolerance",
+      "redness",
+      "burning sensation"
+    ],
+    "skin_types": [
+      "allergic",
+      "intolerant",
+      "hypersensitive"
+    ],
+    "contraindications": [
+      "none major; specifically designed for ultra-sensitive skin"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Effaclar Purifying Foaming Gel Cleanser",
+    "brand": "La Roche-Posay",
+    "category": "cleanser",
+    "price": "$16.99",
+    "size": "13.52 fl oz / 400 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Sodium Laureth Sulfate",
+      "Glycerin",
+      "Coco-Betaine",
+      "Zinc PCA",
+      "Sodium Chloride",
+      "Sodium Hydroxide",
+      "Citric Acid",
+      "Phenoxyethanol",
+      "Sodium Benzoate",
+      "Fragrance (Parfum)"
+    ],
+    "key_actives": {
+      "Zinc PCA": "sebum regulation, antibacterial",
+      "Coco-Betaine": "gentle cleansing"
+    },
+    "conditions_addressed": [
+      "excess oil",
+      "acne",
+      "clogged pores"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "dry or sensitive skin may find it stripping"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Effaclar Duo (+) Anti-Acne Treatment",
+    "brand": "La Roche-Posay",
+    "category": "treatment",
+    "price": "$32.99",
+    "size": "1.35 fl oz / 40 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Propanediol",
+      "Dimethicone",
+      "Niacinamide",
+      "Glycerin",
+      "Salicylic Acid",
+      "Caprylic/Capric Triglyceride",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Cetearyl Alcohol",
+      "Myristyl Myristate",
+      "Sodium Hydroxide",
+      "Glyceryl Stearate",
+      "Coco-Caprylate/Caprate",
+      "Zinc PCA",
+      "Capryloyl Salicylic Acid (LHA)",
+      "Piroctone Olamine",
+      "Mannose",
+      "Xylitol",
+      "Ceramide NP",
+      "Propylene Glycol",
+      "Airlicium",
+      "Silica",
+      "PEG-100 Stearate",
+      "Stearyl Alcohol",
+      "Cetyl Alcohol",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": {
+      "Niacinamide": "4%",
+      "Salicylic Acid": "0.5%",
+      "Capryloyl Salicylic Acid (LHA)": "lipohydroxy acid for gentle exfoliation",
+      "Zinc PCA": "sebum regulation",
+      "Piroctone Olamine": "antimicrobial",
+      "Mannose": "inflammation reduction",
+      "Airlicium": "absorbent powder for mattifying"
+    },
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "excess sebum",
+      "inflammation",
+      "post-acne marks"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone",
+      "combination"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor due to salicylic acid)",
+      "salicylate allergy"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Effaclar Mat Moisturizer",
+    "brand": "La Roche-Posay",
+    "category": "moisturizer",
+    "price": "$34.99",
+    "size": "1.35 fl oz / 40 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Dimethicone",
+      "Isocetyl Stearate",
+      "Niacinamide",
+      "Isopropyl Lauroyl Sarcosinate",
+      "Silica",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Methyl Methacrylate Crosspolymer",
+      "Squalane",
+      "Capryloyl Salicylic Acid (LHA)",
+      "Caprylyl Glycol",
+      "Piroctone Olamine",
+      "Perlite",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": {
+      "Niacinamide": "4%",
+      "Perlite": "absorbent for mattifying",
+      "LHA (Capryloyl Salicylic Acid)": "gentle exfoliation",
+      "Silica": "oil absorption",
+      "Sebulyse": "sebum reduction technology"
+    },
+    "conditions_addressed": [
+      "excess oil",
+      "shiny skin",
+      "enlarged pores",
+      "makeup longevity"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "dry skin may find too mattifying"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Effaclar CLARO Serum",
+    "brand": "La Roche-Posay",
+    "category": "serum",
+    "price": "$44.99",
+    "size": "1.01 fl oz / 30 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Alcohol Denat.",
+      "Propanediol",
+      "Glycerin",
+      "Niacinamide",
+      "Salicylic Acid",
+      "Capryloyl Salicylic Acid (LHA)",
+      "Zinc PCA",
+      "Caprylyl Glycol",
+      "Citric Acid",
+      "Xanthan Gum",
+      "Pentylene Glycol"
+    ],
+    "key_actives": {
+      "Salicylic Acid": "exfoliation, pore-clearing",
+      "LHA (Capryloyl Salicylic Acid)": "gentle exfoliation",
+      "Niacinamide": "soothing, pore-refining",
+      "Zinc PCA": "sebum regulation"
+    },
+    "conditions_addressed": [
+      "acne",
+      "blackheads",
+      "enlarged pores",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone",
+      "combination"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor)",
+      "dry or sensitive skin (alcohol base)"
+    ],
+    "ph_range": "3.5 - 4.5"
+  },
+  {
+    "name": "Cicaplast Baume B5",
+    "brand": "La Roche-Posay",
+    "category": "balm",
+    "price": "$16.99",
+    "size": "1.35 fl oz / 40 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Hydrogenated Polyisobutene",
+      "Dimethicone",
+      "Glycerin",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Panthenol",
+      "Propanediol",
+      "Butylene Glycol",
+      "Aluminum Starch Octenylsuccinate",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "PEG-100 Stearate",
+      "Copper Gluconate",
+      "Manganese Gluconate",
+      "Zinc Gluconate",
+      "Madecassoside",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "2-Oleamido-1,3-Octadecanediol (Neurosensine)",
+      "Polymethylsilsesquioxane",
+      "Sucrose Tristearate",
+      "Tocopherol",
+      "Xanthan Gum",
+      "Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate",
+      "Sodium Polyacrylate",
+      "Myristic Acid",
+      "Sorbitan Tristearate"
+    ],
+    "key_actives": {
+      "Panthenol (Vitamin B5)": "5% - healing, soothing",
+      "Madecassoside": "centella asiatica extract - repair",
+      "Copper-Zinc-Manganese": "mineral complex for healing",
+      "Shea Butter": "nourishing",
+      "Neurosensine": "anti-inflammatory peptide"
+    },
+    "conditions_addressed": [
+      "irritation",
+      "dryness",
+      "minor wounds",
+      "post-procedure",
+      "diaper rash",
+      "eczema"
+    ],
+    "skin_types": [
+      "all",
+      "damaged",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Cicaplast Gel B5",
+    "brand": "La Roche-Posay",
+    "category": "gel",
+    "price": "$16.99",
+    "size": "1.35 fl oz / 40 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Glycerin",
+      "Propanediol",
+      "Panthenol",
+      "Dimethicone",
+      "Madecassoside",
+      "Copper Gluconate",
+      "Zinc Gluconate",
+      "Manganese Gluconate",
+      "Polymethylsilsesquioxane",
+      "Caprylyl Glycol",
+      "Xanthan Gum",
+      "Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate",
+      "Citric Acid"
+    ],
+    "key_actives": {
+      "Panthenol (Vitamin B5)": "healing",
+      "Madecassoside": "centella asiatica extract - repair",
+      "Copper-Zinc-Manganese": "mineral complex for healing"
+    },
+    "conditions_addressed": [
+      "irritation",
+      "minor wounds",
+      "post-procedure",
+      "light hydration with healing"
+    ],
+    "skin_types": [
+      "all",
+      "oily",
+      "combination"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Cicaplast Lavant B5",
+    "brand": "La Roche-Posay",
+    "category": "cleanser",
+    "price": "$16.99",
+    "size": "6.76 fl oz / 200 mL",
+    "inci_ingredients": [
+      "Water (Aqua)",
+      "Sodium Laureth Sulfate",
+      "Glycerin",
+      "Coco-Betaine",
+      "Panthenol",
+      "Madecassoside",
+      "Copper Gluconate",
+      "Zinc Gluconate",
+      "Manganese Gluconate",
+      "Sodium Chloride",
+      "Citric Acid",
+      "Sodium Hydroxide",
+      "Sodium Benzoate"
+    ],
+    "key_actives": {
+      "Panthenol (Vitamin B5)": "soothing",
+      "Madecassoside": "centella asiatica extract - repair",
+      "Copper-Zinc-Manganese": "mineral complex"
+    },
+    "conditions_addressed": [
+      "cleansing irritated skin",
+      "post-procedure cleansing",
+      "baby skin"
+    ],
+    "skin_types": [
+      "all",
+      "damaged",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Lipikar AP+M Triple Repair Body Moisturizing Cream",
+    "brand": "La Roche-Posay",
+    "category": "body moisturizer",
+    "price": "$22.99",
+    "size": "13.52 fl oz / 400 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Glycerin",
+      "Dimethicone",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Brassica Campestris (Rapeseed) Seed Oil",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Glyceryl Stearate",
+      "Peg-100 Stearate",
+      "Stearic Acid",
+      "Capryloyl Glycine",
+      "Myristic Acid",
+      "Triethanolamine",
+      "Palmitic Acid",
+      "Disodium Edta",
+      "Caprylyl Glycol",
+      "Mannose",
+      "Xanthan Gum",
+      "Tocopherol",
+      "Vitex Agnus Castus Extract",
+      "Perlite",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Sodium Benzoate",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer"
+    ],
+    "key_actives": {
+      "Shea Butter": "nourishing",
+      "Niacinamide": "soothing, barrier support",
+      "Aqua Posae Filiformis (AP)": "prebiotic for microbiome balance",
+      "Microresyl (Microbiome Technology)": "diversity support",
+      "Mannose": "barrier support"
+    },
+    "conditions_addressed": [
+      "dryness",
+      "eczema",
+      "atopic dermatitis",
+      "itchiness",
+      "sensitivity"
+    ],
+    "skin_types": [
+      "dry",
+      "very dry",
+      "eczema-prone",
+      "baby"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Lipikar AP+M Baume",
+    "brand": "La Roche-Posay",
+    "category": "body moisturizer",
+    "price": "$22.99",
+    "size": "13.52 fl oz / 400 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Glycerin",
+      "Dimethicone",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Brassica Campestris (Rapeseed) Seed Oil",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Glyceryl Stearate",
+      "Peg-100 Stearate",
+      "Stearic Acid",
+      "Capryloyl Glycine",
+      "Myristic Acid",
+      "Triethanolamine",
+      "Palmitic Acid",
+      "Disodium Edta",
+      "Caprylyl Glycol",
+      "Mannose",
+      "Xanthan Gum",
+      "Tocopherol",
+      "Vitex Agnus Castus Extract",
+      "Perlite",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Sodium Benzoate"
+    ],
+    "key_actives": {
+      "Shea Butter": "nourishing",
+      "Niacinamide": "soothing",
+      "Aqua Posae Filiformis (AP)": "prebiotic for microbiome",
+      "Microresyl": "microbiome diversity support"
+    },
+    "conditions_addressed": [
+      "dryness",
+      "eczema",
+      "atopic dermatitis",
+      "itchiness"
+    ],
+    "skin_types": [
+      "dry",
+      "very dry",
+      "eczema-prone"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Lipikar Syndet AP+ Cream Wash",
+    "brand": "La Roche-Posay",
+    "category": "body cleanser",
+    "price": "$18.99",
+    "size": "13.52 fl oz / 400 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Glycerin",
+      "Sodium Laureth Sulfate",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Coco-Betaine",
+      "Niacinamide",
+      "Mannose",
+      "Disodium Edta",
+      "Capryloyl Glycine",
+      "Caprylyl Glycol",
+      "Citric Acid",
+      "Maltodextrin",
+      "Polyquaternium-11",
+      "Sodium Benzoate",
+      "Sodium Hydroxide"
+    ],
+    "key_actives": {
+      "Shea Butter": "nourishing",
+      "Niacinamide": "soothing",
+      "Mannose": "barrier support",
+      "Aqua Posae Filiformis (AP)": "prebiotic"
+    },
+    "conditions_addressed": [
+      "dryness",
+      "eczema",
+      "sensitivity",
+      "atopic dermatitis"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "eczema-prone",
+      "baby"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Anthelios UVMune 400 Invisible Fluid SPF50+",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "price": "$38.99",
+    "size": "1.7 fl oz / 50 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Alcohol Denat.",
+      "Triethyl Citrate",
+      "Diisopropyl Sebacate",
+      "Silica",
+      "Butyl Methoxydibenzoylmethane (Avobenzone)",
+      "Ethylhexyl Salicylate (Octisalate)",
+      "Ethylhexyl Triazone (Uvinul T 150)",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine (Tinosorb S)",
+      "Terephthalylidene Dicamphor Sulfonic Acid (Mexoryl SX)",
+      "Drometrizole Trisiloxane (Mexoryl XL)",
+      "Glycerin",
+      "Propanediol",
+      "C12-22 Alkyl Acrylate/Hydroxyethylacrylate Copolymer",
+      "Sodium Citrate",
+      "Sodium Stearoyl Glutamate",
+      "Tocopherol",
+      "Hydroxyacetophenone",
+      "Triethanolamine",
+      "Trisodium Ethylenediamine Disuccinate",
+      "Caprylyl Glycol",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Citric Acid"
+    ],
+    "key_actives": {
+      "Mexoryl 400": "newest filter for ultra-long UVA (380-400nm)",
+      "Mexoryl SX": "UVA filter",
+      "Mexoryl XL": "UVA/UVB filter",
+      "Tinosorb S": "broad spectrum photostable filter",
+      "Uvinul T 150": "UVB filter",
+      "Avobenzone": "UVA filter"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "photoaging",
+      "UV damage",
+      "hyperpigmentation prevention"
+    ],
+    "skin_types": [
+      "all",
+      "sensitive"
+    ],
+    "contraindications": [
+      "alcohol denat. may be drying for very dry skin"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Anthelios UVMune 400 Cream SPF50+",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "price": "$38.99",
+    "size": "1.7 fl oz / 50 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Diisopropyl Sebacate",
+      "Ethylhexyl Methoxycinnamate (Octinoxate)",
+      "Isohexadecane",
+      "Butyl Methoxydibenzoylmethane (Avobenzone)",
+      "Glycerin",
+      "Alcohol Denat.",
+      "Propanediol",
+      "Dimethicone",
+      "Titanium Dioxide",
+      "C12-22 Alkyl Acrylate/Hydroxyethylacrylate Copolymer",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine (Tinosorb S)",
+      "Ethylhexyl Triazone (Uvinul T 150)",
+      "Terephthalylidene Dicamphor Sulfonic Acid (Mexoryl SX)",
+      "Drometrizole Trisiloxane (Mexoryl XL)",
+      "Sodium Stearoyl Glutamate",
+      "Sodium Citrate",
+      "Tocopherol",
+      "Hydroxyacetophenone",
+      "Triethanolamine",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": {
+      "Mexoryl 400": "ultra-long UVA protection (380-400nm)",
+      "Mexoryl SX": "UVA filter",
+      "Mexoryl XL": "UVA/UVB filter",
+      "Tinosorb S": "broad spectrum photostable filter",
+      "Titanium Dioxide": "physical filter"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "photoaging",
+      "UV damage",
+      "dryness"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Anthelios UVMune 400 Milk SPF50+",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "price": "$38.99",
+    "size": "8.45 fl oz / 250 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Diisopropyl Sebacate",
+      "Ethylhexyl Methoxycinnamate (Octinoxate)",
+      "Isohexadecane",
+      "Butyl Methoxydibenzoylmethane (Avobenzone)",
+      "Glycerin",
+      "Alcohol Denat.",
+      "Propanediol",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine (Tinosorb S)",
+      "Ethylhexyl Triazone (Uvinul T 150)",
+      "Terephthalylidene Dicamphor Sulfonic Acid (Mexoryl SX)",
+      "Drometrizole Trisiloxane (Mexoryl XL)",
+      "Sodium Stearoyl Glutamate",
+      "Tocopherol",
+      "Sodium Citrate",
+      "Caprylyl Glycol",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer"
+    ],
+    "key_actives": {
+      "Mexoryl 400": "ultra-long UVA protection (380-400nm)",
+      "Mexoryl SX": "UVA filter",
+      "Mexoryl XL": "UVA/UVB filter",
+      "Tinosorb S": "broad spectrum photostable filter",
+      "Octinoxate": "UVB filter"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "photoaging",
+      "UV damage",
+      "body sun protection"
+    ],
+    "skin_types": [
+      "all",
+      "body"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Anthelios Sublime Screen SPF50+",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "price": "$42.99",
+    "size": "1.7 fl oz / 50 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Diisopropyl Sebacate",
+      "Alcohol Denat.",
+      "Silica",
+      "Butyl Methoxydibenzoylmethane (Avobenzone)",
+      "Ethylhexyl Salicylate (Octisalate)",
+      "Ethylhexyl Triazone (Uvinul T 150)",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine (Tinosorb S)",
+      "Terephthalylidene Dicamphor Sulfonic Acid (Mexoryl SX)",
+      "Drometrizole Trisiloxane (Mexoryl XL)",
+      "Glycerin",
+      "Propanediol",
+      "C12-22 Alkyl Acrylate/Hydroxyethylacrylate Copolymer",
+      "Sodium Citrate",
+      "Tocopherol",
+      "Caprylyl Glycol"
+    ],
+    "key_actives": {
+      "Mexoryl 400": "ultra-long UVA protection",
+      "Mexoryl SX": "UVA filter",
+      "Mexoryl XL": "UVA/UVB filter",
+      "Tinosorb S": "broad spectrum filter"
+    },
+    "conditions_addressed": [
+      "sun protection",
+      "photoaging",
+      "UV damage",
+      "daily wear"
+    ],
+    "skin_types": [
+      "all",
+      "sensitive"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Redermic Retinol Anti-Aging Serum",
+    "brand": "La Roche-Posay",
+    "category": "serum",
+    "price": "$56.99",
+    "size": "1.01 fl oz / 30 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Alcohol Denat.",
+      "Pentylene Glycol",
+      "Dimethicone",
+      "Isopropyl Lauroyl Sarcosinate",
+      "Polysilicone-11",
+      "PEG-20 Methyl Glucose Sesquistearate",
+      "Adenosine",
+      "Retinol",
+      "Retinyl Linoleate",
+      "Acrylamide/Sodium Acryloyldimethyltaurate Copolymer",
+      "Isohexadecane",
+      "Polysorbate 80",
+      "Carbomer",
+      "Triethanolamine",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "Caprylyl Glycol",
+      "Disodium EDTA"
+    ],
+    "key_actives": {
+      "Pure Retinol": "0.3%",
+      "Retinyl Linoleate": "progressive retinoid",
+      "Adenosine": "anti-wrinkle"
+    },
+    "conditions_addressed": [
+      "deep wrinkles",
+      "loss of firmness",
+      "uneven tone",
+      "photoaging"
+    ],
+    "skin_types": [
+      "mature",
+      "normal",
+      "combination"
+    ],
+    "contraindications": [
+      "pregnancy",
+      "breastfeeding",
+      "sensitive skin",
+      "beginners to retinol"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Redermic Vitamin C Serum",
+    "brand": "La Roche-Posay",
+    "category": "serum",
+    "price": "$52.99",
+    "size": "1.01 fl oz / 30 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Ascorbic Acid (Vitamin C)",
+      "Glycerin",
+      "Alcohol Denat.",
+      "Dipropylene Glycol",
+      "Laureth-23",
+      "Neohesperidin Dihydrochalcone",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Salicylic Acid",
+      "Pinus Pinaster Bark Extract",
+      "Ascorbyl Glucoside",
+      "Tocopherol",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Citric Acid",
+      "Xanthan Gum",
+      "Sodium Hydroxide",
+      "Sodium Benzoate"
+    ],
+    "key_actives": {
+      "Pure Ascorbic Acid (Vitamin C)": "15%",
+      "Salicylic Acid": "gentle exfoliation",
+      "Neurosensine": "soothing",
+      "Hyaluronic Acid": "hydration"
+    },
+    "conditions_addressed": [
+      "dullness",
+      "fine lines",
+      "uneven tone",
+      "sun damage"
+    ],
+    "skin_types": [
+      "all",
+      "dull",
+      "aging"
+    ],
+    "contraindications": [
+      "sensitive skin may experience tingling",
+      "pregnancy (consult doctor for salicylic acid)"
+    ],
+    "ph_range": "2.5 - 3.5"
+  },
+  {
+    "name": "Hyalu B5 Serum",
+    "brand": "La Roche-Posay",
+    "category": "serum",
+    "price": "$52.99",
+    "size": "1.01 fl oz / 30 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Glycerin",
+      "Dimethicone",
+      "Pentylene Glycol",
+      "Ascorbyl Glucoside",
+      "Hyaluronic Acid",
+      "Sodium Hyaluronate",
+      "Madecassoside",
+      "Hydrolyzed Hyaluronic Acid",
+      "Acetylated Hyaluronic Acid",
+      "Caprylyl Glycol",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Citric Acid",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Sodium Hydroxide",
+      "Disodium EDTA"
+    ],
+    "key_actives": {
+      "Hyaluronic Acid": "multi-molecular (fragmented + high molecular weight)",
+      "Vitamin B5 (Panthenol)": "healing",
+      "Madecassoside": "centella asiatica - repair",
+      "Vitamin C derivative": "brightening"
+    },
+    "conditions_addressed": [
+      "dehydration",
+      "fine lines",
+      "loss of plumpness",
+      "dullness"
+    ],
+    "skin_types": [
+      "all",
+      "dehydrated",
+      "aging"
+    ],
+    "contraindications": [
+      "none major"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Pigmentclar Dark Spot Serum",
+    "brand": "La Roche-Posay",
+    "category": "serum",
+    "price": "$52.99",
+    "size": "1.01 fl oz / 30 mL",
+    "inci_ingredients": [
+      "Aqua / Water",
+      "Glycerin",
+      "Dimethicone",
+      "Isohexadecane",
+      "Niacinamide",
+      "Isopropyl Isostearate",
+      "Aluminum Starch Octenylsuccinate",
+      "Sorbitan Stearate",
+      "Cetyl Alcohol",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "PEG-100 Stearate",
+      "Stearic Acid",
+      "Glyceryl Stearate",
+      "Palmitic Acid",
+      "Capryloyl Salicylic Acid (LHA)",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ferulic Acid",
+      "Lipo-Hydroxy Acid (LHA)"
+    ],
+    "key_actives": {
+      "Niacinamide": "brightening, anti-inflammatory",
+      "LHA (Capryloyl Salicylic Acid)": "gentle exfoliation",
+      "Ferulic Acid": "antioxidant",
+      "Phe-Resorcinol": "pigment reduction (patented)"
+    },
+    "conditions_addressed": [
+      "dark spots",
+      "hyperpigmentation",
+      "post-inflammatory hyperpigmentation",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all",
+      "hyperpigmented"
+    ],
+    "contraindications": [
+      "pregnancy (consult doctor for salicylic acid derivatives)"
+    ],
+    "ph_range": "5.0 - 6.0"
+  }
+]

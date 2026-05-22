@@ -1,0 +1,762 @@
+[
+  {
+    "name": "UV Clear Broad-Spectrum SPF 46",
+    "brand": "EltaMD",
+    "category": "Sunscreen",
+    "price": "$39.00",
+    "size": "1.7 oz / 48 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 9.0%, Octinoxate 7.5%",
+      "Inactive Ingredients: Water",
+      "Cyclopentasiloxane",
+      "Niacinamide",
+      "Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone",
+      "Dimethicone",
+      "Triethoxycaprylylsilane",
+      "Phenoxyethanol",
+      "Cyclohexasiloxane",
+      "HDI/Trimethylol Hexyllactone Crosspolymer",
+      "Iron Oxides",
+      "Sodium Chloride",
+      "Caprylyl Glycol",
+      "Dimethicone/PEG-10/15 Crosspolymer",
+      "Mica",
+      "Sodium Citrate",
+      "Disodium EDTA",
+      "Ascorbyl Palmitate",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone",
+      "Tocopherol"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "9.0%"
+      },
+      {
+        "ingredient": "Octinoxate",
+        "concentration": "7.5%"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~5%"
+      },
+      {
+        "ingredient": "Vitamin E (Tocopherol)",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin C (Ascorbyl Palmitate)",
+        "concentration": "~0.2%"
+      }
+    ],
+    "conditions_addressed": [
+      "Acne",
+      "Hyperpigmentation",
+      "Rosacea",
+      "UV protection",
+      "Post-inflammatory erythema",
+      "Oil control"
+    ],
+    "skin_types": [
+      "Normal",
+      "Oily",
+      "Combination",
+      "Acne-prone",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "Contains Octinoxate (chemical filter) - avoid if reef-safe required",
+      "Patch test if extremely sensitive to silicones",
+      "Reapply every 2 hours when in sun"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "UV Daily Broad-Spectrum SPF 40",
+    "brand": "EltaMD",
+    "category": "Sunscreen/Moisturizer",
+    "price": "$32.50",
+    "size": "1.7 oz / 48 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 9.0%, Octinoxate 7.5%",
+      "Inactive Ingredients: Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Ethylhexyl Stearate",
+      "Polyglyceryl-4 Isostearate",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Hexyl Laurate",
+      "Sodium Chloride",
+      "Glycerin",
+      "Phenoxyethanol",
+      "Iron Oxides",
+      "Triethoxycaprylylsilane",
+      "Ethylhexylglycerin",
+      "Cyclohexasiloxane",
+      "Tocopherol",
+      "Ascorbyl Palmitate",
+      "Disodium EDTA",
+      "Propylene Glycol",
+      "Butylene Glycol",
+      "Sodium Hyaluronate",
+      "PEG-7 Trimethylolpropane Coconut Ether"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "9.0%"
+      },
+      {
+        "ingredient": "Octinoxate",
+        "concentration": "7.5%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily UV protection",
+      "Photoaging prevention",
+      "Dryness",
+      "Environmental damage"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination"
+    ],
+    "contraindications": [
+      "Contains chemical UV filters",
+      "Reapply every 2 hours in sun"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "UV Shield Broad-Spectrum SPF 45",
+    "brand": "EltaMD",
+    "category": "Sunscreen",
+    "price": "$36.00",
+    "size": "3 oz / 85 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 9.0%, Octinoxate 7.5%",
+      "Inactive Ingredients: Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Ethylhexyl Stearate",
+      "Polyglyceryl-4 Isostearate",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Hexyl Laurate",
+      "Sodium Chloride",
+      "Glycerin",
+      "Phenoxyethanol",
+      "Iron Oxides",
+      "Triethoxycaprylylsilane",
+      "Ethylhexylglycerin",
+      "Cyclohexasiloxane",
+      "Tocopherol",
+      "Ascorbyl Palmitate",
+      "Disodium EDTA",
+      "Propylene Glycol",
+      "Butylene Glycol",
+      "Sodium Hyaluronate",
+      "PEG-7 Trimethylolpropane Coconut Ether"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "9.0%"
+      },
+      {
+        "ingredient": "Octinoxate",
+        "concentration": "7.5%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "UV protection",
+      "Oil control",
+      "Everyday sun defense",
+      "Sports/active use"
+    ],
+    "skin_types": [
+      "Normal",
+      "Oily",
+      "Combination"
+    ],
+    "contraindications": [
+      "Contains Octinoxate",
+      "Reapply every 2 hours",
+      "Not water-resistant beyond 80 minutes"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "UV Physical Broad-Spectrum SPF 41",
+    "brand": "EltaMD",
+    "category": "Mineral Sunscreen",
+    "price": "$36.00",
+    "size": "3 oz / 85 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 9.0%, Titanium Dioxide 7.0%",
+      "Inactive Ingredients: Water",
+      "Hydrogenated Polyisobutene",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Butylene Glycol",
+      "Polymethylsilsesquioxane",
+      "Glycerin",
+      "Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone",
+      "Tocopheryl Acetate",
+      "Sodium Chloride",
+      "Triethoxycaprylylsilane",
+      "Quartz",
+      "Cyclohexasiloxane",
+      "HDI/Trimethylol Hexyllactone Crosspolymer",
+      "Alumina",
+      "Phenoxyethanol",
+      "Methicone",
+      "Iron Oxides",
+      "Sodium Hydroxide",
+      "Caprylyl Glycol",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "9.0%"
+      },
+      {
+        "ingredient": "Titanium Dioxide",
+        "concentration": "7.0%"
+      },
+      {
+        "ingredient": "Vitamin E (Tocopheryl Acetate)",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "UV protection (100% mineral)",
+      "Post-laser care",
+      "Post-procedure healing",
+      "Rosacea",
+      "Chemical filter sensitivity"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Post-procedure",
+      "Rosacea-prone",
+      "All skin types"
+    ],
+    "contraindications": [
+      "May leave white cast due to high mineral content",
+      "Blend well",
+      "Reapply every 2 hours"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "UV Elements Broad-Spectrum SPF 44",
+    "brand": "EltaMD",
+    "category": "Tinted Mineral Sunscreen",
+    "price": "$38.50",
+    "size": "2.0 oz / 57 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 10.0%, Titanium Dioxide 5.5%",
+      "Inactive Ingredients: Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Butylene Glycol",
+      "Glycerin",
+      "Polymethylsilsesquioxane",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Triethoxycaprylylsilane",
+      "Sodium Chloride",
+      "Quartz",
+      "Cyclohexasiloxane",
+      "HDI/Trimethylol Hexyllactone Crosspolymer",
+      "Alumina",
+      "Phenoxyethanol",
+      "Methicone",
+      "Iron Oxides",
+      "Sodium Hydroxide",
+      "Caprylyl Glycol",
+      "Disodium EDTA",
+      "Sodium Hyaluronate",
+      "Tocopheryl Acetate"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "10.0%"
+      },
+      {
+        "ingredient": "Titanium Dioxide",
+        "concentration": "5.5%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      },
+      {
+        "ingredient": "Iron Oxides (tint)",
+        "concentration": "~1-2%"
+      }
+    ],
+    "conditions_addressed": [
+      "UV protection",
+      "Tinted coverage for even skin tone",
+      "Dryness",
+      "Anti-aging",
+      "Post-procedure protection"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Sensitive",
+      "Mature"
+    ],
+    "contraindications": [
+      "Tint may not match all skin tones",
+      "Reapply every 2 hours"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "UV Replenish Broad-Spectrum SPF 44",
+    "brand": "EltaMD",
+    "category": "Hydrating Mineral Sunscreen",
+    "price": "$37.00",
+    "size": "2.0 oz / 57 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 10.0%, Titanium Dioxide 5.5%",
+      "Inactive Ingredients: Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Butylene Glycol",
+      "Glycerin",
+      "Polymethylsilsesquioxane",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Triethoxycaprylylsilane",
+      "Sodium Chloride",
+      "Quartz",
+      "Cyclohexasiloxane",
+      "HDI/Trimethylol Hexyllactone Crosspolymer",
+      "Alumina",
+      "Phenoxyethanol",
+      "Methicone",
+      "Iron Oxides",
+      "Sodium Hydroxide",
+      "Caprylyl Glycol",
+      "Disodium EDTA",
+      "Sodium Hyaluronate",
+      "Ascorbyl Palmitate",
+      "Tocopheryl Acetate"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "10.0%"
+      },
+      {
+        "ingredient": "Titanium Dioxide",
+        "concentration": "5.5%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin C (Ascorbyl Palmitate)",
+        "concentration": "~0.2%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "UV protection",
+      "Dryness",
+      "Dehydration",
+      "Anti-aging",
+      "Environmental protection"
+    ],
+    "skin_types": [
+      "Dry",
+      "Very Dry",
+      "Mature",
+      "Dehydrated"
+    ],
+    "contraindications": [
+      "May feel heavier than chemical sunscreens",
+      "Reapply every 2 hours"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "UV Glow Broad-Spectrum SPF 36",
+    "brand": "EltaMD",
+    "category": "Tinted Sunscreen with Glow",
+    "price": "$38.50",
+    "size": "1.7 oz / 48 g",
+    "inci_ingredients": [
+      "Active Ingredients: Zinc Oxide 13.5%",
+      "Inactive Ingredients: Water",
+      "Cyclopentasiloxane",
+      "Dimethicone",
+      "Butylene Glycol",
+      "Glycerin",
+      "Polymethylsilsesquioxane",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Triethoxycaprylylsilane",
+      "Sodium Chloride",
+      "Quartz",
+      "Cyclohexasiloxane",
+      "HDI/Trimethylol Hexyllactone Crosspolymer",
+      "Alumina",
+      "Phenoxyethanol",
+      "Methicone",
+      "Iron Oxides",
+      "Sodium Hydroxide",
+      "Caprylyl Glycol",
+      "Disodium EDTA",
+      "Mica",
+      "Titanium Dioxide",
+      "Sodium Hyaluronate",
+      "Tocopheryl Acetate"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "13.5% (high mineral protection)"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      },
+      {
+        "ingredient": "Mica/Titanium Dioxide (luminosity)",
+        "concentration": "~1%"
+      }
+    ],
+    "conditions_addressed": [
+      "UV protection",
+      "Dullness",
+      "Lack of radiance",
+      "Anti-aging",
+      "Desire for natural glow without makeup"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Dull",
+      "Mature"
+    ],
+    "contraindications": [
+      "Not suitable for those wanting matte finish",
+      "Reapply every 2 hours"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "PM Therapy Facial Moisturizer",
+    "brand": "EltaMD",
+    "category": "Night Moisturizer",
+    "price": "$38.00",
+    "size": "1.7 oz / 48 g",
+    "inci_ingredients": [
+      "Water",
+      "Cyclopentasiloxane",
+      "Ethylhexyl Isononanoate",
+      "Niacinamide",
+      "Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone",
+      "Dimethicone",
+      "Glycerin",
+      "Sodium Chloride",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Rice Protein",
+      "Saccharomyces Cerevisiae Extract",
+      "Tocopheryl Acetate",
+      "Ascorbyl Palmitate",
+      "Retinyl Palmitate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Caprylyl Glycol",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4-5%"
+      },
+      {
+        "ingredient": "Retinyl Palmitate (Vitamin A ester)",
+        "concentration": "~0.1-0.3%"
+      },
+      {
+        "ingredient": "Ceramides (NP, AP, EOP)",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Peptides (Hydrolyzed Rice Protein)",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin C (Ascorbyl Palmitate)",
+        "concentration": "~0.2%"
+      },
+      {
+        "ingredient": "Vitamin E (Tocopheryl Acetate)",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "Fine lines",
+      "Wrinkles",
+      "Uneven skin tone",
+      "Dehydration",
+      "Barrier repair (nighttime)",
+      "Loss of firmness"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Mature"
+    ],
+    "contraindications": [
+      "Contains retinyl palmitate - avoid during pregnancy/breastfeeding",
+      "Use SPF during day",
+      "Start slowly if new to retinoids"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "Foaming Facial Cleanser",
+    "brand": "EltaMD",
+    "category": "Cleanser",
+    "price": "$28.00",
+    "size": "7.0 oz / 207 mL",
+    "inci_ingredients": [
+      "Water",
+      "Sodium Laureth Sulfate",
+      "PEG-80 Sorbitan Laurate",
+      "Cocamidopropyl Betaine",
+      "Sodium Chloride",
+      "Phenoxyethanol",
+      "Methylparaben",
+      "Ethylparaben",
+      "Butylparaben",
+      "Propylparaben",
+      "Isobutylparaben",
+      "Propylene Glycol",
+      "Cucumis Sativus (Cucumber) Fruit Extract",
+      "Capric/Caprylic Triglyceride",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Disodium EDTA",
+      "Fragrance"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Cucumber Extract",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Chamomile Extract",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Caprylic/Capric Triglyceride",
+        "concentration": "~2% (light moisture)"
+      }
+    ],
+    "conditions_addressed": [
+      "Excess oil",
+      "Makeup removal",
+      "Daily cleansing",
+      "Gentle refresh"
+    ],
+    "skin_types": [
+      "Normal",
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "contraindications": [
+      "Contains sulfates - may be drying for very dry skin",
+      "Contains parabens",
+      "Contains fragrance - avoid if sensitive to fragrance"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Facial Moisturizer",
+    "brand": "EltaMD",
+    "category": "Moisturizer",
+    "price": "$34.50",
+    "size": "2.5 oz / 71 g",
+    "inci_ingredients": [
+      "Water",
+      "Cyclopentasiloxane",
+      "Ethylhexyl Isononanoate",
+      "Dimethicone",
+      "Niacinamide",
+      "Glycerin",
+      "Sodium Chloride",
+      "Sodium Hyaluronate",
+      "Tocopheryl Acetate",
+      "Ascorbyl Palmitate",
+      "Retinyl Palmitate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Caprylyl Glycol",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%"
+      },
+      {
+        "ingredient": "Retinyl Palmitate",
+        "concentration": "~0.1-0.2%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "concentration": "~0.2%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "Dryness",
+      "Fine lines",
+      "Uneven tone",
+      "Barrier maintenance",
+      "Early signs of aging"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Mature"
+    ],
+    "contraindications": [
+      "Contains retinyl palmitate - avoid if pregnant/breastfeeding",
+      "Use SPF during day"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "So Silky Hand Crème",
+    "brand": "EltaMD",
+    "category": "Hand Moisturizer",
+    "price": "$22.00",
+    "size": "3.0 oz / 85 g",
+    "inci_ingredients": [
+      "Water",
+      "Cyclopentasiloxane",
+      "Cetyl Alcohol",
+      "Dimethicone",
+      "Glycerin",
+      "Isopropyl Palmitate",
+      "Behentrimonium Methosulfate",
+      "Sodium Hyaluronate",
+      "Tocopheryl Acetate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Phytosphingosine",
+      "Cholesterol",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Caprylyl Glycol",
+      "Disodium EDTA"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.3%"
+      },
+      {
+        "ingredient": "Dimethicone",
+        "concentration": "~2% (skin protectant)"
+      }
+    ],
+    "conditions_addressed": [
+      "Dry hands",
+      "Rough texture",
+      "Aging hands",
+      "Cracked cuticles",
+      "Barrier protection from frequent washing"
+    ],
+    "skin_types": [
+      "Dry hands",
+      "Aging hands",
+      "Frequent hand-washers"
+    ],
+    "contraindications": [
+      "None known"
+    ],
+    "ph_range": "5.5 - 6.5"
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "source": "cortisol",
+    "target": "acne-vulgaris",
+    "direction": "excess",
+    "mechanism": "Cortisol stimulates sebaceous glands and increases adrenal androgen production. Stress elevates cortisol 50-100% above baseline → sebum overproduction → acne flares. CRH (keratinocyte-derived) also directly stimulates sebocytes.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol",
+    "target": "eczema-atopic-dermatitis",
+    "direction": "excess",
+    "mechanism": "Cortisol → barrier compromise (reduced filaggrin, loricrin, ceramides) → allergen penetration → inflammation → itch-scratch cycle. Stress precedes 67% of eczema flares. Sleep deprivation elevates cortisol 37-45%.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol",
+    "target": "psoriasis",
+    "direction": "excess",
+    "mechanism": "Stress → sympathetic activation → IL-6, TNF-α release → keratinocyte hyperproliferation via Th17 pathway. 40-80% of patients report stress as trigger. MBSR reduces psoriasis severity.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1; lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol",
+    "target": "rosacea",
+    "direction": "excess",
+    "mechanism": "Stress is #1 rosacea trigger. CRH stimulates mast cells → histamine and inflammatory mediator release → flushing and neurovascular reactivity. Chronic stress maintains vascular hyperresponsiveness.",
+    "evidence_level": "B",
+    "citation": "lifestyle-skin.md: Section 2; clinical-guidelines.md: Rosacea triggers"
+  },
+  {
+    "source": "cortisol",
+    "target": "alopecia-areata",
+    "direction": "excess",
+    "mechanism": "Stress may trigger autoimmune attack on hair follicles via immune dysregulation. Chronic cortisol shifts immune balance and may reduce Treg function, allowing autoreactive T-cells to attack follicles.",
+    "evidence_level": "C",
+    "citation": "lifestyle-skin.md: Section 2"
+  },
+  {
+    "source": "cortisol",
+    "target": "accelerated-aging",
+    "direction": "excess",
+    "mechanism": "Cortisol binds GR in fibroblasts → upregulates MMP-1 (2-3 fold), MMP-3, MMP-9 → degrades collagen types I and III. Simultaneously suppresses procollagen gene transcription → 30-40% reduced collagen synthesis. Chronic stress correlates with perceived skin aging.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1"
+  },
+  {
+    "source": "cortisol",
+    "target": "striae",
+    "direction": "excess",
+    "mechanism": "Exogenous or endogenous cortisol excess (Cushing's, chronic topical/systemic steroid use) → dermal collagen and elastin degradation → striae rubrae formation. Striae are a hallmark of iatrogenic Cushing's.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.1; clinical-guidelines.md: Cushing's"
+  },
+  {
+    "source": "cortisol",
+    "target": "wound-healing",
+    "direction": "excess",
+    "mechanism": "Cortisol suppresses neutrophil/macrophage recruitment, inhibits fibroblast proliferation and collagen synthesis, reduces VEGF, and impairs angiogenesis. Caregivers of dementia patients (chronic stress) show 24-40% slower wound healing.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.1"
+  },
+  {
+    "source": "estrogen",
+    "target": "accelerated-aging",
+    "direction": "deficiency",
+    "mechanism": "Estrogen withdrawal post-menopause → collagen loss 2-5% per year (first 5 years), skin thinning 1-2% per year, HA depletion, reduced elasticity. Estrogen increases procollagen I/III mRNA and TIMP-1; inhibits MMP-1 via AP-1 suppression.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen",
+    "target": "xerosis",
+    "direction": "deficiency",
+    "mechanism": "Estrogen upregulates HA synthase 2 (HAS2), ceramide synthesis, and tight junction proteins (claudin-1, occludin). Deficiency → HA loss → reduced water retention, dryness, impaired barrier.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen",
+    "target": "skin-thinning",
+    "direction": "deficiency",
+    "mechanism": "Loss of estrogen-driven collagen synthesis (types I and III via TGF-β1) and MMP-1 suppression → net collagen loss → dermal thinning. Skin thickness decreases 7-15% with estrogen withdrawal.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen",
+    "target": "wound-healing",
+    "direction": "deficiency",
+    "mechanism": "Estrogen supports inflammation phase and collagen synthesis during wound healing. Postmenopausal women show delayed healing due to reduced inflammatory response and collagen deposition.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen",
+    "target": "melasma",
+    "direction": "excess",
+    "mechanism": "Estrogen stimulates melanogenesis via MITF upregulation and tyrosinase activation. Progesterone may synergize. Hormonal contraceptives commonly trigger melasma. Pregnancy (high estrogen) is major trigger.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.2; skin-condition-profiles.md: Melasma"
+  },
+  {
+    "source": "estrogen",
+    "target": "melasma",
+    "direction": "deficiency",
+    "mechanism": "Melasma often improves post-menopause when estrogen declines, but this is relative to progesterone and androgen balance. HRT can worsen melasma.",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "estrogen",
+    "target": "vascular-health",
+    "direction": "deficiency",
+    "mechanism": "Estrogen supports vascular endothelial health and dermal microcirculation. Deficiency contributes to telangiectasia, dull complexion, and reduced nutrient delivery to skin.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.2"
+  },
+  {
+    "source": "progesterone",
+    "target": "acne-vulgaris",
+    "direction": "excess",
+    "mechanism": "Progesterone binds AR in sebaceous glands (lower affinity than DHT). Luteal phase progesterone rise increases sebum 30-50% → premenstrual acne flares. Androgenic progestins (levonorgestrel, norethindrone) worsen acne.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.3"
+  },
+  {
+    "source": "progesterone",
+    "target": "hormonal-acne",
+    "direction": "excess",
+    "mechanism": "Cyclical jawline/chin acne correlates with luteal phase progesterone rise. Relative estrogen deficiency (inadequate estrogen to offset progesterone/androgen effects) drives lesions. Post-pill acne follows progesterone withdrawal.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.3; clinical-guidelines.md: Acne hormonal"
+  },
+  {
+    "source": "progesterone",
+    "target": "melasma",
+    "direction": "excess",
+    "mechanism": "Progesterone may synergize with estrogen in stimulating melanogenesis. Some evidence that progesterone alone can trigger melasma. Combined oral contraceptives (estrogen + progestin) commonly trigger melasma.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.3"
+  },
+  {
+    "source": "progesterone",
+    "target": "skin-thickening",
+    "direction": "either",
+    "mechanism": "Progesterone effects on skin thickness are complex and less studied than estrogen. Some evidence that progesterone may have mild anti-inflammatory effects via glucocorticoid receptor modulation.",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.3"
+  },
+  {
+    "source": "testosterone",
+    "target": "acne-vulgaris",
+    "direction": "excess",
+    "mechanism": "DHT binds AR on sebocytes with 5× higher affinity than testosterone → lipogenic enzyme upregulation (FAS, ACC, SCD) → sebum overproduction. Also upregulates TLR2 → enhanced inflammatory response to C. acnes.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4; skin-condition-profiles.md: Acne"
+  },
+  {
+    "source": "testosterone",
+    "target": "hormonal-acne",
+    "direction": "excess",
+    "mechanism": "Androgens are primary driver of adult female jawline/chin acne. PCOS (70-80% have acne) is major underlying cause. DHT-driven sebum + follicular hyperkeratinization → deep inflammatory lesions.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4; clinical-guidelines.md: Acne hormonal therapy"
+  },
+  {
+    "source": "testosterone",
+    "target": "hirsutism",
+    "direction": "excess",
+    "mechanism": "DHT binds AR in hair follicle dermal papilla cells → converts vellus to terminal hairs in androgen-sensitive areas (upper lip, chin, chest, abdomen, back, inner thighs). Requires elevated androgens AND genetic AR sensitivity.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "testosterone",
+    "target": "androgenic-alopecia",
+    "direction": "excess",
+    "mechanism": "DHT binds AR in scalp dermal papilla → shortens anagen phase → follicle miniaturization. Increases TGF-β1/β2 (catagen promotion) and reduces Wnt/β-catenin (pro-growth). IL-6 and TNF-α contribute to follicular inflammation.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "testosterone",
+    "target": "seborrheic-dermatitis",
+    "direction": "excess",
+    "mechanism": "Androgen-driven sebum provides substrate for Malassezia overgrowth. Sebaceous gland hyperplasia creates lipid-rich environment favoring Malassezia proliferation.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "testosterone",
+    "target": "acanthosis-nigricans",
+    "direction": "excess",
+    "mechanism": "Hyperinsulinemia (often with androgen excess in PCOS) reduces SHBG → more free testosterone. Insulin and IGF-1 directly stimulate keratinocyte proliferation in flexural areas.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.4, 1.5"
+  },
+  {
+    "source": "insulin",
+    "target": "acne-vulgaris",
+    "direction": "excess",
+    "mechanism": "Hyperinsulinemia → elevated IGF-1 → mTORC1 activation → SREBP-1 upregulation → lipogenesis + keratinocyte hyperproliferation. Also reduces SHBG and IGFBP-3 → more free androgens and IGF-1.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.5; skin-condition-profiles.md: Acne"
+  },
+  {
+    "source": "insulin",
+    "target": "acanthosis-nigricans",
+    "direction": "excess",
+    "mechanism": "Insulin and IGF-1 directly stimulate keratinocyte and fibroblast proliferation in flexural areas via IGF-1 receptor signaling → velvety hyperpigmented plaques.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin",
+    "target": "hirsutism",
+    "direction": "excess",
+    "mechanism": "Insulin reduces SHBG → more free testosterone → androgen receptor activation in hair follicles. Also stimulates ovarian androgen production in PCOS.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin",
+    "target": "skin-tags",
+    "direction": "excess",
+    "mechanism": "Insulin and IGF-1 stimulate fibroblast and keratinocyte proliferation in skin folds → acrochordons formation.",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin",
+    "target": "accelerated-aging",
+    "direction": "excess",
+    "mechanism": "Hyperglycemia → non-enzymatic glycation → AGE formation on collagen → cross-linking → stiffness, reduced elasticity, yellowing. RAGE signaling activates NF-κB → IL-6, TNF-α, MMP-9.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.5"
+  },
+  {
+    "source": "insulin",
+    "target": "hormonal-acne",
+    "direction": "excess",
+    "mechanism": "Insulin resistance is common in PCOS (underlying cause of hormonal acne). Hyperinsulinemia amplifies ovarian androgen production and directly stimulates sebocytes via IGF-1/mTORC1.",
+    "evidence_level": "A",
+    "citation": "hormone-skin-connection.md: Section 1.5; clinical-guidelines.md: Acne hormonal"
+  },
+  {
+    "source": "thyroid_t3_t4",
+    "target": "xerosis",
+    "direction": "deficiency",
+    "mechanism": "Hypothyroidism reduces sebum production, impairs barrier lipid synthesis, and reduces epidermal turnover → severe dryness, scaling, cool pale skin. Myxedema causes non-pitting edema from mucopolysaccharide accumulation.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.6"
+  },
+  {
+    "source": "thyroid_t3_t4",
+    "target": "hair-loss",
+    "direction": "either",
+    "mechanism": "Both hypo- and hyperthyroidism cause diffuse non-scarring alopecia via altered follicle cycling. Hypothyroidism: brittle hair, dry scalp. Hyperthyroidism: fine, brittle hair, warm moist skin.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.6"
+  },
+  {
+    "source": "thyroid_t3_t4",
+    "target": "xerosis",
+    "direction": "excess",
+    "mechanism": "Hyperthyroidism can cause warm, moist skin but also fine hair and heat intolerance. Excessive sweating may paradoxically cause skin irritation.",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.6"
+  },
+  {
+    "source": "thyroid_t3_t4",
+    "target": "wound-healing",
+    "direction": "deficiency",
+    "mechanism": "Hypothyroidism impairs all phases of wound healing due to reduced metabolic rate, poor circulation, and impaired immune function.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.6"
+  },
+  {
+    "source": "dhea",
+    "target": "acne-vulgaris",
+    "direction": "excess",
+    "mechanism": "DHEA is precursor to androgens. Excess DHEA-S (often from adrenal hyperplasia or PCOS) converts to testosterone and DHT → sebum overproduction.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "dhea",
+    "target": "hirsutism",
+    "direction": "excess",
+    "mechanism": "Adrenal androgen excess (elevated DHEA-S) contributes to hirsutism, especially in non-classical congenital adrenal hyperplasia.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "dhea",
+    "target": "skin-aging",
+    "direction": "deficiency",
+    "mechanism": "DHEA declines with age (adrenopause). Low DHEA correlates with skin atrophy and decreased sebum. Some evidence for DHEA supplementation improving skin thickness in elderly.",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.4"
+  },
+  {
+    "source": "growth_hormone",
+    "target": "skin-thickness",
+    "direction": "either",
+    "mechanism": "GH stimulates IGF-1 → supports collagen synthesis, cell proliferation, and dermal thickness. Deficiency causes thin skin; excess (acromegaly) causes skin thickening and oily skin.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.7 (GH/IGF-1)"
+  },
+  {
+    "source": "growth_hormone",
+    "target": "wound-healing",
+    "direction": "deficiency",
+    "mechanism": "GH/IGF-1 essential for cell proliferation and collagen synthesis during wound healing. Peak GH during deep sleep drives nocturnal repair.",
+    "evidence_level": "B",
+    "citation": "lifestyle-skin.md: Section 1 (Sleep → GH)"
+  },
+  {
+    "source": "melatonin",
+    "target": "photoaging",
+    "direction": "deficiency",
+    "mechanism": "Melatonin is potent antioxidant (scavenges hydroxyl radical, peroxynitrite). Peak at 2-4 AM neutralizes UV-induced free radicals. Sleep deprivation reduces melatonin → increased oxidative damage.",
+    "evidence_level": "B",
+    "citation": "lifestyle-skin.md: Section 1 (Sleep → Melatonin)"
+  },
+  {
+    "source": "melatonin",
+    "target": "skin-cancer",
+    "direction": "deficiency",
+    "mechanism": "Melatonin has oncostatic properties and protects against UV-induced DNA damage. Reduced melatonin from poor sleep or blue light exposure may increase skin cancer risk.",
+    "evidence_level": "C",
+    "citation": "lifestyle-skin.md: Section 1 (Sleep → Melatonin)"
+  },
+  {
+    "source": "prolactin",
+    "target": "acne-vulgaris",
+    "direction": "excess",
+    "mechanism": "Hyperprolactinemia can cause acne, hirsutism, and menstrual irregularities via effects on hypothalamic-pituitary-gonadal axis. Dopamine agonists (if elevated) may improve skin.",
+    "evidence_level": "C",
+    "citation": "hormone-skin-connection.md: Section 1.8 (Prolactin)"
+  },
+  {
+    "source": "prolactin",
+    "target": "postpartum-skin-changes",
+    "direction": "excess",
+    "mechanism": "Elevated prolactin postpartum suppresses ovulation and estrogen → relative androgen excess → postpartum acne and hair loss.",
+    "evidence_level": "B",
+    "citation": "hormone-skin-connection.md: Section 1.8 (Prolactin)"
+  }
+]

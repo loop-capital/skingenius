@@ -1,0 +1,741 @@
+[
+  {
+    "name": "Cleansing Complex",
+    "brand": "iS Clinical",
+    "category": "cleanser",
+    "price": "$40-45",
+    "size": "180 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Glycerin",
+      "Salix Alba (Willow) Bark Extract",
+      "Saccharum Officinarum (Sugarcane) Extract",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Asiaticoside",
+      "Asiatic Acid",
+      "Madecassic Acid",
+      "Ascorbyl Palmitate",
+      "Phospholipids",
+      "Tocopheryl Acetate",
+      "Retinyl Palmitate",
+      "Beta-Carotene",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "White Willow Bark",
+      "Glycolic Acid",
+      "Salicylic Acid"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "acne-prone",
+      "deep cleansing"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to salicylic acid and retinoid content",
+      "Avoid use on broken or irritated skin",
+      "Discontinue if excessive dryness or irritation occurs"
+    ],
+    "ph_range": "4.5 - 5.5"
+  },
+  {
+    "name": "Cream Cleanser",
+    "brand": "iS Clinical",
+    "category": "cleanser",
+    "price": "$45-50",
+    "size": "180 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Tridecyl Stearate",
+      "Tridecyl Trimellitate",
+      "Dipentaerythrityl Hexacaprylate/Hexacaprate",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Ceteareth-20",
+      "Glyceryl Stearate",
+      "Aloe Barbadensis Leaf Juice",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Tocopherol",
+      "Retinyl Palmitate",
+      "Ascorbyl Palmitate",
+      "Ceteareth-12",
+      "Cetearyl Glucoside",
+      "Cetyl Alcohol",
+      "PEG-100 Stearate",
+      "Citric Acid",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Aloe Vera",
+      "Chamomile",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "sensitive skin",
+      "gentle cleansing"
+    ],
+    "skin_types": [
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Patch test recommended for very sensitive skin",
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Avoid contact with eyes"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Warming Honey Cleanser",
+    "brand": "iS Clinical",
+    "category": "cleanser",
+    "price": "$45-50",
+    "size": "120 g",
+    "inci_ingredients": [
+      "Glycerin",
+      "Honey/Mel",
+      "Myristic Acid",
+      "Olive Oil PEG-7 Esters",
+      "Polyglyceryl-10 Behenate/Eicosadioate",
+      "Papain",
+      "Bromelain",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Aloe Barbadensis Leaf Juice",
+      "Tocopherol",
+      "Retinyl Palmitate",
+      "Ascorbyl Palmitate",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Honey",
+      "Papaya Enzymes",
+      "Green Tea"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "gentle exfoliation",
+      "nourishing"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended for those with bee or honey allergies",
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Patch test recommended for sensitive skin",
+      "May feel warming sensation - discontinue if uncomfortable"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Active Serum",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$135-145",
+    "size": "15 ml / 30 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Glycerin",
+      "Saccharum Officinarum (Sugarcane) Extract",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Salix Alba (Willow) Bark Extract",
+      "Mixed Fruit Acid Extracts",
+      "Retinol",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Glycolic Acid",
+      "Lactic Acid",
+      "Salicylic Acid",
+      "Retinol"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "acne",
+      "hyperpigmentation",
+      "texture"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinol and salicylic acid content",
+      "Use sunscreen during the day (photosensitizing)",
+      "Start with 2-3 times per week for sensitive skin",
+      "Avoid using with other retinoids or exfoliating acids",
+      "May cause initial peeling or redness"
+    ],
+    "ph_range": "3.5 - 4.5"
+  },
+  {
+    "name": "GeneXC Serum",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$150-160",
+    "size": "15 ml / 30 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Ascorbic Acid (Vitamin C)",
+      "Saccharum Officinarum (Sugarcane) Extract",
+      "Lactobacillus Ferment",
+      "Plankton Extract",
+      "Pseudoalteromonas Ferment Extract",
+      "Micrococcus Lysate",
+      "Phospholipids",
+      "Tocopherol",
+      "Retinol",
+      "Citrus Aurantium Dulcis (Orange) Oil",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Extremozymes",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "sun damage",
+      "antioxidant protection"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinol content",
+      "Use sunscreen during the day",
+      "Patch test recommended for sensitive skin",
+      "May cause initial tingling sensation"
+    ],
+    "ph_range": "2.5 - 3.5"
+  },
+  {
+    "name": "Pro-Heal Serum Advance+",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$120-135",
+    "size": "15 ml / 30 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Ascorbic Acid (Vitamin C)",
+      "Olive Leaf Extract",
+      "Zinc Sulfate",
+      "Retinol",
+      "Tocopherol",
+      "Arbutin",
+      "Kojic Acid",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Vitamin E",
+      "Retinol",
+      "Zinc"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "inflammation",
+      "redness",
+      "healing"
+    ],
+    "skin_types": [
+      "acne-prone",
+      "sensitive"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinol content",
+      "Use sunscreen during the day",
+      "Avoid using with other retinoids",
+      "Start with low frequency for sensitive skin"
+    ],
+    "ph_range": "2.5 - 3.5"
+  },
+  {
+    "name": "Super Serum Advance+",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$145-155",
+    "size": "15 ml / 30 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Ascorbic Acid (Vitamin C)",
+      "Hyaluronic Acid",
+      "Copper Tripeptide-1",
+      "Pentapeptide-18",
+      "Acetyl Octapeptide-3",
+      "Retinol",
+      "Tocopherol",
+      "Niacinamide",
+      "Zinc Sulfate",
+      "Arbutin",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Vitamin E",
+      "Retinol",
+      "Growth Factors"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "fine lines",
+      "wrinkles",
+      "collagen production"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinol content",
+      "Use sunscreen during the day",
+      "Avoid using with other retinoids or strong acids",
+      "Patch test recommended for sensitive skin"
+    ],
+    "ph_range": "2.5 - 3.5"
+  },
+  {
+    "name": "Hydra-Cool Serum",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$90-100",
+    "size": "15 ml / 30 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Glycerin",
+      "Centella Asiatica Extract",
+      "Asiaticoside",
+      "Asiatic Acid",
+      "Madecassic Acid",
+      "Mushroom Extract",
+      "Aloe Barbadensis Leaf Juice",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Vitamin B5",
+      "Mushroom Extract"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "dehydration",
+      "sensitive skin",
+      "calming"
+    ],
+    "skin_types": [
+      "all",
+      "dry",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Generally well-tolerated; patch test recommended for very sensitive skin",
+      "Discontinue if irritation occurs"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Poly-Vitamin Serum",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$110-120",
+    "size": "15 ml / 30 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Sodium Hyaluronate",
+      "Niacinamide",
+      "Retinol",
+      "Panthenol",
+      "Tocopherol",
+      "Ascorbic Acid",
+      "Saccharum Officinarum (Sugarcane) Extract",
+      "Mixed Fruit Acid Extracts",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamins A",
+      "Vitamin E",
+      "Vitamin B5",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "dry skin",
+      "nutritional deficiency"
+    ],
+    "skin_types": [
+      "all",
+      "dry",
+      "aging"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinol content",
+      "Use sunscreen during the day",
+      "Avoid using with other retinoids or strong acids",
+      "May cause initial peeling or redness"
+    ],
+    "ph_range": "3.5 - 4.5"
+  },
+  {
+    "name": "C Eye Serum Advance+",
+    "brand": "iS Clinical",
+    "category": "eye_cream",
+    "price": "$70-80",
+    "size": "15 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Ascorbic Acid (Vitamin C)",
+      "Sodium Hyaluronate",
+      "Retinol",
+      "Tocopherol",
+      "Copper Tripeptide-1",
+      "Zinc Sulfate",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Vitamin E",
+      "Retinol"
+    ],
+    "conditions_addressed": [
+      "dark circles",
+      "fine lines",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinol content",
+      "Avoid direct contact with eyes",
+      "Use sunscreen during the day",
+      "Start with low frequency for sensitive skin"
+    ],
+    "ph_range": "2.5 - 3.5"
+  },
+  {
+    "name": "Reparative Moisture Emulsion",
+    "brand": "iS Clinical",
+    "category": "moisturizer",
+    "price": "$80-90",
+    "size": "50 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Sodium Hyaluronate",
+      "Glycerin",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Panthenol",
+      "Aloe Barbadensis Leaf Juice",
+      "Tocopherol",
+      "Retinyl Palmitate",
+      "Ascorbyl Palmitate",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Ceramides",
+      "Peptides"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "aging skin",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Patch test recommended for sensitive skin",
+      "Use sunscreen during the day"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Moisturizing Complex",
+    "brand": "iS Clinical",
+    "category": "moisturizer",
+    "price": "$75-85",
+    "size": "50 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Aloe Barbadensis Leaf Juice",
+      "Retinol",
+      "Tocopherol",
+      "Ascorbic Acid",
+      "Saccharum Officinarum (Sugarcane) Extract",
+      "Mixed Fruit Acid Extracts",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamins A",
+      "Vitamin E",
+      "Hyaluronic Acid"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "daily hydration",
+      "aging prevention"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinol content",
+      "Use sunscreen during the day",
+      "Avoid using with other retinoids or strong acids",
+      "Start with low frequency for sensitive skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Sheald Recovery Balm",
+    "brand": "iS Clinical",
+    "category": "treatment",
+    "price": "$60-70",
+    "size": "60 g",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Glycerin",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Fatty Acids",
+      "Tocopherol",
+      "Retinyl Palmitate",
+      "Ascorbyl Palmitate",
+      "Aloe Barbadensis Leaf Juice",
+      "Panthenol",
+      "Allantoin",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Ceramides",
+      "Fatty Acids",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "post-procedure",
+      "sensitive skin",
+      "barrier repair",
+      "dry skin"
+    ],
+    "skin_types": [
+      "all",
+      "sensitive",
+      "post-procedure"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "For external use only",
+      "Avoid use on open wounds or unhealed skin",
+      "Patch test recommended for very sensitive skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Eclipse SPF 50+",
+    "brand": "iS Clinical",
+    "category": "sunscreen",
+    "price": "$40-50",
+    "size": "100 g",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Cetearyl Glucoside",
+      "Aloe Barbadensis Leaf Juice",
+      "Tocopherol",
+      "Ascorbyl Palmitate",
+      "Retinyl Palmitate",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide"
+    ],
+    "conditions_addressed": [
+      "sun protection",
+      "all skin types",
+      "post-procedure"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Reapply every 2 hours during sun exposure",
+      "May leave white cast due to mineral filters"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "Extreme Protect SPF 40",
+    "brand": "iS Clinical",
+    "category": "sunscreen",
+    "price": "$70-80",
+    "size": "100 g",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Zinc Oxide",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Cetearyl Glucoside",
+      "Extremozymes",
+      "Tocopherol",
+      "Retinyl Palmitate",
+      "Ascorbyl Palmitate",
+      "Aloe Barbadensis Leaf Juice",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Extremozymes",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "sun protection",
+      "aging prevention",
+      "active lifestyle"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Reapply every 2 hours during sun exposure",
+      "May leave white cast due to mineral filters"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "Body Complex",
+    "brand": "iS Clinical",
+    "category": "moisturizer",
+    "price": "$60-70",
+    "size": "180 g",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Glycerin",
+      "Sodium Hyaluronate",
+      "Aloe Barbadensis Leaf Juice",
+      "Retinol",
+      "Tocopherol",
+      "Ascorbic Acid",
+      "Saccharum Officinarum (Sugarcane) Extract",
+      "Mixed Fruit Acid Extracts",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamins A",
+      "Vitamin E",
+      "Hyaluronic Acid"
+    ],
+    "conditions_addressed": [
+      "body skin",
+      "dry skin",
+      "aging body skin"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinol content",
+      "Use sunscreen during the day",
+      "Avoid use on broken or irritated skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth Body Serum",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "price": "$65-75",
+    "size": "100 ml",
+    "inci_ingredients": [
+      "Water/Aqua/Eau",
+      "Ascorbic Acid (Vitamin C)",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Copper Tripeptide-1",
+      "Tocopherol",
+      "Retinyl Palmitate",
+      "Polysorbate 20",
+      "Disodium EDTA",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Peptides",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "body skin",
+      "aging body skin",
+      "firming"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "Avoid use on broken or irritated skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  }
+]

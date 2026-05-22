@@ -1,0 +1,1329 @@
+[
+  {
+    "name": "Gentle Cleanser",
+    "brand": "ZO Skin Health",
+    "category": "cleanser",
+    "price": "$45-50",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Glycerin",
+      "Glycereth-26",
+      "Panthenol (Vitamin B5)",
+      "Allantoin",
+      "Sodium PCA",
+      "Sodium Hyaluronate",
+      "Urea",
+      "Trehalose",
+      "Polyquaternium-51",
+      "Plant Extracts (Chamomilla Recutita, Aloe Barbadensis)",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Glycerin",
+      "Allantoin",
+      "Plant Extracts"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "sensitive skin",
+      "gentle cleansing"
+    ],
+    "skin_types": [
+      "all",
+      "sensitive",
+      "dry"
+    ],
+    "contraindications": [
+      "Contains SLS - may irritate very sensitive skin",
+      "Contains methylisothiazolinone - avoid if sensitive to this preservative",
+      "Generally well-tolerated by most skin types",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.5-6.5"
+  },
+  {
+    "name": "Exfoliating Cleanser",
+    "brand": "ZO Skin Health",
+    "category": "cleanser",
+    "price": "$45-50",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Glycerin",
+      "Jojoba Esters",
+      "Salicylic Acid",
+      "Tocopherol (Vitamin E)",
+      "Sodium PCA",
+      "Sodium Hyaluronate",
+      "Urea",
+      "Trehalose",
+      "Polyquaternium-51",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone",
+      "Citric Acid"
+    ],
+    "key_actives": [
+      "Jojoba Beads",
+      "Salicylic Acid",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "acne-prone",
+      "texture"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone",
+      "combination"
+    ],
+    "contraindications": [
+      "Contains salicylic acid (BHA) - avoid during pregnancy and breastfeeding",
+      "Contains physical exfoliants (jojoba beads) - avoid if sensitive to physical exfoliation",
+      "Not suitable for very sensitive or inflamed skin",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid on active acne lesions"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Exfoliating Polish",
+    "brand": "ZO Skin Health",
+    "category": "exfoliant",
+    "price": "$60-70",
+    "size": "65g",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Magnesium Oxide",
+      "Glycerin",
+      "Ascorbic Acid (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Tetrahexyldecyl Ascorbate",
+      "Retinyl Palmitate",
+      "Sodium PCA",
+      "Sodium Hyaluronate",
+      "Urea",
+      "Trehalose",
+      "Polyquaternium-51",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Magnesium Crystals",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "dull skin",
+      "texture",
+      "radiance"
+    ],
+    "skin_types": [
+      "all",
+      "dull"
+    ],
+    "contraindications": [
+      "Contains retinyl palmitate - avoid during pregnancy and breastfeeding",
+      "Contains physical exfoliants (magnesium crystals) - avoid if sensitive to physical exfoliation",
+      "Contains vitamin C - may irritate very sensitive skin",
+      "Not suitable for inflamed or broken skin",
+      "Use caution with retinoid use"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Complexion Clearing Masque",
+    "brand": "ZO Skin Health",
+    "category": "mask",
+    "price": "$50-60",
+    "size": "85g",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Sulfur",
+      "Kaolin",
+      "Bentonite",
+      "Glycerin",
+      "Zinc Oxide",
+      "Tocopherol (Vitamin E)",
+      "Allantoin",
+      "Camphor",
+      "Eucalyptus Globulus Leaf Oil",
+      "Menthol",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Sulfur",
+      "Kaolin",
+      "Bentonite"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "oily skin",
+      "congested pores"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains sulfur - strong smell, may irritate sensitive skin",
+      "Contains menthol and camphor - avoid if sensitive to cooling agents",
+      "Contains essential oils - avoid if sensitive to fragrance",
+      "Not suitable for dry or sensitive skin",
+      "Avoid on broken or irritated skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Oil Control Pads",
+    "brand": "ZO Skin Health",
+    "category": "toner",
+    "price": "$50-60",
+    "size": "75 pads",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Alcohol Denat.",
+      "Salicylic Acid 2%",
+      "Glycolic Acid",
+      "Mandelic Acid",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Urea",
+      "Trehalose",
+      "Polyquaternium-51",
+      "Sodium Hyaluronate",
+      "Sodium PCA",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Salicylic Acid 2%",
+      "Glycolic Acid",
+      "Mandelic Acid"
+    ],
+    "conditions_addressed": [
+      "oily skin",
+      "acne-prone",
+      "large pores"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains salicylic acid (BHA) - avoid during pregnancy and breastfeeding",
+      "Contains multiple acids (AHA + BHA) - high irritation potential",
+      "Contains alcohol denat - may dry out sensitive skin",
+      "Not suitable for sensitive or dry skin",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid combining with other strong acids or retinoids"
+    ],
+    "ph_range": "3.0-4.0"
+  },
+  {
+    "name": "Calming Toner",
+    "brand": "ZO Skin Health",
+    "category": "toner",
+    "price": "$40-45",
+    "size": "180ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Hamamelis Virginiana (Witch Hazel) Water",
+      "Glycerin",
+      "Allantoin",
+      "Panthenol (Vitamin B5)",
+      "Sodium Hyaluronate",
+      "Sodium PCA",
+      "Urea",
+      "Trehalose",
+      "Polyquaternium-51",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Witch Hazel",
+      "Allantoin",
+      "Panthenol"
+    ],
+    "conditions_addressed": [
+      "sensitive skin",
+      "redness",
+      "irritated skin"
+    ],
+    "skin_types": [
+      "sensitive",
+      "dry",
+      "all"
+    ],
+    "contraindications": [
+      "Contains witch hazel - avoid if allergic to witch hazel",
+      "Contains methylisothiazolinone - avoid if sensitive to this preservative",
+      "Generally well-tolerated by sensitive skin",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "4.5-5.5"
+  },
+  {
+    "name": "Daily Power Defense",
+    "brand": "ZO Skin Health",
+    "category": "serum",
+    "price": "$150-170",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Tocopherol (Vitamin E)",
+      "Retinol",
+      "Sodium DNA",
+      "Ceramide NG",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Matrixyl 3000",
+      "Ubiquinone (CoQ10)",
+      "Sodium Hyaluronate",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Growth Factors",
+      "Retinol",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "repair",
+      "defense"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains retinol - introduce gradually to avoid irritation",
+      "Photosensitivity - must use sunscreen daily",
+      "Not suitable for very sensitive skin without patch test"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Radical Night Repair",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$160-180",
+    "size": "60ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol 1%",
+      "Tocopherol (Vitamin E)",
+      "Ascorbic Acid (Vitamin C)",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Retinol 1%",
+      "Vitamin E",
+      "Vitamin C"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "mature skin",
+      "experienced retinol users"
+    ],
+    "skin_types": [
+      "mature",
+      "tolerant"
+    ],
+    "contraindications": [
+      "Contains retinol 1% - avoid during pregnancy and breastfeeding",
+      "Contains retinol 1% - for experienced retinol users only",
+      "High risk of irritation - use with caution",
+      "Photosensitivity - must use sunscreen daily",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Not suitable for beginners or sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Retinol Skin Brightener 0.25%",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$80-90",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol 0.25%",
+      "Ascorbic Acid (Vitamin C)",
+      "Niacinamide",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Retinol 0.25%",
+      "Vitamin C",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "beginners",
+      "hyperpigmentation",
+      "fine lines"
+    ],
+    "skin_types": [
+      "all",
+      "beginner"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains vitamin C - may irritate very sensitive skin",
+      "Photosensitivity - must use sunscreen daily",
+      "Introduce gradually to avoid irritation"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Retinol Skin Brightener 0.5%",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$100-110",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol 0.5%",
+      "Ascorbic Acid (Vitamin C)",
+      "Niacinamide",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Retinol 0.5%",
+      "Vitamin C",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "intermediate",
+      "hyperpigmentation",
+      "wrinkles"
+    ],
+    "skin_types": [
+      "intermediate",
+      "non-sensitive"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Not suitable for beginners or sensitive skin",
+      "Photosensitivity - must use sunscreen daily",
+      "Avoid combining with other retinoids or strong acids"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Retinol Skin Brightener 1%",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$120-130",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol 1%",
+      "Ascorbic Acid (Vitamin C)",
+      "Niacinamide",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Retinol 1%",
+      "Vitamin C",
+      "Niacinamide"
+    ],
+    "conditions_addressed": [
+      "advanced users",
+      "hyperpigmentation",
+      "deep wrinkles"
+    ],
+    "skin_types": [
+      "advanced",
+      "tolerant"
+    ],
+    "contraindications": [
+      "Contains retinol 1% - avoid during pregnancy and breastfeeding",
+      "Contains retinol 1% - for experienced retinol users only",
+      "High risk of irritation - use with caution",
+      "Photosensitivity - must use sunscreen daily",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Not suitable for beginners or sensitive skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Firming Serum",
+    "brand": "ZO Skin Health",
+    "category": "serum",
+    "price": "$200-220",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Sodium DNA",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Acetyl Hexapeptide-8",
+      "Growth Factors",
+      "Sodium Hyaluronate",
+      "Tocopherol (Vitamin E)",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Growth Factors",
+      "Peptides",
+      "Sodium DNA"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "loss of firmness",
+      "sagging"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains peptides - patch test if sensitive to peptide products",
+      "Contains growth factors - consult with dermatologist if concerned",
+      "Safe for most skin types",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Growth Factor Serum",
+    "brand": "ZO Skin Health",
+    "category": "serum",
+    "price": "$180-200",
+    "size": "30ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Growth Factors (IGF-1, TGF-beta)",
+      "Retinol",
+      "Zanthoxylum Bungeanum Fruit Extract",
+      "Sodium Hyaluronate",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Growth Factors",
+      "Retinol",
+      "Zanthoxylum Bungeanum"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "repair",
+      "regeneration"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains growth factors - consult with dermatologist if concerned",
+      "Photosensitivity - must use sunscreen daily",
+      "Not suitable for very sensitive skin without patch test"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Brightalive Skin Brightener",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$130-150",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Tranexamic Acid",
+      "Niacinamide",
+      "Papain",
+      "Sodium Hyaluronate",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Tranexamic Acid",
+      "Niacinamide",
+      "Papain"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "melasma",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains tranexamic acid - consult doctor if taking blood thinners",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains papain (papaya enzyme) - avoid if allergic to latex/papaya",
+      "Photosensitivity - must use sunscreen daily",
+      "Niacinamide may cause flushing in some individuals"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Pigment Control Crème 4%",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$100-120",
+    "size": "80ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Hydroquinone 4%",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Tocopherol (Vitamin E)",
+      "Ascorbic Acid (Vitamin C)",
+      "Sodium Hyaluronate",
+      "Palmitoyl Tripeptide-1",
+      "Benzyl Alcohol",
+      "Parfum / Fragrance",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Hydroquinone 4%"
+    ],
+    "conditions_addressed": [
+      "severe hyperpigmentation",
+      "melasma",
+      "prescription strength"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains hydroquinone 4% - prescription strength, use under medical supervision",
+      "Hydroquinone - avoid during pregnancy and breastfeeding",
+      "Hydroquinone - limit use to 3-5 months to avoid ochronosis",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Photosensitivity - must use sunscreen daily",
+      "Patch test recommended before use",
+      "Not suitable for long-term continuous use"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Acne Control 10%",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$35-45",
+    "size": "60ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Benzoyl Peroxide 10%",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Benzyl Alcohol",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Benzoyl Peroxide 10%",
+      "Tea Tree Oil"
+    ],
+    "conditions_addressed": [
+      "acne",
+      "breakouts",
+      "oily skin"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains benzoyl peroxide 10% - high strength, may cause dryness and irritation",
+      "Benzoyl peroxide - avoid during pregnancy and breastfeeding",
+      "Contains tea tree oil - avoid if sensitive to essential oils",
+      "Not suitable for sensitive or dry skin",
+      "May bleach fabrics",
+      "Photosensitivity - must use sunscreen daily"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Sulfur Masque",
+    "brand": "ZO Skin Health",
+    "category": "mask",
+    "price": "$45-55",
+    "size": "85g",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Sulfur",
+      "Kaolin",
+      "Bentonite",
+      "Glycerin",
+      "Zinc Oxide",
+      "Tocopherol (Vitamin E)",
+      "Allantoin",
+      "Camphor",
+      "Eucalyptus Globulus Leaf Oil",
+      "Menthol",
+      "Methylisothiazolinone",
+      "Methylchloroisothiazolinone"
+    ],
+    "key_actives": [
+      "Sulfur",
+      "Kaolin",
+      "Bentonite"
+    ],
+    "conditions_addressed": [
+      "acne-prone",
+      "oily skin",
+      "congested pores"
+    ],
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Contains sulfur - strong smell, may irritate sensitive skin",
+      "Contains menthol and camphor - avoid if sensitive to cooling agents",
+      "Contains essential oils - avoid if sensitive to fragrance",
+      "Not suitable for dry or sensitive skin",
+      "Avoid on broken or irritated skin"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Gel Sunscreen Broad Spectrum SPF 50",
+    "brand": "ZO Skin Health",
+    "category": "sunscreen",
+    "price": "$50-60",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Glycerin",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Neopentyl Glycol Diheptanoate",
+      "Silica",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "sun protection",
+      "oily skin"
+    ],
+    "skin_types": [
+      "all",
+      "oily"
+    ],
+    "contraindications": [
+      "Contains silicones - patch test if sensitive to silicones",
+      "Mineral sunscreen may leave white cast on darker skin",
+      "Safe for sensitive skin and during pregnancy",
+      "No known major contraindications"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Sheer Fluid Broad Spectrum SPF 45",
+    "brand": "ZO Skin Health",
+    "category": "sunscreen",
+    "price": "$55-65",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Glycerin",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Neopentyl Glycol Diheptanoate",
+      "Silica",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "sun protection",
+      "lightweight"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains silicones - patch test if sensitive to silicones",
+      "Mineral sunscreen may leave white cast on darker skin",
+      "Safe for sensitive skin and during pregnancy",
+      "No known major contraindications"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Daily Mineral Sunshade SPF 45",
+    "brand": "ZO Skin Health",
+    "category": "sunscreen",
+    "price": "$60-70",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Glycerin",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Neopentyl Glycol Diheptanoate",
+      "Silica",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Tocopherol (Vitamin E)",
+      "Ubiquinone (CoQ10)",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "daily protection",
+      "anti-aging"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains silicones - patch test if sensitive to silicones",
+      "Mineral sunscreen may leave white cast on darker skin",
+      "Safe for sensitive skin and during pregnancy",
+      "No known major contraindications"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Smart Tone Broad Spectrum SPF 50",
+    "brand": "ZO Skin Health",
+    "category": "sunscreen",
+    "price": "$65-75",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Glycerin",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Neopentyl Glycol Diheptanoate",
+      "Iron Oxides",
+      "Silica",
+      "Polymethylsilsesquioxane",
+      "Alumina",
+      "Stearic Acid",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Iron Oxides"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "tinted coverage",
+      "sun protection"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Contains iron oxides for tint - may not suit very fair or very deep skin tones",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Safe for sensitive skin and during pregnancy",
+      "No known major contraindications"
+    ],
+    "ph_range": "N/A"
+  },
+  {
+    "name": "Hydrating Crème",
+    "brand": "ZO Skin Health",
+    "category": "moisturizer",
+    "price": "$80-90",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Linoleic Acid",
+      "Linolenic Acid",
+      "Oleic Acid",
+      "Tocopherol (Vitamin E)",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Ceramides",
+      "Fatty Acids",
+      "Cholesterol"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "dehydrated skin",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "dry",
+      "dehydrated",
+      "sensitive"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Generally well-tolerated by sensitive skin",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Renewal Crème",
+    "brand": "ZO Skin Health",
+    "category": "moisturizer",
+    "price": "$90-100",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Retinol",
+      "Ceramides",
+      "Peptides"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "fine lines",
+      "texture"
+    ],
+    "skin_types": [
+      "mature",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Photosensitivity - must use sunscreen daily",
+      "Introduce gradually to avoid irritation",
+      "Not suitable for very sensitive skin without patch test"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Recovery Crème",
+    "brand": "ZO Skin Health",
+    "category": "moisturizer",
+    "price": "$85-95",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Palmitoyl Tripeptide-1 (Matrixyl)",
+      "Palmitoyl Tetrapeptide-7",
+      "Tocopherol (Vitamin E)",
+      "Ubiquinone (CoQ10)",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Ceramides",
+      "Matrixyl",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "post-procedure",
+      "sensitive skin",
+      "repair"
+    ],
+    "skin_types": [
+      "sensitive",
+      "post-procedure",
+      "dry"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Designed for post-procedure use - generally well-tolerated",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Restoracalm",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$75-85",
+    "size": "50ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Beta-Glucan",
+      "Avena Sativa (Oat) Kernel Flour (Colloidal Oatmeal)",
+      "Aloe Barbadensis Leaf Extract",
+      "Allantoin",
+      "Panthenol (Vitamin B5)",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Beta-Glucan",
+      "Colloidal Oatmeal",
+      "Aloe"
+    ],
+    "conditions_addressed": [
+      "sensitive skin",
+      "redness",
+      "irritation",
+      "post-procedure"
+    ],
+    "skin_types": [
+      "sensitive",
+      "post-procedure",
+      "irritated"
+    ],
+    "contraindications": [
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains silicones - patch test if sensitive to silicones",
+      "Contains colloidal oatmeal - avoid if allergic to oats",
+      "Generally well-tolerated by very sensitive skin",
+      "Safe during pregnancy and breastfeeding"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Body Emulsion",
+    "brand": "ZO Skin Health",
+    "category": "moisturizer",
+    "price": "$55-65",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Tocopherol (Vitamin E)",
+      "Ubiquinone (CoQ10)",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Retinol",
+      "Ceramides",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "body skin",
+      "aging body skin",
+      "dry skin"
+    ],
+    "skin_types": [
+      "body",
+      "dry",
+      "aging"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Photosensitivity - must use sunscreen on exposed areas",
+      "Introduce gradually to avoid body skin irritation"
+    ],
+    "ph_range": "5.0-6.0"
+  },
+  {
+    "name": "Body Smoothing Crème",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$60-70",
+    "size": "200ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Lactic Acid",
+      "Urea",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Urea",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "rough skin",
+      "KP",
+      "body texture"
+    ],
+    "skin_types": [
+      "body",
+      "rough",
+      "KP"
+    ],
+    "contraindications": [
+      "Contains lactic acid (AHA) - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Contains AHA - photosensitivity on exposed areas, use sunscreen",
+      "Not suitable for broken or irritated skin",
+      "May sting on freshly shaved skin"
+    ],
+    "ph_range": "3.5-4.5"
+  },
+  {
+    "name": "Hand Repair",
+    "brand": "ZO Skin Health",
+    "category": "treatment",
+    "price": "$50-60",
+    "size": "75ml",
+    "inci_ingredients": [
+      "Aqua / Water / Eau",
+      "Glycerin",
+      "Cyclohexasiloxane",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Glyceryl Stearate",
+      "Ceteareth-20",
+      "Retinol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Tocopherol (Vitamin E)",
+      "Ubiquinone (CoQ10)",
+      "Sodium Lauroyl Lactylate",
+      "Carbomer",
+      "Xanthan Gum",
+      "Sodium Hyaluronate",
+      "Phenoxyethanol",
+      "Parfum / Fragrance"
+    ],
+    "key_actives": [
+      "Retinol",
+      "Ceramides",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "aging hands",
+      "dry hands",
+      "hand rejuvenation"
+    ],
+    "skin_types": [
+      "hands",
+      "aging",
+      "dry"
+    ],
+    "contraindications": [
+      "Contains retinol - avoid during pregnancy and breastfeeding",
+      "Contains fragrance - avoid if sensitive to fragrance",
+      "Photosensitivity on hands - use sunscreen or gloves",
+      "Introduce gradually to avoid hand irritation"
+    ],
+    "ph_range": "5.0-6.0"
+  }
+]

@@ -1,0 +1,1250 @@
+[
+  {
+    "name": "Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "Cleanser",
+    "price": "$16.99",
+    "size": "12 oz / 355 mL",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Phenoxyethanol",
+      "Stearyl Alcohol",
+      "Cetyl Alcohol",
+      "PEG-40 Stearate",
+      "Behentrimonium Methosulfate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Glyceryl Stearate",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Dipotassium Phosphate",
+      "Potassium Phosphate",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Cetyl Alcohol",
+      "Polysorbate 20",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramides (NP, AP, EOP)",
+        "concentration": "~1% (proprietary MVE Technology blend)"
+      },
+      {
+        "ingredient": "Hyaluronic Acid (Sodium Hyaluronate)",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Cholesterol",
+        "concentration": "~0.2%"
+      },
+      {
+        "ingredient": "Phytosphingosine",
+        "concentration": "Trace (<0.1%)"
+      }
+    ],
+    "conditions_addressed": [
+      "Dryness",
+      "Dehydration",
+      "Compromised skin barrier",
+      "Mild eczema-prone skin"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "None known; suitable for all ages including infants"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Foaming Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "Cleanser",
+    "price": "$15.99",
+    "size": "12 oz / 355 mL",
+    "inci_ingredients": [
+      "Water",
+      "Cocamidopropyl Hydroxysultaine",
+      "Glycerin",
+      "Sodium Lauroyl Sarcosinate",
+      "PEG-150 Pentaerythrityl Tetrastearate",
+      "Niacinamide",
+      "PEG-6 Caprylic/Capric Glycerides",
+      "Sodium Methyl Cocoyl Taurate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Methylparaben",
+      "Sodium Chloride",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Propylparaben",
+      "Citric Acid",
+      "Tetrasodium EDTA",
+      "Dipotassium Phosphate",
+      "Sodium Lauroyl Lactylate",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%"
+      },
+      {
+        "ingredient": "Ceramides (NP, AP, EOP)",
+        "concentration": "~1% (proprietary blend)"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Excess oil",
+      "Acne-prone skin",
+      "Enlarged pores",
+      "Uneven skin tone"
+    ],
+    "skin_types": [
+      "Normal",
+      "Oily",
+      "Combination"
+    ],
+    "contraindications": [
+      "None known"
+    ],
+    "ph_range": "5.0 - 6.0"
+  },
+  {
+    "name": "Renewing SA Cleanser",
+    "brand": "CeraVe",
+    "category": "Cleanser",
+    "price": "$17.99",
+    "size": "8 oz / 237 mL",
+    "inci_ingredients": [
+      "Water",
+      "Sodium Lauroyl Sarcosinate",
+      "Cocamidopropyl Hydroxysultaine",
+      "Glycerin",
+      "Niacinamide",
+      "Gluconolactone",
+      "Sodium Methyl Cocoyl Taurate",
+      "PEG-150 Pentaerythrityl Tetrastearate",
+      "Salicylic Acid",
+      "Sodium Benzoate",
+      "Zinc Gluconate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholecalciferol (Vitamin D3)",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Salicylic Acid (BHA)",
+        "concentration": "0.5%"
+      },
+      {
+        "ingredient": "Gluconolactone (PHA)",
+        "concentration": "~2-4%"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%"
+      },
+      {
+        "ingredient": "Zinc Gluconate",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      }
+    ],
+    "conditions_addressed": [
+      "Acne",
+      "Blackheads",
+      "Whiteheads",
+      "Rough texture",
+      "Keratosis pilaris",
+      "Clogged pores"
+    ],
+    "skin_types": [
+      "Normal",
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "contraindications": [
+      "Avoid during pregnancy/breastfeeding (salicylic acid)",
+      "Not for use on broken skin",
+      "Discontinue if severe irritation occurs"
+    ],
+    "ph_range": "3.5 - 4.5 (optimized for SA efficacy)"
+  },
+  {
+    "name": "Moisturizing Cream",
+    "brand": "CeraVe",
+    "category": "Moisturizer",
+    "price": "$18.99",
+    "size": "16 oz / 453 g",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Caprylic/Capric Triglyceride",
+      "Cetyl Alcohol",
+      "Ceteareth-20",
+      "Petrolatum",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Dimethicone",
+      "Behentrimonium Methosulfate",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Dipotassium Phosphate",
+      "Potassium Phosphate",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramides (NP, AP, EOP)",
+        "concentration": "~1-2% (higher concentration than lotion)"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Petrolatum",
+        "concentration": "~2-4% (occlusive barrier)"
+      },
+      {
+        "ingredient": "Cholesterol",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "Severe dryness",
+      "Eczema",
+      "Atopic dermatitis",
+      "Compromised skin barrier",
+      "Winter/cold weather dryness"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Very Dry",
+      "Sensitive",
+      "Eczema-prone"
+    ],
+    "contraindications": [
+      "None known; suitable for all ages including infants",
+      "Fragrance-free, non-comedogenic"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Moisturizing Lotion (Daily Moisturizing Lotion)",
+    "brand": "CeraVe",
+    "category": "Moisturizer",
+    "price": "$13.99",
+    "size": "12 oz / 355 mL",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetyl Alcohol",
+      "Dimethicone",
+      "Petrolatum",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Behentrimonium Methosulfate",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Dipotassium Phosphate",
+      "Potassium Phosphate",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramides (NP, AP, EOP)",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Dimethicone",
+        "concentration": "~1% (light occlusive)"
+      }
+    ],
+    "conditions_addressed": [
+      "Dryness",
+      "Dehydration",
+      "Mild skin barrier compromise",
+      "Everyday moisture maintenance"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "None known"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Daily Moisturizing Lotion with SPF 30",
+    "brand": "CeraVe",
+    "category": "Moisturizer with SPF",
+    "price": "$17.99",
+    "size": "1.7 oz / 50 mL",
+    "inci_ingredients": [
+      "Active Ingredients: Homosalate 10%, Meradimate 5%, Octinoxate 5%, Octocrylene 2%, Zinc Oxide 6.3%",
+      "Inactive Ingredients: Water",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Glycerin",
+      "Dimethicone",
+      "Behentrimonium Methosulfate",
+      "Cetearyl Alcohol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Dodecylbenzenesulfonate",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Alumina",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Disodium EDTA",
+      "Propylene Glycol",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide (mineral UV filter)",
+        "concentration": "6.3%"
+      },
+      {
+        "ingredient": "Homosalate (chemical UV filter)",
+        "concentration": "10%"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hydrolyzed Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "UV protection",
+      "Dryness",
+      "Photoaging prevention",
+      "Uneven skin tone"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination"
+    ],
+    "contraindications": [
+      "Contains chemical UV filters - patch test if sensitive",
+      "Reapply every 2 hours when in sun"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "Daily Moisturizing Lotion with SPF 50",
+    "brand": "CeraVe",
+    "category": "Moisturizer with SPF",
+    "price": "$19.99",
+    "size": "1.7 oz / 50 mL",
+    "inci_ingredients": [
+      "Active Ingredients: Homosalate 10%, Meradimate 5%, Octinoxate 5%, Octocrylene 2%, Zinc Oxide 6.3%",
+      "Inactive Ingredients: Water",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Glycerin",
+      "Dimethicone",
+      "Behentrimonium Methosulfate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Dodecylbenzenesulfonate",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Alumina",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Disodium EDTA",
+      "Propylene Glycol",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "6.3%"
+      },
+      {
+        "ingredient": "Homosalate",
+        "concentration": "10%"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      }
+    ],
+    "conditions_addressed": [
+      "High UV protection (SPF 50)",
+      "Photoaging",
+      "Hyperpigmentation prevention",
+      "Dryness"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "Reapply every 2 hours",
+      "Not water-resistant for 80 minutes"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "PM Facial Moisturizing Lotion",
+    "brand": "CeraVe",
+    "category": "Night Moisturizer",
+    "price": "$15.99",
+    "size": "3 oz / 89 mL",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      " Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Polyacrylate",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%"
+      },
+      {
+        "ingredient": "Ceramides (NP, AP, EOP)",
+        "concentration": "~1-2%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Skin barrier repair (nighttime)",
+      "Uneven skin tone",
+      "Fine lines",
+      "Dehydration",
+      "Post-inflammatory hyperpigmentation"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Oily",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "None known; suitable for nightly use"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "AM Facial Moisturizing Lotion with SPF 30",
+    "brand": "CeraVe",
+    "category": "Day Moisturizer with SPF",
+    "price": "$15.99",
+    "size": "3 oz / 89 mL",
+    "inci_ingredients": [
+      "Active Ingredients: Homosalate 10%, Meradimate 5%, Octinoxate 5%, Octocrylene 2%, Zinc Oxide 6.3%",
+      "Inactive Ingredients: Water",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Glycerin",
+      "Dimethicone",
+      "Behentrimonium Methosulfate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Dodecylbenzenesulfonate",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Alumina",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Disodium EDTA",
+      "Propylene Glycol",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Zinc Oxide",
+        "concentration": "6.3%"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1-2%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Daily UV protection",
+      "Barrier maintenance",
+      "Photoaging prevention",
+      "Uneven tone"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination"
+    ],
+    "contraindications": [
+      "Reapply every 2 hours when exposed to sun",
+      "Contains chemical UV filters"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "Skin Renewing Day Cream with SPF 30",
+    "brand": "CeraVe",
+    "category": "Anti-Aging Day Moisturizer with SPF",
+    "price": "$24.99",
+    "size": "1.76 oz / 50 g",
+    "inci_ingredients": [
+      "Active Ingredients: Avobenzone 3%, Homosalate 10%, Octinoxate 5%, Octocrylene 2.7%",
+      "Inactive Ingredients: Water",
+      "Niacinamide",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Dimethicone",
+      "Behentrimonium Methosulfate",
+      "Cetearyl Alcohol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Retinol",
+      "Polysorbate 20",
+      "Isopropyl Myristate",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Retinol (encapsulated)",
+        "concentration": "~0.1-0.3% (estimated, time-release)"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%"
+      },
+      {
+        "ingredient": "Avobenzone",
+        "concentration": "3% (UVA protection)"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      }
+    ],
+    "conditions_addressed": [
+      "Fine lines",
+      "Wrinkles",
+      "Photoaging",
+      "Skin texture",
+      "UV damage prevention"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Mature"
+    ],
+    "contraindications": [
+      "Retinol may cause initial irritation - start slowly",
+      "Use SPF daily (retinol increases photosensitivity)",
+      "Avoid during pregnancy/breastfeeding",
+      "Not for very sensitive skin without patch test"
+    ],
+    "ph_range": "Not specified"
+  },
+  {
+    "name": "Skin Renewing Night Cream",
+    "brand": "CeraVe",
+    "category": "Anti-Aging Night Moisturizer",
+    "price": "$22.99",
+    "size": "1.7 oz / 48 g",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Biosaccharide Gum-1",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Dimethicone",
+      "Cetyl Alcohol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Polyacrylate",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Retinol",
+      "Polysorbate 20",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Retinol (encapsulated, time-release)",
+        "concentration": "~0.1-0.3% (estimated)"
+      },
+      {
+        "ingredient": "Shea Butter",
+        "concentration": "~2-3%"
+      },
+      {
+        "ingredient": "Biosaccharide Gum-1",
+        "concentration": "~1-2% (moisture-binding polysaccharide)"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1-2%"
+      },
+      {
+        "ingredient": "Peptides",
+        "concentration": "Trace (in some formulations)"
+      }
+    ],
+    "conditions_addressed": [
+      "Fine lines",
+      "Wrinkles",
+      "Loss of elasticity",
+      "Skin texture",
+      "Barrier repair (nighttime)"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Mature",
+      "Combination"
+    ],
+    "contraindications": [
+      "Retinol may cause peeling/irritation initially",
+      "Use SPF during day (photosensitivity)",
+      "Avoid during pregnancy/breastfeeding",
+      "Start 2-3x/week, increase gradually"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Resurfacing Retinol Serum",
+    "brand": "CeraVe",
+    "category": "Serum",
+    "price": "$19.99",
+    "size": "1 oz / 30 mL",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Dimethicone",
+      "Niacinamide",
+      "Cetyl Alcohol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Polyacrylate",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Retinol",
+      "Polysorbate 20",
+      "BHT",
+      "Lecithin",
+      "Alcohol Denat."
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Retinol",
+        "concentration": "~0.2-0.5% (estimated, encapsulated)"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Lecithin",
+        "concentration": "~0.5% (liposomal delivery)"
+      }
+    ],
+    "conditions_addressed": [
+      "Post-acne marks",
+      "Uneven texture",
+      "Enlarged pores",
+      "Fine lines",
+      "Dullness"
+    ],
+    "skin_types": [
+      "Normal",
+      "Combination",
+      "Oily",
+      "Acne-prone"
+    ],
+    "contraindications": [
+      "Avoid during pregnancy/breastfeeding",
+      "Start 2-3x/week",
+      "Use SPF daily",
+      "May cause initial purging/peeling",
+      "Not for use with other strong actives initially"
+    ],
+    "ph_range": "Not specified (optimized for retinol stability)"
+  },
+  {
+    "name": "Vitamin C Serum with 10% L-Ascorbic Acid",
+    "brand": "CeraVe",
+    "category": "Serum",
+    "price": "$24.99",
+    "size": "1 oz / 30 mL",
+    "inci_ingredients": [
+      "Water",
+      "Ascorbic Acid (L-Ascorbic Acid)",
+      "Glycerin",
+      "Dimethicone",
+      "Cetearyl Alcohol",
+      "Sodium Hydroxide",
+      " Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Tocopherol (Vitamin E)",
+      "BHT"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "L-Ascorbic Acid (pure Vitamin C)",
+        "concentration": "10%"
+      },
+      {
+        "ingredient": "Vitamin E (Tocopherol)",
+        "concentration": "~0.5-1% (synergistic antioxidant)"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Dullness",
+      "Uneven skin tone",
+      "Hyperpigmentation",
+      "Environmental damage",
+      "Fine lines",
+      "Loss of radiance"
+    ],
+    "skin_types": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Dull"
+    ],
+    "contraindications": [
+      "May tingle upon application (normal for L-AA)",
+      "Use SPF daily",
+      "Patch test if very sensitive",
+      "Store away from light/heat",
+      "Do not use with benzoyl peroxide (oxidizes Vitamin C)"
+    ],
+    "ph_range": "2.5 - 3.5 (required for L-Ascorbic Acid penetration)"
+  },
+  {
+    "name": "Eye Repair Cream",
+    "brand": "CeraVe",
+    "category": "Eye Cream",
+    "price": "$15.99",
+    "size": "0.5 oz / 14.2 g",
+    "inci_ingredients": [
+      "Water",
+      "Niacinamide",
+      "Cetearyl Alcohol",
+      "Glycerin",
+      "Dimethicone",
+      "Ceteareth-20",
+      " Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Lauroyl Lactylate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Aloe Barbadensis Leaf Extract",
+      "Marine & Botanical Complex"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~4%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Aloe Extract",
+        "concentration": "~0.5% (soothing)"
+      }
+    ],
+    "conditions_addressed": [
+      "Dark circles",
+      "Puffiness",
+      "Fine lines around eyes",
+      "Dry under-eyes",
+      "Barrier compromise in eye area"
+    ],
+    "skin_types": [
+      "All skin types",
+      "Sensitive eye area"
+    ],
+    "contraindications": [
+      "Avoid direct contact with eyes",
+      "Discontinue if irritation occurs"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Healing Ointment",
+    "brand": "CeraVe",
+    "category": "Ointment/Balm",
+    "price": "$10.99",
+    "size": "3 oz / 85 g",
+    "inci_ingredients": [
+      "Petrolatum",
+      "Mineral Oil",
+      "Paraffin",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Cholesterol",
+      "Phytosphingosine",
+      "Sodium Lauroyl Lactylate",
+      "Tocopherol Acetate (Vitamin E)",
+      "Hydrolyzed Hyaluronic Acid",
+      "Panthenol"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Petrolatum",
+        "concentration": "~46% (occlusive barrier)"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.2%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.1%"
+      },
+      {
+        "ingredient": "Panthenol (Pro-Vitamin B5)",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Cracked skin",
+      "Chapped lips",
+      "Minor cuts/burns",
+      "Tattoo aftercare",
+      "Eczema flares",
+      "Post-procedure skin",
+      "Diaper rash (safe for babies)"
+    ],
+    "skin_types": [
+      "Very Dry",
+      "Damaged",
+      "Cracked",
+      "Compromised barrier"
+    ],
+    "contraindications": [
+      "Not for deep/open wounds",
+      "Very occlusive - avoid on acne-prone areas unless needed"
+    ],
+    "ph_range": "Neutral (occlusive barrier, pH less relevant)"
+  },
+  {
+    "name": "Eczema Relief Cream",
+    "brand": "CeraVe",
+    "category": "Therapeutic Moisturizer",
+    "price": "$19.99",
+    "size": "8 oz / 227 g",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Caprylic/Capric Triglyceride",
+      "Cetyl Alcohol",
+      "Dimethicone",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Behentrimonium Methosulfate",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Dipotassium Phosphate",
+      "Potassium Phosphate",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Colloidal Oatmeal",
+      "Niacinamide"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Colloidal Oatmeal",
+        "concentration": "1% (FDA-approved for eczema)"
+      },
+      {
+        "ingredient": "Niacinamide",
+        "concentration": "~2-4%"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1-2%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Eczema",
+      "Atopic dermatitis",
+      "Itchy skin",
+      "Dry, flaky patches",
+      "Barrier dysfunction"
+    ],
+    "skin_types": [
+      "Very Dry",
+      "Eczema-prone",
+      "Atopic dermatitis",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "Seek medical attention for severe/widespread eczema",
+      "Not a replacement for prescription topical corticosteroids during flares"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Itch Relief Moisturizing Lotion",
+    "brand": "CeraVe",
+    "category": "Therapeutic Moisturizer",
+    "price": "$16.99",
+    "size": "8 oz / 237 mL",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Caprylic/Capric Triglyceride",
+      "Cetyl Alcohol",
+      "Dimethicone",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Behentrimonium Methosulfate",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Dipotassium Phosphate",
+      "Potassium Phosphate",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Pramoxine Hydrochloride"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Pramoxine Hydrochloride",
+        "concentration": "1% (topical anesthetic)"
+      },
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      }
+    ],
+    "conditions_addressed": [
+      "Pruritus (itching)",
+      "Dry itchy skin",
+      "Minor skin irritations",
+      "Insect bites",
+      "Sunburn itch"
+    ],
+    "skin_types": [
+      "Dry",
+      "Very Dry",
+      "Itchy",
+      "Sensitive"
+    ],
+    "contraindications": [
+      "Not for large body areas for extended periods",
+      "Discontinue if rash develops",
+      "Not for children under 2 without doctor approval"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Baby Moisturizing Lotion",
+    "brand": "CeraVe",
+    "category": "Baby Moisturizer",
+    "price": "$9.99",
+    "size": "8 oz / 237 mL",
+    "inci_ingredients": [
+      "Water",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetyl Alcohol",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Dimethicone",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum",
+      "Tocopherol (Vitamin E)"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~1%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "concentration": "~0.1%"
+      }
+    ],
+    "conditions_addressed": [
+      "Baby dry skin",
+      "Diaper area moisture",
+      "Eczema-prone baby skin",
+      "General baby skincare"
+    ],
+    "skin_types": [
+      "Baby skin",
+      "Sensitive",
+      "Delicate"
+    ],
+    "contraindications": [
+      "Pediatrician-approved formulation",
+      "Avoid broken skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Baby Wash & Shampoo",
+    "brand": "CeraVe",
+    "category": "Baby Cleanser",
+    "price": "$9.99",
+    "size": "8 oz / 237 mL",
+    "inci_ingredients": [
+      "Water",
+      "Cocamidopropyl Hydroxysultaine",
+      "Sodium Lauroyl Sarcosinate",
+      "Glycerin",
+      "Sodium Methyl Cocoyl Taurate",
+      "PEG-150 Pentaerythrityl Tetrastearate",
+      "PEG-6 Caprylic/Capric Glycerides",
+      "Sodium Chloride",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Carbomer",
+      "Sodium Lauroyl Lactylate",
+      "Sodium Hyaluronate",
+      "Cholesterol",
+      "Phenoxyethanol",
+      "Disodium EDTA",
+      "Caprylyl Glycol",
+      "Phytosphingosine",
+      "Xanthan Gum"
+    ],
+    "key_actives": [
+      {
+        "ingredient": "Ceramides",
+        "concentration": "~0.5%"
+      },
+      {
+        "ingredient": "Hyaluronic Acid",
+        "concentration": "~0.3%"
+      }
+    ],
+    "conditions_addressed": [
+      "Baby bathing",
+      "Gentle cleansing",
+      "Cradle cap",
+      "Maintaining baby skin barrier"
+    ],
+    "skin_types": [
+      "Baby skin",
+      "Sensitive scalp",
+      "Delicate"
+    ],
+    "contraindications": [
+      "Tear-free formula",
+      "Avoid contact with eyes"
+    ],
+    "ph_range": "5.5 - 6.5"
+  }
+]

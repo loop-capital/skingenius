@@ -1,0 +1,1099 @@
+{
+  "nodes": [
+    {
+      "id": "acne-vulgaris",
+      "type": "condition",
+      "name": "Acne Vulgaris",
+      "icd10": "L70.0",
+      "metadata": {
+        "severityGrading": "Grade 1-4 (comedonal to severe inflammatory)",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "rosacea",
+      "type": "condition",
+      "name": "Rosacea",
+      "icd10": "L71.0",
+      "metadata": {
+        "severityGrading": "Grade 1-4 (erythema to phymatous)",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "atopic-dermatitis",
+      "type": "condition",
+      "name": "Atopic Dermatitis",
+      "icd10": "L20.9",
+      "metadata": {
+        "severityGrading": "SCORAD index 0-103",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "hyperpigmentation",
+      "type": "condition",
+      "name": "Hyperpigmentation",
+      "icd10": "L81.9",
+      "metadata": {
+        "severityGrading": "MASI score 0-36",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "melasma",
+      "type": "condition",
+      "name": "Melasma",
+      "icd10": "L81.1",
+      "metadata": {
+        "severityGrading": "MASI score 0-36",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "photoaging",
+      "type": "condition",
+      "name": "Photoaging",
+      "icd10": "L57.0",
+      "metadata": {
+        "severityGrading": "Glogau scale I-IV",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "fine-lines-wrinkles",
+      "type": "condition",
+      "name": "Fine Lines/Wrinkles",
+      "icd10": "L57.0",
+      "metadata": {
+        "severityGrading": "Wrinkle severity scale 0-4",
+        "source": "ingredients-batch-2.md"
+      }
+    },
+    {
+      "id": "dry-skin",
+      "type": "condition",
+      "name": "Dry Skin (Xerosis)",
+      "icd10": "L85.0",
+      "metadata": {
+        "severityGrading": "TEWL measurement, Corneometer",
+        "source": "ingredients-batch-2.md"
+      }
+    },
+    {
+      "id": "sensitive-skin",
+      "type": "condition",
+      "name": "Sensitive Skin",
+      "icd10": "L23.9",
+      "metadata": {
+        "severityGrading": "Subjective scale 0-10",
+        "source": "ingredients-batch-2.md"
+      }
+    },
+    {
+      "id": "dark-circles",
+      "type": "condition",
+      "name": "Dark Circles",
+      "icd10": "H05.21",
+      "metadata": {
+        "severityGrading": "Dark circle severity scale 0-3",
+        "source": "ingredients-batch-2.md"
+      }
+    },
+    {
+      "id": "gut-dysbiosis",
+      "type": "rootCause",
+      "name": "Gut Dysbiosis",
+      "metadata": {
+        "source": "gut-skin-axis.md"
+      }
+    },
+    {
+      "id": "leaky-gut",
+      "type": "rootCause",
+      "name": "Leaky Gut Syndrome",
+      "metadata": {
+        "source": "gut-skin-axis.md"
+      }
+    },
+    {
+      "id": "hormone-imbalance",
+      "type": "rootCause",
+      "name": "Hormone Imbalance",
+      "metadata": {
+        "source": "hormone-skin-connection.md"
+      }
+    },
+    {
+      "id": "nutrient-deficiency",
+      "type": "rootCause",
+      "name": "Nutrient Deficiency",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "chronic-stress",
+      "type": "rootCause",
+      "name": "Chronic Stress",
+      "metadata": {
+        "source": "lifestyle-skin.md"
+      }
+    },
+    {
+      "id": "poor-sleep",
+      "type": "rootCause",
+      "name": "Poor Sleep Quality",
+      "metadata": {
+        "source": "lifestyle-skin.md"
+      }
+    },
+    {
+      "id": "uv-exposure",
+      "type": "rootCause",
+      "name": "UV Radiation Exposure",
+      "metadata": {
+        "source": "lifestyle-skin.md"
+      }
+    },
+    {
+      "id": "environmental-pollution",
+      "type": "rootCause",
+      "name": "Environmental Pollution",
+      "metadata": {
+        "source": "lifestyle-skin.md"
+      }
+    },
+    {
+      "id": "smoking",
+      "type": "rootCause",
+      "name": "Tobacco Smoking",
+      "metadata": {
+        "source": "lifestyle-skin.md"
+      }
+    },
+    {
+      "id": "alcohol-consumption",
+      "type": "rootCause",
+      "name": "Excessive Alcohol Consumption",
+      "metadata": {
+        "source": "lifestyle-skin.md"
+      }
+    },
+    {
+      "id": "retinoids",
+      "type": "treatment",
+      "name": "Topical Retinoids",
+      "metadata": {
+        "treatmentLine": "first-line",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "niacinamide",
+      "type": "treatment",
+      "name": "Niacinamide (Vitamin B3)",
+      "metadata": {
+        "treatmentLine": "first-line",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "azelaic-acid",
+      "type": "treatment",
+      "name": "Azelaic Acid",
+      "metadata": {
+        "treatmentLine": "first-line",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "led-therapy",
+      "type": "treatment",
+      "name": "LED Light Therapy",
+      "metadata": {
+        "treatmentLine": "second-line",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "chemical-peels",
+      "type": "treatment",
+      "name": "Chemical Peels (AHA/BHA/PHA)",
+      "metadata": {
+        "treatmentLine": "second-line",
+        "source": "clinical-guidelines.md"
+      }
+    },
+    {
+      "id": "niacinamide-ingredient",
+      "type": "ingredient",
+      "name": "Niacinamide",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "retinol-ingredient",
+      "type": "ingredient",
+      "name": "Retinol",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "hylauronic-acid-ingredient",
+      "type": "ingredient",
+      "name": "Hyaluronic Acid",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "vitamin-c-ingredient",
+      "type": "ingredient",
+      "name": "Vitamin C (Ascorbic Acid)",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "zinc-oxide-ingredient",
+      "type": "ingredient",
+      "name": "Zinc Oxide",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "ceramides-ingredient",
+      "type": "ingredient",
+      "name": "Ceramides",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "green-tea-extract-ingredient",
+      "type": "ingredient",
+      "name": "Green Tea Extract",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "resveratrol-ingredient",
+      "type": "ingredient",
+      "name": "Resveratrol",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "coenzyme-q10-ingredient",
+      "type": "ingredient",
+      "name": "Coenzyme Q10",
+      "metadata": {
+        "source": "skin-condition-profiles.md"
+      }
+    },
+    {
+      "id": "zinc-supplement",
+      "type": "supplement",
+      "name": "Zinc",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "omega-3-supplement",
+      "type": "supplement",
+      "name": "Omega-3 Fatty Acids",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "vitamin-d-supplement",
+      "type": "supplement",
+      "name": "Vitamin D",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "probiotics-supplement",
+      "type": "supplement",
+      "name": "Probiotics",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "vitamin-c-supplement",
+      "type": "supplement",
+      "name": "Vitamin C",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "vitamin-e-supplement",
+      "type": "supplement",
+      "name": "Vitamin E",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "vitamin-a-supplement",
+      "type": "supplement",
+      "name": "Vitamin A",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "collagen-supplement",
+      "type": "supplement",
+      "name": "Collagen Peptides",
+      "metadata": {
+        "source": "supplement-protocols.md"
+      }
+    },
+    {
+      "id": "vitamin-c-nutrient",
+      "type": "nutrient",
+      "name": "Vitamin C",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "vitamin-e-nutrient",
+      "type": "nutrient",
+      "name": "Vitamin E",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "vitamin-a-nutrient",
+      "type": "nutrient",
+      "name": "Vitamin A",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "zinc-nutrient",
+      "type": "nutrient",
+      "name": "Zinc",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "selenium-nutrient",
+      "type": "nutrient",
+      "name": "Selenium",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "omega-3-nutrient",
+      "type": "nutrient",
+      "name": "Omega-3 Fatty Acids",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "magnesium-nutrient",
+      "type": "nutrient",
+      "name": "Magnesium",
+      "metadata": {
+        "source": "nutrition-skin.md"
+      }
+    },
+    {
+      "id": "fitzpatrick-i",
+      "type": "fitzpatrickType",
+      "name": "Fitzpatrick Type I",
+      "metadata": {
+        "source": "fitzpatrick-dark-skin.md"
+      }
+    },
+    {
+      "id": "fitzpatrick-ii",
+      "type": "fitzpatrickType",
+      "name": "Fitzpatrick Type II",
+      "metadata": {
+        "source": "fitzpatrick-dark-skin.md"
+      }
+    },
+    {
+      "id": "fitzpatrick-iii",
+      "type": "fitzpatrickType",
+      "name": "Fitzpatrick Type III",
+      "metadata": {
+        "source": "fitzpatrick-dark-skin.md"
+      }
+    },
+    {
+      "id": "fitzpatrick-iv",
+      "type": "fitzpatrickType",
+      "name": "Fitzpatrick Type IV",
+      "metadata": {
+        "source": "fitzpatrick-dark-skin.md"
+      }
+    },
+    {
+      "id": "fitzpatrick-v",
+      "type": "fitzpatrickType",
+      "name": "Fitzpatrick Type V",
+      "metadata": {
+        "source": "fitzpatrick-dark-skin.md"
+      }
+    },
+    {
+      "id": "fitzpatrick-vi",
+      "type": "fitzpatrickType",
+      "name": "Fitzpatrick Type VI",
+      "metadata": {
+        "source": "fitzpatrick-dark-skin.md
+      }
+    },
+    {
+      "id": "oral-retinoids",
+      "type": "medication",
+      "name": "Oral Retinoids (Isotretinoin)",
+      "metadata": {
+        "source": "medication-skin-interactions.md"
+      }
+    },
+    {
+      "id": "oral-contraceptives",
+      "type": "medication",
+      "name": "Oral Contraceptives",
+      "metadata": {
+        "source": "medication-skin-interactions.md"
+      }
+    },
+    {
+      "id": "tetracycline-antibiotics",
+      "type": "medication",
+      "name": "Tetracycline Antibiotics",
+      "metadata": {
+        "source": "medication-skin-interactions.md"
+      }
+    },
+    {
+      "id": "laser-resurfacing",
+      "type": "procedure",
+      "name": "Laser Resurfacing",
+      "metadata": {
+        "source": "cosmetic-procedures.md"
+      }
+    },
+    {
+      "id": "chemical-peel-procedure",
+      "type": "procedure",
+      "name": "Chemical Peel Procedure",
+      "metadata": {
+        "source": "cosmetic-procedures.md"
+      }
+    },
+    {
+      "id": "microdermabrasion",
+      "type": "procedure",
+      "name": "Microdermabrasion",
+      "metadata": {
+        "source": "cosmetic-procedures.md"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "acne-vulgaris",
+      "target": "gut-dysbiosis",
+      "relationship": "rootCause",
+      "evidence": 0.75,
+      "source_ref": "gut-skin-axis.md",
+      "notes": "Gut microbiome imbalance contributes to systemic inflammation affecting skin"
+    },
+    {
+      "source": "acne-vulgaris",
+      "target": "hormone-imbalance",
+      "relationship": "rootCause",
+      "evidence": 0.8,
+      "source_ref": "hormone-skin-connection.md",
+      "notes": "Androgen excess stimulates sebaceous glands"
+    },
+    {
+      "source": "acne-vulgaris",
+      "target": "retinoids",
+      "relationship": "treatment",
+      "evidence": 0.9,
+      "treatmentLine": "first-line",
+      "source_ref": "clinical-guidelines.md",
+      "notes": "Topical retinoids normalize follicular keratinization"
+    },
+    {
+      "source": "acne-vulgaris",
+      "target": "niacinamide-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.7,
+      "mechanism": "Anti-inflammatory, reduces sebum production",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "acne-vulgaris",
+      "target": "zinc-supplement",
+      "relationship": "supplement",
+      "evidence": 0.65,
+      "dosing": "30mg elemental zinc daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "acne-vulgaris",
+      "target": "omega-3-supplement",
+      "relationship": "supplement",
+      "evidence": 0.6,
+      "dosing": "1000mg EPA/DHA daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "acne-vulgaris",
+      "target": "zinc-nutrient",
+      "relationship": "nutrient",
+      "evidence": 0.65,
+      "deficiencyMechanism": "Zinc regulates sebum production and has antimicrobial properties",
+      "source_ref": "nutrition-skin.md"
+    },
+    {
+      "source": "rosacea",
+      "target": "gut-dysbiosis",
+      "relationship": "rootCause",
+      "evidence": 0.7,
+      "source_ref": "gut-skin-axis.md",
+      "notes": "Small intestinal bacterial overgrowth (SIBO) linked to rosacea"
+    },
+    {
+      "source": "rosacea",
+      "target": "hormone-imbalance",
+      "relationship": "rootCause",
+      "evidence": 0.6,
+      "source_ref": "hormone-skin-connection.md",
+      "notes": "Fluctuations can trigger rosacea flares"
+    },
+    {
+      "source": "rosacea",
+      "target": "niacinamide-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.75,
+      "mechanism": "Barrier repair, anti-inflammatory",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "rosacea",
+      "target": "led-therapy",
+      "relationship": "treatment",
+      "evidence": 0.8,
+      "treatmentLine": "second-line",
+      "source_ref": "clinical-guidelines.md",
+      "notes": "Red and blue LED reduce inflammation and erythema"
+    },
+    {
+      "source": "rosacea",
+      "target": "chronic-stress",
+      "relationship": "lifestyle",
+      "evidence": 0.65,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Stress exacerbates rosacea through neurovascular dysregulation"
+    },
+    {
+      "source": "atopic-dermatitis",
+      "target": "gut-dysbiosis",
+      "relationship": "rootCause",
+      "evidence": 0.8,
+      "source_ref": "gut-skin-axis.md",
+      "notes": "Dysbiosis precedes and predicts eczema development"
+    },
+    {
+      "source": "atopic-dermatitis",
+      "target": "ceramides-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.9,
+      "mechanism": "Barrier lipid replacement",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "atopic-dermatitis",
+      "target": "probiotics-supplement",
+      "relationship": "supplement",
+      "evidence": 0.75,
+      "dosing": "10-20 billion CFUs mixed strains daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "atopic-dermatitis",
+      "target": "poor-sleep",
+      "relationship": "lifestyle",
+      "evidence": 0.7,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Sleep deprivation worsens barrier function and increases inflammation"
+    },
+    {
+      "source": "hyperpigmentation",
+      "target": "uv-exposure",
+      "relationship": "rootCause",
+      "evidence": 0.95,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "UV radiation is primary trigger for melanin overproduction"
+    },
+    {
+      "source": "hyperpigmentation",
+      "target": "hormone-imbalance",
+      "relationship": "rootCause",
+      "evidence": 0.7,
+      "source_ref": "hormone-skin-connection.md",
+      "notes": "Estrogen and progesterone fluctuations affect melanocytes"
+    },
+    {
+      "source": "hyperpigmentation",
+      "target": "vitamin-c-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.85,
+      "mechanism": "Tyrosinase inhibition, antioxidant",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "hyperpigmentation",
+      "target": "niacinamide-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.8,
+      "mechanism": "Melanosome transfer inhibition",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "hyperpigmentation",
+      "target": "vitamin-c-supplement",
+      "relationship": "supplement",
+      "evidence": 0.7,
+      "dosing": "500-1000mg daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "hyperpigmentation",
+      "target": "vitamin-c-nutrient",
+      "relationship": "nutrient",
+      "evidence": 0.85,
+      "deficiencyMechanism": "Vitamin C is cofactor for tyrosine metabolism and antioxidant protection",
+      "source_ref": "nutrition-skin.md"
+    },
+    {
+      "source": "melasma",
+      "target": "hormone-imbalance",
+      "relationship": "rootCause",
+      "evidence": 0.9,
+      "source_ref": "hormone-skin-connection.md",
+      "notes": "Pregnancy, OCP, and thyroid disorders strongly associated"
+    },
+    {
+      "source": "melasma",
+      "target": "uv-exposure",
+      "relationship": "rootCause",
+      "evidence": 0.95,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "UV exposure is necessary for melasma development in predisposed individuals"
+    },
+    {
+      "source": "melasma",
+      "target": "niacinamide-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.8,
+      "mechanism": "Melanosome transfer inhibition",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "melasma",
+      "target": "led-therapy",
+      "relationship": "treatment",
+      "evidence": 0.7,
+      "treatmentLine": "second-line",
+      "source_ref": "clinical-guidelines.md",
+      "notes": "Yellow LED (590nm) reduces vascular component"
+    },
+    {
+      "source": "melasma",
+      "target": "hormone-imbalance",
+      "relationship": "rootCause",
+      "evidence": 0.9,
+      "source_ref": "hormone-skin-connection.md"
+    },
+    {
+      "source": "photoaging",
+      "target": "uv-exposure",
+      "relationship": "rootCause",
+      "evidence": 0.98,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Chronic UV exposure causes collagen degradation and elastin accumulation"
+    },
+    {
+      "source": "photoaging",
+      "target": "retinoids",
+      "relationship": "treatment",
+      "evidence": 0.95,
+      "treatmentLine": "first-line",
+      "source_ref": "clinical-guidelines.md",
+      "notes": "Gold standard for reversing photoaging signs"
+    },
+    {
+      "source": "photoaging",
+      "target": "vitamin-c-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.9,
+      "mechanism": "Collagen synthesis stimulation, antioxidant",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "photoaging",
+      "target": "vitamin-e-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.75,
+      "mechanism": "Lipid-soluble antioxidant, photoprotection",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "photoaging",
+      "target": "vitamin-c-supplement",
+      "relationship": "supplement",
+      "evidence": 0.8,
+      "dosing": "500-1000mg daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "photoaging",
+      "target": "vitamin-e-supplement",
+      "relationship": "supplement",
+      "evidence": 0.65,
+      "dosing": "400 IU daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "photoaging",
+      "target": "vitamin-c-nutrient",
+      "relationship": "nutrient",
+      "evidence": 0.9,
+      "deficiencyMechanism": "Essential for collagen synthesis and protection from UV-induced oxidative stress",
+      "source_ref": "nutrition-skin.md"
+    },
+    {
+      "source": "fine-lines-wrinkles",
+      "target": "retinoids",
+      "relationship": "treatment",
+      "evidence": 0.9,
+      "treatmentLine": "first-line",
+      "source_ref": "clinical-guidelines.md"
+    },
+    {
+      "source": "fine-lines-wrinkles",
+      "target": "peptide-ingredients",
+      "relationship": "ingredient",
+      "evidence": 0.75,
+      "mechanism": "Collagen stimulation",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "fine-lines-wrinkles",
+      "target": "hyaluronic-acid-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.85,
+      "mechanism": "Hydration and plumping",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "dry-skin",
+      "target": "hyaluronic-acid-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.9,
+      "mechanism": "Humectant, water binding",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "dry-skin",
+      "target": "ceramides-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.95,
+      "mechanism": "Barrier lipid replacement",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "dry-skin",
+      "target": "poor-sleep",
+      "relationship": "lifestyle",
+      "evidence": 0.6,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Sleep deprivation increases TEWL and decreases barrier lipids"
+    },
+    {
+      "source": "dry-skin",
+      "target": "omega-3-supplement",
+      "relationship": "supplement",
+      "evidence": 0.7,
+      "dosing": "1000mg EPA/DHA daily",
+      "source_ref": "supplement-protocols.md"
+    },
+    {
+      "source": "dry-skin",
+      "target": "omega-3-nutrient",
+      "relationship": "nutrient",
+      "evidence": 0.7,
+      "deficiencyMechanism": "Essential fatty acids maintain skin barrier integrity",
+      "source_ref": "nutrition-skin.md"
+    },
+    {
+      "source": "sensitive-skin",
+      "target": "niacinamide-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.85,
+      "mechanism": "Barrier strengthening, anti-inflammatory",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "sensitive-skin",
+      "target": "led-therapy",
+      "relationship": "treatment",
+      "evidence": 0.7,
+      "treatmentLine": "second-line",
+      "source_ref": "clinical-guidelines.md",
+      "notes": "Red LED reduces inflammation and sensitivity"
+    },
+    {
+      "source": "sensitive-skin",
+      "target": "chronic-stress",
+      "relationship": "lifestyle",
+      "evidence": 0.7,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Stress lowers threshold for irritation and worsens barrier function"
+    },
+    {
+      "source": "sensitive-skin",
+      "target": "environmental-pollution",
+      "relationship": "lifestyle",
+      "evidence": 0.65,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Pollutants penetrate compromised barrier and trigger inflammation"
+    },
+    {
+      "source": "dark-circles",
+      "target": "uv-exposure",
+      "relationship": "rootCause",
+      "evidence": 0.5,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "UV can worsen pigmentation type dark circles"
+    },
+    {
+      "source": "dark-circles",
+      "target": "poor-sleep",
+      "relationship": "lifestyle",
+      "evidence": 0.8,
+      "source_ref": "lifestyle-skin.md",
+      "notes": "Fatigue and poor sleep cause vascular congestion and pooling"
+    },
+    {
+      "source": "dark-circles",
+      "target": "vitamin-k-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.6,
+      "mechanism": "Strengthens capillary walls",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "dark-circles",
+      "target": "caffeine-ingredient",
+      "relationship": "ingredient",
+      "evidence": 0.65,
+      "mechanism": "Vasoconstriction reduces vascular pooling",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "dark-circles",
+      "target": "poor-sleep",
+      "relationship": "lifestyle",
+      "evidence": 0.8,
+      "source_ref": "lifestyle-skin.md"
+    },
+    {
+      "source": "niacinamide-ingredient",
+      "target": "fitzpatrick-i",
+      "relationship": "fitzpatrick",
+      "evidence": 0.9,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "niacinamide-ingredient",
+      "target": "fitzpatrick-ii",
+      "relationship": "fitzpatrick",
+      "evidence": 0.9,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "niacinamide-ingredient",
+      "target": "fitzpatrick-iii",
+      "relationship": "fitzpatrick",
+      "evidence": 0.9,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "niacinamide-ingredient",
+      "target": "fitzpatrick-iv",
+      "relationship": "fitzpatrick",
+      "evidence": 0.9,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "niacinamide-ingredient",
+      "target": "fitzpatrick-v",
+      "relationship": "fitzpatrick",
+      "evidence": 0.9,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "niacinamide-ingredient",
+      "target": "fitzpatrick-vi",
+      "relationship": "fitzpatrick",
+      "evidence": 0.9,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "retinol-ingredient",
+      "target": "fitzpatrick-i",
+      "relationship": "fitzpatrick",
+      "evidence": 0.8,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "retinol-ingredient",
+      "target": "fitzpatrick-ii",
+      "relationship": "fitzpatrick",
+      "evidence": 0.8,
+      "safety": "safe",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "retinol-ingredient",
+      "target": "fitzpatrick-iii",
+      "relationship": "fitzpatrick",
+      "evidence": 0.7,
+      "safety": "caution",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "retinol-ingredient",
+      "target": "fitzpatrick-iv",
+      "relationship": "fitzpatrick",
+      "evidence": 0.6,
+      "safety": "caution",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "retinol-ingredient",
+      "target": "fitzpatrick-v",
+      "relationship": "fitzpatrick",
+      "evidence": 0.5,
+      "safety": "caution",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "retinol-ingredient",
+      "target": "fitzpatrick-vi",
+      "relationship": "fitzpatrick",
+      "evidence": 0.4,
+      "safety": "avoid",
+      "source_ref": "skin-condition-profiles.md"
+    },
+    {
+      "source": "oral-retinoids",
+      "target": "skinEffect",
+      "relationship": "skinEffect",
+      "evidence": 0.95,
+      "effect": "Reduces sebum production, normalizes keratinization",
+      "source_ref": "medication-skin-interactions.md"
+    },
+    {
+      "source": "oral-retinoids",
+      "target": "acne-vulgaris",
+      "relationship": "treats",
+      "evidence": 0.95,
+      "source_ref": "medication-skin-interactions.md"
+    },
+    {
+      "source": "oral-contraceptives",
+      "target": "acne-vulgaris",
+      "relationship": "treats",
+      "evidence": 0.8,
+      "effect": "Anti-androgenic effects reduce sebum",
+      "source_ref": "medication-skin-interactions.md"
+    },
+    {
+      "source": "tetracycline-antibiotics",
+      "target": "acne-vulgaris",
+      "relationship": "treats",
+      "evidence": 0.85,
+      "effect": "Anti-inflammatory and antimicrobial",
+      "source_ref": "medication-skin-interactions.md"
+    },
+    {
+      "source": "laser-resurfacing",
+      "target": "photoaging",
+      "relationship": "treats",
+      "evidence": 0.9,
+      "source_ref": "cosmetic-procedures.md"
+    },
+    {
+      "source": "laser-resurfacing",
+      "target": "fine-lines-wrinkles",
+      "relationship": "treats",
+      "evidence": 0.85,
+      "source_ref": "cosmetic-procedures.md"
+    },
+    {
+      "source": "chemical-peel-procedure",
+      "target": "hyperpigmentation",
+      "relationship": "treats",
+      "evidence": 0.8,
+      "source_ref": "cosmetic-procedures.md"
+    },
+    {
+      "source": "chemical-peel-procedure",
+      "target": "acne-vulgaris",
+      "relationship": "treats",
+      "evidence": 0.75,
+      "source_ref": "cosmetic-procedures.md"
+    },
+    {
+      "source": "microdermabrasion",
+      "target": "fine-lines-wrinkles",
+      "relationship": "treats",
+      "evidence": 0.7,
+      "source_ref": "cosmetic-procedures.md"
+    },
+    {
+      "source": "microdermabrasion",
+      "target": "hyperpigmentation",
+      "relationship": "treats",
+      "evidence": 0.65,
+      "source_ref": "cosmetic-procedures.md"
+    }
+  ]
+}

@@ -1,0 +1,1146 @@
+[
+  {
+    "name": "Youth EssentiA Cleansing Lotion",
+    "brand": "Environ",
+    "category": "cleanser",
+    "price": "$45-55",
+    "size": "200 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Glycerin",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Retinyl Palmitate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin E",
+      "Green Tea Extract"
+    ],
+    "conditions_addressed": [
+      "all skin types",
+      "aging skin",
+      "vitamin A beginners"
+    ],
+    "skin_types": [
+      "all",
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Do not use if allergic to nuts (contains sweet almond oil)",
+      "Patch test recommended for sensitive skin",
+      "Discontinue if irritation occurs"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth EssentiA Vita-Peptide Eye Gel",
+    "brand": "Environ",
+    "category": "eye_cream",
+    "price": "$65-75",
+    "size": "10 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Hydrolyzed Wheat Protein",
+      "Hydrolyzed Soy Protein",
+      "Pentylene Glycol",
+      "Retinyl Propionate (Vitamin A)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Cucumis Sativus (Cucumber) Fruit Extract",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Peptides",
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "fine lines",
+      "wrinkles",
+      "dark circles",
+      "aging eyes"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "Avoid direct contact with eyes",
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Patch test recommended for sensitive skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth EssentiA Antioxidant Defence Crème",
+    "brand": "Environ",
+    "category": "moisturizer",
+    "price": "$75-85",
+    "size": "35 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Retinyl Propionate (Vitamin A)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Resveratrol",
+      "Beta-Carotene",
+      "Curcuma Longa (Turmeric) Root Extract",
+      "Camellia Sinensis (Green Tea) Leaf Extract",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin E",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "sun damage",
+      "antioxidant protection"
+    ],
+    "skin_types": [
+      "all",
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "Patch test recommended for sensitive skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth EssentiA Vita-Peptide C-Quence Serum 1",
+    "brand": "Environ",
+    "category": "serum",
+    "price": "$85-95",
+    "size": "35 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinyl Propionate (Vitamin A)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Peptides",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "vitamin A beginners",
+      "fine lines"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "Start with low concentration for sensitive skin",
+      "Avoid using with other retinoids"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth EssentiA Vita-Peptide C-Quence Serum 2",
+    "brand": "Environ",
+    "category": "serum",
+    "price": "$95-105",
+    "size": "35 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinyl Propionate (Vitamin A) - Higher Concentration",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Higher Vitamin A",
+      "Peptides",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "aging skin",
+      "step-up level 2",
+      "fine lines",
+      "wrinkles"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "For users who have completed C-Quence Serum 1",
+      "Avoid using with other retinoids"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth EssentiA Vita-Peptide C-Quence Serum 3",
+    "brand": "Environ",
+    "category": "serum",
+    "price": "$105-115",
+    "size": "35 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinyl Propionate (Vitamin A) - High Concentration",
+      "Retinyl Palmitate (Vitamin A)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "High Vitamin A",
+      "Peptides",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "step-up level 3",
+      "deep wrinkles"
+    ],
+    "skin_types": [
+      "all",
+      "aging",
+      "mature"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "For users who have completed C-Quence Serum 2",
+      "Avoid using with other retinoids"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Youth EssentiA Vita-Peptide C-Quence Serum 4",
+    "brand": "Environ",
+    "category": "serum",
+    "price": "$115-125",
+    "size": "35 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinyl Propionate (Vitamin A) - Maximum Concentration",
+      "Retinyl Palmitate (Vitamin A)",
+      "Retinyl Acetate (Vitamin A)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Maximum Vitamin A",
+      "Peptides",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "step-up level 4",
+      "mature skin"
+    ],
+    "skin_types": [
+      "all",
+      "aging",
+      "mature"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "For users who have completed C-Quence Serum 3",
+      "Avoid using with other retinoids",
+      "May cause initial peeling or redness"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Youth+ Tri-Retinoid Complex Retinol Serum",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$130-150",
+    "size": "30 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinol",
+      "Retinyl Palmitate (Vitamin A)",
+      "Retinyl Acetate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Retinol",
+      "Retinyl Palmitate",
+      "Retinyl Acetate",
+      "Vitamin E"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "deep wrinkles",
+      "sun damage",
+      "experienced vitamin A users"
+    ],
+    "skin_types": [
+      "all",
+      "aging",
+      "mature"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to high retinoid content",
+      "Use sunscreen during the day",
+      "For experienced vitamin A users only",
+      "Avoid using with other retinoids or acids",
+      "May cause initial peeling, redness, or sensitivity",
+      "Not suitable for sensitive skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Youth+ Concentrated Retinol Serum Level 1",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$120-135",
+    "size": "30 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinol (Concentrated)",
+      "Retinyl Palmitate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Concentrated Retinol",
+      "Vitamin E",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "retinol beginners",
+      "aging skin",
+      "fine lines"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "Start with 2-3 times per week for sensitive skin",
+      "Avoid using with other retinoids or acids",
+      "May cause initial peeling or redness"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Youth+ Concentrated Retinol Serum Level 2",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$135-150",
+    "size": "30 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinol (Higher Concentration)",
+      "Retinyl Palmitate (Vitamin A)",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Higher Retinol",
+      "Vitamin E",
+      "Peptides"
+    ],
+    "conditions_addressed": [
+      "advanced aging",
+      "moderate wrinkles",
+      "experienced users"
+    ],
+    "skin_types": [
+      "all",
+      "aging"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "For users who have completed Level 1",
+      "Avoid using with other retinoids or acids",
+      "May cause initial peeling or redness"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Youth+ Concentrated Retinol Serum Level 3",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$150-165",
+    "size": "30 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Retinol (Maximum Concentration)",
+      "Retinyl Palmitate (Vitamin A)",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Beta-Carotene",
+      "Xanthan Gum",
+      "Disodium EDTA",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Maximum Retinol",
+      "Vitamin E",
+      "Advanced Peptides"
+    ],
+    "conditions_addressed": [
+      "mature skin",
+      "deep wrinkles",
+      "advanced users"
+    ],
+    "skin_types": [
+      "all",
+      "aging",
+      "mature"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to high retinoid content",
+      "Use sunscreen during the day",
+      "For users who have completed Level 2",
+      "Avoid using with other retinoids or acids",
+      "Not suitable for sensitive skin",
+      "May cause initial peeling, redness, or sensitivity"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Clarity+ Sebu-Wash Gel Cleanser",
+    "brand": "Environ",
+    "category": "cleanser",
+    "price": "$45-55",
+    "size": "150 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Sodium Laureth Sulfate",
+      "Cocamidopropyl Betaine",
+      "Glycerin",
+      "Salicylic Acid",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Retinyl Palmitate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Panthenol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Salicylic Acid",
+      "Tea Tree Oil",
+      "Vitamin A"
+    ],
+    "conditions_addressed": [
+      "acne-prone skin",
+      "oily skin",
+      "congested pores"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to salicylic acid and retinoid content",
+      "Avoid use on broken or irritated skin",
+      "Discontinue if excessive dryness or irritation occurs",
+      "Use sunscreen during the day"
+    ],
+    "ph_range": "4.5 - 5.5"
+  },
+  {
+    "name": "Focus Care Clarity+ Sebu-Clear Masque",
+    "brand": "Environ",
+    "category": "mask",
+    "price": "$55-65",
+    "size": "50 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Kaolin",
+      "Glycerin",
+      "Bentonite",
+      "Salicylic Acid",
+      "Retinyl Palmitate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Panthenol",
+      "Allantoin",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Salicylic Acid",
+      "Kaolin",
+      "Vitamin A"
+    ],
+    "conditions_addressed": [
+      "acne-prone skin",
+      "oily skin",
+      "congested pores",
+      "blackheads"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to salicylic acid and retinoid content",
+      "Avoid use on broken or irritated skin",
+      "Discontinue if excessive dryness or irritation occurs",
+      "Do not use with other exfoliating acids on the same day"
+    ],
+    "ph_range": "4.5 - 5.5"
+  },
+  {
+    "name": "Focus Care Clarity+ Sebu-Lac Lotion",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$60-70",
+    "size": "60 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Lactic Acid",
+      "Glycerin",
+      "Salicylic Acid",
+      "Retinyl Palmitate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Sodium Lactate",
+      "Panthenol",
+      "Allantoin",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Lactic Acid",
+      "Salicylic Acid",
+      "Vitamin A"
+    ],
+    "conditions_addressed": [
+      "acne-prone skin",
+      "rough texture",
+      "hyperpigmentation"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "CONTRAINDICATED during pregnancy or breastfeeding due to salicylic acid and retinoid content",
+      "Avoid use on broken or irritated skin",
+      "Discontinue if excessive dryness or irritation occurs",
+      "Use sunscreen during the day (photosensitizing)",
+      "Start with 2-3 times per week"
+    ],
+    "ph_range": "3.5 - 4.5"
+  },
+  {
+    "name": "Focus Care Clarity+ Sebu-ACE Oil",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$65-75",
+    "size": "60 ml",
+    "inci_ingredients": [
+      "Caprylic/Capric Triglyceride",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Retinyl Propionate (Vitamin A)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Tocopherol (Vitamin E)",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "Panthenol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin E",
+      "Tea Tree Oil"
+    ],
+    "conditions_addressed": [
+      "acne-prone skin",
+      "inflammation",
+      "scarring"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Do not use if allergic to nuts (contains sweet almond oil)",
+      "Patch test recommended for sensitive skin",
+      "Use sunscreen during the day"
+    ],
+    "ph_range": "N/A (Oil-based)"
+  },
+  {
+    "name": "Focus Care Radiance+ Range Mela-Fade Cream",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$85-95",
+    "size": "30 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Niacinamide",
+      "Glycyrrhiza Glabra (Liquorice) Root Extract",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Niacinamide",
+      "Liquorice Extract",
+      "Vitamin A"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "melasma",
+      "uneven tone",
+      "dark spots"
+    ],
+    "skin_types": [
+      "all",
+      "hyperpigmented"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day (essential for hyperpigmentation treatment)",
+      "Patch test recommended for sensitive skin",
+      "Avoid using with other strong acids or retinoids"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Radiance+ Range Mela-Prep Lotion",
+    "brand": "Environ",
+    "category": "toner",
+    "price": "$70-80",
+    "size": "30 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Butylene Glycol",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Niacinamide",
+      "Glycyrrhiza Glabra (Liquorice) Root Extract",
+      "Tocopherol (Vitamin E)",
+      "Sodium Hyaluronate",
+      "Panthenol",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin C",
+      "Niacinamide",
+      "Liquorice Extract"
+    ],
+    "conditions_addressed": [
+      "hyperpigmentation",
+      "prepping skin",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all",
+      "hyperpigmented"
+    ],
+    "contraindications": [
+      "Use sunscreen during the day",
+      "Patch test recommended for sensitive skin",
+      "Discontinue if irritation occurs"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Moisture+ Range Super Moisturiser",
+    "brand": "Environ",
+    "category": "moisturizer",
+    "price": "$75-85",
+    "size": "50 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Sodium Hyaluronate",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Retinyl Propionate (Vitamin A)",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Tocopherol (Vitamin E)",
+      "Panthenol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Hyaluronic Acid",
+      "Vitamin A",
+      "Ceramides",
+      "Peptides"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "dehydrated skin",
+      "aging skin",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "aging",
+      "dehydrated"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Use sunscreen during the day",
+      "Patch test recommended for sensitive skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Focus Care Moisture+ Range Vita-Antioxidant Hydrating Oil Capsules",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$65-75",
+    "size": "30 capsules",
+    "inci_ingredients": [
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Ascorbyl Tetraisopalmitate (Vitamin C)",
+      "Beta-Carotene",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "BHT",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin E",
+      "Antioxidants",
+      "Botanical Oils"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "aging skin",
+      "antioxidant protection"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Do not use if allergic to nuts (contains sweet almond oil)",
+      "Use sunscreen during the day",
+      "For external use only - do not ingest capsules"
+    ],
+    "ph_range": "N/A (Oil-based)"
+  },
+  {
+    "name": "RAD Antioxidant Sun Cream SPF 15",
+    "brand": "Environ",
+    "category": "sunscreen",
+    "price": "$50-60",
+    "size": "25 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Beta-Carotene",
+      "Panthenol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Vitamin A",
+      "Vitamin E",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "sun protection",
+      "aging prevention",
+      "daily use",
+      "all skin types"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Reapply every 2 hours during sun exposure",
+      "May leave white cast due to mineral filters"
+    ],
+    "ph_range": "6.0 - 7.0"
+  },
+  {
+    "name": "Alpha Day Lotion SPF 15",
+    "brand": "Environ",
+    "category": "sunscreen",
+    "price": "$55-65",
+    "size": "100 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Glycolic Acid",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Panthenol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Zinc Oxide",
+      "Titanium Dioxide",
+      "Vitamin A",
+      "Alpha Hydroxy Acids"
+    ],
+    "conditions_addressed": [
+      "sun protection",
+      "aging prevention",
+      "combination skin",
+      "oily skin"
+    ],
+    "skin_types": [
+      "combination",
+      "oily"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid and AHA content",
+      "Use sunscreen during the day (AHA increases photosensitivity)",
+      "Start with low frequency for sensitive skin",
+      "Avoid use with other exfoliating acids or retinoids"
+    ],
+    "ph_range": "3.5 - 4.5"
+  },
+  {
+    "name": "Hydrating Oil Capsules",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$60-70",
+    "size": "30 capsules",
+    "inci_ingredients": [
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Beta-Carotene",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "BHT",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin E",
+      "Botanical Oils",
+      "Antioxidants"
+    ],
+    "conditions_addressed": [
+      "dry skin",
+      "aging skin",
+      "night treatment",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Do not use if allergic to nuts (contains sweet almond oil)",
+      "Use sunscreen during the day",
+      "For external use only - do not ingest capsules"
+    ],
+    "ph_range": "N/A (Oil-based)"
+  },
+  {
+    "name": "Body EssentiA Body Oil",
+    "brand": "Environ",
+    "category": "treatment",
+    "price": "$55-65",
+    "size": "100 ml",
+    "inci_ingredients": [
+      "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Beta-Carotene",
+      "BHT",
+      "Phenoxyethanol"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin E",
+      "Botanical Oils"
+    ],
+    "conditions_addressed": [
+      "body skin",
+      "dry skin",
+      "aging body skin"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "Do not use if allergic to nuts (contains sweet almond oil)",
+      "For external use only",
+      "Avoid use on broken or irritated skin"
+    ],
+    "ph_range": "N/A (Oil-based)"
+  },
+  {
+    "name": "Body EssentiA Body Cream",
+    "brand": "Environ",
+    "category": "moisturizer",
+    "price": "$50-60",
+    "size": "150 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Ceramide EOP",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Panthenol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin E",
+      "Ceramides",
+      "Peptides"
+    ],
+    "conditions_addressed": [
+      "body skin",
+      "dry skin",
+      "aging body skin"
+    ],
+    "skin_types": [
+      "dry",
+      "normal",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "For external use only",
+      "Avoid use on broken or irritated skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  },
+  {
+    "name": "Body EssentiA Hand Cream",
+    "brand": "Environ",
+    "category": "moisturizer",
+    "price": "$35-45",
+    "size": "75 ml",
+    "inci_ingredients": [
+      "Aqua (Water)",
+      "Glycerin",
+      "Caprylic/Capric Triglyceride",
+      "Cetearyl Alcohol",
+      "Cetearyl Olivate",
+      "Sorbitan Olivate",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "Ceramide NP",
+      "Ceramide AP",
+      "Retinyl Propionate (Vitamin A)",
+      "Tocopherol (Vitamin E)",
+      "Panthenol",
+      "Xanthan Gum",
+      "Phenoxyethanol",
+      "Ethylhexylglycerin"
+    ],
+    "key_actives": [
+      "Vitamin A",
+      "Vitamin E",
+      "Ceramides"
+    ],
+    "conditions_addressed": [
+      "dry hands",
+      "aging hands",
+      "hand rejuvenation"
+    ],
+    "skin_types": [
+      "dry",
+      "aging"
+    ],
+    "contraindications": [
+      "Not recommended during pregnancy or breastfeeding due to retinoid content",
+      "For external use only",
+      "Avoid use on broken or irritated skin"
+    ],
+    "ph_range": "5.5 - 6.5"
+  }
+]

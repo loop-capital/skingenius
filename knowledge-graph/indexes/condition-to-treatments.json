@@ -1,0 +1,211 @@
+{
+  "acne-vulgaris": {
+    "ladder_ids": [
+      "acne-vulgaris-mild",
+      "acne-vulgaris-moderate",
+      "acne-vulgaris-severe"
+    ],
+    "otc_products": [
+      "cerave-foaming-facial-cleanser",
+      "cerave-hydrating-facial-cleanser",
+      "differin-adapalene-gel-01",
+      "cerave-acne-foaming-cream-cleanser",
+      "the-ordinary-niacinamide-10-zinc-1",
+      "cerave-pm-facial-moisturizing-lotion"
+    ],
+    "prescription_options": [
+      "Topical retinoid (tretinoin 0.025–0.05%) or topical azelaic acid 15–20% if PIH is a concern.",
+      "Dermatologist evaluation for possible topical antibiotic + BPO combo, hormonal workup, or oral antibiotics.",
+      "Topical retinoid + topical antibiotic (clindamycin) with BPO. Or topical dapsone 5% gel for adult females.",
+      "Oral antibiotics (doxycycline 50–100 mg daily or sarecycline) for 3–4 months max, always with topical retinoid.",
+      "Hormonal therapy for females (spironolactone 50–200 mg/day or combined oral contraceptives).",
+      "Dermatologist referral for isotretinoin consideration if nodulocystic, scarring, or treatment-resistant.",
+      "Immediate dermatologist referral. Oral isotretinoin 0.5–1 mg/kg/day is first-line for severe nodulocystic acne.",
+      "Intralesional corticosteroid injections (triamcinolone 2.5–5 mg/mL) for large nodules/cysts."
+    ],
+    "procedure_options": [
+      "Photodynamic therapy (PDT) or blue/red light therapy as adjunct."
+    ]
+  },
+  "atopic-dermatitis": {
+    "ladder_ids": [
+      "atopic-dermatitis-mild",
+      "atopic-dermatitis-moderate",
+      "atopic-dermatitis-severe"
+    ],
+    "otc_products": [
+      "cerave-hydrating-facial-cleanser",
+      "cerave-moisturizing-cream",
+      "skinceuticals-triple-lipid-restore-242"
+    ],
+    "prescription_options": [
+      "Topical calcineurin inhibitors (tacrolimus 0.03–0.1% or pimecrolimus 1%) for face/folds and maintenance.",
+      "Crisaborole 2% ointment (Eucrisa) or ruxolitinib 1.5% cream for mild-moderate AD.",
+      "Topical calcineurin inhibitors for face/folds. Wet wrap therapy for severe flares.",
+      "Phototherapy (NB-UVB) 2–3x weekly for widespread disease.",
+      "Dupilumab (Dupixent) biweekly injection — first-line biologic for moderate-severe AD.",
+      "Urgent dermatologist referral. Dupilumab or tralokinumab biologic therapy.",
+      "Oral JAK inhibitors (upadacitinib or abrocitinib) for severe refractory AD."
+    ],
+    "procedure_options": [
+      "Phototherapy (NB-UVB or UVA1). Wet wrap therapy for acute flares."
+    ]
+  },
+  "rosacea": {
+    "ladder_ids": [
+      "rosacea-mild",
+      "rosacea-moderate",
+      "rosacea-severe"
+    ],
+    "otc_products": [
+      "cerave-hydrating-facial-cleanser",
+      "tatcha-camellia-cleansing-oil",
+      "eltamd-uv-clear-spf-46",
+      "eltamd-uv-elements-spf-44",
+      "the-ordinary-niacinamide-10-zinc-1",
+      "cerave-pm-facial-moisturizing-lotion"
+    ],
+    "prescription_options": [
+      "Metronidazole 0.75–1% cream/gel or azelaic acid 15% gel for papulopustular rosacea.",
+      "Topical ivermectin 1% cream (Soolantra) for papules/pustules. Or topical metronidazole + azelaic acid.",
+      "Low-dose oral doxycycline 40 mg (Oracea) — anti-inflammatory sub-antimicrobial dose for papulopustular rosacea.",
+      "Brimonidine 0.33% gel (Mirvaso) or oxymetazoline 1% cream (Rhofade) for persistent facial erythema.",
+      "Dermatologist referral for severe papulopustular or ocular rosacea. Oral isotretinoin may be considered (low dose)."
+    ],
+    "procedure_options": [
+      "Vascular laser (pulsed dye laser 585–595 nm or KTP laser) for persistent erythema and telangiectasias."
+    ]
+  },
+  "melasma": {
+    "ladder_ids": [
+      "melasma-mild",
+      "melasma-moderate",
+      "melasma-severe"
+    ],
+    "otc_products": [
+      "eltamd-uv-clear-spf-46",
+      "eltamd-uv-elements-spf-44",
+      "black-girl-sunscreen-make-it-bright",
+      "the-ordinary-niacinamide-10-zinc-1",
+      "the-ordinary-alpha-arbutin-2-ha",
+      "the-ordinary-azelaic-acid-suspension-10"
+    ],
+    "prescription_options": [
+      "Azelaic acid 20% cream or hydroquinone 2–4% for 8–12 weeks with strict photoprotection.",
+      "Triple combination cream (hydroquinone 4% + tretinoin 0.05% + mild steroid) for 8 weeks.",
+      "Add oral tranexamic acid 250 mg BID (off-label) for refractory melasma, after thrombosis screening.",
+      "Cysteamine 5% cream (Cyspera) — non-hydroquinone option for maintenance.",
+      "Dermatologist referral. Oral tranexamic acid + topical triple combination or azelaic acid 20%."
+    ],
+    "procedure_options": [
+      "Very conservative chemical peels (low-strength glycolic or salicylic acid series) ONLY by experienced provider. Test spots mandatory.",
+      "Low-fluence Q-switched Nd:YAG 1064 nm or fractional laser ONLY as last resort by melasma specialist. High PIH risk."
+    ]
+  },
+  "post-inflammatory-hyperpigmentation": {
+    "ladder_ids": [
+      "post-inflammatory-hyperpigmentation-mild",
+      "post-inflammatory-hyperpigmentation-moderate"
+    ],
+    "otc_products": [
+      "eltamd-uv-clear-spf-46",
+      "black-girl-sunscreen-make-it-bright",
+      "skinceuticals-ce-ferulic",
+      "the-ordinary-ascorbic-acid-8-alpha-arbutin-2",
+      "the-ordinary-niacinamide-10-zinc-1"
+    ],
+    "prescription_options": [
+      "Hydroquinone 2–4% for 8–12 weeks OR azelaic acid 20% for longer-term maintenance.",
+      "HQ 4% + tretinoin 0.025–0.05% combination. Use at night with strict daytime SPF.",
+      "Add oral tranexamic acid 250 mg BID (after thrombosis screening) for refractory PIH."
+    ],
+    "procedure_options": [
+      "Conservative chemical peel series (salicylic acid 20–30% or mandelic acid 20–40%). Multiple sessions."
+    ]
+  },
+  "psoriasis": {
+    "ladder_ids": [
+      "psoriasis-mild",
+      "psoriasis-moderate",
+      "psoriasis-severe"
+    ],
+    "otc_products": [
+      "cerave-moisturizing-cream",
+      "skinceuticals-triple-lipid-restore-242"
+    ],
+    "prescription_options": [
+      "Topical corticosteroids (betamethasone dipropionate) + vitamin D analogs (calcipotriene) for body plaques.",
+      "Phototherapy (NB-UVB) 2–3x weekly. First-line for moderate widespread psoriasis.",
+      "Systemic non-biologics: methotrexate 7.5–25 mg weekly OR apremilast (Otezla) OR cyclosporine short-term.",
+      "Biologic agents: TNF inhibitors (adalimumab, etanercept) or IL-17 inhibitors (secukinumab, ixekizumab).",
+      "Urgent dermatology referral. Biologic agents: IL-23 inhibitors (guselkumab, risankizumab) or IL-17 inhibitors.",
+      "Combination therapy: biologic + methotrexate (enhances efficacy, reduces immunogenicity)."
+    ],
+    "procedure_options": [
+      "Phototherapy (NB-UVB or PUVA) as adjunct. Targeted excimer laser for resistant plaques."
+    ]
+  },
+  "seborrheic-dermatitis": {
+    "ladder_ids": [
+      "seborrheic-dermatitis-mild",
+      "seborrheic-dermatitis-moderate"
+    ],
+    "otc_products": [
+      "cerave-foaming-facial-cleanser",
+      "cerave-daily-moisturizing-lotion"
+    ],
+    "prescription_options": [
+      "Ketoconazole 2% cream or ciclopirox 0.77% gel for facial/seborrheic areas.",
+      "Ketoconazole 2% shampoo/cream + low-potency corticosteroid (hydrocortisone 1–2.5%) for inflammation.",
+      "Topical calcineurin inhibitors (tacrolimus 0.1% or pimecrolimus 1%) for steroid-sparing maintenance, especially on face.",
+      "Oral antifungal (itraconazole 200 mg daily for 7 days) for severe or refractory cases."
+    ],
+    "procedure_options": []
+  },
+  "keratosis-pilaris": {
+    "ladder_ids": [
+      "keratosis-pilaris"
+    ],
+    "otc_products": [
+      "cerave-renewing-sa-cleanser",
+      "cerave-moisturizing-cream",
+      "differin-adapalene-gel-01"
+    ],
+    "prescription_options": [
+      "Topical retinoid (tretinoin 0.025% or adapalene 0.1%) for persistent cases."
+    ],
+    "procedure_options": []
+  },
+  "perioral-dermatitis": {
+    "ladder_ids": [
+      "perioral-dermatitis-mild"
+    ],
+    "otc_products": [
+      "cerave-hydrating-facial-cleanser"
+    ],
+    "prescription_options": [
+      "Topical metronidazole 0.75% gel or azelaic acid 15–20% for papules.",
+      "Low-dose oral tetracycline (doxycycline 40–100 mg/day or minocycline 50–100 mg/day) for 6–12 weeks."
+    ],
+    "procedure_options": []
+  },
+  "contact-dermatitis": {
+    "ladder_ids": [
+      "contact-dermatitis-mild",
+      "contact-dermatitis-moderate"
+    ],
+    "otc_products": [
+      "cerave-hydrating-facial-cleanser",
+      "cerave-moisturizing-cream",
+      "skinceuticals-triple-lipid-restore-242"
+    ],
+    "prescription_options": [
+      "Low- to medium-potency topical corticosteroid (hydrocortisone 1–2.5% or triamcinolone 0.1%) for 1–2 weeks.",
+      "Patch testing by dermatologist for allergic contact dermatitis. Refer if persistent or recurrent.",
+      "Medium-potency topical steroid (triamcinolone 0.1% or betamethasone valerate 0.1%) for 1–2 weeks.",
+      "Topical calcineurin inhibitors (tacrolimus 0.1% or pimecrolimus 1%) for face, eyelids, or maintenance.",
+      "Oral corticosteroid short course (prednisone taper) for widespread allergic contact dermatitis."
+    ],
+    "procedure_options": []
+  }
+}

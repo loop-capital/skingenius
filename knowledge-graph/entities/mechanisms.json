@@ -1,0 +1,413 @@
+[
+  {
+    "id": "inflammation_cascade",
+    "name": "Inflammation Cascade (NF-κB, Cytokines)",
+    "pathway_type": "inflammatory",
+    "description": "Central inflammatory pathway activated by TLR4 (LPS), cytokines, UV, and oxidative stress. NF-κB translocates to nucleus driving transcription of TNF-α, IL-1β, IL-6, IL-17. Key driver of acne, psoriasis, eczema, rosacea, and accelerated aging.",
+    "key_mediators": [
+      "TNF-α (primary driver)",
+      "IL-1β (acute phase, pyroptosis)",
+      "IL-6 (chronic inflammation, Th17 skewing)",
+      "IL-17 (Th17, psoriasis, neutrophil recruitment)",
+      "IL-8 (neutrophil chemotaxis)",
+      "NF-κB (master transcription factor)"
+    ],
+    "activators": [
+      "LPS/TLR4 (leaky gut)",
+      "UV radiation",
+      "C. acnes / S. aureus",
+      "Oxidative stress",
+      "Cytokine amplification loops"
+    ],
+    "skin_effects": [
+      "Erythema and edema",
+      "Neutrophil recruitment",
+      "Keratinocyte hyperproliferation",
+      "Collagen breakdown (via MMPs)",
+      "Barrier disruption"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "gut-skin-axis.md: Section 2.1 (leaky gut → inflammation)",
+      "hormone-skin-connection.md: Section 1.1 (cortisol → inflammation)",
+      "clinical-guidelines.md: Psoriasis (Th17/IL-23 pathway)"
+    ]
+  },
+  {
+    "id": "sebum_overproduction",
+    "name": "Sebum Overproduction",
+    "pathway_type": "hormonal",
+    "description": "Excessive sebaceous gland activity driven by androgens (DHT via AR), IGF-1/mTORC1 signaling, and insulin resistance. Sebum provides substrate for C. acnes proliferation and contributes to comedone formation. Key mechanism in acne and seborrheic dermatitis.",
+    "key_mediators": [
+      "DHT (5α-reduced testosterone)",
+      "Androgen receptor (AR) in sebocytes",
+      "IGF-1 receptor",
+      "mTORC1 (lipogenesis via SREBP-1)",
+      "5α-reductase (types 1 and 2)"
+    ],
+    "activators": [
+      "Androgens (testosterone, DHT)",
+      "IGF-1 / insulin signaling",
+      "Stress/cortisol",
+      "Diet (high glycemic, dairy)"
+    ],
+    "skin_effects": [
+      "Oily skin",
+      "Comedone formation",
+      "C. acnes proliferation environment",
+      "Follicular occlusion"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.4 (androgens)",
+      "skin-condition-profiles.md: Acne pathogenesis"
+    ]
+  },
+  {
+    "id": "collagen_breakdown",
+    "name": "Collagen Breakdown (MMPs)",
+    "pathway_type": "structural",
+    "description": "Matrix metalloproteinases (MMP-1, MMP-3, MMP-9) degrade collagen types I and III under stimulation by cortisol, UV, inflammation, and AGEs. Primary mechanism of photoaging, wrinkle formation, skin thinning, and impaired wound healing.",
+    "key_mediators": [
+      "MMP-1 (collagenase - cleaves collagen I/III)",
+      "MMP-3 (stromelysin - activates MMP-1)",
+      "MMP-9 (gelatinase - basement membrane degradation)",
+      "AP-1 transcription factor (MMP upregulation)"
+    ],
+    "activators": [
+      "UV radiation (primary)",
+      "Cortisol (chronic stress)",
+      "Inflammatory cytokines (TNF-α, IL-1)",
+      "AGEs via RAGE",
+      "Smoking"
+    ],
+    "inhibitors": [
+      "TGF-β1 (stimulates collagen synthesis)",
+      "TIMP-1, TIMP-3 (tissue inhibitors of MMPs)",
+      "Estrogen (downregulates MMP-1 via AP-1 suppression)",
+      "Retinoids (increase collagen synthesis, reduce MMPs)",
+      "Vitamin C (cofactor for collagen synthesis)"
+    ],
+    "skin_effects": [
+      "Wrinkle formation",
+      "Skin laxity",
+      "Photoaging",
+      "Delayed wound healing",
+      "Skin thinning"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.1 (cortisol → MMPs)",
+      "lifestyle-skin.md: Section 3 (UV → MMPs, smoking → MMPs)"
+    ]
+  },
+  {
+    "id": "barrier_disruption",
+    "name": "Skin Barrier Disruption",
+    "pathway_type": "structural",
+    "description": "Impaired stratum corneum integrity due to ceramide depletion, tight junction dysfunction, reduced filaggrin/involucrin/loricrin, and altered lipid lamellae. Results in increased transepidermal water loss (TEWL), allergen penetration, and inflammation. Central to eczema, xerosis, and steroid-induced atrophy.",
+    "key_components": [
+      "Ceramides (40-50% of barrier lipids)",
+      "Cholesterol (25%)",
+      "Free fatty acids (10-15%)",
+      "Filaggrin (natural moisturizing factor precursor)",
+      "Loricrin and involucrin (cornified envelope)",
+      "Tight junctions (claudin-1, occludin, ZO-1)"
+    ],
+    "causes": [
+      "Genetic (filaggrin mutations - atopic dermatitis)",
+      "Cortisol excess",
+      "UV damage",
+      "Harsh surfactants (SLS)",
+      "Aging (reduced lipid synthesis)",
+      "Topical corticosteroids (chronic use)",
+      "Nutrient deficiencies (zinc, essential fatty acids)"
+    ],
+    "consequences": [
+      "Increased TEWL",
+      "Dryness and scaling",
+      "Allergen/irritant penetration",
+      "Inflammation (itch-scratch cycle)",
+      "Infection susceptibility"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.1 (cortisol → barrier)",
+      "clinical-guidelines.md: AD section (barrier repair foundation)"
+    ]
+  },
+  {
+    "id": "melanocyte_hyperactivation",
+    "name": "Melanocyte Hyperactivation",
+    "pathway_type": "metabolic",
+    "description": "Excessive melanin production driven by UV-induced MITF upregulation, hormonal stimulation (estrogen, MSH), inflammation (post-inflammatory hyperpigmentation), and oxidative stress. Key mechanism in melasma, PIH, solar lentigines, and post-acne dark marks.",
+    "key_mediators": [
+      "MITF (microphthalmia-associated transcription factor)",
+      "Tyrosinase (rate-limiting melanin enzyme)",
+      "TRP-1, TRP-2 (melanogenic enzymes)",
+      "α-MSH (melanocyte stimulating hormone)",
+      "Endothelin-1 (paracrine melanocyte activator)"
+    ],
+    "activators": [
+      "UV radiation (primary driver)",
+      "Estrogen/progesterone (melasma)",
+      "Inflammation (PIH)",
+      "Oxidative stress",
+      "Hormonal contraceptives"
+    ],
+    "skin_effects": [
+      "Hyperpigmentation",
+      "Melasma patches",
+      "Solar lentigines",
+      "Post-inflammatory hyperpigmentation",
+      "Uneven skin tone"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "skin-condition-profiles.md: Melasma and PIH sections",
+      "hormone-skin-connection.md: Section 1.2 (estrogen → melanogenesis)"
+    ]
+  },
+  {
+    "id": "oxidative_stress_pathway",
+    "name": "Oxidative Stress / ROS Pathway",
+    "pathway_type": "metabolic",
+    "description": "Excess reactive oxygen species (superoxide, hydroxyl radical, peroxynitrite) overwhelm antioxidant defenses (SOD, catalase, glutathione, vitamin E, vitamin C). Directly damages lipids, proteins, DNA. Activates MMPs, melanocytes, and inflammatory signaling.",
+    "key_mediators": [
+      "Superoxide anion (O₂⁻)",
+      "Hydroxyl radical (•OH)",
+      "Hydrogen peroxide (H₂O₂)",
+      "Peroxynitrite (ONOO⁻)",
+      "Lipid peroxides (MDA, 4-HNE)"
+    ],
+    "sources": [
+      "UV radiation (primary exogenous)",
+      "Pollution (PM2.5, PAHs, ozone)",
+      "Smoking",
+      "Mitochondrial dysfunction",
+      "Chronic inflammation",
+      "Statin-induced CoQ10 depletion"
+    ],
+    "antioxidant_defenses": [
+      "Superoxide dismutase (SOD)",
+      "Catalase",
+      "Glutathione peroxidase",
+      "Vitamin E (lipid-soluble)",
+      "Vitamin C (water-soluble)",
+      "Melatonin (nocturnal antioxidant)"
+    ],
+    "skin_effects": [
+      "Lipid peroxidation in stratum corneum",
+      "DNA damage (CPDs, 6-4PPs)",
+      "Collagen degradation (MMP activation)",
+      "Melanocyte activation",
+      "Barrier disruption",
+      "Immune dysregulation"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "lifestyle-skin.md: Section 3 (UV, pollution, smoking)",
+      "medication-skin-interactions.md: Statins (CoQ10 depletion)"
+    ]
+  },
+  {
+    "id": "glycation_pathway",
+    "name": "Glycation / AGE Formation",
+    "pathway_type": "metabolic",
+    "description": "Non-enzymatic attachment of reducing sugars to amino groups on proteins (lysine, arginine) forming Schiff bases → Amadori products → advanced glycation end-products (AGEs). Cross-links collagen and elastin → stiffness, yellowing, reduced elasticity. RAGE signaling amplifies inflammation.",
+    "key_mediators": [
+      "Glucose (primary sugar)",
+      "Fructose (more reactive than glucose)",
+      "Methylglyoxal (reactive dicarbonyl)",
+      "RAGE (receptor for AGEs)",
+      "NF-κB (downstream of RAGE)"
+    ],
+    "target_proteins": [
+      "Collagen (types I and III)",
+      "Elastin",
+      "Fibronectin",
+      "Crystallin (lens)"
+    ],
+    "accelerating_factors": [
+      "Hyperglycemia / insulin resistance",
+      "High dietary AGEs (grilled, fried foods)",
+      "Aging",
+      "UV exposure",
+      "Smoking (generates glycotoxins)"
+    ],
+    "skin_effects": [
+      "Collagen cross-linking and stiffness",
+      "Reduced elasticity (30-50% in advanced glycation)",
+      "Yellowing of skin",
+      "Wrinkle formation",
+      "Impaired wound healing"
+    ],
+    "evidence_level": "B",
+    "source_citations": [
+      "hormone-skin-connection.md: Section 1.5 (glycation)"
+    ]
+  },
+  {
+    "id": "histamine_release",
+    "name": "Histamine Release / Mast Cell Activation",
+    "pathway_type": "immune",
+    "description": "Mast cell degranulation releasing histamine, tryptase, leukotrienes, and prostaglandins. Triggers vasodilation, vascular permeability, pruritus, and wheal formation. Central to urticaria, allergic reactions, eczema itch, and rosacea flushing. Stress and CRH directly activate mast cells.",
+    "key_mediators": [
+      "Histamine (H1, H2, H3, H4 receptors)",
+      "Tryptase (mast cell specific protease)",
+      "Leukotrienes (LTB4, LTC4)",
+      "Prostaglandin D2",
+      "CRH (corticotropin-releasing hormone from keratinocytes)"
+    ],
+    "triggers": [
+      "IgE-mediated allergens",
+      "Complement activation",
+      "Stress/CRH",
+      "Temperature changes",
+      "Certain foods",
+      "NSAIDs (in susceptible individuals)",
+      "Opioids"
+    ],
+    "skin_effects": [
+      "Vasodilation and flushing",
+      "Edema and wheals",
+      "Pruritus (itch)",
+      "Erythema",
+      "Contact dermatitis"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.3 (mast cell activation)",
+      "lifestyle-skin.md: Section 2 (stress → mast cells)"
+    ]
+  },
+  {
+    "id": "immune_dysregulation",
+    "name": "Immune Dysregulation",
+    "pathway_type": "immune",
+    "description": "Imbalance in adaptive and innate immune responses leading to autoimmune attack (psoriasis, vitiligo, alopecia areata) or excessive Th2 response (atopic dermatitis). Involves T-cell activation, cytokine skewing, and loss of self-tolerance. Checkpoint inhibitors can trigger immune-related skin adverse events.",
+    "key_patterns": [
+      "Th1/Th17 dominance (psoriasis, autoimmune)",
+      "Th2 dominance (atopic dermatitis, allergy)",
+      "Treg deficiency (autoimmunity)",
+      "B-cell activation (bullous diseases)"
+    ],
+    "key_cytokines": [
+      "IL-23 → Th17 → IL-17 (psoriasis)",
+      "IL-4, IL-13 → Th2 (atopic dermatitis)",
+      "IFN-γ → Th1 (autoimmunity)",
+      "IL-31 (pruritus, atopic dermatitis)"
+    ],
+    "skin_effects": [
+      "Autoimmune skin attack",
+      "Chronic inflammation",
+      "Impaired infection defense",
+      "Altered wound healing",
+      "Allergy and hypersensitivity"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "clinical-guidelines.md: Psoriasis (Th17), AD (Th2)",
+      "gut-skin-axis.md: Section 1.3 (immune modulation)"
+    ]
+  },
+  {
+    "id": "microbiome_dysbiosis_pathway",
+    "name": "Microbiome Dysbiosis Pathway",
+    "pathway_type": "immune",
+    "description": "Ecological imbalance in skin or gut microbiome leading to loss of colonization resistance, pathogen overgrowth, and altered immune education. Includes C. acnes phylotype shifts, S. aureus colonization, Malassezia overgrowth, and Demodex proliferation. Modulates local and systemic immunity.",
+    "key_patterns": [
+      "Loss of diversity",
+      "Pathobiont expansion",
+      "Reduced SCFA production",
+      "Altered immune education",
+      "Biofilm formation"
+    ],
+    "skin_microbiome": [
+      "C. acnes IA1 dominance (acne)",
+      "S. aureus >90% colonization (AD flares)",
+      "Malassezia globosa overgrowth (seborrheic dermatitis)",
+      "Demodex 5-10× density (rosacea)"
+    ],
+    "gut_microbiome": [
+      "Reduced Faecalibacterium prausnitzii",
+      "Proteobacterial bloom",
+      "Loss of Akkermansia muciniphila",
+      "Reduced SCFA producers"
+    ],
+    "skin_effects": [
+      "Inflammatory skin disease",
+      "Infection susceptibility",
+      "Altered barrier function",
+      "Immune skewing"
+    ],
+    "evidence_level": "B",
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.1, 1.2, 1.3",
+      "clinical-guidelines.md: AD (S. aureus decolonization)"
+    ]
+  },
+  {
+    "id": "vascular_dysregulation",
+    "name": "Vascular Dysregulation",
+    "pathway_type": "inflammatory",
+    "description": "Abnormal vascular tone and neovascularization in skin. Neurovascular mechanisms involving TRPV1, Substance P, and CGRP cause flushing, telangiectasia, and persistent erythema. Central to rosacea and photoaging.",
+    "key_mediators": [
+      "TRPV1 (capsaicin receptor, heat/pain sensing)",
+      "Substance P (neuropeptide)",
+      "CGRP (calcitonin gene-related peptide)",
+      "VEGF (vascular endothelial growth factor)",
+      "Cathelicidin LL-37 (antimicrobial peptide, vasodilator)"
+    ],
+    "triggers": [
+      "Heat and sun exposure",
+      "Alcohol",
+      "Spicy foods",
+      "Emotional stress",
+      "Exercise",
+      "Demodex-associated Bacillus oleronius"
+    ],
+    "skin_effects": [
+      "Flushing",
+      "Persistent facial erythema",
+      "Telangiectasia",
+      "Edema",
+      "Neurogenic inflammation"
+    ],
+    "evidence_level": "B",
+    "source_citations": [
+      "gut-skin-axis.md: Section 1.1 (Demodex → rosacea)",
+      "clinical-guidelines.md: Rosacea (neurovascular)"
+    ]
+  },
+  {
+    "id": "dna_damage_repair",
+    "name": "DNA Damage & Repair Deficiency",
+    "pathway_type": "structural",
+    "description": "UV-induced formation of cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts, plus reactive oxygen species causing oxidative DNA damage. Impaired repair (e.g., xeroderma pigmentosum) leads to mutations, photoaging, and skin cancer. Normal repair involves nucleotide excision repair (NER) and base excision repair (BER).",
+    "key_damage_types": [
+      "CPDs (cyclobutane pyrimidine dimers)",
+      "6-4 photoproducts",
+      "8-oxo-guanine (oxidative damage)",
+      "Single-strand breaks",
+      "Double-strand breaks"
+    ],
+    "repair_mechanisms": [
+      "Nucleotide excision repair (NER) - UV damage",
+      "Base excision repair (BER) - oxidative damage",
+      "Homologous recombination (HR)",
+      "Non-homologous end joining (NHEJ)"
+    ],
+    "consequences_of_failure": [
+      "Mutations (p53, PTCH, RAS)",
+      "Photoaging",
+      "Skin cancer (SCC, BCC, melanoma)",
+      "Immunosuppression"
+    ],
+    "evidence_level": "A",
+    "source_citations": [
+      "lifestyle-skin.md: Section 3 (UV → DNA damage)",
+      "clinical-guidelines.md: Skin cancer screening"
+    ]
+  }
+]

@@ -1,0 +1,4975 @@
+{
+  "conditions": [
+    {
+      "id": "acne-vulgaris",
+      "name": "Acne Vulgaris",
+      "slug": "acne-vulgaris",
+      "icd10": "L70.9",
+      "description": "Chronic inflammatory disease of the pilosebaceous unit affecting 85% of adolescents and 15% of adults. Characterized by comedones, papules, pustules, nodules, cysts, and potential scarring.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe",
+        "nodulocystic"
+      ],
+      "affectedZones": [
+        "t-zone",
+        "cheeks",
+        "chin",
+        "forehead",
+        "nose",
+        "jawline",
+        "chest",
+        "back"
+      ],
+      "features": [
+        "comedones",
+        "papules",
+        "pustules",
+        "nodules",
+        "cysts",
+        "scarring",
+        "post-inflammatory hyperpigmentation"
+      ],
+      "fitzpatrickNotes": "Post-inflammatory hyperpigmentation (PIH) more common in Fitzpatrick III-VI; scarring risk higher in V-VI. Nodulocystic acne more common in SOC.",
+      "rootCauses": [
+        {
+          "cause": "Follicular hyperkeratinization",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Abnormal desquamation of keratinocytes leading to microcomedone formation"
+        },
+        {
+          "cause": "Increased sebum production",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Androgen-driven sebaceous gland hyperplasia; DHT is primary mediator"
+        },
+        {
+          "cause": "C. acnes colonization",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "IA1 phylotype triggers inflammatory cascade via TLR2/TLR4"
+        },
+        {
+          "cause": "Inflammation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Innate immune response to C. acnes and biofilm formation"
+        },
+        {
+          "cause": "High glycemic diet",
+          "domain": "nutrition",
+          "evidence": "moderate",
+          "description": "High glycemic load increases IGF-1, stimulating sebum production"
+        },
+        {
+          "cause": "Gut dysbiosis",
+          "domain": "gut",
+          "evidence": "emerging",
+          "description": "Gut-skin axis; dysbiosis may drive systemic inflammation"
+        },
+        {
+          "cause": "Insulin resistance",
+          "domain": "hormones",
+          "evidence": "moderate",
+          "description": "Hyperinsulinemia increases androgens and IGF-1"
+        },
+        {
+          "cause": "Chronic stress",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "CRH/ACTH axis increases cortisol and androgens, stimulating sebum"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Benzoyl peroxide 2.5-5%",
+            "description": "Antimicrobial and comedolytic; first-line for mild-moderate acne",
+            "evidence": "strong"
+          },
+          {
+            "name": "Topical retinoids (adapalene, tretinoin)",
+            "description": "Normalize desquamation, reduce comedones; cornerstone of acne therapy",
+            "evidence": "strong"
+          },
+          {
+            "name": "Salicylic acid (BHA)",
+            "description": "Keratolytic and anti-inflammatory; good for comedonal acne",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Azelaic acid 15-20%",
+            "description": "Anti-inflammatory and anti-comedonal; safe for pregnancy; benefits PIH in darker skin",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Zinc picolinate 25-30mg",
+            "description": "Inhibits 5-alpha reductase, anti-inflammatory; pair with copper 2-3mg",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Omega-3 (EPA/DHA 1000-2000mg)",
+            "description": "Anti-inflammatory; reduces PGE2 and LTB4; improves insulin sensitivity",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Vitamin D3 2000-4000 IU",
+            "description": "Deficiency common in acne; immune modulation; check 25(OH)D levels",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist referral",
+            "description": "For moderate-severe acne, nodulocystic acne, or acne not responding to OTC treatment",
+            "evidence": "strong"
+          },
+          {
+            "name": "Endocrinologist referral",
+            "description": "If hormonal acne suspected (jawline distribution, menstrual flares, hirsutism)",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Comprehensive hormone panel",
+            "description": "DUTCH test for hormonal acne; checks DHEA-S, testosterone, cortisol, estrogen metabolites",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Gut microbiome test",
+            "description": "GI-MAP or similar; identifies dysbiosis contributing to systemic inflammation",
+            "evidence": "emerging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hormonal-acne",
+      "name": "Hormonal Acne",
+      "slug": "hormonal-acne",
+      "icd10": "L70.9",
+      "description": "Acne driven by hormonal fluctuations, particularly androgens, DHEA-S, and hormonal changes during menstrual cycle, pregnancy, or menopause. Often presents as deep, painful cysts along jawline, chin, and neck.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "jawline",
+        "chin",
+        "neck",
+        "cheeks"
+      ],
+      "features": [
+        "deep cysts",
+        "nodules",
+        "painful lesions",
+        "menstrual flares",
+        "hirsutism"
+      ],
+      "fitzpatrickNotes": "Higher PIH risk in darker skin; may coexist with melasma in Fitzpatrick IV-VI",
+      "rootCauses": [
+        {
+          "cause": "Androgen excess",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "DHEA-S, testosterone, DHT drive sebum production"
+        },
+        {
+          "cause": "Estrogen fluctuations",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Mid-cycle and premenstrual estrogen drops worsen acne"
+        },
+        {
+          "cause": "Insulin resistance",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "PCOS-related; increases androgens and IGF-1"
+        },
+        {
+          "cause": "Cortisol dysregulation",
+          "domain": "hormones",
+          "evidence": "moderate",
+          "description": "Stress increases cortisol which increases androgens"
+        },
+        {
+          "cause": "Gut dysbiosis",
+          "domain": "gut",
+          "evidence": "emerging",
+          "description": "Estrobolome dysfunction affects estrogen metabolism"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Azelaic acid 20%",
+            "description": "Anti-inflammatory; blocks androgen receptors in sebaceous glands",
+            "evidence": "strong"
+          },
+          {
+            "name": "Spironolactone (prescription)",
+            "description": "Androgen receptor blocker; first-line for hormonal acne in women",
+            "evidence": "strong"
+          },
+          {
+            "name": "Topical retinoids",
+            "description": "Normalize follicular keratinization",
+            "evidence": "strong"
+          },
+          {
+            "name": "Niacinamide 4-5%",
+            "description": "Anti-inflammatory; regulates sebum",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Spearmint tea",
+            "description": "Anti-androgen properties; 2 cups daily showed reduction in free testosterone",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Zinc 25-30mg",
+            "description": "Inhibits 5-alpha reductase; reduces androgen-driven sebum",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Inositol (myo-inositol)",
+            "description": "Improves insulin sensitivity; especially beneficial for PCOS-related acne",
+            "evidence": "moderate"
+          },
+          {
+            "name": "DIM (diindolylmethane)",
+            "description": "Promotes estrogen metabolism toward beneficial 2-hydroxyestrone pathway",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For prescription spironolactone, hormonal acne management",
+            "evidence": "strong"
+          },
+          {
+            "name": "Endocrinologist or OB/GYN",
+            "description": "For PCOS evaluation, hormonal testing, birth control options",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "DUTCH Complete hormone panel",
+            "description": "Comprehensive assessment of cortisol, DHEA-S, testosterone, estrogen metabolites, progesterone",
+            "evidence": "strong"
+          },
+          {
+            "name": "Fasting insulin and glucose",
+            "description": "Assess insulin resistance as driver of androgen excess",
+            "evidence": "strong"
+          },
+          {
+            "name": "Thyroid panel",
+            "description": "Rule out thyroid dysfunction affecting hormones",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "acne-mechanica",
+      "name": "Acne Mechanica",
+      "slug": "acne-mechanica",
+      "icd10": "L70.9",
+      "description": "Acne triggered by friction, pressure, heat, or occlusion from clothing, equipment, or physical contact. Common in athletes, mask-wearers, and people with occupations requiring helmets or tight gear.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "forehead",
+        "cheeks",
+        "chin",
+        "chest",
+        "back"
+      ],
+      "features": [
+        "comedones",
+        "papules",
+        "pustules",
+        "friction-induced lesions"
+      ],
+      "fitzpatrickNotes": "PIH risk in darker skin from friction and inflammation",
+      "rootCauses": [
+        {
+          "cause": "Mechanical friction",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Physical irritation disrupts follicular epithelium"
+        },
+        {
+          "cause": "Heat and occlusion",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Traps sweat and sebum, promoting bacterial growth"
+        },
+        {
+          "cause": "Pressure",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Compresses follicles and increases inflammation"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Benzoyl peroxide 2.5-5%",
+            "description": "Antimicrobial; reduces C. acnes on occluded skin",
+            "evidence": "strong"
+          },
+          {
+            "name": "Salicylic acid cleanser",
+            "description": "Keratolytic; prevents follicular plugging from occlusion",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Niacinamide 4-5%",
+            "description": "Anti-inflammatory; strengthens barrier against friction",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Zinc 15-25mg",
+            "description": "Anti-inflammatory; supports healing",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "If not improving with behavioral modifications and OTC treatment",
+            "evidence": "moderate"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "fungal-acne",
+      "name": "Fungal Acne (Malassezia Folliculitis)",
+      "slug": "fungal-acne",
+      "icd10": "B36.0",
+      "description": "Folliculitis caused by Malassezia yeast overgrowth, often misdiagnosed as acne vulgaris. Presents as monomorphic papules and pustules, typically on chest, back, and forehead.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "forehead",
+        "chest",
+        "back",
+        "upper-arms"
+      ],
+      "features": [
+        "monomorphic papules",
+        "pruritus",
+        "triggered by heat/sweat",
+        "worsens with antibiotics"
+      ],
+      "fitzpatrickNotes": "PIH risk in darker skin from inflammation; misdiagnosis common",
+      "rootCauses": [
+        {
+          "cause": "Malassezia overgrowth",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Lipophilic yeast thrives in sebum-rich environments"
+        },
+        {
+          "cause": "Heat and humidity",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Promotes yeast proliferation"
+        },
+        {
+          "cause": "Antibiotic use",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Disrupts bacterial balance, allowing yeast overgrowth"
+        },
+        {
+          "cause": "Immunosuppression",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Reduced immune control of commensal yeast"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ketoconazole 2% shampoo",
+            "description": "Antifungal; use as body wash on affected areas",
+            "evidence": "strong"
+          },
+          {
+            "name": "Nizoral (ketoconazole) cream",
+            "description": "Topical antifungal for facial lesions",
+            "evidence": "strong"
+          },
+          {
+            "name": "Zinc pyrithione shampoo",
+            "description": "Antifungal; adjunctive treatment",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Selenium sulfide shampoo",
+            "description": "Antifungal; alternative to ketoconazole",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Probiotics",
+            "description": "Support microbiome balance",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For oral antifungal (fluconazole/itraconazole) if topical fails",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Gut microbiome assessment",
+            "description": "Systemic fungal overgrowth may contribute",
+            "evidence": "emerging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "steroid-acne",
+      "name": "Steroid Acne",
+      "slug": "steroid-acne",
+      "icd10": "L70.8",
+      "description": "Acneiform eruption caused by systemic corticosteroids, anabolic steroids, or topical steroid overuse. Presents as sudden onset of monomorphic inflammatory papules.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "chest",
+        "back",
+        "shoulders",
+        "face"
+      ],
+      "features": [
+        "monomorphic papules",
+        "sudden onset",
+        "uniform lesions",
+        "comedones rare"
+      ],
+      "fitzpatrickNotes": "PIH risk in darker skin; steroid-induced atrophy also a concern",
+      "rootCauses": [
+        {
+          "cause": "Systemic corticosteroids",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Prednisone and similar trigger sebaceous hyperplasia"
+        },
+        {
+          "cause": "Anabolic steroids",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Exogenous androgens increase sebum production"
+        },
+        {
+          "cause": "Topical steroid overuse",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Perioral and facial acneiform eruption"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Benzoyl peroxide 2.5%",
+            "description": "Gentle antimicrobial for steroid-induced lesions",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Topical retinoids",
+            "description": "Normalize follicular keratinization",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Niacinamide 4-5%",
+            "description": "Anti-inflammatory; barrier support",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3",
+            "description": "Anti-inflammatory support",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "Essential for diagnosis and management; may need to adjust steroid regimen",
+            "evidence": "strong"
+          },
+          {
+            "name": "Prescribing physician",
+            "description": "Discuss steroid taper or alternatives",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "rosacea",
+      "name": "Rosacea",
+      "slug": "rosacea",
+      "icd10": "L71.9",
+      "description": "Chronic inflammatory skin condition characterized by facial erythema, papules, pustules, and telangiectasias. Triggers include heat, alcohol, spicy foods, and stress.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "cheeks",
+        "nose",
+        "chin",
+        "forehead"
+      ],
+      "features": [
+        "persistent erythema",
+        "papules",
+        "pustules",
+        "telangiectasias",
+        "flushing",
+        "burning sensation"
+      ],
+      "fitzpatrickNotes": "Underdiagnosed in darker skin; erythema may appear as brown or violaceous discoloration; burning/stinging sensation is key diagnostic clue",
+      "rootCauses": [
+        {
+          "cause": "Neurovascular dysregulation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Abnormal blood vessel reactivity and inflammation"
+        },
+        {
+          "cause": "Demodex mite overgrowth",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Demodex folliculorum density higher in rosacea patients"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Family history common; Celtic/Northern European ancestry"
+        },
+        {
+          "cause": "UV damage",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Chronic sun exposure damages vessels and skin"
+        },
+        {
+          "cause": "Gut dysbiosis",
+          "domain": "gut",
+          "evidence": "emerging",
+          "description": "H. pylori and SIBO associations reported"
+        },
+        {
+          "cause": "Chronic stress",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Stress triggers flushing and neurogenic inflammation"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Azelaic acid 15-20%",
+            "description": "FDA-approved for rosacea; anti-inflammatory",
+            "evidence": "strong"
+          },
+          {
+            "name": "Metronidazole 0.75% gel",
+            "description": "First-line topical for papulopustular rosacea",
+            "evidence": "strong"
+          },
+          {
+            "name": "Ivermectin 1% cream",
+            "description": "Targets Demodex mites and inflammation",
+            "evidence": "strong"
+          },
+          {
+            "name": "Niacinamide 4-5%",
+            "description": "Anti-inflammatory; strengthens barrier",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Green tea extract (EGCG)",
+            "description": "Antioxidant; reduces redness",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3 (EPA/DHA)",
+            "description": "Anti-inflammatory; reduces flushing",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Zinc 15-25mg",
+            "description": "Anti-inflammatory support",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Probiotics",
+            "description": "Gut-skin axis support",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For oral antibiotics (doxycycline, minocycline) or isotretinoin for severe cases",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Gut microbiome test",
+            "description": "Assess for SIBO, dysbiosis linked to rosacea",
+            "evidence": "emerging"
+          },
+          {
+            "name": "Food sensitivity testing",
+            "description": "Identify trigger foods",
+            "evidence": "emerging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "atopic-dermatitis",
+      "name": "Atopic Dermatitis (Eczema)",
+      "slug": "atopic-dermatitis",
+      "icd10": "L20.9",
+      "description": "Chronic, relapsing inflammatory skin condition characterized by pruritus, erythema, and barrier dysfunction. Often associated with asthma and allergic rhinitis (atopic triad).",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "face",
+        "neck",
+        "antecubital-folds",
+        "popliteal-folds",
+        "hands",
+        "wrists"
+      ],
+      "features": [
+        "pruritus",
+        "erythema",
+        "xerosis",
+        "lichenification",
+        "excoriations",
+        "crusting"
+      ],
+      "fitzpatrickNotes": "In darker skin, appears as violaceous, gray, or dark brown patches; lichenification more prominent; follicular prominence common",
+      "rootCauses": [
+        {
+          "cause": "Barrier dysfunction",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Filaggrin mutations; ceramide deficiency; increased TEWL"
+        },
+        {
+          "cause": "Th2 immune dysregulation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "IL-4, IL-5, IL-13 drive inflammation and pruritus"
+        },
+        {
+          "cause": "Environmental allergens",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Dust mites, pollen, pet dander trigger flares"
+        },
+        {
+          "cause": "Microbiome dysbiosis",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "S. aureus overgrowth; reduced microbial diversity"
+        },
+        {
+          "cause": "Gut dysbiosis",
+          "domain": "gut",
+          "evidence": "moderate",
+          "description": "Leaky gut may increase systemic inflammation"
+        },
+        {
+          "cause": "Stress",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Stress worsens symptoms via HPA axis and immune modulation"
+        },
+        {
+          "cause": "Food triggers",
+          "domain": "nutrition",
+          "evidence": "moderate",
+          "description": "Dairy, eggs, wheat, soy in some patients"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ceramide-rich moisturizers",
+            "description": "Restore barrier; 2:4:2 cholesterol:ceramides:fatty acids ratio optimal",
+            "evidence": "strong"
+          },
+          {
+            "name": "Colloidal oatmeal",
+            "description": "Anti-inflammatory; soothes pruritus",
+            "evidence": "strong"
+          },
+          {
+            "name": "Topical corticosteroids",
+            "description": "Anti-inflammatory; use appropriate potency for body area",
+            "evidence": "strong"
+          },
+          {
+            "name": "Calcineurin inhibitors",
+            "description": "Tacrolimus/pimecrolimus; steroid-sparing for face and folds",
+            "evidence": "strong"
+          },
+          {
+            "name": "Crisaborole 2%",
+            "description": "PDE4 inhibitor; non-steroidal anti-inflammatory",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Vitamin D3",
+            "description": "Deficiency common in eczema; immune modulation",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Omega-3 (EPA/DHA)",
+            "description": "Anti-inflammatory; reduces Th2 response",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Probiotics (Lactobacillus, Bifidobacterium)",
+            "description": "Support gut and skin microbiome",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Quercetin",
+            "description": "Natural mast cell stabilizer; antihistamine properties",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For moderate-severe disease; prescription topicals; phototherapy",
+            "evidence": "strong"
+          },
+          {
+            "name": "Allergist",
+            "description": "For patch testing, food allergy evaluation",
+            "evidence": "moderate"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Gut microbiome analysis",
+            "description": "Assess dysbiosis and leaky gut markers",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Food sensitivity panel",
+            "description": "IgG-mediated food sensitivities",
+            "evidence": "emerging"
+          },
+          {
+            "name": "Vitamin D level",
+            "description": "Check 25(OH)D status",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "contact-dermatitis",
+      "name": "Contact Dermatitis",
+      "slug": "contact-dermatitis",
+      "icd10": "L25.9",
+      "description": "Inflammatory skin reaction caused by contact with irritants or allergens. Divided into irritant contact dermatitis (80% of cases) and allergic contact dermatitis (20%).",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "hands",
+        "face",
+        "neck",
+        "exposed-areas"
+      ],
+      "features": [
+        "erythema",
+        "vesicles",
+        "pruritus",
+        "burning",
+        "edema",
+        "distribution-matching-exposure"
+      ],
+      "fitzpatrickNotes": "In darker skin, erythema may not be visible; look for edema, warmth, and distribution pattern; PIH common after resolution",
+      "rootCauses": [
+        {
+          "cause": "Irritant exposure",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Detergents, solvents, acids, alkalis directly damage skin"
+        },
+        {
+          "cause": "Allergic sensitization",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Type IV hypersensitivity to specific allergens"
+        },
+        {
+          "cause": "Barrier dysfunction",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Impaired barrier allows penetration of irritants/allergens"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Barrier repair moisturizers",
+            "description": "Ceramides, cholesterol, fatty acids to restore barrier",
+            "evidence": "strong"
+          },
+          {
+            "name": "Topical corticosteroids",
+            "description": "Anti-inflammatory for acute flares",
+            "evidence": "strong"
+          },
+          {
+            "name": "Calcineurin inhibitors",
+            "description": "Steroid-sparing for face and chronic cases",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Vitamin C",
+            "description": "Supports barrier repair and antioxidant defense",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For patch testing, severe cases, occupational dermatitis",
+            "evidence": "strong"
+          },
+          {
+            "name": "Allergist",
+            "description": "For comprehensive allergy testing",
+            "evidence": "moderate"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "seborrheic-dermatitis",
+      "name": "Seborrheic Dermatitis",
+      "slug": "seborrheic-dermatitis",
+      "icd10": "L21.9",
+      "description": "Chronic, relapsing inflammatory condition affecting sebum-rich areas (scalp, face, chest). Associated with Malassezia yeast overgrowth and immune response.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "scalp",
+        "eyebrows",
+        "nasolabial-folds",
+        "chest",
+        "ears"
+      ],
+      "features": [
+        "erythema",
+        "greasy-scales",
+        "pruritus",
+        "dandruff"
+      ],
+      "fitzpatrickNotes": "In darker skin, erythema may appear as darker brown or violaceous patches; hypopigmentation common post-treatment; SD can be misdiagnosed as tinea versicolor",
+      "rootCauses": [
+        {
+          "cause": "Malassezia overgrowth",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Lipophilic yeast colonizes sebum-rich areas"
+        },
+        {
+          "cause": "Sebaceous gland activity",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Androgen-driven sebum production feeds yeast"
+        },
+        {
+          "cause": "Immune response",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Individual susceptibility to Malassezia antigens"
+        },
+        {
+          "cause": "Neurological conditions",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Parkinson's disease increases risk"
+        },
+        {
+          "cause": "Stress",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Psychological stress exacerbates symptoms"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ketoconazole 2% shampoo",
+            "description": "Antifungal; first-line for scalp",
+            "evidence": "strong"
+          },
+          {
+            "name": "Ketoconazole 2% cream",
+            "description": "For facial and body lesions",
+            "evidence": "strong"
+          },
+          {
+            "name": "Zinc pyrithione shampoy",
+            "description": "Antifungal; alternative to ketoconazole",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Selenium sulfide shampoo",
+            "description": "Antifungal; reduces yeast burden",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Topical corticosteroids",
+            "description": "For acute inflammation; short courses",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3",
+            "description": "Anti-inflammatory support",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Biotin",
+            "description": "Supports skin health",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For severe or refractory cases; oral antifungals may be needed",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Gut microbiome assessment",
+            "description": "Systemic yeast overgrowth may contribute",
+            "evidence": "emerging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "psoriasis",
+      "name": "Psoriasis",
+      "slug": "psoriasis",
+      "icd10": "L40.9",
+      "description": "Chronic, immune-mediated inflammatory disease characterized by well-demarcated erythematous plaques with silvery scale. Associated with significant comorbidities including psoriatic arthritis and cardiovascular disease.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "elbows",
+        "knees",
+        "scalp",
+        "lumbosacral",
+        "nails",
+        "trunk"
+      ],
+      "features": [
+        "well-demarcated plaques",
+        "silvery-scale",
+        "auspitz-sign",
+        "koebner-phenomenon",
+        "nail-changes",
+        "pruritus"
+      ],
+      "fitzpatrickNotes": "In darker skin, plaques appear violaceous, purple, or dark brown; erythema less visible; dyspigmentation can be more distressing than plaques; underdiagnosed due to atypical color",
+      "rootCauses": [
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "30% family history; PSORS1 locus (HLA-Cw6) major susceptibility"
+        },
+        {
+          "cause": "Th1/Th17 immune dysregulation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "TNF-α, IL-17, IL-23 are key cytokines"
+        },
+        {
+          "cause": "Environmental triggers",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Infection, trauma, stress, medications"
+        },
+        {
+          "cause": "Gut dysbiosis",
+          "domain": "gut",
+          "evidence": "emerging",
+          "description": "Leaky gut, SIBO, and dysbiosis linked to psoriasis"
+        },
+        {
+          "cause": "Obesity/metabolic syndrome",
+          "domain": "nutrition",
+          "evidence": "strong",
+          "description": "Adipokines promote inflammation; weight loss improves severity"
+        },
+        {
+          "cause": "Alcohol and smoking",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Exacerbate psoriasis and reduce treatment response"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Topical corticosteroids",
+            "description": "Anti-inflammatory; potency by body area",
+            "evidence": "strong"
+          },
+          {
+            "name": "Calcipotriene (Dovonex)",
+            "description": "Vitamin D analog; steroid-sparing",
+            "evidence": "strong"
+          },
+          {
+            "name": "Calcipotriene + Betamethasone (Taclonex)",
+            "description": "Fixed combination; more effective",
+            "evidence": "strong"
+          },
+          {
+            "name": "Coal tar",
+            "description": "Antiproliferative; reduces scaling",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Salicylic acid",
+            "description": "Keratolytic; removes scale",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Vitamin D3",
+            "description": "Deficiency common; immune modulation",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Omega-3 (EPA/DHA)",
+            "description": "Anti-inflammatory; reduces disease severity",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Curcumin",
+            "description": "Anti-inflammatory; Th17 modulation",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Probiotics",
+            "description": "Support gut-skin axis",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "Essential; phototherapy, systemic medications, biologics",
+            "evidence": "strong"
+          },
+          {
+            "name": "Rheumatologist",
+            "description": "If psoriatic arthritis present",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Comprehensive metabolic panel",
+            "description": "Assess metabolic syndrome, liver function before systemic therapy",
+            "evidence": "strong"
+          },
+          {
+            "name": "Gut microbiome test",
+            "description": "Identify dysbiosis contributing to inflammation",
+            "evidence": "emerging"
+          },
+          {
+            "name": "Food sensitivity panel",
+            "description": "Identify dietary triggers",
+            "evidence": "emerging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "melasma",
+      "name": "Melasma",
+      "slug": "melasma",
+      "icd10": "L81.1",
+      "description": "Acquired hyperpigmentation characterized by symmetric, blotchy brown patches on face. Triggered by UV exposure, hormonal factors, and genetic predisposition.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "cheeks",
+        "forehead",
+        "upper-lip",
+        "nose",
+        "chin"
+      ],
+      "features": [
+        "symmetric patches",
+        "brown to gray-brown color",
+        "centrofacial/malar/mandibular patterns",
+        "worsens with sun"
+      ],
+      "fitzpatrickNotes": "Higher prevalence in Fitzpatrick IV-VI; post-inflammatory hyperpigmentation risk with aggressive treatments; visible light contributes to pigmentation in darker skin",
+      "rootCauses": [
+        {
+          "cause": "UV radiation",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Stimulates melanocyte activity"
+        },
+        {
+          "cause": "Hormonal factors",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Estrogen, progesterone; pregnancy, OCPs, HRT"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Family history common; darker skin types"
+        },
+        {
+          "cause": "Visible light",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Contributes to pigmentation in darker skin"
+        },
+        {
+          "cause": "Thyroid disease",
+          "domain": "hormones",
+          "evidence": "moderate",
+          "description": "Autoimmune thyroid disease association"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Hydroquinone 2-4%",
+            "description": "Gold standard; limit to 3-4 months, then maintenance",
+            "evidence": "strong"
+          },
+          {
+            "name": "Azelaic acid 20%",
+            "description": "Safe for long-term; effective for darker skin",
+            "evidence": "strong"
+          },
+          {
+            "name": "Tranexamic acid 2-5%",
+            "description": "Topical; emerging gold standard for melasma",
+            "evidence": "strong"
+          },
+          {
+            "name": "Vitamin C 10-20%",
+            "description": "Antioxidant; tyrosinase inhibition",
+            "evidence": "strong"
+          },
+          {
+            "name": "Niacinamide 4-5%",
+            "description": "Melanosome transfer inhibition",
+            "evidence": "strong"
+          },
+          {
+            "name": "Tretinoin 0.025-0.1%",
+            "description": "Increases cell turnover; enhances penetration of lightening agents",
+            "evidence": "strong"
+          },
+          {
+            "name": "Triple combination cream",
+            "description": "HQ + tretinoin + steroid; fastest results",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Oral tranexamic acid",
+            "description": "250mg 2x daily; prescription; significant improvement",
+            "evidence": "strong"
+          },
+          {
+            "name": "Polypodium leucotomos",
+            "description": "Oral photoprotectant; reduces UV-induced pigmentation",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Vitamin C",
+            "description": "Antioxidant support",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For prescription options, chemical peels, laser (conservative in dark skin)",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Hormone panel",
+            "description": "Assess estrogen, progesterone, thyroid function",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Thyroid testing",
+            "description": "TSH, free T4 to rule out thyroid dysfunction",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post-inflammatory-hyperpigmentation",
+      "name": "Post-Inflammatory Hyperpigmentation (PIH)",
+      "slug": "post-inflammatory-hyperpigmentation",
+      "icd10": "L81.8",
+      "description": "Acquired hyperpigmentation following cutaneous inflammation or injury. Represents melanin overproduction or incontinence in response to inflammatory mediators.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "face",
+        "neck",
+        "chest",
+        "back",
+        "any-previously-inflamed-area"
+      ],
+      "features": [
+        "tan to dark brown patches",
+        "gray-blue if dermal",
+        "follows-pattern-of-inflammation",
+        "no-active-inflammation"
+      ],
+      "fitzpatrickNotes": "Much more common and severe in Fitzpatrick IV-VI; prevention is paramount; PIH often more distressing than original condition in darker skin",
+      "rootCauses": [
+        {
+          "cause": "Inflammatory mediator release",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "IL-1, TNF-α, GM-CSF stimulate melanocytes"
+        },
+        {
+          "cause": "Melanocyte activation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Inflammation triggers melanin production"
+        },
+        {
+          "cause": "UV exposure",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Post-inflammatory skin is photosensitive; UV worsens PIH"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Fitzpatrick III-VI at much higher risk"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Azelaic acid 15-20%",
+            "description": "Anti-inflammatory; tyrosinase inhibition; safe long-term",
+            "evidence": "strong"
+          },
+          {
+            "name": "Niacinamide 2-5%",
+            "description": "Melanosome transfer inhibition; anti-inflammatory",
+            "evidence": "strong"
+          },
+          {
+            "name": "Vitamin C 10-20%",
+            "description": "Antioxidant; tyrosinase inhibition; photoprotection",
+            "evidence": "strong"
+          },
+          {
+            "name": "Hydroquinone 2-4%",
+            "description": "Gold standard; 8-12 weeks; limit duration",
+            "evidence": "strong"
+          },
+          {
+            "name": "Retinoids",
+            "description": "Increase cell turnover; prevent new acne that causes PIH",
+            "evidence": "strong"
+          },
+          {
+            "name": "Tranexamic acid 2-5%",
+            "description": "Topical; inhibits plasminogen; effective for PIH",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Vitamin C",
+            "description": "Antioxidant; supports melanin normalization",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Zinc",
+            "description": "Anti-inflammatory; supports healing",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For persistent PIH; chemical peels (conservative), laser (Q-switched Nd:YAG in dark skin)",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "solar-lentigines",
+      "name": "Solar Lentigines",
+      "slug": "solar-lentigines",
+      "icd10": "L81.4",
+      "description": "Benign hyperpigmented macules caused by chronic UV exposure. Represent localized melanocyte proliferation with increased melanin deposition.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "face",
+        "dorsal-hands",
+        "forearms",
+        "chest",
+        "shoulders"
+      ],
+      "features": [
+        "well-circumscribed macules",
+        "light to dark brown",
+        "sun-exposed areas",
+        "typically >40 years"
+      ],
+      "fitzpatrickNotes": "Higher prevalence in Fitzpatrick I-III; in darker skin, may present as darker brown or gray-brown patches; higher PIH risk from procedures",
+      "rootCauses": [
+        {
+          "cause": "Chronic UV exposure",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Cumulative sun damage; UVA primarily responsible"
+        },
+        {
+          "cause": "Melanocyte proliferation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Increased melanocyte number and melanin"
+        },
+        {
+          "cause": "DNA damage",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "UV-induced p53 mutations in keratinocytes"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Hydroquinone 2-4%",
+            "description": "First-line; 8-12 weeks",
+            "evidence": "strong"
+          },
+          {
+            "name": "Tretinoin 0.05-0.1%",
+            "description": "Increases cell turnover; used with HQ",
+            "evidence": "strong"
+          },
+          {
+            "name": "Azelaic acid 20%",
+            "description": "Alternative to HQ; safer for long-term",
+            "evidence": "strong"
+          },
+          {
+            "name": "Vitamin C 10-20%",
+            "description": "Antioxidant; mild lightening",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Polypodium leucotomos",
+            "description": "Oral photoprotectant",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For Q-switched laser (Nd:YAG 1064nm for dark skin), IPL, cryotherapy",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "vitiligo",
+      "name": "Vitiligo",
+      "slug": "vitiligo",
+      "icd10": "L80",
+      "description": "Autoimmune destruction of melanocytes resulting in depigmented (white) macules and patches. Associated with other autoimmune conditions.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "face",
+        "hands",
+        "feet",
+        "extremities",
+        "any-area"
+      ],
+      "features": [
+        "depigmented macules/patches",
+        "well-demarcated",
+        "symmetrical",
+        "wood-lamp enhancement"
+      ],
+      "fitzpatrickNotes": "More psychologically distressing in darker skin due to higher contrast; phototherapy may be less effective in very dark skin; camouflage options important",
+      "rootCauses": [
+        {
+          "cause": "Autoimmune destruction",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "CD8+ T-cells target melanocytes"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Polygenic; 30% family history"
+        },
+        {
+          "cause": "Oxidative stress",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Excessive H2O2 in epidermis; defective catalase"
+        },
+        {
+          "cause": "Thyroid disease",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "20-30% have autoimmune thyroid dysfunction"
+        },
+        {
+          "cause": "Koebner phenomenon",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Trauma initiates new lesions"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Tacrolimus 0.1% / Pimecrolimus 1%",
+            "description": "Calcineurin inhibitors; T-cell suppression; face and folds",
+            "evidence": "strong"
+          },
+          {
+            "name": "Mid-potency corticosteroids",
+            "description": "Anti-inflammatory; limited areas; 2-3 months max",
+            "evidence": "strong"
+          },
+          {
+            "name": "Ruxolitinib 1.5% cream",
+            "description": "Topical JAK inhibitor; FDA-approved 2022",
+            "evidence": "strong"
+          },
+          {
+            "name": "Vitamin D analogs",
+            "description": "Calcipotriene; immunomodulatory",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Polypodium leucotomos",
+            "description": "Oral photoprotectant; may enhance repigmentation",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "Essential for phototherapy, systemic therapy, surgical options",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Thyroid screening",
+            "description": "TSH testing; 20-30% have thyroid disease",
+            "evidence": "strong"
+          },
+          {
+            "name": "Autoimmune panel",
+            "description": "B12, fasting glucose, ANA if indicated",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "actinic-keratosis",
+      "name": "Actinic Keratosis",
+      "slug": "actinic-keratosis",
+      "icd10": "L57.0",
+      "description": "Pre-malignant lesion caused by chronic UV exposure. Intraepidermal keratinocyte dysplasia with potential to progress to squamous cell carcinoma.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "face",
+        "scalp",
+        "dorsal-hands",
+        "forearms",
+        "chest",
+        "shoulders"
+      ],
+      "features": [
+        "rough scaly patches",
+        "skin-colored to red",
+        "palpable roughness",
+        "sun-exposed areas"
+      ],
+      "fitzpatrickNotes": "Higher prevalence in Fitzpatrick I-III; in darker skin, may present as darker hyperpigmented lesions; still requires sun protection",
+      "rootCauses": [
+        {
+          "cause": "Chronic UV exposure",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Cumulative DNA damage to keratinocytes"
+        },
+        {
+          "cause": "Immunosuppression",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Organ transplant recipients at very high risk"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Fair skin, family history"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Fluorouracil 5% cream",
+            "description": "Chemotherapy cream; destroys AK cells",
+            "evidence": "strong"
+          },
+          {
+            "name": "Imiquimod 5% cream",
+            "description": "Immune response modifier",
+            "evidence": "strong"
+          },
+          {
+            "name": "Diclofenac 3% gel",
+            "description": "NSAID; milder option",
+            "evidence": "strong"
+          },
+          {
+            "name": "Tirbanibulin 1% ointment",
+            "description": "New; 5-day treatment course",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Vitamin D",
+            "description": "Deficiency common; immune modulation",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "Essential for diagnosis and treatment; cryotherapy, photodynamic therapy, biopsy if suspicious",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "skin-cancer-melanoma",
+      "name": "Skin Cancer (Melanoma)",
+      "slug": "skin-cancer-melanoma",
+      "icd10": "C43",
+      "description": "Malignant tumor of melanocytes. Most aggressive form of skin cancer with high metastatic potential. Early detection is critical.",
+      "severity": [
+        "early",
+        "localized",
+        "metastatic"
+      ],
+      "affectedZones": [
+        "any-skin-area",
+        "palms",
+        "soles",
+        "nail-beds",
+        "mucous-membranes"
+      ],
+      "features": [
+        "asymmetry",
+        "border-irritation",
+        "color-variation",
+        "diameter >6mm",
+        "evolution",
+        "ugly-duckling-sign"
+      ],
+      "fitzpatrickNotes": "In darker skin, melanoma often appears on palms, soles, nail beds, and mucous membranes (acral lentiginous melanoma); lower survival rates due to delayed diagnosis",
+      "rootCauses": [
+        {
+          "cause": "UV radiation",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Primary cause for most melanoma types"
+        },
+        {
+          "cause": "Genetic mutations",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "BRAF, NRAS, CDKN2A mutations"
+        },
+        {
+          "cause": "Family history",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "10% have familial melanoma"
+        },
+        {
+          "cause": "Many nevi",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": ">50 common nevi increases risk"
+        },
+        {
+          "cause": "Immunosuppression",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Organ transplant recipients at higher risk"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Broad-spectrum sunscreen SPF 30+",
+            "description": "Daily photoprotection; prevention",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Vitamin D",
+            "description": "Maintain adequate levels",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist - URGENT",
+            "description": "Immediate referral for biopsy and treatment",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "perioral-dermatitis",
+      "name": "Perioral Dermatitis",
+      "slug": "perioral-dermatitis",
+      "icd10": "L71.0",
+      "description": "Inflammatory eruption around mouth, nose, and eyes. Often triggered by topical steroids, fluoride toothpaste, or cosmetic products.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "perioral",
+        "nasolabial-folds",
+        "periorbital"
+      ],
+      "features": [
+        "erythematous papules",
+        "pustules",
+        "scaling",
+        "burning sensation",
+        "spares-vermilion-border"
+      ],
+      "fitzpatrickNotes": "In darker skin, erythema may appear as darker brown or gray patches; post-inflammatory hyperpigmentation common",
+      "rootCauses": [
+        {
+          "cause": "Topical steroid overuse",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Most common trigger; especially potent steroids on face"
+        },
+        {
+          "cause": "Fluoride toothpaste",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Can trigger or exacerbate"
+        },
+        {
+          "cause": "Cosmetics",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Heavy moisturizers, occlusive products"
+        },
+        {
+          "cause": "Hormonal factors",
+          "domain": "hormones",
+          "evidence": "moderate",
+          "description": "More common in women"
+        },
+        {
+          "cause": "Microbiome dysbiosis",
+          "domain": "skin",
+          "evidence": "emerging",
+          "description": "C. acnes and Demodex implicated"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Discontinue topical steroids",
+            "description": "Gradual taper; steroid withdrawal may worsen initially",
+            "evidence": "strong"
+          },
+          {
+            "name": "Azelaic acid 15-20%",
+            "description": "Anti-inflammatory; antimicrobial",
+            "evidence": "strong"
+          },
+          {
+            "name": "Metronidazole 0.75% gel",
+            "description": "Anti-inflammatory; antimicrobial",
+            "evidence": "strong"
+          },
+          {
+            "name": "Pimecrolimus 1%",
+            "description": "Steroid-sparing; calcineurin inhibitor",
+            "evidence": "strong"
+          },
+          {
+            "name": "Switch to fluoride-free toothpaste",
+            "description": "May reduce triggers",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Probiotics",
+            "description": "Support microbiome balance",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For oral antibiotics (doxycycline, minocycline) if topical fails",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "keratosis-pilaris",
+      "name": "Keratosis Pilaris",
+      "slug": "keratosis-pilaris",
+      "icd10": "L85.3",
+      "description": "Common benign condition characterized by keratin plugs within hair follicles, creating rough papules. Often called 'chicken skin.'",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "upper-arms",
+        "thighs",
+        "cheeks",
+        "buttocks"
+      ],
+      "features": [
+        "rough papules",
+        "follicular-plugs",
+        "erythematous-base",
+        "sandpaper-texture"
+      ],
+      "fitzpatrickNotes": "In darker skin, post-inflammatory hyperpigmentation may occur around lesions; papules may be more visible",
+      "rootCauses": [
+        {
+          "cause": "Keratin overproduction",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Excess keratin blocks hair follicles"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Autosomal dominant; often familial"
+        },
+        {
+          "cause": "Dry skin",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Worse in winter; improves with humidity"
+        },
+        {
+          "cause": "Atopic diathesis",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Associated with atopic dermatitis"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Urea 10-20%",
+            "description": "Keratolytic; hydrates and softens plugs",
+            "evidence": "strong"
+          },
+          {
+            "name": "Lactic acid 5-12%",
+            "description": "AHA exfoliation; smooths rough texture",
+            "evidence": "strong"
+          },
+          {
+            "name": "Salicylic acid 2%",
+            "description": "BHA; penetrates follicles",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Glycolic acid 8-10%",
+            "description": "AHA; promotes cell turnover",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Retinoids",
+            "description": "Normalize follicular keratinization",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3",
+            "description": "Anti-inflammatory; may improve skin texture",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "If severe or not responding to OTC treatment; prescription retinoids or urea",
+            "evidence": "moderate"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "xerosis",
+      "name": "Xerosis (Dry Skin)",
+      "slug": "xerosis",
+      "icd10": "L85.3",
+      "description": "Abnormally dry skin due to reduced water content in stratum corneum. Can be caused by environmental factors, aging, or underlying skin conditions.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "legs",
+        "arms",
+        "hands",
+        "trunk",
+        "face"
+      ],
+      "features": [
+        "roughness",
+        "scaling",
+        "fissures",
+        "pruritus",
+        "tightness",
+        "ashy-appearance"
+      ],
+      "fitzpatrickNotes": "In darker skin, xerosis is more visible ('ashy skin'); may be mistaken for other conditions; barrier repair is essential",
+      "rootCauses": [
+        {
+          "cause": "Low humidity",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Winter, indoor heating, desert climates"
+        },
+        {
+          "cause": "Aging",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Decreased sebum, ceramides, and natural moisturizing factors"
+        },
+        {
+          "cause": "Harsh cleansers",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Strip natural lipids"
+        },
+        {
+          "cause": "Hot water",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Strips lipids and damages barrier"
+        },
+        {
+          "cause": "Medical conditions",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Hypothyroidism, diabetes, kidney disease"
+        },
+        {
+          "cause": "Nutritional deficiency",
+          "domain": "nutrition",
+          "evidence": "moderate",
+          "description": "Essential fatty acids, vitamins A, D, E"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ceramide moisturizers",
+            "description": "Restore barrier lipids; essential for xerosis",
+            "evidence": "strong"
+          },
+          {
+            "name": "Urea 5-10%",
+            "description": "Humectant and keratolytic",
+            "evidence": "strong"
+          },
+          {
+            "name": "Glycerin",
+            "description": "Humectant; draws moisture to skin",
+            "evidence": "strong"
+          },
+          {
+            "name": "Hyaluronic acid",
+            "description": "Humectant; holds 1000x weight in water",
+            "evidence": "strong"
+          },
+          {
+            "name": "Petrolatum",
+            "description": "Occlusive; prevents water loss",
+            "evidence": "strong"
+          },
+          {
+            "name": "Colloidal oatmeal",
+            "description": "Soothing; anti-inflammatory",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3 (EPA/DHA)",
+            "description": "Essential fatty acids; supports barrier",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Vitamin E",
+            "description": "Antioxidant; supports barrier",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Hyaluronic acid (oral)",
+            "description": "May improve skin hydration",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "If severe, persistent, or associated with underlying condition",
+            "evidence": "moderate"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Thyroid panel",
+            "description": "Rule out hypothyroidism",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "seborrheic-keratosis",
+      "name": "Seborrheic Keratosis",
+      "slug": "seborrheic-keratosis",
+      "icd10": "L82.1",
+      "description": "Common benign epidermal tumor with waxy, stuck-on appearance. Increases with age and sun exposure.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "chest",
+        "back",
+        "face",
+        "scalp"
+      ],
+      "features": [
+        "waxy papules",
+        "stuck-on appearance",
+        "brown to black color",
+        "verrucous surface"
+      ],
+      "fitzpatrickNotes": "Higher prevalence and more numerous in darker skin; may be mistaken for skin cancer; cosmetic concern often primary",
+      "rootCauses": [
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Autosomal dominant in some families"
+        },
+        {
+          "cause": "Sun exposure",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Contributes to development"
+        },
+        {
+          "cause": "Aging",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Very common after age 50"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ammonium lactate 12%",
+            "description": "May smooth rough texture",
+            "evidence": "limited"
+          }
+        ],
+        "supplements": [],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For cryotherapy, curettage, or laser removal if desired; biopsy if uncertain",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "tinea-versicolor",
+      "name": "Tinea Versicolor",
+      "slug": "tinea-versicolor",
+      "icd10": "B36.0",
+      "description": "Superficial fungal infection caused by Malassezia yeast, characterized by hypopigmented or hyperpigmented macules on trunk and upper arms.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "trunk",
+        "upper-arms",
+        "neck",
+        "face"
+      ],
+      "features": [
+        "hypopigmented macules",
+        "hyperpigmented macules",
+        "fine scaling",
+        "asymptomatic or mild pruritus"
+      ],
+      "fitzpatrickNotes": "More visible in darker skin due to contrast; hypopigmentation may persist for months after treatment; often misdiagnosed as vitiligo",
+      "rootCauses": [
+        {
+          "cause": "Malassezia overgrowth",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Yeast converts to mycelial form under certain conditions"
+        },
+        {
+          "cause": "Heat and humidity",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Promotes yeast proliferation"
+        },
+        {
+          "cause": "Oily skin",
+          "domain": "skin",
+          "evidence": "moderate",
+          "description": "Malassezia thrives on sebum"
+        },
+        {
+          "cause": "Immunosuppression",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "Increased susceptibility"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ketoconazole 2% shampoo",
+            "description": "Use as body wash; leave on 5-10 minutes",
+            "evidence": "strong"
+          },
+          {
+            "name": "Selenium sulfide shampoo",
+            "description": "Use as body wash; leave on 10 minutes",
+            "evidence": "strong"
+          },
+          {
+            "name": "Zinc pyrithione shampoo",
+            "description": "Alternative antifungal wash",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Ketoconazole 2% cream",
+            "description": "Topical treatment for localized areas",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Probiotics",
+            "description": "Support microbiome balance",
+            "evidence": "emerging"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For oral antifungals (fluconazole, itraconazole) if extensive or recurrent",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "folliculitis",
+      "name": "Folliculitis",
+      "slug": "folliculitis",
+      "icd10": "L73.9",
+      "description": "Inflammation of hair follicles caused by bacterial, fungal, or physical irritation. Presents as small pustules or papules centered on hair follicles.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "beard-area",
+        "scalp",
+        "thighs",
+        "buttocks",
+        "trunk"
+      ],
+      "features": [
+        "pustules around hair",
+        "erythematous papules",
+        "pruritus",
+        "pain",
+        "pustular-crusting"
+      ],
+      "fitzpatrickNotes": "Pseudofolliculitis barbae particularly common in Fitzpatrick IV-VI due to curly/coily hair; PIH and keloid risk from chronic inflammation",
+      "rootCauses": [
+        {
+          "cause": "Bacterial infection",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "S. aureus most common"
+        },
+        {
+          "cause": "Fungal infection",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Malassezia, dermatophytes"
+        },
+        {
+          "cause": "Physical irritation",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Shaving, friction, tight clothing"
+        },
+        {
+          "cause": "Ingrown hairs",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Curly hair re-enters skin; pseudofolliculitis barbae"
+        },
+        {
+          "cause": "Hot tub exposure",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Pseudomonas folliculitis"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Benzoyl peroxide wash",
+            "description": "Antibacterial; reduces C. acnes and S. aureus",
+            "evidence": "strong"
+          },
+          {
+            "name": "Chlorhexidine wash",
+            "description": "Antiseptic; reduces bacterial load",
+            "evidence": "strong"
+          },
+          {
+            "name": "Salicylic acid",
+            "description": "Keratolytic; prevents follicular plugging",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Topical clindamycin",
+            "description": "Antibiotic for bacterial folliculitis",
+            "evidence": "strong"
+          },
+          {
+            "name": "Ketoconazole shampoo",
+            "description": "For Malassezia folliculitis",
+            "evidence": "strong"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Zinc",
+            "description": "Anti-inflammatory; immune support",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For severe, recurrent, or treatment-resistant cases; culture may be needed",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "cold-sore",
+      "name": "Cold Sore (HSV-1)",
+      "slug": "cold-sore",
+      "icd10": "B00.1",
+      "description": "Recurrent viral infection caused by herpes simplex virus type 1. Characterized by grouped vesicles on orolabial area that crust and heal over 7-10 days.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "lips",
+        "perioral",
+        "nose"
+      ],
+      "features": [
+        "prodromal tingling",
+        "grouped vesicles",
+        "pain",
+        "crusting",
+        "recurrent"
+      ],
+      "fitzpatrickNotes": "Post-inflammatory hyperpigmentation may occur after lesion heals, especially in darker skin",
+      "rootCauses": [
+        {
+          "cause": "HSV-1 reactivation",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Latent virus in trigeminal ganglion reactivates"
+        },
+        {
+          "cause": "Immunosuppression",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Stress, illness, UV exposure trigger reactivation"
+        },
+        {
+          "cause": "UV exposure",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Common trigger for outbreaks"
+        },
+        {
+          "cause": "Stress",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Psychological and physical stress"
+        },
+        {
+          "cause": "Hormonal changes",
+          "domain": "hormones",
+          "evidence": "moderate",
+          "description": "Menstrual cycle, pregnancy"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Docosanol 10% cream (Abreva)",
+            "description": "OTC antiviral; reduces duration if applied early",
+            "evidence": "strong"
+          },
+          {
+            "name": "Acyclovir 5% cream",
+            "description": "Prescription antiviral; speeds healing",
+            "evidence": "strong"
+          },
+          {
+            "name": "Penciclovir 1% cream",
+            "description": "Prescription antiviral",
+            "evidence": "strong"
+          },
+          {
+            "name": "Lip balm with sunscreen",
+            "description": "Prevents UV-triggered outbreaks",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "L-Lysine",
+            "description": "May reduce recurrence frequency",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Vitamin C",
+            "description": "Immune support; wound healing",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Zinc",
+            "description": "Immune support; antiviral properties",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist or PCP",
+            "description": "For oral antivirals (acyclovir, valacyclovir) for frequent or severe outbreaks",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Immune function assessment",
+            "description": "If unusually frequent or severe",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "razor-bumps",
+      "name": "Razor Bumps (Pseudofolliculitis Barbae)",
+      "slug": "razor-bumps",
+      "icd10": "L73.1",
+      "description": "Chronic inflammatory condition caused by ingrown hairs, particularly in beard area. Affects 45-80% of Black men who shave.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "beard-area",
+        "neck",
+        "jawline"
+      ],
+      "features": [
+        "papules",
+        "pustules",
+        "ingrown hairs",
+        "PIH",
+        "keloid-scarring"
+      ],
+      "fitzpatrickNotes": "Extremely common in Fitzpatrick IV-VI due to curly/coily hair; high risk of PIH and keloid formation; can lead to permanent scarring",
+      "rootCauses": [
+        {
+          "cause": "Curly/coily hair",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Hair re-enters skin after shaving; foreign body reaction"
+        },
+        {
+          "cause": "Close shaving",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Multi-blade razors cut hair below skin surface"
+        },
+        {
+          "cause": "Pulling skin while shaving",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Causes hair to snap back below surface"
+        },
+        {
+          "cause": "Genetic predisposition",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "African descent; curly hair pattern"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Single-blade razor",
+            "description": "Leaves hair above skin surface; reduces ingrown risk",
+            "evidence": "strong"
+          },
+          {
+            "name": "Electric clippers",
+            "description": "Leave slight stubble; prevents hair re-entry",
+            "evidence": "strong"
+          },
+          {
+            "name": "Shaving gel",
+            "description": "Lubrication reduces friction and irritation",
+            "evidence": "strong"
+          },
+          {
+            "name": "Benzoyl peroxide wash",
+            "description": "Antimicrobial; reduces inflammation",
+            "evidence": "strong"
+          },
+          {
+            "name": "Topical clindamycin",
+            "description": "Anti-inflammatory; treats secondary infection",
+            "evidence": "strong"
+          },
+          {
+            "name": "Azelaic acid",
+            "description": "Anti-inflammatory; reduces PIH",
+            "evidence": "strong"
+          },
+          {
+            "name": "Chemical depilatories",
+            "description": "Dissolve hair above skin; alternative to sharging",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3",
+            "description": "Anti-inflammatory support",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For severe cases, keloid prevention, laser hair reduction (Nd:YAG for dark skin)",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": []
+      }
+    },
+    {
+      "id": "excess-sebum-enlarged-pores",
+      "name": "Excess Sebum & Enlarged Pores",
+      "slug": "excess-sebum-enlarged-pores",
+      "icd10": "L73.9",
+      "description": "Excess sebum production resulting in oily skin and visibly enlarged pores. Pore size is primarily driven by clogged sebum stretching follicle walls and loss of collagen/elasticity around pore openings with age. While genetic blueprint pore size cannot be changed, the stretched and degraded appearance can be dramatically refined through regulation of sebum, follicular clearance, and structural support.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "t-zone",
+        "cheeks",
+        "nose",
+        "forehead",
+        "chin"
+      ],
+      "features": [
+        "excess-oil",
+        "enlarged-pores",
+        "shiny-skin",
+        "visible-sebaceous-filaments",
+        "sebum-overflow"
+      ],
+      "fitzpatrickNotes": "Enlarged pores and excess oil affect all Fitzpatrick types. Melanin-rich skin (III-VI) may show more visible sebaceous filaments due to contrast against skin tone. Oil-regulating treatments work universally.",
+      "rootCauses": [
+        {
+          "cause": "Androgen-driven sebaceous lipogenesis",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "DHT is the primary mediator of sebaceous gland activity; testosterone converts to DHT via 5-alpha reductase at the skin level"
+        },
+        {
+          "cause": "Insulin & IGF-1 upregulation",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Spikes in insulin and Insulin-like Growth Factor 1 directly upregulate sebum production via androgen pathway"
+        },
+        {
+          "cause": "High glycemic diet",
+          "domain": "nutrition",
+          "evidence": "moderate",
+          "description": "High glycemic load increases insulin and IGF-1, which directly stimulate sebaceous glands"
+        },
+        {
+          "cause": "Dairy & whey protein",
+          "domain": "nutrition",
+          "evidence": "moderate",
+          "description": "Dairy (especially whey) increases IGF-1 levels, amplifying androgen-driven sebum production"
+        },
+        {
+          "cause": "Follicular hyperkeratinization",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Abnormal shedding of dead skin cells inside the pore creates plugs that trap sebum and stretch the follicle wall"
+        },
+        {
+          "cause": "Collagen & elastin loss (aging)",
+          "domain": "skin",
+          "evidence": "strong",
+          "description": "Decreased collagen and elastin around pore openings reduces structural support, making pores appear larger"
+        },
+        {
+          "cause": "Chronic stress",
+          "domain": "lifestyle",
+          "evidence": "moderate",
+          "description": "CRH/ACTH axis increases cortisol and androgens, stimulating sebum production"
+        },
+        {
+          "cause": "DHT conversion",
+          "domain": "hormones",
+          "evidence": "strong",
+          "description": "Testosterone converts to more potent DHT via 5-alpha reductase, amplifying sebum production signal"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Salicylic Acid (BHA) 2%",
+            "description": "Oil-soluble BHA penetrates lipid-rich pore matrix to dissolve sebum + dead skin cell plugs before they stretch the pore. First-line for comedonal congestion.",
+            "evidence": "strong"
+          },
+          {
+            "name": "Niacinamide 3-5%",
+            "description": "Structurally reduces sebaceous lipogenesis rate while strengthening skin barrier and improving elasticity around pore walls. Clinical workhorse for oil regulation.",
+            "evidence": "strong"
+          },
+          {
+            "name": "Topical Retinoids (Retinol, Retinal, Tretinoin)",
+            "description": "Normalize skin cell turnover preventing pore plugs; potently stimulate collagen synthesis to rebuild the matrix around pore openings, making them visibly smaller.",
+            "evidence": "strong"
+          },
+          {
+            "name": "Green Tea Extract (EGCG)",
+            "description": "Potent topical 5-alpha reductase inhibitor; blocks conversion of testosterone to DHT at skin level, reducing hormonal signal for oil production. Anti-inflammatory and antioxidant.",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Azelaic Acid 15-20%",
+            "description": "Anti-inflammatory and normalizes keratinization; reduces pore congestion and post-inflammatory marks from acne lesions.",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Green Tea Extract (EGCG) 400-800mg",
+            "description": "Systemic 5-alpha reductase inhibitor; reduces DHT production from inside.",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Zinc Picolinate 25-30mg",
+            "description": "Modulates total androgen activity; natural anti-inflammatory; reduces lipid content of sebum. Pair with copper 2-3mg.",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Omega-3 (EPA/DHA 1000-2000mg)",
+            "description": "Anti-inflammatory; improves insulin sensitivity; reduces prostaglandin-driven sebum production.",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "RF Microneedling (Radiofrequency)",
+            "description": "Combines mechanical micro-injuries with heat energy into the dermis; triggers massive collagen remodeling to tighten skin architecture around pores; can thermally down-regulate overactive sebaceous glands.",
+            "evidence": "strong"
+          },
+          {
+            "name": "Laser Resurfacing (Non-Ablative Fraxel or Clear + Brilliant)",
+            "description": "Creates micro-zones of thermal damage forcing replacement of stretched-out tissue with fresh, elastic collagen.",
+            "evidence": "strong"
+          },
+          {
+            "name": "Micro-Tox (Intradermal Botox)",
+            "description": "Highly diluted micro-droplets injected superficially into skin layer; temporarily paralyzes arrector pili muscles and sebaceous glands, drastically shutting down oil production for 2-3 months.",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Dermatologist consultation",
+            "description": "For severe excess oil not responding to OTC treatments; may prescribe tretinoin, spironolactone, or recommend procedures.",
+            "evidence": "strong"
+          }
+        ],
+        "basys_health": [
+          {
+            "name": "Fasting Insulin & IGF-1 Panel",
+            "description": "Assess insulin resistance and IGF-1 levels as drivers of excess sebum production.",
+            "evidence": "strong"
+          },
+          {
+            "name": "Comprehensive Hormone Panel",
+            "description": "Check DHEA-S, testosterone, DHT, and cortisol to identify androgen excess driving sebum production.",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Gut Microbiome Assessment",
+            "description": "Gut-skin axis; dysbiosis may drive systemic inflammation contributing to overactive sebaceous glands.",
+            "evidence": "emerging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "barrier-dysfunction",
+      "name": "Barrier Dysfunction",
+      "slug": "barrier-dysfunction",
+      "icd10": "L23.9",
+      "description": "Compromised skin barrier leading to increased transepidermal water loss (TEWL), sensitivity, and inflammation. Characterized by dryness, irritation, redness, and impaired barrier function.",
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "affectedZones": [
+        "face",
+        "hands",
+        "arms",
+        "legs"
+      ],
+      "features": [
+        "dryness",
+        "redness",
+        "irritation",
+        "increased TEWL",
+        "sensitivity",
+        "rough texture",
+        "flaking"
+      ],
+      "fitzpatrickNotes": "More visible in darker skin as 'ashy' appearance; barrier repair essential to prevent PIH",
+      "rootCauses": [
+        {
+          "cause": "Over-exfoliation",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Excessive use of acids, retinoids, or physical scrubs damages barrier"
+        },
+        {
+          "cause": "Harsh cleansers",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Sulfates and alkaline cleansers strip natural lipids"
+        },
+        {
+          "cause": "Environmental damage",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "Pollution, wind, cold weather damage barrier lipids"
+        },
+        {
+          "cause": "UV damage",
+          "domain": "lifestyle",
+          "evidence": "strong",
+          "description": "UV radiation damages lipids and proteins in stratum corneum"
+        }
+      ],
+      "recommendations": {
+        "products": [
+          {
+            "name": "Ceramides 1-5%",
+            "description": "Restore barrier lipids; essential for barrier repair",
+            "evidence": "strong"
+          },
+          {
+            "name": "Cholesterol 1-3%",
+            "description": "Essential lipid for barrier repair; works with ceramides",
+            "evidence": "strong"
+          },
+          {
+            "name": "Fatty acids (linoleic, linolenic)",
+            "description": "Essential fatty acids for barrier repair and inflammation reduction",
+            "evidence": "strong"
+          },
+          {
+            "name": "Panthenol 0.5-5%",
+            "description": "Pro-vitamin B5; upregulates lipid synthesis and reduces inflammation",
+            "evidence": "strong"
+          },
+          {
+            "name": "Ectoin 0.3-2%",
+            "description": "Extremolyte; stabilizes membranes and provides anti-pollution protection",
+            "evidence": "moderate"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Omega-3 (EPA/DHA 1000-2000mg)",
+            "description": "Essential fatty acids; supports barrier repair and reduces inflammation",
+            "evidence": "moderate"
+          },
+          {
+            "name": "Vitamin E",
+            "description": "Antioxidant; supports barrier repair",
+            "evidence": "moderate"
+          }
+        ],
+        "practitioner": [
+          {
+            "name": "Dermatologist",
+            "description": "For severe or persistent barrier damage not improving with topicals",
+            "evidence": "moderate"
+          }
+        ],
+        "basys_health": [],
+        "device": [
+          {
+            "name": "LED Red Light (630-660nm)",
+            "description": "Anti-inflammatory; reduces inflammation and supports barrier repair",
+            "evidence": "moderate"
+          }
+        ]
+      }
+    }
+  ],
+  "zones": [
+    {
+      "id": "t-zone",
+      "name": "T-Zone",
+      "description": "Forehead, nose, and chin area",
+      "commonConcerns": [
+        "excess-oil",
+        "blackheads",
+        "enlarged-pores",
+        "acne",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "cheeks",
+      "name": "Cheeks",
+      "description": "Lateral facial areas",
+      "commonConcerns": [
+        "rosacea",
+        "dryness",
+        "hyperpigmentation",
+        "acne",
+        "enlarged-pores"
+      ]
+    },
+    {
+      "id": "forehead",
+      "name": "Forehead",
+      "description": "Upper face above eyebrows",
+      "commonConcerns": [
+        "acne",
+        "wrinkles",
+        "oiliness",
+        "melasma",
+        "enlarged-pores"
+      ]
+    },
+    {
+      "id": "chin",
+      "name": "Chin",
+      "description": "Lower face below mouth",
+      "commonConcerns": [
+        "hormonal-acne",
+        "dryness",
+        "melasma",
+        "perioral-dermatitis"
+      ]
+    },
+    {
+      "id": "nose",
+      "name": "Nose",
+      "description": "Central facial feature",
+      "commonConcerns": [
+        "blackheads",
+        "rosacea",
+        "sebaceous-filaments",
+        "oiliness",
+        "enlaged-pores"
+      ]
+    },
+    {
+      "id": "jawline",
+      "name": "Jawline",
+      "description": "Lower face border",
+      "commonConcerns": [
+        "hormonal-acne",
+        "cystic-acne",
+        "razor-bumps"
+      ]
+    },
+    {
+      "id": "neck",
+      "name": "Neck",
+      "description": "Area below jaw to clavicles",
+      "commonConcerns": [
+        "acne",
+        "aging",
+        "razor-bumps"
+      ]
+    },
+    {
+      "id": "scalp",
+      "name": "Scalp",
+      "description": "Skin covering the cranium",
+      "commonConcerns": [
+        "seborrheic-dermatitis",
+        "psoriasis",
+        "hair-loss",
+        "folliculitis"
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "description": "Thoracic area",
+      "commonConcerns": [
+        "acne",
+        "sun-damage",
+        "folliculitis",
+        "seborrheic-keratosis"
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "description": "Dorsal trunk area",
+      "commonConcerns": [
+        "acne",
+        "folliculitis",
+        "fungal-acne",
+        "sun-damage"
+      ]
+    },
+    {
+      "id": "hands",
+      "name": "Hands",
+      "description": "Dorsal and palmar surfaces",
+      "commonConcerns": [
+        "sun-damage",
+        "dryness",
+        "actinic-keratosis",
+        "contact-dermatitis"
+      ]
+    },
+    {
+      "id": "upper-arms",
+      "name": "Upper Arms",
+      "description": "Brachial area",
+      "commonConcerns": [
+        "keratosis-pilaris",
+        "dryness",
+        "sun-damage"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "benzoyl-peroxide",
+      "name": "Benzoyl Peroxide",
+      "category": "antimicrobial",
+      "evidence": "A",
+      "concentration": "2.5-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "acne-mechanica",
+        "folliculitis",
+        "razor-bumps"
+      ]
+    },
+    {
+      "id": "salicylic-acid",
+      "name": "Salicylic Acid",
+      "category": "BHA",
+      "evidence": "A",
+      "concentration": "0.5-2%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne-vulgaris",
+        "keratosis-pilaris",
+        "folliculitis",
+        "seborrheic-dermatitis",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "azelaic-acid",
+      "name": "Azelaic Acid",
+      "category": "antimicrobial",
+      "evidence": "A",
+      "concentration": "15-20%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "rosacea",
+        "melasa",
+        "PIH",
+        "perioral-dermatitis"
+      ]
+    },
+    {
+      "id": "niacinamide",
+      "name": "Niacinamide",
+      "category": "vitamin",
+      "evidence": "A",
+      "concentration": "2-10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "rosacea",
+        "melasma",
+        "PIH",
+        "xerosis",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "tretinoin",
+      "name": "Tretinoin",
+      "category": "retinoid",
+      "evidence": "A",
+      "concentration": "0.025-0.1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne-vulgaris",
+        "melasma",
+        "PIH",
+        "photoaging",
+        "actinic-keratosis",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "vitamin-c",
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "category": "antioxidant",
+      "evidence": "A",
+      "concentration": "10-20%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "melasma",
+        "PIH",
+        "photoaging",
+        "solar-lentigines"
+      ]
+    },
+    {
+      "id": "hydroquinone",
+      "name": "Hydroquinone",
+      "category": "depigmenting",
+      "evidence": "A",
+      "concentration": "2-4%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "melasma",
+        "PIH",
+        "solar-lentigines"
+      ]
+    },
+    {
+      "id": "tranexamic-acid",
+      "name": "Tranexamic Acid",
+      "category": "depigmenting",
+      "evidence": "A-",
+      "concentration": "2-5%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "melasma",
+        "PIH"
+      ]
+    },
+    {
+      "id": "kojic-acid",
+      "name": "Kojic Acid",
+      "category": "depigmenting",
+      "evidence": "B",
+      "concentration": "1-4%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "melasma",
+        "PIH"
+      ]
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "category": "mineral",
+      "evidence": "A",
+      "concentration": "15-30mg (oral)",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "hormonal-acne",
+        "rosacea",
+        "folliculitis",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "omega-3",
+      "name": "Omega-3 (EPA/DHA)",
+      "category": "fatty-acid",
+      "evidence": "A",
+      "concentration": "1000-2000mg",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "psoriasis",
+        "eczema",
+        "rosacea"
+      ]
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D3",
+      "category": "vitamin",
+      "evidence": "A",
+      "concentration": "2000-4000 IU",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "psoriasis",
+        "eczema",
+        "vitiligo"
+      ]
+    },
+    {
+      "id": "ceramides",
+      "name": "Ceramides",
+      "category": "barrier-repair",
+      "evidence": "A",
+      "concentration": "1-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "atopic-dermatitis",
+        "xerosis",
+        "contact-dermatitis"
+      ]
+    },
+    {
+      "id": "urea",
+      "name": "Urea",
+      "category": "keratolytic",
+      "evidence": "A",
+      "concentration": "5-20%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "keratosis-pilaris",
+        "eczema"
+      ]
+    },
+    {
+      "id": "ketoconazole",
+      "name": "Ketoconazole",
+      "category": "antifungal",
+      "evidence": "A",
+      "concentration": "2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "seborrheic-dermatitis",
+        "fungal-acne",
+        "tinea-versicolor",
+        "folliculitis"
+      ]
+    },
+    {
+      "id": "metronidazole",
+      "name": "Metronidazole",
+      "category": "antimicrobial",
+      "evidence": "A",
+      "concentration": "0.75%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "rosacea",
+        "perioral-dermatitis"
+      ]
+    },
+    {
+      "id": "ivermectin",
+      "name": "Ivermectin",
+      "category": "antiparasitic",
+      "evidence": "A",
+      "concentration": "1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "rosacea"
+      ]
+    },
+    {
+      "id": "calcipotriene",
+      "name": "Calcipotriene",
+      "category": "vitamin-d-analog",
+      "evidence": "A",
+      "concentration": "0.005%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis"
+      ]
+    },
+    {
+      "id": "glycolic-acid",
+      "name": "Glycolic Acid",
+      "category": "AHA",
+      "evidence": "A",
+      "concentration": "5-10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "PIH",
+        "photoaging",
+        "keratosis-pilaris"
+      ]
+    },
+    {
+      "id": "lactic-acid",
+      "name": "Lactic Acid",
+      "category": "AHA",
+      "evidence": "A",
+      "concentration": "5-12%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "keratosis-pilaris",
+        "PIH"
+      ]
+    },
+    {
+      "id": "mandelic-acid",
+      "name": "Mandelic Acid",
+      "category": "AHA",
+      "evidence": "B",
+      "concentration": "5-10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "PIH"
+      ]
+    },
+    {
+      "id": "gluconolactone",
+      "name": "Gluconolactone",
+      "category": "PHA",
+      "evidence": "B",
+      "concentration": "5-10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne-vulgaris",
+        "sensitive-skin",
+        "photoaging"
+      ]
+    },
+    {
+      "id": "tacrolimus",
+      "name": "Tacrolimus",
+      "category": "calcineurin-inhibitor",
+      "evidence": "A",
+      "concentration": "0.03-0.1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "atopic-dermatitis",
+        "vitiligo",
+        "perioral-dermatitis",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "hydrocortisone",
+      "name": "Hydrocortisone",
+      "category": "corticosteroid",
+      "evidence": "A",
+      "concentration": "1-2.5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "atopic-dermatitis",
+        "contact-dermatitis",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "fluorouracil",
+      "name": "Fluorouracil 5%",
+      "category": "chemotherapy",
+      "evidence": "A",
+      "concentration": "5%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "actinic-keratosis"
+      ]
+    },
+    {
+      "id": "imiquimod",
+      "name": "Imiquimod 5%",
+      "category": "immune-modulator",
+      "evidence": "A",
+      "concentration": "5%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "actinic-keratosis"
+      ]
+    },
+    {
+      "id": "ruxolitinib",
+      "name": "Ruxolitinib Cream",
+      "category": "JAK-inhibitor",
+      "evidence": "A",
+      "concentration": "1.5%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "vitiligo"
+      ]
+    },
+    {
+      "id": "spearmint-tea",
+      "name": "Spearmint Tea",
+      "category": "anti-androgen",
+      "evidence": "B",
+      "concentration": "2 cups daily",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "hormonal-acne"
+      ]
+    },
+    {
+      "id": "inositol",
+      "name": "Inositol",
+      "category": "insulin-sensitizer",
+      "evidence": "B",
+      "concentration": "2000-4000mg",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "hormonal-acne"
+      ]
+    },
+    {
+      "id": "polypodium-leucotomos",
+      "name": "Polypodium Leucotomos",
+      "category": "photoprotectant",
+      "evidence": "B",
+      "concentration": "240mg daily",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "melasma",
+        "solar-lentigines",
+        "vitiligo",
+        "photoaging"
+      ]
+    },
+    {
+      "id": "collagen-peptides",
+      "name": "Collagen Peptides",
+      "category": "protein",
+      "evidence": "B",
+      "concentration": "2.5-10g daily",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "photoaging",
+        "intrinsic-aging"
+      ]
+    },
+    {
+      "id": "quercetin",
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "evidence": "B",
+      "concentration": "500-1000mg",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "atopic-dermatitis"
+      ]
+    },
+    {
+      "id": "curcumin",
+      "name": "Curcumin",
+      "category": "anti-inflammatory",
+      "evidence": "B",
+      "concentration": "500-1000mg",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "psoriasis"
+      ]
+    },
+    {
+      "id": "docosanol",
+      "name": "Docosanol",
+      "category": "antiviral",
+      "evidence": "A",
+      "concentration": "10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "cold-sore"
+      ]
+    },
+    {
+      "id": "lysine",
+      "name": "L-Lysine",
+      "category": "amino-acid",
+      "evidence": "B",
+      "concentration": "1000-3000mg",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "cold-sore"
+      ]
+    },
+    {
+      "id": "hyalauronic-acid",
+      "name": "Hyaluronic Acid",
+      "category": "humectant",
+      "evidence": "A",
+      "concentration": "0.1-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "fine-lines",
+        "aging",
+        "photoaging",
+        "intrinsic-aging"
+      ],
+      "description": "Can hold up to 1,000x its weight in water. Pulls ambient moisture into the stratum corneum, instantly expanding intercellular space to cushion skin and soften fine lines."
+    },
+    {
+      "id": "petrolatum",
+      "name": "Petrolatum",
+      "category": "occlusive",
+      "evidence": "A",
+      "concentration": "20-40%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "atopic-dermatitis",
+        "contact-dermatitis"
+      ]
+    },
+    {
+      "id": "colloidal-oatmeal",
+      "name": "Colloidal Oatmeal",
+      "category": "soothing",
+      "evidence": "A",
+      "concentration": "1-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "atopic-dermatitis",
+        "xerosis",
+        "contact-dermatitis"
+      ]
+    },
+    {
+      "id": "shea-butter",
+      "name": "Shea Butter",
+      "category": "emollient",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "eczema"
+      ]
+    },
+    {
+      "id": "squalane",
+      "name": "Squalane",
+      "category": "emollient",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "acne",
+        "all"
+      ]
+    },
+    {
+      "id": "jojoba-oil",
+      "name": "Jojoba Oil",
+      "category": "emollient",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "acne",
+        "all"
+      ]
+    },
+    {
+      "id": "centella-asiatica",
+      "name": "Centella Asiatica",
+      "category": "wound-healing",
+      "evidence": "B",
+      "concentration": "1-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "PIH",
+        "aging",
+        "sensitive-skin"
+      ]
+    },
+    {
+      "id": "allantoin",
+      "name": "Allantoin",
+      "category": "soothing",
+      "evidence": "A",
+      "concentration": "0.5-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "sensitive-skin",
+        "acne",
+        "PIH"
+      ]
+    },
+    {
+      "id": "licorice-root",
+      "name": "Licorice Root Extract",
+      "category": "brightening",
+      "evidence": "B",
+      "concentration": "1-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "melasma",
+        "PIH"
+      ]
+    },
+    {
+      "id": "arbutin",
+      "name": "Alpha-Arbutin",
+      "category": "brightening",
+      "evidence": "B",
+      "concentration": "1-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "melasma",
+        "PIH"
+      ]
+    },
+    {
+      "id": "thiamidol",
+      "name": "Thiamidol",
+      "category": "brightening",
+      "evidence": "B",
+      "concentration": "0.2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "melasma",
+        "PIH"
+      ]
+    },
+    {
+      "id": "copper-peptides",
+      "name": "Copper Tripeptide-1 (GHK-Cu)",
+      "category": "peptide",
+      "evidence": "B",
+      "concentration": "0.01-0.1%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "photoaging",
+        "intrinsic-aging",
+        "sensitive-skin"
+      ],
+      "description": "Gold standard tissue regeneration peptide. Upregulates metalloproteinases that clear degraded collagen and replaces with fresh Type I and Type III collagen. Accelerates epidermal stem cell proliferation, noticeably thickening thinning skin."
+    },
+    {
+      "id": "matrixyl",
+      "name": "Matrixyl 3000 (Palmitoyl Tripeptide-1 + Tetrapeptide-7)",
+      "category": "peptide",
+      "evidence": "B",
+      "concentration": "0.001-0.1%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "photoaging",
+        "intrinsic-aging",
+        "expression-lines"
+      ],
+      "description": "Clinical peptide complex. Tripeptide-1 signals fibroblasts to synthesize new collagen and glycosaminoglycans. Tetrapeptide-7 downregulates IL-6, protecting the skin matrix from UV and environmental stress degradation."
+    },
+    {
+      "id": "arginine",
+      "name": "Argireline (Acetyl Hexapeptide-8)",
+      "category": "peptide",
+      "evidence": "B",
+      "concentration": "5-10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "expression-lines",
+        "photoaging"
+      ],
+      "description": "Mimics a component of the SNARE complex (protein structure required for muscle movement). Destabilizes this complex to limit acetylcholine release, softening dynamic lines around eyes and forehead. Often called 'topical Botox'."
+    },
+    {
+      "id": "bakuchiol",
+      "name": "Bakuchiol",
+      "category": "retinoid-alternative",
+      "evidence": "B",
+      "concentration": "0.5-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne",
+        "aging",
+        "PIH"
+      ]
+    },
+    {
+      "id": "green-tea",
+      "name": "Green Tea Extract (EGCG)",
+      "category": "antioxidant",
+      "evidence": "B",
+      "concentration": "1-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "rosacea",
+        "aging",
+        "acne",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "resveratrol",
+      "name": "Resveratrol",
+      "category": "antioxidant",
+      "evidence": "B",
+      "concentration": "0.5-1%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "photoaging"
+      ]
+    },
+    {
+      "id": "coq10",
+      "name": "Coenzyme Q10",
+      "category": "antioxidant",
+      "evidence": "B",
+      "concentration": "0.3-1%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "photoaging"
+      ]
+    },
+    {
+      "id": "retinol",
+      "name": "Retinol",
+      "category": "retinoid",
+      "evidence": "A",
+      "concentration": "0.25-1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne",
+        "aging",
+        "PIH",
+        "photoaging",
+        "excess-sebum-enlarged-pores"
+      ]
+    },
+    {
+      "id": "adapalene",
+      "name": "Adapalene",
+      "category": "retinoid",
+      "evidence": "A",
+      "concentration": "0.1-0.3%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne",
+        "aging"
+      ]
+    },
+    {
+      "id": "tazarotene",
+      "name": "Tazarotene",
+      "category": "retinoid",
+      "evidence": "A",
+      "concentration": "0.1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis",
+        "acne",
+        "photoaging"
+      ]
+    },
+    {
+      "id": "sulfur",
+      "name": "Sulfur",
+      "category": "antimicrobial",
+      "evidence": "A",
+      "concentration": "3-10%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "acne",
+        "rosacea",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "zinc-pyrithione",
+      "name": "Zinc Pyrithione",
+      "category": "antifungal",
+      "evidence": "A",
+      "concentration": "1-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "seborrheic-dermatitis",
+        "fungal-acne",
+        "tinea-versicolor"
+      ]
+    },
+    {
+      "id": "selenium-sulfide",
+      "name": "Selenium Sulfide",
+      "category": "antifungal",
+      "evidence": "A",
+      "concentration": "1%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "seborrheic-dermatitis",
+        "tinea-versicolor"
+      ]
+    },
+    {
+      "id": "coal-tar",
+      "name": "Coal Tar",
+      "category": "antiproliferative",
+      "evidence": "A",
+      "concentration": "0.5-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "psoriasis",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "anthralin",
+      "name": "Anthralin",
+      "category": "antiproliferative",
+      "evidence": "A",
+      "concentration": "0.1-1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis"
+      ]
+    },
+    {
+      "id": " crisaborole",
+      "name": "Crisaborole",
+      "category": "PDE4-inhibitor",
+      "evidence": "A",
+      "concentration": "2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "atopic-dermatitis"
+      ]
+    },
+    {
+      "id": "calcineurin-inhibitors",
+      "name": "Tacrolimus/Pimecrolimus",
+      "category": "calcineurin-inhibitor",
+      "evidence": "A",
+      "concentration": "0.03-1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "atopic-dermatitis",
+        "vitiligo",
+        "perioral-dermatitis",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "pimecrolimus",
+      "name": "Pimecrolimus",
+      "category": "calcineurin-inhibitor",
+      "evidence": "A",
+      "concentration": "1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "atopic-dermatitis",
+        "vitiligo",
+        "perioral-dermatitis"
+      ]
+    },
+    {
+      "id": "diclofenac",
+      "name": "Diclofenac 3% Gel",
+      "category": "NSAID",
+      "evidence": "A",
+      "concentration": "3%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "actinic-keratosis"
+      ]
+    },
+    {
+      "id": "tirbanibulin",
+      "name": "Tirbanibulin",
+      "category": "microtubule-inhibitor",
+      "evidence": "A",
+      "concentration": "1%",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "actinic-keratosis"
+      ]
+    },
+    {
+      "id": "spironolactone",
+      "name": "Spironolactone",
+      "category": "anti-androgen",
+      "evidence": "A",
+      "concentration": "25-100mg",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "hormonal-acne"
+      ]
+    },
+    {
+      "id": "oral-contraceptives",
+      "name": "Oral Contraceptives",
+      "category": "hormonal",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "hormonal-acne"
+      ]
+    },
+    {
+      "id": "isotretinoin",
+      "name": "Isotretinoin",
+      "category": "retinoid",
+      "evidence": "A",
+      "concentration": "0.5-1mg/kg",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne-vulgaris",
+        "severe-acne",
+        "hormonal-acne"
+      ]
+    },
+    {
+      "id": "doxycycline",
+      "name": "Doxycycline",
+      "category": "antibiotic",
+      "evidence": "A",
+      "concentration": "50-100mg",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne-vulgaris",
+        "rosacea",
+        "perioral-dermatitis"
+      ]
+    },
+    {
+      "id": "minocycline",
+      "name": "Minocycline",
+      "category": "antibiotic",
+      "evidence": "A",
+      "concentration": "50-100mg",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne-vulgaris",
+        "rosacea",
+        "perioral-dermatitis"
+      ]
+    },
+    {
+      "id": "fluconazole",
+      "name": "Fluconazole",
+      "category": "antifungal",
+      "evidence": "A",
+      "concentration": "150-300mg weekly",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "fungal-acne",
+        "tinea-versicolor",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "itraconazole",
+      "name": "Itraconazole",
+      "category": "antifungal",
+      "evidence": "A",
+      "concentration": "200mg daily",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "fungal-acne",
+        "tinea-versicolor",
+        "seborrheic-dermatitis"
+      ]
+    },
+    {
+      "id": "oral-acyclovir",
+      "name": "Oral Acyclovir",
+      "category": "antiviral",
+      "evidence": "A",
+      "concentration": "400mg 3x daily",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "cold-sore"
+      ]
+    },
+    {
+      "id": "valacyclovir",
+      "name": "Valacyclovir",
+      "category": "antiviral",
+      "evidence": "A",
+      "concentration": "500-1000mg daily",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "cold-sore"
+      ]
+    },
+    {
+      "id": "methotrexate",
+      "name": "Methotrexate",
+      "category": "immunosuppressant",
+      "evidence": "A",
+      "concentration": "10-25mg weekly",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis"
+      ]
+    },
+    {
+      "id": "cyclosporine",
+      "name": "Cyclosporine",
+      "category": "immunosuppressant",
+      "evidence": "A",
+      "concentration": "3-5mg/kg",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis"
+      ]
+    },
+    {
+      "id": "apremilast",
+      "name": "Apremilast",
+      "category": "PDE4-inhibitor",
+      "evidence": "A",
+      "concentration": "30mg BID",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis"
+      ]
+    },
+    {
+      "id": "biologics",
+      "name": "Biologics (TNF, IL-17, IL-23 inhibitors)",
+      "category": "biologic",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "psoriasis",
+        "psoriatic-arthritis"
+      ]
+    },
+    {
+      "id": "nb-uvb",
+      "name": "NB-UVB Phototherapy",
+      "category": "phototherapy",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "psoriasis",
+        "vitiligo",
+        "atopic-dermatitis"
+      ]
+    },
+    {
+      "id": "excimer-laser",
+      "name": "Excimer Laser (308nm)",
+      "category": "phototherapy",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "psoriasis",
+        "vitiligo"
+      ]
+    },
+    {
+      "id": "pdt",
+      "name": "Photodynamic Therapy",
+      "category": "phototherapy",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "actinic-keratosis"
+      ]
+    },
+    {
+      "id": "cryotherapy",
+      "name": "Cryotherapy",
+      "category": "procedure",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "actinic-keratosis",
+        "seborrheic-keratosis",
+        "warts"
+      ]
+    },
+    {
+      "id": "curettage",
+      "name": "Curettage",
+      "category": "procedure",
+      "evidence": "A",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "seborrheic-keratosis"
+      ]
+    },
+    {
+      "id": "chemical-peels",
+      "name": "Chemical Peels",
+      "category": "procedure",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne",
+        "PIH",
+        "photoaging",
+        "melasma"
+      ]
+    },
+    {
+      "id": "microneedling",
+      "name": "Microneedling",
+      "category": "procedure",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "acne-scars",
+        "aging",
+        "PIH"
+      ]
+    },
+    {
+      "id": "laser-resurfacing",
+      "name": "Laser Resurfacing",
+      "category": "procedure",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "photoaging",
+        "acne-scars",
+        "wrinkles"
+      ]
+    },
+    {
+      "id": "botulinum-toxin",
+      "name": "Botulinum Toxin",
+      "category": "injectable",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "wrinkles",
+        "hyperhidrosis"
+      ]
+    },
+    {
+      "id": "dermal-fillers",
+      "name": "Dermal Fillers",
+      "category": "injectable",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "volume-loss",
+        "wrinkles"
+      ]
+    },
+    {
+      "id": "prp",
+      "name": "PRP/PRF",
+      "category": "biologic",
+      "evidence": "B",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "aging",
+        "hair-loss",
+        "acne-scars"
+      ]
+    },
+    {
+      "id": "thread-lifts",
+      "name": "Thread Lifts",
+      "category": "procedure",
+      "evidence": "B",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "skin-laxity",
+        "jowls"
+      ]
+    },
+    {
+      "id": "radiofrequency",
+      "name": "Radiofrequency",
+      "category": "energy-device",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "skin-laxity",
+        "jowls",
+        "neck"
+      ]
+    },
+    {
+      "id": "ultrasound",
+      "name": "Ultrasound (HIFU)",
+      "category": "energy-device",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "skin-lifting",
+        "brow",
+        "jawline"
+      ]
+    },
+    {
+      "id": "ipl",
+      "name": "IPL/Photofacial",
+      "category": "energy-device",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "solar-lentigines",
+        "redness",
+        "photoaging"
+      ]
+    },
+    {
+      "id": "q-switched-nd-yag",
+      "name": "Q-Switched Nd:YAG (1064nm)",
+      "category": "laser",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "melasma",
+        "PIH",
+        "solar-lentigines",
+        "tattoo-removal"
+      ]
+    },
+    {
+      "id": "pulsed-dye-laser",
+      "name": "Pulsed Dye Laser (585-595nm)",
+      "category": "laser",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "rosacea",
+        "vascular-lesions",
+        "redness"
+      ]
+    },
+    {
+      "id": "fractional-co2",
+      "name": "Fractional CO2 Laser",
+      "category": "laser",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "deep-wrinkles",
+        "acne-scars",
+        "pih"
+      ]
+    },
+    {
+      "id": "erbium-yag",
+      "name": "Erbium:YAG Laser",
+      "category": "laser",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "photoaging",
+        "scars",
+        "dark-skin-resurfacing"
+      ]
+    },
+    {
+      "id": "co2-laser",
+      "name": "CO2 Laser",
+      "category": "laser",
+      "evidence": "A",
+      "pregnancySafe": false,
+      "keyConditions": [
+        "deep-wrinkles",
+        "scars",
+        "rhinophyma"
+      ]
+    },
+    {
+      "id": "matrixyl-synthe6",
+      "name": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38)",
+      "category": "peptide",
+      "evidence": "B",
+      "concentration": "0.001-0.02%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "intrinsic-aging",
+        "photoaging",
+        "deep-wrinkles"
+      ],
+      "description": "Advanced peptide targeting six major structural skin components: Collagen I, III, IV, Fibronectin, Hyaluronic Acid, and Laminin-5. Particularly effective at plumping skin from within to smooth deep forehead lines and crow's feet."
+    },
+    {
+      "id": "leuphasil",
+      "name": "Leuphasil (Pentapeptide-18)",
+      "category": "neuro-peptide",
+      "evidence": "B",
+      "concentration": "0.001-0.05%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "expression-lines",
+        "aging"
+      ],
+      "description": "Works synergistically with Argireline via a different pathway. Mimics enkephalins (natural pain/stress modulators) to reduce calcium influx into the neuron, dampening the initial signal before it reaches the SNARE complex."
+    },
+    {
+      "id": "syn-ake",
+      "name": "Syn-ake (Dipeptide Diaminobutyroyl Benzylamide Diacetate)",
+      "category": "neuro-peptide",
+      "evidence": "B",
+      "concentration": "0.001-0.05%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "expression-lines",
+        "aging"
+      ],
+      "description": "Tripeptide mimicking the neuromuscular blocking mechanism found in Temple Viper snake venom. Targets the nicotinic acetylcholine receptor on muscle cell surfaces, keeping muscles relaxed to instantly soften expression lines."
+    },
+    {
+      "id": "relistase",
+      "name": "Relistase (Acetylarginyltryptophyl Diphenylglycine)",
+      "category": "anti-elastase-peptide",
+      "evidence": "B",
+      "concentration": "0.001-0.02%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "aging",
+        "sagging",
+        "loss-of-elasticity"
+      ],
+      "description": "Anti-elastase peptide. As we age, overabundance of elastase enzyme cuts up elastin fibers, causing skin to sag and lose snap. This peptide inhibits elastase, restoring facial contour definition and skin resilience."
+    },
+    {
+      "id": "lactococcus-ferment",
+      "name": "Lactococcus Ferment Lysate",
+      "category": "probiotic",
+      "evidence": "B",
+      "concentration": "0.1-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "barrier-function",
+        "aging",
+        "texture",
+        "sensitive-skin"
+      ],
+      "description": "Probiotic ingredient obtained from the lysate of Lactococcus lactis. Accelerates skin barrier recovery, optimizes epidermal growth making outer skin layers denser, and improves quality of cellular shedding (desquamation) giving glass-like texture."
+    },
+    {
+      "id": "sodium-hyaluronate",
+      "name": "Sodium Hyaluronate",
+      "category": "humectant",
+      "evidence": "A",
+      "concentration": "0.1-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "fine-lines",
+        "aging",
+        "photoaging"
+      ],
+      "description": "Water-soluble salt form of hyaluronic acid. Holds up to 1,000x its weight in water, pulling ambient moisture into the stratum corneum. Instantly expands intercellular space, cushioning skin, softening fine lines, and creating a smooth canvas for active peptide penetration."
+    },
+    {
+      "id": "pdrn",
+      "name": "PDRN (Polydeoxyribonucleotide / Salmon DNA)",
+      "category": "regenerative-biocompatible",
+      "evidence": "B+",
+      "concentration": "0.1-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "photoaging",
+        "intrinsic-aging",
+        "post-procedure",
+        "scarring",
+        "barrier-dysfunction",
+        "rosacea"
+      ],
+      "description": "PDRN is a nucleotide polymer derived from salmon sperm DNA (Oncorhynchus mykiss). It works through multiple pathways: Adenosine A2A receptor agonism, DNA salvage pathway, wound healing acceleration, and anti-aging effects.",
+      "mechanismOfAction": "PDRN is metabolized to adenosine, which activates the A2A receptor on fibroblasts and keratinocytes, triggering collagen synthesis, VEGF expression, and anti-inflammatory effects. Nucleotides from PDRN are recycled into new DNA synthesis, accelerating cell proliferation and tissue repair.",
+      "contraindications": [
+        "None known for topical use"
+      ]
+    },
+    {
+      "id": "panthenol",
+      "name": "Panthenol (Provitamin B5)",
+      "category": "vitamin",
+      "evidence": "A",
+      "concentration": "0.5-5%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "xerosis",
+        "atopic-dermatitis",
+        "sensitive-skin",
+        "barrier-dysfunction",
+        "post-procedure"
+      ],
+      "description": "Panthenol is a precursor to pantothenic acid (Vitamin B5), a critical component of Coenzyme A (CoA). When applied topically, it penetrates the stratum corneum and converts to pantothenic acid, which upregulates lipid synthesis, accelerates wound healing, reduces transepidermal water loss (TEWL), and reduces inflammation.",
+      "mechanismOfAction": "Panthenol penetrates the stratum corneum and converts to pantothenic acid (Vitamin B5), which is essential for fatty acid synthesis and Coenzyme A (CoA) function. This upregulates lipid synthesis for ceramide and sphingolipid production, accelerates wound healing by stimulating fibroblast proliferation, reduces TEWL by strengthening the lipid matrix, and has anti-inflammatory effects.",
+      "contraindications": [
+        "None known"
+      ]
+    },
+    {
+      "id": "ectoin",
+      "name": "Ectoin",
+      "category": "protective-extremolyte",
+      "evidence": "B",
+      "concentration": "0.3-2%",
+      "pregnancySafe": true,
+      "keyConditions": [
+        "photoaging",
+        "barrier-dysfunction",
+        "sensitive-skin",
+        "melasma",
+        "pollution-damage"
+      ],
+      "description": "Ectoin is a small amino acid derivative (extremolyte) produced by extremophilic bacteria to survive extreme environments. It works via kosmotropic effect, membrane stabilization, anti-inflammatory effects, anti-pollution protection, and DNA protection.",
+      "mechanismOfAction": "Ectoin structures water molecules around proteins and cell membranes, creating a protective hydration shell. It forms a protective layer around phospholipid bilayers, preventing lipid peroxidation and maintaining membrane integrity. It inhibits UVA-induced AP-1 activation and reduces MMP-1 expression. It prevents particulate matter (PM2.5) from penetrating skin and causing oxidative damage, and protects Langerhans cells from UV-induced DNA damage.",
+      "contraindications": [
+        "None known"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "aad-acne-2016",
+      "title": "Guidelines of care for the management of acne vulgaris",
+      "authors": "Zaenglein AL, et al.",
+      "journal": "J Am Acad Dermatol",
+      "year": 2016,
+      "pmid": "26897386"
+    },
+    {
+      "id": "aad-rosacea-2018",
+      "title": "Standard classification and pathophysiology of rosacea",
+      "authors": "Gallo RL, et al.",
+      "journal": "J Am Acad Dermatol",
+      "year": 2018,
+      "pmid": "28983022"
+    },
+    {
+      "id": "aad-eczema-2014",
+      "title": "Guidelines of care for the management of atopic dermatitis",
+      "authors": "Eichenfield LF, et al.",
+      "journal": "J Am Acad Dermatol",
+      "year": 2014,
+      "pmid": "24264290"
+    },
+    {
+      "id": "aad-psoriasis-2008",
+      "title": "Guidelines of care for the management of psoriasis",
+      "authors": "Menter A, et al.",
+      "journal": "J Am Acad Dermatol",
+      "year": 2008,
+      "pmid": "18423260"
+    },
+    {
+      "id": "melasma-treatment-2006",
+      "title": "Treatment of melasma",
+      "authors": "Rendon M, et al.",
+      "journal": "J Am Acad Dermatol",
+      "year": 2006,
+      "pmid": "16631968"
+    },
+    {
+      "id": "bolognia-dermatology-4th",
+      "title": "Dermatology",
+      "authors": "Bolognia JL, Schaffer JV, Cerroni L",
+      "publisher": "Elsevier",
+      "year": 2018
+    },
+    {
+      "id": "andrews-diseases-13th",
+      "title": "Andrews' Diseases of the Skin",
+      "authors": "James WD, et al.",
+      "publisher": "Elsevier",
+      "year": 2019
+    },
+    {
+      "id": "skin-of-color-society",
+      "title": "Skin of Color Society Guidelines",
+      "authors": "Various",
+      "year": 2023
+    },
+    {
+      "id": "gut-skin-axis-2021",
+      "title": "The Gut-Skin Axis: A Review of the Evidence",
+      "authors": "O'Neill CA, et al.",
+      "journal": "Nutrients",
+      "year": 2021,
+      "pmid": "33845696"
+    },
+    {
+      "id": "hormone-skin-connection-2020",
+      "title": "Hormones and Skin: The Endocrine System and Dermatology",
+      "authors": "Thiboutot D",
+      "journal": "Dermatol Clin",
+      "year": 2020,
+      "pmid": "32008668"
+    },
+    {
+      "id": "vitamin-d-acne-2016",
+      "title": "Vitamin D levels in acne vulgaris",
+      "authors": "Lim SK, et al.",
+      "journal": "J Dermatol",
+      "year": 2016,
+      "pmid": "26711091"
+    },
+    {
+      "id": "zinc-acne-2020",
+      "title": "Zinc therapy in dermatology: a review",
+      "authors": "Gupta M, et al.",
+      "journal": "Dermatol Ther",
+      "year": 2020,
+      "pmid": "31647558"
+    },
+    {
+      "id": "omega3-psoriasis-2019",
+      "title": "Omega-3 fatty acids in psoriasis",
+      "authors": "Millsop JW, et al.",
+      "journal": "J Dermatol Treat",
+      "year": 2019,
+      "pmid": "29166293"
+    },
+    {
+      "id": "probiotics-eczema-2018",
+      "title": "Probiotics for atopic dermatitis",
+      "authors": "Makrgeorgou A, et al.",
+      "journal": "Cochrane Database Syst Rev",
+      "year": 2018,
+      "pmid": "29741260"
+    },
+    {
+      "id": "tranexamic-acid-melasma-2017",
+      "title": "Oral tranexamic acid for melasma",
+      "authors": "Taraz M, et al.",
+      "journal": "J Eur Acad Dermatol Venereol",
+      "year": 2017,
+      "pmid": "28092449"
+    },
+    {
+      "id": "niacinamide-barrier-2005",
+      "title": "Topical niacinamide for barrier repair",
+      "authors": "Draelos ZD, et al.",
+      "journal": "Br J Dermatol",
+      "year": 2005,
+      "pmid": "15888134"
+    },
+    {
+      "id": "azelaic-acid-rosacea-2006",
+      "title": "Azelaic acid gel for papulopustular rosacea",
+      "authors": "Thiboutot D, et al.",
+      "journal": "Arch Dermatol",
+      "year": 2006,
+      "pmid": "16585382"
+    },
+    {
+      "id": "ivermectin-rosacea-2014",
+      "title": "Ivermectin cream for rosacea",
+      "authors": "Stein Gold L, et al.",
+      "journal": "J Drugs Dermatol",
+      "year": 2014,
+      "pmid": "25605878"
+    },
+    {
+      "id": "ruxolitinib-vitiligo-2022",
+      "title": "Ruxolitinib cream for vitiligo",
+      "authors": "Rosmarin D, et al.",
+      "journal": "N Engl J Med",
+      "year": 2022,
+      "pmid": "35081338"
+    },
+    {
+      "id": "vitamin-d-eczema-2012",
+      "title": "Vitamin D supplementation for atopic dermatitis",
+      "authors": "Samochocki Z, et al.",
+      "journal": "J Allergy Clin Immunol",
+      "year": 2012,
+      "pmid": "22385613"
+    }
+  ],
+  "evidenceLevels": {
+    "A": "Strong evidence - Multiple RCTs/meta-analyses with consistent results",
+    "A-": "Strong evidence - Multiple RCTs with minor limitations",
+    "B": "Moderate evidence - Limited RCTs, observational studies",
+    "B+": "Moderate-to-strong evidence - Good observational data",
+    "B-": "Moderate evidence with limitations",
+    "C": "Emerging evidence - Small studies, case series",
+    "C+": "Emerging evidence - Promising but limited",
+    "D": "Anecdotal/expert opinion"
+  },
+  "severityDefinitions": {
+    "mild": "Limited extent; minimal impact on quality of life; manageable with OTC/self-care",
+    "moderate": "Moderate extent; notable impact on quality of life; may require prescription treatment",
+    "severe": "Extensive involvement; significant impact on quality of life; requires specialist care",
+    "nodulocystic": "Deep, painful cystic lesions; high scarring risk; requires aggressive treatment"
+  },
+  "zoneDefinitions": {
+    "t-zone": "Forehead, nose, and chin area - typically oilier; common for acne and blackheads",
+    "cheeks": "Lateral facial areas - common for rosacea, dryness, and hyperpigmentation",
+    "forehead": "Upper face above eyebrows - common for acne, wrinkles, and melasma",
+    "chin": "Lower face below mouth - common for hormonal acne, dryness, and melasma",
+    "nose": "Central facial feature - common for blackheads, rosacea, and sebaceous filaments",
+    "jawline": "Lower face border - common for hormonal acne and cystic acne",
+    "neck": "Area below jaw to clavicles - common for acne, aging, and razor bumps",
+    "scalp": "Skin covering the cranium - common for seborrheic-dermatitis, psoriasis, and hair loss",
+    "chest": "Thoracic area - common for acne, sun damage, and folliculitis",
+    "back": "Dorsal trunk area - common for acne, folliculitis, and fungal acne",
+    "hands": "Dorsal and palmar surfaces - common for sun damage, dryness, and actinic keratosis",
+    "upper-arms": "Brachial area - common for keratosis-pilaris and dryness"
+  },
+  "fitzpatrickGuidance": {
+    "I-III": {
+      "description": "Fair skin that burns easily; lower melanin content",
+      "PIHrisk": "Low",
+      "scarringRisk": "Low",
+      "treatmentConsiderations": "Can tolerate higher-strength actives; aggressive treatments generally safe; high skin cancer risk"
+    },
+    "IV": {
+      "description": "Olive to light brown skin; moderate melanin",
+      "PIHrisk": "Moderate",
+      "scarringRisk": "Moderate",
+      "treatmentConsiderations": "Caution with aggressive treatments; patch test new actives; strict photoprotection"
+    },
+    "V": {
+      "description": "Brown skin; high melanin",
+      "PIHrisk": "High",
+      "scarringRisk": "Moderate-High",
+      "treatmentConsiderations": "Conservative approach; lower concentrations; PIH prevention paramount; physical sunscreen"
+    },
+    "VI": {
+      "description": "Dark brown to black skin; very high melanin",
+      "PIHrisk": "Very High",
+      "scarringRisk": "High",
+      "treatmentConsiderations": "Most conservative approach; PIH prevention is primary; physical sunscreen mandatory; professional treatments by experienced providers only"
+    }
+  },
+  "safetyFlags": {
+    "pregnancy": {
+      "safe": [
+        "azelaic-acid",
+        "niacinamide",
+        "vitamin-c",
+        "zinc-oxide",
+        "ceramides",
+        "hyaluronic-acid",
+        "glycerin",
+        "colloidal-oatmeal",
+        "shea-butter",
+        "squalane",
+        "centella-asiatica",
+        "allantoin",
+        "licorice-root",
+        "green-tea",
+        "bakuchiol",
+        "urea",
+        "petrolatum",
+        "jojoba-oil",
+        "sulfur",
+        "benzoyl-peroxide",
+        "ketoconazole",
+        "zinc-pyrithione",
+        "coal-tar"
+      ],
+      "avoid": [
+        "tretinoin",
+        "adapalene",
+        "tazarotene",
+        "isotretinoin",
+        "hydroquinone",
+        "salicylic-acid",
+        "spironolactone",
+        "doxycycline",
+        "minocycline",
+        "methotrexate",
+        "cyclosporine",
+        "apremilast",
+        "biologics",
+        "oral-contraceptives",
+        "fluorouracil",
+        "imiquimod",
+        "tirbanibulin",
+        "tranexamic-acid",
+        "diclofenac",
+        "botulinum-toxin",
+        "dermal-fillers",
+        "microneedling",
+        "laser-resurfacing",
+        "radiofrequency",
+        "ultrasound",
+        "ipl",
+        "q-switched-nd-yag",
+        "pulsed-dye-laser",
+        "fractional-co2",
+        "erbium-yag",
+        "co2-laser",
+        "cryotherapy",
+        "pdt",
+        "nb-uvb",
+        "excimer-laser"
+      ]
+    },
+    "breastfeeding": {
+      "safe": [
+        "azelaic-acid",
+        "niacinamide",
+        "vitamin-c",
+        "zinc-oxide",
+        "ceramides",
+        "hyaluronic-acid",
+        "glycerin",
+        "colloidal-oatmeal",
+        "shea-butter",
+        "squalane",
+        "centella-asiatica",
+        "allantoin",
+        "licorice-root",
+        "green-tea",
+        "bakuchiol",
+        "urea",
+        "petrolatum",
+        "jojoba-oil"
+      ],
+      "avoid": [
+        "tretinoin",
+        "adapalene",
+        "tazarotene",
+        "isotretinoin",
+        "hydroquinone",
+        "spironolactone",
+        "doxycycline",
+        "minocycline",
+        "methotrexate",
+        "cyclosporine",
+        "biologics",
+        "oral-contraceptives"
+      ]
+    },
+    "darkSkin": {
+      "highPIHrisk": [
+        "high-strength-ahas",
+        "high-strength-bhas",
+        "high-strength-retinoids",
+        "benzoyl-peroxide",
+        "hydroquinone",
+        "tca-peels",
+        "physical-scrubs",
+        "high-potency-steroids"
+      ],
+      "safe": [
+        "azelaic-acid",
+        "kojic-acid",
+        "niacinamide",
+        "vitamin-c",
+        "tranexamic-acid",
+        "mandelic-acid",
+        "lactic-acid",
+        "gluconolactone",
+        "peptides",
+        "centella-asiatica",
+        "licorice-root",
+        "arbutin",
+        "thiamidol"
+      ],
+      "procedures": [
+        "q-switched-nd-yag",
+        "pulsed-dye-laser",
+        "erbium-yag",
+        "microneedling",
+        "radiofrequency"
+      ],
+      "avoid": [
+        "ipl",
+        "fractional-co2",
+        "co2-laser",
+        "tca-peels",
+        "microdermabrasion",
+        "cryotherapy"
+      ]
+    }
+  },
+  "comorbidities": {
+    "acne": [
+      "hormonal-imbalance",
+      "pcos",
+      "insulin-resistance",
+      "depression",
+      "anxiety"
+    ],
+    "rosacea": [
+      "ocular-rosacea",
+      "depression",
+      "anxiety"
+    ],
+    "atopic-dermatitis": [
+      "asthma",
+      "allergic-rhinitis",
+      "food-allies",
+      "depression",
+      "anxiety"
+    ],
+    "psoriasis": [
+      "psoriatic-arthritis",
+      "cardiovascular-disease",
+      "metabolic-syndrome",
+      "type-2-diabetes",
+      "depression",
+      "crohns-disease"
+    ],
+    "melasma": [
+      "thyroid-disease",
+      "hormonal-imbalance"
+    ],
+    "vitiligo": [
+      "autoimmune-thyroid-disease",
+      "type-1-diabetes",
+      "pernicious-anemia",
+      "alopecia-areata"
+    ]
+  },
+  "lifestyleFactors": {
+    "sleep": {
+      "description": "Sleep is essential for skin repair, collagen synthesis, and barrier function",
+      "recommendation": "7-9 hours of quality sleep; side sleeping increases wrinkle formation",
+      "skinImpact": "Growth hormone release during sleep supports repair; cortisol increases with poor sleep"
+    },
+    "stress": {
+      "description": "Chronic stress increases cortisol, which degrades collagen and triggers inflammation",
+      "recommendation": "Stress management techniques; cortisol testing if chronic stress",
+      "skinImpact": "Increased MMP-1, MMP-3, MMP-9; collagen breakdown; triggers acne, eczema, psoriasis, melasma"
+    },
+    "diet": {
+      "description": "Diet significantly impacts skin health through inflammation, glycation, and nutrient supply",
+      "recommendation": "Anti-inflammatory diet; low glycemic index; adequate protein; omega-3 fatty acids",
+      "skinImpact": "High glycemic load worsens acne; dairy may trigger acne in some; antioxidants protect against photoaging"
+    },
+    "exercise": {
+      "description": "Regular exercise improves circulation, reduces stress, and supports skin health",
+      "recommendation": "150 minutes moderate exercise weekly; wash face after sweating",
+      "skinImpact": "Improved blood flow delivers nutrients; sweat can trigger acne if not washed off"
+    },
+    "sunProtection": {
+      "description": "UV radiation is the primary driver of photoaging, skin cancer, and worsens many conditions",
+      "recommendation": "Daily SPF 30+; reapply every 2 hours outdoors; seek shade; wear protective clothing",
+      "skinImpact": "UVA causes photoaging; UVB causes sunburn; both contribute to skin cancer; UV worsens PIH, melasma"
+    },
+    "smoking": {
+      "description": "Smoking accelerates skin aging, impairs wound healing, and worsens many skin conditions",
+      "recommendation": "Smoking cessation",
+      "skinImpact": "Reduces blood flow; generates ROS; degrades collagen; worsens psoriasis, acne, wound healing"
+    },
+    "alcohol": {
+      "description": "Excessive alcohol dehydrates skin, increases inflammation, and worsens many skin conditions",
+      "recommendation": "Limit alcohol; avoid if rosacea triggers",
+      "skinImpact": "Dehydration; vasodilation (worsens rosacea); increases psoriasis severity"
+    }
+  },
+  "gutSkinAxis": {
+    "description": "The gut-skin axis describes the bidirectional relationship between gut microbiome and skin health",
+    "mechanisms": [
+      "Systemic inflammation from leaky gut",
+      "Immune modulation via gut microbiome",
+      "Short-chain fatty acid production (butyrate, propionate)",
+      "Neuroendocrine signaling (HPA axis)",
+      "Direct microbial metabolite effects on skin"
+    ],
+    "conditionsAffected": [
+      "acne",
+      "rosacea",
+      "eczema",
+      "psoriasis",
+      "vitiligo"
+    ],
+    "supportingEvidence": "Strong emerging evidence for gut microbiome interventions improving skin conditions",
+    "interventions": [
+      "Probiotics (Lactobacillus, Bifidobacterium)",
+      "Prebiotics (fiber, inulin)",
+      "Fermented foods",
+      "Elimination diets for food sensitivities",
+      "GI-MAP or comprehensive stool analysis"
+    ]
+  },
+  "hormoneSkinConnection": {
+    "description": "Hormones significantly impact skin through androgens, estrogens, cortisol, and thyroid hormones",
+    "androgens": {
+      "effect": "Increase sebum production; trigger acne; contribute to hirsutism",
+      "conditions": [
+        "acne",
+        "hormonal-acne",
+        "hirsutism"
+      ],
+      "management": "Spironolactone, oral contraceptives, anti-androgens"
+    },
+    "estrogens": {
+      "effect": "Increase collagen, hyaluronic acid, skin thickness; improve barrier function",
+      "conditions": [
+        "aging",
+        "melasma"
+      ],
+      "management": "HRT (individualized), phytoestrogens, topical estrogens"
+    },
+    "cortisol": {
+      "effect": "Degrades collagen (MMP activation); triggers inflammation; worsens acne, eczema, psoriasis, melasma",
+      "conditions": [
+        "acne",
+        "eczema",
+        "psoriasis",
+        "melasma",
+        "aging"
+      ],
+      "management": "Stress reduction, adaptogens, cortisol testing"
+    },
+    "thyroid": {
+      "effect": "Regulates skin metabolism, hydration, and cell turnover",
+      "conditions": [
+        "xerosis",
+        "myxedema",
+        "hair-loss"
+      ],
+      "management": "Thyroid hormone replacement if deficient"
+    },
+    "insulin": {
+      "effect": "Insulin resistance increases androgens and IGF-1, worsening acne and skin aging",
+      "conditions": [
+        "acne",
+        "hormonal-acne",
+        "acanthosis-nigricans"
+      ],
+      "management": "Low glycemic diet, inositol, metformin if indicated"
+    }
+  },
+  "supplementProtocols": {
+    "zincForAcne": {
+      "dose": "25-30mg zinc picolinate or gluconate",
+      "duration": "3 months",
+      "mechanism": "5-alpha reductase inhibition; anti-inflammatory; immune support",
+      "evidence": "A",
+      "cautions": "Take with copper 2-3mg to prevent deficiency; nausea if empty stomach"
+    },
+    "omega3ForInflammation": {
+      "dose": "1000-2000mg EPA/DHA combined",
+      "duration": "Ongoing",
+      "mechanism": "Reduces PGE2, LTB4; anti-inflammatory; improves insulin sensitivity",
+      "evidence": "A",
+      "cautions": "May increase bleeding time at high doses; refrigerate to prevent oxidation"
+    },
+    "vitaminDForSkin": {
+      "dose": "2000-4000 IU D3",
+      "duration": "Ongoing; check 25(OH)D levels",
+      "mechanism": "Immune modulation; antimicrobial peptides; barrier function",
+      "evidence": "A",
+      "cautions": "Test levels first; toxicity rare but possible at very high doses"
+    },
+    "probioticsForEczema": {
+      "dose": "10-50 billion CFU multi-strain (Lactobacillus, Bifidobacterium)",
+      "duration": "3-6 months",
+      "mechanism": "Gut-skin axis; immune modulation; barrier support",
+      "evidence": "B",
+      "cautions": "Start low to avoid GI side effects; choose reputable brands"
+    },
+    "spearmintForHormonalAcne": {
+      "dose": "2 cups spearmint tea daily OR 400mg extract",
+      "duration": "3 months",
+      "mechanism": "Anti-androgen; reduces free testosterone",
+      "evidence": "B",
+      "cautions": "May affect menstrual cycle; avoid in pregnancy"
+    },
+    "inositolForPCOS": {
+      "dose": "2000-4000mg myo-inositol (or 40:1 myo:D-chiro ratio)",
+      "duration": "3-6 months",
+      "mechanism": "Improves insulin sensitivity; restores ovulation",
+      "evidence": "A",
+      "cautions": "Generally well-tolerated; may cause mild GI upset"
+    },
+    "collagenForAging": {
+      "dose": "2.5-10g hydrolyzed collagen peptides",
+      "duration": "12+ weeks",
+      "mechanism": "Provides amino acids for collagen synthesis; may stimulate fibroblasts",
+      "evidence": "B",
+      "cautions": "Source matters (marine, bovine, porcine); check for allergies"
+    },
+    "polypodiumForPhotoprotection": {
+      "dose": "240mg daily",
+      "duration": "Ongoing",
+      "mechanism": "Oral photoprotectant; antioxidant; reduces UV-induced damage",
+      "evidence": "B",
+      "cautions": "Not a replacement for sunscreen; adjunctive only"
+    },
+    "tranexamicAcidForMelasma": {
+      "dose": "250mg 2x daily (oral); 2-5% topical",
+      "duration": "3 months oral; ongoing topical",
+      "mechanism": "Plasmin inhibition; reduces melanocyte stimulation",
+      "evidence": "A",
+      "cautions": "Contraindicated with history of thrombosis; requires medical supervision"
+    }
+  },
+  "pregnancySafety": {
+    "firstTrimester": "Avoid all retinoids, hydroquinone, high-dose salicylic acid, oral medications unless specifically approved",
+    "secondTrimester": "Continue avoiding retinoids; some topical antibiotics may be acceptable with physician guidance",
+    "thirdTrimester": "Same as second trimester; prepare for postpartum skin changes",
+    "postpartum": "Can resume most treatments after breastfeeding is established; check individual medication safety",
+    "safeCategories": [
+      "azelaic-acid",
+      "niacinamide",
+      "vitamin-c",
+      "zinc-oxide",
+      "ceramides",
+      "hyaluronic-acid",
+      "glycerin",
+      "colloidal-oatmeal",
+      "physical-sunscreen"
+    ],
+    "avoidCategories": [
+      "retinoids",
+      "hydroquinone",
+      "salicylic-acid-high-dose",
+      "oral-antibiotics",
+      "spironolactone",
+      "isotretinoin",
+      "chemical-sunscreens"
+    ]
+  },
+  "metadata": {
+    "version": "1.1",
+    "createdDate": "2026-05-15",
+    "author": "SKINgenius Research",
+    "reviewCycle": "Quarterly or upon new guideline publication",
+    "nextReview": "2026-08-15",
+    "status": "Active",
+    "classification": "Internal Use - Product Development",
+    "sources": [
+      "American Academy of Dermatology Clinical Guidelines",
+      "Bolognia JL, Schaffer JV, Cerroni L. Dermatology. 4th ed. Elsevier; 2018",
+      "James WD, et al. Andrews' Diseases of the Skin. 13th ed. Elsevier; 2019",
+      "Skin of Color Society Guidelines",
+      "PubMed indexed research articles"
+    ]
+  }
+}

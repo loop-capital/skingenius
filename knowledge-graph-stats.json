@@ -1,0 +1,27 @@
+{
+  "nodesByType": {
+    "condition": 9,
+    "rootCause": 7,
+    "treatment": 4,
+    "ingredient": 7,
+    "supplement": 6,
+    "nutrient": 6,
+    "lifestyle": 5,
+    "fitzpatrickType": 6,
+    "medication": 3,
+    "procedure": 3
+  },
+  "edgesByType": {
+    "rootCause": 13,
+    "treatment": 6,
+    "ingredient": 15,
+    "supplement": 6,
+    "nutrient": 5,
+    "lifestyle": 9,
+    "fitzpatrick": 12,
+    "skinEffect": 1,
+    "treats": 9
+  },
+  "totalNodes": 59,
+  "totalEdges": 76
+}

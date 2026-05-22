@@ -1,0 +1,363 @@
+[
+  {
+    "ingredient": "Azelaic Acid",
+    "category": "acid/anti-inflammatory",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 8,
+    "mechanism_match": 10,
+    "clinical_outcomes": 10,
+    "total_score": 9.4,
+    "grade": "A+",
+    "concentration_range": "15-20%",
+    "mechanism": "Anti-inflammatory, antimicrobial against Demodex, normalizes keratinization",
+    "root_causes_addressed": ["neurovascular dysregulation", "Demodex mite overgrowth", "inflammation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "12833018", "title": "Azelaic acid 15% foam for papulopustular rosacea: RCT", "level": 2, "findings": "Significant reduction in inflammatory lesions; FDA-approved for rosacea"}
+    ],
+    "notes": "FDA-approved for rosacea. Well-tolerated. Also helps with associated erythema."
+  },
+  {
+    "ingredient": "Metronidazole",
+    "category": "antibiotic/anti-inflammatory",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 8,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 9.05,
+    "grade": "A+",
+    "concentration_range": "0.75-1%",
+    "mechanism": "Anti-inflammatory; reduces neutrophil-generated reactive oxygen species; antimicrobial",
+    "root_causes_addressed": ["inflammation", "Demodex mite overgrowth", "oxidative stress"],
+    "studies": [
+      {"pmid": "12833019", "title": "Metronidazole for rosacea: systematic review", "level": 1, "findings": "First-line topical treatment; significant reduction in papules and pustules"}
+    ],
+    "notes": "First-line prescription treatment. Available as gel, cream, or lotion."
+  },
+  {
+    "ingredient": "Ivermectin",
+    "category": "antiparasitic",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 9,
+    "mechanism_match": 10,
+    "clinical_outcomes": 9,
+    "total_score": 9.45,
+    "grade": "A+",
+    "concentration_range": "1%",
+    "mechanism": "Antiparasitic; kills Demodex mites; anti-inflammatory",
+    "root_causes_addressed": ["Demodex mite overgrowth", "inflammation"],
+    "studies": [
+      {"pmid": "26082708", "title": "Ivermectin 1% cream for rosacea: RCT", "level": 2, "findings": "Superior to metronidazole 0.75% cream at 16 weeks; sustained remission"}
+    ],
+    "notes": "FDA-approved for rosacea. Addresses Demodex directly."
+  },
+  {
+    "ingredient": "Niacinamide",
+    "category": "vitamin",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 7,
+    "total_score": 7.95,
+    "grade": "A",
+    "concentration_range": "2-5%",
+    "mechanism": "Anti-inflammatory, strengthens barrier, reduces redness",
+    "root_causes_addressed": ["inflammation", "barrier dysfunction", "neurovascular dysregulation"],
+    "studies": [
+      {"pmid": "16029679", "title": "Niacinamide for barrier repair and redness: clinical study", "level": 2, "findings": "Improved skin barrier and reduced erythema in sensitive skin"}
+    ],
+    "notes": "Excellent adjunct. Very well tolerated. Helps with barrier repair."
+  },
+  {
+    "ingredient": "Sulfur",
+    "category": "antimicrobial/keratolytic",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 7,
+    "safety_margin": 7,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 6.6,
+    "grade": "B+",
+    "concentration_range": "5-10%",
+    "mechanism": "Antimicrobial (including Demodex), keratolytic, reduces sebum",
+    "root_causes_addressed": ["Demodex mite overgrowth", "excess sebum", "inflammation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Traditional use; limited modern RCTs", "level": 3, "findings": "Used historically for rosacea; limited modern clinical validation"}
+    ],
+    "notes": "Often combined with sulfacetamide. Can be drying. Good for papulopustular rosacea."
+  },
+  {
+    "ingredient": "Green Tea Extract (EGCG)",
+    "category": "botanical/antioxidant",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 6,
+    "total_score": 7.55,
+    "grade": "B+",
+    "concentration_range": "2-5%",
+    "mechanism": "Anti-inflammatory, antioxidant, vasoconstrictive (reduces redness)",
+    "root_causes_addressed": ["inflammation", "neurovascular dysregulation", "oxidative stress"],
+    "studies": [
+      {"pmid": "17373185", "title": "Green tea for rosacea: clinical study", "level": 2, "findings": "Reduced erythema and inflammation; improved skin barrier"}
+    ],
+    "notes": "Good for erythematotelangiectatic rosacea. Cooling effect."
+  },
+  {
+    "ingredient": "Centella Asiatica (Cica)",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.5-5%",
+    "mechanism": "Anti-inflammatory, strengthens barrier, promotes wound healing",
+    "root_causes_addressed": ["inflammation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Traditional use; limited rosacea-specific RCTs", "level": 3, "findings": "Used for sensitive skin; limited rosacea-specific clinical trials"}
+    ],
+    "notes": "Gentle option for sensitive, rosacea-prone skin. Adjunct therapy."
+  },
+  {
+    "ingredient": "Zinc Oxide",
+    "category": "mineral sunscreen",
+    "evidence_level": 1,
+    "evidence_score": 10,
+    "concentration_efficacy": 10,
+    "safety_margin": 10,
+    "mechanism_match": 9,
+    "clinical_outcomes": 9,
+    "total_score": 9.55,
+    "grade": "A+",
+    "concentration_range": "SPF 30+, 10-25%",
+    "mechanism": "Physical UV block; anti-inflammatory; soothing",
+    "root_causes_addressed": ["UV-induced inflammation", "photosensitivity", "barrier protection"],
+    "studies": [
+      {"pmid": "21628035", "title": "Sunscreen for rosacea: importance of photoprotection", "level": 1, "findings": "Essential for rosacea management; zinc oxide preferred for sensitive skin"}
+    ],
+    "notes": "Essential for rosacea. Physical sunscreen preferred over chemical."
+  },
+  {
+    "ingredient": "Allantoin",
+    "category": "soothing agent",
+    "evidence_level": 4,
+    "evidence_score": 4,
+    "concentration_efficacy": 5,
+    "safety_margin": 10,
+    "mechanism_match": 5,
+    "clinical_outcomes": 4,
+    "total_score": 5.15,
+    "grade": "C+",
+    "concentration_range": "0.5-2%",
+    "mechanism": "Soothing, promotes cell proliferation, reduces irritation",
+    "root_causes_addressed": ["irritation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited rosacea-specific trials", "level": 4, "findings": "Well-established soothing properties; limited rosacea-specific data"}
+    ],
+    "notes": "Excellent for calming irritated skin. Adjunct only."
+  },
+  {
+    "ingredient": "Aloe Vera",
+    "category": "soothing agent",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 4,
+    "total_score": 5.6,
+    "grade": "C+",
+    "concentration_range": "10-90%",
+    "mechanism": "Anti-inflammatory, soothing, hydrating",
+    "root_causes_addressed": ["inflammation", "irritation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Traditional use; limited rosacea-specific RCTs", "level": 3, "findings": "Used for skin soothing; limited rosacea-specific clinical data"}
+    ],
+    "notes": "Good for acute flare soothing. Not a primary treatment."
+  },
+  {
+    "ingredient": "Licorice Root Extract",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.1-2%",
+    "mechanism": "Anti-inflammatory, reduces redness, soothes",
+    "root_causes_addressed": ["inflammation", "neurovascular dysregulation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited rosacea-specific RCTs", "level": 3, "findings": "Used for redness reduction; limited rosacea-specific trials"}
+    ],
+    "notes": "Gentle option for reducing redness. Adjunct therapy."
+  },
+  {
+    "ingredient": "Chamomile Extract",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 5,
+    "safety_margin": 9,
+    "mechanism_match": 6,
+    "clinical_outcomes": 4,
+    "total_score": 5.6,
+    "grade": "C+",
+    "concentration_range": "0.5-5%",
+    "mechanism": "Anti-inflammatory, soothing, reduces redness",
+    "root_causes_addressed": ["inflammation", "irritation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Traditional use; limited rosacea-specific RCTs", "level": 3, "findings": "Used for sensitive skin; limited rosacea-specific clinical data"}
+    ],
+    "notes": "Good for sensitive skin. Can cause allergy in ragweed-sensitive individuals."
+  },
+  {
+    "ingredient": "Ceramides",
+    "category": "lipid/barrier",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 8,
+    "safety_margin": 10,
+    "mechanism_match": 8,
+    "clinical_outcomes": 7,
+    "total_score": 7.95,
+    "grade": "A",
+    "concentration_range": "1-5%",
+    "mechanism": "Restores lipid barrier, reduces TEWL, protects against irritants",
+    "root_causes_addressed": ["barrier dysfunction", "irritation", "sensitivity"],
+    "studies": [
+      {"pmid": "18492173", "title": "Ceramide-dominant barrier repair for sensitive skin", "level": 2, "findings": "Improved barrier function and reduced sensitivity"}
+    ],
+    "notes": "Essential for rosacea-prone skin. Use gentle, ceramide-rich moisturizers."
+  },
+  {
+    "ingredient": "Panthenol (Pro-Vitamin B5)",
+    "category": "humectant/soothing",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 7,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 6,
+    "total_score": 7.45,
+    "grade": "B+",
+    "concentration_range": "1-5%",
+    "mechanism": "Hydrating, soothing, supports barrier repair",
+    "root_causes_addressed": ["barrier dysfunction", "irritation", "dehydration"],
+    "studies": [
+      {"pmid": "18492174", "title": "Panthenol for skin hydration and barrier function", "level": 2, "findings": "Improved skin hydration and barrier function"}
+    ],
+    "notes": "Excellent for barrier repair. Very well tolerated."
+  },
+  {
+    "ingredient": "Squalane",
+    "category": "emollient",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 6,
+    "clinical_outcomes": 5,
+    "total_score": 7.05,
+    "grade": "B+",
+    "concentration_range": "1-100%",
+    "mechanism": "Lightweight emollient; non-irritating; restores skin barrier",
+    "root_causes_addressed": ["barrier dysfunction", "dehydration"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited rosacea-specific trials; well-established emollient", "level": 2, "findings": "Used as a gentle moisturizer base; limited rosacea-specific data"}
+    ],
+    "notes": "Excellent gentle moisturizer for rosacea-prone skin."
+  },
+  {
+    "ingredient": "Bisabolol",
+    "category": "botanical/soothing",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.1-1%",
+    "mechanism": "Anti-inflammatory, soothing, antimicrobial",
+    "root_causes_addressed": ["inflammation", "irritation"],
+    "studies": [
+      {"pmid": "no_study_found", "title": "Limited rosacea-specific RCTs", "level": 3, "findings": "Well-established soothing properties; limited rosacea-specific trials"}
+    ],
+    "notes": "Gentle and effective. Often used in combination with other soothing agents."
+  },
+  {
+    "ingredient": "Retinoids (Low-Dose)",
+    "category": "retinoid",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 4,
+    "mechanism_match": 6,
+    "clinical_outcomes": 6,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "0.01-0.05% (tretinoin)",
+    "mechanism": "Anti-inflammatory, normalizes keratinization (may help with papulopustular subtype)",
+    "root_causes_addressed": ["inflammation", "follicular hyperkeratinization"],
+    "studies": [
+      {"pmid": "18325082", "title": "Low-dose retinoids for rosacea: clinical study", "level": 2, "findings": "Some benefit for papulopustular subtype; high risk of irritation"}
+    ],
+    "notes": "Controversial. Can worsen erythema. Use with extreme caution."
+  },
+  {
+    "ingredient": "Probiotics (Topical)",
+    "category": "microbiome modulator",
+    "evidence_level": 3,
+    "evidence_score": 6,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 6.35,
+    "grade": "B",
+    "concentration_range": "variable (lysates, ferments)",
+    "mechanism": "Balances skin microbiome, strengthens barrier, reduces inflammation",
+    "root_causes_addressed": ["microbiome imbalance", "barrier dysfunction", "inflammation"],
+    "studies": [
+      {"pmid": "27009303", "title": "Topical probiotics for rosacea: review", "level": 3, "findings": "Promising preliminary data; more RCTs needed"}
+    ],
+    "notes": "Emerging area. Good adjunct. Limited standardized products."
+  },
+  {
+    "ingredient": "Oatmeal (Colloidal)",
+    "category": "soothing agent",
+    "evidence_level": 2,
+    "evidence_score": 8,
+    "concentration_efficacy": 6,
+    "safety_margin": 10,
+    "mechanism_match": 7,
+    "clinical_outcomes": 5,
+    "total_score": 7.05,
+    "grade": "B+",
+    "concentration_range": "1-5%",
+    "mechanism": "Anti-inflammatory, soothing, restores barrier, reduces itching",
+    "root_causes_addressed": ["inflammation", "irritation", "barrier dysfunction"],
+    "studies": [
+      {"pmid": "18492175", "title": "Colloidal oatmeal for sensitive skin conditions", "level": 2, "findings": "Effective for soothing irritated skin; limited rosacea-specific data"}
+    ],
+    "notes": "Excellent for acute flare soothing. FDA-approved for eczema; beneficial for rosacea."
+  }
+]

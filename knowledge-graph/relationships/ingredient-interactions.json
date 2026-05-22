@@ -1,0 +1,872 @@
+[
+  {
+    "from": "l-ascorbic-acid",
+    "to": "ferulic-acid",
+    "type": "synergistic",
+    "note": "doubles photoprotection efficacy"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "vitamin-e",
+    "type": "synergistic",
+    "note": "works together for antioxidant protection"
+  },
+  {
+    "from": "retinol",
+    "to": "benzoyl-peroxide",
+    "type": "antagonistic",
+    "note": "BPO oxidizes retinol, reducing efficacy"
+  },
+  {
+    "from": "retinol",
+    "to": "glycolic-acid",
+    "type": "caution",
+    "note": "increased irritation risk, use at different times"
+  },
+  {
+    "from": "retinol",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "niacinamide reduces retinol irritation"
+  },
+  {
+    "from": "niacinamide",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "debunked old myth, they are compatible"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "salicylic-acid",
+    "type": "caution",
+    "note": "increased irritation, alternate use recommended"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "l-ascorbic-acid",
+    "type": "antagonistic",
+    "note": "copper oxidizes vitamin C"
+  },
+  {
+    "from": "retinol",
+    "to": "zinc-oxide",
+    "type": "synergistic",
+    "note": "sunscreen essential with retinoid use"
+  },
+  {
+    "from": "niacinamide",
+    "to": "zinc-pca",
+    "type": "synergistic",
+    "note": "zinc enhances anti-inflammatory effect"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "complementary for rosacea and hyperpigmentation"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "salicylic-acid",
+    "type": "caution",
+    "note": "can be drying and irritating together"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "enhanced brightening when combined"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Kligman's trio - enhanced penetration"
+  },
+  {
+    "from": "aha",
+    "to": "sunscreen",
+    "type": "caution",
+    "note": "AHA increases photosensitivity, SPF essential"
+  },
+  {
+    "from": "retinol",
+    "to": "pregnancy",
+    "type": "antagonistic",
+    "note": "retinoids contraindicated in pregnancy"
+  },
+  {
+    "from": "retinol",
+    "to": "salicylic-acid",
+    "type": "caution",
+    "note": "May over-exfoliate; start with low frequencies"
+  },
+  {
+    "from": "retinol",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Hydration reduces retinol-induced dryness"
+  },
+  {
+    "from": "tretinoin",
+    "to": "benzoyl-peroxide",
+    "type": "antagonistic",
+    "note": "Inactivates tretinoin chemically; separate by 12+ hours"
+  },
+  {
+    "from": "tretinoin",
+    "to": "azelaic-acid",
+    "type": "synergistic",
+    "note": "Combined in prescription creams for acne and hyperpigmentation"
+  },
+  {
+    "from": "tretinoin",
+    "to": "glycolic-acid",
+    "type": "caution",
+    "note": "Increases irritation significantly"
+  },
+  {
+    "from": "adapalene",
+    "to": "benzoyl-peroxide",
+    "type": "synergistic",
+    "note": "Epiduo combines adapalene 0.1% + BP 2.5%; stable together"
+  },
+  {
+    "from": "adapalene",
+    "to": "salicylic-acid",
+    "type": "caution",
+    "note": "May increase dryness"
+  },
+  {
+    "from": "niacinamide",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Excellent combination for acne"
+  },
+  {
+    "from": "niacinamide",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Hydration + barrier support"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "benzoyl-peroxide",
+    "type": "antagonistic",
+    "note": "BP oxidizes vitamin C; separate routines"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "retinol",
+    "type": "caution",
+    "note": "Can use together if skin tolerates; sensitive skin should separate AM/PM"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "retinol",
+    "type": "caution",
+    "note": "High irritation risk; alternate days"
+  },
+  {
+    "from": "salicylic-acid",
+    "to": "glycolic-acid",
+    "type": "caution",
+    "note": "Redundant exfoliation; avoid same routine"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "lactic-acid",
+    "type": "caution",
+    "note": "Redundant; no additional benefit"
+  },
+  {
+    "from": "glycolic-acid",
+    "to": "l-ascorbic-acid",
+    "type": "caution",
+    "note": "Both acidic; may over-exfoliate"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Complementary hydration and exfoliation"
+  },
+  {
+    "from": "lactic-acid",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Niacinamide supports barrier while lactic acid exfoliates"
+  },
+  {
+    "from": "hyaluronic-acid",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Hydration + antioxidant protection"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "l-ascorbic-acid",
+    "type": "antagonistic",
+    "note": "Oxidizes vitamin C; separate routines"
+  },
+  {
+    "from": "benzoyl-peroxide",
+    "to": "tretinoin",
+    "type": "antagonistic",
+    "note": "Chemical inactivation; separate by 12+ hours"
+  },
+  {
+    "from": "azelaic-acid",
+    "to": "l-ascorbic-acid",
+    "type": "caution",
+    "note": "Both acidic; may irritate sensitive skin"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "titanium-dioxide",
+    "type": "synergistic",
+    "note": "Combined for broader UV protection"
+  },
+  {
+    "from": "zinc-oxide",
+    "to": "iron-oxides",
+    "type": "synergistic",
+    "note": "Enhances visible light/blue light protection"
+  },
+  {
+    "from": "titanium-dioxide",
+    "to": "iron-oxides",
+    "type": "synergistic",
+    "note": "Improves visible light protection and tint"
+  },
+  {
+    "from": "ceramides",
+    "to": "cholesterol",
+    "type": "synergistic",
+    "note": "Optimal barrier repair requires 1:2:1 ceramides:cholesterol:fatty acids ratio"
+  },
+  {
+    "from": "ceramides",
+    "to": "fatty-acids",
+    "type": "synergistic",
+    "note": "Essential trio for barrier restoration"
+  },
+  {
+    "from": "ceramides",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Niacinamide stimulates ceramide synthesis"
+  },
+  {
+    "from": "matrixyl",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Complementary collagen stimulation pathways"
+  },
+  {
+    "from": "matrixyl",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Combined collagen support"
+  },
+  {
+    "from": "argireline",
+    "to": "matrixyl",
+    "type": "synergistic",
+    "note": "Combined signal + neuropeptide approach"
+  },
+  {
+    "from": "argireline",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Comprehensive anti-aging regimen"
+  },
+  {
+    "from": "squalane",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Complementary barrier lipids"
+  },
+  {
+    "from": "squalane",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Soothes retinol-induced dryness"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary soothing and barrier support"
+  },
+  {
+    "from": "centella-asiatica",
+    "to": "allantoin",
+    "type": "synergistic",
+    "note": "Combined wound healing and soothing"
+  },
+  {
+    "from": "snail-mucin",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary in K-beauty routines"
+  },
+  {
+    "from": "snail-mucin",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Combined hydration boost"
+  },
+  {
+    "from": "propolis",
+    "to": "honey",
+    "type": "synergistic",
+    "note": "Complementary bee-derived ingredients"
+  },
+  {
+    "from": "propolis",
+    "to": "tea-tree-oil",
+    "type": "synergistic",
+    "note": "Combined antimicrobial action"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "benzoyl-peroxide",
+    "type": "caution",
+    "note": "May be overly drying combined"
+  },
+  {
+    "from": "tea-tree-oil",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Combined acne-fighting action"
+  },
+  {
+    "from": "hydroquinone",
+    "to": "azelaic-acid",
+    "type": "caution",
+    "note": "Both treat hyperpigmentation; may irritate combined"
+  },
+  {
+    "from": "kojic-acid",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening combination"
+  },
+  {
+    "from": "kojic-acid",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary melanin inhibition pathways"
+  },
+  {
+    "from": "arbutin",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening stack"
+  },
+  {
+    "from": "arbutin",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Multiple melanin inhibition pathways"
+  },
+  {
+    "from": "tranexamic-acid",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Comprehensive brightening approach"
+  },
+  {
+    "from": "tranexamic-acid",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Multiple pathways to reduce pigmentation"
+  },
+  {
+    "from": "ferulic-acid",
+    "to": "vitamin-e",
+    "type": "synergistic",
+    "note": "Triple antioxidant network"
+  },
+  {
+    "from": "ferulic-acid",
+    "to": "resveratrol",
+    "type": "synergistic",
+    "note": "Enhanced antioxidant cascade"
+  },
+  {
+    "from": "vitamin-e",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Compatible and complementary"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Combined antioxidant protection"
+  },
+  {
+    "from": "green-tea-extract",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary anti-inflammatory action"
+  },
+  {
+    "from": "resveratrol",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced antioxidant network"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "retinol",
+    "type": "caution",
+    "note": "Redundant; use one or the other"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening and antioxidant"
+  },
+  {
+    "from": "bakuchiol",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Comprehensive barrier and anti-aging support"
+  },
+  {
+    "from": "copper-peptides",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Complementary collagen stimulation"
+  },
+  {
+    "from": "growth-factors",
+    "to": "peptides",
+    "type": "synergistic",
+    "note": "Complementary cell signaling"
+  },
+  {
+    "from": "growth-factors",
+    "to": "retinol",
+    "type": "caution",
+    "note": "May over-stimulate; use alternately"
+  },
+  {
+    "from": "adenosine",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Complementary anti-aging"
+  },
+  {
+    "from": "adenosine",
+    "to": "peptides",
+    "type": "synergistic",
+    "note": "Combined collagen support"
+  },
+  {
+    "from": "allantoin",
+    "to": "panthenol",
+    "type": "synergistic",
+    "note": "Classic soothing duo"
+  },
+  {
+    "from": "bisabolol",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Reduces retinol irritation"
+  },
+  {
+    "from": "bisabolol",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhances vitamin C penetration"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Combined barrier repair"
+  },
+  {
+    "from": "colloidal-oatmeal",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary anti-inflammatory action"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Combined acne treatment (multi-acid approach)"
+  },
+  {
+    "from": "mandelic-acid",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Soothing support during exfoliation"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Gentle enough to combine"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Ideal for sensitive skin routines"
+  },
+  {
+    "from": "gluconolactone",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Combined gentle exfoliation + hydration"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Supports barrier during use"
+  },
+  {
+    "from": "retinaldehyde",
+    "to": "l-ascorbic-acid",
+    "type": "caution",
+    "note": "May irritate if combined; separate AM/PM"
+  },
+  {
+    "from": "sap",
+    "to": "vitamin-e",
+    "type": "synergistic",
+    "note": "Enhanced antioxidant protection"
+  },
+  {
+    "from": "map",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Enhanced hydration + brightening"
+  },
+  {
+    "from": "ascorbyl-palmitate",
+    "to": "squalane",
+    "type": "synergistic",
+    "note": "Oil-soluble pairing"
+  },
+  {
+    "from": "madecassoside",
+    "to": "allantoin",
+    "type": "synergistic",
+    "note": "Enhanced wound healing"
+  },
+  {
+    "from": "ursolic-acid",
+    "to": "peptides",
+    "type": "synergistic",
+    "note": "Comprehensive anti-aging"
+  },
+  {
+    "from": "glycine-soja",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary brightening"
+  },
+  {
+    "from": "licorice-root",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening"
+  },
+  {
+    "from": "panthenol",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Combined deep hydration"
+  },
+  {
+    "from": "cholesterol",
+    "to": "fatty-acids",
+    "type": "synergistic",
+    "note": "Essential trio for barrier"
+  },
+  {
+    "from": "cholesterol",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Niacinamide stimulates barrier lipid synthesis"
+  },
+  {
+    "from": "sulfur",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Combined acne and antifungal treatment"
+  },
+  {
+    "from": "beta-glucan",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Enhanced hydration"
+  },
+  {
+    "from": "urea",
+    "to": "lactic-acid",
+    "type": "synergistic",
+    "note": "Combined keratolysis for rough skin"
+  },
+  {
+    "from": "urea",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Enhanced exfoliation"
+  },
+  {
+    "from": "caffeine",
+    "to": "peptides",
+    "type": "synergistic",
+    "note": "Comprehensive eye treatment"
+  },
+  {
+    "from": "astaxanthin",
+    "to": "vitamin-e",
+    "type": "synergistic",
+    "note": "Lipid-phase antioxidant support"
+  },
+  {
+    "from": "glycerin",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Glycerin stimulates ceramide production"
+  },
+  {
+    "from": "honey",
+    "to": "colloidal-oatmeal",
+    "type": "synergistic",
+    "note": "Combined soothing and healing"
+  },
+  {
+    "from": "alpha-arbutin",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening stack"
+  },
+  {
+    "from": "phytosphingosine",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Direct precursor relationship"
+  },
+  {
+    "from": "ectoin",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Enhanced hydration protection"
+  },
+  {
+    "from": "hemp-seed-oil",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Complementary acne treatment"
+  },
+  {
+    "from": "rosehip-oil",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Combined antioxidant regeneration"
+  },
+  {
+    "from": "jojoba-oil",
+    "to": "tea-tree-oil",
+    "type": "synergistic",
+    "note": "Carrier for essential oils"
+  },
+  {
+    "from": "shea-butter",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Combined barrier repair"
+  },
+  {
+    "from": "dimethicone",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Occlusive + barrier lipids"
+  },
+  {
+    "from": "sea-buckthorn",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Comprehensive barrier repair"
+  },
+  {
+    "from": "probiotics",
+    "to": "ceramides",
+    "type": "synergistic",
+    "note": "Barrier + microbiome synergy"
+  },
+  {
+    "from": "tamanu-oil",
+    "to": "allantoin",
+    "type": "synergistic",
+    "note": "Enhanced tissue repair"
+  },
+  {
+    "from": "lactobionic-acid",
+    "to": "gluconolactone",
+    "type": "caution",
+    "note": "Redundant PHA"
+  },
+  {
+    "from": "cica-madecassoside",
+    "to": "allantoin",
+    "type": "synergistic",
+    "note": "Enhanced wound healing"
+  },
+  {
+    "from": "heparan-sulfate",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Complementary ECM components"
+  },
+  {
+    "from": "azelaoyl-diglycine",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening"
+  },
+  {
+    "from": "acetyl-glucosamine",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Complementary GAG support"
+  },
+  {
+    "from": "thioctic-acid",
+    "to": "glutathione",
+    "type": "synergistic",
+    "note": "Part of glutathione recycling system"
+  },
+  {
+    "from": "glutathione",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Mutual recycling in antioxidant network"
+  },
+  {
+    "from": "pomegranate-extract",
+    "to": "green-tea-extract",
+    "type": "synergistic",
+    "note": "Polyphenol synergy"
+  },
+  {
+    "from": "coenzyme-q10",
+    "to": "thioctic-acid",
+    "type": "synergistic",
+    "note": "Part of mitochondrial antioxidant network"
+  },
+  {
+    "from": "silymarin",
+    "to": "green-tea-extract",
+    "type": "synergistic",
+    "note": "Combined photoprotection"
+  },
+  {
+    "from": "epidermal-growth-factor",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Hydration supports cell renewal"
+  },
+  {
+    "from": "methylsulfonylmethane",
+    "to": "peptides",
+    "type": "synergistic",
+    "note": "Complementary collagen support"
+  },
+  {
+    "from": "chamomile-extract",
+    "to": "centella-asiatica",
+    "type": "synergistic",
+    "note": "Combined anti-inflammatory botanicals"
+  },
+  {
+    "from": "aloe-vera",
+    "to": "colloidal-oatmeal",
+    "type": "synergistic",
+    "note": "Enhanced soothing"
+  },
+  {
+    "from": "witch-hazel",
+    "to": "salicylic-acid",
+    "type": "synergistic",
+    "note": "Combined oil control"
+  },
+  {
+    "from": "kojic-acid-dipalmitate",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Enhanced brightening"
+  },
+  {
+    "from": "ethyl-ascorbic-acid",
+    "to": "vitamin-e",
+    "type": "synergistic",
+    "note": "Enhanced antioxidant protection"
+  },
+  {
+    "from": "tetrahexyldecyl-ascorbate",
+    "to": "squalane",
+    "type": "synergistic",
+    "note": "Oil-soluble delivery system"
+  },
+  {
+    "from": "ascorbyl-glucoside",
+    "to": "hyaluronic-acid",
+    "type": "synergistic",
+    "note": "Compatible in water-based formulas"
+  },
+  {
+    "from": "marine-collagen",
+    "to": "peptides",
+    "type": "synergistic",
+    "note": "Complementary protein support"
+  },
+  {
+    "from": "retinyl-palmitate",
+    "to": "vitamin-e",
+    "type": "synergistic",
+    "note": "Lipid-phase antioxidant synergy"
+  },
+  {
+    "from": "retinyl-retinoate",
+    "to": "l-ascorbic-acid",
+    "type": "caution",
+    "note": "May irritate if combined; separate AM/PM"
+  },
+  {
+    "from": "l-ascorbic-acid",
+    "to": "retinol",
+    "type": "synergistic",
+    "note": "Can be used together; alternate AM/PM for best results"
+  },
+  {
+    "from": "licorice-root-extract",
+    "to": "niacinamide",
+    "type": "synergistic",
+    "note": "Complementary brightening mechanisms"
+  },
+  {
+    "from": "licorice-root-extract",
+    "to": "l-ascorbic-acid",
+    "type": "synergistic",
+    "note": "Both inhibit tyrosinase via different pathways"
+  },
+  {
+    "from": "chamomile",
+    "to": "bisabolol",
+    "type": "synergistic",
+    "note": "Bisabolol is derived from chamomile; combined effect"
+  }
+]

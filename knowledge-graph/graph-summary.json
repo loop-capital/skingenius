@@ -1,0 +1,160 @@
+{
+  "version": "1.3",
+  "generated_at": "2026-05-15T08:45:00-04:00",
+  "schema": "SCHEMA.md",
+  "entities": {
+    "conditions": {
+      "file": "entities/conditions.json",
+      "count": 26
+    },
+    "ingredients": {
+      "file": "entities/ingredients.json",
+      "count": 151
+    },
+    "products": {
+      "file": "entities/products.json",
+      "count": 406
+    },
+    "brands": {
+      "file": "entities/brands.json",
+      "count": 24
+    },
+    "treatment_ladders": {
+      "file": "entities/treatment-ladders.json",
+      "count": 23
+    },
+    "procedures": {
+      "file": "entities/procedures.json",
+      "count": 26
+    },
+    "supplements": {
+      "file": "entities/supplements.json",
+      "count": 23
+    },
+    "hormones": {
+      "file": "entities/hormones.json",
+      "count": 13
+    },
+    "root_causes": {
+      "file": "entities/root-causes.json",
+      "count": 20
+    },
+    "mechanisms": {
+      "file": "entities/mechanisms.json",
+      "count": 12
+    },
+    "medications": {
+      "file": "entities/medications.json",
+      "count": 13
+    }
+  },
+  "relationships": {
+    "ingredient_conditions": {
+      "file": "relationships/ingredient-conditions.json",
+      "count": 499
+    },
+    "ingredient_interactions": {
+      "file": "relationships/ingredient-interactions.json",
+      "count": 145
+    },
+    "product_conditions": {
+      "file": "relationships/product-conditions.json",
+      "count": 1542
+    },
+    "procedure_products": {
+      "file": "relationships/procedure-products.json",
+      "count": 97
+    },
+    "treatment_ladder_products": {
+      "file": "relationships/treatment-ladders.json",
+      "count": 0
+    },
+    "cause_conditions": {
+      "file": "relationships/cause-conditions.json",
+      "count": 59
+    },
+    "mechanism_chains": {
+      "file": "relationships/mechanism-chains.json",
+      "count": 42
+    },
+    "medication_conditions": {
+      "file": "relationships/medication-conditions.json",
+      "count": 54
+    },
+    "hormone_conditions": {
+      "file": "relationships/hormone-conditions.json",
+      "count": 44
+    }
+  },
+  "indexes": {
+    "condition_to_products": {
+      "file": "indexes/condition-to-products.json",
+      "keys": 75
+    },
+    "condition_to_treatments": {
+      "file": "indexes/condition-to-treatments.json",
+      "keys": 10
+    },
+    "ingredient_to_products": {
+      "file": "indexes/ingredient-to-products.json",
+      "keys": 103
+    },
+    "skin_type_recommendations": {
+      "file": "indexes/skin-type-recommendations.json",
+      "keys": 85
+    },
+    "pregnancy_safe": {
+      "file": "indexes/pregnancy-safe.json",
+      "safe_count": 260,
+      "unsafe_count": 146
+    }
+  },
+  "query_examples": {
+    "rosacea_root_causes": {
+      "query": "Find root causes for rosacea",
+      "steps": [
+        "1. Look up condition id: rosacea",
+        "2. Query cause-conditions.json: target = rosacea → gut_dysbiosis, leaky_gut, sibo, cortisol_excess, microbiome_imbalance",
+        "3. Query mechanism-chains.json: condition = rosacea → inflammation_cascade, vascular_dysfunction",
+        "4. Query hormone-conditions.json: target = rosacea → cortisol (excess)",
+        "5. Query medication-conditions.json: target = rosacea, relationship = improves → oral_antibiotics_tetracycline (low-dose doxycycline)"
+      ]
+    },
+    "acne_recommendation": {
+      "query": "Recommend treatments for hormonal acne in a patient on spironolactone",
+      "steps": [
+        "1. Look up condition id: hormonal-acne",
+        "2. Query cause-conditions.json: target = hormonal-acne → insulin_resistance, androgen_excess",
+        "3. Query mechanism-chains.json: condition = hormonal-acne → sebum_overproduction",
+        "4. Query hormone-conditions.json: target = hormonal-acne → testosterone (excess), progesterone (excess), insulin (excess)",
+        "5. Query medication-conditions.json: target = hormonal-acne → spironolactone (improves), oral_contraceptives (improves)",
+        "6. Check ingredient_interactions.json + medication-conditions.json for contraindications with spironolactone",
+        "7. Query product_conditions.json: condition = hormonal-acne → filter by pregnancy-safe if applicable",
+        "8. If root cause requires labs (insulin_resistance, androgen_excess) → generate basys_referral with specialty=endocrinology"
+      ]
+    },
+    "colostrum_protocol": {
+      "query": "When to recommend colostrum for skin conditions",
+      "steps": [
+        "1. Check user symptoms: gut issues (bloating, IBS, food sensitivities) + skin problems",
+        "2. Check root causes: leaky_gut, gut_dysbiosis, chronic_inflammation → colostrum eligible",
+        "3. Verify no contraindications: dairy_allergy, vegan, immunocompromised",
+        "4. Recommend: 2-4g daily, morning empty stomach, pair with probiotics + zinc",
+        "5. Evidence level: C — include disclaimer about limited skin-specific research",
+        "6. Tier: supplement (internal intervention)",
+        "7. If no improvement in 8-12 weeks → escalate to basys_referral (specialty=functional_medicine)"
+      ]
+    },
+    "basys_referral_example": {
+      "query": "When to generate a Basys Health referral instead of supplement recommendation",
+      "steps": [
+        "1. Check root_cause.intervention_tier === 'basys' OR root_cause.requires_lab_diagnosis === true",
+        "2. Examples: sibo, thyroid_dysfunction, insulin_resistance, estrogen_deficiency, androgen_excess",
+        "3. Generate recommendation_type = 'basys_referral' with basys_specialty_param",
+        "4. Pre-populate context: symptoms, recommended_tests, severity, duration",
+        "5. SKINgenius never stores practitioner data — all practitioner interactions delegated to Basys",
+        "6. Track via basys_referrals table for analytics only"
+      ]
+    }
+  }
+}

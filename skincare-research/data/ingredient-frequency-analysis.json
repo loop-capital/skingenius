@@ -1,0 +1,683 @@
+{
+  "totalProducts": 188,
+  "totalUniqueIngredients": 169,
+  "byFrequency": [
+    [
+      "Vitamin E",
+      40
+    ],
+    [
+      "Peptides",
+      30
+    ],
+    [
+      "Vitamin C",
+      27
+    ],
+    [
+      "Ceramides",
+      25
+    ],
+    [
+      "Niacinamide",
+      24
+    ],
+    [
+      "Antioxidants",
+      24
+    ],
+    [
+      "Hyaluronic Acid",
+      19
+    ],
+    [
+      "Vitamin A",
+      19
+    ],
+    [
+      "Zinc Oxide",
+      18
+    ],
+    [
+      "Titanium Dioxide",
+      16
+    ],
+    [
+      "Lactic Acid",
+      13
+    ],
+    [
+      "Retinol",
+      13
+    ],
+    [
+      "Salicylic Acid",
+      12
+    ],
+    [
+      "Growth Factors",
+      9
+    ],
+    [
+      "Aloe Vera",
+      8
+    ],
+    [
+      "Mandarin Rind",
+      7
+    ],
+    [
+      "Vitamins",
+      7
+    ],
+    [
+      "Witch Hazel",
+      6
+    ],
+    [
+      "Citric Acid",
+      6
+    ],
+    [
+      "Parsley Seed Extract",
+      5
+    ],
+    [
+      "Rosemary Leaf",
+      5
+    ],
+    [
+      "Botanical Extracts",
+      5
+    ],
+    [
+      "Ferulic Acid",
+      5
+    ],
+    [
+      "Vitamin B5",
+      4
+    ],
+    [
+      "Brightening Agents",
+      4
+    ],
+    [
+      "Amino Acids",
+      4
+    ],
+    [
+      "Tea Tree Oil",
+      4
+    ],
+    [
+      "Kaolin",
+      4
+    ],
+    [
+      "Glycolic Acid",
+      4
+    ],
+    [
+      "Retinol 0.5%",
+      4
+    ],
+    [
+      "Bisabolol",
+      4
+    ],
+    [
+      "L-Ascorbic Acid",
+      4
+    ],
+    [
+      "Green Tea",
+      3
+    ],
+    [
+      "Chamomile",
+      3
+    ],
+    [
+      "Cedarwood",
+      3
+    ],
+    [
+      "Bergamot",
+      3
+    ],
+    [
+      "Collagen",
+      3
+    ],
+    [
+      "Botanical Oils",
+      3
+    ],
+    [
+      "Vitamins A",
+      3
+    ],
+    [
+      "Fatty Acids",
+      3
+    ],
+    [
+      "Bentonite",
+      3
+    ],
+    [
+      "Sulfur",
+      3
+    ],
+    [
+      "Boswellia Serrata",
+      3
+    ],
+    [
+      "Allantoin",
+      3
+    ],
+    [
+      "Squalane",
+      2
+    ],
+    [
+      "Lemon Rind",
+      2
+    ],
+    [
+      "Rosehip Seed Oil",
+      2
+    ],
+    [
+      "Lavender",
+      2
+    ],
+    [
+      "Ylang Ylang",
+      2
+    ],
+    [
+      "Sage Leaf",
+      2
+    ],
+    [
+      "Tocopherol",
+      2
+    ],
+    [
+      "Beeswax",
+      2
+    ],
+    [
+      "Geranium Leaf",
+      2
+    ],
+    [
+      "Vetiver Root",
+      2
+    ],
+    [
+      "Petitgrain",
+      2
+    ],
+    [
+      "Gluconolactone",
+      2
+    ],
+    [
+      "Elastin",
+      2
+    ],
+    [
+      "Matrixyl",
+      2
+    ],
+    [
+      "Zinc",
+      2
+    ],
+    [
+      "Oxygenating Agents",
+      2
+    ],
+    [
+      "Liquorice Extract",
+      2
+    ],
+    [
+      "Extremozymes",
+      2
+    ],
+    [
+      "Stem Cells",
+      2
+    ],
+    [
+      "Salicylic Acid 2%",
+      2
+    ],
+    [
+      "Glycerin",
+      2
+    ],
+    [
+      "Iron Oxides",
+      2
+    ],
+    [
+      "Caffeine",
+      2
+    ],
+    [
+      "Mandelic Acid",
+      2
+    ],
+    [
+      "Jojoba Beads",
+      2
+    ],
+    [
+      "Kojic Acid",
+      2
+    ],
+    [
+      "Proxylane",
+      2
+    ],
+    [
+      "Cholesterol",
+      2
+    ],
+    [
+      "Hydroxy Acids",
+      2
+    ],
+    [
+      "Marine Extracts",
+      2
+    ],
+    [
+      "Tranexamic Acid",
+      2
+    ],
+    [
+      "Aloe",
+      2
+    ],
+    [
+      "Retinol 1%",
+      2
+    ],
+    [
+      "Sodium Ascorbyl Phosphate",
+      1
+    ],
+    [
+      "Vitamin B3",
+      1
+    ],
+    [
+      "Tangerine Rind",
+      1
+    ],
+    [
+      "Evening Primrose Oil",
+      1
+    ],
+    [
+      "Shea Butter",
+      1
+    ],
+    [
+      "Camellia Nut Oil",
+      1
+    ],
+    [
+      "Macadamia Nut Oil",
+      1
+    ],
+    [
+      "Sandalwood",
+      1
+    ],
+    [
+      "Grape Seed Extract",
+      1
+    ],
+    [
+      "White Tea",
+      1
+    ],
+    [
+      "Jojoba Oil",
+      1
+    ],
+    [
+      "Quartz",
+      1
+    ],
+    [
+      "Tea Tree Leaf",
+      1
+    ],
+    [
+      "Aluminum Silicate",
+      1
+    ],
+    [
+      "Sodium Bicarbonate",
+      1
+    ],
+    [
+      "Bitter Orange",
+      1
+    ],
+    [
+      "Castor Oil",
+      1
+    ],
+    [
+      "Grapefruit",
+      1
+    ],
+    [
+      "Orange Rind",
+      1
+    ],
+    [
+      "Grapefruit Rind",
+      1
+    ],
+    [
+      "Pumice",
+      1
+    ],
+    [
+      "Bamboo Stem",
+      1
+    ],
+    [
+      "Yeast Extracts",
+      1
+    ],
+    [
+      "Gentle Formula",
+      1
+    ],
+    [
+      "Iris Extract",
+      1
+    ],
+    [
+      "Pore-Refining Agents",
+      1
+    ],
+    [
+      "Astringents",
+      1
+    ],
+    [
+      "Amniotic Fluid",
+      1
+    ],
+    [
+      "Moisturizing Agents",
+      1
+    ],
+    [
+      "Green Tea Extract",
+      1
+    ],
+    [
+      "Higher Vitamin A",
+      1
+    ],
+    [
+      "High Vitamin A",
+      1
+    ],
+    [
+      "Maximum Vitamin A",
+      1
+    ],
+    [
+      "Retinyl Palmitate",
+      1
+    ],
+    [
+      "Retinyl Acetate",
+      1
+    ],
+    [
+      "Concentrated Retinol",
+      1
+    ],
+    [
+      "Higher Retinol",
+      1
+    ],
+    [
+      "Maximum Retinol",
+      1
+    ],
+    [
+      "Advanced Peptides",
+      1
+    ],
+    [
+      "Alpha Hydroxy Acids",
+      1
+    ],
+    [
+      "White Willow Bark",
+      1
+    ],
+    [
+      "Honey",
+      1
+    ],
+    [
+      "Papaya Enzymes",
+      1
+    ],
+    [
+      "Mushroom Extract",
+      1
+    ],
+    [
+      "Enzymes",
+      1
+    ],
+    [
+      "Retinaldehyde",
+      1
+    ],
+    [
+      "Digestive Enzymes",
+      1
+    ],
+    [
+      "Probiotics",
+      1
+    ],
+    [
+      "Detoxifying Herbs",
+      1
+    ],
+    [
+      "Rose Hip Seed Oil",
+      1
+    ],
+    [
+      "Sunflower Seed Oil",
+      1
+    ],
+    [
+      "Willow Bark Extract",
+      1
+    ],
+    [
+      "Benzoyl Peroxide 5%",
+      1
+    ],
+    [
+      "Phytic Acid",
+      1
+    ],
+    [
+      "Snap-8",
+      1
+    ],
+    [
+      "Resveratrol",
+      1
+    ],
+    [
+      "Snow Algae",
+      1
+    ],
+    [
+      "Microneedles",
+      1
+    ],
+    [
+      "Charcoal",
+      1
+    ],
+    [
+      "Papaya Enzyme",
+      1
+    ],
+    [
+      "Azelaic Acid",
+      1
+    ],
+    [
+      "L-Ascorbic Acid 15%",
+      1
+    ],
+    [
+      "Vitamin E 1%",
+      1
+    ],
+    [
+      "Ferulic Acid 0.5%",
+      1
+    ],
+    [
+      "Silymarin",
+      1
+    ],
+    [
+      "Phloretin",
+      1
+    ],
+    [
+      "Blueberry Extract",
+      1
+    ],
+    [
+      "Retinol 0.3%",
+      1
+    ],
+    [
+      "Retinol 1.0%",
+      1
+    ],
+    [
+      "Emollients",
+      1
+    ],
+    [
+      "Essential Oils",
+      1
+    ],
+    [
+      "Licorice Root",
+      1
+    ],
+    [
+      "Artemia Extract",
+      1
+    ],
+    [
+      "Silica",
+      1
+    ],
+    [
+      "Dioic Acid",
+      1
+    ],
+    [
+      "HEPES",
+      1
+    ],
+    [
+      "Cucumber",
+      1
+    ],
+    [
+      "Thyme",
+      1
+    ],
+    [
+      "Olive Leaf",
+      1
+    ],
+    [
+      "Soy Isoflavones",
+      1
+    ],
+    [
+      "Plant Extracts",
+      1
+    ],
+    [
+      "Magnesium Crystals",
+      1
+    ],
+    [
+      "panthenol",
+      1
+    ],
+    [
+      "Retinol 0.25%",
+      1
+    ],
+    [
+      "Sodium DNA",
+      1
+    ],
+    [
+      "Zanthoxylum Bungeanum",
+      1
+    ],
+    [
+      "Papain",
+      1
+    ],
+    [
+      "Hydroquinone 4%",
+      1
+    ],
+    [
+      "Benzoyl Peroxide 10%",
+      1
+    ],
+    [
+      "Beta-Glucan",
+      1
+    ],
+    [
+      "Colloidal Oatmeal",
+      1
+    ],
+    [
+      "Urea",
+      1
+    ]
+  ],
+  "timestamp": "2026-05-14T12:09:02.657Z"
+}
