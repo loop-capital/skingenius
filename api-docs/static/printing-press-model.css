@@ -1,0 +1,21 @@
+/* printing-press-model.css — per-view overrides for model detail pages.
+ * Loaded after printing-press.css, so rules here win in the cascade.
+ * Use this for model-specific tweaks to light-DOM elements,
+ * CSS custom properties, host selectors, and ::part() selectors.
+ */
+
+ .pp-model-header pp-raw-viewer-btn {
+     margin-left: auto;
+     flex-shrink: 0;
+     margin-top: 0
+ }
+
+/* Class diagram section */
+.pp-class-diagram-section {
+    margin: var(--global-padding-double) 0;
+}
+
+/* Graceful degradation: hide entire section if lite bundle used (component not defined) */
+.pp-class-diagram-section:has(pp-class-diagram:not(:defined)) {
+    display: none;
+}

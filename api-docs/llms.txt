@@ -1,0 +1,48 @@
+# SKINgenius API
+
+> Free, on-device AI skin analysis. No per-scan costs. Privacy-first.  Scan images are analyzed on the user's device (MediaPipe + Gemma 4). Only results are sent to this API for persistence and recom...
+
+**Source spec:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+## Files
+
+- [AGENTS.md](AGENTS.md) - Start-here guide for agents: artifact map and recommended workflow
+- [llms.txt](llms.txt) - Compact discovery index for tags, operations, and model groups
+- [llms-full.txt](llms-full.txt) - Complete API documentation in one file
+- [llms-operations.txt](llms-operations.txt) - All operations only
+- [llms-models.txt](llms-models.txt) - All models/components only
+- [llms-operations-0001.txt](llms-operations-0001.txt) - Operation shard 1
+- [llms-models-0001.txt](llms-models-0001.txt) - Model shard 1
+
+## Quick Start
+
+**Base URL:** `https://skingenius-sigma.vercel.app`
+
+2 operations · 9 schemas
+
+## Operations
+
+### api — Api (2 operations)
+
+#### api/recommendations — Recommendations (1 operations)
+
+- [POST /api/v1/recommendations](operations/get-recommendations.md) — Get product recommendations
+
+#### api/scan — Scan (1 operations)
+
+- [POST /api/v1/scan](operations/create-scan.md) — Submit scan results
+
+## Models
+
+### Schemas
+
+- [ScanRequest](models/schemas/scan-request.md)
+- [DetectedCondition](models/schemas/detected-condition.md)
+- [SkinZone](models/schemas/skin-zone.md)
+- [QualityAssessment](models/schemas/quality-assessment.md)
+- [ScanResponse](models/schemas/scan-response.md)
+- [RecommendationRequest](models/schemas/recommendation-request.md)
+- [RecommendationResponse](models/schemas/recommendation-response.md)
+- [RecommendationResult](models/schemas/recommendation-result.md)
+- [ErrorResponse](models/schemas/error-response.md)
+

@@ -56,3 +56,60 @@ This is the SKINgenius workspace. AI-powered skin analysis: photo → condition 
 - TypeScript strict mode — no `any`
 
 ## Also see: AGENTS.md for tools + collaboration context
+
+---
+
+## Critical Rules
+
+### 0. NEVER Publish Sensitive Data
+- NEVER commit passwords, API keys, tokens, or secrets to git
+- NEVER commit .env files — verify .env is in .gitignore
+- Before ANY commit: verify no secrets are included
+- Supabase service role key NEVER in client code
+
+### 1. TypeScript Always
+- ALWAYS use TypeScript for new files (strict mode)
+- NEVER use `any` unless absolutely necessary and documented why
+- Explicit return types on exported functions
+- Proper null handling (`User | null`)
+
+### 2. API Endpoints
+- ALWAYS validate input before processing (Zod)
+- ALWAYS return proper HTTP status codes
+- ALWAYS include auth checks
+- NEVER expose Supabase service role key in client code
+- ALL endpoints use `/api/v1/` prefix
+- Pagination on ALL list endpoints (default 20, max 100)
+
+### 3. Testing
+- Write tests for all new API endpoints
+- Every PR must pass `npm run build`
+- E2E tests for user-facing flows
+- Unit tests for business logic
+- Integration tests for database queries
+
+### 4. Worktrees
+- NEVER work directly on main
+- Use `git worktree` or feature branches for all changes
+- Create branches with pattern: `feat/`, `fix/`, `refactor/`, `test/`
+
+### 5. Security
+- Run /security-check before any deployment
+- Run /review before any PR merge
+- Check for XSS, SQL injection, auth bypass on every change
+- Supabase RLS enabled on ALL tables
+- Skin photos encrypted at rest and in transit
+
+### 6. SKINgenius Medical Safety
+- NEVER diagnose definitively — always recommend dermatologist
+- NEVER fabricate clinical evidence — cite PubMed
+- urgentFlag: true → suppress ALL product recs, show dermatologist CTA only
+- Skin data treated as health data (encrypted, access-controlled)
+- Product recommendations evidence-based, not marketing-driven
+
+### 7. Quality Gates
+- No file exceeds 300 lines
+- No function exceeds 50 lines
+- No barrel imports
+- No circular imports
+- No dead code (commented-out code, unused functions)

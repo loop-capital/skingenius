@@ -231,6 +231,10 @@ export interface V1ScanMetadata {
   warnings?: string[];
   storage_failed?: boolean;
   storage_error?: string;
+  auto_detected_skin_tone?: {
+    type: number;
+    confidence: number;
+  };
 }
 
 export interface V1ScanResponseData {

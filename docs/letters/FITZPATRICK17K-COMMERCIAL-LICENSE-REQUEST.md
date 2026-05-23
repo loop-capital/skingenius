@@ -1,76 +1,87 @@
-# Commercial License Request — Fitzpatrick 17k Dataset
+# Research Collaboration Request — Fitzpatrick 17k Dataset
 
 **From:** Jason Opland, SKINgenius
-**To:** Matt Groh (MIT Media Lab) & co-authors
-**Date:** May 21, 2026
-**Subject:** Commercial License Request for Fitzpatrick 17k — AI Skin Health Platform Serving Diverse Skin Tones
+**To:** Dr. Matt Groh, Northwestern University (Kellogg School of Management)
+**Date:** May 22, 2026
+**Subject:** Research Collaboration — Free On-Device AI for Dermatological Access in Underserved Communities
 
 ---
 
-Dear Dr. Groh and co-authors,
+Dear Dr. Groh,
 
-I'm writing to request a commercial-use license for the Fitzpatrick 17k dataset (CC-BY-NC-SA 3.0). I understand and respect the non-commercial restriction, and I want to explain why we believe our use case aligns with the original intent of your work.
+I'm writing to propose a research collaboration involving the Fitzpatrick 17k dataset. I believe our work aligns directly with the mission behind your research — and may be of academic interest in its own right.
 
-## Who We Are
+## What We're Building
 
-We are building **SKINgenius**, an AI-powered skin health intelligence platform. Our product takes a photo of a user's skin, identifies conditions using computer vision, analyzes root causes (not just symptoms), and generates personalized recommendations — products, supplements, lifestyle changes, and professional referrals when needed.
+**SKINgenius** is a free, on-device AI skin analysis tool. The scan runs entirely on the user's phone using Google's AI Edge SDK (Gemma 4 + MediaPipe). No photos leave the device. No API calls. No per-scan costs. **Every scan is free. Forever.**
 
-We are not a beauty brand. We are not selling products. We are building a clinical-grade analysis engine that helps people understand what's happening with their skin and what to do about it — with evidence-tagged recommendations and safety filters for pregnancy, drug interactions, and allergies.
+This isn't a freemium upsell. There is no paid scan tier. The product is funded through product recommendation affiliate revenue and professional subscriptions (estheticians, clinics) — never by gatekeeping diagnosis from the people who need it most.
 
-## Why Fitzpatrick 17k Specifically
+## Why This Matters for Your Research Populations
 
-Your dataset is unique in the landscape of dermatology AI for one critical reason: **explicit Fitzpatrick skin type annotations on every image.** No other publicly available dataset provides this at scale.
+The Fitzpatrick 17k dataset was created because AI dermatology was broken for people with darker skin. Models trained on predominantly light-skinned populations produced higher false-negative rates for Types IV-VI. Your work exposed this problem.
 
-This matters because the current state of AI dermatology is broken for people with darker skin:
+We're building the solution — and making it free.
 
-- Diagnostic models trained on predominantly light-skinned populations produce higher false-negative rates for Types V-VI
-- Product recommendation engines trained without skin tone data default to recommendations optimized for lighter skin
-- The clinical evidence base itself is skewed — most RCTs underrepresent darker skin tones
+A child in a low-income household dealing with eczema, chronic acne, or hyperpigmentation caused by nutrient deficiencies can't afford a $250 dermatologist visit. They often can't afford a $10/month app subscription either. But they probably have a phone.
 
-We want to build something better. Your dataset would allow us to:
+With on-device AI:
+- **Zero cost per scan** — unlimited scans for every user
+- **Works offline** — no internet required for analysis
+- **Privacy-first** — photos never leave the device
+- **Fitzpatrick-aware** — we explicitly detect skin type I-VI and calibrate recommendations accordingly
 
-1. **Validate fairness** — Test our model's accuracy across all 6 Fitzpatrick types and report disparities
-2. **Calibrate confidence** — Reduce confidence scores on skin tones where training data is thin
-3. **Improve representation** — Ensure our recommendations are clinically appropriate for darker skin (e.g., PIH risk with certain actives, melanin-specific formulation guidance)
+These are exactly the populations your dataset was created to help. We're building the delivery mechanism to actually reach them.
 
 ## What We're Asking
 
-A **non-exclusive commercial license** to use the Fitzpatrick 17k dataset for:
+We'd like to discuss a **research collaboration** that could include:
 
-- Training and validating our skin condition classification model
-- Fairness auditing across Fitzpatrick skin types
-- Generating aggregate, anonymized performance metrics by skin tone
+1. **Access to the Fitzpatrick 17k dataset** under a research/non-commercial or limited commercial license
+2. **Fairness validation** — We will test and publish accuracy metrics across all 6 Fitzpatrick types, contributing back to your research
+3. **On-device deployment study** — Document the feasibility and accuracy of running dermatology AI on consumer phones without cloud inference
+4. **Demographic impact research** — Track adoption and health outcomes in underserved communities
 
 We will:
+- **Cite your work** prominently in our methodology, app, and any publications
+- **Share fairness metrics** — aggregate accuracy by Fitzpatrick type, published openly
+- **Credit the source** — referenced in our about page and model documentation
+- **Not redistribute the dataset** — used only for internal model training and validation
 
-- **Cite your work** prominently — your paper will be referenced in our methodology documentation, about page, and any academic publications
-- **Share our fairness results** — We will publish aggregate accuracy metrics by Fitzpatrick type, contributing back to the research community
-- **Not redistribute the dataset** — Images will be used for internal model training only
-- **Credit the source** — Every public-facing model card will reference Fitzpatrick 17k
+## Why This Could Be Interesting Academically
 
-## Our Motivation
+On-device dermatology AI that's free and offline-capable hasn't been done at scale. If we can demonstrate acceptable accuracy with Gemma 4 running on a consumer phone — with explicit fairness across Fitzpatrick types — that's a publishable finding.
 
-The populations most underserved by current dermatology AI — people with Fitzpatrick Types IV-VI — are exactly the populations your dataset was created to help. We want to use your data to build a tool that serves everyone, not just the light-skinned majority that dominates existing training data.
+We're essentially proposing to build the deployment layer for the equity problem your research identified.
 
-If a commercial license isn't possible, we would also consider:
-- A research collaboration agreement
-- A time-limited evaluation license
-- A license with revenue-sharing terms
+## Flexibility on Structure
 
-We're flexible on structure. What we care about is building a skin health tool that doesn't leave anyone behind.
+We're open to whatever arrangement works:
+- Research collaboration agreement
+- Time-limited evaluation license
+- Co-authored paper on on-device dermatology AI fairness
+- Joint grant proposal for community health impact study
+
+We don't need your data to make money. We need it to serve people who've been left behind by clinical dermatology AI. The structure matters less than the outcome.
+
+## About SKINgenius
+
+- **Architecture:** On-device Gemma 4 via Google AI Edge SDK + server-side recommendation engine
+- **Knowledge base:** 25 skin conditions, 105 evidence-based ingredients, Fitzpatrick-aware
+- **Production:** https://skingenius-sigma.vercel.app (Phase 1-4 complete)
+- **Mission:** Free scans forever. Funded by product affiliates and professional subscriptions, never by diagnosis fees.
 
 ## Contact
 
 **Jason Opland**
 Founder, SKINgenius
-[jasonopland@msn.com]
+jasonopland@msn.com
 
-I'm happy to jump on a call, share our technical architecture, or provide any additional documentation about our use case. Thank you for creating such an important dataset — it's exactly what the field needed.
+I'm happy to jump on a call, share our technical architecture, or provide any additional documentation. Thank you for creating such an important dataset — we want to use it to build something that actually reaches the people it was meant to serve.
 
 Best,
 Jason
 
 ---
 
-*Attachment: SKINgenius one-pager (upon request)*
 *Reference: Groh, M., et al. "Evaluating deep neural networks trained on clinical images in dermatology with the Fitzpatrick 17k dataset." CVPR 2021.*
