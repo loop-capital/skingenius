@@ -11,6 +11,7 @@ Build a React Native (Expo) mobile app called "SKINgenius" — an AI-powered ski
 Reference app: Lovi.care (skin analysis app). Here's their flow and how we improve it:
 
 ### What Lovi.care Does Well (Copy These)
+
 1. **"Algorithm Theater" loading animation** — shows numbers counting down (45K→1K→64→8) to build trust and perceived value. We want this.
 2. **Strengths before problems** — show positive reinforcement cards first ("Natural Resilience", "Self-Hydrating Capacity"), then conditions. Makes users feel good before prescribing.
 3. **Zone-by-zone analysis** — each face zone (forehead, T-zone, cheeks, chin, under-eye) gets its own card with concern, severity, and photo thumbnail.
@@ -21,6 +22,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 8. **Commitment slider on onboarding** — "Let's commit to care about yourself" with slide-to-engage.
 
 ### What We Do DIFFERENTLY (Better)
+
 1. **Fitzpatrick Type Detection** — we explicitly detect skin tone (Types I-VI) and calibrate all recommendations accordingly. Lovi.care doesn't do this.
 2. **Root Cause Analysis** — we show what's CAUSING conditions (hormonal, gut health, diet-linked), not just symptoms. Include root cause cards with animated score bars.
 3. **Diet Awareness** — "Your eczema may be linked to dairy sensitivity" — Lovi.care doesn't connect diet to skin.
@@ -29,6 +31,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 6. **Privacy-First** — photos analyzed on-device, never uploaded. Lovi.care uploads to servers.
 
 ## Color Scheme
+
 - Primary: Emerald (#059669)
 - Neutrals: Stone (#78716C, #F5F5F4)
 - Background: #FFFBF5 (warm white)
@@ -38,12 +41,14 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 ## Screens to Build
 
 ### 1. Onboarding (3 slides)
+
 - Slide 1: "Your skin, understood." — camera icon, Fitzpatrick diversity in hero image
 - Slide 2: "AI-powered analysis" — 3-step flow (Scan → Analyze → Recommend)
 - Slide 3: "Works on every skin tone" — Fitzpatrick scale visual (Types I-VI)
-- CTA: "Get Started" → navigates to scan
+- CLAIM: "Get Started" button → navigates to scan
 
 ### 2. Home Screen
+
 - Greeting: "Good morning, [Name]"
 - Last scan summary: Skin score, Fitzpatrick type detected
 - Quick actions: "New Scan" (camera button), "View Routine", "Products"
@@ -51,6 +56,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 - Bottom tab navigation: Home | Scan | Routine | Products | Profile
 
 ### 3. Scan Flow
+
 - **Screen 3a: Fitzpatrick Selector** — 6 skin tone swatches in a row, visual selection
 - **Screen 3b: Camera Capture** — face outline guide, capture button, gallery upload option
 - **Screen 3c: Analyzing** — Dark background with glowing particles animation
@@ -68,6 +74,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
   - Oil Balance: 61% (amber)
 
 ### 4. Results Dashboard
+
 - **Summary Banner** — overall score (0-100), Fitzpatrick type, scan date
 - **Zone Map** — face outline divided into 7 zones, colored by severity
 - **Conditions Grid** — cards with: name, confidence %, severity badge, features list, zone
@@ -77,6 +84,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 - **"Rescan"** button
 
 ### 5. Routine Builder
+
 - **AM/PM tabs**
 - **Ordered steps** with drag-to-reorder
 - **Each step**: category icon, product name, instructions, frequency badge (daily/weekly)
@@ -85,6 +93,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 - **Empty state**: "No routine yet. Start by scanning your skin."
 
 ### 6. Products Browse
+
 - **Search bar** at top
 - **Filter chips**: Category (Cleanser, Serum, Moisturizer, Sunscreen, Treatment), Price ($, $$, $$$, $$$$)
 - **Product cards**: image, name, brand, fit score, evidence level, price, "Add to Routine"
@@ -92,6 +101,7 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 - **"Scan for Personalized Results"** CTA banner
 
 ### 7. Profile
+
 - **Display name** (editable)
 - **Fitzpatrick type** selector (visual swatches)
 - **Skin type** selector (Oily/Dry/Combination/Normal/Sensitive)
@@ -99,21 +109,58 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 - **Allergies** input
 - **Settings**: notifications, data privacy, logout
 
-## Mock Products (8 Products)
-```json
-[
-  {"name": "Gentle Foaming Cleanser", "brand": "CeraVe", "category": "cleanser", "price": "$", "fit_score": 95, "evidence_level": "A", "key_actives": ["Ceramides", "Hyaluronic Acid", "Niacinamide"]},
-  {"name": "BHA Pore-Refining Toner", "brand": "Paula's Choice", "category": "toner", "price": "$$", "fit_score": 92, "evidence_level": "A", "key_actives": ["Salicylic Acid 2%", "Green Tea"]},
-  {"name": "Vitamin C Serum 20%", "brand": "SkinCeuticals", "category": "serum", "price": "$$$", "fit_score": 89, "evidence_level": "A", "key_actives": ["L-Ascorbic Acid 20%", "Ferulic Acid", "Vitamin E"]},
-  {"name": "Niacinamide 10% + Zinc 1%", "brand": "The Ordinary", "category": "serum", "price": "$", "fit_score": 94, "evidence_level": "B", "key_actives": ["Niacinamide 10%", "Zinc PCA"]},
-  {"name": "Daily Moisturizing Lotion", "brand": "CeraVe", "category": "moisturizer", "price": "$", "fit_score": 91, "evidence_level": "A", "key_actives": ["Ceramides", "Hyaluronic Acid"]},
-  {"name": "UV Aqua Rich SPF 50+", "brand": "Bioré", "category": "sunscreen", "price": "$", "fit_score": 88, "evidence_level": "B", "key_actives": ["Chemical UV filters", "Hyaluronic Acid"]},
-  {"name": "Adapalene Gel 0.1%", "brand": "Differin", "category": "treatment", "price": "$$", "fit_score": 87, "evidence_level": "A", "key_actives": ["Adapalene 0.1%"]},
-  {"name": "Peptide Eye Cream", "brand": "The Inkey List", "category": "eye_cream", "price": "$", "fit_score": 85, "evidence_level": "B", "key_actives": ["Matrixyl 3000", "Caffeine"]}
-]
-```
+### 8. Pro Dashboard (For Estheticians)
+
+- **Client list** with search and filter (by scan date, skin type)
+- **Client card**: name, last scan date, Fitzpatrick type, top 3 concerns
+- **Tap client** → detailed analysis view
+- **Add new client** button
+- **Export routine** button (PDF/print)
+
+### 9. Ingredient Checker
+
+- **Search bar** for ingredient lookup
+- **Ingredient card**: INCI name, common names, safety rating (1-5), comedogenic rating, common uses
+- **Reactions list**: shows known irritants, allergens
+- **Alternatives** button: shows similar ingredients with better safety profile
+- **"Scan for Reactions"** button: analyzes user's current products against this ingredient
+
+### 10. Progress Tracking
+
+- **Timeline view**: scan history with scores over time
+- **Before/After**: split screen comparison
+- **Goal progress**: visual progress bars for each skin concern
+- **Milestones**: celebrations for consistency (7-day streak, 30-day streak)
+- **Export progress** button
+
+### 11. Device Recommendations
+
+- **Device cards**: microcurrent, LED mask, ultrasonic cleanser, derma roller
+- **Each device**: image, name, price range, how it works, skin concerns it addresses
+- **Evidence level**: clinical studies supporting use
+- **Budget tier**: splurge vs affordable alternatives
+- **"Add to Routine"** button for devices
+
+### 12. Settings
+
+- **Account**: name, email, password change
+- **Privacy**: data export, delete account, analytics toggle
+- **Notifications**: reminders, marketing, scan results
+- **Appearance**: dark mode toggle, font size
+- **About**: version, terms, privacy policy
+
+## Mock Data Structure
+
+Include mock data for:
+
+- 8 products (with brand, price, fit score, evidence level, key actives)
+- 12 skin conditions (with severity levels, descriptions, zone mapping)
+- 6 Fitzpatrick types (visual swatches with descriptions)
+- 5 device types (microcurrent, LED, ultrasonic, etc.)
+- 20 common ingredients (with safety ratings, comedogenic scores)
 
 ## Technical Requirements
+
 - React Native with Expo (managed workflow)
 - React Navigation for routing
 - NativeWind or Tailwind CSS for styling
@@ -122,11 +169,26 @@ Reference app: Lovi.care (skin analysis app). Here's their flow and how we impro
 - Smooth animations (React Native Animated API or Reanimated)
 - Camera access via expo-camera
 - Image picker via expo-image-picker
+- AsyncStorage for mock data persistence
 
 ## What NOT to Include Yet
+
 - Real AI model integration (mock data is fine)
 - Supabase backend (mock data)
 - Payments/authentication
 - App store submission
 
 This is a visual prototype — it should look and feel like a finished product even with mock data.
+
+## Verification Checklist
+
+- [ ] All 12 screens accessible via navigation
+- [ ] Fitzpatrick selector affects product recommendations
+- [ ] Algorithm theater loading animation present
+- [ ] Strengths cards shown before condition cards
+- [ ] "Why we picked it" copy on all product cards
+- [ ] Device recommendations alongside products
+- [ ] Budget tier filtering (splurge vs affordable)
+- [ ] Visual polish with gradients, modern UI components
+- [ ] Placeholder images used throughout
+- [ ] TypeScript compiles without errors
