@@ -14,6 +14,7 @@ import {
   Play,
   Lock,
 } from "lucide-react";
+import UserMenu from "@/components/auth/UserMenu";
 
 export default function Page() {
   const [email, setEmail] = useState("");
@@ -45,9 +46,7 @@ export default function Page() {
               Pricing
             </a>
           </div>
-          <button className="px-5 py-2.5 bg-emerald-700 text-white text-sm font-medium rounded-xl hover:bg-emerald-800 transition-colors">
-            Get Started
-          </button>
+          <UserMenu />
         </div>
       </nav>
 

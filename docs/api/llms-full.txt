@@ -1,0 +1,551 @@
+# SKINgenius API
+
+> Free, on-device AI skin analysis. No per-scan costs. Privacy-first.  Scan images are analyzed on the user's device (MediaPipe + Gemma 4). Only results are sent to this API for persistence and recommendations.
+
+**Version:** 1.0.0
+
+**Source spec:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+## How to Use This API
+
+### Base URL
+
+`https://skingenius-sigma.vercel.app` — Production
+
+### Primary Resources
+
+| Resource | Operations | Description |
+|----------|-----------|-------------|
+| api/recommendations | POST /api/v1/recommendations | Recommendations |
+| api/scan | POST /api/v1/scan | Scan |
+
+### Common Error Model
+
+```json
+{
+  "properties": {
+    "detail": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
+```
+
+---
+
+## Operations
+
+### api
+
+Api
+
+#### api/recommendations
+
+Recommendations
+
+### POST /api/v1/recommendations
+
+Get product recommendations
+
+**Operation ID:** `getRecommendations`  
+**Tags:** api/recommendations
+
+**Source:** [openapi.yaml:53](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+Returns personalized product recommendations based on detected conditions,
+skin type, Fitzpatrick type, and user preferences.
+Uses Fit Score algorithm with evidence-weighted matching.
+
+#### cURL
+
+**Default example:** Production · No Auth
+
+```bash
+curl -X POST \
+  'https://skingenius-sigma.vercel.app/api/v1/recommendations' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json' \
+  -d '{"conditions":[{"condition_id":"tpq","confidence":0,"features":["WyY"],"name":"Post-Inflammatory Hyperpigmentation (PIH)","severity":"moderate","zone":"cheek-left"}],"fitzpatrick_type":4,"price_tier":"$","skin_type":"combination"}'
+```
+
+#### Request Body (`application/json`) — Required
+
+**Source:** [openapi.yaml:60](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+**Schema ref:** [RecommendationRequest](models/schemas/recommendation-request.md)
+
+- Reference: [RecommendationRequest](models/schemas/recommendation-request.md)
+- Type: `object`
+- Required: `conditions`
+Properties:
+- `conditions` (`array`) required
+- `fitzpatrick_type` (`integer`)
+- `price_tier` (`string`)
+  - Enum: `$`, `$$`, `$$$`, `$$$$`
+- `skin_type` (`string`)
+  - Enum: `oily`, `dry`, `combination`, `normal`, `sensitive`
+
+**Example payload**
+
+```json
+{
+  "conditions": [
+    {
+      "condition_id": "tpq",
+      "confidence": 0,
+      "features": [
+        "WyY"
+      ],
+      "name": "Post-Inflammatory Hyperpigmentation (PIH)",
+      "severity": "moderate",
+      "zone": "cheek-left"
+    }
+  ],
+  "fitzpatrick_type": 4,
+  "price_tier": "$",
+  "skin_type": "combination"
+}
+```
+
+#### Responses
+
+**200** (`application/json`) — Recommendations returned
+
+**Source:** [openapi.yaml:67](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+**Schema ref:** [RecommendationResponse](models/schemas/recommendation-response.md)
+
+- Reference: [RecommendationResponse](models/schemas/recommendation-response.md)
+- Type: `object`
+Properties:
+- `data` (`array`)
+
+**Example payload**
+
+```json
+{
+  "data": [
+    {
+      "brand": "FEV",
+      "category": "GbW",
+      "conditions_addressed": [
+        "ULA"
+      ],
+      "evidence_level": "B",
+      "fit_score": 78,
+      "key_actives": [
+        {
+          "effectiveness": 3,
+          "ingredient": "mGN"
+        }
+      ],
+      "name": "QWK",
+      "pregnancy_safe": true,
+      "price_tier": "FyW",
+      "product_id": "Wvu",
+      "reasoning": "WlD"
+    }
+  ]
+}
+```
+
+**Models referenced:** [DetectedCondition](models/schemas/detected-condition.md), [RecommendationRequest](models/schemas/recommendation-request.md), [RecommendationResponse](models/schemas/recommendation-response.md), [RecommendationResult](models/schemas/recommendation-result.md)
+
+#### Related Operations
+
+- [POST /api/v1/scan](operations/create-scan.md) — Submit scan results
+
+
+---
+
+#### api/scan
+
+Scan
+
+### POST /api/v1/scan
+
+Submit scan results
+
+**Operation ID:** `createScan`  
+**Tags:** api/scan
+
+**Source:** [openapi.yaml:23](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+Accepts on-device analysis results (NOT raw images). 
+The scan pipeline runs entirely on the user's phone.
+This endpoint persists results and returns product recommendations.
+
+#### cURL
+
+**Default example:** Production · No Auth
+
+```bash
+curl -X POST \
+  'https://skingenius-sigma.vercel.app/api/v1/scan' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json' \
+  -d '{"capture_method":"camera","conditions":[{"condition_id":"bKB","confidence":0,"features":["hsS"],"name":"Post-Inflammatory Hyperpigmentation (PIH)","severity":"mild","zone":"cheek-left"}],"fitzpatrick_type":1,"quality_assessment":{"blur_score":1,"face_detected":true,"lighting_score":95},"skin_tone":1,"skin_zones":[{"confidence":67,"primary_concern":"zky","severity":"moderate","zone":"Mkm"}]}'
+```
+
+#### Request Body (`application/json`) — Required
+
+**Source:** [openapi.yaml:30](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+**Schema ref:** [ScanRequest](models/schemas/scan-request.md)
+
+- Reference: [ScanRequest](models/schemas/scan-request.md)
+- Type: `object`
+- Required: `conditions`, `skin_tone`, `fitzpatrick_type`, `capture_method`
+Properties:
+- `capture_method` (`string`) required
+  - Enum: `camera`, `gallery`
+- `conditions` (`array`) required
+- `fitzpatrick_type` (`integer`) required
+- `quality_assessment`
+- `skin_tone` (`integer`) required — Fitzpatrick skin type (1-6)
+- `skin_zones` (`array`)
+
+**Example payload**
+
+```json
+{
+  "capture_method": "camera",
+  "conditions": [
+    {
+      "condition_id": "bKB",
+      "confidence": 0,
+      "features": [
+        "hsS"
+      ],
+      "name": "Post-Inflammatory Hyperpigmentation (PIH)",
+      "severity": "mild",
+      "zone": "cheek-left"
+    }
+  ],
+  "fitzpatrick_type": 1,
+  "quality_assessment": {
+    "blur_score": 1,
+    "face_detected": true,
+    "lighting_score": 95
+  },
+  "skin_tone": 1,
+  "skin_zones": [
+    {
+      "confidence": 67,
+      "primary_concern": "zky",
+      "severity": "moderate",
+      "zone": "Mkm"
+    }
+  ]
+}
+```
+
+#### Responses
+
+**200** (`application/json`) — Scan results persisted
+
+**Source:** [openapi.yaml:37](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+**Schema ref:** [ScanResponse](models/schemas/scan-response.md)
+
+- Reference: [ScanResponse](models/schemas/scan-response.md)
+- Type: `object`
+Properties:
+- `data` (`object`)
+
+**Example payload**
+
+```json
+{
+  "data": {
+    "conditions": [
+      {
+        "condition_id": "dfD",
+        "confidence": 0,
+        "features": [
+          "YSa"
+        ],
+        "name": "Post-Inflammatory Hyperpigmentation (PIH)",
+        "severity": "moderate",
+        "zone": "cheek-left"
+      }
+    ],
+    "recommendations": [
+      {
+        "brand": "avn",
+        "category": "ZRy",
+        "conditions_addressed": [
+          "pON"
+        ],
+        "evidence_level": "C",
+        "fit_score": 56,
+        "key_actives": [
+          {
+            "effectiveness": 46,
+            "ingredient": "aKg"
+          }
+        ],
+        "name": "rZZ",
+        "pregnancy_safe": true,
+        "price_tier": "TxZ",
+        "product_id": "GNb",
+        "reasoning": "BOh"
+      }
+    ],
+    "scan_id": "5c941904-536c-56a6-033d-35d934122320",
+    "skin_zones": [
+      {
+        "confidence": 71,
+        "primary_concern": "pyR",
+        "severity": "severe",
+        "zone": "uQr"
+      }
+    ],
+    "timestamp": "2026-05-22T21:25:15-04:00"
+  }
+}
+```
+
+**400** (`application/json`) — Invalid request
+
+**Source:** [openapi.yaml:43](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+**Schema ref:** [ErrorResponse](models/schemas/error-response.md)
+
+- Reference: [ErrorResponse](models/schemas/error-response.md)
+- Type: `object`
+Properties:
+- `detail` (`string`)
+- `error` (`string`)
+
+**Example payload**
+
+```json
+{
+  "detail": "LUl",
+  "error": "WKZ"
+}
+```
+
+**401** — Unauthorized
+
+**Models referenced:** [DetectedCondition](models/schemas/detected-condition.md), [ErrorResponse](models/schemas/error-response.md), [QualityAssessment](models/schemas/quality-assessment.md), [RecommendationResult](models/schemas/recommendation-result.md), [ScanRequest](models/schemas/scan-request.md), [ScanResponse](models/schemas/scan-response.md), [SkinZone](models/schemas/skin-zone.md)
+
+#### Related Operations
+
+- [POST /api/v1/recommendations](operations/get-recommendations.md) — Get product recommendations
+
+
+---
+
+## Schemas
+
+### ScanRequest
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+- Required: `conditions`, `skin_tone`, `fitzpatrick_type`, `capture_method`
+Properties:
+- `capture_method` (`string`) required
+  - Enum: `camera`, `gallery`
+- `conditions` (`array`) required
+- `fitzpatrick_type` (`integer`) required
+- `quality_assessment`
+- `skin_tone` (`integer`) required — Fitzpatrick skin type (1-6)
+- `skin_zones` (`array`)
+
+**Used by:** [POST /api/v1/scan](operations/create-scan.md)
+
+**References:** [DetectedCondition](models/schemas/detected-condition.md), [QualityAssessment](models/schemas/quality-assessment.md), [SkinZone](models/schemas/skin-zone.md)
+
+
+---
+
+### DetectedCondition
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+- Required: `condition_id`, `name`, `confidence`, `severity`, `zone`
+Properties:
+- `condition_id` (`string`) required
+- `confidence` (`number`) required
+- `features` (`array`)
+- `name` (`string`) required Example: `Post-Inflammatory Hyperpigmentation (PIH)`
+- `severity` (`string`) required
+  - Enum: `mild`, `moderate`, `severe`
+- `zone` (`string`) required Example: `cheek-left`
+
+**Used by:** [POST /api/v1/recommendations](operations/get-recommendations.md), [POST /api/v1/scan](operations/create-scan.md)
+
+**Referenced by:** [RecommendationRequest](models/schemas/recommendation-request.md), [ScanRequest](models/schemas/scan-request.md), [ScanResponse](models/schemas/scan-response.md)
+
+
+---
+
+### SkinZone
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+Properties:
+- `confidence` (`number`)
+- `primary_concern` (`string`)
+- `severity` (`string`)
+  - Enum: `mild`, `moderate`, `severe`
+- `zone` (`string`)
+
+**Used by:** [POST /api/v1/scan](operations/create-scan.md)
+
+**Referenced by:** [ScanRequest](models/schemas/scan-request.md), [ScanResponse](models/schemas/scan-response.md)
+
+
+---
+
+### QualityAssessment
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+Properties:
+- `blur_score` (`number`)
+- `face_detected` (`boolean`)
+- `lighting_score` (`number`)
+
+**Used by:** [POST /api/v1/scan](operations/create-scan.md)
+
+**Referenced by:** [ScanRequest](models/schemas/scan-request.md)
+
+
+---
+
+### ScanResponse
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+Properties:
+- `data` (`object`)
+
+**Used by:** [POST /api/v1/scan](operations/create-scan.md)
+
+**References:** [DetectedCondition](models/schemas/detected-condition.md), [RecommendationResult](models/schemas/recommendation-result.md), [SkinZone](models/schemas/skin-zone.md)
+
+
+---
+
+### RecommendationRequest
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+- Required: `conditions`
+Properties:
+- `conditions` (`array`) required
+- `fitzpatrick_type` (`integer`)
+- `price_tier` (`string`)
+  - Enum: `$`, `$$`, `$$$`, `$$$$`
+- `skin_type` (`string`)
+  - Enum: `oily`, `dry`, `combination`, `normal`, `sensitive`
+
+**Used by:** [POST /api/v1/recommendations](operations/get-recommendations.md)
+
+**References:** [DetectedCondition](models/schemas/detected-condition.md)
+
+
+---
+
+### RecommendationResponse
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+Properties:
+- `data` (`array`)
+
+**Used by:** [POST /api/v1/recommendations](operations/get-recommendations.md)
+
+**References:** [RecommendationResult](models/schemas/recommendation-result.md)
+
+
+---
+
+### RecommendationResult
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+Properties:
+- `brand` (`string`)
+- `category` (`string`)
+- `conditions_addressed` (`array`)
+- `evidence_level` (`string`)
+  - Enum: `A`, `B`, `C`, `D`
+- `fit_score` (`integer`)
+- `key_actives` (`array`)
+- `name` (`string`)
+- `pregnancy_safe` (`boolean`)
+- `price_tier` (`string`)
+- `product_id` (`string`)
+- `reasoning` (`string`)
+
+**Used by:** [POST /api/v1/recommendations](operations/get-recommendations.md), [POST /api/v1/scan](operations/create-scan.md)
+
+**Referenced by:** [RecommendationResponse](models/schemas/recommendation-response.md), [ScanResponse](models/schemas/scan-response.md)
+
+
+---
+
+### ErrorResponse
+
+**Source:** [openapi.yaml](/home/jason/.openclaw/workspaces/skingenius/openapi.yaml)
+
+
+#### Schema Summary
+
+- Type: `object`
+Properties:
+- `detail` (`string`)
+- `error` (`string`)
+
+**Used by:** [POST /api/v1/scan](operations/create-scan.md)
+
+
+---
+

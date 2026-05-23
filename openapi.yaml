@@ -1,0 +1,1405 @@
+openapi: 3.1.0
+info:
+  title: SKINgenius API
+  version: 1.0.0
+  description: |
+    Free, on-device AI skin analysis. No per-scan costs. Privacy-first.
+
+    Scan images are analyzed on the user's device (MediaPipe + Gemma 4).
+    Only results are sent to this API for persistence and recommendations.
+
+    ## Authentication
+    Most endpoints require authentication via Supabase session cookie.
+    The API checks for `sb-access-token` cookie or `x-test-user-id` header (dev only).
+
+    ## Base URL
+    Production: `https://skingenius-sigma.vercel.app`
+  contact:
+    name: SKINgenius
+    email: jasonopland@msn.com
+  license:
+    name: Proprietary
+
+servers:
+  - url: https://skingenius-sigma.vercel.app
+    description: Production
+
+paths:
+  /api/v1/scan:
+    post:
+      operationId: createScan
+      summary: Submit scan results
+      description: |
+        Accepts on-device analysis results (preferred) OR a raw base64 image (legacy).
+        The scan pipeline runs entirely on the user's phone when `analysis_results` is provided.
+        This endpoint persists results to the `scan_results` table and returns the saved record.
+      tags:
+        - Scan
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              oneOf:
+                - $ref: '#/components/schemas/V1ScanRequestOnDevice'
+                - $ref: '#/components/schemas/V1ScanRequestLegacy'
+            examples:
+              on-device:
+                summary: On-device analysis results
+                value:
+                  analysis_results:
+                    scan_id: null
+                    timestamp: "2026-05-23T12:00:00Z"
+                    quality_assessment:
+                      is_valid_format: true
+                      width: 1280
+                      height: 1280
+                      aspect_ratio: 1.0
+                      file_size_bytes: 245760
+                      face_detected: true
+                      blur_score: 8.5
+                      lighting_score: 7.2
+                    conditions:
+                      - condition_id: "acne-vulgaris"
+                        name: "Acne Vulgaris"
+                        confidence: 0.92
+                        severity: "moderate"
+                        features: ["papules", "pustules"]
+                        zone: "t-zone"
+                    skin_zones:
+                      - zone: "t-zone"
+                        primary_concern: "Acne Vulgaris"
+                        description: "Moderate comedonal and inflammatory acne"
+                        severity: "moderate"
+                        confidence: 0.92
+                    metadata:
+                      capture_method: "camera"
+                      skin_tone: 3
+                      processed: true
+                      model_version: "v1-ondevice"
+                  capture_method: "camera"
+                  skin_tone: 3
+              legacy:
+                summary: Legacy raw image upload
+                value:
+                  image: "/9j/4AAQ..."
+                  capture_method: "camera"
+                  skin_tone: 3
+      responses:
+        '200':
+          description: Scan results persisted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/V1ScanResponse'
+              example:
+                data:
+                  scan_id: "550e8400-e29b-41d4-a716-446655440000"
+                  timestamp: "2026-05-23T12:00:00Z"
+                  quality_assessment:
+                    is_valid_format: true
+                    width: 1280
+                    height: 1280
+                    face_detected: true
+                    blur_score: 8.5
+                    lighting_score: 7.2
+                  conditions:
+                    - condition_id: "acne-vulgaris"
+                      name: "Acne Vulgaris"
+                      confidence: 0.92
+                      severity: "moderate"
+                      features: ["papules", "pustules"]
+                      zone: "t-zone"
+                  skin_zones:
+                    - zone: "t-zone"
+                      primary_concern: "Acne Vulgaris"
+                      description: "Moderate acne"
+                      severity: "moderate"
+                      confidence: 0.92
+                  metadata:
+                    capture_method: "camera"
+                    skin_tone: 3
+                    processed: true
+                    model_version: "v1-ondevice"
+        '400':
+          description: Invalid request body
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Missing or invalid field: capture_method (camera | gallery)"
+        '401':
+          description: Unauthorized — no valid session
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Unauthorized"
+        '422':
+          description: Image failed quality gate (legacy mode)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/V1ScanResponse'
+              example:
+                error: "Image failed quality gate"
+                data:
+                  scan_id: null
+                  timestamp: "2026-05-23T12:00:00Z"
+                  quality_assessment:
+                    is_valid_format: true
+                    face_detected: false
+                  conditions: []
+                  skin_zones: []
+                  metadata:
+                    capture_method: "camera"
+                    skin_tone: 3
+                    processed: false
+                    model_version: "v1-mock"
+
+  /api/v1/recommendations:
+    post:
+      operationId: getRecommendations
+      summary: Get product recommendations
+      description: |
+        Returns personalized product recommendations based on detected conditions,
+        skin type, Fitzpatrick type, and user preferences.
+        Uses Fit Score algorithm with evidence-weighted matching.
+      tags:
+        - Recommendations
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RecommendationRequest'
+            example:
+              conditions:
+                - id: "acne-vulgaris"
+                  confidence: 0.92
+                  severity: "moderate"
+                - id: "post-inflammatory-hyperpigmentation"
+                  confidence: 0.87
+                  severity: "mild"
+              skin_type: "combination"
+              fitzpatrick: 3
+              is_pregnant: false
+              allergies: []
+              preferences:
+                max_price_tier: "$$$"
+                preferred_brands: ["SKINgenius Labs"]
+      responses:
+        '200':
+          description: Recommendations returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RecommendationResponse'
+              example:
+                success: true
+                data:
+                  recommendations:
+                    - product_id: "prod-001"
+                      name: "Barrier Repair Moisturizer"
+                      brand: "SKINgenius Labs"
+                      fit_score: 96
+                      evidence_level: "A"
+                      pregnancy_safe: true
+                      reasoning: "Ceramide-dominant formula addressing barrier dysfunction"
+                      key_actives:
+                        - ingredient: "Ceramide NP"
+                          concentration: "2%"
+                          effectiveness: 0.94
+                      conditions_addressed:
+                        - "Acne Vulgaris"
+                        - "Seborrheic Dermatitis"
+                      contraindications: []
+                      price_tier: "$$"
+                      category: "moisturizer"
+        '400':
+          description: Invalid request — missing or malformed conditions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Conditions array is required"
+        '500':
+          description: Internal server error during recommendation generation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Failed to generate recommendations"
+
+  # ─── LEGACY /api/ ROUTES ─────────────────────────────────────
+
+  /api/profiles:
+    get:
+      operationId: getProfile
+      summary: Get current user profile
+      description: Returns the authenticated user's profile or null if not created yet.
+      tags:
+        - Profiles
+      security:
+        - cookieAuth: []
+      responses:
+        '200':
+          description: User profile or null
+          content:
+            application/json:
+              schema:
+                nullable: true
+                $ref: '#/components/schemas/UserProfile'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+    post:
+      operationId: upsertProfile
+      summary: Create or update user profile
+      description: Upserts the user's profile by `user_id`.
+      tags:
+        - Profiles
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserProfileInput'
+            example:
+              display_name: "Jane Doe"
+              birth_date: "1990-01-15"
+              gender: "female"
+              location: "New York, NY"
+              skin_concerns: ["acne", "hyperpigmentation"]
+              allergies: ["fragrance", "parabens"]
+              current_medications: ["retinoid"]
+      responses:
+        '200':
+          description: Profile saved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserProfile'
+        '400':
+          description: Invalid JSON body
+        '401':
+          description: Unauthorized
+        '500':
+          description: Server error
+
+  /api/profiles/skin-type:
+    get:
+      operationId: getSkinType
+      summary: Get latest skin type assessment
+      description: Returns the most recent skin type assessment for the authenticated user.
+      tags:
+        - Profiles
+      security:
+        - cookieAuth: []
+      responses:
+        '200':
+          description: Skin type assessment or null
+          content:
+            application/json:
+              schema:
+                nullable: true
+                $ref: '#/components/schemas/SkinTypeAssessment'
+        '401':
+          description: Unauthorized
+
+  /api/analyses:
+    get:
+      operationId: listAnalyses
+      summary: List skin analyses
+      description: Paginated list of the user's skin analyses, ordered by newest first.
+      tags:
+        - Analyses
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+        - name: offset
+          in: query
+          schema:
+            type: integer
+            default: 0
+      responses:
+        '200':
+          description: Paginated list of analyses
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedAnalyses'
+        '401':
+          description: Unauthorized
+    post:
+      operationId: createAnalysis
+      summary: Create a skin analysis
+      description: Manually create a skin analysis record.
+      tags:
+        - Analyses
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SkinAnalysisInput'
+      responses:
+        '201':
+          description: Analysis created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SkinAnalysis'
+        '400':
+          description: Invalid request
+        '401':
+          description: Unauthorized
+
+  /api/analyses/{id}:
+    get:
+      operationId: getAnalysis
+      summary: Get a specific analysis
+      description: Retrieves a single analysis by ID, scoped to the authenticated user.
+      tags:
+        - Analyses
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Analysis found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SkinAnalysis'
+        '404':
+          description: Analysis not found
+        '401':
+          description: Unauthorized
+
+  /api/analyses/latest:
+    get:
+      operationId: getLatestAnalysis
+      summary: Get latest analysis
+      description: Returns the most recent skin analysis for the authenticated user.
+      tags:
+        - Analyses
+      security:
+        - cookieAuth: []
+      responses:
+        '200':
+          description: Latest analysis
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SkinAnalysis'
+        '404':
+          description: No analyses found
+        '401':
+          description: Unauthorized
+
+  /api/routines:
+    get:
+      operationId: listRoutines
+      summary: List routines
+      description: Returns all routines for the authenticated user. Optionally filter by `is_active`.
+      tags:
+        - Routines
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: is_active
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: List of routines
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Routine'
+        '401':
+          description: Unauthorized
+    post:
+      operationId: createRoutine
+      summary: Create a routine
+      description: Creates a new skincare routine.
+      tags:
+        - Routines
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoutineInput'
+      responses:
+        '201':
+          description: Routine created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Routine'
+        '400':
+          description: Invalid request
+        '401':
+          description: Unauthorized
+
+  /api/routines/{id}:
+    put:
+      operationId: updateRoutine
+      summary: Update a routine
+      description: Updates an existing routine owned by the authenticated user.
+      tags:
+        - Routines
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoutineInput'
+      responses:
+        '200':
+          description: Routine updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Routine'
+        '404':
+          description: Routine not found
+        '401':
+          description: Unauthorized
+    delete:
+      operationId: deleteRoutine
+      summary: Delete a routine
+      description: Deletes a routine owned by the authenticated user.
+      tags:
+        - Routines
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Routine deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  id:
+                    type: string
+        '401':
+          description: Unauthorized
+
+  /api/routines/{id}/steps:
+    get:
+      operationId: getRoutineSteps
+      summary: Get routine steps
+      description: Returns all steps for a specific routine, ordered by step_order.
+      tags:
+        - Routines
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: List of routine steps
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RoutineStep'
+        '404':
+          description: Routine not found
+        '401':
+          description: Unauthorized
+
+  /api/ingredients:
+    get:
+      operationId: listIngredients
+      summary: List ingredients
+      description: Public endpoint. Returns a paginated list of ingredients from the database.
+      tags:
+        - Ingredients
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+            maximum: 200
+        - name: offset
+          in: query
+          schema:
+            type: integer
+            default: 0
+        - name: category
+          in: query
+          schema:
+            type: string
+            enum: [active, emollient, surfactant, preservative, antioxidant, exfoliant, humectant, peptide, vitamin, botanical, other]
+      responses:
+        '200':
+          description: Paginated list of ingredients
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedIngredients'
+
+  /api/ingredients/{id}:
+    get:
+      operationId: getIngredient
+      summary: Get ingredient by ID
+      description: Public endpoint. Returns a single ingredient by its ID.
+      tags:
+        - Ingredients
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Ingredient found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ingredient'
+        '404':
+          description: Ingredient not found
+
+  /api/ingredients/search:
+    get:
+      operationId: searchIngredients
+      summary: Search ingredients
+      description: |
+        Public endpoint. Searches ingredients by INCI name or common names.
+        Query must be at least 2 characters.
+      tags:
+        - Ingredients
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+            minLength: 2
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IngredientSearchResult'
+        '400':
+          description: Query too short or missing
+
+  /api/ingredients/{id}/related:
+    get:
+      operationId: getRelatedIngredients
+      summary: Get related ingredients
+      description: Public endpoint. Returns ingredients related to the given ingredient ID.
+      tags:
+        - Ingredients
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of related ingredients
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Ingredient'
+
+  /api/knowledge/conditions:
+    get:
+      operationId: getKnowledgeConditions
+      summary: Get all skin conditions
+      description: Public endpoint. Returns all skin conditions with root causes, recommendations, and zone mappings.
+      tags:
+        - Knowledge Graph
+      parameters:
+        - name: category
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of conditions
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  conditions:
+                    type: array
+                    items:
+                      type: object
+
+  /api/knowledge/conditions/{slug}:
+    get:
+      operationId: getKnowledgeCondition
+      summary: Get a specific condition
+      description: Public endpoint. Returns a single condition by slug with full detail.
+      tags:
+        - Knowledge Graph
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Condition details
+        '404':
+          description: Condition not found
+
+  /api/knowledge/zones:
+    get:
+      operationId: getKnowledgeZones
+      summary: Get facial zones
+      description: Public endpoint. Returns all facial zones with condition mappings.
+      tags:
+        - Knowledge Graph
+      responses:
+        '200':
+          description: List of zones
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  zones:
+                    type: array
+
+  /api/knowledge/root-causes:
+    get:
+      operationId: getKnowledgeRootCauses
+      summary: Get root causes
+      description: Public endpoint. Returns root causes, optionally filtered by domain or condition.
+      tags:
+        - Knowledge Graph
+      parameters:
+        - name: domain
+          in: query
+          schema:
+            type: string
+            enum: [gut, hormones, nutrition, lifestyle, skin]
+        - name: condition
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of root causes
+
+  /api/knowledge/recommendations:
+    get:
+      operationId: getKnowledgeRecommendations
+      summary: Get knowledge recommendations
+      description: Public endpoint. Returns recommendations filtered by condition and tier.
+      tags:
+        - Knowledge Graph
+      parameters:
+        - name: condition
+          in: query
+          schema:
+            type: string
+        - name: tier
+          in: query
+          schema:
+            type: string
+            enum: [product, supplement, practitioner, basys_health]
+      responses:
+        '200':
+          description: List of recommendations
+
+components:
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sb-access-token
+      description: Supabase session cookie. Required for authenticated endpoints.
+
+  schemas:
+    # ─── V1 Scan Schemas ───────────────────────────────────────
+
+    V1ScanRequestOnDevice:
+      type: object
+      required: [analysis_results, capture_method, skin_tone]
+      properties:
+        analysis_results:
+          $ref: '#/components/schemas/V1ScanResponseData'
+        capture_method:
+          type: string
+          enum: [camera, gallery]
+        skin_tone:
+          type: integer
+          minimum: 1
+          maximum: 6
+
+    V1ScanRequestLegacy:
+      type: object
+      required: [image, capture_method, skin_tone]
+      properties:
+        image:
+          type: string
+          description: Base64-encoded JPEG/PNG image
+        capture_method:
+          type: string
+          enum: [camera, gallery]
+        skin_tone:
+          type: integer
+          minimum: 1
+          maximum: 6
+
+    V1ScanResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/V1ScanResponseData'
+        error:
+          type: string
+        detail:
+          type: string
+
+    V1ScanResponseData:
+      type: object
+      required: [scan_id, timestamp, quality_assessment, conditions, skin_zones, metadata]
+      properties:
+        scan_id:
+          type: string
+          format: uuid
+          nullable: true
+        timestamp:
+          type: string
+          format: date-time
+        quality_assessment:
+          $ref: '#/components/schemas/V1QualityAssessment'
+        conditions:
+          type: array
+          items:
+            $ref: '#/components/schemas/V1DetectedCondition'
+        skin_zones:
+          type: array
+          items:
+            $ref: '#/components/schemas/V1SkinZone'
+        metadata:
+          $ref: '#/components/schemas/V1ScanMetadata'
+
+    V1DetectedCondition:
+      type: object
+      required: [condition_id, name, confidence, severity, features, zone]
+      properties:
+        condition_id:
+          type: string
+        name:
+          type: string
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+        severity:
+          type: string
+          enum: [mild, moderate, severe]
+        features:
+          type: array
+          items:
+            type: string
+        zone:
+          type: string
+
+    V1SkinZone:
+      type: object
+      required: [zone, primary_concern, description, severity, confidence]
+      properties:
+        zone:
+          type: string
+        primary_concern:
+          type: string
+        description:
+          type: string
+        severity:
+          type: string
+          enum: [mild, moderate, severe]
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+
+    V1QualityAssessment:
+      type: object
+      required: [is_valid_format, file_size_bytes, face_detected]
+      properties:
+        is_valid_format:
+          type: boolean
+        width:
+          type: integer
+          nullable: true
+        height:
+          type: integer
+          nullable: true
+        aspect_ratio:
+          type: number
+          nullable: true
+        file_size_bytes:
+          type: integer
+        face_detected:
+          type: boolean
+        blur_score:
+          type: number
+          nullable: true
+        lighting_score:
+          type: number
+          nullable: true
+
+    V1ScanMetadata:
+      type: object
+      required: [capture_method, skin_tone, processed, model_version]
+      properties:
+        capture_method:
+          type: string
+        skin_tone:
+          type: integer
+        processed:
+          type: boolean
+        model_version:
+          type: string
+        warnings:
+          type: array
+          items:
+            type: string
+        storage_failed:
+          type: boolean
+        storage_error:
+          type: string
+        auto_detected_skin_tone:
+          type: object
+          properties:
+            type:
+              type: integer
+            confidence:
+              type: number
+
+    # ─── Recommendation Schemas ──────────────────────────────
+
+    RecommendationRequest:
+      type: object
+      required: [conditions]
+      properties:
+        conditions:
+          type: array
+          items:
+            $ref: '#/components/schemas/ConditionWithConfidence'
+        skin_type:
+          type: string
+          enum: [oily, dry, combination, normal, sensitive]
+        fitzpatrick:
+          type: integer
+          minimum: 1
+          maximum: 6
+        is_pregnant:
+          type: boolean
+        allergies:
+          type: array
+          items:
+            type: string
+        preferences:
+          type: object
+          properties:
+            max_price_tier:
+              type: string
+              enum: ['$', '$$', '$$$', '$$$$']
+            preferred_brands:
+              type: array
+              items:
+                type: string
+
+    ConditionWithConfidence:
+      type: object
+      required: [id, confidence]
+      properties:
+        id:
+          type: string
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+        severity:
+          type: string
+          enum: [mild, moderate, severe]
+
+    RecommendationResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        data:
+          type: object
+          properties:
+            recommendations:
+              type: array
+              items:
+                $ref: '#/components/schemas/RecommendationResult'
+
+    RecommendationResult:
+      type: object
+      properties:
+        product_id:
+          type: string
+        name:
+          type: string
+        brand:
+          type: string
+        fit_score:
+          type: integer
+          minimum: 0
+          maximum: 100
+        evidence_level:
+          type: string
+          enum: [A, B, C, D]
+        pregnancy_safe:
+          type: boolean
+        reasoning:
+          type: string
+        key_actives:
+          type: array
+          items:
+            type: object
+            properties:
+              ingredient:
+                type: string
+              concentration:
+                type: string
+              effectiveness:
+                type: number
+        conditions_addressed:
+          type: array
+          items:
+            type: string
+        contraindications:
+          type: array
+          items:
+            type: string
+        price_tier:
+          type: string
+        category:
+          type: string
+
+    # ─── User Profile Schemas ──────────────────────────────────
+
+    UserProfile:
+      type: object
+      properties:
+        id:
+          type: string
+        user_id:
+          type: string
+        display_name:
+          type: string
+          nullable: true
+        birth_date:
+          type: string
+          nullable: true
+        gender:
+          type: string
+          enum: [male, female, non_binary, prefer_not_say]
+          nullable: true
+        location:
+          type: string
+          nullable: true
+        skin_concerns:
+          type: array
+          items:
+            type: string
+          nullable: true
+        allergies:
+          type: array
+          items:
+            type: string
+          nullable: true
+        current_medications:
+          type: array
+          items:
+            type: string
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    UserProfileInput:
+      type: object
+      properties:
+        display_name:
+          type: string
+          nullable: true
+        birth_date:
+          type: string
+          nullable: true
+        gender:
+          type: string
+          enum: [male, female, non_binary, prefer_not_say]
+          nullable: true
+        location:
+          type: string
+          nullable: true
+        skin_concerns:
+          type: array
+          items:
+            type: string
+        allergies:
+          type: array
+          items:
+            type: string
+        current_medications:
+          type: array
+          items:
+            type: string
+
+    # ─── Skin Type Assessment Schemas ──────────────────────────
+
+    SkinTypeAssessment:
+      type: object
+      properties:
+        id:
+          type: string
+        user_id:
+          type: string
+        skin_type:
+          type: string
+          enum: [oily, dry, combination, normal, sensitive]
+          nullable: true
+        oiliness:
+          type: integer
+          nullable: true
+        hydration:
+          type: integer
+          nullable: true
+        sensitivity:
+          type: integer
+          nullable: true
+        pore_size:
+          type: string
+          enum: [small, medium, large]
+          nullable: true
+        acne_frequency:
+          type: string
+          enum: [rare, occasional, frequent, severe]
+          nullable: true
+        completed_at:
+          type: string
+          format: date-time
+
+    # ─── Skin Analysis Schemas ─────────────────────────────────
+
+    SkinAnalysis:
+      type: object
+      properties:
+        id:
+          type: string
+        user_id:
+          type: string
+        image_url:
+          type: string
+          nullable: true
+        conditions:
+          type: array
+          items:
+            $ref: '#/components/schemas/DetectedCondition'
+        skin_score:
+          type: integer
+          nullable: true
+        notes:
+          type: string
+          nullable: true
+        urgent_flag:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+
+    DetectedCondition:
+      type: object
+      properties:
+        condition:
+          type: string
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+        severity:
+          type: string
+          enum: [mild, moderate, severe]
+          nullable: true
+
+    SkinAnalysisInput:
+      type: object
+      required: [conditions]
+      properties:
+        image_url:
+          type: string
+          nullable: true
+        conditions:
+          type: array
+          items:
+            $ref: '#/components/schemas/DetectedCondition'
+        skin_score:
+          type: integer
+          nullable: true
+        notes:
+          type: string
+          nullable: true
+        urgent_flag:
+          type: boolean
+
+    PaginatedAnalyses:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/SkinAnalysis'
+        count:
+          type: integer
+          nullable: true
+        limit:
+          type: integer
+        offset:
+          type: integer
+
+    # ─── Routine Schemas ────────────────────────────────────────
+
+    Routine:
+      type: object
+      properties:
+        id:
+          type: string
+        user_id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+          nullable: true
+        is_active:
+          type: boolean
+        time_of_day:
+          type: string
+          enum: [am, pm, both]
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    RoutineInput:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+          nullable: true
+        is_active:
+          type: boolean
+        time_of_day:
+          type: string
+          enum: [am, pm, both]
+          nullable: true
+
+    RoutineStep:
+      type: object
+      properties:
+        id:
+          type: string
+        routine_id:
+          type: string
+        step_order:
+          type: integer
+        product_name:
+          type: string
+        product_id:
+          type: string
+          nullable: true
+        category:
+          type: string
+          enum: [cleanser, toner, serum, moisturizer, sunscreen, treatment, eye_cream, mask, oil, other]
+        instructions:
+          type: string
+          nullable: true
+        frequency:
+          type: string
+          enum: [daily, weekly, as_needed]
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+
+    # ─── Ingredient Schemas ────────────────────────────────────
+
+    Ingredient:
+      type: object
+      properties:
+        id:
+          type: string
+        inci_name:
+          type: string
+        common_names:
+          type: array
+          items:
+            type: string
+          nullable: true
+        category:
+          type: string
+          enum: [active, emollient, surfactant, preservative, antioxidant, exfoliant, humectant, peptide, vitamin, botanical, other]
+        functions:
+          type: array
+          items:
+            type: string
+          nullable: true
+        evidence_score:
+          type: integer
+          nullable: true
+        safety_rating:
+          type: string
+          enum: [A, B, C, D]
+          nullable: true
+        description:
+          type: string
+          nullable: true
+        mechanism:
+          type: string
+          nullable: true
+        common_concentration:
+          type: string
+          nullable: true
+        contraindications:
+          type: array
+          items:
+            type: string
+          nullable: true
+        related_ingredient_ids:
+          type: array
+          items:
+            type: string
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+
+    PaginatedIngredients:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ingredient'
+        count:
+          type: integer
+          nullable: true
+        limit:
+          type: integer
+        offset:
+          type: integer
+
+    IngredientSearchResult:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ingredient'
+        query:
+          type: string
+        limit:
+          type: integer
+
+    # ─── Error Schema ──────────────────────────────────────────
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+        detail:
+          type: string
+        path:
+          type: string
