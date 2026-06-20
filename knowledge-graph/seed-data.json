@@ -2987,8 +2987,13 @@
       "category": "antimicrobial",
       "evidence": "A",
       "concentration": "2.5-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "benzoyl-peroxide",
+      "description": "Benzoyl Peroxide is a antimicrobial ingredient used in skincare. Typical concentration: 2.5-5%. Used for: acne-vulgaris, acne-mechanica, folliculitis, razor-bumps.",
+      "evidence_level": "A",
+      "min_concentration": 2.5,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "acne-mechanica",
         "folliculitis",
@@ -2998,11 +3003,16 @@
     {
       "id": "salicylic-acid",
       "name": "Salicylic Acid",
-      "category": "BHA",
+      "category": "bha",
       "evidence": "A",
       "concentration": "0.5-2%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "salicylic-acid",
+      "description": "Salicylic Acid is a BHA ingredient used in skincare. Typical concentration: 0.5-2%. Used for: acne-vulgaris, keratosis-pilaris, folliculitis, seborrheic-dermatitis, excess-sebum-enlarged-pores.",
+      "evidence_level": "A",
+      "min_concentration": 0.5,
+      "max_concentration": 2,
+      "pregnancy_safe": false,
+      "concerns": [
         "acne-vulgaris",
         "keratosis-pilaris",
         "folliculitis",
@@ -3016,8 +3026,13 @@
       "category": "antimicrobial",
       "evidence": "A",
       "concentration": "15-20%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "azelaic-acid",
+      "description": "Azelaic Acid is a antimicrobial ingredient used in skincare. Typical concentration: 15-20%. Used for: acne-vulgaris, rosacea, melasa, PIH, perioral-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 15,
+      "max_concentration": 20,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "rosacea",
         "melasa",
@@ -3031,8 +3046,13 @@
       "category": "vitamin",
       "evidence": "A",
       "concentration": "2-10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "niacinamide",
+      "description": "Niacinamide is a vitamin ingredient used in skincare. Typical concentration: 2-10%. Used for: acne-vulgaris, rosacea, melasma, PIH, xerosis and 1 more.",
+      "evidence_level": "A",
+      "min_concentration": 2,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "rosacea",
         "melasma",
@@ -3047,8 +3067,13 @@
       "category": "retinoid",
       "evidence": "A",
       "concentration": "0.025-0.1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "tretinoin",
+      "description": "Tretinoin is a retinoid ingredient used in skincare. Typical concentration: 0.025-0.1%. Used for: acne-vulgaris, melasma, PIH, photoaging, actinic-keratosis and 1 more.",
+      "evidence_level": "A",
+      "min_concentration": 0.025,
+      "max_concentration": 0.1,
+      "pregnancy_safe": false,
+      "concerns": [
         "acne-vulgaris",
         "melasma",
         "PIH",
@@ -3063,8 +3088,13 @@
       "category": "antioxidant",
       "evidence": "A",
       "concentration": "10-20%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "vitamin-c",
+      "description": "Vitamin C (L-Ascorbic Acid) is a antioxidant ingredient used in skincare. Typical concentration: 10-20%. Used for: melasma, PIH, photoaging, solar-lentigines.",
+      "evidence_level": "A",
+      "min_concentration": 10,
+      "max_concentration": 20,
+      "pregnancy_safe": true,
+      "concerns": [
         "melasma",
         "PIH",
         "photoaging",
@@ -3077,8 +3107,13 @@
       "category": "depigmenting",
       "evidence": "A",
       "concentration": "2-4%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "hydroquinone",
+      "description": "Hydroquinone is a depigmenting ingredient used in skincare. Typical concentration: 2-4%. Used for: melasma, PIH, solar-lentigines.",
+      "evidence_level": "A",
+      "min_concentration": 2,
+      "max_concentration": 4,
+      "pregnancy_safe": false,
+      "concerns": [
         "melasma",
         "PIH",
         "solar-lentigines"
@@ -3090,8 +3125,13 @@
       "category": "depigmenting",
       "evidence": "A-",
       "concentration": "2-5%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "tranexamic-acid",
+      "description": "Tranexamic Acid is a depigmenting ingredient used in skincare. Typical concentration: 2-5%. Used for: melasma, PIH.",
+      "evidence_level": "A-",
+      "min_concentration": 2,
+      "max_concentration": 5,
+      "pregnancy_safe": false,
+      "concerns": [
         "melasma",
         "PIH"
       ]
@@ -3102,8 +3142,13 @@
       "category": "depigmenting",
       "evidence": "B",
       "concentration": "1-4%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "kojic-acid",
+      "description": "Kojic Acid is a depigmenting ingredient used in skincare. Typical concentration: 1-4%. Used for: melasma, PIH.",
+      "evidence_level": "B",
+      "min_concentration": 1,
+      "max_concentration": 4,
+      "pregnancy_safe": true,
+      "concerns": [
         "melasma",
         "PIH"
       ]
@@ -3114,8 +3159,13 @@
       "category": "mineral",
       "evidence": "A",
       "concentration": "15-30mg (oral)",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "zinc",
+      "description": "Zinc is a mineral ingredient used in skincare. Typical concentration: 15-30mg (oral). Used for: acne-vulgaris, hormonal-acne, rosacea, folliculitis, excess-sebum-enlarged-pores.",
+      "evidence_level": "A",
+      "min_concentration": 15,
+      "max_concentration": 30,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "hormonal-acne",
         "rosacea",
@@ -3129,8 +3179,13 @@
       "category": "fatty-acid",
       "evidence": "A",
       "concentration": "1000-2000mg",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "omega-3",
+      "description": "Omega-3 (EPA/DHA) is a fatty-acid ingredient used in skincare. Typical concentration: 1000-2000mg. Used for: acne-vulgaris, psoriasis, eczema, rosacea.",
+      "evidence_level": "A",
+      "min_concentration": 1000,
+      "max_concentration": 2000,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "psoriasis",
         "eczema",
@@ -3143,8 +3198,13 @@
       "category": "vitamin",
       "evidence": "A",
       "concentration": "2000-4000 IU",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "vitamin-d",
+      "description": "Vitamin D3 is a vitamin ingredient used in skincare. Typical concentration: 2000-4000 IU. Used for: acne-vulgaris, psoriasis, eczema, vitiligo.",
+      "evidence_level": "A",
+      "min_concentration": 2000,
+      "max_concentration": 4000,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "psoriasis",
         "eczema",
@@ -3157,8 +3217,13 @@
       "category": "barrier-repair",
       "evidence": "A",
       "concentration": "1-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "ceramides",
+      "description": "Ceramides is a barrier-repair ingredient used in skincare. Typical concentration: 1-5%. Used for: atopic-dermatitis, xerosis, contact-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "atopic-dermatitis",
         "xerosis",
         "contact-dermatitis"
@@ -3170,8 +3235,13 @@
       "category": "keratolytic",
       "evidence": "A",
       "concentration": "5-20%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "urea",
+      "description": "Urea is a keratolytic ingredient used in skincare. Typical concentration: 5-20%. Used for: xerosis, keratosis-pilaris, eczema.",
+      "evidence_level": "A",
+      "min_concentration": 5,
+      "max_concentration": 20,
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "keratosis-pilaris",
         "eczema"
@@ -3183,8 +3253,13 @@
       "category": "antifungal",
       "evidence": "A",
       "concentration": "2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "ketoconazole",
+      "description": "Ketoconazole is a antifungal ingredient used in skincare. Typical concentration: 2%. Used for: seborrheic-dermatitis, fungal-acne, tinea-versicolor, folliculitis.",
+      "evidence_level": "A",
+      "min_concentration": 2,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "seborrheic-dermatitis",
         "fungal-acne",
         "tinea-versicolor",
@@ -3197,8 +3272,13 @@
       "category": "antimicrobial",
       "evidence": "A",
       "concentration": "0.75%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "metronidazole",
+      "description": "Metronidazole is a antimicrobial ingredient used in skincare. Typical concentration: 0.75%. Used for: rosacea, perioral-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 0.75,
+      "max_concentration": 0.75,
+      "pregnancy_safe": false,
+      "concerns": [
         "rosacea",
         "perioral-dermatitis"
       ]
@@ -3209,8 +3289,13 @@
       "category": "antiparasitic",
       "evidence": "A",
       "concentration": "1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "ivermectin",
+      "description": "Ivermectin is a antiparasitic ingredient used in skincare. Typical concentration: 1%. Used for: rosacea.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 1,
+      "pregnancy_safe": false,
+      "concerns": [
         "rosacea"
       ]
     },
@@ -3220,19 +3305,29 @@
       "category": "vitamin-d-analog",
       "evidence": "A",
       "concentration": "0.005%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "calcipotriene",
+      "description": "Calcipotriene is a vitamin-d-analog ingredient used in skincare. Typical concentration: 0.005%. Used for: psoriasis.",
+      "evidence_level": "A",
+      "min_concentration": 0.005,
+      "max_concentration": 0.005,
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis"
       ]
     },
     {
       "id": "glycolic-acid",
       "name": "Glycolic Acid",
-      "category": "AHA",
+      "category": "aha",
       "evidence": "A",
       "concentration": "5-10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "glycolic-acid",
+      "description": "Glycolic Acid is a AHA ingredient used in skincare. Typical concentration: 5-10%. Used for: acne-vulgaris, PIH, photoaging, keratosis-pilaris.",
+      "evidence_level": "A",
+      "min_concentration": 5,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "PIH",
         "photoaging",
@@ -3242,11 +3337,16 @@
     {
       "id": "lactic-acid",
       "name": "Lactic Acid",
-      "category": "AHA",
+      "category": "aha",
       "evidence": "A",
       "concentration": "5-12%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "lactic-acid",
+      "description": "Lactic Acid is a AHA ingredient used in skincare. Typical concentration: 5-12%. Used for: xerosis, keratosis-pilaris, PIH.",
+      "evidence_level": "A",
+      "min_concentration": 5,
+      "max_concentration": 12,
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "keratosis-pilaris",
         "PIH"
@@ -3255,11 +3355,16 @@
     {
       "id": "mandelic-acid",
       "name": "Mandelic Acid",
-      "category": "AHA",
+      "category": "aha",
       "evidence": "B",
       "concentration": "5-10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "mandelic-acid",
+      "description": "Mandelic Acid is a AHA ingredient used in skincare. Typical concentration: 5-10%. Used for: acne-vulgaris, PIH.",
+      "evidence_level": "B",
+      "min_concentration": 5,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "PIH"
       ]
@@ -3267,11 +3372,16 @@
     {
       "id": "gluconolactone",
       "name": "Gluconolactone",
-      "category": "PHA",
+      "category": "pha",
       "evidence": "B",
       "concentration": "5-10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "gluconolactone",
+      "description": "Gluconolactone is a PHA ingredient used in skincare. Typical concentration: 5-10%. Used for: acne-vulgaris, sensitive-skin, photoaging.",
+      "evidence_level": "B",
+      "min_concentration": 5,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne-vulgaris",
         "sensitive-skin",
         "photoaging"
@@ -3283,8 +3393,13 @@
       "category": "calcineurin-inhibitor",
       "evidence": "A",
       "concentration": "0.03-0.1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "tacrolimus",
+      "description": "Tacrolimus is a calcineurin-inhibitor ingredient used in skincare. Typical concentration: 0.03-0.1%. Used for: atopic-dermatitis, vitiligo, perioral-dermatitis, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 0.03,
+      "max_concentration": 0.1,
+      "pregnancy_safe": false,
+      "concerns": [
         "atopic-dermatitis",
         "vitiligo",
         "perioral-dermatitis",
@@ -3297,8 +3412,13 @@
       "category": "corticosteroid",
       "evidence": "A",
       "concentration": "1-2.5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "hydrocortisone",
+      "description": "Hydrocortisone is a corticosteroid ingredient used in skincare. Typical concentration: 1-2.5%. Used for: atopic-dermatitis, contact-dermatitis, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 2.5,
+      "pregnancy_safe": true,
+      "concerns": [
         "atopic-dermatitis",
         "contact-dermatitis",
         "seborrheic-dermatitis"
@@ -3310,8 +3430,13 @@
       "category": "chemotherapy",
       "evidence": "A",
       "concentration": "5%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "fluorouracil",
+      "description": "Fluorouracil 5% is a chemotherapy ingredient used in skincare. Typical concentration: 5%. Used for: actinic-keratosis.",
+      "evidence_level": "A",
+      "min_concentration": 5,
+      "max_concentration": 5,
+      "pregnancy_safe": false,
+      "concerns": [
         "actinic-keratosis"
       ]
     },
@@ -3321,19 +3446,29 @@
       "category": "immune-modulator",
       "evidence": "A",
       "concentration": "5%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "imiquimod",
+      "description": "Imiquimod 5% is a immune-modulator ingredient used in skincare. Typical concentration: 5%. Used for: actinic-keratosis.",
+      "evidence_level": "A",
+      "min_concentration": 5,
+      "max_concentration": 5,
+      "pregnancy_safe": false,
+      "concerns": [
         "actinic-keratosis"
       ]
     },
     {
       "id": "ruxolitinib",
       "name": "Ruxolitinib Cream",
-      "category": "JAK-inhibitor",
+      "category": "jak-inhibitor",
       "evidence": "A",
       "concentration": "1.5%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "ruxolitinib",
+      "description": "Ruxolitinib Cream is a JAK-inhibitor ingredient used in skincare. Typical concentration: 1.5%. Used for: vitiligo.",
+      "evidence_level": "A",
+      "min_concentration": 1.5,
+      "max_concentration": 1.5,
+      "pregnancy_safe": false,
+      "concerns": [
         "vitiligo"
       ]
     },
@@ -3343,8 +3478,11 @@
       "category": "anti-androgen",
       "evidence": "B",
       "concentration": "2 cups daily",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "spearmint-tea",
+      "description": "Spearmint Tea is a anti-androgen ingredient used in skincare. Typical concentration: 2 cups daily. Used for: hormonal-acne.",
+      "evidence_level": "B",
+      "pregnancy_safe": true,
+      "concerns": [
         "hormonal-acne"
       ]
     },
@@ -3354,8 +3492,13 @@
       "category": "insulin-sensitizer",
       "evidence": "B",
       "concentration": "2000-4000mg",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "inositol",
+      "description": "Inositol is a insulin-sensitizer ingredient used in skincare. Typical concentration: 2000-4000mg. Used for: hormonal-acne.",
+      "evidence_level": "B",
+      "min_concentration": 2000,
+      "max_concentration": 4000,
+      "pregnancy_safe": true,
+      "concerns": [
         "hormonal-acne"
       ]
     },
@@ -3365,8 +3508,11 @@
       "category": "photoprotectant",
       "evidence": "B",
       "concentration": "240mg daily",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "polypodium-leucotomos",
+      "description": "Polypodium Leucotomos is a photoprotectant ingredient used in skincare. Typical concentration: 240mg daily. Used for: melasma, solar-lentigines, vitiligo, photoaging.",
+      "evidence_level": "B",
+      "pregnancy_safe": true,
+      "concerns": [
         "melasma",
         "solar-lentigines",
         "vitiligo",
@@ -3379,8 +3525,11 @@
       "category": "protein",
       "evidence": "B",
       "concentration": "2.5-10g daily",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "collagen-peptides",
+      "description": "Collagen Peptides is a protein ingredient used in skincare. Typical concentration: 2.5-10g daily. Used for: photoaging, intrinsic-aging.",
+      "evidence_level": "B",
+      "pregnancy_safe": true,
+      "concerns": [
         "photoaging",
         "intrinsic-aging"
       ]
@@ -3391,8 +3540,13 @@
       "category": "flavonoid",
       "evidence": "B",
       "concentration": "500-1000mg",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "quercetin",
+      "description": "Quercetin is a flavonoid ingredient used in skincare. Typical concentration: 500-1000mg. Used for: atopic-dermatitis.",
+      "evidence_level": "B",
+      "min_concentration": 500,
+      "max_concentration": 1000,
+      "pregnancy_safe": true,
+      "concerns": [
         "atopic-dermatitis"
       ]
     },
@@ -3402,8 +3556,13 @@
       "category": "anti-inflammatory",
       "evidence": "B",
       "concentration": "500-1000mg",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "curcumin",
+      "description": "Curcumin is a anti-inflammatory ingredient used in skincare. Typical concentration: 500-1000mg. Used for: psoriasis.",
+      "evidence_level": "B",
+      "min_concentration": 500,
+      "max_concentration": 1000,
+      "pregnancy_safe": true,
+      "concerns": [
         "psoriasis"
       ]
     },
@@ -3413,8 +3572,13 @@
       "category": "antiviral",
       "evidence": "A",
       "concentration": "10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "docosanol",
+      "description": "Docosanol is a antiviral ingredient used in skincare. Typical concentration: 10%. Used for: cold-sore.",
+      "evidence_level": "A",
+      "min_concentration": 10,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "cold-sore"
       ]
     },
@@ -3424,8 +3588,13 @@
       "category": "amino-acid",
       "evidence": "B",
       "concentration": "1000-3000mg",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "lysine",
+      "description": "L-Lysine is a amino-acid ingredient used in skincare. Typical concentration: 1000-3000mg. Used for: cold-sore.",
+      "evidence_level": "B",
+      "min_concentration": 1000,
+      "max_concentration": 3000,
+      "pregnancy_safe": true,
+      "concerns": [
         "cold-sore"
       ]
     },
@@ -3435,15 +3604,19 @@
       "category": "humectant",
       "evidence": "A",
       "concentration": "0.1-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Can hold up to 1,000x its weight in water. Pulls ambient moisture into the stratum corneum, instantly expanding intercellular space to cushion skin and soften fine lines.",
+      "slug": "hyalauronic-acid",
+      "evidence_level": "A",
+      "min_concentration": 0.1,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "fine-lines",
         "aging",
         "photoaging",
         "intrinsic-aging"
-      ],
-      "description": "Can hold up to 1,000x its weight in water. Pulls ambient moisture into the stratum corneum, instantly expanding intercellular space to cushion skin and soften fine lines."
+      ]
     },
     {
       "id": "petrolatum",
@@ -3451,8 +3624,13 @@
       "category": "occlusive",
       "evidence": "A",
       "concentration": "20-40%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "petrolatum",
+      "description": "Petrolatum is a occlusive ingredient used in skincare. Typical concentration: 20-40%. Used for: xerosis, atopic-dermatitis, contact-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 20,
+      "max_concentration": 40,
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "atopic-dermatitis",
         "contact-dermatitis"
@@ -3464,8 +3642,13 @@
       "category": "soothing",
       "evidence": "A",
       "concentration": "1-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "colloidal-oatmeal",
+      "description": "Colloidal Oatmeal is a soothing ingredient used in skincare. Typical concentration: 1-5%. Used for: atopic-dermatitis, xerosis, contact-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "atopic-dermatitis",
         "xerosis",
         "contact-dermatitis"
@@ -3476,8 +3659,11 @@
       "name": "Shea Butter",
       "category": "emollient",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "shea-butter",
+      "description": "Shea Butter is a emollient ingredient used in skincare. Used for: xerosis, eczema.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "eczema"
       ]
@@ -3487,8 +3673,11 @@
       "name": "Squalane",
       "category": "emollient",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "squalane",
+      "description": "Squalane is a emollient ingredient used in skincare. Used for: xerosis, acne, all.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "acne",
         "all"
@@ -3499,8 +3688,11 @@
       "name": "Jojoba Oil",
       "category": "emollient",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "jojoba-oil",
+      "description": "Jojoba Oil is a emollient ingredient used in skincare. Used for: xerosis, acne, all.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "acne",
         "all"
@@ -3512,8 +3704,13 @@
       "category": "wound-healing",
       "evidence": "B",
       "concentration": "1-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "centella-asiatica",
+      "description": "Centella Asiatica is a wound-healing ingredient used in skincare. Typical concentration: 1-5%. Used for: PIH, aging, sensitive-skin.",
+      "evidence_level": "B",
+      "min_concentration": 1,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "PIH",
         "aging",
         "sensitive-skin"
@@ -3525,8 +3722,13 @@
       "category": "soothing",
       "evidence": "A",
       "concentration": "0.5-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "allantoin",
+      "description": "Allantoin is a soothing ingredient used in skincare. Typical concentration: 0.5-2%. Used for: sensitive-skin, acne, PIH.",
+      "evidence_level": "A",
+      "min_concentration": 0.5,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "sensitive-skin",
         "acne",
         "PIH"
@@ -3538,8 +3740,13 @@
       "category": "brightening",
       "evidence": "B",
       "concentration": "1-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "licorice-root",
+      "description": "Licorice Root Extract is a brightening ingredient used in skincare. Typical concentration: 1-5%. Used for: melasma, PIH.",
+      "evidence_level": "B",
+      "min_concentration": 1,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "melasma",
         "PIH"
       ]
@@ -3550,8 +3757,13 @@
       "category": "brightening",
       "evidence": "B",
       "concentration": "1-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "arbutin",
+      "description": "Alpha-Arbutin is a brightening ingredient used in skincare. Typical concentration: 1-2%. Used for: melasma, PIH.",
+      "evidence_level": "B",
+      "min_concentration": 1,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "melasma",
         "PIH"
       ]
@@ -3562,8 +3774,13 @@
       "category": "brightening",
       "evidence": "B",
       "concentration": "0.2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "thiamidol",
+      "description": "Thiamidol is a brightening ingredient used in skincare. Typical concentration: 0.2%. Used for: melasma, PIH.",
+      "evidence_level": "B",
+      "min_concentration": 0.2,
+      "max_concentration": 0.2,
+      "pregnancy_safe": true,
+      "concerns": [
         "melasma",
         "PIH"
       ]
@@ -3574,14 +3791,18 @@
       "category": "peptide",
       "evidence": "B",
       "concentration": "0.01-0.1%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Gold standard tissue regeneration peptide. Upregulates metalloproteinases that clear degraded collagen and replaces with fresh Type I and Type III collagen. Accelerates epidermal stem cell proliferation, noticeably thickening thinning skin.",
+      "slug": "copper-peptides",
+      "evidence_level": "B",
+      "min_concentration": 0.01,
+      "max_concentration": 0.1,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "photoaging",
         "intrinsic-aging",
         "sensitive-skin"
-      ],
-      "description": "Gold standard tissue regeneration peptide. Upregulates metalloproteinases that clear degraded collagen and replaces with fresh Type I and Type III collagen. Accelerates epidermal stem cell proliferation, noticeably thickening thinning skin."
+      ]
     },
     {
       "id": "matrixyl",
@@ -3589,14 +3810,18 @@
       "category": "peptide",
       "evidence": "B",
       "concentration": "0.001-0.1%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Clinical peptide complex. Tripeptide-1 signals fibroblasts to synthesize new collagen and glycosaminoglycans. Tetrapeptide-7 downregulates IL-6, protecting the skin matrix from UV and environmental stress degradation.",
+      "slug": "matrixyl",
+      "evidence_level": "B",
+      "min_concentration": 0.001,
+      "max_concentration": 0.1,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "photoaging",
         "intrinsic-aging",
         "expression-lines"
-      ],
-      "description": "Clinical peptide complex. Tripeptide-1 signals fibroblasts to synthesize new collagen and glycosaminoglycans. Tetrapeptide-7 downregulates IL-6, protecting the skin matrix from UV and environmental stress degradation."
+      ]
     },
     {
       "id": "arginine",
@@ -3604,13 +3829,17 @@
       "category": "peptide",
       "evidence": "B",
       "concentration": "5-10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Mimics a component of the SNARE complex (protein structure required for muscle movement). Destabilizes this complex to limit acetylcholine release, softening dynamic lines around eyes and forehead. Often called 'topical Botox'.",
+      "slug": "arginine",
+      "evidence_level": "B",
+      "min_concentration": 5,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "expression-lines",
         "photoaging"
-      ],
-      "description": "Mimics a component of the SNARE complex (protein structure required for muscle movement). Destabilizes this complex to limit acetylcholine release, softening dynamic lines around eyes and forehead. Often called 'topical Botox'."
+      ]
     },
     {
       "id": "bakuchiol",
@@ -3618,8 +3847,13 @@
       "category": "retinoid-alternative",
       "evidence": "B",
       "concentration": "0.5-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "bakuchiol",
+      "description": "Bakuchiol is a retinoid-alternative ingredient used in skincare. Typical concentration: 0.5-2%. Used for: acne, aging, PIH.",
+      "evidence_level": "B",
+      "min_concentration": 0.5,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne",
         "aging",
         "PIH"
@@ -3631,8 +3865,13 @@
       "category": "antioxidant",
       "evidence": "B",
       "concentration": "1-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "green-tea",
+      "description": "Green Tea Extract (EGCG) is a antioxidant ingredient used in skincare. Typical concentration: 1-5%. Used for: rosacea, aging, acne, excess-sebum-enlarged-pores.",
+      "evidence_level": "B",
+      "min_concentration": 1,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "rosacea",
         "aging",
         "acne",
@@ -3645,8 +3884,13 @@
       "category": "antioxidant",
       "evidence": "B",
       "concentration": "0.5-1%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "resveratrol",
+      "description": "Resveratrol is a antioxidant ingredient used in skincare. Typical concentration: 0.5-1%. Used for: aging, photoaging.",
+      "evidence_level": "B",
+      "min_concentration": 0.5,
+      "max_concentration": 1,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "photoaging"
       ]
@@ -3657,8 +3901,13 @@
       "category": "antioxidant",
       "evidence": "B",
       "concentration": "0.3-1%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "coq10",
+      "description": "Coenzyme Q10 is a antioxidant ingredient used in skincare. Typical concentration: 0.3-1%. Used for: aging, photoaging.",
+      "evidence_level": "B",
+      "min_concentration": 0.3,
+      "max_concentration": 1,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "photoaging"
       ]
@@ -3669,8 +3918,13 @@
       "category": "retinoid",
       "evidence": "A",
       "concentration": "0.25-1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "retinol",
+      "description": "Retinol is a retinoid ingredient used in skincare. Typical concentration: 0.25-1%. Used for: acne, aging, PIH, photoaging, excess-sebum-enlarged-pores.",
+      "evidence_level": "A",
+      "min_concentration": 0.25,
+      "max_concentration": 1,
+      "pregnancy_safe": false,
+      "concerns": [
         "acne",
         "aging",
         "PIH",
@@ -3684,8 +3938,13 @@
       "category": "retinoid",
       "evidence": "A",
       "concentration": "0.1-0.3%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "adapalene",
+      "description": "Adapalene is a retinoid ingredient used in skincare. Typical concentration: 0.1-0.3%. Used for: acne, aging.",
+      "evidence_level": "A",
+      "min_concentration": 0.1,
+      "max_concentration": 0.3,
+      "pregnancy_safe": false,
+      "concerns": [
         "acne",
         "aging"
       ]
@@ -3696,8 +3955,13 @@
       "category": "retinoid",
       "evidence": "A",
       "concentration": "0.1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "tazarotene",
+      "description": "Tazarotene is a retinoid ingredient used in skincare. Typical concentration: 0.1%. Used for: psoriasis, acne, photoaging.",
+      "evidence_level": "A",
+      "min_concentration": 0.1,
+      "max_concentration": 0.1,
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis",
         "acne",
         "photoaging"
@@ -3709,8 +3973,13 @@
       "category": "antimicrobial",
       "evidence": "A",
       "concentration": "3-10%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "sulfur",
+      "description": "Sulfur is a antimicrobial ingredient used in skincare. Typical concentration: 3-10%. Used for: acne, rosacea, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 3,
+      "max_concentration": 10,
+      "pregnancy_safe": true,
+      "concerns": [
         "acne",
         "rosacea",
         "seborrheic-dermatitis"
@@ -3722,8 +3991,13 @@
       "category": "antifungal",
       "evidence": "A",
       "concentration": "1-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "zinc-pyrithione",
+      "description": "Zinc Pyrithione is a antifungal ingredient used in skincare. Typical concentration: 1-2%. Used for: seborrheic-dermatitis, fungal-acne, tinea-versicolor.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "seborrheic-dermatitis",
         "fungal-acne",
         "tinea-versicolor"
@@ -3735,8 +4009,13 @@
       "category": "antifungal",
       "evidence": "A",
       "concentration": "1%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "selenium-sulfide",
+      "description": "Selenium Sulfide is a antifungal ingredient used in skincare. Typical concentration: 1%. Used for: seborrheic-dermatitis, tinea-versicolor.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 1,
+      "pregnancy_safe": true,
+      "concerns": [
         "seborrheic-dermatitis",
         "tinea-versicolor"
       ]
@@ -3747,8 +4026,13 @@
       "category": "antiproliferative",
       "evidence": "A",
       "concentration": "0.5-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "coal-tar",
+      "description": "Coal Tar is a antiproliferative ingredient used in skincare. Typical concentration: 0.5-5%. Used for: psoriasis, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 0.5,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "psoriasis",
         "seborrheic-dermatitis"
       ]
@@ -3759,19 +4043,29 @@
       "category": "antiproliferative",
       "evidence": "A",
       "concentration": "0.1-1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "anthralin",
+      "description": "Anthralin is a antiproliferative ingredient used in skincare. Typical concentration: 0.1-1%. Used for: psoriasis.",
+      "evidence_level": "A",
+      "min_concentration": 0.1,
+      "max_concentration": 1,
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis"
       ]
     },
     {
       "id": " crisaborole",
       "name": "Crisaborole",
-      "category": "PDE4-inhibitor",
+      "category": "pde4-inhibitor",
       "evidence": "A",
       "concentration": "2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": " crisaborole",
+      "description": "Crisaborole is a PDE4-inhibitor ingredient used in skincare. Typical concentration: 2%. Used for: atopic-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 2,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "atopic-dermatitis"
       ]
     },
@@ -3781,8 +4075,13 @@
       "category": "calcineurin-inhibitor",
       "evidence": "A",
       "concentration": "0.03-1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "calcineurin-inhibitors",
+      "description": "Tacrolimus/Pimecrolimus is a calcineurin-inhibitor ingredient used in skincare. Typical concentration: 0.03-1%. Used for: atopic-dermatitis, vitiligo, perioral-dermatitis, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 0.03,
+      "max_concentration": 1,
+      "pregnancy_safe": false,
+      "concerns": [
         "atopic-dermatitis",
         "vitiligo",
         "perioral-dermatitis",
@@ -3795,8 +4094,13 @@
       "category": "calcineurin-inhibitor",
       "evidence": "A",
       "concentration": "1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "pimecrolimus",
+      "description": "Pimecrolimus is a calcineurin-inhibitor ingredient used in skincare. Typical concentration: 1%. Used for: atopic-dermatitis, vitiligo, perioral-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 1,
+      "pregnancy_safe": false,
+      "concerns": [
         "atopic-dermatitis",
         "vitiligo",
         "perioral-dermatitis"
@@ -3805,11 +4109,16 @@
     {
       "id": "diclofenac",
       "name": "Diclofenac 3% Gel",
-      "category": "NSAID",
+      "category": "nsaid",
       "evidence": "A",
       "concentration": "3%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "diclofenac",
+      "description": "Diclofenac 3% Gel is a NSAID ingredient used in skincare. Typical concentration: 3%. Used for: actinic-keratosis.",
+      "evidence_level": "A",
+      "min_concentration": 3,
+      "max_concentration": 3,
+      "pregnancy_safe": false,
+      "concerns": [
         "actinic-keratosis"
       ]
     },
@@ -3819,8 +4128,13 @@
       "category": "microtubule-inhibitor",
       "evidence": "A",
       "concentration": "1%",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "tirbanibulin",
+      "description": "Tirbanibulin is a microtubule-inhibitor ingredient used in skincare. Typical concentration: 1%. Used for: actinic-keratosis.",
+      "evidence_level": "A",
+      "min_concentration": 1,
+      "max_concentration": 1,
+      "pregnancy_safe": false,
+      "concerns": [
         "actinic-keratosis"
       ]
     },
@@ -3830,8 +4144,13 @@
       "category": "anti-androgen",
       "evidence": "A",
       "concentration": "25-100mg",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "spironolactone",
+      "description": "Spironolactone is a anti-androgen ingredient used in skincare. Typical concentration: 25-100mg. Used for: hormonal-acne.",
+      "evidence_level": "A",
+      "min_concentration": 25,
+      "max_concentration": 100,
+      "pregnancy_safe": false,
+      "concerns": [
         "hormonal-acne"
       ]
     },
@@ -3840,8 +4159,11 @@
       "name": "Oral Contraceptives",
       "category": "hormonal",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "oral-contraceptives",
+      "description": "Oral Contraceptives is a hormonal ingredient used in skincare. Used for: hormonal-acne.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "hormonal-acne"
       ]
     },
@@ -3851,8 +4173,11 @@
       "category": "retinoid",
       "evidence": "A",
       "concentration": "0.5-1mg/kg",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "isotretinoin",
+      "description": "Isotretinoin is a retinoid ingredient used in skincare. Typical concentration: 0.5-1mg/kg. Used for: acne-vulgaris, severe-acne, hormonal-acne.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "acne-vulgaris",
         "severe-acne",
         "hormonal-acne"
@@ -3864,8 +4189,13 @@
       "category": "antibiotic",
       "evidence": "A",
       "concentration": "50-100mg",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "doxycycline",
+      "description": "Doxycycline is a antibiotic ingredient used in skincare. Typical concentration: 50-100mg. Used for: acne-vulgaris, rosacea, perioral-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 50,
+      "max_concentration": 100,
+      "pregnancy_safe": false,
+      "concerns": [
         "acne-vulgaris",
         "rosacea",
         "perioral-dermatitis"
@@ -3877,8 +4207,13 @@
       "category": "antibiotic",
       "evidence": "A",
       "concentration": "50-100mg",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "minocycline",
+      "description": "Minocycline is a antibiotic ingredient used in skincare. Typical concentration: 50-100mg. Used for: acne-vulgaris, rosacea, perioral-dermatitis.",
+      "evidence_level": "A",
+      "min_concentration": 50,
+      "max_concentration": 100,
+      "pregnancy_safe": false,
+      "concerns": [
         "acne-vulgaris",
         "rosacea",
         "perioral-dermatitis"
@@ -3890,8 +4225,11 @@
       "category": "antifungal",
       "evidence": "A",
       "concentration": "150-300mg weekly",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "fluconazole",
+      "description": "Fluconazole is a antifungal ingredient used in skincare. Typical concentration: 150-300mg weekly. Used for: fungal-acne, tinea-versicolor, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "fungal-acne",
         "tinea-versicolor",
         "seborrheic-dermatitis"
@@ -3903,8 +4241,11 @@
       "category": "antifungal",
       "evidence": "A",
       "concentration": "200mg daily",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "itraconazole",
+      "description": "Itraconazole is a antifungal ingredient used in skincare. Typical concentration: 200mg daily. Used for: fungal-acne, tinea-versicolor, seborrheic-dermatitis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "fungal-acne",
         "tinea-versicolor",
         "seborrheic-dermatitis"
@@ -3916,8 +4257,11 @@
       "category": "antiviral",
       "evidence": "A",
       "concentration": "400mg 3x daily",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "oral-acyclovir",
+      "description": "Oral Acyclovir is a antiviral ingredient used in skincare. Typical concentration: 400mg 3x daily. Used for: cold-sore.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "cold-sore"
       ]
     },
@@ -3927,8 +4271,11 @@
       "category": "antiviral",
       "evidence": "A",
       "concentration": "500-1000mg daily",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "valacyclovir",
+      "description": "Valacyclovir is a antiviral ingredient used in skincare. Typical concentration: 500-1000mg daily. Used for: cold-sore.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "cold-sore"
       ]
     },
@@ -3938,8 +4285,11 @@
       "category": "immunosuppressant",
       "evidence": "A",
       "concentration": "10-25mg weekly",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "methotrexate",
+      "description": "Methotrexate is a immunosuppressant ingredient used in skincare. Typical concentration: 10-25mg weekly. Used for: psoriasis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis"
       ]
     },
@@ -3949,19 +4299,25 @@
       "category": "immunosuppressant",
       "evidence": "A",
       "concentration": "3-5mg/kg",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "cyclosporine",
+      "description": "Cyclosporine is a immunosuppressant ingredient used in skincare. Typical concentration: 3-5mg/kg. Used for: psoriasis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis"
       ]
     },
     {
       "id": "apremilast",
       "name": "Apremilast",
-      "category": "PDE4-inhibitor",
+      "category": "pde4-inhibitor",
       "evidence": "A",
       "concentration": "30mg BID",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "apremilast",
+      "description": "Apremilast is a PDE4-inhibitor ingredient used in skincare. Typical concentration: 30mg BID. Used for: psoriasis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis"
       ]
     },
@@ -3970,8 +4326,11 @@
       "name": "Biologics (TNF, IL-17, IL-23 inhibitors)",
       "category": "biologic",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "biologics",
+      "description": "Biologics (TNF, IL-17, IL-23 inhibitors) is a biologic ingredient used in skincare. Used for: psoriasis, psoriatic-arthritis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "psoriasis",
         "psoriatic-arthritis"
       ]
@@ -3981,8 +4340,11 @@
       "name": "NB-UVB Phototherapy",
       "category": "phototherapy",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "nb-uvb",
+      "description": "NB-UVB Phototherapy is a phototherapy ingredient used in skincare. Used for: psoriasis, vitiligo, atopic-dermatitis.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "psoriasis",
         "vitiligo",
         "atopic-dermatitis"
@@ -3993,8 +4355,11 @@
       "name": "Excimer Laser (308nm)",
       "category": "phototherapy",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "excimer-laser",
+      "description": "Excimer Laser (308nm) is a phototherapy ingredient used in skincare. Used for: psoriasis, vitiligo.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "psoriasis",
         "vitiligo"
       ]
@@ -4004,8 +4369,11 @@
       "name": "Photodynamic Therapy",
       "category": "phototherapy",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "pdt",
+      "description": "Photodynamic Therapy is a phototherapy ingredient used in skincare. Used for: actinic-keratosis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "actinic-keratosis"
       ]
     },
@@ -4014,8 +4382,11 @@
       "name": "Cryotherapy",
       "category": "procedure",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "cryotherapy",
+      "description": "Cryotherapy is a procedure ingredient used in skincare. Used for: actinic-keratosis, seborrheic-keratosis, warts.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "actinic-keratosis",
         "seborrheic-keratosis",
         "warts"
@@ -4026,8 +4397,11 @@
       "name": "Curettage",
       "category": "procedure",
       "evidence": "A",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "slug": "curettage",
+      "description": "Curettage is a procedure ingredient used in skincare. Used for: seborrheic-keratosis.",
+      "evidence_level": "A",
+      "pregnancy_safe": true,
+      "concerns": [
         "seborrheic-keratosis"
       ]
     },
@@ -4036,8 +4410,11 @@
       "name": "Chemical Peels",
       "category": "procedure",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "chemical-peels",
+      "description": "Chemical Peels is a procedure ingredient used in skincare. Used for: acne, PIH, photoaging, melasma.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "acne",
         "PIH",
         "photoaging",
@@ -4049,8 +4426,11 @@
       "name": "Microneedling",
       "category": "procedure",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "microneedling",
+      "description": "Microneedling is a procedure ingredient used in skincare. Used for: acne-scars, aging, PIH.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "acne-scars",
         "aging",
         "PIH"
@@ -4061,8 +4441,11 @@
       "name": "Laser Resurfacing",
       "category": "procedure",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "laser-resurfacing",
+      "description": "Laser Resurfacing is a procedure ingredient used in skincare. Used for: photoaging, acne-scars, wrinkles.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "photoaging",
         "acne-scars",
         "wrinkles"
@@ -4073,8 +4456,11 @@
       "name": "Botulinum Toxin",
       "category": "injectable",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "botulinum-toxin",
+      "description": "Botulinum Toxin is a injectable ingredient used in skincare. Used for: wrinkles, hyperhidrosis.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "wrinkles",
         "hyperhidrosis"
       ]
@@ -4084,8 +4470,11 @@
       "name": "Dermal Fillers",
       "category": "injectable",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "dermal-fillers",
+      "description": "Dermal Fillers is a injectable ingredient used in skincare. Used for: volume-loss, wrinkles.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "volume-loss",
         "wrinkles"
       ]
@@ -4095,8 +4484,11 @@
       "name": "PRP/PRF",
       "category": "biologic",
       "evidence": "B",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "prp",
+      "description": "PRP/PRF is a biologic ingredient used in skincare. Used for: aging, hair-loss, acne-scars.",
+      "evidence_level": "B",
+      "pregnancy_safe": false,
+      "concerns": [
         "aging",
         "hair-loss",
         "acne-scars"
@@ -4107,8 +4499,11 @@
       "name": "Thread Lifts",
       "category": "procedure",
       "evidence": "B",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "thread-lifts",
+      "description": "Thread Lifts is a procedure ingredient used in skincare. Used for: skin-laxity, jowls.",
+      "evidence_level": "B",
+      "pregnancy_safe": false,
+      "concerns": [
         "skin-laxity",
         "jowls"
       ]
@@ -4118,8 +4513,11 @@
       "name": "Radiofrequency",
       "category": "energy-device",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "radiofrequency",
+      "description": "Radiofrequency is a energy-device ingredient used in skincare. Used for: skin-laxity, jowls, neck.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "skin-laxity",
         "jowls",
         "neck"
@@ -4130,8 +4528,11 @@
       "name": "Ultrasound (HIFU)",
       "category": "energy-device",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "ultrasound",
+      "description": "Ultrasound (HIFU) is a energy-device ingredient used in skincare. Used for: skin-lifting, brow, jawline.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "skin-lifting",
         "brow",
         "jawline"
@@ -4142,8 +4543,11 @@
       "name": "IPL/Photofacial",
       "category": "energy-device",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "ipl",
+      "description": "IPL/Photofacial is a energy-device ingredient used in skincare. Used for: solar-lentigines, redness, photoaging.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "solar-lentigines",
         "redness",
         "photoaging"
@@ -4154,8 +4558,11 @@
       "name": "Q-Switched Nd:YAG (1064nm)",
       "category": "laser",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "q-switched-nd-yag",
+      "description": "Q-Switched Nd:YAG (1064nm) is a laser ingredient used in skincare. Used for: melasma, PIH, solar-lentigines, tattoo-removal.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "melasma",
         "PIH",
         "solar-lentigines",
@@ -4167,8 +4574,11 @@
       "name": "Pulsed Dye Laser (585-595nm)",
       "category": "laser",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "pulsed-dye-laser",
+      "description": "Pulsed Dye Laser (585-595nm) is a laser ingredient used in skincare. Used for: rosacea, vascular-lesions, redness.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "rosacea",
         "vascular-lesions",
         "redness"
@@ -4179,8 +4589,11 @@
       "name": "Fractional CO2 Laser",
       "category": "laser",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "fractional-co2",
+      "description": "Fractional CO2 Laser is a laser ingredient used in skincare. Used for: deep-wrinkles, acne-scars, pih.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "deep-wrinkles",
         "acne-scars",
         "pih"
@@ -4191,8 +4604,11 @@
       "name": "Erbium:YAG Laser",
       "category": "laser",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "erbium-yag",
+      "description": "Erbium:YAG Laser is a laser ingredient used in skincare. Used for: photoaging, scars, dark-skin-resurfacing.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "photoaging",
         "scars",
         "dark-skin-resurfacing"
@@ -4203,8 +4619,11 @@
       "name": "CO2 Laser",
       "category": "laser",
       "evidence": "A",
-      "pregnancySafe": false,
-      "keyConditions": [
+      "slug": "co2-laser",
+      "description": "CO2 Laser is a laser ingredient used in skincare. Used for: deep-wrinkles, scars, rhinophyma.",
+      "evidence_level": "A",
+      "pregnancy_safe": false,
+      "concerns": [
         "deep-wrinkles",
         "scars",
         "rhinophyma"
@@ -4216,14 +4635,18 @@
       "category": "peptide",
       "evidence": "B",
       "concentration": "0.001-0.02%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Advanced peptide targeting six major structural skin components: Collagen I, III, IV, Fibronectin, Hyaluronic Acid, and Laminin-5. Particularly effective at plumping skin from within to smooth deep forehead lines and crow's feet.",
+      "slug": "matrixyl-synthe6",
+      "evidence_level": "B",
+      "min_concentration": 0.001,
+      "max_concentration": 0.02,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "intrinsic-aging",
         "photoaging",
         "deep-wrinkles"
-      ],
-      "description": "Advanced peptide targeting six major structural skin components: Collagen I, III, IV, Fibronectin, Hyaluronic Acid, and Laminin-5. Particularly effective at plumping skin from within to smooth deep forehead lines and crow's feet."
+      ]
     },
     {
       "id": "leuphasil",
@@ -4231,12 +4654,16 @@
       "category": "neuro-peptide",
       "evidence": "B",
       "concentration": "0.001-0.05%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Works synergistically with Argireline via a different pathway. Mimics enkephalins (natural pain/stress modulators) to reduce calcium influx into the neuron, dampening the initial signal before it reaches the SNARE complex.",
+      "slug": "leuphasil",
+      "evidence_level": "B",
+      "min_concentration": 0.001,
+      "max_concentration": 0.05,
+      "pregnancy_safe": true,
+      "concerns": [
         "expression-lines",
         "aging"
-      ],
-      "description": "Works synergistically with Argireline via a different pathway. Mimics enkephalins (natural pain/stress modulators) to reduce calcium influx into the neuron, dampening the initial signal before it reaches the SNARE complex."
+      ]
     },
     {
       "id": "syn-ake",
@@ -4244,12 +4671,16 @@
       "category": "neuro-peptide",
       "evidence": "B",
       "concentration": "0.001-0.05%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Tripeptide mimicking the neuromuscular blocking mechanism found in Temple Viper snake venom. Targets the nicotinic acetylcholine receptor on muscle cell surfaces, keeping muscles relaxed to instantly soften expression lines.",
+      "slug": "syn-ake",
+      "evidence_level": "B",
+      "min_concentration": 0.001,
+      "max_concentration": 0.05,
+      "pregnancy_safe": true,
+      "concerns": [
         "expression-lines",
         "aging"
-      ],
-      "description": "Tripeptide mimicking the neuromuscular blocking mechanism found in Temple Viper snake venom. Targets the nicotinic acetylcholine receptor on muscle cell surfaces, keeping muscles relaxed to instantly soften expression lines."
+      ]
     },
     {
       "id": "relistase",
@@ -4257,13 +4688,17 @@
       "category": "anti-elastase-peptide",
       "evidence": "B",
       "concentration": "0.001-0.02%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Anti-elastase peptide. As we age, overabundance of elastase enzyme cuts up elastin fibers, causing skin to sag and lose snap. This peptide inhibits elastase, restoring facial contour definition and skin resilience.",
+      "slug": "relistase",
+      "evidence_level": "B",
+      "min_concentration": 0.001,
+      "max_concentration": 0.02,
+      "pregnancy_safe": true,
+      "concerns": [
         "aging",
         "sagging",
         "loss-of-elasticity"
-      ],
-      "description": "Anti-elastase peptide. As we age, overabundance of elastase enzyme cuts up elastin fibers, causing skin to sag and lose snap. This peptide inhibits elastase, restoring facial contour definition and skin resilience."
+      ]
     },
     {
       "id": "lactococcus-ferment",
@@ -4271,14 +4706,18 @@
       "category": "probiotic",
       "evidence": "B",
       "concentration": "0.1-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Probiotic ingredient obtained from the lysate of Lactococcus lactis. Accelerates skin barrier recovery, optimizes epidermal growth making outer skin layers denser, and improves quality of cellular shedding (desquamation) giving glass-like texture.",
+      "slug": "lactococcus-ferment",
+      "evidence_level": "B",
+      "min_concentration": 0.1,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "barrier-function",
         "aging",
         "texture",
         "sensitive-skin"
-      ],
-      "description": "Probiotic ingredient obtained from the lysate of Lactococcus lactis. Accelerates skin barrier recovery, optimizes epidermal growth making outer skin layers denser, and improves quality of cellular shedding (desquamation) giving glass-like texture."
+      ]
     },
     {
       "id": "sodium-hyaluronate",
@@ -4286,14 +4725,18 @@
       "category": "humectant",
       "evidence": "A",
       "concentration": "0.1-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Water-soluble salt form of hyaluronic acid. Holds up to 1,000x its weight in water, pulling ambient moisture into the stratum corneum. Instantly expands intercellular space, cushioning skin, softening fine lines, and creating a smooth canvas for active peptide penetration.",
+      "slug": "sodium-hyaluronate",
+      "evidence_level": "A",
+      "min_concentration": 0.1,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "fine-lines",
         "aging",
         "photoaging"
-      ],
-      "description": "Water-soluble salt form of hyaluronic acid. Holds up to 1,000x its weight in water, pulling ambient moisture into the stratum corneum. Instantly expands intercellular space, cushioning skin, softening fine lines, and creating a smooth canvas for active peptide penetration."
+      ]
     },
     {
       "id": "pdrn",
@@ -4301,19 +4744,23 @@
       "category": "regenerative-biocompatible",
       "evidence": "B+",
       "concentration": "0.1-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "PDRN is a nucleotide polymer derived from salmon sperm DNA (Oncorhynchus mykiss). It works through multiple pathways: Adenosine A2A receptor agonism, DNA salvage pathway, wound healing acceleration, and anti-aging effects.",
+      "mechanismOfAction": "PDRN is metabolized to adenosine, which activates the A2A receptor on fibroblasts and keratinocytes, triggering collagen synthesis, VEGF expression, and anti-inflammatory effects. Nucleotides from PDRN are recycled into new DNA synthesis, accelerating cell proliferation and tissue repair.",
+      "contraindications": [
+        "None known for topical use"
+      ],
+      "slug": "pdrn",
+      "evidence_level": "B+",
+      "min_concentration": 0.1,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "photoaging",
         "intrinsic-aging",
         "post-procedure",
         "scarring",
         "barrier-dysfunction",
         "rosacea"
-      ],
-      "description": "PDRN is a nucleotide polymer derived from salmon sperm DNA (Oncorhynchus mykiss). It works through multiple pathways: Adenosine A2A receptor agonism, DNA salvage pathway, wound healing acceleration, and anti-aging effects.",
-      "mechanismOfAction": "PDRN is metabolized to adenosine, which activates the A2A receptor on fibroblasts and keratinocytes, triggering collagen synthesis, VEGF expression, and anti-inflammatory effects. Nucleotides from PDRN are recycled into new DNA synthesis, accelerating cell proliferation and tissue repair.",
-      "contraindications": [
-        "None known for topical use"
       ]
     },
     {
@@ -4322,18 +4769,22 @@
       "category": "vitamin",
       "evidence": "A",
       "concentration": "0.5-5%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Panthenol is a precursor to pantothenic acid (Vitamin B5), a critical component of Coenzyme A (CoA). When applied topically, it penetrates the stratum corneum and converts to pantothenic acid, which upregulates lipid synthesis, accelerates wound healing, reduces transepidermal water loss (TEWL), and reduces inflammation.",
+      "mechanismOfAction": "Panthenol penetrates the stratum corneum and converts to pantothenic acid (Vitamin B5), which is essential for fatty acid synthesis and Coenzyme A (CoA) function. This upregulates lipid synthesis for ceramide and sphingolipid production, accelerates wound healing by stimulating fibroblast proliferation, reduces TEWL by strengthening the lipid matrix, and has anti-inflammatory effects.",
+      "contraindications": [
+        "None known"
+      ],
+      "slug": "panthenol",
+      "evidence_level": "A",
+      "min_concentration": 0.5,
+      "max_concentration": 5,
+      "pregnancy_safe": true,
+      "concerns": [
         "xerosis",
         "atopic-dermatitis",
         "sensitive-skin",
         "barrier-dysfunction",
         "post-procedure"
-      ],
-      "description": "Panthenol is a precursor to pantothenic acid (Vitamin B5), a critical component of Coenzyme A (CoA). When applied topically, it penetrates the stratum corneum and converts to pantothenic acid, which upregulates lipid synthesis, accelerates wound healing, reduces transepidermal water loss (TEWL), and reduces inflammation.",
-      "mechanismOfAction": "Panthenol penetrates the stratum corneum and converts to pantothenic acid (Vitamin B5), which is essential for fatty acid synthesis and Coenzyme A (CoA) function. This upregulates lipid synthesis for ceramide and sphingolipid production, accelerates wound healing by stimulating fibroblast proliferation, reduces TEWL by strengthening the lipid matrix, and has anti-inflammatory effects.",
-      "contraindications": [
-        "None known"
       ]
     },
     {
@@ -4342,18 +4793,22 @@
       "category": "protective-extremolyte",
       "evidence": "B",
       "concentration": "0.3-2%",
-      "pregnancySafe": true,
-      "keyConditions": [
+      "description": "Ectoin is a small amino acid derivative (extremolyte) produced by extremophilic bacteria to survive extreme environments. It works via kosmotropic effect, membrane stabilization, anti-inflammatory effects, anti-pollution protection, and DNA protection.",
+      "mechanismOfAction": "Ectoin structures water molecules around proteins and cell membranes, creating a protective hydration shell. It forms a protective layer around phospholipid bilayers, preventing lipid peroxidation and maintaining membrane integrity. It inhibits UVA-induced AP-1 activation and reduces MMP-1 expression. It prevents particulate matter (PM2.5) from penetrating skin and causing oxidative damage, and protects Langerhans cells from UV-induced DNA damage.",
+      "contraindications": [
+        "None known"
+      ],
+      "slug": "ectoin",
+      "evidence_level": "B",
+      "min_concentration": 0.3,
+      "max_concentration": 2,
+      "pregnancy_safe": true,
+      "concerns": [
         "photoaging",
         "barrier-dysfunction",
         "sensitive-skin",
         "melasma",
         "pollution-damage"
-      ],
-      "description": "Ectoin is a small amino acid derivative (extremolyte) produced by extremophilic bacteria to survive extreme environments. It works via kosmotropic effect, membrane stabilization, anti-inflammatory effects, anti-pollution protection, and DNA protection.",
-      "mechanismOfAction": "Ectoin structures water molecules around proteins and cell membranes, creating a protective hydration shell. It forms a protective layer around phospholipid bilayers, preventing lipid peroxidation and maintaining membrane integrity. It inhibits UVA-induced AP-1 activation and reduces MMP-1 expression. It prevents particulate matter (PM2.5) from penetrating skin and causing oxidative damage, and protects Langerhans cells from UV-induced DNA damage.",
-      "contraindications": [
-        "None known"
       ]
     }
   ],

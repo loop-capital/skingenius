@@ -1,0 +1,33 @@
+# Large directories that should not be deployed
+training/
+data/
+graphify-out/cache/
+graphify-out/
+mobile/
+memory/
+venv/
+.venv/
+api-docs/
+skincare-research/
+knowledge-graph/
+integration/
+research/
+project-docs/
+specs/
+design/
+tools/
+compliance/
+protocols/
+docs/
+
+# Files
+*.tar.gz
+*.sql
+*.py
+*.sh
+LESSONS-LEARNED.md
+DREAMS.md
+MEMORY*.md
+TASKS.md
+AGENTS.md
+CLAUDE.md

@@ -11,47 +11,17 @@ import {
   Leaf,
   Award,
   ArrowRight,
-  Play,
   Lock,
+  Hourglass,
 } from "lucide-react";
-import UserMenu from "@/components/auth/UserMenu";
 
 export default function Page() {
   const [email, setEmail] = useState("");
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFFBF5]/85 backdrop-blur-md border-b border-[#E7E5E4]">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-emerald-700 flex items-center justify-center">
-              <Sparkles className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-lg font-semibold text-stone-900 tracking-tight">
-              SKINgenius
-            </span>
-          </div>
-          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
-            <a href="#how-it-works" className="hover:text-emerald-700 transition-colors">
-              How It Works
-            </a>
-            <a href="#science" className="hover:text-emerald-700 transition-colors">
-              The Science
-            </a>
-            <a href="#ingredients" className="hover:text-emerald-700 transition-colors">
-              Ingredients
-            </a>
-            <a href="#pricing" className="hover:text-emerald-700 transition-colors">
-              Pricing
-            </a>
-          </div>
-          <UserMenu />
-        </div>
-      </nav>
-
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-20 pb-20 px-6">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: Copy */}
           <div className="max-w-xl">
@@ -73,15 +43,16 @@ export default function Page() {
               backed by clinical research.
             </p>
 
-            {/* CTA */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
+            {/* CTAs */}
+            <div className="flex flex-col gap-4 mb-8">
               <button onClick={() => window.location.href = '/scan'} className="px-8 py-4 bg-emerald-700 text-white text-base font-semibold rounded-2xl hover:bg-emerald-800 transition-all shadow-lg shadow-emerald-900/10 flex items-center justify-center gap-2 cursor-pointer">
                 <Camera className="w-5 h-5" />
                 Scan Your Skin
               </button>
-              <button className="px-8 py-4 bg-white text-stone-900 text-base font-medium rounded-2xl border border-stone-200 hover:border-stone-300 transition-all flex items-center justify-center gap-2">
-                <Play className="w-5 h-5 text-emerald-700" />
-                Watch Demo
+              <button onClick={() => window.location.href = '/skin-age'} className="px-8 py-4 bg-white text-stone-700 text-base font-medium rounded-2xl border border-stone-200 hover:border-emerald-300 hover:text-emerald-700 transition-all flex items-center justify-center gap-2 cursor-pointer">
+                <Hourglass className="w-5 h-5" />
+                Estimate Your Skin Age
+                <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-semibold">Fun &amp; Free</span>
               </button>
             </div>
 
@@ -456,8 +427,9 @@ export default function Page() {
               <Camera className="w-5 h-5" />
               Start Free Scan
             </button>
-            <button className="px-8 py-4 bg-emerald-600 text-white text-base font-medium rounded-2xl border border-emerald-500 hover:bg-emerald-500 transition-colors">
-              Learn More
+            <button onClick={() => window.location.href = '/skin-age'} className="px-8 py-4 bg-emerald-600 text-white text-base font-medium rounded-2xl border border-emerald-500 hover:bg-emerald-500 transition-colors flex items-center justify-center gap-2 cursor-pointer">
+              <Hourglass className="w-5 h-5" />
+              Estimate Skin Age
             </button>
           </div>
         </div>

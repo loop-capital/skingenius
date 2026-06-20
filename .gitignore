@@ -50,3 +50,17 @@ backups/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.claude/
+
+# Zone.Identifier files (Windows metadata)
+*:Zone.Identifier
+
+# misc build artifacts
+.eslintcache

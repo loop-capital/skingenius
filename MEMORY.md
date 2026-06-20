@@ -1,31 +1,82 @@
 # MEMORY.md — SKINgenius Long-Term Memory
 
-> **Last updated:** 2026-05-21
+> **Last updated:** 2026-06-20
 > **Wiki vault:** `~/.openclaw/wiki/skingenius/`
 > **Daily notes:** `memory/YYYY-MM-DD.md`
-> **Pulse cycle:** 10 (2026-05-22T09:37Z)
+> **Pulse cycle:** 64 (2026-06-20T21:37Z)
 
 ---
 
-## 🚨 Pulse Alert: CEO Cron Redundancy CRITICAL — 6th Consecutive Cycle (2026-05-22)
+## 🔴 CEO CRON WASTING 24 SESSIONS/DAY — Should be 2/day (flagged 15+ cycles)
 
-**Progress:** Significant new deliverables since May 21:
-- ✅ Recommendation engine implemented (fit scoring + query engine + API route)
-- ✅ Scan pipeline implemented (EXIF strip + quality gate + mock classifier)
-- ✅ Seed data v1.1 (151KB, 25+ conditions, 151+ ingredients, root-cause layer)
-- ✅ API architecture designed by architect agent (now active!)
-- ✅ TypeScript types, Supabase service module
+**CEO Agent Status:** 🔴 RUNNING WASTEFULLY. CEO cron fires ~24 sessions/day (up from 23, still 12x over target). 851 total sessions are cron-driven (~99%). All produce near-identical status reports. Each wastes ~40KB tokens (~960KB/day). **Cron not manageable via API** — stored in session config.
 
-**Architect status:** ACTIVE as of May 21 — broke 8+ day dormancy. Produced API architecture + seed data schema. Still has `assistant_turn_failed` errors.
+**🔴 PROJECT VELOCITY INSUFFICIENT:** Zero dev activity in last 96h. 9/11 agents dormant. 349 uncommitted files at risk. MVP deadline July 7 (17 days). CEO cron running ~24 sessions/day. **3 API keys still unrotated after 5+ days** (SECURITY INCIDENT). **Meta agent has 16% turn failure rate** (NEW FINDING).
 
-**DevOps status:** STILL DORMANT. Tasks #4 (Vercel) and #5 (PostgreSQL) remain blocked.
+**✅ PULSE STABLE (Cycle 64):** 0 consecutive errors. Delivery FAILING — Telegram chat_id -5110202082 not found. **Meta 16% turn failure rate** (12/74 turns failed silently in last session).
 
-**CRITICAL — CEO Cron Redundancy (6th cycle, 10th overall, NO FIX):** CEO check-in cron produces 20+ identical sessions per 24h. Cumulative token waste now 1.5M+ tokens. **This has been flagged for 6 consecutive cycles with zero corrective action.** Jason MUST reduce this cron frequency.
+**🟡 WELLNESS PLAN PHASE 2 (19 components, UNCOMMITTED — 349 total uncommitted files):**
+- Phase 1: WellnessPlanPage, PlanOverview, DailyProtocolView, DietProtocolCard, SupplementStack, GlycationScore
+- Phase 2 additions (10 new): SleepProtocol, MedicationInteractions, PostProcedureCard, SeasonalAdjustments, GlycationScore (updated), EnvironmentDefense, SunExposureProtocol, FitzpatrickAdjustments, GutBrainSkinTriad, SmokingAlcoholImpact, OralMicrobiomeCard, PsychodermProtocol, HydrationTracker, MovementProtocol
+- WellnessPlanPage.tsx: 15.6KB (needs 300-line check)
+- API routes: generate, checkin, daily
+- New doc: TREATMENT-PROTOCOL-INTEGRATION.md
 
-**New errors:** Tool validation errors (4 agents), TypeScript V1ScanMetadata type mismatch, web_fetch 403 on academic sources, architect `assistant_turn_failed`.
+**✅ SAGE CLINICAL SCAN (June 15):**
+- FDA approved Differin Epiduo Gel OTC switch (adapalene 0.1%/BPO 2.5%)
+- AAD 2026 acne guidelines: clascoterone, sarecycline, spironolactone
+- Pipeline: XYNGARI/DMT310 (once-weekly topical, Phase 2b)
+- Source: `docs/research/2026-06-15-clinical-scan.md`
 
----
+**🟡 CRITICAL: 349 uncommitted file changes (unchanged since Cycle 58). 4 days since last commit (June 16). Only 10-15 are real code changes. Git commit needed.**
 
+**🔴 SECURITY INCIDENT (June 16, 5+ days unrotated):** Dev subagent session leaked SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, and SUPABASE_ACCESS_TOKEN in plain text. Keys STILL NOT ROTATED after 5+ days. IMMEDIATE rotation required. Add env var protection to agent guardrails.
+**⚠️ KNOWN ISSUES:**
+- 🔴 **API keys leaked in dev session logs** — rotate SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, SUPABASE_ACCESS_TOKEN immediately
+- 🔴 **Dev agent kimi-k2.6 produces garbage output** — session 01b319d3 entirely garbled, switch model
+- 🔴 **CEO cron ~48/day instead of 2/day** — frequency misconfigured, not manageable via gateway cron API
+- Cloudflare blocks: dermatologytimes.com, hcplive.com — use ScrapeGraph with stealth
+- memory_search: QMD times out at 4s, builtin fallback works at 6-7s (acceptable)
+- CEO cron stable at 1/12h (major improvement) — but reports redundant when nothing changes
+- ✅ Pulse Cycle 62 recovered from 10 consecutive timeouts (268s run time)
+- Architect review found 7 high-severity issues (no auth, missing RLS, SQL injection)
+- WellnessPlanPage.tsx likely over 300-line limit
+- 322 uncommitted file changes (26+ days at risk)
+- Mobile build broken — asset path resolution error persists
+- Zero dev agent activity in last 12h (dev sessions June 16 produced garbage/leaks)
+- Dev wired treatment_protocols into Wellness Plan API (June 15)
+
+**Agent Health Summary (as of June 20, 05:37 ET):**
+| Agent | Sessions | Last Active | Status |
+|-------|----------|------------|--------|
+| CEO | 851 | Jun 20 17:01 (cron) | 🔴 Active but 24/day redundant (should be 2/day) |
+| Meta | 83 | Jun 20 17:38 (Pulse) | 🟡 Active (Cycle 64, 0 errors, delivery failing, 16% turn failure) |
+| Dev | 71 | Jun 16 12:04 | 🔴 Dormant 4d (last: garbage + env leak) |
+| Architect | 20 | Jun 14 17:58 | 🔴 Dormant 6d |
+| Research | 64 | Jun 14 19:12 | 🔴 Dormant 6d |
+| AI | 10 | Jun 10 22:39 | 🔴 Dormant 10d |
+| Data | 14 | Jun 10 22:52 | 🔴 Dormant 10d |
+| Design | 15 | Jun 10 22:46 | 🔴 Dormant 10d |
+| DevOps | 9 | May 22 08:04 | 🔴 Dormant 29d |
+| Marketing | 2 | May 15 22:43 | 🔴 Dormant 36d |
+| Syntax | 2 | May 22 08:40 | 🔴 Dormant 29d |
+
+**Key Insight:** CEO running ~24 sessions/day (should be 2). Che is de facto work dispatcher. 9/11 agents dormant. 17 days to MVP with zero feature velocity. Dev agent dormant since June 16 (garbage + env leak). Pulse Cycle 64 stable (0 errors) but delivery failing and 16% turn failure rate. 3 API keys still need rotation after 5+ days (SECURITY INCIDENT). Meta heartbeat wasteful — 18% no-op responses.
+
+**Progress since Cycle 54:**
+- 🔴 **CEO CRON WORSENING** — Down from 48→23→24/day (still 12x over target), 851 total sessions
+- ✅ **PULSE CYCLE STABLE** — Cycle 64 running, 0 consecutive errors, but delivery failing
+- 🟡 **META TURN FAILURES** — 16% failure rate (12/74), 18% no-op heartbeat
+- ✅ **MEMORY_SEARCH FALLBACK** — QMD timeout acceptable, builtin fallback works
+- ✅ **DEV WIRED TREATMENT_PROTOCOLS** — Wellness Plan API integration (June 15)
+- 🔴 **SECURITY INCIDENT** — API keys leaked 5+ days ago, STILL NOT ROTATED
+- 🔴 **DEV GARBAGE OUTPUT** — kimi-k2.6 produced hallucinated content
+- ⛔ **349 uncommitted files** — 4 days since last commit, 29+ days at risk
+- ⛔ **9/11 dev agents dormant** — Only CEO (cron), Meta (pulse) active
+- ⛔ **CEO cron frequency** — Running ~24/day instead of 2/day
+- 🔴 **Mobile build broken** — Asset path resolution error persists
+- 🔴 **Pulse delivery failing** — Telegram chat_id -5110202082 not found
+- ✅ 64 Pulse cycles completed
 ## CRITICAL: What SKINgenius Actually Is (Updated 2026-05-14)
 
 SKINgenius is a **holistic skin health intelligence platform** that treats skin as a **mirror of internal health**.
@@ -92,11 +143,23 @@ Photo Timeline + Health Journal + Biomarkers + Lifestyle Correlation
 | 1 | Foundation — Research holistic model | Week 1-2 | ✅ Complete |
 | 2 | Evidence Database — Ingredient + condition research | Week 2-3 | ✅ Complete |
 | 3 | App Integration — Scan flow, API, components | Week 3-4 | 🔄 In Progress |
-| 4 | Content Engine — Evidence-based articles | Week 4-5 | ⏳ Pending |
-| 5 | Professional Referral — Severity + provider directory | Week 5-6 | ⏳ Pending |
-| 6 | Data Integration — Wearables, Basys Health | Week 6-8 | ⏳ Pending |
+| 3.5 | Treatment Simulation — FLAME + CUT pipeline | Week 4-5 | 🔄 Building (June 10 start) |
+| 4 | Content Engine — Evidence-based articles | Week 5-6 | ⏳ Pending |
+| 5 | Professional Referral — Severity + provider directory | Week 6-7 | ⏳ Pending |
+| 6 | Data Integration — Wearables, Basys Health | Week 7-8 | ⏳ Pending |
 
 See `BUILD-PLAN.md` for complete plan.
+
+## Recent Deliverables (June 10)
+- ✅ Treatment deformation pipeline architecture spec (ADR-006, 78KB)
+- ✅ FastAPI treatment simulation service (working `/health` endpoint)
+- ✅ PMC Open Access scraper (157 images, 6 treatment categories)
+- ✅ CUT model training data pipeline (quality scanner, normalizer, pair matcher, synthetic integrator)
+- ✅ FDA clinical photos dataset analysis (135 images, 102 before/33 after)
+- ✅ 3D mesh model evaluation (FLAME vs alternatives)
+- ✅ Image translation models evaluation (CUT vs CycleGAN vs pix2pix)
+- ✅ Training data sources audit
+- ✅ Manufacturer partnership strategy document
 
 ## Recent Deliverables (May 20)
 - ✅ MANA Labs Product Scanner API — 4-tier pipeline (INCIdecoder → EWG → COSING → Gemini)
@@ -283,7 +346,25 @@ See `BUILD-PLAN.md` for complete plan.
 *Last updated: 2026-05-16 14:45 EDT (Che sync)*
 *Next review: May 16, 2026*
 
-## Promoted From Short-Term Memory (2026-05-20)
+## Promoted From Short-Term Memory (2026-06-20)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-05-14.md:4:4 -->
-- Major pivot in understanding what SKINgenius actually is. NOT just a product database — it's a **holistic skin health intelligence platform**. [score=0.835 recalls=0 avg=0.620 source=memory/2026-05-14.md:4-4]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:101:104 -->
+- Key Risks: **MVP deadline at risk** — 22 days remaining, 0/5 critical-path tasks done; **Data loss risk** — 299 uncommitted files, 23 days since last commit; **Team stall** — Only 2 of 11 agents actively producing work; **Architecture debt** — Building features without foundation will compound problems [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:101-104]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:105:105 -->
+- Key Risks: **DevOps gap** — Forge dormant for 24 days, infra provisioning blocked [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:105-105]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:109:110 -->
+- Key Risks: *Report generated by SKINgenius-CEO (Nova) — Monday Sprint Review* *Next review: Monday, June 22, 2026* [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:109-110]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:11:14 -->
+- 🚨 Executive Summary: **Last meaningful git commit:** May 23, 2026 (23 days ago); **Uncommitted files:** 299; **MVP deadline:** July 7, 2026 (22 days); **Critical-path completion:** 0 of 5 architecture tasks completed (carried from Week 3) [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:11-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:15:16 -->
+- 🚨 Executive Summary: **Active dev agents:** Only skingenius-dev had activity (Wellness Plan Phase 1, June 13); **5 of 6 dev agents dormant** since June 10 [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:15-16]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:19:22 -->
+- What's Working: ✅ CEO model fix confirmed — glm-5.1:cloud running successfully; ✅ Dev agent delivered Wellness Plan Phase 1 (June 13): SQL schema (14 tables), seed data, API route, 7 UI components; ✅ Pulse cycles stable (cycles 47-50 all successful, timeout streak broken); ✅ 108 ingredients seeded, 236 products, 14 skin conditions [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:19-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:23:25 -->
+- What's Working: ✅ Evidence scoring algorithm built; ✅ Treatment simulation pipeline architecture spec (ADR-006); ✅ CUT model training data pipeline built [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:23-25]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:28:31 -->
+- What's Not Working: 🔴 0/5 critical-path Week 3 tasks completed — architecture foundation missing; 🔴 No active development for 5+ days on main sprint tasks; 🔴 299 uncommitted files at risk of loss; 🔴 Vercel deployment failing (build errors) [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:28-31]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:3:3 -->
+- 2026-06-15 Weekly Status Report — Monday Sprint Review: > **Cycle:** Week 5 of Sprint 1 | MVP Target: July 7, 2026 (22 days remaining) [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:3-3]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-15.md:32:34 -->
+- What's Not Working: 🔴 AI pipeline architecture still undefined; 🔴 Database schema not applied to live DB; 🔴 Supabase JWT connection issue unresolved [score=0.806 recalls=0 avg=0.620 source=memory/2026-06-15.md:32-34]
