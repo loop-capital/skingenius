@@ -64,3 +64,15 @@ __pycache__/
 
 # misc build artifacts
 .eslintcache
+
+# large data/model files (stored separately)
+data/models/
+data/raw/
+data/processed/
+data/synthetic/
+data/visualizations/
+data/ingredient-safety.json
+
+# graphify cache (regenerable)
+graphify-out/cache/
+graphify-out/graph.json
