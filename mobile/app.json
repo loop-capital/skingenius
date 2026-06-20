@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "SKINgenius",
+    "slug": "skingenius",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "skingenius",
+    "splash": {
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.skingenius.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SKINgenius needs camera access to analyze your skin health.",
+        "NSPhotoLibraryUsageDescription": "SKINgenius needs photo access to analyze skin images.",
+        "NSHealthShareUsageDescription": "SKINgenius reads health data to correlate with skin health.",
+        "NSHealthUpdateUsageDescription": "SKINgenius writes health data for tracking."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.skingenius.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "READ_HEALTH_DATA"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SKINgenius needs camera access to analyze your skin health."
+        }
+      ]
+    ]
+  }
+}
