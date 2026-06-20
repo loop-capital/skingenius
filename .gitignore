@@ -76,3 +76,5 @@ data/ingredient-safety.json
 # graphify cache (regenerable)
 graphify-out/cache/
 graphify-out/graph.json
+venv/
+training/
