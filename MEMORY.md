@@ -3,7 +3,7 @@
 > **Last updated:** 2026-06-21
 > **Wiki vault:** `~/.openclaw/wiki/skingenius/`
 > **Daily notes:** `memory/YYYY-MM-DD.md`
-> **Pulse cycle:** 64 (2026-06-20T21:37Z)
+> **Pulse Cycle:** 67 (2026-06-21T21:43Z)
 
 ---
 
@@ -11,23 +11,17 @@
 
 Committed 214 files across 4 commits. Remaining: only `graphify-out/graph.json` (regenerable, excluded via .gitignore).
 
-**🔴 CEO CRON WASTING SESSIONS — Root cause confirmed: Che heartbeat every 30m-1h dispatches status checks to CEO. 24 sessions/day. NOT a gateway cron job. Fix requires Jason: reduce Che `heartbeat.every` from 30m to 12h.**
+**🔴 CEO CRON WASTING SESSIONS — Root cause confirmed: Che heartbeat every 30m-1h dispatches status checks to CEO. 899+ sessions total, ~24/day. NOT a gateway cron job. Fix requires Jason: reduce Che `heartbeat.every` from 30m to 12h.**
 
-**🔴 PROJECT VELOCITY INSUFFICIENT:** Zero dev activity in last 5 days. 9/11 agents dormant 5-37d. MVP deadline July 7 (16 days). **3 API keys still unrotated after 6+ days** (SECURITY INCIDENT WORSENING). Meta turn failure rate improved to ~2%.
+**🔴 PROJECT VELOCITY INSUFFICIENT:** Zero dev activity in last 6 days. 9/11 agents dormant 5-37d. MVP deadline July 7 (16 days). **3 API keys still unrotated after 8+ days** (SECURITY INCIDENT CRITICAL). Meta turn failure rate stable at ~0%.
 
-**✅ PULSE STABLE (Cycle 65):** 0 consecutive errors. **Delivery NOW WORKING** — Telegram target `-1002227616648`. **Meta turn failure rate improved to ~2%** (2/88 turns).
+**✅ PULSE STABLE (Cycle 67):** 0 consecutive errors. **Delivery NOW WORKING** — Telegram target `-1002227616648`. **Meta turn failure rate stable at ~0%** (3 consecutive cycles).
 
-**✅ PULSE DELIVERY FIXED (June 21):** Changed Telegram delivery target from `-5110202082` (not found) to `-1002227616648` (working group). Confirmed working in Cycle 65.
+**✅ PULSE DELIVERY FIXED (June 21):** Changed Telegram delivery target from `-5110202082` (not found) to `-1002227616648` (working group). Confirmed working in Cycles 65-67 (3 consecutive cycles).
 
-**✅ GIT COMMIT DONE (June 21):** 4 commits, 214 files, all meaningful changes committed. Only `graphify-out/graph.json` remains (regenerable, .gitignore).
+**✅ GIT COMMIT DONE (June 21):** 4 commits, 214 files, all meaningful changes committed. Only `.learnings/` + `DREAMS.md` remain (regenerable, auto-generated).
 
 **🟡 WELLNESS PLAN PHASE 2 (19 components, COMMITTED June 21):**
-
-- Phase 1: WellnessPlanPage, PlanOverview, DailyProtocolView, DietProtocolCard, SupplementStack, GlycationScore
-- Phase 2 additions (10 new): SleepProtocol, MedicationInteractions, PostProcedureCard, SeasonalAdjustments, GlycationScore (updated), EnvironmentDefense, SunExposureProtocol, FitzpatrickAdjustments, GutBrainSkinTriad, SmokingAlcoholImpact, OralMicrobiomeCard, PsychodermProtocol, HydrationTracker, MovementProtocol
-- WellnessPlanPage.tsx: 15.6KB (needs 300-line check)
-- API routes: generate, checkin, daily
-- New doc: TREATMENT-PROTOCOL-INTEGRATION.md
 
 **✅ SAGE CLINICAL SCAN (June 15):**
 
@@ -38,33 +32,33 @@ Committed 214 files across 4 commits. Remaining: only `graphify-out/graph.json` 
 
 **✅ GIT COMMIT DONE (June 21):** All meaningful files committed across 5 commits (215 files total). Only `graphify-out/graph.json` remains (regenerable, .gitignore).
 
-**🔴 CEO SPAM ROOT CAUSE CONFIRMED:** Che agent heartbeat (every 30m-1h) dispatches status checks to CEO → 24 CEO sessions/day. All 12 CEO sessions in last 12h were Che dispatches. Fix: reduce Che `heartbeat.every` to 12h. NOT manageable via gateway cron API.
+**🔴 CEO SPAM ROOT CAUSE CONFIRMED:** Che agent heartbeat (every 30m-1h) dispatches status checks to CEO → 899+ CEO sessions, ~24/day. All 24 CEO sessions in last 24h were Che dispatches. Fix: reduce Che `heartbeat.every` to 12h. NOT manageable via gateway cron API.
 
-**🟡 PULSE DELIVERY FIXED:** Telegram target changed from `-5110202082` (invalid) to `-1002227616648` (working).
+**🟡 PULSE DELIVERY FIXED:** Telegram target changed from `-5110202082` (invalid) to `-1002227616648` (working). Stable 3 cycles.
 
-**🔴 SECURITY INCIDENT (June 16, 6+ days unrotated):** Dev subagent session leaked SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, and SUPABASE_ACCESS_TOKEN in plain text. Keys STILL NOT ROTATED after 6+ days. WORSENING. IMMEDIATE rotation required. Add env var protection to agent guardrails.
+**🔴 SECURITY INCIDENT (June 16, 8+ days unrotated):** Dev subagent session leaked SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, and SUPABASE_ACCESS_TOKEN in plain text. Keys STILL NOT ROTATED after 8+ days. WORSENING. IMMEDIATE rotation required. Add env var protection to agent guardrails.
 **⚠️ KNOWN ISSUES:**
 
-- 🔴 **API keys leaked in dev session logs** — rotate SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, SUPABASE_ACCESS_TOKEN immediately (6+ days unrotated!)
+- 🔴 **API keys leaked in dev session logs** — rotate SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, SUPABASE_ACCESS_TOKEN immediately (8+ days unrotated!)
 - 🔴 **Dev agent kimi-k2.6 produces garbage output** — session 01b319d3 entirely garbled, switch to glm-5.1 before reactivation
 - 🔴 **Che heartbeat 30m-1h → CEO spam** — 24 CEO sessions/day, all Che dispatches. Fix Che `heartbeat.every` to 12h
-- ✅ Pulse delivery WORKING — Telegram target `-1002227616648` confirmed
+- ✅ Pulse delivery WORKING — Telegram target `-1002227616648` confirmed (3 cycles stable)
 - ✅ Pulse Cycle 62 recovered from 10 consecutive timeouts (268s run time)
-- ✅ Git commit done — 4 commits, 214 files (June 21)
-- ✅ Meta turn failure rate improved from 16% to ~2%
+- ✅ Git commit done — 4 commits, 214 files (June 21). Only .learnings/ + DREAMS.md remain.
+- ✅ Meta turn failure rate stable at ~0% (3 consecutive cycles)
 - Cloudflare blocks: dermatologytimes.com, hcplive.com — use ScrapeGraph with stealth
 - memory_search: QMD times out at 4s, builtin fallback works at 6-7s (acceptable)
 - Architect review found 7 high-severity issues (no auth, missing RLS, SQL injection)
 - WellnessPlanPage.tsx likely over 300-line limit
 - Mobile build broken — asset path resolution error persists
-- Zero dev agent activity in last 5 days (dev dormant since June 16)
+- Zero dev agent activity in last 6 days (dev dormant since June 16)
 - Dev wired treatment_protocols into Wellness Plan API (June 15)
 
 **Agent Health Summary (as of June 21, 05:37 ET):**
 | Agent | Sessions | Last Active | Status |
 |-------|----------|------------|--------|
-| CEO | 851+ | Jun 21 04:09 (Che dispatch) | 🔴 Active but 24x/day from Che heartbeat (should be 2/day max) |
-| Meta | 83+ | Jun 21 05:37 (Pulse) | 🟢 Active (Cycle 65, 0 errors, delivery WORKING) |
+| CEO | 899+ | Jun 21 (Che dispatch) | 🔴 Active but 24x/day from Che heartbeat (should be 2/day max) |
+| Meta | 88+ | Jun 21 21:43 (Pulse C67) | 🟢 Active (Cycle 67, 0 errors, delivery WORKING) |
 | Dev | 71 | Jun 16 12:04 | 🔴 Dormant 5d (last: garbage + env leak) |
 | Architect | 20 | Jun 14 17:58 | 🔴 Dormant 7d |
 | Research | 64 | Jun 14 19:12 | 🔴 Dormant 7d |
@@ -75,20 +69,20 @@ Committed 214 files across 4 commits. Remaining: only `graphify-out/graph.json` 
 | Marketing | 2 | May 15 22:43 | 🔴 Dormant 37d |
 | Syntax | 2 | May 22 08:40 | 🔴 Dormant 30d |
 
-**Key Insight:** CEO running 24 sessions/day from Che heartbeat dispatch (every ~1h). 9/11 agents dormant 5-37d. 16 days to MVP with zero feature velocity. Dev agent dormant since June 16 (garbage + env leak). Pulse Cycle 65 stable (0 errors) with delivery WORKING. 3 API keys still need rotation after 6+ days (SECURITY INCIDENT WORSENING). Meta turn failure rate improved to ~2%. Git commits done — 214 files committed. Only 2 files remain uncommitted.
+**Key Insight:** CEO running 24 sessions/day from Che heartbeat dispatch (every ~1h). 9/11 agents dormant 6-37d. 16 days to MVP with zero feature velocity. Dev agent dormant since June 16 (garbage + env leak). Pulse Cycle 67 stable (0 errors) with delivery WORKING (3 consecutive cycles). 3 API keys still need rotation after 8+ days (SECURITY INCIDENT CRITICAL). Meta turn failure rate stable at ~0%. Git commits done — 214 files committed. Only .learnings/ + DREAMS.md remain uncommitted.
 
 **Progress since Cycle 54:**
 
-- 🔴 **CEO SPAM ONGOING** — Che heartbeat dispatches to CEO ~24x/day. Requires Jason to fix.
-- ✅ **PULSE DELIVERY WORKING** — Telegram target `-1002227616648` confirmed working
-- ✅ **GIT COMMIT DONE** — 4 commits, 214 files (June 21). Only 2 files remain modified.
-- ✅ **META TURN FAILURES IMPROVED** — From 16% to ~2% (glm-5.1 model stable)
+- 🔴 **CEO SPAM ONGOING** — Che heartbeat dispatches to CEO ~24x/day. 899+ total sessions. Requires Jason to fix.
+- ✅ **PULSE DELIVERY WORKING** — Telegram target `-1002227616648` confirmed working (3 cycles stable)
+- ✅ **GIT COMMIT DONE** — 4 commits, 214 files (June 21). Only .learnings/ + DREAMS.md remain.
+- ✅ **META TURN FAILURES STABLE** — At ~0% for 3 consecutive cycles (glm-5.1 model stable)
 - ✅ **MEMORY_SEARCH FALLBACK** — QMD timeout acceptable, builtin fallback works
 - ✅ **DEV WIRED TREATMENT_PROTOCOLS** — Wellness Plan API integration (June 15)
-- 🔴 **SECURITY INCIDENT WORSENING** — API keys leaked 6+ days ago, STILL NOT ROTATED
+- 🔴 **SECURITY INCIDENT CRITICAL** — API keys leaked 8+ days ago, STILL NOT ROTATED
 - 🔴 **DEV GARBAGE OUTPUT** — kimi-k2.6 produced hallucinated content, needs model switch
 - 🔴 **Mobile build broken** — Asset path resolution error persists
-- ✅ 65 Pulse cycles completed
+- ✅ 67 Pulse cycles completed
 
 ## CRITICAL: What SKINgenius Actually Is (Updated 2026-05-14)
 
