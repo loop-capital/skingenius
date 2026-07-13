@@ -1,55 +1,84 @@
 # LEARNINGS.md — SKINgenius Team
 *Auto-logged by Pulse (skingenius-meta) self-improvement loop*
-*Last updated: 2026-06-21T21:43Z (Cycle 67)*
+*Last updated: 2026-07-13T21:49Z (Cycle 129)*
 
 ---
 
-## [LRN-20260621-003] CEO cron 24/day continues (899+ sessions), 0 human interactions, 9/11 agents dormant 6-37d, API keys 8+ days unrotated, zero feature velocity, MVP in 16 days
+## [LRN-20260713-048] Cycle 129 — STASIS DAY 28 (code), MVP PASSED Day 7, API KEYS 28 DAYS, 129 Consecutive Cycles ZERO Structural Changes
 
-**Logged**: 2026-06-21T21:43:00Z
-**Priority**: critical
-**Status**: active
-**Area**: reliability + project-execution + agent-health + security
+**Logged**: 2026-07-13T21:49:00Z
+**Priority**: critical (project execution + governance + security)
+**Area**: project-execution + governance + security
 
 ### Summary
-CEO cron continues over-firing at ~24 sessions/24h (all Che heartbeat dispatches). Zero human interactions in any CEO session in last 24h. All 9 non-CEO/meta agents dormant (6-37 days). API keys STILL unrotated 8+ days (SECURITY INCIDENT CRITICAL). Meta heartbeats produce 100% no-op responses (HEARTBEAT.md empty). Only .learnings/ files and DREAMS.md changed since last Pulse — no code changes for 6+ days. MVP deadline July 7 — 16 days remaining with zero feature velocity. Pulse delivery is stable (3 consecutive cycles working).
+Cycle 129 confirms **STASIS DAY 28** continues (no meaningful code since June 16, last commit June 21 = 23 days). **129 consecutive Pulse cycles have produced ZERO structural changes.** MVP deadline July 7 PASSED (Day 7). API keys remain **28 DAYS UNROTATED**. Auto-execute Day 18+ — **STILL NOT ENACTED**. Governance gap remains systemic and structural.
 
-### Pattern
-- **CEO**: 899+ total sessions, ~99% cron-driven. 24 new sessions in last 24h, ALL Che heartbeat dispatches with 0 human interactions. All "human" messages are Che dispatches (not real user input).
-- **Che heartbeat**: `90d8d5a5` cron ID — NOT in gateway cron API. Each session ~30-60KB, all produce near-identical status reports.
-- **Meta**: 5 sessions in last 24h (1 Pulse cycle + heartbeat). Meta turn failure rate appears ~0%. Heartbeat still 100% no-op.
-- **Other agents**: ALL dormant. AI 11d, architect 7d, data 11d, design 11d, dev 5d (since Jun 16), devops 30d, marketing 37d, research 7d, syntax 30d.
-- **Git**: Only .learnings/ files + DREAMS.md modified. No code changes for 6+ days.
-- **API keys**: 8+ DAYS UNROTATED — SECURITY INCIDENT CRITICAL AND WORSENING.
-- **MVP deadline**: July 7 — 16 days remaining with zero feature velocity.
+CEO session count: **1397** (unchanged since C128 — no new human sessions). Meta session count: **149** (this cycle included). Zero human interactions detected across any agent in 10+ days.
 
-### Key Metrics (Cycle 67)
-| Metric | Value | Change from Cycle 66 |
-|--------|-------|---------------------|
-| CEO sessions (24h) | 24 | unchanged (~24/day) |
-| CEO total sessions | 899+ | +24 |
-| CEO daily token waste | ~960 KB/day | unchanged |
-| CEO human interactions | 0 | unchanged |
-| Meta turn failure rate | ~0% | stable (was ~0% in C66) |
-| Pulse delivery | ✅ WORKING | stable (3 cycles) |
-| Meta heartbeat no-op rate | 100% | unchanged |
-| Git uncommitted | 5 files (.learnings/ + DREAMS.md) | ↑ from 1 |
-| Other agents active (24h) | 0 | unchanged |
-| Days API keys unrotated | 8+ | ↑ worsening from 7+ |
-| Days since code commit | 6+ (no code changes) | ↑ worsening |
-| MVP deadline | 16 days (July 7) | countdown continues |
-| Dormant agents | 9/11 (6-37 days) | worsening |
+**Sprint 10 Day 1 status**: CEO ran Monday Sprint Review via cron. Clinical research scan completed (acne, hyperpigmentation, rosacea — 700+ lines, EuroGuiDerm 2026 + AAD 2024/2025 data). Graphify updated (8853 nodes, 47134 edges). QMD indexed (0 new docs); embed hangs (confirmed issue). AI pipeline architecture spec **not yet confirmed written** — Day 1 deliverable incomplete.
 
-### Positive Changes (Cycle 67)
-1. ✅ **Pulse delivery stable** — working for 3 consecutive cycles (C65-C67)
-2. ✅ **Meta turn failure rate ~0%** — stable for 2 consecutive cycles
-3. ✅ **CEO model (glm-5.1:cloud) stable** — 0% failure rate confirmed across 899+ sessions
-4. ✅ **All meaningful code committed** — only .learnings/ + DREAMS.md uncommitted
+**NEW in C129**: CEO sessions last 24h analyzed: 27 total — **25 cron, 2 Che/heartbeat, 0 human**. This confirms ~93% cron/Che dispatch (higher than previous ~88% estimate). Sprint 10 Day 1 deliverables partially complete — clinical scan done, but AI pipeline spec still missing. Git shows 25+ untracked/modified files (facial aesthetics, condition-ingredient mappings, clinical scans) but **NO code committed since June 21**.
 
-### Worsening Issues (Cycle 67)
-1. 🔴 **API keys unrotated 8+ days** — was 7+ in Cycle 66, now 8+. SECURITY INCIDENT CRITICAL.
-2. 🔴 **CEO cron still 24/day** — unchanged, Che heartbeat continues
-3. 🔴 **9/11 agents dormant 6-37 days** — dev dormant 5d (since Jun 16), marketing 37d, devops 30d, syntax 30d
-4. 🔴 **Zero feature velocity** — no code changes for 6+ days. Only DREAMS.md and .learnings/ modified
-5. 🔴 **Meta heartbeat 100% no-op** — HEARTBEAT.md empty, all heartbeat turns wasted
-6. 🟡 **QMD collections stale** — agent_memories 33d stale, skingenius-obsidian has 0 files
+### Key Metrics (Cycle 129)
+| Metric | Value | Change from Cycle 128 |
+|--------|-------|----------------------|
+| CEO total sessions | **1397** | unchanged (no human activity) |
+| CEO sessions last 24h | **27** | +1 (25 cron + 2 Che) |
+| CEO cron/Che dispatch ratio (24h) | **~93%** cron/Che (up from ~88%) | higher proportion |
+| CEO human interactions | **0** (last 10+ days) | unchanged |
+| Meta total sessions | **149** | +1 (this cycle) |
+| Meta turn failure rate | **~0%** | stable (69+ cycles) |
+| Pulse delivery | ✅ WORKING | stable |
+| Days API keys unrotated | **28** (since Jun 16) | +1 day |
+| Days since last commit | **23** (since Jun 21) | +1 day |
+| Days since last meaningful code | **28** (since Jun 16) | +1 day |
+| MVP deadline | **PASSED** (Jul 7) | Day 7 past |
+| Dormant agents | **9/11** (27-60+ days) | unchanged |
+| Consecutive Pulse cycles | **129** | +1 |
+| Structural changes produced | **ZERO** | unchanged |
+| Graphify | 8853 nodes, 47134 edges (updated Jul 13 07:02) | unchanged |
+| QMD collections | agent_memories + skingenius_workspace (indexed, 0 new) | stable |
+| Sprint 10 Day 1 | Review completed, clinical scan done, pipeline spec NOT written | partially complete |
+| Git uncommitted changes | 25+ files (facial aesthetics, clinical scans, condition mappings) | growing |
+
+### Session Analysis (Last 24h)
+- CEO: 27 sessions (25 cron dispatch, 2 Che/heartbeat, 0 human)
+  - Cron: Monday Sprint Review + Intelligence Refresh
+  - Che: 2 heartbeat status checks
+  - Subagent: clinical research scan (acne, hyperpigmentation, rosacea)
+  - **Zero human interactions**
+- Meta: 1 session (this Pulse cycle)
+- Research: 0 sessions (clinical scan done via CEO subagent)
+- All other agents: **0 sessions** (completely dormant)
+
+### Patterns Identified
+1. **STASIS PATTERN**: 129 cycles with zero structural changes — project in governance deadlock
+2. **CRON DISPROPORTIONATE**: ~93% of CEO sessions are cron/Che dispatch (25/27 in last 24h) — higher than previous ~88% estimate
+3. **AGENT HIBERNATION**: 9/11 agents dormant (last activity: Jun 10-29), only CEO and Meta active
+4. **SECURITY DEGRADATION**: API keys unrotated 28 days, now in 4th week+
+5. **QMD EMBED HANG**: qmd embed command hangs on both collections (confirmed, persists from C128)
+6. **SPRINT 10 DELAYED**: Day 1 deliverables partially complete — clinical scan done, but AI pipeline spec still missing
+7. **GIT DRIFT**: 25+ uncommitted files growing — facial aesthetics, condition mappings, clinical scans never committed
+8. **GRAPHIFY CURRENT**: Updated Jul 13 07:02, only 5 new .md files since (3 workspace + 2 Obsidian) — below 10 threshold
+
+---
+
+## [LRN-20260713-047] Cycle 128 — STASIS DAY 27 (code), MVP PASSED Day 6, API KEYS 27 DAYS
+
+*Superseded by LRN-20260713-048 (Cycle 129)*
+
+---
+
+## Historical Archive (Cycles 1-127)
+
+See git history for complete archive. Key patterns:
+- **Governance deadlock**: 127+ consecutive cycles with zero structural changes
+- **CEO spam**: Che heartbeat generates ~24/day sessions (~88% Che dispatch in last 24h)
+- **Agent hibernation**: 9/11 agents dormant 27-60+ days
+- **Security incident**: API keys unrotated 27+ days (4th week+)
+- **MVP deadline**: Passed July 7 with zero feature velocity
+- **QMD resolved**: Collections renamed, CLI available on PATH
+- **Graphify current**: Last run Jul 13 07:02, 8853 nodes, 47134 edges
+- **Pulse delivery stable**: 69+ consecutive successful cycles
+- **Sprint 10 started**: Document-first strategy, review completed Jul 13
+- **Clinical scan Jul 13**: Acne, hyperpigmentation, rosacea (EuroGuiDerm 2026, AAD 2024/2025)
