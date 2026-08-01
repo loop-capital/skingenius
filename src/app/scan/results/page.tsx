@@ -13,6 +13,8 @@ import {
   Brain,
   ScanFace,
   Sun,
+  Loader2,
+  ShoppingBag,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -29,6 +31,8 @@ import {
   V1SkinZone,
   V1QualityAssessment,
 } from "@/types/api";
+import { RecommendationCard } from "@/components/scan/RecommendationCard";
+import type { RecommendationResult } from "@/lib/recommendations/types";
 
 function confidencePercent(c: number): string {
   return `${Math.round(c * 100)}%`;
@@ -103,6 +107,14 @@ export default function ScanResultsPage() {
   const [data, setData] = useState<V1ScanResponse["data"] | null>(null);
   const [progress, setProgress] = useState<PipelineProgress | null>(null);
 
+  // Recommendation states
+  const [recommendations, setRecommendations] = useState<
+    RecommendationResult[]
+  >([]);
+  const [recLoading, setRecLoading] = useState(false);
+  const [recError, setRecError] = useState<string | null>(null);
+  const [recFetched, setRecFetched] = useState(false);
+
   const runAnalysis = useCallback(async () => {
     const imageData = state.capturedImageData;
     const skinTone = state.skinTone;
@@ -156,7 +168,8 @@ export default function ScanResultsPage() {
       // Use server scan_id if available, otherwise generate local
       const finalData = {
         ...result.data,
-        scan_id: json.data?.scan_id ?? result.data.scan_id ?? crypto.randomUUID(),
+        scan_id:
+          json.data?.scan_id ?? result.data.scan_id ?? crypto.randomUUID(),
       };
 
       setData(finalData);
@@ -184,12 +197,77 @@ export default function ScanResultsPage() {
     } finally {
       setLoading(false);
     }
-  }, [dispatch, router, state.capturedImageData, state.skinTone, state.uploadedImageUri]);
+  }, [
+    dispatch,
+    router,
+    state.capturedImageData,
+    state.skinTone,
+    state.uploadedImageUri,
+  ]);
+
+  // Fetch recommendations when analysis data is ready
+  const fetchRecommendations = useCallback(async () => {
+    if (!data || recFetched) return;
+
+    const conditions = data.conditions ?? [];
+    if (conditions.length === 0) {
+      setRecFetched(true);
+      return;
+    }
+
+    setRecLoading(true);
+    setRecError(null);
+
+    try {
+      const res = await fetch("/api/v1/recommendations", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          conditions: conditions.map((c: V1DetectedCondition) => ({
+            id: c.condition_id ?? c.name.toLowerCase().replace(/\s+/g, "_"),
+            confidence: c.confidence,
+            severity: c.severity,
+          })),
+          skin_type: state.skinTone ? "normal" : "normal",
+          fitzpatrick: state.skinTone ?? 3,
+          is_pregnant: false,
+          allergies: [],
+        }),
+      });
+
+      const json = await res.json();
+
+      if (!res.ok || json.error) {
+        throw new Error(json.error || "Failed to fetch recommendations");
+      }
+
+      const recs: RecommendationResult[] = json.data?.recommendations ?? [];
+      setRecommendations(recs);
+    } catch (err) {
+      console.error("Recommendations error:", err);
+      setRecError(
+        err instanceof Error ? err.message : "Failed to load recommendations",
+      );
+    } finally {
+      setRecLoading(false);
+      setRecFetched(true);
+    }
+  }, [data, recFetched, state.skinTone]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     runAnalysis();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Fetch recommendations after analysis completes and data is set
+  useEffect(() => {
+    if (!loading && data && !recFetched) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      fetchRecommendations();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, data, recFetched, fetchRecommendations]);
 
   const handleScanAgain = useCallback(() => {
     dispatch({ type: "RESET" });
@@ -204,7 +282,11 @@ export default function ScanResultsPage() {
           <div className="absolute inset-0 rounded-full border-2 border-emerald-200" />
           <div className="absolute inset-0 rounded-full border-2 border-emerald-600 border-t-transparent animate-spin" />
           <div className="absolute inset-3 rounded-full bg-emerald-50 flex items-center justify-center">
-            {progress ? phaseIcon(progress.phase) : <Sparkles className="w-6 h-6 text-emerald-600 animate-pulse" />}
+            {progress ? (
+              phaseIcon(progress.phase)
+            ) : (
+              <Sparkles className="w-6 h-6 text-emerald-600 animate-pulse" />
+            )}
           </div>
         </div>
         <p className="text-stone-900 font-semibold text-lg mb-1">
@@ -253,8 +335,8 @@ export default function ScanResultsPage() {
                     isComplete
                       ? "bg-emerald-600 text-white"
                       : isActive
-                      ? "bg-emerald-100 text-emerald-700 border border-emerald-600"
-                      : "bg-stone-100 text-stone-400"
+                        ? "bg-emerald-100 text-emerald-700 border border-emerald-600"
+                        : "bg-stone-100 text-stone-400"
                   }`}
                 >
                   {isComplete ? (
@@ -280,8 +362,8 @@ export default function ScanResultsPage() {
                     isActive
                       ? "font-semibold text-emerald-700"
                       : isComplete
-                      ? "text-stone-700"
-                      : "text-stone-400"
+                        ? "text-stone-700"
+                        : "text-stone-400"
                   }`}
                 >
                   {phaseLabel(phase)}
@@ -371,7 +453,9 @@ export default function ScanResultsPage() {
           <div className="w-8 h-8 rounded-lg bg-emerald-700 flex items-center justify-center">
             <Sparkles className="w-4 h-4 text-white" />
           </div>
-          <span className="text-lg font-semibold text-stone-900">SKINgenius</span>
+          <span className="text-lg font-semibold text-stone-900">
+            SKINgenius
+          </span>
         </div>
         <h1 className="text-3xl font-bold text-stone-900 tracking-tight mb-2">
           Your Skin Analysis
@@ -382,8 +466,10 @@ export default function ScanResultsPage() {
         </p>
         {data.metadata?.auto_detected_skin_tone && (
           <p className="text-xs text-emerald-600 mt-1">
-            Auto-detected Fitzpatrick type {data.metadata.auto_detected_skin_tone.type} (confidence:{" "}
-            {Math.round(data.metadata.auto_detected_skin_tone.confidence * 100)}%)
+            Auto-detected Fitzpatrick type{" "}
+            {data.metadata.auto_detected_skin_tone.type} (confidence:{" "}
+            {Math.round(data.metadata.auto_detected_skin_tone.confidence * 100)}
+            %)
           </p>
         )}
       </header>
@@ -494,7 +580,7 @@ export default function ScanResultsPage() {
                         </span>
                         <span
                           className={`text-xs font-semibold px-2 py-0.5 rounded-full ${severityColor(
-                            c.severity
+                            c.severity,
                           )}`}
                         >
                           {c.severity.charAt(0).toUpperCase() +
@@ -537,7 +623,7 @@ export default function ScanResultsPage() {
                       </span>
                       <span
                         className={`text-xs font-semibold px-2 py-0.5 rounded-full ${severityColor(
-                          z.severity
+                          z.severity,
                         )}`}
                       >
                         {z.severity.charAt(0).toUpperCase() +
@@ -549,7 +635,9 @@ export default function ScanResultsPage() {
                     </p>
                     <p className="text-xs text-stone-500">{z.description}</p>
                     <div className="mt-2 flex items-center gap-1">
-                      <span className="text-xs text-stone-400">Confidence:</span>
+                      <span className="text-xs text-stone-400">
+                        Confidence:
+                      </span>
                       <span className="text-xs font-medium text-emerald-700">
                         {confidencePercent(z.confidence)}
                       </span>
@@ -561,6 +649,103 @@ export default function ScanResultsPage() {
           </section>
         )}
 
+        {/* Recommendations Section */}
+        <section>
+          <h2 className="text-sm font-semibold text-stone-900 uppercase tracking-wider mb-3">
+            Recommended for You
+          </h2>
+
+          {recLoading && (
+            <div className="flex flex-col items-center justify-center py-12 text-center">
+              <Loader2 className="w-8 h-8 text-emerald-600 animate-spin mb-3" />
+              <p className="text-sm text-stone-600 font-medium">
+                Finding products for your skin...
+              </p>
+              <p className="text-xs text-stone-400 mt-1">
+                Analyzing ingredients that address your conditions
+              </p>
+            </div>
+          )}
+
+          {recError && (
+            <Alert variant="destructive" className="mb-3">
+              <AlertCircle className="h-4 w-4" />
+              <AlertTitle>Could not load recommendations</AlertTitle>
+              <AlertDescription className="text-xs">
+                {recError}
+              </AlertDescription>
+            </Alert>
+          )}
+
+          {!recLoading &&
+            !recError &&
+            recFetched &&
+            recommendations.length === 0 && (
+              <div className="text-center py-8">
+                <p className="text-sm text-stone-500 mb-3">
+                  No personalized recommendations found for your detected
+                  conditions.
+                </p>
+                <Button
+                  variant="outline"
+                  onClick={() => router.push("/products")}
+                  className="rounded-xl border-stone-300 text-sm"
+                >
+                  <ShoppingBag className="w-4 h-4 mr-2" />
+                  Browse All Products
+                </Button>
+              </div>
+            )}
+
+          {!recLoading && recommendations.length > 0 && (
+            <div className="space-y-3">
+              {recommendations.map((rec: RecommendationResult) => (
+                <RecommendationCard key={rec.product_id} recommendation={rec} />
+              ))}
+              <Button
+                variant="outline"
+                onClick={() => router.push("/products")}
+                className="w-full mt-4 py-4 text-sm font-medium rounded-2xl border-stone-300 hover:bg-stone-50"
+              >
+                <ShoppingBag className="w-4 h-4 mr-2" />
+                View All Products
+              </Button>
+            </div>
+          )}
+        </section>
+
+        {/* Safety Flags */}
+        {(data.conditions ?? []).some((c) => c.severity === "severe") && (
+          <Alert className="bg-red-50 border-red-200">
+            <AlertCircle className="h-4 w-4 text-red-600" />
+            <AlertTitle className="text-red-800 text-sm">
+              Severe Condition Detected
+            </AlertTitle>
+            <AlertDescription className="text-red-700 text-xs">
+              One or more severe conditions were detected. We strongly recommend
+              consulting a board-certified dermatologist for professional
+              evaluation and treatment.
+            </AlertDescription>
+          </Alert>
+        )}
+
+        {/* Pregnancy Warning */}
+        {recommendations.some((r) => !r.pregnancy_safe) && (
+          <Alert className="bg-amber-50 border-amber-200">
+            <AlertCircle className="h-4 w-4 text-amber-600" />
+            <AlertTitle className="text-amber-800 text-sm">
+              Pregnancy Safety Notice
+            </AlertTitle>
+            <AlertDescription className="text-amber-700 text-xs">
+              Some recommended products contain ingredients that may not be safe
+              during pregnancy. Products marked{" "}
+              <span className="font-semibold">&quot;Pregnancy Safe&quot;</span>{" "}
+              are filtered for pregnancy compatibility. Always consult your
+              healthcare provider.
+            </AlertDescription>
+          </Alert>
+        )}
+
         {/* Disclaimer */}
         <Alert className="bg-amber-50 border-amber-200">
           <AlertCircle className="h-4 w-4 text-amber-600" />
@@ -569,20 +754,40 @@ export default function ScanResultsPage() {
           </AlertTitle>
           <AlertDescription className="text-amber-700 text-xs">
             This analysis is for informational purposes only and does not
-            constitute a medical diagnosis. If you have concerns about your
-            skin health, please consult a board-certified dermatologist.
+            constitute a medical diagnosis. If you have concerns about your skin
+            health, please consult a board-certified dermatologist.
           </AlertDescription>
         </Alert>
       </main>
 
       {/* Footer CTAs */}
       <footer className="px-6 pb-8 pt-4 bg-white border-t border-stone-100 space-y-3">
+        {/* Pro CTA */}
+        <div className="rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-4 text-center">
+          <div className="flex items-center justify-center gap-1.5 mb-1">
+            <Sparkles className="w-4 h-4 text-emerald-700" />
+            <span className="text-sm font-semibold text-emerald-800">
+              Get Full Analysis
+            </span>
+          </div>
+          <p className="text-xs text-emerald-600 mb-3">
+            Unlock ingredient deep-dives, routine recommendations, and
+            dermatologist-reviewed protocols
+          </p>
+          <Button
+            className="py-3 text-sm font-semibold rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white w-full"
+            onClick={() => router.push("/products")}
+          >
+            Upgrade to Pro
+          </Button>
+        </div>
+
         <Button
-          onClick={() => router.push("/recommendations")}
+          onClick={() => router.push("/products")}
           className="w-full py-6 text-base font-semibold rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white shadow-lg shadow-emerald-900/10 flex items-center justify-center gap-2"
         >
-          <Sparkles className="w-5 h-5" />
-          Get Recommendations
+          <ShoppingBag className="w-5 h-5" />
+          Browse Products
           <ChevronRight className="w-4 h-4" />
         </Button>
 

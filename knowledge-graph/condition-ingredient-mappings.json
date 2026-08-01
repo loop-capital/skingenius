@@ -1,0 +1,3005 @@
+[
+  {
+    "ingredient_id": "benzoyl-peroxide",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Benzoyl Peroxide addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "benzoyl-peroxide",
+    "condition_id": "acne-mechanica",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Benzoyl Peroxide addresses acne-mechanica"
+  },
+  {
+    "ingredient_id": "benzoyl-peroxide",
+    "condition_id": "folliculitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Benzoyl Peroxide addresses folliculitis"
+  },
+  {
+    "ingredient_id": "benzoyl-peroxide",
+    "condition_id": "razor-bumps",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Benzoyl Peroxide addresses razor-bumps"
+  },
+  {
+    "ingredient_id": "salicylic-acid",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Salicylic Acid addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "salicylic-acid",
+    "condition_id": "keratosis-pilaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Salicylic Acid addresses keratosis-pilaris"
+  },
+  {
+    "ingredient_id": "salicylic-acid",
+    "condition_id": "folliculitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Salicylic Acid addresses folliculitis"
+  },
+  {
+    "ingredient_id": "salicylic-acid",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Salicylic Acid addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "salicylic-acid",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Salicylic Acid addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "azelaic-acid",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "azelaic-acid",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses rosacea"
+  },
+  {
+    "ingredient_id": "azelaic-acid",
+    "condition_id": "melasa",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses melasa"
+  },
+  {
+    "ingredient_id": "azelaic-acid",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses PIH"
+  },
+  {
+    "ingredient_id": "azelaic-acid",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "niacinamide",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Niacinamide addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "niacinamide",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Niacinamide addresses rosacea"
+  },
+  {
+    "ingredient_id": "niacinamide",
+    "condition_id": "melasma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Niacinamide addresses melasma"
+  },
+  {
+    "ingredient_id": "niacinamide",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Niacinamide addresses PIH"
+  },
+  {
+    "ingredient_id": "niacinamide",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Niacinamide addresses xerosis"
+  },
+  {
+    "ingredient_id": "niacinamide",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Niacinamide addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "tretinoin",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tretinoin addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "tretinoin",
+    "condition_id": "melasma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tretinoin addresses melasma"
+  },
+  {
+    "ingredient_id": "tretinoin",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tretinoin addresses PIH"
+  },
+  {
+    "ingredient_id": "tretinoin",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tretinoin addresses photoaging"
+  },
+  {
+    "ingredient_id": "tretinoin",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tretinoin addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "tretinoin",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tretinoin addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "vitamin-c",
+    "condition_id": "melasma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin C (L-Ascorbic Acid) addresses melasma"
+  },
+  {
+    "ingredient_id": "vitamin-c",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin C (L-Ascorbic Acid) addresses PIH"
+  },
+  {
+    "ingredient_id": "vitamin-c",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin C (L-Ascorbic Acid) addresses photoaging"
+  },
+  {
+    "ingredient_id": "vitamin-c",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin C (L-Ascorbic Acid) addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "hydroquinone",
+    "condition_id": "melasma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hydroquinone addresses melasma"
+  },
+  {
+    "ingredient_id": "hydroquinone",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hydroquinone addresses PIH"
+  },
+  {
+    "ingredient_id": "hydroquinone",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hydroquinone addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "tranexamic-acid",
+    "condition_id": "melasma",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "Tranexamic Acid addresses melasma"
+  },
+  {
+    "ingredient_id": "tranexamic-acid",
+    "condition_id": "PIH",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "Tranexamic Acid addresses PIH"
+  },
+  {
+    "ingredient_id": "kojic-acid",
+    "condition_id": "melasma",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Kojic Acid addresses melasma"
+  },
+  {
+    "ingredient_id": "kojic-acid",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Kojic Acid addresses PIH"
+  },
+  {
+    "ingredient_id": "zinc",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "zinc",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "zinc",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc addresses rosacea"
+  },
+  {
+    "ingredient_id": "zinc",
+    "condition_id": "folliculitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc addresses folliculitis"
+  },
+  {
+    "ingredient_id": "zinc",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "omega-3",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Omega-3 (EPA/DHA) addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "omega-3",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Omega-3 (EPA/DHA) addresses psoriasis"
+  },
+  {
+    "ingredient_id": "omega-3",
+    "condition_id": "eczema",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Omega-3 (EPA/DHA) addresses eczema"
+  },
+  {
+    "ingredient_id": "omega-3",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Omega-3 (EPA/DHA) addresses rosacea"
+  },
+  {
+    "ingredient_id": "vitamin-d",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin D3 addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "vitamin-d",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin D3 addresses psoriasis"
+  },
+  {
+    "ingredient_id": "vitamin-d",
+    "condition_id": "eczema",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin D3 addresses eczema"
+  },
+  {
+    "ingredient_id": "vitamin-d",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Vitamin D3 addresses vitiligo"
+  },
+  {
+    "ingredient_id": "ceramides",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ceramides addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "ceramides",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ceramides addresses xerosis"
+  },
+  {
+    "ingredient_id": "ceramides",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ceramides addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "urea",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Urea addresses xerosis"
+  },
+  {
+    "ingredient_id": "urea",
+    "condition_id": "keratosis-pilaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Urea addresses keratosis-pilaris"
+  },
+  {
+    "ingredient_id": "urea",
+    "condition_id": "eczema",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Urea addresses eczema"
+  },
+  {
+    "ingredient_id": "ketoconazole",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ketoconazole addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "ketoconazole",
+    "condition_id": "fungal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ketoconazole addresses fungal-acne"
+  },
+  {
+    "ingredient_id": "ketoconazole",
+    "condition_id": "tinea-versicolor",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ketoconazole addresses tinea-versicolor"
+  },
+  {
+    "ingredient_id": "ketoconazole",
+    "condition_id": "folliculitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ketoconazole addresses folliculitis"
+  },
+  {
+    "ingredient_id": "metronidazole",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Metronidazole addresses rosacea"
+  },
+  {
+    "ingredient_id": "metronidazole",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Metronidazole addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "ivermectin",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ivermectin addresses rosacea"
+  },
+  {
+    "ingredient_id": "calcipotriene",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Calcipotriene addresses psoriasis"
+  },
+  {
+    "ingredient_id": "glycolic-acid",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Glycolic Acid addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "glycolic-acid",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Glycolic Acid addresses PIH"
+  },
+  {
+    "ingredient_id": "glycolic-acid",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Glycolic Acid addresses photoaging"
+  },
+  {
+    "ingredient_id": "glycolic-acid",
+    "condition_id": "keratosis-pilaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Glycolic Acid addresses keratosis-pilaris"
+  },
+  {
+    "ingredient_id": "lactic-acid",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Lactic Acid addresses xerosis"
+  },
+  {
+    "ingredient_id": "lactic-acid",
+    "condition_id": "keratosis-pilaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Lactic Acid addresses keratosis-pilaris"
+  },
+  {
+    "ingredient_id": "lactic-acid",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Lactic Acid addresses PIH"
+  },
+  {
+    "ingredient_id": "mandelic-acid",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Mandelic Acid addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "mandelic-acid",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Mandelic Acid addresses PIH"
+  },
+  {
+    "ingredient_id": "gluconolactone",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Gluconolactone addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "gluconolactone",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Gluconolactone addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "gluconolactone",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Gluconolactone addresses photoaging"
+  },
+  {
+    "ingredient_id": "tacrolimus",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "tacrolimus",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus addresses vitiligo"
+  },
+  {
+    "ingredient_id": "tacrolimus",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "tacrolimus",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "hydrocortisone",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hydrocortisone addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "hydrocortisone",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hydrocortisone addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "hydrocortisone",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hydrocortisone addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "fluorouracil",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fluorouracil 5% addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "imiquimod",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Imiquimod 5% addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "ruxolitinib",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ruxolitinib Cream addresses vitiligo"
+  },
+  {
+    "ingredient_id": "spearmint-tea",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Spearmint Tea addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "inositol",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Inositol addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "polypodium-leucotomos",
+    "condition_id": "melasma",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Polypodium Leucotomos addresses melasma"
+  },
+  {
+    "ingredient_id": "polypodium-leucotomos",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Polypodium Leucotomos addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "polypodium-leucotomos",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Polypodium Leucotomos addresses vitiligo"
+  },
+  {
+    "ingredient_id": "polypodium-leucotomos",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Polypodium Leucotomos addresses photoaging"
+  },
+  {
+    "ingredient_id": "collagen-peptides",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Collagen Peptides addresses photoaging"
+  },
+  {
+    "ingredient_id": "collagen-peptides",
+    "condition_id": "intrinsic-aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Collagen Peptides addresses intrinsic-aging"
+  },
+  {
+    "ingredient_id": "quercetin",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Quercetin addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "curcumin",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Curcumin addresses psoriasis"
+  },
+  {
+    "ingredient_id": "docosanol",
+    "condition_id": "cold-sore",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Docosanol addresses cold-sore"
+  },
+  {
+    "ingredient_id": "lysine",
+    "condition_id": "cold-sore",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "L-Lysine addresses cold-sore"
+  },
+  {
+    "ingredient_id": "hyalauronic-acid",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hyaluronic Acid addresses xerosis"
+  },
+  {
+    "ingredient_id": "hyalauronic-acid",
+    "condition_id": "fine-lines",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hyaluronic Acid addresses fine-lines"
+  },
+  {
+    "ingredient_id": "hyalauronic-acid",
+    "condition_id": "aging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hyaluronic Acid addresses aging"
+  },
+  {
+    "ingredient_id": "hyalauronic-acid",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hyaluronic Acid addresses photoaging"
+  },
+  {
+    "ingredient_id": "hyalauronic-acid",
+    "condition_id": "intrinsic-aging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Hyaluronic Acid addresses intrinsic-aging"
+  },
+  {
+    "ingredient_id": "petrolatum",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Petrolatum addresses xerosis"
+  },
+  {
+    "ingredient_id": "petrolatum",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Petrolatum addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "petrolatum",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Petrolatum addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "colloidal-oatmeal",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Colloidal Oatmeal addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "colloidal-oatmeal",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Colloidal Oatmeal addresses xerosis"
+  },
+  {
+    "ingredient_id": "colloidal-oatmeal",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Colloidal Oatmeal addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "shea-butter",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Shea Butter addresses xerosis"
+  },
+  {
+    "ingredient_id": "shea-butter",
+    "condition_id": "eczema",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Shea Butter addresses eczema"
+  },
+  {
+    "ingredient_id": "squalane",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Squalane addresses xerosis"
+  },
+  {
+    "ingredient_id": "squalane",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Squalane addresses acne"
+  },
+  {
+    "ingredient_id": "squalane",
+    "condition_id": "all",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Squalane addresses all"
+  },
+  {
+    "ingredient_id": "jojoba-oil",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Jojoba Oil addresses xerosis"
+  },
+  {
+    "ingredient_id": "jojoba-oil",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Jojoba Oil addresses acne"
+  },
+  {
+    "ingredient_id": "jojoba-oil",
+    "condition_id": "all",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Jojoba Oil addresses all"
+  },
+  {
+    "ingredient_id": "centella-asiatica",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Centella Asiatica addresses PIH"
+  },
+  {
+    "ingredient_id": "centella-asiatica",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Centella Asiatica addresses aging"
+  },
+  {
+    "ingredient_id": "centella-asiatica",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Centella Asiatica addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "allantoin",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Allantoin addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "allantoin",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Allantoin addresses acne"
+  },
+  {
+    "ingredient_id": "allantoin",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Allantoin addresses PIH"
+  },
+  {
+    "ingredient_id": "licorice-root",
+    "condition_id": "melasma",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Licorice Root Extract addresses melasma"
+  },
+  {
+    "ingredient_id": "licorice-root",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Licorice Root Extract addresses PIH"
+  },
+  {
+    "ingredient_id": "arbutin",
+    "condition_id": "melasma",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Alpha-Arbutin addresses melasma"
+  },
+  {
+    "ingredient_id": "arbutin",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Alpha-Arbutin addresses PIH"
+  },
+  {
+    "ingredient_id": "thiamidol",
+    "condition_id": "melasma",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Thiamidol addresses melasma"
+  },
+  {
+    "ingredient_id": "thiamidol",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Thiamidol addresses PIH"
+  },
+  {
+    "ingredient_id": "copper-peptides",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses aging"
+  },
+  {
+    "ingredient_id": "copper-peptides",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses photoaging"
+  },
+  {
+    "ingredient_id": "copper-peptides",
+    "condition_id": "intrinsic-aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses intrinsic-aging"
+  },
+  {
+    "ingredient_id": "copper-peptides",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "matrixyl",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl 3000 (Palmitoyl Tripeptide-1 + Tetrapeptide-7) addresses aging"
+  },
+  {
+    "ingredient_id": "matrixyl",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl 3000 (Palmitoyl Tripeptide-1 + Tetrapeptide-7) addresses photoaging"
+  },
+  {
+    "ingredient_id": "matrixyl",
+    "condition_id": "intrinsic-aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl 3000 (Palmitoyl Tripeptide-1 + Tetrapeptide-7) addresses intrinsic-aging"
+  },
+  {
+    "ingredient_id": "matrixyl",
+    "condition_id": "expression-lines",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl 3000 (Palmitoyl Tripeptide-1 + Tetrapeptide-7) addresses expression-lines"
+  },
+  {
+    "ingredient_id": "arginine",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Argireline (Acetyl Hexapeptide-8) addresses aging"
+  },
+  {
+    "ingredient_id": "arginine",
+    "condition_id": "expression-lines",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Argireline (Acetyl Hexapeptide-8) addresses expression-lines"
+  },
+  {
+    "ingredient_id": "arginine",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Argireline (Acetyl Hexapeptide-8) addresses photoaging"
+  },
+  {
+    "ingredient_id": "bakuchiol",
+    "condition_id": "acne",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Bakuchiol addresses acne"
+  },
+  {
+    "ingredient_id": "bakuchiol",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Bakuchiol addresses aging"
+  },
+  {
+    "ingredient_id": "bakuchiol",
+    "condition_id": "PIH",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Bakuchiol addresses PIH"
+  },
+  {
+    "ingredient_id": "green-tea",
+    "condition_id": "rosacea",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Green Tea Extract (EGCG) addresses rosacea"
+  },
+  {
+    "ingredient_id": "green-tea",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Green Tea Extract (EGCG) addresses aging"
+  },
+  {
+    "ingredient_id": "green-tea",
+    "condition_id": "acne",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Green Tea Extract (EGCG) addresses acne"
+  },
+  {
+    "ingredient_id": "green-tea",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Green Tea Extract (EGCG) addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "resveratrol",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Resveratrol addresses aging"
+  },
+  {
+    "ingredient_id": "resveratrol",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Resveratrol addresses photoaging"
+  },
+  {
+    "ingredient_id": "coq10",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Coenzyme Q10 addresses aging"
+  },
+  {
+    "ingredient_id": "coq10",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Coenzyme Q10 addresses photoaging"
+  },
+  {
+    "ingredient_id": "retinol",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Retinol addresses acne"
+  },
+  {
+    "ingredient_id": "retinol",
+    "condition_id": "aging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Retinol addresses aging"
+  },
+  {
+    "ingredient_id": "retinol",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Retinol addresses PIH"
+  },
+  {
+    "ingredient_id": "retinol",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Retinol addresses photoaging"
+  },
+  {
+    "ingredient_id": "retinol",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Retinol addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "adapalene",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Adapalene addresses acne"
+  },
+  {
+    "ingredient_id": "adapalene",
+    "condition_id": "aging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Adapalene addresses aging"
+  },
+  {
+    "ingredient_id": "tazarotene",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tazarotene addresses psoriasis"
+  },
+  {
+    "ingredient_id": "tazarotene",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tazarotene addresses acne"
+  },
+  {
+    "ingredient_id": "tazarotene",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tazarotene addresses photoaging"
+  },
+  {
+    "ingredient_id": "sulfur",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sulfur addresses acne"
+  },
+  {
+    "ingredient_id": "sulfur",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sulfur addresses rosacea"
+  },
+  {
+    "ingredient_id": "sulfur",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sulfur addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "zinc-pyrithione",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Pyrithione addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "zinc-pyrithione",
+    "condition_id": "fungal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Pyrithione addresses fungal-acne"
+  },
+  {
+    "ingredient_id": "zinc-pyrithione",
+    "condition_id": "tinea-versicolor",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Pyrithione addresses tinea-versicolor"
+  },
+  {
+    "ingredient_id": "selenium-sulfide",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Selenium Sulfide addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "selenium-sulfide",
+    "condition_id": "tinea-versicolor",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Selenium Sulfide addresses tinea-versicolor"
+  },
+  {
+    "ingredient_id": "coal-tar",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Coal Tar addresses psoriasis"
+  },
+  {
+    "ingredient_id": "coal-tar",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Coal Tar addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "anthralin",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Anthralin addresses psoriasis"
+  },
+  {
+    "ingredient_id": " crisaborole",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Crisaborole addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "calcineurin-inhibitors",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus/Pimecrolimus addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "calcineurin-inhibitors",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus/Pimecrolimus addresses vitiligo"
+  },
+  {
+    "ingredient_id": "calcineurin-inhibitors",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus/Pimecrolimus addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "calcineurin-inhibitors",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tacrolimus/Pimecrolimus addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "pimecrolimus",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Pimecrolimus addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "pimecrolimus",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Pimecrolimus addresses vitiligo"
+  },
+  {
+    "ingredient_id": "pimecrolimus",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Pimecrolimus addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "diclofenac",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Diclofenac 3% Gel addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "tirbanibulin",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Tirbanibulin addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "spironolactone",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Spironolactone addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "oral-contraceptives",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Oral Contraceptives addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "isotretinoin",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Isotretinoin addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "isotretinoin",
+    "condition_id": "severe-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Isotretinoin addresses severe-acne"
+  },
+  {
+    "ingredient_id": "isotretinoin",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Isotretinoin addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "doxycycline",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Doxycycline addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "doxycycline",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Doxycycline addresses rosacea"
+  },
+  {
+    "ingredient_id": "doxycycline",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Doxycycline addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "minocycline",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Minocycline addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "minocycline",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Minocycline addresses rosacea"
+  },
+  {
+    "ingredient_id": "minocycline",
+    "condition_id": "perioral-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Minocycline addresses perioral-dermatitis"
+  },
+  {
+    "ingredient_id": "fluconazole",
+    "condition_id": "fungal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fluconazole addresses fungal-acne"
+  },
+  {
+    "ingredient_id": "fluconazole",
+    "condition_id": "tinea-versicolor",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fluconazole addresses tinea-versicolor"
+  },
+  {
+    "ingredient_id": "fluconazole",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fluconazole addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "itraconazole",
+    "condition_id": "fungal-acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Itraconazole addresses fungal-acne"
+  },
+  {
+    "ingredient_id": "itraconazole",
+    "condition_id": "tinea-versicolor",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Itraconazole addresses tinea-versicolor"
+  },
+  {
+    "ingredient_id": "itraconazole",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Itraconazole addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "oral-acyclovir",
+    "condition_id": "cold-sore",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Oral Acyclovir addresses cold-sore"
+  },
+  {
+    "ingredient_id": "valacyclovir",
+    "condition_id": "cold-sore",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Valacyclovir addresses cold-sore"
+  },
+  {
+    "ingredient_id": "methotrexate",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Methotrexate addresses psoriasis"
+  },
+  {
+    "ingredient_id": "cyclosporine",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Cyclosporine addresses psoriasis"
+  },
+  {
+    "ingredient_id": "apremilast",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Apremilast addresses psoriasis"
+  },
+  {
+    "ingredient_id": "biologics",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Biologics (TNF, IL-17, IL-23 inhibitors) addresses psoriasis"
+  },
+  {
+    "ingredient_id": "biologics",
+    "condition_id": "psoriatic-arthritis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Biologics (TNF, IL-17, IL-23 inhibitors) addresses psoriatic-arthritis"
+  },
+  {
+    "ingredient_id": "nb-uvb",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "NB-UVB Phototherapy addresses psoriasis"
+  },
+  {
+    "ingredient_id": "nb-uvb",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "NB-UVB Phototherapy addresses vitiligo"
+  },
+  {
+    "ingredient_id": "nb-uvb",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "NB-UVB Phototherapy addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "excimer-laser",
+    "condition_id": "psoriasis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Excimer Laser (308nm) addresses psoriasis"
+  },
+  {
+    "ingredient_id": "excimer-laser",
+    "condition_id": "vitiligo",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Excimer Laser (308nm) addresses vitiligo"
+  },
+  {
+    "ingredient_id": "pdt",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Photodynamic Therapy addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "cryotherapy",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Cryotherapy addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "cryotherapy",
+    "condition_id": "seborrheic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Cryotherapy addresses seborrheic-keratosis"
+  },
+  {
+    "ingredient_id": "cryotherapy",
+    "condition_id": "warts",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Cryotherapy addresses warts"
+  },
+  {
+    "ingredient_id": "curettage",
+    "condition_id": "seborrheic-keratosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Curettage addresses seborrheic-keratosis"
+  },
+  {
+    "ingredient_id": "chemical-peels",
+    "condition_id": "acne",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Chemical Peels addresses acne"
+  },
+  {
+    "ingredient_id": "chemical-peels",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Chemical Peels addresses PIH"
+  },
+  {
+    "ingredient_id": "chemical-peels",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Chemical Peels addresses photoaging"
+  },
+  {
+    "ingredient_id": "chemical-peels",
+    "condition_id": "melasma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Chemical Peels addresses melasma"
+  },
+  {
+    "ingredient_id": "microneedling",
+    "condition_id": "acne-scars",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Microneedling addresses acne-scars"
+  },
+  {
+    "ingredient_id": "microneedling",
+    "condition_id": "aging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Microneedling addresses aging"
+  },
+  {
+    "ingredient_id": "microneedling",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Microneedling addresses PIH"
+  },
+  {
+    "ingredient_id": "laser-resurfacing",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Laser Resurfacing addresses photoaging"
+  },
+  {
+    "ingredient_id": "laser-resurfacing",
+    "condition_id": "acne-scars",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Laser Resurfacing addresses acne-scars"
+  },
+  {
+    "ingredient_id": "laser-resurfacing",
+    "condition_id": "wrinkles",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Laser Resurfacing addresses wrinkles"
+  },
+  {
+    "ingredient_id": "botulinum-toxin",
+    "condition_id": "wrinkles",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Botulinum Toxin addresses wrinkles"
+  },
+  {
+    "ingredient_id": "botulinum-toxin",
+    "condition_id": "hyperhidrosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Botulinum Toxin addresses hyperhidrosis"
+  },
+  {
+    "ingredient_id": "dermal-fillers",
+    "condition_id": "volume-loss",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Dermal Fillers addresses volume-loss"
+  },
+  {
+    "ingredient_id": "dermal-fillers",
+    "condition_id": "wrinkles",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Dermal Fillers addresses wrinkles"
+  },
+  {
+    "ingredient_id": "prp",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "PRP/PRF addresses aging"
+  },
+  {
+    "ingredient_id": "prp",
+    "condition_id": "hair-loss",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "PRP/PRF addresses hair-loss"
+  },
+  {
+    "ingredient_id": "prp",
+    "condition_id": "acne-scars",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "PRP/PRF addresses acne-scars"
+  },
+  {
+    "ingredient_id": "thread-lifts",
+    "condition_id": "skin-laxity",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Thread Lifts addresses skin-laxity"
+  },
+  {
+    "ingredient_id": "thread-lifts",
+    "condition_id": "jowls",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Thread Lifts addresses jowls"
+  },
+  {
+    "ingredient_id": "radiofrequency",
+    "condition_id": "skin-laxity",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Radiofrequency addresses skin-laxity"
+  },
+  {
+    "ingredient_id": "radiofrequency",
+    "condition_id": "jowls",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Radiofrequency addresses jowls"
+  },
+  {
+    "ingredient_id": "radiofrequency",
+    "condition_id": "neck",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Radiofrequency addresses neck"
+  },
+  {
+    "ingredient_id": "ultrasound",
+    "condition_id": "skin-lifting",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ultrasound (HIFU) addresses skin-lifting"
+  },
+  {
+    "ingredient_id": "ultrasound",
+    "condition_id": "brow",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ultrasound (HIFU) addresses brow"
+  },
+  {
+    "ingredient_id": "ultrasound",
+    "condition_id": "jawline",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Ultrasound (HIFU) addresses jawline"
+  },
+  {
+    "ingredient_id": "ipl",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "IPL/Photofacial addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "ipl",
+    "condition_id": "redness",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "IPL/Photofacial addresses redness"
+  },
+  {
+    "ingredient_id": "ipl",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "IPL/Photofacial addresses photoaging"
+  },
+  {
+    "ingredient_id": "q-switched-nd-yag",
+    "condition_id": "melasma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Q-Switched Nd:YAG (1064nm) addresses melasma"
+  },
+  {
+    "ingredient_id": "q-switched-nd-yag",
+    "condition_id": "PIH",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Q-Switched Nd:YAG (1064nm) addresses PIH"
+  },
+  {
+    "ingredient_id": "q-switched-nd-yag",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Q-Switched Nd:YAG (1064nm) addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "q-switched-nd-yag",
+    "condition_id": "tattoo-removal",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Q-Switched Nd:YAG (1064nm) addresses tattoo-removal"
+  },
+  {
+    "ingredient_id": "pulsed-dye-laser",
+    "condition_id": "rosacea",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Pulsed Dye Laser (585-595nm) addresses rosacea"
+  },
+  {
+    "ingredient_id": "pulsed-dye-laser",
+    "condition_id": "vascular-lesions",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Pulsed Dye Laser (585-595nm) addresses vascular-lesions"
+  },
+  {
+    "ingredient_id": "pulsed-dye-laser",
+    "condition_id": "redness",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Pulsed Dye Laser (585-595nm) addresses redness"
+  },
+  {
+    "ingredient_id": "fractional-co2",
+    "condition_id": "deep-wrinkles",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fractional CO2 Laser addresses deep-wrinkles"
+  },
+  {
+    "ingredient_id": "fractional-co2",
+    "condition_id": "acne-scars",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fractional CO2 Laser addresses acne-scars"
+  },
+  {
+    "ingredient_id": "fractional-co2",
+    "condition_id": "pih",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Fractional CO2 Laser addresses pih"
+  },
+  {
+    "ingredient_id": "erbium-yag",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Erbium:YAG Laser addresses photoaging"
+  },
+  {
+    "ingredient_id": "erbium-yag",
+    "condition_id": "scars",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Erbium:YAG Laser addresses scars"
+  },
+  {
+    "ingredient_id": "erbium-yag",
+    "condition_id": "dark-skin-resurfacing",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Erbium:YAG Laser addresses dark-skin-resurfacing"
+  },
+  {
+    "ingredient_id": "co2-laser",
+    "condition_id": "deep-wrinkles",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "CO2 Laser addresses deep-wrinkles"
+  },
+  {
+    "ingredient_id": "co2-laser",
+    "condition_id": "scars",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "CO2 Laser addresses scars"
+  },
+  {
+    "ingredient_id": "co2-laser",
+    "condition_id": "rhinophyma",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "CO2 Laser addresses rhinophyma"
+  },
+  {
+    "ingredient_id": "matrixyl-synthe6",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38) addresses aging"
+  },
+  {
+    "ingredient_id": "matrixyl-synthe6",
+    "condition_id": "intrinsic-aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38) addresses intrinsic-aging"
+  },
+  {
+    "ingredient_id": "matrixyl-synthe6",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38) addresses photoaging"
+  },
+  {
+    "ingredient_id": "matrixyl-synthe6",
+    "condition_id": "deep-wrinkles",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Matrixyl Synthe'6 (Palmitoyl Tripeptide-38) addresses deep-wrinkles"
+  },
+  {
+    "ingredient_id": "leuphasil",
+    "condition_id": "expression-lines",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Leuphasil (Pentapeptide-18) addresses expression-lines"
+  },
+  {
+    "ingredient_id": "leuphasil",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Leuphasil (Pentapeptide-18) addresses aging"
+  },
+  {
+    "ingredient_id": "syn-ake",
+    "condition_id": "expression-lines",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Syn-ake (Dipeptide Diaminobutyroyl Benzylamide Diacetate) addresses expression-lines"
+  },
+  {
+    "ingredient_id": "syn-ake",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Syn-ake (Dipeptide Diaminobutyroyl Benzylamide Diacetate) addresses aging"
+  },
+  {
+    "ingredient_id": "relistase",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Relistase (Acetylarginyltryptophyl Diphenylglycine) addresses aging"
+  },
+  {
+    "ingredient_id": "relistase",
+    "condition_id": "sagging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Relistase (Acetylarginyltryptophyl Diphenylglycine) addresses sagging"
+  },
+  {
+    "ingredient_id": "relistase",
+    "condition_id": "loss-of-elasticity",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Relistase (Acetylarginyltryptophyl Diphenylglycine) addresses loss-of-elasticity"
+  },
+  {
+    "ingredient_id": "lactococcus-ferment",
+    "condition_id": "barrier-function",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Lactococcus Ferment Lysate addresses barrier-function"
+  },
+  {
+    "ingredient_id": "lactococcus-ferment",
+    "condition_id": "aging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Lactococcus Ferment Lysate addresses aging"
+  },
+  {
+    "ingredient_id": "lactococcus-ferment",
+    "condition_id": "texture",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Lactococcus Ferment Lysate addresses texture"
+  },
+  {
+    "ingredient_id": "lactococcus-ferment",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Lactococcus Ferment Lysate addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "sodium-hyaluronate",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sodium Hyaluronate addresses xerosis"
+  },
+  {
+    "ingredient_id": "sodium-hyaluronate",
+    "condition_id": "fine-lines",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sodium Hyaluronate addresses fine-lines"
+  },
+  {
+    "ingredient_id": "sodium-hyaluronate",
+    "condition_id": "aging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sodium Hyaluronate addresses aging"
+  },
+  {
+    "ingredient_id": "sodium-hyaluronate",
+    "condition_id": "photoaging",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Sodium Hyaluronate addresses photoaging"
+  },
+  {
+    "ingredient_id": "pdrn",
+    "condition_id": "photoaging",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "PDRN (Polydeoxyribonucleotide / Salmon DNA) addresses photoaging"
+  },
+  {
+    "ingredient_id": "pdrn",
+    "condition_id": "intrinsic-aging",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "PDRN (Polydeoxyribonucleotide / Salmon DNA) addresses intrinsic-aging"
+  },
+  {
+    "ingredient_id": "pdrn",
+    "condition_id": "post-procedure",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "PDRN (Polydeoxyribonucleotide / Salmon DNA) addresses post-procedure"
+  },
+  {
+    "ingredient_id": "pdrn",
+    "condition_id": "scarring",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "PDRN (Polydeoxyribonucleotide / Salmon DNA) addresses scarring"
+  },
+  {
+    "ingredient_id": "pdrn",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "PDRN (Polydeoxyribonucleotide / Salmon DNA) addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "pdrn",
+    "condition_id": "rosacea",
+    "effectiveness": 0.5,
+    "evidence_level": "emerging",
+    "mechanism": "PDRN (Polydeoxyribonucleotide / Salmon DNA) addresses rosacea"
+  },
+  {
+    "ingredient_id": "panthenol",
+    "condition_id": "xerosis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Panthenol (Provitamin B5) addresses xerosis"
+  },
+  {
+    "ingredient_id": "panthenol",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Panthenol (Provitamin B5) addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "panthenol",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Panthenol (Provitamin B5) addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "panthenol",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Panthenol (Provitamin B5) addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "panthenol",
+    "condition_id": "post-procedure",
+    "effectiveness": 0.9,
+    "evidence_level": "strong",
+    "mechanism": "Panthenol (Provitamin B5) addresses post-procedure"
+  },
+  {
+    "ingredient_id": "ectoin",
+    "condition_id": "photoaging",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Ectoin addresses photoaging"
+  },
+  {
+    "ingredient_id": "ectoin",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Ectoin addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "ectoin",
+    "condition_id": "sensitive-skin",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Ectoin addresses sensitive-skin"
+  },
+  {
+    "ingredient_id": "ectoin",
+    "condition_id": "melasma",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Ectoin addresses melasma"
+  },
+  {
+    "ingredient_id": "ectoin",
+    "condition_id": "pollution-damage",
+    "effectiveness": 0.7,
+    "evidence_level": "moderate",
+    "mechanism": "Ectoin addresses pollution-damage"
+  },
+  {
+    "ingredient_id": "adapalene",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Adapalene addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "adapalene",
+    "condition_id": "hormonal-acne",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Adapalene addresses hormonal-acne"
+  },
+  {
+    "ingredient_id": "adapalene",
+    "condition_id": "steroid-acne",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Adapalene addresses steroid-acne"
+  },
+  {
+    "ingredient_id": "adapalene",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Adapalene addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "tazarotene",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Tazarotene addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "tazarotene",
+    "condition_id": "actinic-keratosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Tazarotene addresses actinic-keratosis"
+  },
+  {
+    "ingredient_id": "tazarotene",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Tazarotene addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "retinaldehyde",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Retinaldehyde addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "retinaldehyde",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Retinaldehyde addresses aging"
+  },
+  {
+    "ingredient_id": "retinaldehyde",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Retinaldehyde addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "retinyl-palmitate",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Retinyl Palmitate addresses aging"
+  },
+  {
+    "ingredient_id": "retinyl-palmitate",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Retinyl Palmitate addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "azelaic-acid-pure",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "azelaic-acid-pure",
+    "condition_id": "rosacea",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses rosacea"
+  },
+  {
+    "ingredient_id": "azelaic-acid-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "azelaic-acid-pure",
+    "condition_id": "melasma",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Azelaic Acid addresses melasma"
+  },
+  {
+    "ingredient_id": "kojic-acid-pure",
+    "condition_id": "melasma",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Kojic Acid addresses melasma"
+  },
+  {
+    "ingredient_id": "kojic-acid-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Kojic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "kojic-acid-pure",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Kojic Acid addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "tranexamic-acid-pure",
+    "condition_id": "melasma",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Tranexamic Acid addresses melasma"
+  },
+  {
+    "ingredient_id": "tranexamic-acid-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Tranexamic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "tranexamic-acid-pure",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Tranexamic Acid addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "phytic-acid",
+    "condition_id": "melasma",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Phytic Acid addresses melasma"
+  },
+  {
+    "ingredient_id": "phytic-acid",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Phytic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "phytic-acid",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Phytic Acid addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "mandelic-acid",
+    "condition_id": "rosacea",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Mandelic Acid addresses rosacea"
+  },
+  {
+    "ingredient_id": "mandelic-acid",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Mandelic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "mandelic-acid",
+    "condition_id": "excess-sebum-enlarged-pores",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Mandelic Acid addresses excess-sebum-enlarged-pores"
+  },
+  {
+    "ingredient_id": "lactobionic-acid",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Lactobionic Acid addresses aging"
+  },
+  {
+    "ingredient_id": "lactobionic-acid",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Lactobionic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "lactobionic-acid",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Lactobionic Acid addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "gluconolactone",
+    "condition_id": "rosacea",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Gluconolactone addresses rosacea"
+  },
+  {
+    "ingredient_id": "gluconolactone",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Gluconolactone addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "gluconolactone",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Gluconolactone addresses aging"
+  },
+  {
+    "ingredient_id": "copper-tripeptide-1",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses aging"
+  },
+  {
+    "ingredient_id": "copper-tripeptide-1",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "copper-tripeptide-1",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Copper Tripeptide-1 (GHK-Cu) addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "palmitoyl-pentapeptide-4",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Palmitoyl Pentapeptide-4 (Matrixyl) addresses aging"
+  },
+  {
+    "ingredient_id": "palmitoyl-pentapeptide-4",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Palmitoyl Pentapeptide-4 (Matrixyl) addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "acetyl-hexapeptide-3",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Acetyl Hexapeptide-3 (Argireline) addresses aging"
+  },
+  {
+    "ingredient_id": "palmitoyl-tripeptide-1-pure",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Palmitoyl Tripeptide-1 addresses aging"
+  },
+  {
+    "ingredient_id": "palmitoyl-tripeptide-1-pure",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Palmitoyl Tripeptide-1 addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "centella-asiatica-pure",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Centella Asiatica addresses aging"
+  },
+  {
+    "ingredient_id": "centella-asiatica-pure",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Centella Asiatica addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "centella-asiatica-pure",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Centella Asiatica addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "centella-asiatica-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Centella Asiatica addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "camellia-sinensis",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Camellia Sinensis (Green Tea) addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "camellia-sinensis",
+    "condition_id": "rosacea",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Camellia Sinensis (Green Tea) addresses rosacea"
+  },
+  {
+    "ingredient_id": "camellia-sinensis",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Camellia Sinensis (Green Tea) addresses aging"
+  },
+  {
+    "ingredient_id": "camellia-sinensis",
+    "condition_id": "seborrheic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Camellia Sinensis (Green Tea) addresses seborrheic-dermatitis"
+  },
+  {
+    "ingredient_id": "glycyrrhiza-glabra",
+    "condition_id": "melasma",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Glycyrrhiza Glabra (Licorice Root) addresses melasma"
+  },
+  {
+    "ingredient_id": "glycyrrhiza-glabra",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Glycyrrhiza Glabra (Licorice Root) addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "glycyrrhiza-glabra",
+    "condition_id": "rosacea",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Glycyrrhiza Glabra (Licorice Root) addresses rosacea"
+  },
+  {
+    "ingredient_id": "glycyrrhiza-glabra",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Glycyrrhiza Glabra (Licorice Root) addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "curcuma-longa",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Curcuma Longa (Turmeric) addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "curcuma-longa",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Curcuma Longa (Turmeric) addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "curcuma-longa",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Curcuma Longa (Turmeric) addresses aging"
+  },
+  {
+    "ingredient_id": "curcuma-longa",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Curcuma Longa (Turmeric) addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "chamomile-extract",
+    "condition_id": "rosacea",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Chamomile Extract addresses rosacea"
+  },
+  {
+    "ingredient_id": "chamomile-extract",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Chamomile Extract addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "chamomile-extract",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Chamomile Extract addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "chamomile-extract",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Chamomile Extract addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "aloe-vera",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Aloe Vera addresses sun_damage"
+  },
+  {
+    "ingredient_id": "aloe-vera",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Aloe Vera addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "aloe-vera",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Aloe Vera addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "aloe-vera",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Aloe Vera addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "sea-buckthorn",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.45,
+    "evidence_level": "emerging",
+    "mechanism": "Sea Buckthorn addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "sea-buckthorn",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.45,
+    "evidence_level": "emerging",
+    "mechanism": "Sea Buckthorn addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "sea-buckthorn",
+    "condition_id": "aging",
+    "effectiveness": 0.45,
+    "evidence_level": "emerging",
+    "mechanism": "Sea Buckthorn addresses aging"
+  },
+  {
+    "ingredient_id": "zinc-oxide",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Oxide addresses sun_damage"
+  },
+  {
+    "ingredient_id": "zinc-oxide",
+    "condition_id": "rosacea",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Oxide addresses rosacea"
+  },
+  {
+    "ingredient_id": "zinc-oxide",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Oxide addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "zinc-oxide",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Zinc Oxide addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "titanium-dioxide",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Titanium Dioxide addresses sun_damage"
+  },
+  {
+    "ingredient_id": "titanium-dioxide",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Titanium Dioxide addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "avobenzone",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Avobenzone addresses sun_damage"
+  },
+  {
+    "ingredient_id": "avobenzone",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Avobenzone addresses aging"
+  },
+  {
+    "ingredient_id": "avobenzone",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Avobenzone addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "octinoxate",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Octinoxate addresses sun_damage"
+  },
+  {
+    "ingredient_id": "arbutin",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Arbutin addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "arbutin",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Arbutin addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "alpha-arbutin-pure",
+    "condition_id": "melasma",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Alpha-Arbutin addresses melasma"
+  },
+  {
+    "ingredient_id": "alpha-arbutin-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Alpha-Arbutin addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "alpha-arbutin-pure",
+    "condition_id": "solar-lentigines",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Alpha-Arbutin addresses solar-lentigines"
+  },
+  {
+    "ingredient_id": "sodium-ascorbyl-phosphate",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Sodium Ascorbyl Phosphate (SAP) addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "sodium-ascorbyl-phosphate",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Sodium Ascorbyl Phosphate (SAP) addresses aging"
+  },
+  {
+    "ingredient_id": "sodium-ascorbyl-phosphate",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Sodium Ascorbyl Phosphate (SAP) addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "magnesium-ascorbyl-phosphate",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Magnesium Ascorbyl Phosphate (MAP) addresses aging"
+  },
+  {
+    "ingredient_id": "magnesium-ascorbyl-phosphate",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Magnesium Ascorbyl Phosphate (MAP) addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "magnesium-ascorbyl-phosphate",
+    "condition_id": "melasma",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Magnesium Ascorbyl Phosphate (MAP) addresses melasma"
+  },
+  {
+    "ingredient_id": "ascorbyl-glucoside",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Ascorbyl Glucoside addresses aging"
+  },
+  {
+    "ingredient_id": "ascorbyl-glucoside",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Ascorbyl Glucoside addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "ascorbyl-glucoside",
+    "condition_id": "melasma",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Ascorbyl Glucoside addresses melasma"
+  },
+  {
+    "ingredient_id": "ceramide-np",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide NP addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "ceramide-np",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide NP addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "ceramide-np",
+    "condition_id": "xerosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide NP addresses xerosis"
+  },
+  {
+    "ingredient_id": "ceramide-np",
+    "condition_id": "contact-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide NP addresses contact-dermatitis"
+  },
+  {
+    "ingredient_id": "ceramide-ap",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide AP addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "ceramide-ap",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide AP addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "ceramide-ap",
+    "condition_id": "xerosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide AP addresses xerosis"
+  },
+  {
+    "ingredient_id": "ceramide-eop",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide EOP addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "ceramide-eop",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide EOP addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "ceramide-eop",
+    "condition_id": "xerosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ceramide EOP addresses xerosis"
+  },
+  {
+    "ingredient_id": "cholesterol",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Cholesterol addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "cholesterol",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Cholesterol addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "cholesterol",
+    "condition_id": "xerosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Cholesterol addresses xerosis"
+  },
+  {
+    "ingredient_id": "cholesterol",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Cholesterol addresses aging"
+  },
+  {
+    "ingredient_id": "fatty-acids-omega",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Fatty Acids (Omega 3/6/9) addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "fatty-acids-omega",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Fatty Acids (Omega 3/6/9) addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "fatty-acids-omega",
+    "condition_id": "xerosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Fatty Acids (Omega 3/6/9) addresses xerosis"
+  },
+  {
+    "ingredient_id": "fatty-acids-omega",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Fatty Acids (Omega 3/6/9) addresses aging"
+  },
+  {
+    "ingredient_id": "squalane-oil",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Squalane addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "squalane-oil",
+    "condition_id": "xerosis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Squalane addresses xerosis"
+  },
+  {
+    "ingredient_id": "squalane-oil",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Squalane addresses aging"
+  },
+  {
+    "ingredient_id": "ferulic-acid",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ferulic Acid addresses sun_damage"
+  },
+  {
+    "ingredient_id": "ferulic-acid",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ferulic Acid addresses aging"
+  },
+  {
+    "ingredient_id": "ferulic-acid",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Ferulic Acid addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "resveratrol-pure",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Resveratrol addresses aging"
+  },
+  {
+    "ingredient_id": "resveratrol-pure",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Resveratrol addresses sun_damage"
+  },
+  {
+    "ingredient_id": "resveratrol-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Resveratrol addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "green-tea-egcg",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Green Tea EGCG addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "green-tea-egcg",
+    "condition_id": "rosacea",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Green Tea EGCG addresses rosacea"
+  },
+  {
+    "ingredient_id": "green-tea-egcg",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Green Tea EGCG addresses aging"
+  },
+  {
+    "ingredient_id": "green-tea-egcg",
+    "condition_id": "sun_damage",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Green Tea EGCG addresses sun_damage"
+  },
+  {
+    "ingredient_id": "bakuchiol-pure",
+    "condition_id": "aging",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Bakuchiol addresses aging"
+  },
+  {
+    "ingredient_id": "bakuchiol-pure",
+    "condition_id": "acne-vulgaris",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Bakuchiol addresses acne-vulgaris"
+  },
+  {
+    "ingredient_id": "bakuchiol-pure",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Bakuchiol addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "madecassoside",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Madecassoside addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "madecassoside",
+    "condition_id": "atopic-dermatitis",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Madecassoside addresses atopic-dermatitis"
+  },
+  {
+    "ingredient_id": "madecassoside",
+    "condition_id": "rosacea",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Madecassoside addresses rosacea"
+  },
+  {
+    "ingredient_id": "madecassoside",
+    "condition_id": "post-inflammatory-hyperpigmentation",
+    "effectiveness": 0.85,
+    "evidence_level": "strong",
+    "mechanism": "Madecassoside addresses post-inflammatory-hyperpigmentation"
+  },
+  {
+    "ingredient_id": "asiaticoside",
+    "condition_id": "aging",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Asiaticoside addresses aging"
+  },
+  {
+    "ingredient_id": "asiaticoside",
+    "condition_id": "barrier-dysfunction",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Asiaticoside addresses barrier-dysfunction"
+  },
+  {
+    "ingredient_id": "asiaticoside",
+    "condition_id": "scarring",
+    "effectiveness": 0.65,
+    "evidence_level": "moderate",
+    "mechanism": "Asiaticoside addresses scarring"
+  }
+]

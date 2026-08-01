@@ -255,8 +255,34 @@ CREATE TABLE IF NOT EXISTS public.ingredient_reactions (
 );
 
 -- ============================================
--- INDEXES
+-- SCAN RESULTS (primary analysis output table)
 -- ============================================
+
+CREATE TABLE IF NOT EXISTS public.scan_results (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID NOT NULL,
+  photo_id UUID,
+  capture_method TEXT NOT NULL CHECK (capture_method IN ('camera', 'gallery')),
+  skin_tone INTEGER NOT NULL CHECK (skin_tone >= 1 AND skin_tone <= 6),
+  quality_assessment JSONB,
+  conditions JSONB DEFAULT '[]'::jsonb,
+  skin_zones JSONB DEFAULT '[]'::jsonb,
+  metadata JSONB,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Enable RLS and policies for scan_results
+ALTER TABLE public.scan_results ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Users can view own scan results" ON public.scan_results FOR SELECT USING (auth.uid() = user_id);
+CREATE POLICY "Users can insert own scan results" ON public.scan_results FOR INSERT WITH CHECK (auth.uid() = user_id);
+
+-- ============================================
+-- INDEXES (including scan_results)
+-- ============================================
+
+CREATE INDEX IF NOT EXISTS idx_scan_results_user ON public.scan_results(user_id);
+CREATE INDEX IF NOT EXISTS idx_scan_results_created ON public.scan_results(created_at DESC);
 
 CREATE INDEX IF NOT EXISTS idx_skin_photos_user ON public.skin_photos(user_id);
 CREATE INDEX IF NOT EXISTS idx_skin_photos_status ON public.skin_photos(analysis_status);

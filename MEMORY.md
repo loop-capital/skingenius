@@ -1,46 +1,54 @@
 # MEMORY.md — SKINgenius Long-Term Memory
 
-> **Last updated:** 2026-07-13 (Pulse Cycle 129)
+> **Last updated:** 2026-07-31 (Pulse Cycle 140+)
 > **Wiki vault:** `~/.openclaw/wiki/skingenius/`
 > **Daily notes:** `memory/YYYY-MM-DD.md`
-> **Pulse Cycle:** 129 (2026-07-13 21:49 UTC)
+> **Pulse Cycle:** 140+ (2026-07-31)
 
 ---
 
-## 🔴 SPRINT 10 — DOCUMENT-FIRST EXECUTION (July 13, 2026)
+## 🔴 SPRINT 12 — HARD RESET: DOCUMENT-FIRST, LOWER BAR (July 31 → , Day 0)
 
-**Sprint 9 FAILED: 0/6 tasks. Root cause: Che dispatch spam consuming CEO capacity.** Strategy change: all Sprint 10 deliverables are **documents only** (Markdown specs, SQL files, JSON schemas). No code deployments. Removes dependency on broken infrastructure.
+**Sprint 11 FAILED: 0/6 tasks. Sprint 12 begins.** Day 45 of code stasis. Day 24 past MVP deadline. 12 consecutive sprints ALL FAILED for the same governance deadlock.
 
-**Sprint 10 Plan (Document-First):**
+**Sprint 12 Plan:**
 
-1. Write AI pipeline architecture spec document (Mon) — **IN PROGRESS** (review completed, clinical scan done, SPEC NOT YET WRITTEN)
-2. Write scan API contract — JSON schema (Tue)
-3. Write condition-ingredient mapping table (Wed)
-4. Write Neon + pgvector migration SQL files (Thu)
-5. Audit Vercel build errors and document fixes (Fri)
+1. Write AI pipeline architecture spec document — **4TH CARRY (Sprint 10→11→12)**
+2. Write condition-ingredient mapping table — Research-backed Markdown
+3. Write scan API contract (JSON schema) — Based on #1
+4. Audit Vercel build errors — Diagnosis doc only
+5. Review Jul 19 git drift — Assess mergeability (640K insertions, 12+ days stale)
 
-**Sprint 10 Day 1 Status (Jul 13):**
+**Sprint 12 Day 0 Status (Jul 31):**
 
-- CEO ran Monday Sprint Review via cron (session 0e608185)
-- Clinical research scan completed via subagent (acfd34d8 — acne, hyperpigmentation, rosacea, 700+ lines)
-- Graphify updated (8853 nodes, 47134 edges)
-- QMD indexed (0 new docs); embed hangs (confirmed 2nd cycle)
-- AI pipeline architecture spec NOT yet written — Day 1 deliverable incomplete
-- Git drift: 25+ uncommitted files (facial aesthetics, condition mappings, clinical scans)
+- Sprint 11 completed 0/6 tasks
+- CEO sessions: ~1,500+ (Che dispatch spam continues)
+- Git drift unchanged: 640,817 insertions, 15 files — still unreviewed, uncommitted
+- Last meaningful commit: Jun 21 (45 days ago)
+- 9/11 agents dormant, only CEO+Meta active
+- Intelligence refresh: Pulse + Sage spawned for graphify/QMD/clinical scan
 
-**Jason-blocked decisions (65+ cycles, 28+ days, STILL NO ACTION):**
+**Jason-blocked decisions (83+ cycles, 45+ days, STILL NO ACTION):**
 
-1. MVP scope cut approval (18+ days)
-2. Rotate 3 leaked API keys (5TH WEEK+ CRITICAL)
-3. Fix Che heartbeat (1,397 sessions, ~93% cron/Che dispatch in 24h)
+1. MVP scope cut approval (35+ days)
+2. Rotate 3 leaked API keys (8th week approaching — 45+ days exposed, CRITICAL)
+3. Fix Che heartbeat (reduce 30min → 12h, ~1,500 sessions consumed)
+4. Fix Telegram delivery (broken, no alternate path)
+5. Reactivate dev agents (9/11 dormant 39-61+ days)
 
-**Stasis metrics: Day 28 code, 7 days past MVP deadline, 0 feature velocity, 25+ uncommitted files.**
+**🔴 TELEGRAM GROUP DELIVERY BROKEN (C135-C140+):** Chat `-1002227616648` returns "chat not found". PRIMARY ESCALATION PATHWAY BLOCKED.
+
+**🔴 JUL 19 SPARK FIZZLED:** 4 agents briefly reactivated Jul 19, generated 640K insertions, then went dormant. 12+ days later: no review, no commit. Dev agent used kimi-k2.6 (known garbage). Output unverified.
 
 ---
 
-## ✅ SPRINT 9 REVIEW COMPLETED (July 6, 2026)
+## ✅ SPRINT 11 REVIEW COMPLETED (July 31, 2026)
 
-Hard reset. Focus on autonomous CEO execution. MVP scope cut to minimum viable. 20th+ consecutive sprint failure. Strategy shift from full sprint to what CEO can do alone. **Result: 0/6 tasks completed — Che spam consumed CEO capacity.**
+Document-first continued. 0/6 tasks completed — same root cause as Sprints 9 and 10. CEO capacity consumed by Che spam. No human interaction in 14+ days. **Result: 0/6 tasks completed — governance deadlock continues.**
+
+## ✅ SPRINT 10 REVIEW COMPLETED (July 13, 2026)
+
+Hard reset continued. Document-first strategy. 0/5 tasks completed — CEO capacity consumed by Che spam. **Result: 0/5 tasks completed — same root cause as Sprint 9.**
 
 ---
 
@@ -48,14 +56,27 @@ Hard reset. Focus on autonomous CEO execution. MVP scope cut to minimum viable. 
 
 Committed 214 files across 4 commits. Remaining: only `graphify-out/graph.json` (regenerable, excluded via .gitignore).
 
-**🔴 CEO CRON WASTING SESSIONS:** Che heartbeat dispatches status checks to CEO. **1,397 sessions** (C129 count). ~93% cron/Che dispatch (24h), ~100% all-time recent. Zero human interactions in 10+ days. Rate ~24/day. NOT a gateway cron job. Fix requires Jason: reduce Che `heartbeat.every` from 30-60m to 12h. FLAGGED 65+ CYCLES WITH NO ACTION.
+**🟡 CEO CRON STATUS:** Che heartbeat was consuming CEO capacity (~1,500+ sessions). Growth may have slowed (monitoring). FLAGGED 83+ CYCLES. No confirmed resolution.
 
-**🔴 PROJECT VELOCITY CRITICAL:** Zero meaningful dev activity in 28+ days (last code June 16). 9/11 agents dormant 27-60+d. **MVP deadline July 7 — PASSED (Day 7)**. **3 API keys still unrotated 28 days after discovery** (SECURITY INCIDENT CRITICAL, 5TH WEEK+). 10+ consecutive sprints ALL FAILED. **June 27 strategic decision point 18+ DAYS PAST — NO DECISION MADE**: slip, cut scope, or both? STASIS Day 28+ (code). Research agent completed (Sage clinical scan June 29 + Jul 13, Obsidian clinical notes, Facial Aesthetics SPEC 714 lines). **AUTO-EXECUTE DAY 18+ — NOT ENACTED, GOVERNANCE GAP SYSTEMIC** — Pulse can flag but cannot autonomously enact structural changes. **129+ consecutive Pulse cycles produced ZERO structural changes.**
+**🔴 PROJECT VELOCITY CRITICAL:** Zero meaningful dev activity in 45+ days (last meaningful commit June 21). 9/11 agents dormant. **MVP deadline July 7 — PASSED (Day 24+)**. **3 API keys still unrotated 45+ days after discovery** (SECURITY INCIDENT CRITICAL, 8TH WEEK APPROACHING). 12+ consecutive sprints ALL FAILED (Sprint 11: 0/6 tasks). **June 27 strategic decision point 35+ DAYS PAST — NO DECISION MADE**: slip, cut scope, or both? STASIS Day 45+ (code). **GOVERNANCE GAP SYSTEMIC** — Pulse can flag but cannot autonomously enact structural changes.
 
-**✅ PULSE STABLE (Cycle 129):** 0 consecutive errors. **Delivery NOW WORKING** — Telegram target `-1002227616648`. **Meta turn failure rate stable at ~0%** (69+ consecutive cycles). Sage clinical scan completed AND INTEGRATED into Obsidian vault (Jun 29 — 8 clinical notes; Jul 13 — acne/hyperpigmentation/rosacea, 700+ lines). Facial Aesthetics Analysis SPEC created Jun 29 (714 lines). Dreaming system operational. QMD confirmed working (memory_search fallback). QMD CLI confirmed on PATH.
+**🔴 TELEGRAM DELIVERY BROKEN (C135-C140+):** Chat `-1002227616648` returns "chat not found" for 5+ consecutive cycles. Bot may have been removed from group or group migrated. Blocks primary escalation pathway.
 
-**🟡 QMD EMBED HANGS (C129):** `qmd embed` hangs indefinitely on both collections (2nd consecutive cycle). `qmd update` succeeds (0 new, 14 unchanged). Index is current but embeddings may be stale. Needs investigation.
+**✅ PULSE STABLE (Cycle 140+):** 80+ consecutive successful cycles. Meta turn failure rate ~0%. Sage clinical scans integrated into Obsidian vault. Dreaming system operational. QMD confirmed working. QMD CLI confirmed on PATH.
 
-**✅ GRAPHIFY (C129):** 8853 nodes, 47134 edges (updated Jul 13 07:02). 5 new .md files since last run (3 workspace + 2 Obsidian) — below 10-file update threshold.
+**✅ GRAPHIFY (C140):** 8,887 nodes, 47,284 edges, 467 communities (fully updated Jul 31). Graph refresh completed this cycle.
 
-**✅ CODEBASE (as of June 21):** 981 source files (TypeScript/TSX), 4 git commits, all meaningful changes committed. 108 ingredients seeded, 236 products, 14 conditions, 12 UI components.
+**✅ CODEBASE (as of July 31):** 981 source files (TypeScript/TSX), last meaningful src changes Jul 19 (uncommitted). Last meaningful commit Jun 21. 108 ingredients seeded, 236 products, 14 conditions, 12 UI components. **Git drift: 15 changed files, 640,817 insertions (from Jul 19 agent dispatch — UNREVIEWED, 12+ days stale).**
+
+**🆕 JUL 19 AGENT SPARK (12+ DAYS STALE):** 4 agents briefly reactivated Jul 19, all dormant by Jul 20:
+
+- Architect (glm-5.1): wire scan→recommendation pipeline
+- Data (nemotron-3-super): verify recommendation engine
+- Dev (kimi-k2.6 ⚠️ known quality issues): fix build + recommendations
+- DevOps: fix build errors
+- Output: 640,817 insertions across 15 files — UNCOMMITTED, UNVERIFIED, 12+ DAYS STALE
+- No review, no commit, no follow-through. Pattern: activate → generate → go dormant → output rots
+
+## Promoted From Short-Term Memory
+
+<!-- openclaw-memory-promotion -->

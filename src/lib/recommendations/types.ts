@@ -10,14 +10,14 @@ export interface UserProfile {
 export interface ConditionWithConfidence {
   id: string; // condition slug
   confidence: number; // 0-1
-  severity?: 'mild' | 'moderate' | 'severe';
+  severity?: "mild" | "moderate" | "severe";
 }
 
 export interface IngredientMatch {
   ingredient_id: string;
   condition_id: string;
   effectiveness: number; // 0-1, from knowledge graph
-  evidence_level: 'A' | 'B' | 'C' | 'D';
+  evidence_level: "A" | "B" | "C" | "D";
 }
 
 export interface Product {
@@ -42,7 +42,7 @@ export interface RecommendationResult {
   name: string;
   brand: string;
   fit_score: number; // 0-100
-  evidence_level: 'A' | 'B' | 'C' | 'D';
+  evidence_level: "A" | "B" | "C" | "D";
   pregnancy_safe: boolean;
   reasoning: string;
   key_actives: Array<{
@@ -61,4 +61,21 @@ export interface QueryFilters {
   fitzpatrick?: number;
   is_pregnant?: boolean;
   allergies?: string[];
+}
+
+export interface EnrichedIngredient {
+  id: string;
+  name: string;
+  slug: string;
+  category: string;
+  condition_connections: Array<{
+    condition_id: string;
+    effectiveness: number;
+    evidence_level: string;
+  }>;
+  evidence_level: string | null;
+  pregnancy_safe: boolean | null;
+  concerns: string[] | null;
+  skin_types: string[] | null;
+  interactions: string[] | null;
 }
