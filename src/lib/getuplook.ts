@@ -8,7 +8,13 @@ const GETUPLOOK_URL =
   "https://prowvkbxcdhtoiidxowb.supabase.co";
 const GETUPLOOK_ANON_KEY = process.env.GETUPLOOK_ANON_KEY;
 
-export const getuplook = createClient(GETUPLOOK_URL, GETUPLOOK_ANON_KEY!);
+export const getuplook = createGetUpLookClient;
+function createGetUpLookClient() {
+  if (!GETUPLOOK_ANON_KEY) {
+    throw new Error("GETUPLOOK_ANON_KEY environment variable is required");
+  }
+  return createClient(GETUPLOOK_URL, GETUPLOOK_ANON_KEY);
+}
 
 // Condition → Service category mapping
 const CONDITION_SERVICES: Record<string, string[]> = {
@@ -60,7 +66,7 @@ export async function matchProviders(
   conditions: string[],
 ): Promise<ProviderMatch[]> {
   // Fetch all active providers with their services
-  const { data: providers, error: providersError } = await getuplook
+  const { data: providers, error: providersError } = await createGetUpLookClient()
     .from("users")
     .select("id, first_name, last_name, email")
     .eq("role", "provider")
@@ -68,14 +74,14 @@ export async function matchProviders(
 
   if (providersError) throw providersError;
 
-  const { data: services, error: servicesError } = await getuplook
+  const { data: services, error: servicesError } = await createGetUpLookClient()
     .from("services")
     .select("id, provider_id, name, price, duration_minutes")
     .eq("is_active", true);
 
   if (servicesError) throw servicesError;
 
-  const { data: reviews, error: reviewsError } = await getuplook
+  const { data: reviews, error: reviewsError } = await createGetUpLookClient()
     .from("reviews")
     .select("provider_id, rating");
 
@@ -159,7 +165,7 @@ export async function createReferral(input: {
     notes,
   } = input;
 
-  const { data, error } = await getuplook
+  const { data, error } = await createGetUpLookClient()
     .from("referrals")
     .insert({
       external_scan_id: scanId,
