@@ -136,7 +136,7 @@ export async function matchProviders(
   return matches.sort((a, b) => b.total_match_score - a.total_match_score);
 }
 
-export async function createReferral(data: {
+export async function createReferral(input: {
   scanId: string;
   userId: string;
   providerId: string;
@@ -147,18 +147,30 @@ export async function createReferral(data: {
   matchScore?: number;
   notes?: string;
 }) {
+  const {
+    scanId,
+    userId,
+    providerId,
+    conditions,
+    confidenceScores,
+    scanMetadata,
+    recommendedServiceIds,
+    matchScore,
+    notes,
+  } = input;
+
   const { data, error } = await getuplook
     .from("referrals")
     .insert({
-      external_scan_id: data.scanId,
-      external_user_id: data.userId,
-      provider_id: data.providerId,
-      skin_conditions: data.conditions,
-      confidence_scores: data.confidenceScores,
-      scan_metadata: data.scanMetadata,
-      recommended_service_ids: data.recommendedServiceIds,
-      match_score: data.matchScore,
-      notes: data.notes,
+      external_scan_id: scanId,
+      external_user_id: userId,
+      provider_id: providerId,
+      skin_conditions: conditions,
+      confidence_scores: confidenceScores,
+      scan_metadata: scanMetadata,
+      recommended_service_ids: recommendedServiceIds,
+      match_score: matchScore,
+      notes,
       status: "sent",
     })
     .select()
