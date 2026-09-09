@@ -1,19 +1,24 @@
 // GetUpLook Integration Client
 // Handles matching skin conditions to GetUpLook providers and creating referrals
 
-import { createClient } from "@supabase/supabase-js";
+import { createClient, SupabaseClient } from "@supabase/supabase-js";
 
 const GETUPLOOK_URL =
   process.env.GETUPLOOK_SUPABASE_URL ||
   "https://prowvkbxcdhtoiidxowb.supabase.co";
 const GETUPLOOK_ANON_KEY = process.env.GETUPLOOK_ANON_KEY;
 
-export const getuplook = createGetUpLookClient;
-function createGetUpLookClient() {
-  if (!GETUPLOOK_ANON_KEY) {
-    throw new Error("GETUPLOOK_ANON_KEY environment variable is required");
+// Lazy-initialized client — won't crash at build time if env is missing
+let _client: SupabaseClient | null = null;
+
+function getClient(): SupabaseClient {
+  if (!_client) {
+    if (!GETUPLOOK_ANON_KEY) {
+      throw new Error("GETUPLOOK_ANON_KEY environment variable is required");
+    }
+    _client = createClient(GETUPLOOK_URL, GETUPLOOK_ANON_KEY);
   }
-  return createClient(GETUPLOOK_URL, GETUPLOOK_ANON_KEY);
+  return _client;
 }
 
 // Condition → Service category mapping
@@ -65,8 +70,10 @@ export interface ProviderMatch {
 export async function matchProviders(
   conditions: string[],
 ): Promise<ProviderMatch[]> {
+  const supabase = getClient();
+
   // Fetch all active providers with their services
-  const { data: providers, error: providersError } = await createGetUpLookClient()
+  const { data: providers, error: providersError } = await supabase
     .from("users")
     .select("id, first_name, last_name, email")
     .eq("role", "provider")
@@ -74,14 +81,14 @@ export async function matchProviders(
 
   if (providersError) throw providersError;
 
-  const { data: services, error: servicesError } = await createGetUpLookClient()
+  const { data: services, error: servicesError } = await supabase
     .from("services")
     .select("id, provider_id, name, price, duration_minutes")
     .eq("is_active", true);
 
   if (servicesError) throw servicesError;
 
-  const { data: reviews, error: reviewsError } = await createGetUpLookClient()
+  const { data: reviews, error: reviewsError } = await supabase
     .from("reviews")
     .select("provider_id, rating");
 
@@ -136,10 +143,13 @@ export async function matchProviders(
           avg_rating: avgRating,
         };
       })
-      .filter((m) => m.services.length > 0) || [];
+      .filter((m: ProviderMatch) => m.services.length > 0) || [];
 
   // Sort by total match score
-  return matches.sort((a, b) => b.total_match_score - a.total_match_score);
+  return matches.sort(
+    (a: ProviderMatch, b: ProviderMatch) =>
+      b.total_match_score - a.total_match_score,
+  );
 }
 
 export async function createReferral(input: {
@@ -165,7 +175,9 @@ export async function createReferral(input: {
     notes,
   } = input;
 
-  const { data, error } = await createGetUpLookClient()
+  const supabase = getClient();
+
+  const { data, error } = await supabase
     .from("referrals")
     .insert({
       external_scan_id: scanId,
