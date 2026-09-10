@@ -5,6 +5,7 @@ import { createServiceClient } from "@/utils/supabase/service";
 const GETUPLOOK_URL =
   process.env.GETUPLOOK_SUPABASE_URL ||
   "https://prowvkbxcdhtoiidxowb.supabase.co";
+const GETUPLOOK_KEY = ***
 
 interface CreateReferralRequest {
   scan_id: string;
@@ -50,16 +51,14 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Direct Supabase client — no imports from getuplook.ts
-    const key = ***
-    if (!key) {
+    if (!GETUPLOOK_KEY) {
       return NextResponse.json(
-        { error: "GETUPLOOK_ANON_KEY not configured" },
+        { error: "Server not configured" },
         { status: 500 },
       );
     }
 
-    const getupDb = createClient(GETUPLOOK_URL, key);
+    const getupDb = createClient(GETUPLOOK_URL, GETUPLOOK_KEY);
 
     const { data: referral, error: referralError } = await getupDb
       .from("referrals")
