@@ -1,6 +1,10 @@
+import { createClient } from "@supabase/supabase-js";
 import { NextRequest, NextResponse } from "next/server";
-import { createReferral } from "@/lib/getuplook";
 import { createServiceClient } from "@/utils/supabase/service";
+
+const GETUPLOOK_URL =
+  process.env.GETUPLOOK_SUPABASE_URL ||
+  "https://prowvkbxcdhtoiidxowb.supabase.co";
 
 interface CreateReferralRequest {
   scan_id: string;
@@ -46,18 +50,40 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Create referral in GetUpLook
-    const referral = await createReferral({
-      scanId: scan_id,
-      userId: user.id,
-      providerId: provider_id,
-      conditions,
-      confidenceScores: confidence_scores,
-      scanMetadata: scan_metadata,
-      recommendedServiceIds: recommended_service_ids,
-      matchScore: match_score,
-      notes,
-    });
+    // Direct Supabase client — no imports from getuplook.ts
+    const key = ***
+    if (!key) {
+      return NextResponse.json(
+        { error: "GETUPLOOK_ANON_KEY not configured" },
+        { status: 500 },
+      );
+    }
+
+    const getupDb = createClient(GETUPLOOK_URL, key);
+
+    const { data: referral, error: referralError } = await getupDb
+      .from("referrals")
+      .insert({
+        external_scan_id: scan_id,
+        external_user_id: user.id,
+        provider_id,
+        skin_conditions: conditions,
+        confidence_scores,
+        scan_metadata,
+        recommended_service_ids,
+        match_score,
+        notes,
+        status: "sent",
+      })
+      .select()
+      .single();
+
+    if (referralError) {
+      return NextResponse.json(
+        { error: "Referral insert failed", details: referralError.message },
+        { status: 500 },
+      );
+    }
 
     return NextResponse.json({
       success: true,
@@ -65,13 +91,10 @@ export async function POST(req: NextRequest) {
       status: referral.status,
       message: "Scan shared with provider successfully",
     });
-  } catch (error) {
-    console.error("Create referral error:", error);
+  } catch (e) {
+    const err = e as Error;
     return NextResponse.json(
-      {
-        error: "Failed to create referral",
-        details: error instanceof Error ? error.message : "Unknown error",
-      },
+      { error: "Server error", message: err.message },
       { status: 500 },
     );
   }
