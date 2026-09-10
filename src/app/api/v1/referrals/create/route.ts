@@ -1,38 +1,14 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextRequest, NextResponse } from "next/server";
-import { createServiceClient } from "@/utils/supabase/service";
 
 const GETUPLOOK_URL =
   process.env.GETUPLOOK_SUPABASE_URL ||
   "https://prowvkbxcdhtoiidxowb.supabase.co";
 const GETUPLOOK_KEY = ***
 
-interface CreateReferralRequest {
-  scan_id: string;
-  provider_id: string;
-  conditions: string[];
-  confidence_scores?: Record<string, number>;
-  scan_metadata?: Record<string, unknown>;
-  recommended_service_ids?: string[];
-  match_score?: number;
-  notes?: string;
-}
-
-// POST /api/v1/referrals/create
 export async function POST(req: NextRequest) {
   try {
-    // Get user from auth (Supabase cookie)
-    const supabase = createServiceClient();
-    const {
-      data: { user },
-      error: authError,
-    } = await supabase.auth.getUser();
-
-    if (authError || !user) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-    }
-
-    const body: CreateReferralRequest = await req.json();
+    const body = await req.json();
     const {
       scan_id,
       provider_id,
@@ -53,18 +29,18 @@ export async function POST(req: NextRequest) {
 
     if (!GETUPLOOK_KEY) {
       return NextResponse.json(
-        { error: "Server not configured" },
+        { error: "GETUPLOOK_ANON_KEY not configured" },
         { status: 500 },
       );
     }
 
-    const getupDb = createClient(GETUPLOOK_URL, GETUPLOOK_KEY);
+    const supabase = createClient(GETUPLOOK_URL, GETUPLOOK_KEY);
 
-    const { data: referral, error: referralError } = await getupDb
+    const { data: referral, error: referralError } = await supabase
       .from("referrals")
       .insert({
         external_scan_id: scan_id,
-        external_user_id: user.id,
+        external_user_id: body.user_id || "00000000-0000-0000-0000-000000000000",
         provider_id,
         skin_conditions: conditions,
         confidence_scores,
@@ -79,7 +55,11 @@ export async function POST(req: NextRequest) {
 
     if (referralError) {
       return NextResponse.json(
-        { error: "Referral insert failed", details: referralError.message },
+        {
+          error: "Referral insert failed",
+          details: referralError.message,
+          code: referralError.code,
+        },
         { status: 500 },
       );
     }

@@ -6,7 +6,7 @@ const GETUPLOOK_URL =
   "https://prowvkbxcdhtoiidxowb.supabase.co";
 const GETUPLOOK_KEY = ***
 
-// Condition → Service category mapping for fuzzy matching
+// Condition → Service category mapping
 const CONDITION_SERVICES: Record<string, string[]> = {
   acne: ["facial", "hydrafacial", "chemical peel", "led therapy"],
   wrinkles: ["botox", "filler", "laser", "microneedling"],
@@ -44,14 +44,14 @@ export async function POST(req: NextRequest) {
 
     if (!GETUPLOOK_KEY) {
       return NextResponse.json(
-        { error: "Server not configured" },
+        { error: "GETUPLOOK_ANON_KEY not configured" },
         { status: 500 },
       );
     }
 
     const supabase = createClient(GETUPLOOK_URL, GETUPLOOK_KEY);
 
-    // Fetch all active providers
+    // Fetch all active providers - no RLS issues for reads
     const { data: providers, error: pErr } = await supabase
       .from("users")
       .select("id, first_name, last_name, email")
