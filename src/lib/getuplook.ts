@@ -70,9 +70,10 @@ export interface ProviderMatch {
 export async function matchProviders(
   conditions: string[],
 ): Promise<ProviderMatch[]> {
-  const supabase = getClient();
+  try {
 
   // Fetch all active providers with their services
+  const supabase = await getClient();
   const { data: providers, error: providersError } = await supabase
     .from("users")
     .select("id, first_name, last_name, email")
@@ -80,6 +81,11 @@ export async function matchProviders(
     .eq("is_active", true);
 
   if (providersError) throw providersError;
+
+  if (!providers) return [];
+  
+  console.log('Providers found:', providers.length);
+
 
   const { data: services, error: servicesError } = await supabase
     .from("services")
@@ -175,7 +181,7 @@ export async function createReferral(input: {
     notes,
   } = input;
 
-  const supabase = getClient();
+  try {
 
   const { data, error } = await supabase
     .from("referrals")

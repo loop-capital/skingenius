@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { matchProviders, createReferral } from "@/lib/getuplook";
-import { createServiceClient } from "@/utils/supabase/service";
+import { matchProviders } from "@/lib/getuplook";
 
 interface MatchRequest {
   skin_conditions: string[];
@@ -12,7 +11,7 @@ interface MatchRequest {
 export async function POST(req: NextRequest) {
   try {
     const body: MatchRequest = await req.json();
-    const { skin_conditions, scan_id, user_id } = body;
+    const { skin_conditions } = body;
 
     if (
       !skin_conditions ||
@@ -35,10 +34,18 @@ export async function POST(req: NextRequest) {
     });
   } catch (error) {
     console.error("Provider matching error:", error);
+
+    // Return the actual error details for debugging
+    const errorMessage =
+      error instanceof Error ? error.message : String(error);
+    const errorStack = error instanceof Error ? error.stack : undefined;
+
     return NextResponse.json(
       {
         error: "Failed to match providers",
-        details: error instanceof Error ? error.message : "Unknown error",
+        details: errorMessage,
+        stack: errorStack,
+        timestamp: new Date().toISOString(),
       },
       { status: 500 },
     );
@@ -49,8 +56,10 @@ export async function POST(req: NextRequest) {
 export async function GET() {
   try {
     const matches = await matchProviders(["acne", "wrinkles"]); // Test query
-    return NextResponse.json({ matches });
+    return NextResponse.json({ matches, total_matches: matches.length });
   } catch (error) {
-    return NextResponse.json({ error: String(error) }, { status: 500 });
+    const errorMessage =
+      error instanceof Error ? error.message : String(error);
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }
