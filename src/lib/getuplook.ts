@@ -1,22 +1,22 @@
 // GetUpLook Integration Client
 // Handles matching skin conditions to GetUpLook providers and creating referrals
 
-import { createClient, SupabaseClient } from "@supabase/supabase-js";
+import { createClient } from "@supabase/supabase-js";
 
 const GETUPLOOK_URL =
   process.env.GETUPLOOK_SUPABASE_URL ||
   "https://prowvkbxcdhtoiidxowb.supabase.co";
-const GETUPLOOK_ANON_KEY = process.env.GETUPLOOK_ANON_KEY;
 
-// Lazy-initialized client — won't crash at build time if env is missing
-let _client: SupabaseClient | null = null;
+// Lazy-loaded client — created on demand so missing env var doesn't crash build
+let _client: ReturnType<typeof createClient> | null = null;
 
-function getClient(): SupabaseClient {
+function getClient() {
   if (!_client) {
-    if (!GETUPLOOK_ANON_KEY) {
+    const key = ***
+    if (!key) {
       throw new Error("GETUPLOOK_ANON_KEY environment variable is required");
     }
-    _client = createClient(GETUPLOOK_URL, GETUPLOOK_ANON_KEY);
+    _client = createClient(GETUPLOOK_URL, key);
   }
   return _client;
 }
