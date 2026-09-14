@@ -10,17 +10,22 @@ This is the SKINgenius workspace. AI-powered skin analysis: photo → condition 
 4. Check `memory/` for recent daily notes
 
 ## Team
+_(Model column corrected 2026-09-13 — previously named retired
+Xiaomi/MiMo and "Kimi K2 Thinking," both removed fleet-wide 2026-09-12. If
+this drifts again, check `openclaw.json` directly rather than trust this
+table.)_
+
 | Agent ID | Name | Model | Role |
 |----------|------|-------|------|
-| skingenius-ceo | Nova | Xiaomi MiMo V2 Pro | CEO / Orchestrator |
-| skingenius-architect | Dermis | Kimi K2 Thinking | Platform Architect |
-| skingenius-dev | Pixel | Kimi K2.6 | Full-Stack Dev |
-| skingenius-ai | Lens | MiMo V2 Omni (Vision) | AI/Vision Specialist |
-| skingenius-data | Core | Nemotron 3 Super | Data Engineering |
-| skingenius-devops | Forge | Nemotron 3 Super | DevOps |
-| skingenius-design | Aura | Kimi K2.6 | UX/Design |
-| skingenius-syntax | Guard | MiniMax M2.7 | Code Quality |
-| skingenius-meta | Pulse | GLM-5.1 | Meta/Tracking |
+| skingenius-ceo | Nova | kimi-k2.6:cloud | CEO / Orchestrator |
+| skingenius-architect | Dermis | qwen3.5:cloud | Platform Architect |
+| skingenius-dev | Pixel | kimi-k2.7-code:cloud | Full-Stack Dev |
+| skingenius-ai | Lens | kimi-k2.6:cloud | AI/Vision Specialist |
+| skingenius-data | Core | nemotron-3-super:cloud | Data Engineering |
+| skingenius-devops | Forge | nemotron-3-super:cloud | DevOps |
+| skingenius-design | Aura | kimi-k2.6:cloud | UX/Design |
+| skingenius-syntax | Guard | minimax-m3:cloud | Code Quality |
+| skingenius-meta | Pulse | glm-5.3-flash:cloud | Meta/Tracking |
 
 ## Database — LIVE (as of 2026-05-13)
 - **Supabase project:** cnzoilxsttoqtvwotexd.supabase.co
@@ -43,7 +48,7 @@ This is the SKINgenius workspace. AI-powered skin analysis: photo → condition 
 
 ## Key Architecture Decisions
 - **Web-first MVP** using Next.js (current scaffold)
-- **AI model:** MiMo V2 Omni for skin photo analysis (vision model)
+- **AI model:** kimi-k2.6:cloud (skingenius-ai) for skin photo analysis — verify against `openclaw.json` before relying on this, vision-model routing has changed before
 - **Database:** Separate Supabase instance (NOT shared with Basys Health)
 - **Cross-product data:** API layer for Basys Health biomarkers (read-only)
 - **Evidence-first:** Every claim must cite PubMed/clinical trials

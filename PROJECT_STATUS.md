@@ -1,5 +1,11 @@
 # SKINgenius — Project Status
 
+> ⚠️ **Stale (flagged 2026-09-13):** not updated since 2026-05-20 — nearly
+> 4 months, predates the "Sprint 12 hard reset" narrative in `MEMORY.md`
+> (which is itself flagged stale/unverified as of 2026-07-31 — see that
+> file's own staleness note). Do not trust anything below as current
+> without checking first.
+>
 > **Last updated:** 2026-05-20
 > **Current Phase:** Phase 3 — App Integration (Design + Architecture)
 

@@ -7,6 +7,23 @@
 
 ---
 
+## ⚠️ Staleness notice (added 2026-09-13)
+
+Everything below this point is from **2026-07-31** — 6+ weeks old as of this
+note. Confirmed with Jason directly: **the 3 leaked API keys mentioned
+throughout this file/TASKS.md ARE rotated** (resolved, see the July 31
+entries below for the historical incident — no longer current). The rest
+of this file's "Sprint 12 hard reset / governance deadlock / 9-11 agents
+dormant" narrative has NOT been independently verified as still accurate
+or resolved — daily notes exist through 2026-09-09 showing normal research
+activity (e.g. `memory/2026-09-09.md`, a RéVive Skincare competitive
+dossier), which doesn't match a "governance deadlock" picture, but nobody
+has gone back and confirmed the sprint/velocity state one way or the other.
+**Before trusting anything below as current, get a fresh status check** —
+don't assume either "still broken" or "must be fine now."
+
+---
+
 ## 🔴 SPRINT 12 — HARD RESET: DOCUMENT-FIRST, LOWER BAR (July 31 → , Day 0)
 
 **Sprint 11 FAILED: 0/6 tasks. Sprint 12 begins.** Day 45 of code stasis. Day 24 past MVP deadline. 12 consecutive sprints ALL FAILED for the same governance deadlock.
@@ -70,7 +87,7 @@ Committed 214 files across 4 commits. Remaining: only `graphify-out/graph.json` 
 
 **🆕 JUL 19 AGENT SPARK (12+ DAYS STALE):** 4 agents briefly reactivated Jul 19, all dormant by Jul 20:
 
-- Architect (glm-5.1): wire scan→recommendation pipeline
+- Architect (glm-5.1, now dormant/retired): wire scan→recommendation pipeline
 - Data (nemotron-3-super): verify recommendation engine
 - Dev (kimi-k2.6 ⚠️ known quality issues): fix build + recommendations
 - DevOps: fix build errors

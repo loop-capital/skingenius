@@ -186,7 +186,7 @@
 ## Blocked / Waiting
 
 - ⚡ **Jason MUST DECIDE on MVP scope cut** — slip confirmed to Aug 7, scope cut STILL needs approval (35+ days)
-- ⚡ **3 API keys need rotation** — Jason action required (45+ days, 8th week approaching, CRITICAL SECURITY INCIDENT)
+- ✅ **3 API keys rotated** (confirmed by Jason 2026-09-13 — this was open as of the July 31 entries below, since resolved)
 - ⚡ **Che heartbeat spamming CEO** — Jason action required (~1,500 sessions, ~100% cron, reduce to 12h)
 - ⚡ **Reactivate dev agents** — Jason action required (9/11 dormant 39-61+ days)
 - 🔴 Database schema not applied to live DB (BLOCKED on Neon provisioning, 56+ days)

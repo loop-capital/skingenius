@@ -4,10 +4,9 @@ import { NextRequest, NextResponse } from "next/server";
 const GETUPLOOK_URL =
   process.env.GETUPLOOK_SUPABASE_URL ||
   "https://prowvkbxcdhtoiidxowb.supabase.co";
-const GETUPLOOK_KEY = ***
 
-// Condition → Service category mapping
-const CONDITION_SERVICES: Record<string, string[]> = {
+// Condition mapping
+const CONDITION_SERVICES = {
   acne: ["facial", "hydrafacial", "chemical peel", "led therapy"],
   wrinkles: ["botox", "filler", "laser", "microneedling"],
   "fine lines": ["botox", "filler", "microneedling", "chemical peel"],
@@ -18,10 +17,7 @@ const CONDITION_SERVICES: Record<string, string[]> = {
   "large pores": ["chemical peel", "laser", "microdermabrasion"],
 };
 
-function matchServiceToCondition(
-  serviceName: string,
-  conditions: string[],
-): number {
+function matchService(serviceName, conditions) {
   const nameLower = serviceName.toLowerCase();
   let score = 0;
   for (const condition of conditions) {
@@ -31,27 +27,24 @@ function matchServiceToCondition(
   return score;
 }
 
-export async function POST(req: NextRequest) {
+export async function POST(req) {
   try {
     const { skin_conditions } = await req.json();
-
     if (!skin_conditions?.length) {
       return NextResponse.json(
-        { error: "skin_conditions array required" },
-        { status: 400 },
+        { error: "skin_conditions array required" }, { status: 400 }
       );
     }
 
-    if (!GETUPLOOK_KEY) {
+    const key = process.env.GETUPLOOK_ANON_KEY;
+    if (!key) {
       return NextResponse.json(
-        { error: "GETUPLOOK_ANON_KEY not configured" },
-        { status: 500 },
+        { error: "GETUPLOOK_ANON_KEY not configured" }, { status: 500 }
       );
     }
 
-    const supabase = createClient(GETUPLOOK_URL, GETUPLOOK_KEY);
+    const supabase = createClient(GETUPLOOK_URL, key);
 
-    // Fetch all active providers - no RLS issues for reads
     const { data: providers, error: pErr } = await supabase
       .from("users")
       .select("id, first_name, last_name, email")
@@ -60,12 +53,10 @@ export async function POST(req: NextRequest) {
 
     if (pErr) {
       return NextResponse.json(
-        { error: "Provider fetch failed", details: pErr.message },
-        { status: 500 },
+        { error: "Provider fetch failed", details: pErr.message }, { status: 500 }
       );
     }
 
-    // Fetch all active services
     const { data: services, error: sErr } = await supabase
       .from("services")
       .select("id, provider_id, name, price, duration_minutes")
@@ -73,17 +64,15 @@ export async function POST(req: NextRequest) {
 
     if (sErr) {
       return NextResponse.json(
-        { error: "Service fetch failed", details: sErr.message },
-        { status: 500 },
+        { error: "Service fetch failed", details: sErr.message }, { status: 500 }
       );
     }
 
-    // Fetch reviews for rating calculation
     const { data: reviews } = await supabase
       .from("reviews")
       .select("provider_id, rating");
 
-    const ratings: Record<string, number[]> = {};
+    const ratings = {};
     reviews?.forEach((r) => {
       if (r.rating) {
         ratings[r.provider_id] = ratings[r.provider_id] || [];
@@ -91,39 +80,27 @@ export async function POST(req: NextRequest) {
       }
     });
 
-    // Match providers to conditions
     const matches = providers
       .map((p) => {
-        const providerServices =
-          services?.filter((s) => s.provider_id === p.id) || [];
+        const providerServices = services?.filter((s) => s.provider_id === p.id) || [];
         const scored = providerServices
-          .map((s) => ({
-            ...s,
-            match_score: matchServiceToCondition(s.name, skin_conditions),
-          }))
+          .map((s) => ({ ...s, match_score: matchService(s.name, skin_conditions) }))
           .filter((s) => s.match_score > 0);
 
         if (scored.length === 0) return null;
 
         const providerRatings = ratings[p.id] || [];
-        const avgRating =
-          providerRatings.length > 0
-            ? providerRatings.reduce((a, b) => a + b, 0) /
-              providerRatings.length
-            : undefined;
+        const avgRating = providerRatings.length > 0
+          ? providerRatings.reduce((a, b) => a + b, 0) / providerRatings.length
+          : undefined;
 
         return {
           id: p.id,
           name: `${p.first_name} ${p.last_name}`,
           email: p.email,
-          services: scored.sort(
-            (a, b) => b.match_score - a.match_score,
-          ),
+          services: scored.sort((a, b) => b.match_score - a.match_score),
           avg_rating: avgRating,
-          total_match_score: scored.reduce(
-            (sum, s) => sum + s.match_score,
-            0,
-          ),
+          total_match_score: scored.reduce((sum, s) => sum + s.match_score, 0),
         };
       })
       .filter(Boolean)
@@ -135,10 +112,8 @@ export async function POST(req: NextRequest) {
       total_matches: matches.length,
     });
   } catch (e) {
-    const err = e as Error;
     return NextResponse.json(
-      { error: "Match failed", message: err.message },
-      { status: 500 },
+      { error: "Match failed", message: e.message }, { status: 500 }
     );
   }
 }
