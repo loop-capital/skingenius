@@ -1,8 +1,30 @@
 import Stripe from "stripe";
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? "", {
-  apiVersion: "2026-08-26.dahlia",
-  typescript: true,
+// Lazy initialization: the Stripe client is only created on first use,
+// not at module import time. This prevents build-time failures when
+// STRIPE_SECRET_KEY is not set (e.g. Vercel static page data collection).
+let _stripe: Stripe | null = null;
+
+function getStripeClient(): Stripe {
+  if (!_stripe) {
+    const key = process.env.STRIPE_SECRET_KEY;
+    if (!key) {
+      throw new Error("Missing STRIPE_SECRET_KEY environment variable");
+    }
+    _stripe = new Stripe(key, {
+      apiVersion: "2026-08-26.dahlia",
+      typescript: true,
+    });
+  }
+  return _stripe;
+}
+
+export const stripe: Stripe = new Proxy({} as Stripe, {
+  get(_, prop, receiver) {
+    const client = getStripeClient();
+    const value = Reflect.get(client, prop, receiver);
+    return typeof value === "function" ? value.bind(client) : value;
+  },
 });
 
 export function getStripePriceId(): string {
