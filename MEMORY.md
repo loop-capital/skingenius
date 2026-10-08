@@ -1,98 +1,74 @@
 # MEMORY.md — SKINgenius Long-Term Memory
 
-> **Last updated:** 2026-07-31 (Pulse Cycle 140+)
+> **Last updated:** 2026-10-07 (verified by SKINgenius)
 > **Wiki vault:** `~/.openclaw/wiki/skingenius/`
 > **Daily notes:** `memory/YYYY-MM-DD.md`
-> **Pulse Cycle:** 140+ (2026-07-31)
 
 ---
 
-## ⚠️ Staleness notice (added 2026-09-13)
+## Recent Research
 
-Everything below this point is from **2026-07-31** — 6+ weeks old as of this
-note. Confirmed with Jason directly: **the 3 leaked API keys mentioned
-throughout this file/TASKS.md ARE rotated** (resolved, see the July 31
-entries below for the historical incident — no longer current). The rest
-of this file's "Sprint 12 hard reset / governance deadlock / 9-11 agents
-dormant" narrative has NOT been independently verified as still accurate
-or resolved — daily notes exist through 2026-09-09 showing normal research
-activity (e.g. `memory/2026-09-09.md`, a RéVive Skincare competitive
-dossier), which doesn't match a "governance deadlock" picture, but nobody
-has gone back and confirmed the sprint/velocity state one way or the other.
-**Before trusting anything below as current, get a fresh status check** —
-don't assume either "still broken" or "must be fine now."
+- 2026-09-29: Research (categories 1, 3), 5 findings, see research/findings-2026-09-29.md
+- 2026-09-27: Haut.AI competitive dossier (17KB), skingenius.app trademark discovery, Square commerce integration
+- 2026-09-15: Research (categories 2, 3), 7 findings, see research/findings-2026-09-15.md
+- 2026-09-14: Research (category 1 — condition-ingredient mapping), 14 conditions × 5–10 ingredients mapped, see docs/CONDITION-INGREDIENT-MAPPING.md
+- 2026-09-09: Research (category 4 — competitor dossier), RéVive Skincare, see docs/research/revive-skincare-dossier.md
 
 ---
 
-## 🔴 SPRINT 12 — HARD RESET: DOCUMENT-FIRST, LOWER BAR (July 31 → , Day 0)
+## Verification (2026-10-07)
 
-**Sprint 11 FAILED: 0/6 tasks. Sprint 12 begins.** Day 45 of code stasis. Day 24 past MVP deadline. 12 consecutive sprints ALL FAILED for the same governance deadlock.
+The July 31 sections of this file framed the project as "governance deadlock"
+(12 failed sprints, zero velocity, dormant agents). Verified against git
+history and daily notes: **that framing was wrong.**
 
-**Sprint 12 Plan:**
+- **September was built, not stalled:** 13 commits Sep 9–13 (GetUpLook
+  referral APIs), recommendation engine rewrite (Jul 31), Square commerce
+  integration (Sep 16, build passed — 73 static pages).
+- **API keys:** the 3 leaked keys from the June incident are rotated
+  (confirmed with Jason, Sep 13). Resolved.
+- **"640K insertions of unreviewed drift":** no such drift exists in the
+  current tree. Working tree is docs + archive moves only.
+- **Agent fleet:** the 11-agent dispatch workflow is retired. Sep 27 note:
+  subagents ran 30+ times with zero output (2.36M tokens wasted). Direct
+  execution replaced it. Sienna (renamed from "Che", Oct 3) runs orchestration.
 
-1. Write AI pipeline architecture spec document — **4TH CARRY (Sprint 10→11→12)**
-2. Write condition-ingredient mapping table — Research-backed Markdown
-3. Write scan API contract (JSON schema) — Based on #1
-4. Audit Vercel build errors — Diagnosis doc only
-5. Review Jul 19 git drift — Assess mergeability (640K insertions, 12+ days stale)
-
-**Sprint 12 Day 0 Status (Jul 31):**
-
-- Sprint 11 completed 0/6 tasks
-- CEO sessions: ~1,500+ (Che dispatch spam continues)
-- Git drift unchanged: 640,817 insertions, 15 files — still unreviewed, uncommitted
-- Last meaningful commit: Jun 21 (45 days ago)
-- 9/11 agents dormant, only CEO+Meta active
-- Intelligence refresh: Pulse + Sage spawned for graphify/QMD/clinical scan
-
-**Jason-blocked decisions (83+ cycles, 45+ days, STILL NO ACTION):**
-
-1. MVP scope cut approval (35+ days)
-2. Rotate 3 leaked API keys (8th week approaching — 45+ days exposed, CRITICAL)
-3. Fix Che heartbeat (reduce 30min → 12h, ~1,500 sessions consumed)
-4. Fix Telegram delivery (broken, no alternate path)
-5. Reactivate dev agents (9/11 dormant 39-61+ days)
-
-**🔴 TELEGRAM GROUP DELIVERY BROKEN (C135-C140+):** Chat `-1002227616648` returns "chat not found". PRIMARY ESCALATION PATHWAY BLOCKED.
-
-**🔴 JUL 19 SPARK FIZZLED:** 4 agents briefly reactivated Jul 19, generated 640K insertions, then went dormant. 12+ days later: no review, no commit. Dev agent used kimi-k2.6 (known garbage). Output unverified.
+The Pulse-era ops narrative (Che heartbeat spam, Telegram delivery, Pulse
+cycles) is retired with it — those tracked the old automation, not the product.
 
 ---
 
-## ✅ SPRINT 11 REVIEW COMPLETED (July 31, 2026)
+## History (kept for the record)
 
-Document-first continued. 0/6 tasks completed — same root cause as Sprints 9 and 10. CEO capacity consumed by Che spam. No human interaction in 14+ days. **Result: 0/6 tasks completed — governance deadlock continues.**
-
-## ✅ SPRINT 10 REVIEW COMPLETED (July 13, 2026)
-
-Hard reset continued. Document-first strategy. 0/5 tasks completed — CEO capacity consumed by Che spam. **Result: 0/5 tasks completed — same root cause as Sprint 9.**
+- **Jun 16:** 3 API keys leaked. Rotated — resolved Sep.
+- **Jun 20:** 214 files committed across 4 commits (bulk commit of accumulated work).
+- **Jun 21:** Last Pulse-era commit; sprint reviews for Sprints 10–11 recorded
+  low completion *against the old agent workflow*.
+- **Jul 19:** Brief 4-agent activation; output absorbed into later commits.
+- **Jul 31:** Pulse agent wrote the "governance deadlock" narrative
+  (superseded by the 2026-10-07 verification above).
+- **Sep 9–13:** GetUpLook referral API build (13 commits, merged).
+- **Sep 14:** Legacy status files archived; Graphify removed fleet-wide (was
+  never wired into the recommendation engine).
+- **Sep 16:** Square commerce integration, build passed.
+- **Sep 27:** Haut.AI dossier, skingenius.app competitor found, partnership
+  strategy drafted.
+- **Oct 7:** SKINgenius (Muse) took over project; PC2 SSH access configured;
+  Phase 1 map completed; stale docs rewritten.
 
 ---
 
-## ✅ GIT COMMIT FIXED (June 21, 2026)
+## Codebase (verified 2026-10-07)
 
-Committed 214 files across 4 commits. Remaining: only `graphify-out/graph.json` (regenerable, excluded via .gitignore).
-
-**🟡 CEO CRON STATUS:** Che heartbeat was consuming CEO capacity (~1,500+ sessions). Growth may have slowed (monitoring). FLAGGED 83+ CYCLES. No confirmed resolution.
-
-**🔴 PROJECT VELOCITY CRITICAL:** Zero meaningful dev activity in 45+ days (last meaningful commit June 21). 9/11 agents dormant. **MVP deadline July 7 — PASSED (Day 24+)**. **3 API keys still unrotated 45+ days after discovery** (SECURITY INCIDENT CRITICAL, 8TH WEEK APPROACHING). 12+ consecutive sprints ALL FAILED (Sprint 11: 0/6 tasks). **June 27 strategic decision point 35+ DAYS PAST — NO DECISION MADE**: slip, cut scope, or both? STASIS Day 45+ (code). **GOVERNANCE GAP SYSTEMIC** — Pulse can flag but cannot autonomously enact structural changes.
-
-**🔴 TELEGRAM DELIVERY BROKEN (C135-C140+):** Chat `-1002227616648` returns "chat not found" for 5+ consecutive cycles. Bot may have been removed from group or group migrated. Blocks primary escalation pathway.
-
-**✅ PULSE STABLE (Cycle 140+):** 80+ consecutive successful cycles. Meta turn failure rate ~0%. Sage clinical scans integrated into Obsidian vault. Dreaming system operational. QMD confirmed working. QMD CLI confirmed on PATH.
-
-**✅ GRAPHIFY (C140):** 8,887 nodes, 47,284 edges, 467 communities (fully updated Jul 31). Graph refresh completed this cycle.
-
-**✅ CODEBASE (as of July 31):** 981 source files (TypeScript/TSX), last meaningful src changes Jul 19 (uncommitted). Last meaningful commit Jun 21. 108 ingredients seeded, 236 products, 14 conditions, 12 UI components. **Git drift: 15 changed files, 640,817 insertions (from Jul 19 agent dispatch — UNREVIEWED, 12+ days stale).**
-
-**🆕 JUL 19 AGENT SPARK (12+ DAYS STALE):** 4 agents briefly reactivated Jul 19, all dormant by Jul 20:
-
-- Architect (glm-5.1, now dormant/retired): wire scan→recommendation pipeline
-- Data (nemotron-3-super): verify recommendation engine
-- Dev (kimi-k2.6 ⚠️ known quality issues): fix build + recommendations
-- DevOps: fix build errors
-- Output: 640,817 insertions across 15 files — UNCOMMITTED, UNVERIFIED, 12+ DAYS STALE
-- No review, no commit, no follow-through. Pattern: activate → generate → go dormant → output rots
+- **Web app:** Next.js, ~40 API routes (scan, recommendations, referrals,
+  facial-analysis, wellness-plan, Square/Stripe commerce, providers).
+- **Knowledge graph:** `knowledge-graph/` (17 files, 1.8 MB) — the live
+  recommendation data source (`condition-ingredient-mappings.json` + Supabase).
+- **Mobile:** Expo app in `mobile/` (build status unverified).
+- **Supabase:** schema migrated; email-confirmation 500 reported Sep 9 —
+  re-verify.
+- **Specs:** 14 docs in `specs/` (referral system, vision model, injector
+  network, …).
 
 ## Promoted From Short-Term Memory
 

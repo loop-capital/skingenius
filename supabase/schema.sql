@@ -376,6 +376,81 @@ CREATE POLICY "Users can insert own reactions" ON public.ingredient_reactions FO
 CREATE POLICY "Users can delete own reactions" ON public.ingredient_reactions FOR DELETE USING (auth.uid() = user_id);
 
 -- ============================================
+-- PROVIDER CALENDAR & BOOKING
+-- ============================================
+
+-- Provider calendar connection tokens (refresh token encrypted at application layer)
+CREATE TABLE IF NOT EXISTS public.provider_calendar_tokens (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  provider_id UUID NOT NULL UNIQUE,
+  encrypted_refresh_token TEXT NOT NULL,
+  access_token TEXT,
+  expires_at TIMESTAMPTZ,
+  scope TEXT[] DEFAULT '{}',
+  connected BOOLEAN DEFAULT TRUE,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Provider calendar availability settings
+CREATE TABLE IF NOT EXISTS public.provider_calendar_settings (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  provider_id UUID NOT NULL UNIQUE,
+  business_hours JSONB NOT NULL DEFAULT '{
+    "mon": {"enabled": true, "start": "09:00", "end": "17:00"},
+    "tue": {"enabled": true, "start": "09:00", "end": "17:00"},
+    "wed": {"enabled": true, "start": "09:00", "end": "17:00"},
+    "thu": {"enabled": true, "start": "09:00", "end": "17:00"},
+    "fri": {"enabled": true, "start": "09:00", "end": "17:00"},
+    "sat": {"enabled": true, "start": "10:00", "end": "16:00"},
+    "sun": {"enabled": false, "start": "09:00", "end": "17:00"}
+  }'::jsonb,
+  buffer_minutes INTEGER NOT NULL DEFAULT 15,
+  default_appointment_minutes INTEGER NOT NULL DEFAULT 60,
+  service_durations JSONB DEFAULT '{}',
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Appointments booked through SKINgenius
+CREATE TABLE IF NOT EXISTS public.appointments (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  provider_id UUID NOT NULL,
+  user_id UUID REFERENCES public.profiles(id) ON DELETE SET NULL,
+  user_name TEXT NOT NULL,
+  service TEXT NOT NULL,
+  scheduled_start TIMESTAMPTZ NOT NULL,
+  scheduled_end TIMESTAMPTZ NOT NULL,
+  notes TEXT,
+  status TEXT NOT NULL DEFAULT 'scheduled' CHECK (status IN ('scheduled', 'confirmed', 'completed', 'no_show', 'cancelled')),
+  google_event_id TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_provider_calendar_tokens_provider ON public.provider_calendar_tokens(provider_id);
+CREATE INDEX IF NOT EXISTS idx_provider_calendar_settings_provider ON public.provider_calendar_settings(provider_id);
+CREATE INDEX IF NOT EXISTS idx_appointments_provider_start ON public.appointments(provider_id, scheduled_start);
+CREATE INDEX IF NOT EXISTS idx_appointments_user ON public.appointments(user_id);
+
+ALTER TABLE public.provider_calendar_tokens ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.provider_calendar_settings ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.appointments ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Providers manage own calendar tokens" ON public.provider_calendar_tokens
+  FOR ALL USING (provider_id = auth.uid()) WITH CHECK (provider_id = auth.uid());
+
+CREATE POLICY "Providers manage own calendar settings" ON public.provider_calendar_settings
+  FOR ALL USING (provider_id = auth.uid()) WITH CHECK (provider_id = auth.uid());
+
+CREATE POLICY "Providers view own appointments" ON public.appointments
+  FOR SELECT USING (provider_id = auth.uid());
+CREATE POLICY "Users view own appointments" ON public.appointments
+  FOR SELECT USING (user_id = auth.uid());
+CREATE POLICY "Users insert own appointments" ON public.appointments
+  FOR INSERT WITH CHECK (user_id = auth.uid());
+
+-- ============================================
 -- STORAGE BUCKETS
 -- ============================================
 

@@ -16,6 +16,7 @@
 - Rotating keys breaks connected services
 - 11 tables live: profiles, skin_photos, skin_conditions, skin_analyses, ingredients, products, routines, routine_steps, user_skin_profiles, skin_log_entries, ingredient_reactions
 - Schema: `supabase/schema.sql`
+- Enumerate a Supabase project with only the anon key: probe `GET /rest/v1/<table>?select=*&limit=1` (200 = exists); 404 bodies hint sibling tables ("Perhaps you meant the table 'public.X'"); empty-table columns via `?select=<col>&limit=0` (200 = column exists, 400 = missing); row counts via `Prefer: count=exact` and read `content-range`. The OpenAPI root `/rest/v1/` can 401 with "service_role only" even when the anon key is valid for tables.
 
 ### TypeScript
 - _Add lessons here as you encounter issues_
