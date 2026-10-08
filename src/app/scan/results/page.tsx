@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import {
   AlertCircle,
@@ -10,29 +10,47 @@ import {
   ChevronRight,
   Shield,
   Camera,
-  Brain,
-  ScanFace,
-  Sun,
   Loader2,
   ShoppingBag,
+  ExternalLink,
+  Stethoscope,
+  Calendar,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { useScan } from "@/lib/scan/ScanContext";
 import {
-  runOnDeviceScan,
-  PipelineProgress,
-  PipelineConfig,
-} from "@/lib/scan/onDevicePipeline";
-import {
-  V1ScanResponse,
+  V1ScanResponseData,
   V1DetectedCondition,
-  V1SkinZone,
-  V1QualityAssessment,
 } from "@/types/api";
+import { sampleScanResponse } from "@/lib/scan/sampleScanData";
 import { RecommendationCard } from "@/components/scan/RecommendationCard";
+import { ClinicalReviewPrompt } from "@/components/scan/ClinicalReviewPrompt";
 import type { RecommendationResult } from "@/lib/recommendations/types";
+import type { FlaggedFinding } from "@/types/clinical";
+
+// -----------------------------------------------------------------------------
+// HARDCODED SAMPLE DATA
+// -----------------------------------------------------------------------------
+// Replace the useState default below with a real fetch when the API is ready:
+//
+// const [data, setData] = useState<V1ScanResponseData | null>(null);
+// const [loading, setLoading] = useState(true);
+// const [error, setError] = useState<string | null>(null);
+//
+// useEffect(() => {
+//   fetch("/api/v1/scan", { method: "POST", body: formData })
+//     .then((r) => r.json())
+//     .then((json) => {
+//       if (json.error) throw new Error(json.error);
+//       setData(json.data);
+//     })
+//     .catch((e) => setError(e.message))
+//     .finally(() => setLoading(false));
+// }, []);
+// -----------------------------------------------------------------------------
 
 function confidencePercent(c: number): string {
   return `${Math.round(c * 100)}%`;
@@ -41,11 +59,11 @@ function confidencePercent(c: number): string {
 function severityColor(severity: string): string {
   switch (severity) {
     case "mild":
-      return "bg-green-100 text-green-800";
+      return "bg-[#E8FAF0] text-[#1FA856]";
     case "moderate":
-      return "bg-amber-100 text-amber-800";
+      return "bg-[#FFF5E6] text-[#B87A1A]";
     case "severe":
-      return "bg-red-100 text-red-800";
+      return "bg-[#FDE8EB] text-[#C41D3A]";
     default:
       return "bg-stone-100 text-stone-800";
   }
@@ -54,159 +72,56 @@ function severityColor(severity: string): string {
 function severityBorder(severity: string): string {
   switch (severity) {
     case "mild":
-      return "border-green-200";
+      return "border-[#5EEAA0]/30";
     case "moderate":
-      return "border-amber-200";
+      return "border-[#F5A623]/30";
     case "severe":
-      return "border-red-200";
+      return "border-[#E74C5E]/30";
     default:
       return "border-stone-200";
   }
 }
 
-function phaseIcon(phase: PipelineProgress["phase"]) {
-  switch (phase) {
-    case "face_detection":
-      return <ScanFace className="w-4 h-4" />;
-    case "quality_assessment":
-      return <Camera className="w-4 h-4" />;
-    case "skin_tone_estimation":
-      return <Sun className="w-4 h-4" />;
-    case "condition_detection":
-      return <Brain className="w-4 h-4" />;
-    case "complete":
-      return <Sparkles className="w-4 h-4" />;
-    default:
-      return <Sparkles className="w-4 h-4" />;
-  }
+function scoreTint(score: number): string {
+  if (score >= 80) return "text-[#1FA856]";
+  if (score >= 60) return "text-[#B87A1A]";
+  return "text-[#C41D3A]";
 }
 
-function phaseLabel(phase: PipelineProgress["phase"]) {
-  switch (phase) {
-    case "face_detection":
-      return "Detecting face...";
-    case "quality_assessment":
-      return "Analyzing image quality...";
-    case "skin_tone_estimation":
-      return "Estimating skin tone...";
-    case "condition_detection":
-      return "Identifying conditions...";
-    case "complete":
-      return "Analysis complete";
-    default:
-      return "Processing...";
-  }
+function scoreBgTint(score: number): string {
+  if (score >= 80) return "bg-[#E8FAF0]";
+  if (score >= 60) return "bg-[#FFF5E6]";
+  return "bg-[#FDE8EB]";
+}
+
+function providerReferralEligible(data: V1ScanResponseData | null): boolean {
+  if (!data) return false;
+  if (data.provider_referral_eligible) return true;
+  return (data.conditions ?? []).some((c) => c.severity === "severe" || c.severity === "moderate");
 }
 
 export default function ScanResultsPage() {
   const router = useRouter();
-  const { state, dispatch } = useScan();
 
-  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState<V1ScanResponseData | null>(() => {
+    if (typeof window === "undefined") return sampleScanResponse;
+    try {
+      const saved = sessionStorage.getItem("skingenius_last_analysis");
+      return saved ? (JSON.parse(saved) as V1ScanResponseData) : sampleScanResponse;
+    } catch {
+      return sampleScanResponse;
+    }
+  });
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [data, setData] = useState<V1ScanResponse["data"] | null>(null);
-  const [progress, setProgress] = useState<PipelineProgress | null>(null);
 
-  // Recommendation states
-  const [recommendations, setRecommendations] = useState<
-    RecommendationResult[]
-  >([]);
+  const [recommendations, setRecommendations] = useState<RecommendationResult[]>([]);
   const [recLoading, setRecLoading] = useState(false);
   const [recError, setRecError] = useState<string | null>(null);
   const [recFetched, setRecFetched] = useState(false);
 
-  const runAnalysis = useCallback(async () => {
-    const imageData = state.capturedImageData;
-    const skinTone = state.skinTone;
-
-    if (!imageData) {
-      router.replace("/scan");
-      return;
-    }
-
-    setLoading(true);
-    setError(null);
-
-    try {
-      // Build base64 data URL if needed
-      const imageInput = imageData.startsWith("data:")
-        ? imageData
-        : `data:image/jpeg;base64,${imageData}`;
-
-      const config: PipelineConfig = {
-        userSkinTone: skinTone,
-        captureMethod: state.uploadedImageUri ? "gallery" : "camera",
-        useGemma: false,
-      };
-
-      const result = await runOnDeviceScan(imageInput, config, (p) => {
-        setProgress(p);
-      });
-
-      if (!result.success || !result.data) {
-        throw new Error(result.error || "On-device analysis failed");
-      }
-
-      // Persist results to server (image stays on device)
-      const persistRes = await fetch("/api/v1/scan", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          analysis_results: result.data,
-          capture_method: config.captureMethod,
-          skin_tone: result.data.metadata.skin_tone,
-        }),
-      });
-
-      const json: V1ScanResponse = await persistRes.json();
-
-      if (!persistRes.ok || json.error) {
-        // Still show results even if persistence fails
-        console.warn("Persistence failed:", json.error);
-      }
-
-      // Use server scan_id if available, otherwise generate local
-      const finalData = {
-        ...result.data,
-        scan_id:
-          json.data?.scan_id ?? result.data.scan_id ?? crypto.randomUUID(),
-      };
-
-      setData(finalData);
-      dispatch({
-        type: "SET_RESULTS",
-        analysisId: finalData.scan_id ?? "",
-        conditions:
-          finalData.conditions?.map((c) => ({
-            name: c.name,
-            confidence: c.confidence,
-            severity: c.severity,
-            features: c.features,
-            zone: c.zone,
-          })) ?? [],
-        zones:
-          finalData.skin_zones?.map((z) => ({
-            zone: z.zone,
-            primaryConcern: z.primary_concern,
-            description: z.description,
-            severity: z.severity,
-          })) ?? [],
-      });
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to analyze scan");
-    } finally {
-      setLoading(false);
-    }
-  }, [
-    dispatch,
-    router,
-    state.capturedImageData,
-    state.skinTone,
-    state.uploadedImageUri,
-  ]);
-
-  // Fetch recommendations when analysis data is ready
-  const fetchRecommendations = useCallback(async () => {
+  // Simulate async recommendation fetch for realistic loading/error states.
+  useEffect(() => {
     if (!data || recFetched) return;
 
     const conditions = data.conditions ?? [];
@@ -218,210 +133,109 @@ export default function ScanResultsPage() {
     setRecLoading(true);
     setRecError(null);
 
-    try {
-      const res = await fetch("/api/v1/recommendations", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          conditions: conditions.map((c: V1DetectedCondition) => ({
-            id: c.condition_id ?? c.name.toLowerCase().replace(/\s+/g, "_"),
-            confidence: c.confidence,
-            severity: c.severity,
-          })),
-          skin_type: state.skinTone ? "normal" : "normal",
-          fitzpatrick: state.skinTone ?? 3,
-          is_pregnant: false,
-          allergies: [],
-        }),
+    fetch("/api/v1/recommendations", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        conditions: conditions.map((c: V1DetectedCondition) => ({
+          id: c.condition_id ?? c.id ?? c.name.toLowerCase().replace(/\s+/g, "_"),
+          confidence: c.confidence,
+          severity: c.severity,
+        })),
+        skin_type: "normal",
+        fitzpatrick: data.fitzpatrick_type ?? "IV",
+        is_pregnant: false,
+        allergies: [],
+      }),
+    })
+      .then((res) => res.json())
+      .then((json) => {
+        if (!json.data?.recommendations) {
+          throw new Error(json.error || "Failed to fetch recommendations");
+        }
+        setRecommendations(json.data.recommendations as RecommendationResult[]);
+      })
+      .catch((err) => {
+        console.error("Recommendations error:", err);
+        setRecError(err instanceof Error ? err.message : "Failed to load recommendations");
+      })
+      .finally(() => {
+        setRecLoading(false);
+        setRecFetched(true);
       });
+  }, [data, recFetched]);
 
-      const json = await res.json();
+  const handleRetry = () => {
+    // In a real implementation this would refetch /api/v1/scan.
+    // For the sample-data page we reset from the static object.
+    setError(null);
+    setData(sampleScanResponse);
+  };
 
-      if (!res.ok || json.error) {
-        throw new Error(json.error || "Failed to fetch recommendations");
-      }
-
-      const recs: RecommendationResult[] = json.data?.recommendations ?? [];
-      setRecommendations(recs);
-    } catch (err) {
-      console.error("Recommendations error:", err);
-      setRecError(
-        err instanceof Error ? err.message : "Failed to load recommendations",
+  // Persist latest analysis for downstream escalation flows.
+  useEffect(() => {
+    if (!data) return;
+    try {
+      sessionStorage.setItem(
+        "skingenius_last_analysis",
+        JSON.stringify({
+          scan_id: data.scan_id,
+          timestamp: data.timestamp,
+          conditions: data.conditions,
+          skin_zones: data.skin_zones,
+        }),
       );
-    } finally {
-      setRecLoading(false);
-      setRecFetched(true);
+    } catch {
+      // ignore storage errors
     }
-  }, [data, recFetched, state.skinTone]);
+  }, [data]);
 
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    runAnalysis();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  // Fetch recommendations after analysis completes and data is set
-  useEffect(() => {
-    if (!loading && data && !recFetched) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      fetchRecommendations();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [loading, data, recFetched, fetchRecommendations]);
-
-  const handleScanAgain = useCallback(() => {
-    dispatch({ type: "RESET" });
+  const handleScanAgain = () => {
     router.push("/scan");
-  }, [dispatch, router]);
+  };
 
-  // Loading / analysing state
   if (loading) {
     return (
-      <div className="flex flex-col min-h-[100dvh] px-6 pt-8 pb-8 items-center justify-center text-center">
-        <div className="relative w-20 h-20 mb-6">
-          <div className="absolute inset-0 rounded-full border-2 border-emerald-200" />
-          <div className="absolute inset-0 rounded-full border-2 border-emerald-600 border-t-transparent animate-spin" />
-          <div className="absolute inset-3 rounded-full bg-emerald-50 flex items-center justify-center">
-            {progress ? (
-              phaseIcon(progress.phase)
-            ) : (
-              <Sparkles className="w-6 h-6 text-emerald-600 animate-pulse" />
-            )}
-          </div>
-        </div>
-        <p className="text-stone-900 font-semibold text-lg mb-1">
-          {progress ? phaseLabel(progress.phase) : "Analysing your skin..."}
-        </p>
-        <p className="text-stone-500 text-sm">
-          {progress?.message ?? "Running on-device AI analysis"}
-        </p>
-
-        {/* Phase indicators */}
-        <div className="w-full max-w-xs mt-8 space-y-3">
-          {(
-            [
-              "face_detection",
-              "quality_assessment",
-              "skin_tone_estimation",
-              "condition_detection",
-            ] as const
-          ).map((phase) => {
-            const isActive = progress?.phase === phase;
-            const isComplete =
-              progress &&
-              [
-                "quality_assessment",
-                "skin_tone_estimation",
-                "condition_detection",
-                "complete",
-              ].includes(progress.phase) &&
-              [
-                "face_detection",
-                "quality_assessment",
-                "skin_tone_estimation",
-                "condition_detection",
-              ].indexOf(progress.phase) >
-                [
-                  "face_detection",
-                  "quality_assessment",
-                  "skin_tone_estimation",
-                  "condition_detection",
-                ].indexOf(phase);
-
-            return (
-              <div key={phase} className="flex items-center gap-3">
-                <div
-                  className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 ${
-                    isComplete
-                      ? "bg-emerald-600 text-white"
-                      : isActive
-                        ? "bg-emerald-100 text-emerald-700 border border-emerald-600"
-                        : "bg-stone-100 text-stone-400"
-                  }`}
-                >
-                  {isComplete ? (
-                    <svg
-                      className="w-3 h-3"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={3}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  ) : (
-                    phaseIcon(phase)
-                  )}
-                </div>
-                <span
-                  className={`text-sm ${
-                    isActive
-                      ? "font-semibold text-emerald-700"
-                      : isComplete
-                        ? "text-stone-700"
-                        : "text-stone-400"
-                  }`}
-                >
-                  {phaseLabel(phase)}
-                </span>
-              </div>
-            );
-          })}
-        </div>
+      <div className="flex flex-col min-h-[100dvh] px-6 pt-24 pb-8 items-center justify-center text-center">
+        <Loader2 className="w-10 h-10 text-emerald-600 animate-spin mb-4" />
+        <p className="text-stone-900 font-semibold">Loading your skin analysis...</p>
+        <p className="text-stone-500 text-sm mt-1">Retrieving scan results</p>
       </div>
     );
   }
 
-  // Error state
   if (error) {
     return (
-      <div className="flex flex-col min-h-[100dvh] px-6 pt-8 pb-8">
-        <header className="mb-6">
-          <button
-            onClick={() => router.back()}
-            className="flex items-center gap-1 text-sm text-stone-600 hover:text-emerald-700 transition-colors"
+      <div className="flex flex-col min-h-[100dvh] px-6 pt-24 pb-8">
+        <Alert variant="destructive" className="max-w-sm mx-auto mb-6">
+          <AlertCircle className="h-4 w-4" />
+          <AlertTitle>Could not load results</AlertTitle>
+          <AlertDescription>{error}</AlertDescription>
+        </Alert>
+        <div className="space-y-3 w-full max-w-sm mx-auto">
+          <Button
+            onClick={handleRetry}
+            className="w-full py-6 text-base font-semibold rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white"
           >
-            <ArrowLeft className="w-4 h-4" /> Back
-          </button>
-        </header>
-
-        <div className="flex-1 flex flex-col items-center justify-center text-center">
-          <Alert variant="destructive" className="max-w-sm mb-6">
-            <AlertCircle className="h-4 w-4" />
-            <AlertTitle>Analysis Failed</AlertTitle>
-            <AlertDescription>{error}</AlertDescription>
-          </Alert>
-
-          <div className="space-y-3 w-full max-w-sm">
-            <Button
-              onClick={runAnalysis}
-              className="w-full py-6 text-base font-semibold rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white"
-            >
-              <RotateCcw className="w-4 h-4 mr-2" />
-              Retry
-            </Button>
-            <Button
-              variant="outline"
-              onClick={handleScanAgain}
-              className="w-full py-6 text-base font-semibold rounded-2xl border-stone-300"
-            >
-              <Camera className="w-4 h-4 mr-2" />
-              Scan Again
-            </Button>
-          </div>
+            <RotateCcw className="w-4 h-4 mr-2" />
+            Retry
+          </Button>
+          <Button
+            variant="outline"
+            onClick={handleScanAgain}
+            className="w-full py-6 text-base font-semibold rounded-2xl border-stone-300"
+          >
+            <Camera className="w-4 h-4 mr-2" />
+            Scan Again
+          </Button>
         </div>
       </div>
     );
   }
 
-  // No data
   if (!data) {
     return (
-      <div className="flex flex-col min-h-[100dvh] px-6 pt-8 pb-8 items-center justify-center text-center">
+      <div className="flex flex-col min-h-[100dvh] px-6 pt-24 pb-8 items-center justify-center text-center">
         <p className="text-stone-600 mb-6">No results available.</p>
         <Button
           onClick={handleScanAgain}
@@ -434,9 +248,13 @@ export default function ScanResultsPage() {
     );
   }
 
-  const qa = data.quality_assessment as V1QualityAssessment | undefined;
   const conditions = data.conditions ?? [];
-  const zones = data.skin_zones ?? [];
+  const primary = conditions.find(
+    (c) =>
+      c.id === data.primary_concern ||
+      c.condition_id === data.primary_concern ||
+      c.name.toLowerCase() === (data.primary_concern ?? "").toLowerCase()
+  ) ?? conditions[0];
 
   return (
     <div className="flex flex-col min-h-[100dvh]">
@@ -453,203 +271,198 @@ export default function ScanResultsPage() {
           <div className="w-8 h-8 rounded-lg bg-emerald-700 flex items-center justify-center">
             <Sparkles className="w-4 h-4 text-white" />
           </div>
-          <span className="text-lg font-semibold text-stone-900">
-            SKINgenius
-          </span>
+          <span className="text-lg font-semibold text-stone-900">SKINgenius</span>
         </div>
+
         <h1 className="text-3xl font-bold text-stone-900 tracking-tight mb-2">
           Your Skin Analysis
         </h1>
         <p className="text-stone-600 text-sm">
           Scan ID: {data.scan_id?.slice(0, 8) ?? "—"} ·{" "}
-          {new Date(data.timestamp).toLocaleDateString()}
+          {new Date(data.timestamp ?? Date.now()).toLocaleDateString()}
         </p>
-        {data.metadata?.auto_detected_skin_tone && (
-          <p className="text-xs text-emerald-600 mt-1">
-            Auto-detected Fitzpatrick type{" "}
-            {data.metadata.auto_detected_skin_tone.type} (confidence:{" "}
-            {Math.round(data.metadata.auto_detected_skin_tone.confidence * 100)}
-            %)
-          </p>
-        )}
       </header>
 
       <main className="flex-1 px-6 pb-8 space-y-6">
-        {/* Quality Assessment */}
-        {qa && (
-          <Card className="border-stone-200">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-base">Image Quality</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-stone-600">Format</span>
-                <span
-                  className={`text-sm font-semibold px-2 py-0.5 rounded-full ${
-                    qa.is_valid_format
-                      ? "bg-green-100 text-green-800"
-                      : "bg-red-100 text-red-800"
-                  }`}
-                >
-                  {qa.is_valid_format ? "Valid" : "Invalid"}
-                </span>
+        {/* Urgent banner */}
+        {data.urgent_flag && (
+          <div className="rounded-xl bg-[#B91C1C] text-white px-4 py-3 animate-pulse shadow-md">
+            <div className="flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-sm">Urgent — See a dermatologist</p>
+                <p className="text-xs text-white/90 mt-0.5">
+                  This scan flagged a condition that should be evaluated by a board-certified
+                  dermatologist promptly.
+                </p>
               </div>
-              {qa.width && qa.height && (
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-stone-600">Dimensions</span>
-                  <span className="text-sm font-medium text-stone-900">
-                    {qa.width} × {qa.height}
-                  </span>
-                </div>
-              )}
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-stone-600">Face Detected</span>
-                <span
-                  className={`text-sm font-semibold px-2 py-0.5 rounded-full ${
-                    qa.face_detected
-                      ? "bg-green-100 text-green-800"
-                      : "bg-amber-100 text-amber-800"
-                  }`}
-                >
-                  {qa.face_detected ? "Yes" : "No"}
-                </span>
-              </div>
-              {qa.blur_score != null && (
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-stone-600">Blur Score</span>
-                  <span className="text-sm font-medium text-stone-900">
-                    {qa.blur_score.toFixed(1)}
-                  </span>
-                </div>
-              )}
-              {qa.lighting_score != null && (
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-stone-600">Lighting Score</span>
-                  <span className="text-sm font-medium text-stone-900">
-                    {qa.lighting_score.toFixed(1)}
-                  </span>
-                </div>
-              )}
-              {data.metadata?.warnings && data.metadata.warnings.length > 0 && (
-                <div className="mt-2 pt-3 border-t border-stone-100">
-                  <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-1">
-                    Warnings
-                  </p>
-                  <ul className="space-y-1">
-                    {data.metadata.warnings.map((w, i) => (
-                      <li key={i} className="text-xs text-amber-700">
-                        {w}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         )}
 
-        {/* Detected Conditions */}
+        {/* Overall score + Fitzpatrick */}
+        <section>
+          <Card className="border-stone-200 overflow-hidden">
+            <CardContent className="p-6">
+              <div className="flex items-center justify-between gap-4">
+                <div className="flex-1">
+                  <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-1">
+                    Overall Skin Score
+                  </p>
+                  <div className="flex items-baseline gap-2">
+                    <span className={`text-5xl font-bold tracking-tighter ${scoreTint(data.overall_score ?? 0)}`}>
+                      {data.overall_score ?? 0}
+                    </span>
+                    <span className="text-sm text-stone-500">/ 100</span>
+                  </div>
+                  <Progress
+                    value={data.overall_score ?? 0}
+                    className={`h-3 mt-3 rounded-full ${scoreBgTint(data.overall_score ?? 0)}`}
+                  />
+                </div>
+                <div className="text-center">
+                  <Badge
+                    variant="outline"
+                    className="border-[#0A2647] text-[#0A2647] bg-[#F0F2F5] px-3 py-1 text-sm font-semibold"
+                  >
+                    Fitzpatrick {data.fitzpatrick_type ?? "—"}
+                  </Badge>
+                  <p className="text-[10px] text-stone-500 uppercase tracking-wider mt-2 font-semibold">
+                    {data.model}
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Scan counter */}
+        <section>
+          <Card className="border-stone-200">
+            <CardContent className="p-4">
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center gap-2 text-stone-700">
+                  <Calendar className="w-4 h-4 text-stone-500" />
+                  <span className="text-sm font-medium">
+                    You&apos;ve used {data.scan_count_this_month ?? 0} of{" "}
+                    {(data.scan_count_this_month ?? 0) + (data.scans_remaining ?? 0)} scans this month
+                  </span>
+                </div>
+                <span className="text-xs font-semibold text-stone-500">
+                  {data.scans_remaining ?? 0} remaining
+                </span>
+              </div>
+              <Progress
+                value={
+                  ((data.scan_count_this_month ?? 0) /
+                    ((data.scan_count_this_month ?? 0) + (data.scans_remaining ?? 0) || 1)) *
+                  100
+                }
+                className="h-2 mt-3 rounded-full bg-stone-100"
+              />
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Primary concern */}
+        {primary && (
+          <section>
+            <h2 className="text-sm font-semibold text-stone-900 uppercase tracking-wider mb-3">
+              Primary Concern
+            </h2>
+            <Card className={`border ${severityBorder(primary.severity)}`}>
+              <CardContent className="p-4 space-y-3">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <h3 className="text-lg font-semibold text-stone-900">{primary.name}</h3>
+                    <p className="text-xs text-stone-500 mt-0.5">
+                      {primary.affected_areas?.join(", ") ?? primary.zone}
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-end gap-1">
+                    <Badge className={`${severityColor(primary.severity)} border-0`}>
+                      {primary.severity.charAt(0).toUpperCase() + primary.severity.slice(1)}
+                    </Badge>
+                    <span className="text-xs font-semibold text-emerald-700">
+                      {confidencePercent(primary.confidence)} confidence
+                    </span>
+                  </div>
+                </div>
+                <Button
+                  variant="outline"
+                  className="w-full rounded-xl border-stone-300 text-sm"
+                  onClick={() => router.push(`/scan/results/${primary.id ?? primary.condition_id ?? "acne"}`)}
+                >
+                  View details
+                  <ChevronRight className="w-4 h-4 ml-1" />
+                </Button>
+              </CardContent>
+            </Card>
+          </section>
+        )}
+
+        {/* Detected conditions */}
         <section>
           <h2 className="text-sm font-semibold text-stone-900 uppercase tracking-wider mb-3">
             Detected Conditions
           </h2>
           {conditions.length === 0 ? (
-            <p className="text-stone-500 text-sm">
-              No conditions detected in this scan.
-            </p>
+            <p className="text-stone-500 text-sm">No conditions detected in this scan.</p>
           ) : (
             <div className="space-y-3">
-              {conditions.map((c: V1DetectedCondition, i: number) => (
-                <Card
-                  key={`${c.condition_id}-${i}`}
-                  className={`border ${severityBorder(c.severity)}`}
-                >
-                  <CardContent className="p-4 space-y-2">
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="flex-1">
-                        <h3 className="text-base font-semibold text-stone-900">
-                          {c.name}
-                        </h3>
-                        <p className="text-xs text-stone-500 mt-0.5">
-                          Zone: {c.zone}
-                        </p>
-                      </div>
-                      <div className="flex flex-col items-end gap-1">
-                        <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">
-                          {confidencePercent(c.confidence)} confidence
-                        </span>
-                        <span
-                          className={`text-xs font-semibold px-2 py-0.5 rounded-full ${severityColor(
-                            c.severity,
-                          )}`}
-                        >
-                          {c.severity.charAt(0).toUpperCase() +
-                            c.severity.slice(1)}
-                        </span>
-                      </div>
-                    </div>
-                    {c.features.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5 pt-1">
-                        {c.features.map((f, j) => (
-                          <span
-                            key={j}
-                            className="text-xs bg-stone-100 text-stone-600 px-2 py-0.5 rounded-md"
-                          >
-                            {f}
+              {conditions.map((c: V1DetectedCondition, i: number) => {
+                const href = `/scan/results/${c.id ?? c.condition_id ?? c.name.toLowerCase().replace(/\s+/g, "_")}`;
+                return (
+                  <Card
+                    key={`${c.id ?? c.condition_id}-${i}`}
+                    className={`border ${severityBorder(c.severity)}`}
+                  >
+                    <CardContent className="p-4 space-y-2">
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="flex-1">
+                          <h3 className="text-base font-semibold text-stone-900">{c.name}</h3>
+                          <p className="text-xs text-stone-500 mt-0.5">
+                            Affected: {c.affected_areas?.join(", ") ?? c.zone}
+                          </p>
+                        </div>
+                        <div className="flex flex-col items-end gap-1">
+                          <Badge className={`${severityColor(c.severity)} border-0`}>
+                            {c.severity.charAt(0).toUpperCase() + c.severity.slice(1)}
+                          </Badge>
+                          <span className="text-xs font-semibold text-emerald-700">
+                            {confidencePercent(c.confidence)} confidence
                           </span>
-                        ))}
+                        </div>
                       </div>
-                    )}
-                  </CardContent>
-                </Card>
-              ))}
+                      {c.features && c.features.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 pt-1">
+                          {c.features.map((f, j) => (
+                            <span
+                              key={j}
+                              className="text-xs bg-stone-100 text-stone-600 px-2 py-0.5 rounded-md"
+                            >
+                              {f}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      <Button
+                        variant="ghost"
+                        className="w-full text-emerald-700 hover:bg-emerald-50 text-sm justify-between"
+                        onClick={() => router.push(href)}
+                      >
+                        Learn more about {c.name.toLowerCase()}
+                        <ExternalLink className="w-4 h-4" />
+                      </Button>
+                    </CardContent>
+                  </Card>
+                );
+              })}
             </div>
           )}
         </section>
 
-        {/* Skin Zones */}
-        {zones.length > 0 && (
-          <section>
-            <h2 className="text-sm font-semibold text-stone-900 uppercase tracking-wider mb-3">
-              Skin Zones
-            </h2>
-            <div className="grid gap-3 sm:grid-cols-2">
-              {zones.map((z: V1SkinZone, i: number) => (
-                <Card key={`${z.zone}-${i}`} className="border-stone-200">
-                  <CardContent className="p-4">
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="text-sm font-semibold text-stone-900 capitalize">
-                        {z.zone.replace(/-/g, " ")}
-                      </span>
-                      <span
-                        className={`text-xs font-semibold px-2 py-0.5 rounded-full ${severityColor(
-                          z.severity,
-                        )}`}
-                      >
-                        {z.severity.charAt(0).toUpperCase() +
-                          z.severity.slice(1)}
-                      </span>
-                    </div>
-                    <p className="text-xs text-stone-600 mb-1">
-                      {z.primary_concern}
-                    </p>
-                    <p className="text-xs text-stone-500">{z.description}</p>
-                    <div className="mt-2 flex items-center gap-1">
-                      <span className="text-xs text-stone-400">
-                        Confidence:
-                      </span>
-                      <span className="text-xs font-medium text-emerald-700">
-                        {confidencePercent(z.confidence)}
-                      </span>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Recommendations Section */}
+        {/* Recommendations */}
         <section>
           <h2 className="text-sm font-semibold text-stone-900 uppercase tracking-wider mb-3">
             Recommended for You
@@ -661,9 +474,6 @@ export default function ScanResultsPage() {
               <p className="text-sm text-stone-600 font-medium">
                 Finding products for your skin...
               </p>
-              <p className="text-xs text-stone-400 mt-1">
-                Analyzing ingredients that address your conditions
-              </p>
             </div>
           )}
 
@@ -671,123 +481,98 @@ export default function ScanResultsPage() {
             <Alert variant="destructive" className="mb-3">
               <AlertCircle className="h-4 w-4" />
               <AlertTitle>Could not load recommendations</AlertTitle>
-              <AlertDescription className="text-xs">
-                {recError}
-              </AlertDescription>
+              <AlertDescription className="text-xs">{recError}</AlertDescription>
             </Alert>
           )}
 
-          {!recLoading &&
-            !recError &&
-            recFetched &&
-            recommendations.length === 0 && (
-              <div className="text-center py-8">
-                <p className="text-sm text-stone-500 mb-3">
-                  No personalized recommendations found for your detected
-                  conditions.
-                </p>
-                <Button
-                  variant="outline"
-                  onClick={() => router.push("/products")}
-                  className="rounded-xl border-stone-300 text-sm"
-                >
-                  <ShoppingBag className="w-4 h-4 mr-2" />
-                  Browse All Products
-                </Button>
-              </div>
-            )}
+          {!recLoading && !recError && recFetched && recommendations.length === 0 && (
+            <div className="text-center py-8">
+              <p className="text-sm text-stone-500 mb-3">
+                No personalized recommendations found for your detected conditions.
+              </p>
+              <Button
+                variant="outline"
+                onClick={() => router.push("/products")}
+                className="rounded-xl border-stone-300 text-sm"
+              >
+                <ShoppingBag className="w-4 h-4 mr-2" />
+                Browse All Products
+              </Button>
+            </div>
+          )}
 
           {!recLoading && recommendations.length > 0 && (
             <div className="space-y-3">
               {recommendations.map((rec: RecommendationResult) => (
                 <RecommendationCard key={rec.product_id} recommendation={rec} />
               ))}
-              <Button
-                variant="outline"
-                onClick={() => router.push("/products")}
-                className="w-full mt-4 py-4 text-sm font-medium rounded-2xl border-stone-300 hover:bg-stone-50"
-              >
-                <ShoppingBag className="w-4 h-4 mr-2" />
-                View All Products
-              </Button>
             </div>
           )}
         </section>
 
-        {/* Safety Flags */}
-        {(data.conditions ?? []).some((c) => c.severity === "severe") && (
-          <Alert className="bg-red-50 border-red-200">
-            <AlertCircle className="h-4 w-4 text-red-600" />
-            <AlertTitle className="text-red-800 text-sm">
-              Severe Condition Detected
-            </AlertTitle>
-            <AlertDescription className="text-red-700 text-xs">
-              One or more severe conditions were detected. We strongly recommend
-              consulting a board-certified dermatologist for professional
-              evaluation and treatment.
+        {/* Clinical Escalation Prompt */}
+        {providerReferralEligible(data) && (
+          <ClinicalReviewPrompt
+            scanId={data.scan_id ?? ""}
+            findings={conditions.map(
+              (c: V1DetectedCondition): FlaggedFinding => ({
+                condition_id: c.condition_id,
+                name: c.name,
+                severity: c.severity,
+                confidence: c.confidence,
+                zone: c.zone,
+                features: c.features ?? [],
+              }),
+            )}
+          />
+        )}
+
+        {/* Safety flags */}
+        {conditions.some((c) => c.severity === "severe") && (
+          <Alert className="bg-[#FDE8EB] border-[#E74C5E]/30">
+            <AlertCircle className="h-4 w-4 text-[#C41D3A]" />
+            <AlertTitle className="text-[#C41D3A] text-sm">Severe Condition Detected</AlertTitle>
+            <AlertDescription className="text-[#C41D3A]/80 text-xs">
+              One or more severe conditions were detected. We strongly recommend consulting a
+              board-certified dermatologist for professional evaluation and treatment.
             </AlertDescription>
           </Alert>
         )}
 
-        {/* Pregnancy Warning */}
-        {recommendations.some((r) => !r.pregnancy_safe) && (
-          <Alert className="bg-amber-50 border-amber-200">
-            <AlertCircle className="h-4 w-4 text-amber-600" />
-            <AlertTitle className="text-amber-800 text-sm">
-              Pregnancy Safety Notice
-            </AlertTitle>
-            <AlertDescription className="text-amber-700 text-xs">
-              Some recommended products contain ingredients that may not be safe
-              during pregnancy. Products marked{" "}
-              <span className="font-semibold">&quot;Pregnancy Safe&quot;</span>{" "}
-              are filtered for pregnancy compatibility. Always consult your
-              healthcare provider.
-            </AlertDescription>
-          </Alert>
-        )}
-
-        {/* Disclaimer */}
-        <Alert className="bg-amber-50 border-amber-200">
-          <AlertCircle className="h-4 w-4 text-amber-600" />
-          <AlertTitle className="text-amber-800 text-sm">
-            Medical Disclaimer
-          </AlertTitle>
-          <AlertDescription className="text-amber-700 text-xs">
-            This analysis is for informational purposes only and does not
-            constitute a medical diagnosis. If you have concerns about your skin
-            health, please consult a board-certified dermatologist.
+        <Alert className="bg-[#FFF5E6] border-[#F5A623]/30">
+          <AlertCircle className="h-4 w-4 text-[#B87A1A]" />
+          <AlertTitle className="text-[#B87A1A] text-sm">Medical Disclaimer</AlertTitle>
+          <AlertDescription className="text-[#B87A1A]/80 text-xs">
+            This analysis is for informational purposes only and does not constitute a medical
+            diagnosis. If you have concerns about your skin health, please consult a
+            board-certified dermatologist.
           </AlertDescription>
         </Alert>
       </main>
 
       {/* Footer CTAs */}
-      <footer className="px-6 pb-8 pt-4 bg-white border-t border-stone-100 space-y-3">
-        {/* Pro CTA */}
-        <div className="rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-4 text-center">
-          <div className="flex items-center justify-center gap-1.5 mb-1">
-            <Sparkles className="w-4 h-4 text-emerald-700" />
-            <span className="text-sm font-semibold text-emerald-800">
-              Get Full Analysis
-            </span>
+      <footer className="px-6 pb-24 pt-4 bg-white border-t border-stone-100 space-y-3">
+        {providerReferralEligible(data) && (
+          <div className="rounded-2xl border-2 border-[#E74C5E]/30 bg-[#FDE8EB] p-4 text-center">
+            <div className="flex items-center justify-center gap-1.5 mb-1">
+              <Stethoscope className="w-4 h-4 text-[#C41D3A]" />
+              <span className="text-sm font-semibold text-[#C41D3A]">Book with a Pro</span>
+            </div>
+            <p className="text-xs text-[#C41D3A]/80 mb-3">
+              Connect with a board-certified dermatologist for a personalized treatment plan.
+            </p>
+            <Button className="py-3 text-sm font-semibold rounded-xl bg-[#E74C5E] hover:bg-[#C41D3A] text-white w-full">
+              Find a Dermatologist
+            </Button>
           </div>
-          <p className="text-xs text-emerald-600 mb-3">
-            Unlock ingredient deep-dives, routine recommendations, and
-            dermatologist-reviewed protocols
-          </p>
-          <Button
-            className="py-3 text-sm font-semibold rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white w-full"
-            onClick={() => router.push("/products")}
-          >
-            Upgrade to Pro
-          </Button>
-        </div>
+        )}
 
         <Button
           onClick={() => router.push("/products")}
           className="w-full py-6 text-base font-semibold rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white shadow-lg shadow-emerald-900/10 flex items-center justify-center gap-2"
         >
           <ShoppingBag className="w-5 h-5" />
-          Browse Products
+          View Product Recommendations
           <ChevronRight className="w-4 h-4" />
         </Button>
 
@@ -799,6 +584,18 @@ export default function ScanResultsPage() {
           <RotateCcw className="w-4 h-4" />
           Scan Again
         </Button>
+
+        {/* Ad placeholder — free tier */}
+        {data.tier === "free" && (
+          <div className="rounded-2xl border-2 border-dashed border-stone-300 bg-stone-50 p-6 text-center">
+            <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-1">
+              Advertisement
+            </p>
+            <p className="text-sm text-stone-600">
+              Free-tier interstitial ad slot — placeholder for ad network integration.
+            </p>
+          </div>
+        )}
 
         <div className="flex items-center justify-center gap-1 text-xs text-stone-400">
           <Shield className="w-3 h-3" />

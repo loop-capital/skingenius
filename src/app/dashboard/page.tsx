@@ -9,6 +9,7 @@ import {
   Calendar,
   ShieldCheck,
   AlertTriangle,
+  Stethoscope,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -16,6 +17,9 @@ import { ConditionsGrid } from "@/components/scan/ConditionsGrid";
 import { SkinZoneMap } from "@/components/scan/SkinZoneMap";
 import { RootCauseCard } from "@/components/scan/RootCauseCard";
 import { RecommendationCard } from "@/components/scan/RecommendationCard";
+import { ProPaywall } from "@/components/subscription/ProPaywall";
+import { useSubscription } from "@/hooks/use-subscription";
+import { maxConditions, canScan } from "@/lib/subscription";
 import type { V1DetectedCondition, V1SkinZone } from "@/types/api";
 import type { RecommendationResult } from "@/lib/recommendations/types";
 import { cn } from "@/lib/utils";
@@ -245,6 +249,10 @@ export default function DashboardPage(): React.ReactElement {
   const [shareState, setShareState] = useState<
     "idle" | "sharing" | "shared"
   >("idle");
+  const [paywallOpen, setPaywallOpen] = useState(false);
+  const [paywallTrigger, setPaywallTrigger] = useState<string>("");
+  const [scansThisMonth, setScansThisMonth] = useState(4); // mock: free user at limit
+  const subscription = useSubscription();
 
   const handleShare = useCallback(() => {
     setShareState("sharing");
@@ -254,12 +262,40 @@ export default function DashboardPage(): React.ReactElement {
   }, []);
 
   const handleRescan = useCallback(() => {
+    if (!canScan(subscription.tier, scansThisMonth)) {
+      setPaywallTrigger("Unlimited scans");
+      setPaywallOpen(true);
+      return;
+    }
     router.push("/scan");
-  }, [router]);
+  }, [router, subscription.tier, scansThisMonth]);
+
+  const handleViewFullAnalysis = useCallback(() => {
+    if (!subscription.isPro) {
+      setPaywallTrigger("Full analysis report");
+      setPaywallOpen(true);
+      return;
+    }
+    router.push("/dashboard/full-analysis");
+  }, [router, subscription.isPro]);
+
+  const handleBookWithPro = useCallback(() => {
+    if (!subscription.isPro) {
+      setPaywallTrigger("Provider referrals");
+      setPaywallOpen(true);
+      return;
+    }
+    router.push("/provider");
+  }, [router, subscription.isPro]);
+
+  const visibleConditions = useMemo(() => {
+    const limit = maxConditions(subscription.tier);
+    return MOCK_CONDITIONS.slice(0, limit);
+  }, [subscription.tier]);
 
   const urgentConditions = useMemo(
-    () => MOCK_CONDITIONS.filter((c) => c.severity === "severe"),
-    []
+    () => visibleConditions.filter((c) => c.severity === "severe"),
+    [visibleConditions]
   );
 
   return (
@@ -327,6 +363,15 @@ export default function DashboardPage(): React.ReactElement {
 
                 <Button
                   size="sm"
+                  onClick={handleBookWithPro}
+                  className="gap-1.5 bg-white text-emerald-700 border border-emerald-200 hover:bg-emerald-50"
+                >
+                  <Stethoscope className="h-3.5 w-3.5" />
+                  Book with a Pro
+                </Button>
+
+                <Button
+                  size="sm"
                   onClick={handleRescan}
                   className="gap-1.5 bg-emerald-600 text-white hover:bg-emerald-700"
                 >
@@ -359,7 +404,7 @@ export default function DashboardPage(): React.ReactElement {
           {/* Section: Conditions + Zone Map */}
           <section className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             <div className="lg:col-span-2">
-              <ConditionsGrid conditions={MOCK_CONDITIONS} />
+              <ConditionsGrid conditions={visibleConditions} />
             </div>
             <div className="lg:col-span-1">
               <SkinZoneMap zones={MOCK_ZONES} className="h-full" />
@@ -413,8 +458,50 @@ export default function DashboardPage(): React.ReactElement {
               ))}
             </div>
           </section>
+          {/* Section: Full Analysis — Pro gated */}
+          <section className="space-y-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <h2 className="text-lg font-semibold text-stone-800">
+                  Full Analysis
+                </h2>
+                <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-medium text-stone-500">
+                  Pro
+                </span>
+              </div>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-emerald-700"
+                onClick={handleViewFullAnalysis}
+              >
+                View Full Analysis
+                <ChevronRight className="ml-0.5 h-3.5 w-3.5" />
+              </Button>
+            </div>
+            {!subscription.isPro && (
+              <div
+                onClick={handleViewFullAnalysis}
+                className="cursor-pointer rounded-xl border border-dashed border-stone-300 bg-stone-50 p-6 text-center hover:bg-stone-100"
+              >
+                <p className="text-sm font-medium text-stone-700">
+                  Full analysis report is available with Pro.
+                </p>
+                <p className="mt-1 text-xs text-stone-500">
+                  Upgrade to see detailed root-cause breakdowns and personalized
+                  regimen steps.
+                </p>
+              </div>
+            )}
+          </section>
         </div>
       </main>
+
+      <ProPaywall
+        open={paywallOpen}
+        onOpenChange={setPaywallOpen}
+        trigger={paywallTrigger}
+      />
     </div>
   );
 }

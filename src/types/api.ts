@@ -189,19 +189,27 @@ export interface ApiRoot {
 
 // ─── V1 Scan Endpoint Types ───────────────────────────────────
 
+export type UserTier = "free" | "pro" | "pro_plus";
+export type ScanType = "skin_health" | "aesthetics" | "both";
+
 export interface V1ScanRequest {
   image: string; // base64 JPEG/PNG
-  capture_method: "camera" | "gallery";
-  skin_tone: 1 | 2 | 3 | 4 | 5 | 6;
+  user_tier?: UserTier;
+  scan_type?: ScanType;
+  user_id?: string;
+  capture_method?: "camera" | "gallery";
+  skin_tone?: 1 | 2 | 3 | 4 | 5 | 6;
 }
 
 export interface V1DetectedCondition {
-  condition_id: string;
+  id?: string;
+  condition_id?: string;
   name: string;
   confidence: number; // 0–1
   severity: "mild" | "moderate" | "severe";
-  features: string[];
-  zone: string;
+  features?: string[];
+  affected_areas?: string[];
+  zone?: string;
 }
 
 export interface V1SkinZone {
@@ -237,13 +245,46 @@ export interface V1ScanMetadata {
   };
 }
 
+export interface V1Recommendation {
+  type: "ingredient" | "routine" | "lifestyle";
+  name: string;
+  evidence_level: "A" | "B" | "C" | "D";
+  concentration?: string;
+  reasoning?: string;
+}
+
+export interface V1ProductRecommendation {
+  product_id: string;
+  name: string;
+  brand?: string;
+  category?: string;
+  match_score: number;
+  price?: string;
+  reasoning?: string;
+}
+
 export interface V1ScanResponseData {
   scan_id: string | null;
-  timestamp: string;
-  quality_assessment: V1QualityAssessment;
+  tier?: UserTier;
+  model?: string;
+  processing_time_ms?: number;
+  timestamp?: string;
+  quality_assessment?: V1QualityAssessment;
   conditions: V1DetectedCondition[];
-  skin_zones: V1SkinZone[];
-  metadata: V1ScanMetadata;
+  skin_zones?: V1SkinZone[];
+  overall_score?: number;
+  primary_concern?: string;
+  urgent_flag?: boolean;
+  fitzpatrick_type?: string;
+  recommendations?: V1Recommendation[];
+  product_recommendations?: V1ProductRecommendation[];
+  scan_count_this_month?: number;
+  scans_remaining?: number;
+  provider_referral_eligible?: boolean;
+  nearby_providers?: unknown[];
+  wellness_insights?: string[];
+  scan_history_comparison?: unknown;
+  metadata?: V1ScanMetadata;
 }
 
 export interface V1ScanResponse {

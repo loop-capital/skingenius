@@ -22,11 +22,14 @@
 
 | #   | Status | Task                                           | Owner | ETA      | Notes                           |
 | --- | ------ | ---------------------------------------------- | ----- | -------- | ------------------------------- |
-| 1   | [ ]    | Write AI pipeline architecture spec document   | Nova  | Mon      | 4TH CARRY (Sprint 10→11→12)     |
-| 2   | [ ]    | Write condition-ingredient mapping table       | Nova  | Wed      | Research-backed Markdown table  |
-| 3   | [ ]    | Write scan API contract (JSON schema)          | Nova  | Fri      | Based on #1                     |
-| 4   | [ ]    | Audit Vercel build errors — diagnosis doc only | Nova  | Next Mon | No code changes                 |
-| 5   | [ ]    | Review Jul 19 git drift — assess mergeability  | Nova  | Next Tue | 640K insertions, 12+ days stale |
+| 1   | [x]    | Write referral system spec (state machine, payments, calendar) | Nova  | Sep 14   | DONE — specs/REFERRAL-SYSTEM-SPEC.md |
+| 2   | [x]    | Write referral UX spec (consumer + provider flows) | Nova  | Sep 14   | DONE — specs/REFERRAL-UX-SPEC.md |
+| 3   | [ ]    | Write AI pipeline architecture spec document   | Nova  | Mon      | 4TH CARRY (Sprint 10→11→12)     |
+| 4   | [x]    | Build condition-ingredient mapping table       | Research | Sep 14   | DONE — docs/CONDITION-INGREDIENT-MAPPING.md |
+| 5   | [x]    | Write vision model architecture spec           | Nova  | Sep 14   | DONE — specs/VISION-MODEL-ARCHITECTURE.md |
+| 6   | [ ]    | Implement on-device scan model (Free tier)     | Dev   | Sep 21   | TensorFlow Lite, 5 conditions |
+| 6   | [ ]    | Audit Vercel build errors — diagnosis doc only | Nova  | Next Mon | No code changes                 |
+| 7   | [ ]    | Review Jul 19 git drift — assess mergeability  | Nova  | Next Tue | 640K insertions, 12+ days stale |
 
 ### Tier 2: Requires Jason (BLOCKED — 45+ days)
 
