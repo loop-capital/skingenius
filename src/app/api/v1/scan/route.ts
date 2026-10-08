@@ -28,6 +28,7 @@ import {
   ScanType,
 } from "@/types/api";
 import { buildMockOnDeviceResponse } from "@/lib/scan/mockOnDeviceResponse";
+import { analyzeImageWithVision } from "@/lib/scan/cloudVision";
 
 // ─── Constants ────────────────────────────────────────────────
 
@@ -190,13 +191,13 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     );
   }
 
-  // ── 6. Run mock on-device analysis ──────────────────────────
-  // For the MVP we mock the model response. Pro/Pro+ will later call the
-  // cloud vision model; for now they get the same deterministic mock.
-  const mockResult = buildMockOnDeviceResponse(
-    4,
-    resolvedScanType
-  );
+  // ── 6. Run analysis ─────────────────────────────────────────
+  // Free tier: deterministic on-device mock (TFLite model later).
+  // Pro/Pro+: GPT-4o Vision via cloudVision.ts (falls back to mock).
+  const mockResult =
+    tier === "free"
+      ? buildMockOnDeviceResponse(4, resolvedScanType)
+      : await analyzeImageWithVision(image ?? "", resolvedScanType, 4);
 
   const scanId = crypto.randomUUID();
 
@@ -204,7 +205,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   const responseData: V1ScanResponseData = {
     scan_id: scanId,
     tier,
-    model: tier === "free" ? "on-device" : "gemini-1.5-pro",
+    model: tier === "free" ? "on-device" : "gpt-4o",
     processing_time_ms: Math.round(performance.now() - startTime),
     timestamp: new Date().toISOString(),
     conditions: mockResult.conditions,
@@ -229,7 +230,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       capture_method: "unknown",
       skin_tone: 4,
       processed: true,
-      model_version: tier === "free" ? "v1-ondevice-mock" : "v1-gemini-mock",
+      model_version: tier === "free" ? "v1-ondevice-mock" : "v1-gpt4o-vision",
     },
   };
 
