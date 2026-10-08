@@ -25,6 +25,7 @@ import {
   ConditionWithConfidence,
   UserProfile,
 } from "@/lib/recommendations/types";
+import { buildAffiliateLink } from "@/lib/affiliate";
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
   try {
@@ -117,9 +118,19 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       .sort((a, b) => b.fit_score - a.fit_score)
       .slice(0, 10); // Top 10
 
+    // Step 5: Attach affiliate-tagged purchase URLs
+    const taggedRecommendations = recommendations.map((rec) => {
+      const link = buildAffiliateLink({ name: rec.name, brand: rec.brand });
+      return {
+        ...rec,
+        purchase_url: link.url,
+        affiliate_url: link.tagged ? link.url : undefined,
+      };
+    });
+
     return NextResponse.json({
       success: true,
-      data: { recommendations },
+      data: { recommendations: taggedRecommendations },
     });
   } catch (error) {
     console.error("[recommendations] Error generating recommendations:", error);

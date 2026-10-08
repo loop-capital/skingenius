@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
+import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 import { EVIDENCE_CONFIG } from "./scan-config";
 
 interface RecommendationCardProps {
@@ -140,6 +142,22 @@ export function RecommendationCard({
               ))}
             </div>
           )}
+
+        {/* Shop Now CTA */}
+        {(recommendation.affiliate_url || recommendation.purchase_url) && (
+          <div className="pt-2">
+            <Button asChild className="w-full" size="sm">
+              <a
+                href={recommendation.affiliate_url || recommendation.purchase_url}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+              >
+                Shop Now
+                <ExternalLink className="ml-1.5 h-3.5 w-3.5" />
+              </a>
+            </Button>
+          </div>
+        )}
       </CardContent>
 
       {/* Contraindications footer */}

@@ -24,6 +24,9 @@ export interface Product {
   id: string;
   name: string;
   brand: string;
+  purchase_url?: string;
+  affiliate_url?: string;
+  asin?: string;
   price_tier: string; // $, $$, $$$, etc.
   category: string; // cleanser, moisturizer, treatment, etc.
   ingredients: Array<{
@@ -41,6 +44,8 @@ export interface RecommendationResult {
   product_id: string;
   name: string;
   brand: string;
+  purchase_url?: string;
+  affiliate_url?: string;
   fit_score: number; // 0-100
   evidence_level: "A" | "B" | "C" | "D";
   pregnancy_safe: boolean;
