@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const GETUPLOOK_URL =
   process.env.GETUPLOOK_SUPABASE_URL ||
-  "https://prowvkbxcdhtoiidxowb.supabase.co";
+  process.env.NEXT_PUBLIC_SUPABASE_URL || "";
 
 export async function GET(_req: NextRequest, { params }: { params: Promise<{ user_id: string }> }) {
   try {
