@@ -21,6 +21,7 @@ import {
   applyFilters,
 } from "@/lib/recommendations/queryEngine";
 import { calculateFitScore } from "@/lib/recommendations/fitScore";
+import { calculateRegimeFitScore } from "@/lib/recommendations/regimeFitScore";
 import {
   ConditionWithConfidence,
   UserProfile,
@@ -106,14 +107,28 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
     // ── Step 4: Calculate fit scores and rank ─────────────────────
     const recommendations = products
-      .map((product) =>
-        calculateFitScore(
+      .map((product) => {
+        const base = calculateFitScore(
           product,
           conditions,
           userProfile,
           enrichedIngredients,
-        ),
-      )
+        );
+        // Overlay Fitzpatrick-aware regime fit (allergy hard-zero, fit_reason)
+        const regimeFit = calculateRegimeFitScore({
+          product,
+          userProfile,
+          conditions,
+        });
+        return {
+          ...base,
+          // Regime score wins when it excludes (allergy) or when it has
+          // stronger signal; otherwise keep the ingredient-based score
+          fit_score: regimeFit.excluded ? 0 : Math.max(base.fit_score, regimeFit.fit_score),
+          fit_reason: regimeFit.fit_reason,
+          excluded: regimeFit.excluded,
+        };
+      })
       .sort((a, b) => b.fit_score - a.fit_score)
       .slice(0, 10); // Top 10
 

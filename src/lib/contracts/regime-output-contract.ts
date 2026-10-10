@@ -41,6 +41,10 @@ export interface RegimeProduct {
   name: string;
   brand: string;
   category: string;
+  /** Personalized fit score 0-100: how well this product matches THIS user's skin profile */
+  fit_score: number;
+  /** One-line human-readable reason, e.g. "High fit: targets hyperpigmentation, safe for Fitzpatrick V" */
+  fit_reason: string;
   /** Why this product for this user */
   reasoning: string;
   key_actives: Array<{ ingredient: string; concentration?: string }>;

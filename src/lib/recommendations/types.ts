@@ -42,6 +42,8 @@ export interface RecommendationResult {
   name: string;
   brand: string;
   fit_score: number; // 0-100
+  fit_reason?: string; // one-line human-readable, e.g. "High fit: targets hyperpigmentation, safe for Fitzpatrick V"
+  excluded?: boolean; // true when hard-gated (e.g. allergy)
   evidence_level: "A" | "B" | "C" | "D";
   pregnancy_safe: boolean;
   reasoning: string;
